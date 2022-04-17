@@ -1,0 +1,21 @@
+{
+  "name": "private-repos-activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Rishabh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/auth-token": "^2.5.0",
+    "@octokit/rest": "^18.12.0",
+    "dotenv": "^16.0.0",
+    "json2md": "^1.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

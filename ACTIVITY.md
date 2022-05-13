@@ -34,6 +34,60 @@
  29. [5f7..eeb] Build: (ec35ecd) package: rename | By - rupansh | On - 2021-11-02T12:39:58Z
  30. [9f1..8a4] Build: (c5b30a5) restore yarn.lock | By - rupansh | On - 2021-11-02T12:23:17Z
 
+## block-listener
+
+
+ 1. [755..7fb] Listen for each block | By - imsk17 | On - 2022-05-13T08:52:15Z
+ 2. [f5c..518] nft-list: evm: properly commit changes to db for vechain | By - rupansh | On - 2022-05-12T09:23:45Z
+ 3. [cbc..3a1] listener: adapt for vechain | By - imsk17 | On - 2022-05-11T12:36:10Z
+ 4. [ebc..564] tron: add a check to live listener to avoid unfinalized blocks | By - imsk17 | On - 2022-05-08T10:32:52Z
+ 5. [a9b..6e5] iotex: add a contract to the list | By - imsk17 | On - 2022-05-08T10:32:51Z
+ 6. [30b..986] fix hardcoded testnet VeChain | By - Dima Brook | On - 2022-05-03T18:06:13Z
+ 7. [270..ace] fix type error | By - Dima Brook | On - 2022-05-03T16:14:58Z
+ 8. [f96..2f5] Merge pull request #3 from XP-NETWORK/vechain | By - Dima Brook | On - 2022-05-03T10:20:30Z
+ 9. [c16..1bb] Merge branch 'master' into vechain | By - Dima Brook | On - 2022-05-03T10:19:31Z
+ 10. [4ec..1d2] algorand: nft-list-service: gracefully handle 404 error | By - rupansh | On - 2022-05-03T09:49:09Z
+ 11. [95e..86f] velas: use web3 repo instead of velas api | By - imsk17 | On - 2022-05-01T12:23:37Z
+ 12. [19c..01c] Merge vech to master | By - Sumit Kumar | On - 2022-04-18T11:59:48Z
+ 13. [a97..139] Use Moralis for Some EVM Chains | By - imsk17 | On - 2022-04-18T11:58:56Z
+ 14. [2cd..3ab] Merge Vechain | By - Sumit Kumar | On - 2022-04-14T12:12:41Z
+ 15. [387..5b2] web3: chains: add support for vechain | By - imsk17 | On - 2022-04-12T12:44:35Z
+ 16. [951..2f3] web3: providers: use WebsocketProvider if provided node is ws | By - imsk17 | On - 2022-04-11T11:19:58Z
+ 17. [1cb..990] web3: activate index only for chains that are provided | By - imsk17 | On - 2022-04-11T11:05:22Z
+ 18. [7d8..9ab] gatechain added to nft-index | By - YuraDXPNetwork | On - 2022-04-05T14:20:54Z
+ 19. [4b2..a20] fix nft listing for algorand | By - rupansh | On - 2022-04-05T13:12:36Z
+ 20. [28b..935] update yarn lock | By - imsk17 | On - 2022-03-30T11:46:40Z
+ 21. [cba..c64] indexer: add godwoken to web3 chains | By - imsk17 | On - 2022-03-29T12:43:38Z
+ 22. [82f..546] vechain: setup listener | By - imsk17 | On - 2022-03-24T18:06:02Z
+ 23. [0fb..8e1] eth-catchup: adapt for @vechain/ethers | By - imsk17 | On - 2022-03-24T12:26:07Z
+ 24. [9f4..9e0] formatting: add pre commit hook | By - imsk17 | On - 2022-03-20T09:47:28Z
+ 25. [40c..5be] tezos: mapper: fix mapper | By - imsk17 | On - 2022-03-16T19:01:26Z
+ 26. [6b2..230] chains: Vethers Setup | By - imsk17 | On - 2022-03-03T12:58:44Z
+ 27. [ddf..5d3] helpers: nftList: fix setting of Retry-After header | By - rupansh | On - 2022-03-01T13:54:18Z
+ 28. [70b..5a8] added harmony to consts | By - VKint | On - 2022-02-27T10:34:07Z
+ 29. [27d..45c] use subgraph for eth | By - rupansh | On - 2022-02-24T23:47:48Z
+ 30. [675..75b] nft-list: eth: add subgraph for eth nft | By - rupansh | On - 2022-02-24T23:47:48Z
+ 31. [a45..bee] chains: include harmony | By - imsk17 | On - 2022-02-16T12:17:30Z
+ 32. [88b..a93] nft-list: evm: ignore ERC1155_URI support | By - rupansh | On - 2022-02-16T11:21:07Z
+ 33. [1ec..133] nft-list: add collectionIdent to NftInfo | By - imsk17 | On - 2022-02-15T12:28:00Z
+ 34. [752..951] chains: web3: add aurora chain | By - imsk17 | On - 2022-02-10T13:39:49Z
+ 35. [a2b..e05] nft-listening: move from pool to dedicated workers | By - imsk17 | On - 2022-02-02T09:54:03Z
+ 36. [5fe..539] chains: iotex: use catchup and listening | By - imsk17 | On - 2022-02-01T11:31:45Z
+ 37. [17a..0dd] chains: add support for iotex | By - imsk17 | On - 2022-01-31T14:16:34Z
+ 38. [2a4..e28] project: lint: fix eslint | By - imsk17 | On - 2022-01-27T11:03:44Z
+ 39. [308..798] tezos: AssetMapper: add exception for wrapped nft | By - rupansh | On - 2022-01-25T10:19:51Z
+ 40. [6fb..a25] tezos: AssetMapper: use formats if decimals are not available | By - rupansh | On - 2022-01-25T09:43:39Z
+ 41. [21f..c1f] velas: properly serialize nft | By - rupansh | On - 2022-01-24T08:15:14Z
+ 42. [ca1..538] velas: use explorer api to fetch nfts | By - rupansh | On - 2022-01-24T08:09:12Z
+ 43. [3d4..bdd] tezos: AssetMapper: use decimals instead of format to check for nft | By - rupansh | On - 2022-01-24T08:08:58Z
+ 44. [89f..06f] nft-list: tezos: assetMapper: check balance | By - rupansh | On - 2022-01-21T12:09:11Z
+ 45. [a7c..1d2] nft-list: sanitize addresses before comitting | By - rupansh | On - 2022-01-21T10:11:02Z
+ 46. [8cb..2cb] nft-list: preacache: parameterize cache expiry | By - rupansh | On - 2022-01-20T13:04:59Z
+ 47. [64d..93f] nft-list: preacache: invalidate cache after a day | By - rupansh | On - 2022-01-20T13:03:33Z
+ 48. [9d5..d8b] nft-list: fix insane usage of Sets and Maps | By - rupansh | On - 2022-01-20T12:06:27Z
+ 49. [aa6..4a4] nft-list: velas-explorer: ignore token if not owned | By - rupansh | On - 2022-01-20T11:15:17Z
+ 50. [46f..d00] update .env.example | By - rupansh | On - 2022-01-20T10:52:32Z
+
 ## external
 
 
@@ -145,56 +199,56 @@
 ## master
 
 
- 1. [30b..986] fix hardcoded testnet VeChain | By - Dima Brook | On - 2022-05-03T18:06:13Z
- 2. [270..ace] fix type error | By - Dima Brook | On - 2022-05-03T16:14:58Z
- 3. [f96..2f5] Merge pull request #3 from XP-NETWORK/vechain | By - Dima Brook | On - 2022-05-03T10:20:30Z
- 4. [c16..1bb] Merge branch 'master' into vechain | By - Dima Brook | On - 2022-05-03T10:19:31Z
- 5. [4ec..1d2] algorand: nft-list-service: gracefully handle 404 error | By - rupansh | On - 2022-05-03T09:49:09Z
- 6. [95e..86f] velas: use web3 repo instead of velas api | By - imsk17 | On - 2022-05-01T12:23:37Z
- 7. [19c..01c] Merge vech to master | By - Sumit Kumar | On - 2022-04-18T11:59:48Z
- 8. [a97..139] Use Moralis for Some EVM Chains | By - imsk17 | On - 2022-04-18T11:58:56Z
- 9. [2cd..3ab] Merge Vechain | By - Sumit Kumar | On - 2022-04-14T12:12:41Z
- 10. [387..5b2] web3: chains: add support for vechain | By - imsk17 | On - 2022-04-12T12:44:35Z
- 11. [951..2f3] web3: providers: use WebsocketProvider if provided node is ws | By - imsk17 | On - 2022-04-11T11:19:58Z
- 12. [1cb..990] web3: activate index only for chains that are provided | By - imsk17 | On - 2022-04-11T11:05:22Z
- 13. [7d8..9ab] gatechain added to nft-index | By - YuraDXPNetwork | On - 2022-04-05T14:20:54Z
- 14. [4b2..a20] fix nft listing for algorand | By - rupansh | On - 2022-04-05T13:12:36Z
- 15. [28b..935] update yarn lock | By - imsk17 | On - 2022-03-30T11:46:40Z
- 16. [cba..c64] indexer: add godwoken to web3 chains | By - imsk17 | On - 2022-03-29T12:43:38Z
- 17. [82f..546] vechain: setup listener | By - imsk17 | On - 2022-03-24T18:06:02Z
- 18. [0fb..8e1] eth-catchup: adapt for @vechain/ethers | By - imsk17 | On - 2022-03-24T12:26:07Z
- 19. [9f4..9e0] formatting: add pre commit hook | By - imsk17 | On - 2022-03-20T09:47:28Z
- 20. [40c..5be] tezos: mapper: fix mapper | By - imsk17 | On - 2022-03-16T19:01:26Z
- 21. [6b2..230] chains: Vethers Setup | By - imsk17 | On - 2022-03-03T12:58:44Z
- 22. [ddf..5d3] helpers: nftList: fix setting of Retry-After header | By - rupansh | On - 2022-03-01T13:54:18Z
- 23. [70b..5a8] added harmony to consts | By - VKint | On - 2022-02-27T10:34:07Z
- 24. [27d..45c] use subgraph for eth | By - rupansh | On - 2022-02-24T23:47:48Z
- 25. [675..75b] nft-list: eth: add subgraph for eth nft | By - rupansh | On - 2022-02-24T23:47:48Z
- 26. [a45..bee] chains: include harmony | By - imsk17 | On - 2022-02-16T12:17:30Z
- 27. [88b..a93] nft-list: evm: ignore ERC1155_URI support | By - rupansh | On - 2022-02-16T11:21:07Z
- 28. [1ec..133] nft-list: add collectionIdent to NftInfo | By - imsk17 | On - 2022-02-15T12:28:00Z
- 29. [752..951] chains: web3: add aurora chain | By - imsk17 | On - 2022-02-10T13:39:49Z
- 30. [a2b..e05] nft-listening: move from pool to dedicated workers | By - imsk17 | On - 2022-02-02T09:54:03Z
- 31. [5fe..539] chains: iotex: use catchup and listening | By - imsk17 | On - 2022-02-01T11:31:45Z
- 32. [17a..0dd] chains: add support for iotex | By - imsk17 | On - 2022-01-31T14:16:34Z
- 33. [2a4..e28] project: lint: fix eslint | By - imsk17 | On - 2022-01-27T11:03:44Z
- 34. [308..798] tezos: AssetMapper: add exception for wrapped nft | By - rupansh | On - 2022-01-25T10:19:51Z
- 35. [6fb..a25] tezos: AssetMapper: use formats if decimals are not available | By - rupansh | On - 2022-01-25T09:43:39Z
- 36. [21f..c1f] velas: properly serialize nft | By - rupansh | On - 2022-01-24T08:15:14Z
- 37. [ca1..538] velas: use explorer api to fetch nfts | By - rupansh | On - 2022-01-24T08:09:12Z
- 38. [3d4..bdd] tezos: AssetMapper: use decimals instead of format to check for nft | By - rupansh | On - 2022-01-24T08:08:58Z
- 39. [89f..06f] nft-list: tezos: assetMapper: check balance | By - rupansh | On - 2022-01-21T12:09:11Z
- 40. [a7c..1d2] nft-list: sanitize addresses before comitting | By - rupansh | On - 2022-01-21T10:11:02Z
- 41. [8cb..2cb] nft-list: preacache: parameterize cache expiry | By - rupansh | On - 2022-01-20T13:04:59Z
- 42. [64d..93f] nft-list: preacache: invalidate cache after a day | By - rupansh | On - 2022-01-20T13:03:33Z
- 43. [9d5..d8b] nft-list: fix insane usage of Sets and Maps | By - rupansh | On - 2022-01-20T12:06:27Z
- 44. [aa6..4a4] nft-list: velas-explorer: ignore token if not owned | By - rupansh | On - 2022-01-20T11:15:17Z
- 45. [46f..d00] update .env.example | By - rupansh | On - 2022-01-20T10:52:32Z
- 46. [554..1cd] lint check | By - rupansh | On - 2022-01-20T10:51:35Z
- 47. [b0f..c25] nft-list: velas-explorer: use token transfers to fetch data | By - rupansh | On - 2022-01-20T10:50:03Z
- 48. [d13..ae6] tezos: TezosAssetMapper: fix derp | By - rupansh | On - 2022-01-19T19:31:55Z
- 49. [67e..398] add eth hacks to tezos | By - rupansh | On - 2022-01-19T19:27:33Z
- 50. [03b..e9b] feat(tezos): refactor to use tzkt api instead of kalamint | By - imsk17 | On - 2022-01-19T14:52:30Z
+ 1. [f5c..518] nft-list: evm: properly commit changes to db for vechain | By - rupansh | On - 2022-05-12T09:23:45Z
+ 2. [cbc..3a1] listener: adapt for vechain | By - imsk17 | On - 2022-05-11T12:36:10Z
+ 3. [ebc..564] tron: add a check to live listener to avoid unfinalized blocks | By - imsk17 | On - 2022-05-08T10:32:52Z
+ 4. [a9b..6e5] iotex: add a contract to the list | By - imsk17 | On - 2022-05-08T10:32:51Z
+ 5. [30b..986] fix hardcoded testnet VeChain | By - Dima Brook | On - 2022-05-03T18:06:13Z
+ 6. [270..ace] fix type error | By - Dima Brook | On - 2022-05-03T16:14:58Z
+ 7. [f96..2f5] Merge pull request #3 from XP-NETWORK/vechain | By - Dima Brook | On - 2022-05-03T10:20:30Z
+ 8. [c16..1bb] Merge branch 'master' into vechain | By - Dima Brook | On - 2022-05-03T10:19:31Z
+ 9. [4ec..1d2] algorand: nft-list-service: gracefully handle 404 error | By - rupansh | On - 2022-05-03T09:49:09Z
+ 10. [95e..86f] velas: use web3 repo instead of velas api | By - imsk17 | On - 2022-05-01T12:23:37Z
+ 11. [19c..01c] Merge vech to master | By - Sumit Kumar | On - 2022-04-18T11:59:48Z
+ 12. [a97..139] Use Moralis for Some EVM Chains | By - imsk17 | On - 2022-04-18T11:58:56Z
+ 13. [2cd..3ab] Merge Vechain | By - Sumit Kumar | On - 2022-04-14T12:12:41Z
+ 14. [387..5b2] web3: chains: add support for vechain | By - imsk17 | On - 2022-04-12T12:44:35Z
+ 15. [951..2f3] web3: providers: use WebsocketProvider if provided node is ws | By - imsk17 | On - 2022-04-11T11:19:58Z
+ 16. [1cb..990] web3: activate index only for chains that are provided | By - imsk17 | On - 2022-04-11T11:05:22Z
+ 17. [7d8..9ab] gatechain added to nft-index | By - YuraDXPNetwork | On - 2022-04-05T14:20:54Z
+ 18. [4b2..a20] fix nft listing for algorand | By - rupansh | On - 2022-04-05T13:12:36Z
+ 19. [28b..935] update yarn lock | By - imsk17 | On - 2022-03-30T11:46:40Z
+ 20. [cba..c64] indexer: add godwoken to web3 chains | By - imsk17 | On - 2022-03-29T12:43:38Z
+ 21. [82f..546] vechain: setup listener | By - imsk17 | On - 2022-03-24T18:06:02Z
+ 22. [0fb..8e1] eth-catchup: adapt for @vechain/ethers | By - imsk17 | On - 2022-03-24T12:26:07Z
+ 23. [9f4..9e0] formatting: add pre commit hook | By - imsk17 | On - 2022-03-20T09:47:28Z
+ 24. [40c..5be] tezos: mapper: fix mapper | By - imsk17 | On - 2022-03-16T19:01:26Z
+ 25. [6b2..230] chains: Vethers Setup | By - imsk17 | On - 2022-03-03T12:58:44Z
+ 26. [ddf..5d3] helpers: nftList: fix setting of Retry-After header | By - rupansh | On - 2022-03-01T13:54:18Z
+ 27. [70b..5a8] added harmony to consts | By - VKint | On - 2022-02-27T10:34:07Z
+ 28. [27d..45c] use subgraph for eth | By - rupansh | On - 2022-02-24T23:47:48Z
+ 29. [675..75b] nft-list: eth: add subgraph for eth nft | By - rupansh | On - 2022-02-24T23:47:48Z
+ 30. [a45..bee] chains: include harmony | By - imsk17 | On - 2022-02-16T12:17:30Z
+ 31. [88b..a93] nft-list: evm: ignore ERC1155_URI support | By - rupansh | On - 2022-02-16T11:21:07Z
+ 32. [1ec..133] nft-list: add collectionIdent to NftInfo | By - imsk17 | On - 2022-02-15T12:28:00Z
+ 33. [752..951] chains: web3: add aurora chain | By - imsk17 | On - 2022-02-10T13:39:49Z
+ 34. [a2b..e05] nft-listening: move from pool to dedicated workers | By - imsk17 | On - 2022-02-02T09:54:03Z
+ 35. [5fe..539] chains: iotex: use catchup and listening | By - imsk17 | On - 2022-02-01T11:31:45Z
+ 36. [17a..0dd] chains: add support for iotex | By - imsk17 | On - 2022-01-31T14:16:34Z
+ 37. [2a4..e28] project: lint: fix eslint | By - imsk17 | On - 2022-01-27T11:03:44Z
+ 38. [308..798] tezos: AssetMapper: add exception for wrapped nft | By - rupansh | On - 2022-01-25T10:19:51Z
+ 39. [6fb..a25] tezos: AssetMapper: use formats if decimals are not available | By - rupansh | On - 2022-01-25T09:43:39Z
+ 40. [21f..c1f] velas: properly serialize nft | By - rupansh | On - 2022-01-24T08:15:14Z
+ 41. [ca1..538] velas: use explorer api to fetch nfts | By - rupansh | On - 2022-01-24T08:09:12Z
+ 42. [3d4..bdd] tezos: AssetMapper: use decimals instead of format to check for nft | By - rupansh | On - 2022-01-24T08:08:58Z
+ 43. [89f..06f] nft-list: tezos: assetMapper: check balance | By - rupansh | On - 2022-01-21T12:09:11Z
+ 44. [a7c..1d2] nft-list: sanitize addresses before comitting | By - rupansh | On - 2022-01-21T10:11:02Z
+ 45. [8cb..2cb] nft-list: preacache: parameterize cache expiry | By - rupansh | On - 2022-01-20T13:04:59Z
+ 46. [64d..93f] nft-list: preacache: invalidate cache after a day | By - rupansh | On - 2022-01-20T13:03:33Z
+ 47. [9d5..d8b] nft-list: fix insane usage of Sets and Maps | By - rupansh | On - 2022-01-20T12:06:27Z
+ 48. [aa6..4a4] nft-list: velas-explorer: ignore token if not owned | By - rupansh | On - 2022-01-20T11:15:17Z
+ 49. [46f..d00] update .env.example | By - rupansh | On - 2022-01-20T10:52:32Z
+ 50. [554..1cd] lint check | By - rupansh | On - 2022-01-20T10:51:35Z
 
 ## rem/erc1155
 
@@ -304,284 +358,285 @@
  49. [9cf..2dc] helpers: apiResp: remove header from response body | By - rupansh | On - 2022-01-18T08:31:27Z
  50. [7bd..f4d] helpers: nftList: fix setting of Retry-After header | By - rupansh | On - 2022-01-18T08:31:11Z
 
-# deploying-vechain
-
-## main
-
-
- 1. [b88..a7d] initial commit | By - Dima Brook | On - 2022-05-03T10:43:36Z
-
-# token-sc-observer
+# bridge-explorer-ui
 
 ## dev
 
 
- 1. [6c7..9f9] multi delete for contacts and notifs | By - AlexeyAdoniev | On - 2022-02-19T22:45:42Z
- 2. [6f8..af2] test commit | By - AlexeyAdoniev | On - 2022-02-15T07:50:32Z
- 3. [be3..463] testy | By - AlexeyAdoniev | On - 2022-02-13T06:18:48Z
- 4. [8cd..915] unknown token | By - AlexeyAdoniev | On - 2022-02-10T07:45:33Z
- 5. [b4f..274] Contact service update fix | By - AlexeyAdoniev | On - 2022-02-09T08:03:32Z
- 6. [3dd..b74] new Route getIndex | By - AlexeyAdoniev | On - 2022-02-07T18:53:25Z
- 7. [eae..1c7] contacts save validation | By - AlexeyAdoniev | On - 2022-02-06T21:58:53Z
- 8. [38c..6f9] qcount query for transactions | By - AlexeyAdoniev | On - 2022-02-02T19:00:19Z
- 9. [6cc..cfc] pagination skip | By - AlexeyAdoniev | On - 2022-01-29T22:19:25Z
- 10. [9d4..c27] request flib changed to Request, tests for user flow | By - AlexeyAdoniev | On - 2022-01-23T17:51:45Z
- 11. [a6d..e74] refactor to get table data with request | By - AlexeyAdoniev | On - 2022-01-23T06:26:47Z
- 12. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
- 13. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
- 14. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
- 15. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
- 16. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
- 17. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
- 18. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
- 19. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
- 20. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
- 21. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
- 22. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
- 23. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
- 24. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
- 25. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
- 26. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
- 27. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
- 28. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
- 29. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
- 30. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
- 31. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
- 32. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
- 33. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
- 34. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
- 35. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
- 36. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
- 37. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
- 38. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
- 39. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
- 40. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
- 41. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
- 42. [4ad..f28] proxy ENV credentials | By - AlexeyAdoniev | On - 2021-12-23T08:37:02Z
- 43. [abd..058] puppeteer proxy added + Token active field | By - AlexeyAdoniev | On - 2021-12-23T07:51:06Z
- 44. [649..27e] bug with url fixed | By - AlexeyAdoniev | On - 2021-12-22T17:28:30Z
- 45. [1b8..214] statuc route for backoffice | By - AlexeyAdoniev | On - 2021-12-22T17:22:01Z
- 46. [b51..5d5] track build | By - AlexeyAdoniev | On - 2021-12-22T15:33:08Z
- 47. [a6b..4e3] delete nested repo | By - AlexeyAdoniev | On - 2021-12-22T15:22:11Z
- 48. [4db..9f1] update backoffice | By - AlexeyAdoniev | On - 2021-12-22T15:01:12Z
- 49. [cf9..fcc] build script fix | By - AlexeyAdoniev | On - 2021-12-22T14:03:43Z
- 50. [0b4..f5e] deploy fix | By - AlexeyAdoniev | On - 2021-12-22T13:52:31Z
-
-## lostTrx
-
-
- 1. [19d..b9b] scap velas | By - AlexeyAdoniev | On - 2022-05-03T10:08:03Z
- 2. [6d7..1b5] error reject | By - AlexeyAdoniev | On - 2022-02-15T14:12:48Z
- 3. [7a8..f75] Root type cheerio | By - AlexeyAdoniev | On - 2022-02-15T13:29:50Z
- 4. [3bc..be7] update bot settings | By - AlexeyAdoniev | On - 2022-02-15T08:59:45Z
- 5. [c30..352] scrap settings | By - AlexeyAdoniev | On - 2022-02-13T09:54:37Z
- 6. [26a..226] puppeteer to request | By - AlexeyAdoniev | On - 2022-02-13T09:42:06Z
- 7. [b09..049] merge with main | By - AlexeyAdoniev | On - 2022-02-13T08:08:36Z
- 8. [367..f9f] Etherscan scrap add age prop | By - yura | On - 2022-02-12T19:41:20Z
- 9. [ce9..b1b] package.json | By - AlexeyAdoniev | On - 2022-02-01T17:51:25Z
- 10. [691..f6c] ts bug fix | By - AlexeyAdoniev | On - 2022-02-01T17:49:52Z
- 11. [e57..078] console.log() remove | By - AlexeyAdoniev | On - 2022-02-01T17:46:43Z
- 12. [2b3..2e6] new page -> new lastHash bug fixed | By - AlexeyAdoniev | On - 2022-02-01T17:44:47Z
- 13. [339..4e2] fix bug with dublicated disperse token | By - AlexeyAdoniev | On - 2022-02-01T17:07:40Z
- 14. [2d8..b23] fix bug with undefined lastRow | By - AlexeyAdoniev | On - 2022-02-01T17:04:36Z
- 15. [63b..adc] dublicates check before notif | By - AlexeyAdoniev | On - 2022-02-01T16:29:38Z
- 16. [a6d..e74] refactor to get table data with request | By - AlexeyAdoniev | On - 2022-01-23T06:26:47Z
- 17. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
- 18. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
- 19. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
- 20. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
- 21. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
- 22. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
- 23. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
- 24. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
- 25. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
- 26. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
- 27. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
- 28. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
- 29. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
- 30. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
- 31. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
- 32. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
- 33. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
- 34. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
- 35. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
- 36. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
- 37. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
- 38. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
- 39. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
- 40. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
- 41. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
- 42. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
- 43. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
- 44. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
- 45. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
- 46. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
- 47. [4ad..f28] proxy ENV credentials | By - AlexeyAdoniev | On - 2021-12-23T08:37:02Z
- 48. [abd..058] puppeteer proxy added + Token active field | By - AlexeyAdoniev | On - 2021-12-23T07:51:06Z
- 49. [649..27e] bug with url fixed | By - AlexeyAdoniev | On - 2021-12-22T17:28:30Z
- 50. [1b8..214] statuc route for backoffice | By - AlexeyAdoniev | On - 2021-12-22T17:22:01Z
+ 1. [429..cf2] exchange rate | By - AlexeyAdoniev | On - 2022-05-12T16:59:30Z
+ 2. [bac..e2b] add algo | By - AlexeyAdoniev | On - 2022-05-10T13:33:57Z
+ 3. [0ba..c20] add vech | By - AlexeyAdoniev | On - 2022-05-10T11:14:19Z
+ 4. [8a3..d86] added tron and gateChain icons | By - AlexeyAdoniev | On - 2022-04-26T08:01:07Z
+ 5. [973..ff4] added gatechain | By - AlexeyAdoniev | On - 2022-04-25T10:22:45Z
+ 6. [b6f..a9b] fix bug with .createdAt | By - AlexeyAdoniev | On - 2022-04-04T10:44:03Z
+ 7. [88d..119] merge | By - AlexeyAdoniev | On - 2022-04-04T10:37:17Z
+ 8. [572..1be] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-04-04T10:24:47Z
+ 9. [dca..c35] fix: date again | By - Rishabh Kumar | On - 2022-04-03T13:51:17Z
+ 10. [257..3cf] fix: date | By - Rishabh Kumar | On - 2022-04-03T12:46:30Z
+ 11. [2a3..b85] fix date | By - Rishabh Kumar | On - 2022-04-03T10:29:59Z
+ 12. [a20..c96] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-31T16:04:47Z
+ 13. [ce6..f0a] bug fix | By - AlexeyAdoniev | On - 2022-03-31T16:04:39Z
+ 14. [cdb..e34] fix paginator label width | By - Rishabh Kumar | On - 2022-03-27T12:08:39Z
+ 15. [407..428] fix cards | By - Rishabh Kumar | On - 2022-03-22T10:44:32Z
+ 16. [5f1..d8a] add overlay bg | By - Rishabh Kumar | On - 2022-03-22T10:11:46Z
+ 17. [252..562] fix csv modal mobile | By - Rishabh Kumar | On - 2022-03-22T10:09:23Z
+ 18. [051..4e0] merge | By - AlexeyAdoniev | On - 2022-03-21T14:06:56Z
+ 19. [563..6fa] bugs fix in paginator and CSV download | By - AlexeyAdoniev | On - 2022-03-21T13:41:48Z
+ 20. [a9d..32a] remove error | By - Rishabh Kumar | On - 2022-03-21T12:06:16Z
+ 21. [040..5aa] remove error | By - Rishabh Kumar | On - 2022-03-21T12:03:17Z
+ 22. [e8a..eda] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-21T11:05:22Z
+ 23. [bc1..003] date foramt change | By - AlexeyAdoniev | On - 2022-03-21T11:05:19Z
+ 24. [1d5..7a7] add overlay bg | By - Rishabh Kumar | On - 2022-03-21T11:00:24Z
+ 25. [16b..ea8] fix search bar width | By - Rishabh Kumar | On - 2022-03-21T10:46:45Z
+ 26. [cd5..dea] fix spacing | By - Rishabh Kumar | On - 2022-03-21T10:31:58Z
+ 27. [41c..363] IoTeX to Iotex | By - Rishabh Kumar | On - 2022-03-21T08:48:44Z
+ 28. [b49..765] fix spacing | By - Rishabh Kumar | On - 2022-03-21T08:45:53Z
+ 29. [10e..f44] put search bar under cards | By - Rishabh Kumar | On - 2022-03-21T08:30:06Z
+ 30. [68f..bae] pagginator btn fix | By - AlexeyAdoniev | On - 2022-03-21T07:53:30Z
+ 31. [27d..589] bugs | By - AlexeyAdoniev | On - 2022-03-20T18:53:36Z
+ 32. [ee7..df8] comment out safarihack | By - Rishabh Kumar | On - 2022-03-20T15:07:16Z
+ 33. [fd1..d1f] fix | By - Rishabh Kumar | On - 2022-03-20T15:00:33Z
+ 34. [e69..9ae] fix divide-y | By - Rishabh Kumar | On - 2022-03-20T14:40:00Z
+ 35. [2bb..ec1] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:21:50Z
+ 36. [032..c45] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:06:23Z
+ 37. [0e3..573] clear dropdown after submit | By - Rishabh Kumar | On - 2022-03-20T13:50:22Z
+ 38. [85a..939] add whitespace nowrap to explorer events heading | By - Rishabh Kumar | On - 2022-03-20T13:27:02Z
+ 39. [d89..762] fix cvs modal input width | By - Rishabh Kumar | On - 2022-03-20T13:23:52Z
+ 40. [ae4..40b] fix padding | By - Rishabh Kumar | On - 2022-03-20T13:18:57Z
+ 41. [497..10b] add rounded corner to card  in mobile | By - Rishabh Kumar | On - 2022-03-20T12:46:20Z
+ 42. [1e5..21f] change search bar location | By - Rishabh Kumar | On - 2022-03-20T12:43:04Z
+ 43. [111..cc5] remove selected chain from dropdown in tools | By - Rishabh Kumar | On - 2022-03-20T12:41:03Z
+ 44. [995..537] fix explorer events  style | By - Rishabh Kumar | On - 2022-03-20T12:24:56Z
+ 45. [129..d3c] change status color | By - Rishabh Kumar | On - 2022-03-20T12:10:38Z
+ 46. [0e0..809] tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:50:47Z
+ 47. [681..a7d] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:46:19Z
+ 48. [375..0eb] fix card text color | By - Rishabh Kumar | On - 2022-03-20T11:37:52Z
+ 49. [fef..1f9] Merge branch 'dev' of github.com:XP-NETWORK/bridge-explorer-ui into dev | By - Rishabh Kumar | On - 2022-03-20T11:32:44Z
+ 50. [859..f81] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:32:33Z
 
 ## main
 
 
- 1. [6d7..1b5] error reject | By - AlexeyAdoniev | On - 2022-02-15T14:12:48Z
- 2. [7a8..f75] Root type cheerio | By - AlexeyAdoniev | On - 2022-02-15T13:29:50Z
- 3. [3bc..be7] update bot settings | By - AlexeyAdoniev | On - 2022-02-15T08:59:45Z
- 4. [c30..352] scrap settings | By - AlexeyAdoniev | On - 2022-02-13T09:54:37Z
- 5. [26a..226] puppeteer to request | By - AlexeyAdoniev | On - 2022-02-13T09:42:06Z
- 6. [b09..049] merge with main | By - AlexeyAdoniev | On - 2022-02-13T08:08:36Z
- 7. [367..f9f] Etherscan scrap add age prop | By - yura | On - 2022-02-12T19:41:20Z
- 8. [ce9..b1b] package.json | By - AlexeyAdoniev | On - 2022-02-01T17:51:25Z
- 9. [691..f6c] ts bug fix | By - AlexeyAdoniev | On - 2022-02-01T17:49:52Z
- 10. [e57..078] console.log() remove | By - AlexeyAdoniev | On - 2022-02-01T17:46:43Z
- 11. [2b3..2e6] new page -> new lastHash bug fixed | By - AlexeyAdoniev | On - 2022-02-01T17:44:47Z
- 12. [339..4e2] fix bug with dublicated disperse token | By - AlexeyAdoniev | On - 2022-02-01T17:07:40Z
- 13. [2d8..b23] fix bug with undefined lastRow | By - AlexeyAdoniev | On - 2022-02-01T17:04:36Z
- 14. [63b..adc] dublicates check before notif | By - AlexeyAdoniev | On - 2022-02-01T16:29:38Z
- 15. [a6d..e74] refactor to get table data with request | By - AlexeyAdoniev | On - 2022-01-23T06:26:47Z
- 16. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
- 17. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
- 18. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
- 19. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
- 20. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
- 21. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
- 22. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
- 23. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
- 24. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
- 25. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
- 26. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
- 27. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
- 28. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
- 29. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
- 30. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
- 31. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
- 32. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
- 33. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
- 34. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
- 35. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
- 36. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
- 37. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
- 38. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
- 39. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
- 40. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
- 41. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
- 42. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
- 43. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
- 44. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
- 45. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
- 46. [4ad..f28] proxy ENV credentials | By - AlexeyAdoniev | On - 2021-12-23T08:37:02Z
- 47. [abd..058] puppeteer proxy added + Token active field | By - AlexeyAdoniev | On - 2021-12-23T07:51:06Z
- 48. [649..27e] bug with url fixed | By - AlexeyAdoniev | On - 2021-12-22T17:28:30Z
- 49. [1b8..214] statuc route for backoffice | By - AlexeyAdoniev | On - 2021-12-22T17:22:01Z
- 50. [b51..5d5] track build | By - AlexeyAdoniev | On - 2021-12-22T15:33:08Z
+ 1. [4a2..5de] deploy: update build scripts | By - Rishabh Kumar | On - 2022-02-08T07:34:14Z
+ 2. [cd5..c84] Merge pull request #1 from XP-NETWORK/dev | By - Rishabh Kumar | On - 2022-02-08T07:23:10Z
+ 3. [ede..0a5] actions: seprate out actions for diff env | By - Rishabh Kumar | On - 2022-02-08T07:20:49Z
+ 4. [aac..5fc] remove name | By - Rishabh Kumar | On - 2022-02-08T07:18:23Z
+ 5. [932..cdd] add deploy to s3 action | By - Rishabh Kumar | On - 2022-02-08T07:14:56Z
+ 6. [5e9..fa8] fix: typo Bridige to Bridge | By - Rishabh Kumar | On - 2022-02-07T13:22:33Z
+ 7. [f66..7e9] fix: validate dom error | By - Rishabh Kumar | On - 2022-02-07T13:19:07Z
+ 8. [0d4..db8] add nft img uri to event | By - Rishabh Kumar | On - 2022-02-07T13:17:24Z
+ 9. [d3e..55f] fix: createdAt.toUTCString() | By - Rishabh Kumar | On - 2022-02-07T12:50:14Z
+ 10. [ae7..c91] add createdAt to event | By - Rishabh Kumar | On - 2022-02-07T12:38:54Z
+ 11. [830..58e] make navbar responsive | By - Rishabh Kumar | On - 2022-02-07T12:05:09Z
+ 12. [217..aa9] fetch events from api | By - Rishabh Kumar | On - 2022-02-07T11:13:29Z
+ 13. [233..212] add footer | By - Rishabh Kumar | On - 2022-02-07T10:26:08Z
+ 14. [10e..39e] add explorer events | By - Rishabh Kumar | On - 2022-02-07T09:41:30Z
+ 15. [7dc..ae1] add search bar | By - Rishabh Kumar | On - 2022-02-07T09:09:55Z
+ 16. [d13..71c] add bg color and shadow to navbar | By - Rishabh Kumar | On - 2022-02-06T15:42:10Z
+ 17. [42d..b24] add explorer cards | By - Rishabh Kumar | On - 2022-02-06T15:39:56Z
+ 18. [78d..3a6] add bg color to body | By - Rishabh Kumar | On - 2022-02-06T15:24:16Z
+ 19. [286..b68] make classname optional in container | By - Rishabh Kumar | On - 2022-02-06T14:29:50Z
+ 20. [9ff..897] add padding to container | By - Rishabh Kumar | On - 2022-02-06T14:22:01Z
+ 21. [abc..441] refactor navbar with container | By - Rishabh Kumar | On - 2022-02-06T14:20:21Z
+ 22. [263..cd0] add container | By - Rishabh Kumar | On - 2022-02-06T14:20:02Z
+ 23. [0bb..bf8] add navbar | By - Rishabh Kumar | On - 2022-02-06T14:11:42Z
+ 24. [b38..1d3] refactor | By - Rishabh Kumar | On - 2022-02-06T10:30:35Z
+ 25. [8d5..02e] Add explorer page | By - Rishabh Kumar | On - 2022-02-06T10:21:48Z
+ 26. [ddb..483] add react-router | By - Rishabh Kumar | On - 2022-02-06T10:11:41Z
+ 27. [efc..397] add tailwind | By - Rishabh Kumar | On - 2022-02-06T09:56:18Z
+ 28. [6d6..425] init | By - Rishabh Kumar | On - 2022-02-06T09:50:43Z
 
-## stable
+## metrica
 
 
- 1. [367..f9f] Etherscan scrap add age prop | By - yura | On - 2022-02-12T19:41:20Z
- 2. [ce9..b1b] package.json | By - AlexeyAdoniev | On - 2022-02-01T17:51:25Z
- 3. [691..f6c] ts bug fix | By - AlexeyAdoniev | On - 2022-02-01T17:49:52Z
- 4. [e57..078] console.log() remove | By - AlexeyAdoniev | On - 2022-02-01T17:46:43Z
- 5. [2b3..2e6] new page -> new lastHash bug fixed | By - AlexeyAdoniev | On - 2022-02-01T17:44:47Z
- 6. [339..4e2] fix bug with dublicated disperse token | By - AlexeyAdoniev | On - 2022-02-01T17:07:40Z
- 7. [2d8..b23] fix bug with undefined lastRow | By - AlexeyAdoniev | On - 2022-02-01T17:04:36Z
- 8. [63b..adc] dublicates check before notif | By - AlexeyAdoniev | On - 2022-02-01T16:29:38Z
- 9. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
- 10. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
- 11. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
- 12. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
- 13. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
- 14. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
- 15. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
- 16. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
- 17. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
- 18. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
- 19. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
- 20. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
- 21. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
- 22. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
- 23. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
- 24. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
- 25. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
- 26. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
- 27. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
- 28. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
- 29. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
- 30. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
- 31. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
- 32. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
- 33. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
- 34. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
- 35. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
- 36. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
- 37. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
- 38. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
- 39. [4ad..f28] proxy ENV credentials | By - AlexeyAdoniev | On - 2021-12-23T08:37:02Z
- 40. [abd..058] puppeteer proxy added + Token active field | By - AlexeyAdoniev | On - 2021-12-23T07:51:06Z
- 41. [649..27e] bug with url fixed | By - AlexeyAdoniev | On - 2021-12-22T17:28:30Z
- 42. [1b8..214] statuc route for backoffice | By - AlexeyAdoniev | On - 2021-12-22T17:22:01Z
- 43. [b51..5d5] track build | By - AlexeyAdoniev | On - 2021-12-22T15:33:08Z
- 44. [a6b..4e3] delete nested repo | By - AlexeyAdoniev | On - 2021-12-22T15:22:11Z
- 45. [4db..9f1] update backoffice | By - AlexeyAdoniev | On - 2021-12-22T15:01:12Z
- 46. [cf9..fcc] build script fix | By - AlexeyAdoniev | On - 2021-12-22T14:03:43Z
- 47. [0b4..f5e] deploy fix | By - AlexeyAdoniev | On - 2021-12-22T13:52:31Z
- 48. [d85..848] deplot bug fix | By - AlexeyAdoniev | On - 2021-12-22T13:50:17Z
- 49. [ac6..463] fdf | By - AlexeyAdoniev | On - 2021-12-22T13:28:43Z
- 50. [6aa..e91] backOffice Route | By - AlexeyAdoniev | On - 2021-12-22T13:21:43Z
+ 1. [0d7..9a6] add rounded corner to nft video | By - Rishabh Kumar | On - 2022-03-06T12:04:34Z
+ 2. [374..5e3] add animation to nft in details page | By - Rishabh Kumar | On - 2022-03-06T12:01:04Z
+ 3. [a73..65c] add tx value column | By - AlexeyAdoniev | On - 2022-03-02T09:56:37Z
+ 4. [89e..9f8] index | By - AlexeyAdoniev | On - 2022-03-01T18:06:15Z
+ 5. [884..c7a] ethers lib ultils | By - AlexeyAdoniev | On - 2022-03-01T16:43:44Z
+ 6. [dff..929] network | By - AlexeyAdoniev | On - 2022-03-01T13:12:38Z
+ 7. [440..059] details Comp | By - AlexeyAdoniev | On - 2022-03-01T10:37:26Z
+ 8. [f8d..504] loading span | By - AlexeyAdoniev | On - 2022-02-28T18:26:27Z
+ 9. [ca7..a19] new Details component | By - AlexeyAdoniev | On - 2022-02-28T18:16:53Z
+ 10. [20d..fb3] change urls | By - AlexeyAdoniev | On - 2022-02-27T08:09:56Z
+ 11. [4d1..d90] nft loader | By - AlexeyAdoniev | On - 2022-02-24T18:10:12Z
+ 12. [dd8..ffc] socket event update | By - AlexeyAdoniev | On - 2022-02-24T11:56:00Z
+ 13. [711..8c8] update state on socket | By - AlexeyAdoniev | On - 2022-02-23T18:38:40Z
+ 14. [1b8..33d] urls | By - AlexeyAdoniev | On - 2022-02-23T09:37:36Z
+ 15. [2f3..ae0] sockets sett | By - AlexeyAdoniev | On - 2022-02-22T23:07:01Z
+ 16. [397..a32] dashboard page template | By - AlexeyAdoniev | On - 2022-02-22T14:32:38Z
+ 17. [7a4..686] added BreadCrumbs component in Explorer | By - AlexeyAdoniev | On - 2022-02-22T13:27:44Z
+ 18. [3ef..3f8] copy button tooltip on tx page | By - AlexeyAdoniev | On - 2022-02-22T12:10:07Z
+ 19. [cac..6fe] fix | By - Rishabh Kumar | On - 2022-02-21T18:18:49Z
+ 20. [a2b..bb1] open bridge link in new tab in navbar | By - Rishabh Kumar | On - 2022-02-21T12:41:20Z
+ 21. [e37..9d7] refactor event details | By - Rishabh Kumar | On - 2022-02-21T12:10:56Z
+ 22. [922..a97] fix: search | By - Rishabh Kumar | On - 2022-02-21T09:10:29Z
+ 23. [34c..665] add loading insted of no events found | By - Rishabh Kumar | On - 2022-02-21T08:18:00Z
+ 24. [583..a6f] fix: date format in event details | By - Rishabh Kumar | On - 2022-02-20T15:35:34Z
+ 25. [480..ead] add copy btn | By - Rishabh Kumar | On - 2022-02-20T14:50:56Z
+ 26. [561..413] fix: event details text color | By - Rishabh Kumar | On - 2022-02-20T14:06:44Z
+ 27. [01b..a96] add bridge link in navbar | By - Rishabh Kumar | On - 2022-02-20T14:05:08Z
+ 28. [875..4d9] add https://xp.network link to footer | By - Rishabh Kumar | On - 2022-02-20T13:57:26Z
+ 29. [3ab..a74] add fromChainName and toChainName | By - Rishabh Kumar | On - 2022-02-20T13:55:19Z
+ 30. [0b9..a69] open navbar logo in new tab | By - Rishabh Kumar | On - 2022-02-19T14:20:09Z
+ 31. [837..da5] fix: text size | By - Rishabh Kumar | On - 2022-02-19T14:19:11Z
+ 32. [622..4da] fix: status style | By - Rishabh Kumar | On - 2022-02-19T14:16:20Z
+ 33. [fb7..048] add latest commit | By - Rishabh Kumar | On - 2022-02-19T13:36:02Z
+ 34. [a7a..626] add title and hr | By - Rishabh Kumar | On - 2022-02-17T13:22:28Z
+ 35. [add..eec] XPNET-JS to XPJS in footer | By - Rishabh Kumar | On - 2022-02-17T12:10:38Z
+ 36. [f8e..456] dont open email and phone in new tab | By - Rishabh Kumar | On - 2022-02-17T12:09:11Z
+ 37. [242..837] shift transction details column for right | By - Rishabh Kumar | On - 2022-02-17T11:52:58Z
+ 38. [ff8..509] change icon and title | By - Rishabh Kumar | On - 2022-02-17T11:46:54Z
+ 39. [811..662] fix: event details style | By - Rishabh Kumar | On - 2022-02-17T11:39:00Z
+ 40. [2df..e50] font to poppins in footer | By - Rishabh Kumar | On - 2022-02-17T11:12:27Z
+ 41. [9bf..b47] change shadow style | By - Rishabh Kumar | On - 2022-02-17T11:06:15Z
+ 42. [f20..08a] change text color on event details | By - Rishabh Kumar | On - 2022-02-17T10:50:57Z
+ 43. [1e0..399] fix: text color in event details | By - Rishabh Kumar | On - 2022-02-16T15:05:30Z
+ 44. [c71..40d] change footer style | By - Rishabh Kumar | On - 2022-02-16T14:51:44Z
+ 45. [4d3..71d] change links color | By - Rishabh Kumar | On - 2022-02-16T14:11:50Z
+ 46. [df8..22b] change text-size to sm | By - Rishabh Kumar | On - 2022-02-16T13:49:36Z
+ 47. [0f7..2fe] remove number column from explorer events | By - Rishabh Kumar | On - 2022-02-16T13:42:15Z
+ 48. [41e..a86] remove duplicate nft description | By - Rishabh Kumar | On - 2022-02-16T13:40:48Z
+ 49. [bc6..7ff] increase margin top of footer | By - Rishabh Kumar | On - 2022-02-16T13:33:52Z
+ 50. [018..064] remove unnecessary imports | By - Rishabh Kumar | On - 2022-02-16T13:30:58Z
 
-## staging
+## testnet
 
 
- 1. [49d..e99] Merge branch 'dev' of https://github.com/xp-network/token-sc-observer into staging | By - AlexeyAdoniev | On - 2022-02-20T09:19:16Z
- 2. [6c7..9f9] multi delete for contacts and notifs | By - AlexeyAdoniev | On - 2022-02-19T22:45:42Z
- 3. [6f8..af2] test commit | By - AlexeyAdoniev | On - 2022-02-15T07:50:32Z
- 4. [be3..463] testy | By - AlexeyAdoniev | On - 2022-02-13T06:18:48Z
- 5. [466..209] Merge branch 'dev' into staging | By - AlexeyAdoniev | On - 2022-02-10T07:45:48Z
- 6. [8cd..915] unknown token | By - AlexeyAdoniev | On - 2022-02-10T07:45:33Z
- 7. [0d1..8b0] Merge branch 'dev' into staging | By - AlexeyAdoniev | On - 2022-02-09T08:03:56Z
- 8. [b4f..274] Contact service update fix | By - AlexeyAdoniev | On - 2022-02-09T08:03:32Z
- 9. [3dd..b74] new Route getIndex | By - AlexeyAdoniev | On - 2022-02-07T18:53:25Z
- 10. [35f..a82] merge with dev branch | By - AlexeyAdoniev | On - 2022-02-06T22:13:23Z
- 11. [20c..57b] Merge branch 'dev' into staging | By - AlexeyAdoniev | On - 2022-02-06T22:05:18Z
- 12. [eae..1c7] contacts save validation | By - AlexeyAdoniev | On - 2022-02-06T21:58:53Z
- 13. [38c..6f9] qcount query for transactions | By - AlexeyAdoniev | On - 2022-02-02T19:00:19Z
- 14. [6cc..cfc] pagination skip | By - AlexeyAdoniev | On - 2022-01-29T22:19:25Z
- 15. [9d4..c27] request flib changed to Request, tests for user flow | By - AlexeyAdoniev | On - 2022-01-23T17:51:45Z
- 16. [a6d..e74] refactor to get table data with request | By - AlexeyAdoniev | On - 2022-01-23T06:26:47Z
- 17. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
- 18. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
- 19. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
- 20. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
- 21. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
- 22. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
- 23. [0e5..b2a] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:11:38Z
- 24. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
- 25. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
- 26. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
- 27. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
- 28. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
- 29. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
- 30. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
- 31. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
- 32. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
- 33. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
- 34. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
- 35. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
- 36. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
- 37. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
- 38. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
- 39. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
- 40. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
- 41. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
- 42. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
- 43. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
- 44. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
- 45. [76e..220] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:12:30Z
- 46. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
- 47. [ea4..310] config puppeteer | By - AlexeyAdoniev | On - 2021-12-23T09:47:30Z
- 48. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
- 49. [b96..d48] username and pass node env | By - AlexeyAdoniev | On - 2021-12-23T09:14:29Z
- 50. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
+ 1. [24c..db6] change constns2 | By - AlexeyAdoniev | On - 2022-04-28T12:06:52Z
+ 2. [6bc..eff] change const | By - AlexeyAdoniev | On - 2022-04-28T11:46:23Z
+ 3. [9d2..85b] testnet add algorand, bsc, polygon. nftParse for wrapped nft, helpers for formatEthers | By - AlexeyAdoniev | On - 2022-04-28T08:40:30Z
+ 4. [8a3..d86] added tron and gateChain icons | By - AlexeyAdoniev | On - 2022-04-26T08:01:07Z
+ 5. [973..ff4] added gatechain | By - AlexeyAdoniev | On - 2022-04-25T10:22:45Z
+ 6. [b6f..a9b] fix bug with .createdAt | By - AlexeyAdoniev | On - 2022-04-04T10:44:03Z
+ 7. [88d..119] merge | By - AlexeyAdoniev | On - 2022-04-04T10:37:17Z
+ 8. [572..1be] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-04-04T10:24:47Z
+ 9. [dca..c35] fix: date again | By - Rishabh Kumar | On - 2022-04-03T13:51:17Z
+ 10. [257..3cf] fix: date | By - Rishabh Kumar | On - 2022-04-03T12:46:30Z
+ 11. [2a3..b85] fix date | By - Rishabh Kumar | On - 2022-04-03T10:29:59Z
+ 12. [a20..c96] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-31T16:04:47Z
+ 13. [ce6..f0a] bug fix | By - AlexeyAdoniev | On - 2022-03-31T16:04:39Z
+ 14. [cdb..e34] fix paginator label width | By - Rishabh Kumar | On - 2022-03-27T12:08:39Z
+ 15. [407..428] fix cards | By - Rishabh Kumar | On - 2022-03-22T10:44:32Z
+ 16. [5f1..d8a] add overlay bg | By - Rishabh Kumar | On - 2022-03-22T10:11:46Z
+ 17. [252..562] fix csv modal mobile | By - Rishabh Kumar | On - 2022-03-22T10:09:23Z
+ 18. [051..4e0] merge | By - AlexeyAdoniev | On - 2022-03-21T14:06:56Z
+ 19. [563..6fa] bugs fix in paginator and CSV download | By - AlexeyAdoniev | On - 2022-03-21T13:41:48Z
+ 20. [a9d..32a] remove error | By - Rishabh Kumar | On - 2022-03-21T12:06:16Z
+ 21. [040..5aa] remove error | By - Rishabh Kumar | On - 2022-03-21T12:03:17Z
+ 22. [e8a..eda] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-21T11:05:22Z
+ 23. [bc1..003] date foramt change | By - AlexeyAdoniev | On - 2022-03-21T11:05:19Z
+ 24. [1d5..7a7] add overlay bg | By - Rishabh Kumar | On - 2022-03-21T11:00:24Z
+ 25. [16b..ea8] fix search bar width | By - Rishabh Kumar | On - 2022-03-21T10:46:45Z
+ 26. [cd5..dea] fix spacing | By - Rishabh Kumar | On - 2022-03-21T10:31:58Z
+ 27. [41c..363] IoTeX to Iotex | By - Rishabh Kumar | On - 2022-03-21T08:48:44Z
+ 28. [b49..765] fix spacing | By - Rishabh Kumar | On - 2022-03-21T08:45:53Z
+ 29. [10e..f44] put search bar under cards | By - Rishabh Kumar | On - 2022-03-21T08:30:06Z
+ 30. [68f..bae] pagginator btn fix | By - AlexeyAdoniev | On - 2022-03-21T07:53:30Z
+ 31. [27d..589] bugs | By - AlexeyAdoniev | On - 2022-03-20T18:53:36Z
+ 32. [ee7..df8] comment out safarihack | By - Rishabh Kumar | On - 2022-03-20T15:07:16Z
+ 33. [fd1..d1f] fix | By - Rishabh Kumar | On - 2022-03-20T15:00:33Z
+ 34. [e69..9ae] fix divide-y | By - Rishabh Kumar | On - 2022-03-20T14:40:00Z
+ 35. [2bb..ec1] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:21:50Z
+ 36. [032..c45] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:06:23Z
+ 37. [0e3..573] clear dropdown after submit | By - Rishabh Kumar | On - 2022-03-20T13:50:22Z
+ 38. [85a..939] add whitespace nowrap to explorer events heading | By - Rishabh Kumar | On - 2022-03-20T13:27:02Z
+ 39. [d89..762] fix cvs modal input width | By - Rishabh Kumar | On - 2022-03-20T13:23:52Z
+ 40. [ae4..40b] fix padding | By - Rishabh Kumar | On - 2022-03-20T13:18:57Z
+ 41. [497..10b] add rounded corner to card  in mobile | By - Rishabh Kumar | On - 2022-03-20T12:46:20Z
+ 42. [1e5..21f] change search bar location | By - Rishabh Kumar | On - 2022-03-20T12:43:04Z
+ 43. [111..cc5] remove selected chain from dropdown in tools | By - Rishabh Kumar | On - 2022-03-20T12:41:03Z
+ 44. [995..537] fix explorer events  style | By - Rishabh Kumar | On - 2022-03-20T12:24:56Z
+ 45. [129..d3c] change status color | By - Rishabh Kumar | On - 2022-03-20T12:10:38Z
+ 46. [0e0..809] tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:50:47Z
+ 47. [681..a7d] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:46:19Z
+ 48. [375..0eb] fix card text color | By - Rishabh Kumar | On - 2022-03-20T11:37:52Z
+ 49. [fef..1f9] Merge branch 'dev' of github.com:XP-NETWORK/bridge-explorer-ui into dev | By - Rishabh Kumar | On - 2022-03-20T11:32:44Z
+ 50. [859..f81] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:32:33Z
+
+# new-xp-website
+
+## main
+
+
+ 1. [56e..7e7] news section added | By - AlexeyAdoniev | On - 2022-05-12T16:43:02Z
+ 2. [8b0..3e2] carusel ofset | By - AlexeyAdoniev | On - 2022-05-12T11:41:17Z
+ 3. [d5b..6a7] new case img for mobile | By - AlexeyAdoniev | On - 2022-05-12T09:23:30Z
+ 4. [ca9..4e4] add styling | By - AlexeyAdoniev | On - 2022-05-12T08:51:52Z
+ 5. [d55..4c2] new carusel | By - AlexeyAdoniev | On - 2022-05-12T08:39:07Z
+ 6. [f91..610] change meta text, change new study pic | By - AlexeyAdoniev | On - 2022-05-12T07:08:40Z
+ 7. [0a1..c88] append full | By - AlexeyAdoniev | On - 2022-05-12T07:00:49Z
+ 8. [c08..a2b] fdd | By - AlexeyAdoniev | On - 2022-05-12T06:44:22Z
+ 9. [dc9..fd6] drifters page add | By - AlexeyAdoniev | On - 2022-05-11T16:41:25Z
+ 10. [f0d..359] news branch | By - AlexeyAdoniev | On - 2022-05-11T13:42:08Z
+ 11. [649..378] theos added | By - AlexeyAdoniev | On - 2022-04-28T16:02:16Z
+ 12. [23e..3c8] remove team page, finance, snafu | By - AlexeyAdoniev | On - 2022-04-26T15:59:28Z
+ 13. [930..be1] merge with finance page | By - AlexeyAdoniev | On - 2022-03-31T06:38:55Z
+ 14. [469..a34] snafu page | By - AlexeyAdoniev | On - 2022-03-31T06:23:07Z
+ 15. [3be..0a8] new field Email for plan from | By - AlexeyAdoniev | On - 2022-03-30T14:33:17Z
+ 16. [72c..f7f] snafu and finance pages | By - AlexeyAdoniev | On - 2022-03-30T11:05:37Z
+ 17. [2ed..916] meta images, bug with nav menu icons | By - AlexeyAdoniev | On - 2022-03-21T15:49:56Z
+ 18. [b7b..ce3] meta images and job apply file size error bug fix | By - AlexeyAdoniev | On - 2022-03-02T18:46:43Z
+ 19. [81b..70b] spell mistake fix | By - AlexeyAdoniev | On - 2022-02-20T12:57:39Z
+ 20. [1f0..d65] logos | By - AlexeyAdoniev | On - 2022-02-17T18:58:09Z
+ 21. [1ae..412] bugs fix | By - AlexeyAdoniev | On - 2022-02-16T15:21:20Z
+ 22. [713..ada] menu animation toggle fix | By - AlexeyAdoniev | On - 2022-02-15T18:48:55Z
+ 23. [3db..958] bg mobile homepage | By - AlexeyAdoniev | On - 2022-02-15T17:47:23Z
+ 24. [08e..9c4] small bug with photos | By - AlexeyAdoniev | On - 2022-02-15T12:25:40Z
+ 25. [ab0..13d] image meta 3 | By - AlexeyAdoniev | On - 2022-02-15T12:19:58Z
+ 26. [699..0ab] meta images2 | By - AlexeyAdoniev | On - 2022-02-15T11:53:50Z
+ 27. [26a..ad7] meta images | By - AlexeyAdoniev | On - 2022-02-15T11:37:33Z
+ 28. [e0f..7b8] fixes | By - AlexeyAdoniev | On - 2022-02-15T10:32:32Z
+ 29. [5dd..de8] merge with alex | By - AlexeyAdoniev | On - 2022-02-15T08:40:40Z
+ 30. [4ad..3eb] chain links | By - AlexeyAdoniev | On - 2022-02-15T08:39:51Z
+ 31. [d37..e59] change meta image to short name | By - AlexXPnetwork | On - 2022-02-15T08:32:56Z
+ 32. [7c4..f25] tezos order | By - AlexeyAdoniev | On - 2022-02-15T08:28:28Z
+ 33. [8c4..620] fixes file size | By - AlexXPnetwork | On - 2022-02-14T23:22:06Z
+ 34. [f0f..8ab] add elrond | By - AlexXPnetwork | On - 2022-02-14T21:58:07Z
+ 35. [cac..704] fix scroll | By - AlexXPnetwork | On - 2022-02-14T20:35:01Z
+ 36. [8e0..1cc] description | By - AlexXPnetwork | On - 2022-02-14T20:17:14Z
+ 37. [047..5fc] Polygon | By - AlexXPnetwork | On - 2022-02-14T20:04:28Z
+ 38. [61a..4d2] psik | By - AlexXPnetwork | On - 2022-02-14T19:38:29Z
+ 39. [493..891] Tezos Ecosystem | By - AlexXPnetwork | On - 2022-02-14T19:36:37Z
+ 40. [749..821] tazoz | By - AlexXPnetwork | On - 2022-02-14T19:33:40Z
+ 41. [07f..14f] fix navbar fixed | By - AlexXPnetwork | On - 2022-02-14T18:41:48Z
+ 42. [9fc..4c0] navbar fixed | By - AlexXPnetwork | On - 2022-02-14T18:21:52Z
+ 43. [50f..0e2] title home page fix | By - AlexXPnetwork | On - 2022-02-14T17:59:12Z
+ 44. [a0f..64b] move all routers to staging | By - AlexXPnetwork | On - 2022-02-14T17:32:40Z
+ 45. [730..804] appliction work | By - AlexXPnetwork | On - 2022-02-14T17:25:34Z
+ 46. [415..229] chnage community from apply to coming soon | By - AlexXPnetwork | On - 2022-02-14T16:19:29Z
+ 47. [6d5..c4a] add new text to snafu | By - AlexXPnetwork | On - 2022-02-14T14:51:20Z
+ 48. [618..988] snafu | By - AlexXPnetwork | On - 2022-02-14T14:45:40Z
+ 49. [bbc..5c7] assets | By - AlexeyAdoniev | On - 2022-02-14T13:55:28Z
+ 50. [70d..1e1] broken pics fix | By - AlexeyAdoniev | On - 2022-02-14T13:36:09Z
+
+# tx-socket
+
+## master
+
+
+ 1. [a52..5d9] algorand_event: DELETE: ignore if errors with lookupAccount | By - rupansh | On - 2022-05-11T14:59:17Z
+ 2. [cf3..077] minor cleanup | By - rupansh | On - 2022-04-05T12:33:43Z
+ 3. [854..762] update .env.example | By - rupansh | On - 2022-04-05T12:30:46Z
+ 4. [969..fe4] algorand fixes | By - rupansh | On - 2022-04-05T12:29:48Z
+ 5. [b90..524] cors: fix | By - imsk17 | On - 2022-03-28T11:07:25Z
+ 6. [2e4..9cd] deploy(heroku): add a procfile | By - imsk17 | On - 2022-03-06T11:01:40Z
+ 7. [f03..d6c] add from_chain to tx_event | By - rupansh | On - 2022-02-20T08:55:14Z
+ 8. [1d5..19b] add start script | By - Dima Brook | On - 2022-02-17T10:10:51Z
+ 9. [e05..420] minor fixes | By - rupansh | On - 2021-12-14T09:49:57Z
+ 10. [00d..bfd] algorand: return early if no nfts are available in db | By - rupansh | On - 2021-12-14T09:33:16Z
+ 11. [5d7..f95] algorand: add delete query | By - rupansh | On - 2021-12-14T09:31:38Z
+ 12. [471..f26] algorand: add getter for all claim info by owner | By - rupansh | On - 2021-12-09T10:20:40Z
+ 13. [b67..1aa] algorand: minor change to claim nft getter | By - rupansh | On - 2021-12-09T10:05:40Z
+ 14. [7b4..33e] algorand: search for events by owner and actionId | By - rupansh | On - 2021-12-09T09:49:01Z
+ 15. [de4..022] fix(mongo): create index on receiver | By - imsk17 | On - 2021-12-08T14:01:28Z
+ 16. [328..edf] feat(algorand): add getter for events | By - imsk17 | On - 2021-12-08T13:56:56Z
+ 17. [119..61f] feat(algorand): persist txn to mongo | By - imsk17 | On - 2021-12-08T13:11:10Z
+ 18. [29f..2cf] feat(algorand): add owner for txn persistence | By - imsk17 | On - 2021-12-08T11:24:46Z
+ 19. [9c1..5c3] add event for algorand minting | By - rupansh | On - 2021-11-21T11:55:26Z
+ 20. [7eb..685] fix minor derps | By - rupansh | On - 2021-11-20T14:17:22Z
+ 21. [767..5a5] use hash for event secret | By - rupansh | On - 2021-11-20T14:00:36Z
+ 22. [c3c..8c9] initial import | By - rupansh | On - 2021-11-20T13:20:39Z
 
 # migration-validator
 
@@ -696,56 +751,56 @@
 ## erc1155
 
 
- 1. [c6d..372] iotex: increase gas limit and gas price | By - imsk17 | On - 2022-05-02T19:37:39Z
- 2. [219..03f] tezos: increase gas limit | By - imsk17 | On - 2022-05-01T16:07:58Z
- 3. [ab6..481] bump web3-contracts dep | By - rupansh | On - 2022-04-26T14:20:08Z
- 4. [230..637] tron: fix chainId | By - rupansh | On - 2022-04-25T15:37:53Z
- 5. [c29..be5] tron: add chainId for mainnet | By - rupansh | On - 2022-04-25T15:24:20Z
- 6. [d32..999] bump exchange and use xdai for xdai chain instead of stake | By - AlexeyAdoniev | On - 2022-04-25T11:10:42Z
- 7. [6e8..74b] GateChain Mainnet added. Config and .evn.example | By - AlexeyAdoniev | On - 2022-04-24T08:56:04Z
- 8. [aaa..fe6] web3: hardcode gasprice for iotex | By - imsk17 | On - 2022-04-21T09:16:47Z
- 9. [475..2df] web3: hardcode gaslimit for iotex | By - imsk17 | On - 2022-04-21T08:07:10Z
- 10. [0e7..13d] web3: add more debug logs | By - rupansh | On - 2022-04-20T13:46:49Z
- 11. [cea..ca8] web3: add debug log for descs | By - rupansh | On - 2022-04-20T13:43:21Z
- 12. [a8b..11f] signal: redosig: fix minor derp | By - rupansh | On - 2022-04-18T18:57:35Z
- 13. [d45..ff6] signal: redosig: race condition workarounds | By - rupansh | On - 2022-04-18T18:52:34Z
- 14. [693..b05] signal: redoAggregateSig: prefix redoid with 0x | By - rupansh | On - 2022-04-18T17:56:19Z
- 15. [c48..5d9] signal: redosig: verify old signature before regenerating | By - rupansh | On - 2022-04-17T19:59:24Z
- 16. [7fa..511] redo sig on verification failure | By - rupansh | On - 2022-04-17T19:53:33Z
- 17. [5c2..e9b] Revert "bridge: redo aggregation if sending txn failed due to `failed to verify signature`" | By - rupansh | On - 2022-04-12T14:04:06Z
- 18. [50a..8e3] bridge: redo aggregation if sending txn failed due to `failed to verify signature` | By - rupansh | On - 2022-04-12T13:49:51Z
- 19. [146..9ae] tsconfig: enable skipLibCheck | By - rupansh | On - 2022-04-12T13:01:29Z
- 20. [dc0..1f9] use custom block.chainid for aurora | By - rupansh | On - 2022-04-12T13:01:14Z
- 21. [c1f..be9] package: bump elrond | By - rupansh | On - 2022-03-26T18:19:56Z
- 22. [353..581] elrond: await sync before handling again | By - rupansh | On - 2022-03-26T18:18:32Z
- 23. [d8a..def] elrond: increment nonce in advance | By - rupansh | On - 2022-03-26T17:37:00Z
- 24. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
- 25. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
- 26. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
- 27. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
- 28. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
- 29. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
- 30. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
- 31. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
- 32. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
- 33. [0f0..634] husky: add a pre commit hook for lint | By - imsk17 | On - 2022-03-15T17:15:10Z
- 34. [d41..0cc] bridge: handlers: tron: adapt web3 serializers for tron | By - imsk17 | On - 2022-03-15T17:14:42Z
- 35. [638..5f6] Merge pull request #8 from XP-NETWORK/features/tezos | By - Sumit Kumar | On - 2022-03-15T17:08:56Z
- 36. [79f..bf8] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T16:49:59Z
- 37. [082..543] add documentation for optional fields | By - rupansh | On - 2022-03-13T19:26:44Z
- 38. [faf..68f] elrond: initial royalties support | By - rupansh | On - 2022-03-13T19:21:04Z
- 39. [28b..ab2] tezos: minor fixes | By - rupansh | On - 2022-03-13T18:55:03Z
- 40. [304..8f6] tezos: update for contract changes | By - rupansh | On - 2022-03-13T14:08:40Z
- 41. [8e6..fac] evm: fix import order | By - rupansh | On - 2022-03-13T13:14:38Z
- 42. [1e7..6b9] fix compilation | By - rupansh | On - 2022-03-13T12:12:06Z
- 43. [f44..770] add event listener | By - rocalex | On - 2022-03-13T07:23:47Z
- 44. [b16..64b] transfer/unfreeze nft | By - rocalex | On - 2022-03-13T06:03:20Z
- 45. [4e4..aff] config tezos handler | By - rocalex | On - 2022-03-13T05:29:35Z
- 46. [126..5a5] initial | By - rocalex | On - 2022-03-10T15:25:22Z
- 47. [6c9..bad] gas number to string | By - Ruby Edelstein | On - 2022-03-08T14:14:22Z
- 48. [336..900] add polygon gasstation | By - Ruby Edelstein | On - 2022-03-08T14:10:31Z
- 49. [660..d65] Update web3.ts | By - VKint | On - 2022-03-08T13:04:06Z
- 50. [51d..8fa] set txfees for transfers | By - rupansh | On - 2022-03-03T18:21:34Z
+ 1. [750..945] elrond: improve metadata wrapping | By - rupansh | On - 2022-05-11T10:24:48Z
+ 2. [d2b..2a8] handlers: ipfsMetadataFetch: increase timeout to 30s | By - rupansh | On - 2022-05-11T09:54:20Z
+ 3. [280..0aa] elrond: extractFrozenAttr: sanitize metadata url | By - rupansh | On - 2022-05-10T15:30:59Z
+ 4. [d57..4ad] deps: elrond: fix derp | By - rupansh | On - 2022-05-10T13:30:10Z
+ 5. [e3c..cb4] elrond: improve metadata detection | By - rupansh | On - 2022-05-10T13:22:50Z
+ 6. [457..8de] algorand: factories: use 443 for port | By - rupansh | On - 2022-05-09T12:42:33Z
+ 7. [230..82d] algorand: utils: fix constructors | By - rupansh | On - 2022-05-09T12:25:17Z
+ 8. [c6f..d3a] signAndSendWrap: only stringify if algorand | By - imsk17 | On - 2022-05-09T11:41:35Z
+ 9. [76d..081] [TEMP] bridge: update workaround for royaltyhack | By - rupansh | On - 2022-05-08T15:41:54Z
+ 10. [a63..302] [TEMP] bridge: add hacks for royalties derp | By - rupansh | On - 2022-05-08T15:31:31Z
+ 11. [2fc..f04] elrond: try decoding attributes for transfer | By - rupansh | On - 2022-05-08T14:29:10Z
+ 12. [d7b..a66] handlers: evm: add debug logs | By - rupansh | On - 2022-05-08T12:50:07Z
+ 13. [7eb..6ae] iotex: reduce gas limit | By - rupansh | On - 2022-05-06T12:03:37Z
+ 14. [b8d..161] config: remove duplicate gatechain entry | By - imsk17 | On - 2022-05-04T11:41:34Z
+ 15. [ff5..dce] Merge branch 'vech' into erc1155 | By - imsk17 | On - 2022-05-04T11:35:38Z
+ 16. [c6d..372] iotex: increase gas limit and gas price | By - imsk17 | On - 2022-05-02T19:37:39Z
+ 17. [219..03f] tezos: increase gas limit | By - imsk17 | On - 2022-05-01T16:07:58Z
+ 18. [ab6..481] bump web3-contracts dep | By - rupansh | On - 2022-04-26T14:20:08Z
+ 19. [230..637] tron: fix chainId | By - rupansh | On - 2022-04-25T15:37:53Z
+ 20. [c29..be5] tron: add chainId for mainnet | By - rupansh | On - 2022-04-25T15:24:20Z
+ 21. [d32..999] bump exchange and use xdai for xdai chain instead of stake | By - AlexeyAdoniev | On - 2022-04-25T11:10:42Z
+ 22. [6e8..74b] GateChain Mainnet added. Config and .evn.example | By - AlexeyAdoniev | On - 2022-04-24T08:56:04Z
+ 23. [aaa..fe6] web3: hardcode gasprice for iotex | By - imsk17 | On - 2022-04-21T09:16:47Z
+ 24. [475..2df] web3: hardcode gaslimit for iotex | By - imsk17 | On - 2022-04-21T08:07:10Z
+ 25. [0e7..13d] web3: add more debug logs | By - rupansh | On - 2022-04-20T13:46:49Z
+ 26. [cea..ca8] web3: add debug log for descs | By - rupansh | On - 2022-04-20T13:43:21Z
+ 27. [15d..a1c] iotex: hardcode gas limit | By - imsk17 | On - 2022-04-20T11:05:07Z
+ 28. [1de..de1] iotex: use prevblock to get gas limit | By - imsk17 | On - 2022-04-20T09:22:15Z
+ 29. [9a4..25c] bridge: ipfsMetadataFetch: add timeout | By - rupansh | On - 2022-04-20T07:06:31Z
+ 30. [2fd..c15] bridge: httpMetadataFetch: use setTimeout for timeout | By - rupansh | On - 2022-04-20T07:06:31Z
+ 31. [115..d3a] bridge: httpMetadataFetch: add 20sec timeout | By - rupansh | On - 2022-04-20T07:06:31Z
+ 32. [11a..a9e] log when using block.chainid workaround | By - imsk17 | On - 2022-04-20T07:00:18Z
+ 33. [621..fd2] handlers: web3: disable fixed decimals for web3 | By - imsk17 | On - 2022-04-20T06:53:38Z
+ 34. [a8b..11f] signal: redosig: fix minor derp | By - rupansh | On - 2022-04-18T18:57:35Z
+ 35. [d45..ff6] signal: redosig: race condition workarounds | By - rupansh | On - 2022-04-18T18:52:34Z
+ 36. [693..b05] signal: redoAggregateSig: prefix redoid with 0x | By - rupansh | On - 2022-04-18T17:56:19Z
+ 37. [c48..5d9] signal: redosig: verify old signature before regenerating | By - rupansh | On - 2022-04-17T19:59:24Z
+ 38. [7fa..511] redo sig on verification failure | By - rupansh | On - 2022-04-17T19:53:33Z
+ 39. [326..490] vechain: use dynamic node for vechain | By - imsk17 | On - 2022-04-13T14:01:49Z
+ 40. [0e7..15b] vechain: use custom logic for signer and remove noncemanager | By - imsk17 | On - 2022-04-13T11:57:03Z
+ 41. [743..721] vechain: move vech provider construction up | By - imsk17 | On - 2022-04-13T11:50:33Z
+ 42. [5c2..e9b] Revert "bridge: redo aggregation if sending txn failed due to `failed to verify signature`" | By - rupansh | On - 2022-04-12T14:04:06Z
+ 43. [50a..8e3] bridge: redo aggregation if sending txn failed due to `failed to verify signature` | By - rupansh | On - 2022-04-12T13:49:51Z
+ 44. [146..9ae] tsconfig: enable skipLibCheck | By - rupansh | On - 2022-04-12T13:01:29Z
+ 45. [dc0..1f9] use custom block.chainid for aurora | By - rupansh | On - 2022-04-12T13:01:14Z
+ 46. [9d0..297] web3: chains: add support for vechain | By - imsk17 | On - 2022-04-12T11:08:59Z
+ 47. [fa3..b87] pass actionId on handleUnfreezeUnique | By - rocalex | On - 2022-04-10T15:21:03Z
+ 48. [c7b..537] algorand: truncate nft name to 32 bytes | By - rupansh | On - 2022-04-10T14:35:50Z
+ 49. [2fa..55a] algorand: pass origin nonce to algoMetadataWrap properly | By - rupansh | On - 2022-04-10T14:12:50Z
+ 50. [0b6..a44] algorand: extract txn fee properly | By - rupansh | On - 2022-04-10T09:37:42Z
 
 ## features/algorand
 
@@ -1125,6 +1180,307 @@
  49. [95d..b34] erc721_metadata: minor fix | By - rupansh | On - 2021-11-09T12:17:30Z
  50. [33b..5aa] gitignore: remove dist | By - rupansh | On - 2021-11-09T12:17:16Z
 
+# advancedSolutions
+
+## main
+
+
+ 1. [c36..909] change pics | By - AlexeyAdoniev | On - 2022-05-09T13:37:10Z
+ 2. [94a..5f9] meta text | By - AlexeyAdoniev | On - 2022-05-08T21:08:32Z
+ 3. [f44..349] bugs fix and phone number | By - AlexeyAdoniev | On - 2022-05-08T18:07:17Z
+ 4. [b96..e9f] fix forms | By - Alex Moshinsky | On - 2022-05-08T16:58:48Z
+ 5. [392..2a1] remove gitignore files | By - AlexeyAdoniev | On - 2022-05-08T15:51:06Z
+ 6. [122..36d] initial | By - AlexeyAdoniev | On - 2022-05-08T15:40:22Z
+
+# xpnft
+
+## master
+
+
+ 1. [698..0a5] royalties: ignore rawInfo if empty | By - rupansh | On - 2022-05-08T15:26:39Z
+ 2. [5a3..6dc] package: update name, version | By - rupansh | On - 2022-05-07T21:50:30Z
+ 3. [9ef..4e9] initial royalties impl | By - rupansh | On - 2022-05-07T21:46:03Z
+ 4. [e9e..365] initial import | By - rupansh | On - 2022-05-07T21:11:21Z
+
+# deploying-vechain
+
+## main
+
+
+ 1. [b88..a7d] initial commit | By - Dima Brook | On - 2022-05-03T10:43:36Z
+
+# token-sc-observer
+
+## dev
+
+
+ 1. [6c7..9f9] multi delete for contacts and notifs | By - AlexeyAdoniev | On - 2022-02-19T22:45:42Z
+ 2. [6f8..af2] test commit | By - AlexeyAdoniev | On - 2022-02-15T07:50:32Z
+ 3. [be3..463] testy | By - AlexeyAdoniev | On - 2022-02-13T06:18:48Z
+ 4. [8cd..915] unknown token | By - AlexeyAdoniev | On - 2022-02-10T07:45:33Z
+ 5. [b4f..274] Contact service update fix | By - AlexeyAdoniev | On - 2022-02-09T08:03:32Z
+ 6. [3dd..b74] new Route getIndex | By - AlexeyAdoniev | On - 2022-02-07T18:53:25Z
+ 7. [eae..1c7] contacts save validation | By - AlexeyAdoniev | On - 2022-02-06T21:58:53Z
+ 8. [38c..6f9] qcount query for transactions | By - AlexeyAdoniev | On - 2022-02-02T19:00:19Z
+ 9. [6cc..cfc] pagination skip | By - AlexeyAdoniev | On - 2022-01-29T22:19:25Z
+ 10. [9d4..c27] request flib changed to Request, tests for user flow | By - AlexeyAdoniev | On - 2022-01-23T17:51:45Z
+ 11. [a6d..e74] refactor to get table data with request | By - AlexeyAdoniev | On - 2022-01-23T06:26:47Z
+ 12. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
+ 13. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
+ 14. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
+ 15. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
+ 16. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
+ 17. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
+ 18. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
+ 19. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
+ 20. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
+ 21. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
+ 22. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
+ 23. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
+ 24. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
+ 25. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
+ 26. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
+ 27. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
+ 28. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
+ 29. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
+ 30. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
+ 31. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
+ 32. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
+ 33. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
+ 34. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
+ 35. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
+ 36. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
+ 37. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
+ 38. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
+ 39. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
+ 40. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
+ 41. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
+ 42. [4ad..f28] proxy ENV credentials | By - AlexeyAdoniev | On - 2021-12-23T08:37:02Z
+ 43. [abd..058] puppeteer proxy added + Token active field | By - AlexeyAdoniev | On - 2021-12-23T07:51:06Z
+ 44. [649..27e] bug with url fixed | By - AlexeyAdoniev | On - 2021-12-22T17:28:30Z
+ 45. [1b8..214] statuc route for backoffice | By - AlexeyAdoniev | On - 2021-12-22T17:22:01Z
+ 46. [b51..5d5] track build | By - AlexeyAdoniev | On - 2021-12-22T15:33:08Z
+ 47. [a6b..4e3] delete nested repo | By - AlexeyAdoniev | On - 2021-12-22T15:22:11Z
+ 48. [4db..9f1] update backoffice | By - AlexeyAdoniev | On - 2021-12-22T15:01:12Z
+ 49. [cf9..fcc] build script fix | By - AlexeyAdoniev | On - 2021-12-22T14:03:43Z
+ 50. [0b4..f5e] deploy fix | By - AlexeyAdoniev | On - 2021-12-22T13:52:31Z
+
+## lostTrx
+
+
+ 1. [19d..b9b] scap velas | By - AlexeyAdoniev | On - 2022-05-03T10:08:03Z
+ 2. [6d7..1b5] error reject | By - AlexeyAdoniev | On - 2022-02-15T14:12:48Z
+ 3. [7a8..f75] Root type cheerio | By - AlexeyAdoniev | On - 2022-02-15T13:29:50Z
+ 4. [3bc..be7] update bot settings | By - AlexeyAdoniev | On - 2022-02-15T08:59:45Z
+ 5. [c30..352] scrap settings | By - AlexeyAdoniev | On - 2022-02-13T09:54:37Z
+ 6. [26a..226] puppeteer to request | By - AlexeyAdoniev | On - 2022-02-13T09:42:06Z
+ 7. [b09..049] merge with main | By - AlexeyAdoniev | On - 2022-02-13T08:08:36Z
+ 8. [367..f9f] Etherscan scrap add age prop | By - yura | On - 2022-02-12T19:41:20Z
+ 9. [ce9..b1b] package.json | By - AlexeyAdoniev | On - 2022-02-01T17:51:25Z
+ 10. [691..f6c] ts bug fix | By - AlexeyAdoniev | On - 2022-02-01T17:49:52Z
+ 11. [e57..078] console.log() remove | By - AlexeyAdoniev | On - 2022-02-01T17:46:43Z
+ 12. [2b3..2e6] new page -> new lastHash bug fixed | By - AlexeyAdoniev | On - 2022-02-01T17:44:47Z
+ 13. [339..4e2] fix bug with dublicated disperse token | By - AlexeyAdoniev | On - 2022-02-01T17:07:40Z
+ 14. [2d8..b23] fix bug with undefined lastRow | By - AlexeyAdoniev | On - 2022-02-01T17:04:36Z
+ 15. [63b..adc] dublicates check before notif | By - AlexeyAdoniev | On - 2022-02-01T16:29:38Z
+ 16. [a6d..e74] refactor to get table data with request | By - AlexeyAdoniev | On - 2022-01-23T06:26:47Z
+ 17. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
+ 18. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
+ 19. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
+ 20. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
+ 21. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
+ 22. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
+ 23. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
+ 24. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
+ 25. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
+ 26. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
+ 27. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
+ 28. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
+ 29. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
+ 30. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
+ 31. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
+ 32. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
+ 33. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
+ 34. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
+ 35. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
+ 36. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
+ 37. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
+ 38. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
+ 39. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
+ 40. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
+ 41. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
+ 42. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
+ 43. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
+ 44. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
+ 45. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
+ 46. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
+ 47. [4ad..f28] proxy ENV credentials | By - AlexeyAdoniev | On - 2021-12-23T08:37:02Z
+ 48. [abd..058] puppeteer proxy added + Token active field | By - AlexeyAdoniev | On - 2021-12-23T07:51:06Z
+ 49. [649..27e] bug with url fixed | By - AlexeyAdoniev | On - 2021-12-22T17:28:30Z
+ 50. [1b8..214] statuc route for backoffice | By - AlexeyAdoniev | On - 2021-12-22T17:22:01Z
+
+## main
+
+
+ 1. [6d7..1b5] error reject | By - AlexeyAdoniev | On - 2022-02-15T14:12:48Z
+ 2. [7a8..f75] Root type cheerio | By - AlexeyAdoniev | On - 2022-02-15T13:29:50Z
+ 3. [3bc..be7] update bot settings | By - AlexeyAdoniev | On - 2022-02-15T08:59:45Z
+ 4. [c30..352] scrap settings | By - AlexeyAdoniev | On - 2022-02-13T09:54:37Z
+ 5. [26a..226] puppeteer to request | By - AlexeyAdoniev | On - 2022-02-13T09:42:06Z
+ 6. [b09..049] merge with main | By - AlexeyAdoniev | On - 2022-02-13T08:08:36Z
+ 7. [367..f9f] Etherscan scrap add age prop | By - yura | On - 2022-02-12T19:41:20Z
+ 8. [ce9..b1b] package.json | By - AlexeyAdoniev | On - 2022-02-01T17:51:25Z
+ 9. [691..f6c] ts bug fix | By - AlexeyAdoniev | On - 2022-02-01T17:49:52Z
+ 10. [e57..078] console.log() remove | By - AlexeyAdoniev | On - 2022-02-01T17:46:43Z
+ 11. [2b3..2e6] new page -> new lastHash bug fixed | By - AlexeyAdoniev | On - 2022-02-01T17:44:47Z
+ 12. [339..4e2] fix bug with dublicated disperse token | By - AlexeyAdoniev | On - 2022-02-01T17:07:40Z
+ 13. [2d8..b23] fix bug with undefined lastRow | By - AlexeyAdoniev | On - 2022-02-01T17:04:36Z
+ 14. [63b..adc] dublicates check before notif | By - AlexeyAdoniev | On - 2022-02-01T16:29:38Z
+ 15. [a6d..e74] refactor to get table data with request | By - AlexeyAdoniev | On - 2022-01-23T06:26:47Z
+ 16. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
+ 17. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
+ 18. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
+ 19. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
+ 20. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
+ 21. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
+ 22. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
+ 23. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
+ 24. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
+ 25. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
+ 26. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
+ 27. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
+ 28. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
+ 29. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
+ 30. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
+ 31. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
+ 32. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
+ 33. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
+ 34. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
+ 35. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
+ 36. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
+ 37. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
+ 38. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
+ 39. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
+ 40. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
+ 41. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
+ 42. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
+ 43. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
+ 44. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
+ 45. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
+ 46. [4ad..f28] proxy ENV credentials | By - AlexeyAdoniev | On - 2021-12-23T08:37:02Z
+ 47. [abd..058] puppeteer proxy added + Token active field | By - AlexeyAdoniev | On - 2021-12-23T07:51:06Z
+ 48. [649..27e] bug with url fixed | By - AlexeyAdoniev | On - 2021-12-22T17:28:30Z
+ 49. [1b8..214] statuc route for backoffice | By - AlexeyAdoniev | On - 2021-12-22T17:22:01Z
+ 50. [b51..5d5] track build | By - AlexeyAdoniev | On - 2021-12-22T15:33:08Z
+
+## stable
+
+
+ 1. [367..f9f] Etherscan scrap add age prop | By - yura | On - 2022-02-12T19:41:20Z
+ 2. [ce9..b1b] package.json | By - AlexeyAdoniev | On - 2022-02-01T17:51:25Z
+ 3. [691..f6c] ts bug fix | By - AlexeyAdoniev | On - 2022-02-01T17:49:52Z
+ 4. [e57..078] console.log() remove | By - AlexeyAdoniev | On - 2022-02-01T17:46:43Z
+ 5. [2b3..2e6] new page -> new lastHash bug fixed | By - AlexeyAdoniev | On - 2022-02-01T17:44:47Z
+ 6. [339..4e2] fix bug with dublicated disperse token | By - AlexeyAdoniev | On - 2022-02-01T17:07:40Z
+ 7. [2d8..b23] fix bug with undefined lastRow | By - AlexeyAdoniev | On - 2022-02-01T17:04:36Z
+ 8. [63b..adc] dublicates check before notif | By - AlexeyAdoniev | On - 2022-02-01T16:29:38Z
+ 9. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
+ 10. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
+ 11. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
+ 12. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
+ 13. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
+ 14. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
+ 15. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
+ 16. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
+ 17. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
+ 18. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
+ 19. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
+ 20. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
+ 21. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
+ 22. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
+ 23. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
+ 24. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
+ 25. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
+ 26. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
+ 27. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
+ 28. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
+ 29. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
+ 30. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
+ 31. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
+ 32. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
+ 33. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
+ 34. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
+ 35. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
+ 36. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
+ 37. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
+ 38. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
+ 39. [4ad..f28] proxy ENV credentials | By - AlexeyAdoniev | On - 2021-12-23T08:37:02Z
+ 40. [abd..058] puppeteer proxy added + Token active field | By - AlexeyAdoniev | On - 2021-12-23T07:51:06Z
+ 41. [649..27e] bug with url fixed | By - AlexeyAdoniev | On - 2021-12-22T17:28:30Z
+ 42. [1b8..214] statuc route for backoffice | By - AlexeyAdoniev | On - 2021-12-22T17:22:01Z
+ 43. [b51..5d5] track build | By - AlexeyAdoniev | On - 2021-12-22T15:33:08Z
+ 44. [a6b..4e3] delete nested repo | By - AlexeyAdoniev | On - 2021-12-22T15:22:11Z
+ 45. [4db..9f1] update backoffice | By - AlexeyAdoniev | On - 2021-12-22T15:01:12Z
+ 46. [cf9..fcc] build script fix | By - AlexeyAdoniev | On - 2021-12-22T14:03:43Z
+ 47. [0b4..f5e] deploy fix | By - AlexeyAdoniev | On - 2021-12-22T13:52:31Z
+ 48. [d85..848] deplot bug fix | By - AlexeyAdoniev | On - 2021-12-22T13:50:17Z
+ 49. [ac6..463] fdf | By - AlexeyAdoniev | On - 2021-12-22T13:28:43Z
+ 50. [6aa..e91] backOffice Route | By - AlexeyAdoniev | On - 2021-12-22T13:21:43Z
+
+## staging
+
+
+ 1. [49d..e99] Merge branch 'dev' of https://github.com/xp-network/token-sc-observer into staging | By - AlexeyAdoniev | On - 2022-02-20T09:19:16Z
+ 2. [6c7..9f9] multi delete for contacts and notifs | By - AlexeyAdoniev | On - 2022-02-19T22:45:42Z
+ 3. [6f8..af2] test commit | By - AlexeyAdoniev | On - 2022-02-15T07:50:32Z
+ 4. [be3..463] testy | By - AlexeyAdoniev | On - 2022-02-13T06:18:48Z
+ 5. [466..209] Merge branch 'dev' into staging | By - AlexeyAdoniev | On - 2022-02-10T07:45:48Z
+ 6. [8cd..915] unknown token | By - AlexeyAdoniev | On - 2022-02-10T07:45:33Z
+ 7. [0d1..8b0] Merge branch 'dev' into staging | By - AlexeyAdoniev | On - 2022-02-09T08:03:56Z
+ 8. [b4f..274] Contact service update fix | By - AlexeyAdoniev | On - 2022-02-09T08:03:32Z
+ 9. [3dd..b74] new Route getIndex | By - AlexeyAdoniev | On - 2022-02-07T18:53:25Z
+ 10. [35f..a82] merge with dev branch | By - AlexeyAdoniev | On - 2022-02-06T22:13:23Z
+ 11. [20c..57b] Merge branch 'dev' into staging | By - AlexeyAdoniev | On - 2022-02-06T22:05:18Z
+ 12. [eae..1c7] contacts save validation | By - AlexeyAdoniev | On - 2022-02-06T21:58:53Z
+ 13. [38c..6f9] qcount query for transactions | By - AlexeyAdoniev | On - 2022-02-02T19:00:19Z
+ 14. [6cc..cfc] pagination skip | By - AlexeyAdoniev | On - 2022-01-29T22:19:25Z
+ 15. [9d4..c27] request flib changed to Request, tests for user flow | By - AlexeyAdoniev | On - 2022-01-23T17:51:45Z
+ 16. [a6d..e74] refactor to get table data with request | By - AlexeyAdoniev | On - 2022-01-23T06:26:47Z
+ 17. [072..0bd] limit or contact notif condition | By - AlexeyAdoniev | On - 2022-01-20T12:01:03Z
+ 18. [1df..217] stop conditions on younger date transaction | By - AlexeyAdoniev | On - 2022-01-20T10:42:32Z
+ 19. [5a2..801] file rename | By - yura | On - 2022-01-20T07:26:18Z
+ 20. [707..f54] added age check | By - AlexeyAdoniev | On - 2022-01-19T18:11:12Z
+ 21. [9e2..63c] timeDiff check before notification, check if scrapped Hash null or scrappedData.length > 100 | By - AlexeyAdoniev | On - 2022-01-19T13:57:31Z
+ 22. [93c..cd4] notifier buisness logic change, seperate token price request | By - AlexeyAdoniev | On - 2022-01-18T09:49:27Z
+ 23. [0e5..b2a] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:11:38Z
+ 24. [327..60b] transaction filters and serach | By - AlexeyAdoniev | On - 2022-01-16T14:10:48Z
+ 25. [bfc..c1f] a | By - AlexeyAdoniev | On - 2022-01-10T19:17:16Z
+ 26. [7a4..7d0] fix tsc bugs | By - AlexeyAdoniev | On - 2022-01-09T15:52:46Z
+ 27. [9ed..ddb] user settings added to backoffice | By - AlexeyAdoniev | On - 2022-01-09T15:37:38Z
+ 28. [312..12c] transactions filters and sort api, change notifications get query | By - AlexeyAdoniev | On - 2022-01-08T23:48:44Z
+ 29. [95e..92c] filtering querying in Transaction Service | By - AlexeyAdoniev | On - 2022-01-06T18:26:42Z
+ 30. [143..fe2] notifications fire logic | By - AlexeyAdoniev | On - 2022-01-02T15:00:34Z
+ 31. [064..7f5] Services refactor | By - AlexeyAdoniev | On - 2022-01-01T23:01:21Z
+ 32. [4de..36b] contact CRUD logic(unique, required fields), bug fixes, import from csv change to insertMany | By - AlexeyAdoniev | On - 2021-12-30T17:59:54Z
+ 33. [da5..227] export/import from csv file | By - AlexeyAdoniev | On - 2021-12-29T18:42:44Z
+ 34. [379..d42] added contacts field to Notifications schema | By - AlexeyAdoniev | On - 2021-12-28T17:58:09Z
+ 35. [d55..bd1] Translaion description added | By - AlexeyAdoniev | On - 2021-12-28T12:19:22Z
+ 36. [2a1..78c] token actication in backOffice | By - AlexeyAdoniev | On - 2021-12-27T18:37:40Z
+ 37. [7e2..7e8] bug with adding same token to one org | By - AlexeyAdoniev | On - 2021-12-27T11:58:20Z
+ 38. [826..389] backoffice add molda window, org removal, components code refactor | By - AlexeyAdoniev | On - 2021-12-27T09:36:01Z
+ 39. [2b7..732] backOffice bug fix with same username, Method scenario model | By - AlexeyAdoniev | On - 2021-12-26T18:33:04Z
+ 40. [6dc..71d] fix bug with Notifer Contact name | By - AlexeyAdoniev | On - 2021-12-26T12:45:25Z
+ 41. [3c3..11b] bug fix with lower case address | By - AlexeyAdoniev | On - 2021-12-26T12:41:28Z
+ 42. [afe..d62] Data mapper deletion | By - AlexeyAdoniev | On - 2021-12-25T23:14:46Z
+ 43. [d36..38b] main function, scraper - added error handling, fixed bug with repeated scraping | By - AlexeyAdoniev | On - 2021-12-25T23:07:18Z
+ 44. [cb3..224] data build scraper | By - AlexeyAdoniev | On - 2021-12-23T14:18:05Z
+ 45. [76e..220] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:12:30Z
+ 46. [51f..e98] proxy anonymizeProxy | By - AlexeyAdoniev | On - 2021-12-23T10:11:00Z
+ 47. [ea4..310] config puppeteer | By - AlexeyAdoniev | On - 2021-12-23T09:47:30Z
+ 48. [8a8..0a1] puppeteer config | By - AlexeyAdoniev | On - 2021-12-23T09:45:58Z
+ 49. [b96..d48] username and pass node env | By - AlexeyAdoniev | On - 2021-12-23T09:14:29Z
+ 50. [8fe..2ed] node env | By - AlexeyAdoniev | On - 2021-12-23T09:12:52Z
+
 # xp-solana-integration
 
 ## dependabot/npm_and_yarn/prettier-2.6.2
@@ -1342,202 +1698,6 @@
  48. [a41..4e8] hello worlds mistype fix for Account (#235) | By - olexandr13 | On - 2021-06-11T22:03:29Z
  49. [cc5..a42] Update main.yml | By - joeaba | On - 2021-06-04T04:30:43Z
  50. [498..e29] Update main.yml | By - joeaba | On - 2021-06-04T04:19:31Z
-
-# bridge-explorer-ui
-
-## dev
-
-
- 1. [8a3..d86] added tron and gateChain icons | By - AlexeyAdoniev | On - 2022-04-26T08:01:07Z
- 2. [973..ff4] added gatechain | By - AlexeyAdoniev | On - 2022-04-25T10:22:45Z
- 3. [b6f..a9b] fix bug with .createdAt | By - AlexeyAdoniev | On - 2022-04-04T10:44:03Z
- 4. [88d..119] merge | By - AlexeyAdoniev | On - 2022-04-04T10:37:17Z
- 5. [572..1be] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-04-04T10:24:47Z
- 6. [dca..c35] fix: date again | By - Rishabh Kumar | On - 2022-04-03T13:51:17Z
- 7. [257..3cf] fix: date | By - Rishabh Kumar | On - 2022-04-03T12:46:30Z
- 8. [2a3..b85] fix date | By - Rishabh Kumar | On - 2022-04-03T10:29:59Z
- 9. [a20..c96] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-31T16:04:47Z
- 10. [ce6..f0a] bug fix | By - AlexeyAdoniev | On - 2022-03-31T16:04:39Z
- 11. [cdb..e34] fix paginator label width | By - Rishabh Kumar | On - 2022-03-27T12:08:39Z
- 12. [407..428] fix cards | By - Rishabh Kumar | On - 2022-03-22T10:44:32Z
- 13. [5f1..d8a] add overlay bg | By - Rishabh Kumar | On - 2022-03-22T10:11:46Z
- 14. [252..562] fix csv modal mobile | By - Rishabh Kumar | On - 2022-03-22T10:09:23Z
- 15. [051..4e0] merge | By - AlexeyAdoniev | On - 2022-03-21T14:06:56Z
- 16. [563..6fa] bugs fix in paginator and CSV download | By - AlexeyAdoniev | On - 2022-03-21T13:41:48Z
- 17. [a9d..32a] remove error | By - Rishabh Kumar | On - 2022-03-21T12:06:16Z
- 18. [040..5aa] remove error | By - Rishabh Kumar | On - 2022-03-21T12:03:17Z
- 19. [e8a..eda] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-21T11:05:22Z
- 20. [bc1..003] date foramt change | By - AlexeyAdoniev | On - 2022-03-21T11:05:19Z
- 21. [1d5..7a7] add overlay bg | By - Rishabh Kumar | On - 2022-03-21T11:00:24Z
- 22. [16b..ea8] fix search bar width | By - Rishabh Kumar | On - 2022-03-21T10:46:45Z
- 23. [cd5..dea] fix spacing | By - Rishabh Kumar | On - 2022-03-21T10:31:58Z
- 24. [41c..363] IoTeX to Iotex | By - Rishabh Kumar | On - 2022-03-21T08:48:44Z
- 25. [b49..765] fix spacing | By - Rishabh Kumar | On - 2022-03-21T08:45:53Z
- 26. [10e..f44] put search bar under cards | By - Rishabh Kumar | On - 2022-03-21T08:30:06Z
- 27. [68f..bae] pagginator btn fix | By - AlexeyAdoniev | On - 2022-03-21T07:53:30Z
- 28. [27d..589] bugs | By - AlexeyAdoniev | On - 2022-03-20T18:53:36Z
- 29. [ee7..df8] comment out safarihack | By - Rishabh Kumar | On - 2022-03-20T15:07:16Z
- 30. [fd1..d1f] fix | By - Rishabh Kumar | On - 2022-03-20T15:00:33Z
- 31. [e69..9ae] fix divide-y | By - Rishabh Kumar | On - 2022-03-20T14:40:00Z
- 32. [2bb..ec1] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:21:50Z
- 33. [032..c45] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:06:23Z
- 34. [0e3..573] clear dropdown after submit | By - Rishabh Kumar | On - 2022-03-20T13:50:22Z
- 35. [85a..939] add whitespace nowrap to explorer events heading | By - Rishabh Kumar | On - 2022-03-20T13:27:02Z
- 36. [d89..762] fix cvs modal input width | By - Rishabh Kumar | On - 2022-03-20T13:23:52Z
- 37. [ae4..40b] fix padding | By - Rishabh Kumar | On - 2022-03-20T13:18:57Z
- 38. [497..10b] add rounded corner to card  in mobile | By - Rishabh Kumar | On - 2022-03-20T12:46:20Z
- 39. [1e5..21f] change search bar location | By - Rishabh Kumar | On - 2022-03-20T12:43:04Z
- 40. [111..cc5] remove selected chain from dropdown in tools | By - Rishabh Kumar | On - 2022-03-20T12:41:03Z
- 41. [995..537] fix explorer events  style | By - Rishabh Kumar | On - 2022-03-20T12:24:56Z
- 42. [129..d3c] change status color | By - Rishabh Kumar | On - 2022-03-20T12:10:38Z
- 43. [0e0..809] tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:50:47Z
- 44. [681..a7d] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:46:19Z
- 45. [375..0eb] fix card text color | By - Rishabh Kumar | On - 2022-03-20T11:37:52Z
- 46. [fef..1f9] Merge branch 'dev' of github.com:XP-NETWORK/bridge-explorer-ui into dev | By - Rishabh Kumar | On - 2022-03-20T11:32:44Z
- 47. [859..f81] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:32:33Z
- 48. [7c7..e1e] merge rishab | By - AlexeyAdoniev | On - 2022-03-20T11:19:05Z
- 49. [7b7..a87] tezos add to config | By - AlexeyAdoniev | On - 2022-03-20T11:17:37Z
- 50. [d55..d4d] fix modal | By - Rishabh Kumar | On - 2022-03-20T11:10:30Z
-
-## main
-
-
- 1. [4a2..5de] deploy: update build scripts | By - Rishabh Kumar | On - 2022-02-08T07:34:14Z
- 2. [cd5..c84] Merge pull request #1 from XP-NETWORK/dev | By - Rishabh Kumar | On - 2022-02-08T07:23:10Z
- 3. [ede..0a5] actions: seprate out actions for diff env | By - Rishabh Kumar | On - 2022-02-08T07:20:49Z
- 4. [aac..5fc] remove name | By - Rishabh Kumar | On - 2022-02-08T07:18:23Z
- 5. [932..cdd] add deploy to s3 action | By - Rishabh Kumar | On - 2022-02-08T07:14:56Z
- 6. [5e9..fa8] fix: typo Bridige to Bridge | By - Rishabh Kumar | On - 2022-02-07T13:22:33Z
- 7. [f66..7e9] fix: validate dom error | By - Rishabh Kumar | On - 2022-02-07T13:19:07Z
- 8. [0d4..db8] add nft img uri to event | By - Rishabh Kumar | On - 2022-02-07T13:17:24Z
- 9. [d3e..55f] fix: createdAt.toUTCString() | By - Rishabh Kumar | On - 2022-02-07T12:50:14Z
- 10. [ae7..c91] add createdAt to event | By - Rishabh Kumar | On - 2022-02-07T12:38:54Z
- 11. [830..58e] make navbar responsive | By - Rishabh Kumar | On - 2022-02-07T12:05:09Z
- 12. [217..aa9] fetch events from api | By - Rishabh Kumar | On - 2022-02-07T11:13:29Z
- 13. [233..212] add footer | By - Rishabh Kumar | On - 2022-02-07T10:26:08Z
- 14. [10e..39e] add explorer events | By - Rishabh Kumar | On - 2022-02-07T09:41:30Z
- 15. [7dc..ae1] add search bar | By - Rishabh Kumar | On - 2022-02-07T09:09:55Z
- 16. [d13..71c] add bg color and shadow to navbar | By - Rishabh Kumar | On - 2022-02-06T15:42:10Z
- 17. [42d..b24] add explorer cards | By - Rishabh Kumar | On - 2022-02-06T15:39:56Z
- 18. [78d..3a6] add bg color to body | By - Rishabh Kumar | On - 2022-02-06T15:24:16Z
- 19. [286..b68] make classname optional in container | By - Rishabh Kumar | On - 2022-02-06T14:29:50Z
- 20. [9ff..897] add padding to container | By - Rishabh Kumar | On - 2022-02-06T14:22:01Z
- 21. [abc..441] refactor navbar with container | By - Rishabh Kumar | On - 2022-02-06T14:20:21Z
- 22. [263..cd0] add container | By - Rishabh Kumar | On - 2022-02-06T14:20:02Z
- 23. [0bb..bf8] add navbar | By - Rishabh Kumar | On - 2022-02-06T14:11:42Z
- 24. [b38..1d3] refactor | By - Rishabh Kumar | On - 2022-02-06T10:30:35Z
- 25. [8d5..02e] Add explorer page | By - Rishabh Kumar | On - 2022-02-06T10:21:48Z
- 26. [ddb..483] add react-router | By - Rishabh Kumar | On - 2022-02-06T10:11:41Z
- 27. [efc..397] add tailwind | By - Rishabh Kumar | On - 2022-02-06T09:56:18Z
- 28. [6d6..425] init | By - Rishabh Kumar | On - 2022-02-06T09:50:43Z
-
-## metrica
-
-
- 1. [0d7..9a6] add rounded corner to nft video | By - Rishabh Kumar | On - 2022-03-06T12:04:34Z
- 2. [374..5e3] add animation to nft in details page | By - Rishabh Kumar | On - 2022-03-06T12:01:04Z
- 3. [a73..65c] add tx value column | By - AlexeyAdoniev | On - 2022-03-02T09:56:37Z
- 4. [89e..9f8] index | By - AlexeyAdoniev | On - 2022-03-01T18:06:15Z
- 5. [884..c7a] ethers lib ultils | By - AlexeyAdoniev | On - 2022-03-01T16:43:44Z
- 6. [dff..929] network | By - AlexeyAdoniev | On - 2022-03-01T13:12:38Z
- 7. [440..059] details Comp | By - AlexeyAdoniev | On - 2022-03-01T10:37:26Z
- 8. [f8d..504] loading span | By - AlexeyAdoniev | On - 2022-02-28T18:26:27Z
- 9. [ca7..a19] new Details component | By - AlexeyAdoniev | On - 2022-02-28T18:16:53Z
- 10. [20d..fb3] change urls | By - AlexeyAdoniev | On - 2022-02-27T08:09:56Z
- 11. [4d1..d90] nft loader | By - AlexeyAdoniev | On - 2022-02-24T18:10:12Z
- 12. [dd8..ffc] socket event update | By - AlexeyAdoniev | On - 2022-02-24T11:56:00Z
- 13. [711..8c8] update state on socket | By - AlexeyAdoniev | On - 2022-02-23T18:38:40Z
- 14. [1b8..33d] urls | By - AlexeyAdoniev | On - 2022-02-23T09:37:36Z
- 15. [2f3..ae0] sockets sett | By - AlexeyAdoniev | On - 2022-02-22T23:07:01Z
- 16. [397..a32] dashboard page template | By - AlexeyAdoniev | On - 2022-02-22T14:32:38Z
- 17. [7a4..686] added BreadCrumbs component in Explorer | By - AlexeyAdoniev | On - 2022-02-22T13:27:44Z
- 18. [3ef..3f8] copy button tooltip on tx page | By - AlexeyAdoniev | On - 2022-02-22T12:10:07Z
- 19. [cac..6fe] fix | By - Rishabh Kumar | On - 2022-02-21T18:18:49Z
- 20. [a2b..bb1] open bridge link in new tab in navbar | By - Rishabh Kumar | On - 2022-02-21T12:41:20Z
- 21. [e37..9d7] refactor event details | By - Rishabh Kumar | On - 2022-02-21T12:10:56Z
- 22. [922..a97] fix: search | By - Rishabh Kumar | On - 2022-02-21T09:10:29Z
- 23. [34c..665] add loading insted of no events found | By - Rishabh Kumar | On - 2022-02-21T08:18:00Z
- 24. [583..a6f] fix: date format in event details | By - Rishabh Kumar | On - 2022-02-20T15:35:34Z
- 25. [480..ead] add copy btn | By - Rishabh Kumar | On - 2022-02-20T14:50:56Z
- 26. [561..413] fix: event details text color | By - Rishabh Kumar | On - 2022-02-20T14:06:44Z
- 27. [01b..a96] add bridge link in navbar | By - Rishabh Kumar | On - 2022-02-20T14:05:08Z
- 28. [875..4d9] add https://xp.network link to footer | By - Rishabh Kumar | On - 2022-02-20T13:57:26Z
- 29. [3ab..a74] add fromChainName and toChainName | By - Rishabh Kumar | On - 2022-02-20T13:55:19Z
- 30. [0b9..a69] open navbar logo in new tab | By - Rishabh Kumar | On - 2022-02-19T14:20:09Z
- 31. [837..da5] fix: text size | By - Rishabh Kumar | On - 2022-02-19T14:19:11Z
- 32. [622..4da] fix: status style | By - Rishabh Kumar | On - 2022-02-19T14:16:20Z
- 33. [fb7..048] add latest commit | By - Rishabh Kumar | On - 2022-02-19T13:36:02Z
- 34. [a7a..626] add title and hr | By - Rishabh Kumar | On - 2022-02-17T13:22:28Z
- 35. [add..eec] XPNET-JS to XPJS in footer | By - Rishabh Kumar | On - 2022-02-17T12:10:38Z
- 36. [f8e..456] dont open email and phone in new tab | By - Rishabh Kumar | On - 2022-02-17T12:09:11Z
- 37. [242..837] shift transction details column for right | By - Rishabh Kumar | On - 2022-02-17T11:52:58Z
- 38. [ff8..509] change icon and title | By - Rishabh Kumar | On - 2022-02-17T11:46:54Z
- 39. [811..662] fix: event details style | By - Rishabh Kumar | On - 2022-02-17T11:39:00Z
- 40. [2df..e50] font to poppins in footer | By - Rishabh Kumar | On - 2022-02-17T11:12:27Z
- 41. [9bf..b47] change shadow style | By - Rishabh Kumar | On - 2022-02-17T11:06:15Z
- 42. [f20..08a] change text color on event details | By - Rishabh Kumar | On - 2022-02-17T10:50:57Z
- 43. [1e0..399] fix: text color in event details | By - Rishabh Kumar | On - 2022-02-16T15:05:30Z
- 44. [c71..40d] change footer style | By - Rishabh Kumar | On - 2022-02-16T14:51:44Z
- 45. [4d3..71d] change links color | By - Rishabh Kumar | On - 2022-02-16T14:11:50Z
- 46. [df8..22b] change text-size to sm | By - Rishabh Kumar | On - 2022-02-16T13:49:36Z
- 47. [0f7..2fe] remove number column from explorer events | By - Rishabh Kumar | On - 2022-02-16T13:42:15Z
- 48. [41e..a86] remove duplicate nft description | By - Rishabh Kumar | On - 2022-02-16T13:40:48Z
- 49. [bc6..7ff] increase margin top of footer | By - Rishabh Kumar | On - 2022-02-16T13:33:52Z
- 50. [018..064] remove unnecessary imports | By - Rishabh Kumar | On - 2022-02-16T13:30:58Z
-
-## testnet
-
-
- 1. [24c..db6] change constns2 | By - AlexeyAdoniev | On - 2022-04-28T12:06:52Z
- 2. [6bc..eff] change const | By - AlexeyAdoniev | On - 2022-04-28T11:46:23Z
- 3. [9d2..85b] testnet add algorand, bsc, polygon. nftParse for wrapped nft, helpers for formatEthers | By - AlexeyAdoniev | On - 2022-04-28T08:40:30Z
- 4. [8a3..d86] added tron and gateChain icons | By - AlexeyAdoniev | On - 2022-04-26T08:01:07Z
- 5. [973..ff4] added gatechain | By - AlexeyAdoniev | On - 2022-04-25T10:22:45Z
- 6. [b6f..a9b] fix bug with .createdAt | By - AlexeyAdoniev | On - 2022-04-04T10:44:03Z
- 7. [88d..119] merge | By - AlexeyAdoniev | On - 2022-04-04T10:37:17Z
- 8. [572..1be] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-04-04T10:24:47Z
- 9. [dca..c35] fix: date again | By - Rishabh Kumar | On - 2022-04-03T13:51:17Z
- 10. [257..3cf] fix: date | By - Rishabh Kumar | On - 2022-04-03T12:46:30Z
- 11. [2a3..b85] fix date | By - Rishabh Kumar | On - 2022-04-03T10:29:59Z
- 12. [a20..c96] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-31T16:04:47Z
- 13. [ce6..f0a] bug fix | By - AlexeyAdoniev | On - 2022-03-31T16:04:39Z
- 14. [cdb..e34] fix paginator label width | By - Rishabh Kumar | On - 2022-03-27T12:08:39Z
- 15. [407..428] fix cards | By - Rishabh Kumar | On - 2022-03-22T10:44:32Z
- 16. [5f1..d8a] add overlay bg | By - Rishabh Kumar | On - 2022-03-22T10:11:46Z
- 17. [252..562] fix csv modal mobile | By - Rishabh Kumar | On - 2022-03-22T10:09:23Z
- 18. [051..4e0] merge | By - AlexeyAdoniev | On - 2022-03-21T14:06:56Z
- 19. [563..6fa] bugs fix in paginator and CSV download | By - AlexeyAdoniev | On - 2022-03-21T13:41:48Z
- 20. [a9d..32a] remove error | By - Rishabh Kumar | On - 2022-03-21T12:06:16Z
- 21. [040..5aa] remove error | By - Rishabh Kumar | On - 2022-03-21T12:03:17Z
- 22. [e8a..eda] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-21T11:05:22Z
- 23. [bc1..003] date foramt change | By - AlexeyAdoniev | On - 2022-03-21T11:05:19Z
- 24. [1d5..7a7] add overlay bg | By - Rishabh Kumar | On - 2022-03-21T11:00:24Z
- 25. [16b..ea8] fix search bar width | By - Rishabh Kumar | On - 2022-03-21T10:46:45Z
- 26. [cd5..dea] fix spacing | By - Rishabh Kumar | On - 2022-03-21T10:31:58Z
- 27. [41c..363] IoTeX to Iotex | By - Rishabh Kumar | On - 2022-03-21T08:48:44Z
- 28. [b49..765] fix spacing | By - Rishabh Kumar | On - 2022-03-21T08:45:53Z
- 29. [10e..f44] put search bar under cards | By - Rishabh Kumar | On - 2022-03-21T08:30:06Z
- 30. [68f..bae] pagginator btn fix | By - AlexeyAdoniev | On - 2022-03-21T07:53:30Z
- 31. [27d..589] bugs | By - AlexeyAdoniev | On - 2022-03-20T18:53:36Z
- 32. [ee7..df8] comment out safarihack | By - Rishabh Kumar | On - 2022-03-20T15:07:16Z
- 33. [fd1..d1f] fix | By - Rishabh Kumar | On - 2022-03-20T15:00:33Z
- 34. [e69..9ae] fix divide-y | By - Rishabh Kumar | On - 2022-03-20T14:40:00Z
- 35. [2bb..ec1] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:21:50Z
- 36. [032..c45] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:06:23Z
- 37. [0e3..573] clear dropdown after submit | By - Rishabh Kumar | On - 2022-03-20T13:50:22Z
- 38. [85a..939] add whitespace nowrap to explorer events heading | By - Rishabh Kumar | On - 2022-03-20T13:27:02Z
- 39. [d89..762] fix cvs modal input width | By - Rishabh Kumar | On - 2022-03-20T13:23:52Z
- 40. [ae4..40b] fix padding | By - Rishabh Kumar | On - 2022-03-20T13:18:57Z
- 41. [497..10b] add rounded corner to card  in mobile | By - Rishabh Kumar | On - 2022-03-20T12:46:20Z
- 42. [1e5..21f] change search bar location | By - Rishabh Kumar | On - 2022-03-20T12:43:04Z
- 43. [111..cc5] remove selected chain from dropdown in tools | By - Rishabh Kumar | On - 2022-03-20T12:41:03Z
- 44. [995..537] fix explorer events  style | By - Rishabh Kumar | On - 2022-03-20T12:24:56Z
- 45. [129..d3c] change status color | By - Rishabh Kumar | On - 2022-03-20T12:10:38Z
- 46. [0e0..809] tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:50:47Z
- 47. [681..a7d] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:46:19Z
- 48. [375..0eb] fix card text color | By - Rishabh Kumar | On - 2022-03-20T11:37:52Z
- 49. [fef..1f9] Merge branch 'dev' of github.com:XP-NETWORK/bridge-explorer-ui into dev | By - Rishabh Kumar | On - 2022-03-20T11:32:44Z
- 50. [859..f81] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:32:33Z
 
 # secret-bridge
 
@@ -1933,33 +2093,6 @@
  30. [fdc..dde] initial status route | By - rupansh | On - 2021-11-14T13:00:44Z
  31. [39f..d8c] initial import | By - rupansh | On - 2021-11-07T15:51:08Z
 
-# tx-socket
-
-## master
-
-
- 1. [cf3..077] minor cleanup | By - rupansh | On - 2022-04-05T12:33:43Z
- 2. [854..762] update .env.example | By - rupansh | On - 2022-04-05T12:30:46Z
- 3. [969..fe4] algorand fixes | By - rupansh | On - 2022-04-05T12:29:48Z
- 4. [b90..524] cors: fix | By - imsk17 | On - 2022-03-28T11:07:25Z
- 5. [2e4..9cd] deploy(heroku): add a procfile | By - imsk17 | On - 2022-03-06T11:01:40Z
- 6. [f03..d6c] add from_chain to tx_event | By - rupansh | On - 2022-02-20T08:55:14Z
- 7. [1d5..19b] add start script | By - Dima Brook | On - 2022-02-17T10:10:51Z
- 8. [e05..420] minor fixes | By - rupansh | On - 2021-12-14T09:49:57Z
- 9. [00d..bfd] algorand: return early if no nfts are available in db | By - rupansh | On - 2021-12-14T09:33:16Z
- 10. [5d7..f95] algorand: add delete query | By - rupansh | On - 2021-12-14T09:31:38Z
- 11. [471..f26] algorand: add getter for all claim info by owner | By - rupansh | On - 2021-12-09T10:20:40Z
- 12. [b67..1aa] algorand: minor change to claim nft getter | By - rupansh | On - 2021-12-09T10:05:40Z
- 13. [7b4..33e] algorand: search for events by owner and actionId | By - rupansh | On - 2021-12-09T09:49:01Z
- 14. [de4..022] fix(mongo): create index on receiver | By - imsk17 | On - 2021-12-08T14:01:28Z
- 15. [328..edf] feat(algorand): add getter for events | By - imsk17 | On - 2021-12-08T13:56:56Z
- 16. [119..61f] feat(algorand): persist txn to mongo | By - imsk17 | On - 2021-12-08T13:11:10Z
- 17. [29f..2cf] feat(algorand): add owner for txn persistence | By - imsk17 | On - 2021-12-08T11:24:46Z
- 18. [9c1..5c3] add event for algorand minting | By - rupansh | On - 2021-11-21T11:55:26Z
- 19. [7eb..685] fix minor derps | By - rupansh | On - 2021-11-20T14:17:22Z
- 20. [767..5a5] use hash for event secret | By - rupansh | On - 2021-11-20T14:00:36Z
- 21. [c3c..8c9] initial import | By - rupansh | On - 2021-11-20T13:20:39Z
-
 # web-endpoints
 
 ## master
@@ -2014,62 +2147,6 @@
  17. [711..208] Create bridge_deployment.md | By - Dima Brook | On - 2022-02-13T11:34:22Z
  18. [823..62f] Create algorand-deployment.md | By - Dima Brook | On - 2021-12-06T18:11:40Z
  19. [633..645] Create heroku-nft-index.md | By - Dima Brook | On - 2021-12-01T19:06:03Z
-
-# new-xp-website
-
-## main
-
-
- 1. [930..be1] merge with finance page | By - AlexeyAdoniev | On - 2022-03-31T06:38:55Z
- 2. [469..a34] snafu page | By - AlexeyAdoniev | On - 2022-03-31T06:23:07Z
- 3. [3be..0a8] new field Email for plan from | By - AlexeyAdoniev | On - 2022-03-30T14:33:17Z
- 4. [72c..f7f] snafu and finance pages | By - AlexeyAdoniev | On - 2022-03-30T11:05:37Z
- 5. [2ed..916] meta images, bug with nav menu icons | By - AlexeyAdoniev | On - 2022-03-21T15:49:56Z
- 6. [b7b..ce3] meta images and job apply file size error bug fix | By - AlexeyAdoniev | On - 2022-03-02T18:46:43Z
- 7. [81b..70b] spell mistake fix | By - AlexeyAdoniev | On - 2022-02-20T12:57:39Z
- 8. [1f0..d65] logos | By - AlexeyAdoniev | On - 2022-02-17T18:58:09Z
- 9. [1ae..412] bugs fix | By - AlexeyAdoniev | On - 2022-02-16T15:21:20Z
- 10. [713..ada] menu animation toggle fix | By - AlexeyAdoniev | On - 2022-02-15T18:48:55Z
- 11. [3db..958] bg mobile homepage | By - AlexeyAdoniev | On - 2022-02-15T17:47:23Z
- 12. [08e..9c4] small bug with photos | By - AlexeyAdoniev | On - 2022-02-15T12:25:40Z
- 13. [ab0..13d] image meta 3 | By - AlexeyAdoniev | On - 2022-02-15T12:19:58Z
- 14. [699..0ab] meta images2 | By - AlexeyAdoniev | On - 2022-02-15T11:53:50Z
- 15. [26a..ad7] meta images | By - AlexeyAdoniev | On - 2022-02-15T11:37:33Z
- 16. [e0f..7b8] fixes | By - AlexeyAdoniev | On - 2022-02-15T10:32:32Z
- 17. [5dd..de8] merge with alex | By - AlexeyAdoniev | On - 2022-02-15T08:40:40Z
- 18. [4ad..3eb] chain links | By - AlexeyAdoniev | On - 2022-02-15T08:39:51Z
- 19. [d37..e59] change meta image to short name | By - AlexXPnetwork | On - 2022-02-15T08:32:56Z
- 20. [7c4..f25] tezos order | By - AlexeyAdoniev | On - 2022-02-15T08:28:28Z
- 21. [8c4..620] fixes file size | By - AlexXPnetwork | On - 2022-02-14T23:22:06Z
- 22. [f0f..8ab] add elrond | By - AlexXPnetwork | On - 2022-02-14T21:58:07Z
- 23. [cac..704] fix scroll | By - AlexXPnetwork | On - 2022-02-14T20:35:01Z
- 24. [8e0..1cc] description | By - AlexXPnetwork | On - 2022-02-14T20:17:14Z
- 25. [047..5fc] Polygon | By - AlexXPnetwork | On - 2022-02-14T20:04:28Z
- 26. [61a..4d2] psik | By - AlexXPnetwork | On - 2022-02-14T19:38:29Z
- 27. [493..891] Tezos Ecosystem | By - AlexXPnetwork | On - 2022-02-14T19:36:37Z
- 28. [749..821] tazoz | By - AlexXPnetwork | On - 2022-02-14T19:33:40Z
- 29. [07f..14f] fix navbar fixed | By - AlexXPnetwork | On - 2022-02-14T18:41:48Z
- 30. [9fc..4c0] navbar fixed | By - AlexXPnetwork | On - 2022-02-14T18:21:52Z
- 31. [50f..0e2] title home page fix | By - AlexXPnetwork | On - 2022-02-14T17:59:12Z
- 32. [a0f..64b] move all routers to staging | By - AlexXPnetwork | On - 2022-02-14T17:32:40Z
- 33. [730..804] appliction work | By - AlexXPnetwork | On - 2022-02-14T17:25:34Z
- 34. [415..229] chnage community from apply to coming soon | By - AlexXPnetwork | On - 2022-02-14T16:19:29Z
- 35. [6d5..c4a] add new text to snafu | By - AlexXPnetwork | On - 2022-02-14T14:51:20Z
- 36. [618..988] snafu | By - AlexXPnetwork | On - 2022-02-14T14:45:40Z
- 37. [bbc..5c7] assets | By - AlexeyAdoniev | On - 2022-02-14T13:55:28Z
- 38. [70d..1e1] broken pics fix | By - AlexeyAdoniev | On - 2022-02-14T13:36:09Z
- 39. [7ba..b92] justin and ben | By - AlexeyAdoniev | On - 2022-02-14T13:17:25Z
- 40. [5d7..c09] ben photos | By - AlexeyAdoniev | On - 2022-02-14T13:06:17Z
- 41. [897..e57] Add the bridge to your dApp in under 60 minutes change | By - AlexXPnetwork | On - 2022-02-14T12:41:43Z
- 42. [ff5..f86] merge with alex | By - AlexeyAdoniev | On - 2022-02-14T12:38:06Z
- 43. [01c..8fb] comments change on api | By - AlexeyAdoniev | On - 2022-02-14T12:37:41Z
- 44. [cc4..29f] fix title text | By - AlexXPnetwork | On - 2022-02-14T12:33:38Z
- 45. [509..099] fix apply | By - AlexXPnetwork | On - 2022-02-14T12:29:11Z
- 46. [37e..bc3] fixes | By - AlexXPnetwork | On - 2022-02-14T12:18:11Z
- 47. [cfc..583] stylechange | By - AlexeyAdoniev | On - 2022-02-14T12:16:02Z
- 48. [9ae..213] fix between mobile and desktop line frduebt | By - AlexXPnetwork | On - 2022-02-14T12:10:38Z
- 49. [b7b..a36] a | By - AlexeyAdoniev | On - 2022-02-14T11:55:01Z
- 50. [ce4..dde] photo edit, xpjs change | By - AlexeyAdoniev | On - 2022-02-14T11:52:54Z
 
 # deploying_tezos
 

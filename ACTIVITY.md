@@ -1,1132 +1,4 @@
-# migration-validator
-
-## aurora
-
-
- 1. [a8b..11f] signal: redosig: fix minor derp | By - rupansh | On - 2022-04-18T18:57:35Z
- 2. [d45..ff6] signal: redosig: race condition workarounds | By - rupansh | On - 2022-04-18T18:52:34Z
- 3. [693..b05] signal: redoAggregateSig: prefix redoid with 0x | By - rupansh | On - 2022-04-18T17:56:19Z
- 4. [c48..5d9] signal: redosig: verify old signature before regenerating | By - rupansh | On - 2022-04-17T19:59:24Z
- 5. [7fa..511] redo sig on verification failure | By - rupansh | On - 2022-04-17T19:53:33Z
- 6. [5c2..e9b] Revert "bridge: redo aggregation if sending txn failed due to `failed to verify signature`" | By - rupansh | On - 2022-04-12T14:04:06Z
- 7. [50a..8e3] bridge: redo aggregation if sending txn failed due to `failed to verify signature` | By - rupansh | On - 2022-04-12T13:49:51Z
- 8. [146..9ae] tsconfig: enable skipLibCheck | By - rupansh | On - 2022-04-12T13:01:29Z
- 9. [dc0..1f9] use custom block.chainid for aurora | By - rupansh | On - 2022-04-12T13:01:14Z
- 10. [c1f..be9] package: bump elrond | By - rupansh | On - 2022-03-26T18:19:56Z
- 11. [353..581] elrond: await sync before handling again | By - rupansh | On - 2022-03-26T18:18:32Z
- 12. [d8a..def] elrond: increment nonce in advance | By - rupansh | On - 2022-03-26T17:37:00Z
- 13. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
- 14. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
- 15. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
- 16. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
- 17. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
- 18. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
- 19. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
- 20. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
- 21. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
- 22. [0f0..634] husky: add a pre commit hook for lint | By - imsk17 | On - 2022-03-15T17:15:10Z
- 23. [d41..0cc] bridge: handlers: tron: adapt web3 serializers for tron | By - imsk17 | On - 2022-03-15T17:14:42Z
- 24. [638..5f6] Merge pull request #8 from XP-NETWORK/features/tezos | By - Sumit Kumar | On - 2022-03-15T17:08:56Z
- 25. [79f..bf8] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T16:49:59Z
- 26. [082..543] add documentation for optional fields | By - rupansh | On - 2022-03-13T19:26:44Z
- 27. [faf..68f] elrond: initial royalties support | By - rupansh | On - 2022-03-13T19:21:04Z
- 28. [28b..ab2] tezos: minor fixes | By - rupansh | On - 2022-03-13T18:55:03Z
- 29. [304..8f6] tezos: update for contract changes | By - rupansh | On - 2022-03-13T14:08:40Z
- 30. [8e6..fac] evm: fix import order | By - rupansh | On - 2022-03-13T13:14:38Z
- 31. [1e7..6b9] fix compilation | By - rupansh | On - 2022-03-13T12:12:06Z
- 32. [f44..770] add event listener | By - rocalex | On - 2022-03-13T07:23:47Z
- 33. [b16..64b] transfer/unfreeze nft | By - rocalex | On - 2022-03-13T06:03:20Z
- 34. [4e4..aff] config tezos handler | By - rocalex | On - 2022-03-13T05:29:35Z
- 35. [126..5a5] initial | By - rocalex | On - 2022-03-10T15:25:22Z
- 36. [6c9..bad] gas number to string | By - Ruby Edelstein | On - 2022-03-08T14:14:22Z
- 37. [336..900] add polygon gasstation | By - Ruby Edelstein | On - 2022-03-08T14:10:31Z
- 38. [660..d65] Update web3.ts | By - VKint | On - 2022-03-08T13:04:06Z
- 39. [51d..8fa] set txfees for transfers | By - rupansh | On - 2022-03-03T18:21:34Z
- 40. [2a6..058] handlers: elrond: fix gas limit | By - rupansh | On - 2022-03-03T18:13:51Z
- 41. [69d..83f] use baseURL in erc721 metadata | By - rupansh | On - 2022-03-03T18:13:06Z
- 42. [36a..e1a] elrond: put metadata on ipfs as well | By - rupansh | On - 2022-03-03T18:10:15Z
- 43. [39e..b67] reset emitted action after adding offset | By - rupansh | On - 2022-03-03T16:46:16Z
- 44. [a46..339] Add actionId offset env | By - rupansh | On - 2022-03-03T12:03:35Z
- 45. [21d..a14] Merge pull request #6 from XP-NETWORK/aurora | By - VKint | On - 2022-03-03T10:32:42Z
- 46. [f07..5cd] packages: exchange-rate: bump to latest | By - imsk17 | On - 2022-03-03T10:31:53Z
- 47. [cd6..882] handlers: improve erc721MetadataWrap | By - rupansh | On - 2022-03-01T17:19:17Z
- 48. [1f2..b6e] web3: use 60gwei as workawround for polygon | By - rupansh | On - 2022-03-01T12:54:24Z
- 49. [c71..73a] fantom: disable block.chainid workaround | By - rupansh | On - 2022-03-01T10:43:07Z
- 50. [43c..319] bridge: handlers: improve ipfs url detection | By - rupansh | On - 2022-02-27T10:35:13Z
-
-## ed25519
-
-
- 1. [75b..f25] initial dfinity bringup | By - rupansh | On - 2022-06-27T12:28:17Z
- 2. [b7a..af6] TON: use proper currency | By - rupansh | On - 2022-06-25T11:39:16Z
- 3. [427..605] update chain nonces for solana,ton | By - rupansh | On - 2022-06-25T09:54:33Z
- 4. [22d..614] fix compilation | By - rupansh | On - 2022-06-25T09:32:34Z
- 5. [2f6..9e0] ton: initial event deserialization | By - rupansh | On - 2022-06-23T17:21:13Z
- 6. [454..fcf] ton: initial event handlers and minor fixes | By - rupansh | On - 2022-06-21T15:34:15Z
- 7. [4b8..437] solana: fix decimals | By - rupansh | On - 2022-06-21T13:05:10Z
- 8. [c8e..7ae] TON: fix event serialization | By - rupansh | On - 2022-06-21T13:03:02Z
- 9. [315..30d] solana: event fixes | By - rupansh | On - 2022-06-20T19:01:00Z
- 10. [080..ac0] solana: get action id from event | By - rupansh | On - 2022-06-20T18:42:00Z
- 11. [319..0c2] TON: partially move serialization to the contract | By - rupansh | On - 2022-06-19T17:50:36Z
- 12. [286..02c] initial TON boilerplate | By - rupansh | On - 2022-06-19T17:42:19Z
- 13. [28a..25e] solana: initial event decoding | By - rupansh | On - 2022-06-19T16:39:08Z
- 14. [8f8..48d] add support for SHA256 based FROST ED25519 signatures | By - rupansh | On - 2022-06-17T18:25:24Z
- 15. [dc9..b25] solana: unfreeze updates | By - rupansh | On - 2022-06-17T17:52:33Z
- 16. [116..99c] solana: initial unfreeze | By - rupansh | On - 2022-06-13T19:36:30Z
- 17. [1ff..28a] initial partial solana implementation | By - rupansh | On - 2022-06-12T14:08:57Z
- 18. [308..2d7] handlers: secret: fixes | By - imsk17 | On - 2022-06-09T11:51:40Z
- 19. [fa1..857] secret: wrapping: use correct field for metadata | By - imsk17 | On - 2022-06-07T15:33:03Z
- 20. [b22..7db] lint: fix eslint issues | By - imsk17 | On - 2022-06-03T11:00:06Z
- 21. [c69..df0] LINT | By - imsk17 | On - 2022-05-31T13:16:12Z
- 22. [990..414] [TEMP]: signal: remove sig verification | By - rupansh | On - 2022-05-25T14:44:09Z
- 23. [9fa..747] frost: sr25519: use sr25519KeypairFromSeed for converting priv key | By - rupansh | On - 2022-05-24T19:54:30Z
- 24. [8bd..6d6] polkadot-wasm: add peer dep | By - rupansh | On - 2022-05-24T15:58:27Z
- 25. [432..9ea] frost: sr25519: convert private key to proper format for signing | By - rupansh | On - 2022-05-24T15:58:17Z
- 26. [b33..2e1] scrt: add xpnft,xpnftContractHash to mintWith | By - rupansh | On - 2022-05-24T15:17:38Z
- 27. [a75..27f] scrt: fix identToVerifiable | By - rupansh | On - 2022-05-24T15:06:50Z
- 28. [aac..942] bridge: scrt: use correct currency | By - rupansh | On - 2022-05-24T12:25:13Z
- 29. [379..538] deps: configSecretHelper: attach wallet to client | By - rupansh | On - 2022-05-24T12:24:32Z
- 30. [7ab..d18] enable secret | By - rupansh | On - 2022-05-20T09:29:30Z
- 31. [b42..e37] bump web3-contracts dep | By - rupansh | On - 2022-04-26T14:31:12Z
- 32. [be0..cbc] scrt: update for contract changes | By - rupansh | On - 2022-04-20T18:49:50Z
- 33. [5b8..b7d] initial ed25519 support | By - rupansh | On - 2022-04-15T17:39:02Z
- 34. [824..3f5] initial secret network support | By - rupansh | On - 2022-04-15T17:08:00Z
- 35. [5c2..e9b] Revert "bridge: redo aggregation if sending txn failed due to `failed to verify signature`" | By - rupansh | On - 2022-04-12T14:04:06Z
- 36. [50a..8e3] bridge: redo aggregation if sending txn failed due to `failed to verify signature` | By - rupansh | On - 2022-04-12T13:49:51Z
- 37. [146..9ae] tsconfig: enable skipLibCheck | By - rupansh | On - 2022-04-12T13:01:29Z
- 38. [dc0..1f9] use custom block.chainid for aurora | By - rupansh | On - 2022-04-12T13:01:14Z
- 39. [c1f..be9] package: bump elrond | By - rupansh | On - 2022-03-26T18:19:56Z
- 40. [353..581] elrond: await sync before handling again | By - rupansh | On - 2022-03-26T18:18:32Z
- 41. [d8a..def] elrond: increment nonce in advance | By - rupansh | On - 2022-03-26T17:37:00Z
- 42. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
- 43. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
- 44. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
- 45. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
- 46. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
- 47. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
- 48. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
- 49. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
- 50. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
-
-## erc1155
-
-
- 1. [ba5..242] events: transferUnique: withMetadataInfo: store to ipfs if required | By - rupansh | On - 2022-06-15T17:29:06Z
- 2. [672..461] add gas workaround for fantom | By - rupansh | On - 2022-06-14T16:32:11Z
- 3. [6e1..8f4] bridge: use nft origin to check mintWith | By - rupansh | On - 2022-06-13T16:43:30Z
- 4. [d1c..95b] add more debug logs and minor fixes | By - rupansh | On - 2022-06-13T16:37:21Z
- 5. [2c0..d44] update getting of defaultMintWith | By - rupansh | On - 2022-06-10T14:14:17Z
- 6. [873..691] Revert "[TEMP] bridge: tron: add debug log for defaultMintWith" | By - rupansh | On - 2022-06-10T14:14:17Z
- 7. [d30..d2d] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:17:53Z
- 8. [c31..d7c] fixed issue tezos metadata | By - Ruby Edelstein | On - 2022-06-02T14:06:01Z
- 9. [057..41c] a | By - Ruby Edelstein | On - 2022-06-02T14:05:16Z
- 10. [e50..4cc] a | By - Ruby Edelstein | On - 2022-06-02T14:03:38Z
- 11. [e6a..284] a | By - Ruby Edelstein | On - 2022-06-02T14:03:00Z
- 12. [ad5..121] a | By - Ruby Edelstein | On - 2022-06-02T14:02:17Z
- 13. [a95..c2b] a | By - Ruby Edelstein | On - 2022-06-02T13:59:26Z
- 14. [a1a..13f] a | By - Ruby Edelstein | On - 2022-06-02T13:57:47Z
- 15. [6b9..377] fixed ipfs | By - Ruby Edelstein | On - 2022-06-02T13:52:33Z
- 16. [ee3..e05] added xp network ipfs gateway | By - Ruby Edelstein | On - 2022-06-02T13:03:04Z
- 17. [037..2fb] remove xp.network wrapped nft from description | By - Ruby Edelstein | On - 2022-05-26T15:25:32Z
- 18. [63b..145] bridge: use defaultMintWith instead of xpnft for checking unfreeze | By - rupansh | On - 2022-05-24T12:10:43Z
- 19. [841..6f4] [TEMP] bridge: tron: add debug log for defaultMintWith | By - rupansh | On - 2022-05-24T11:58:02Z
- 20. [b0c..c62] erc721_metadata: extractTokenId: allow any subdomains from xp.network | By - rupansh | On - 2022-05-23T15:19:35Z
- 21. [7aa..72a] tron: defaultMintWith: fix derp | By - rupansh | On - 2022-05-23T14:56:06Z
- 22. [0b0..0e2] .env.example: add whitelist event config | By - rupansh | On - 2022-05-19T15:22:30Z
- 23. [fdf..a7a] initial whitelist impl | By - rupansh | On - 2022-05-19T15:16:42Z
- 24. [dff..399] [TEMP] bridge: add mintWith workaround for harmony | By - rupansh | On - 2022-05-18T14:05:10Z
- 25. [00d..983] signal: waitCommitment: increase timeout to 400 seconds | By - rupansh | On - 2022-05-17T15:45:02Z
- 26. [40d..541] [TEMP] elrond: elrdMetadataWrap: add debugging logs | By - rupansh | On - 2022-05-17T14:37:14Z
- 27. [32f..e30] bridge: ipfsMetadataFetch: use ipfs.io as fallback gateway | By - rupansh | On - 2022-05-16T14:54:22Z
- 28. [c00..974] algorand: add listenOnly flag for validators not participating in sending transaction | By - rupansh | On - 2022-05-16T14:22:10Z
- 29. [750..945] elrond: improve metadata wrapping | By - rupansh | On - 2022-05-11T10:24:48Z
- 30. [d2b..2a8] handlers: ipfsMetadataFetch: increase timeout to 30s | By - rupansh | On - 2022-05-11T09:54:20Z
- 31. [280..0aa] elrond: extractFrozenAttr: sanitize metadata url | By - rupansh | On - 2022-05-10T15:30:59Z
- 32. [d57..4ad] deps: elrond: fix derp | By - rupansh | On - 2022-05-10T13:30:10Z
- 33. [e3c..cb4] elrond: improve metadata detection | By - rupansh | On - 2022-05-10T13:22:50Z
- 34. [457..8de] algorand: factories: use 443 for port | By - rupansh | On - 2022-05-09T12:42:33Z
- 35. [230..82d] algorand: utils: fix constructors | By - rupansh | On - 2022-05-09T12:25:17Z
- 36. [c6f..d3a] signAndSendWrap: only stringify if algorand | By - imsk17 | On - 2022-05-09T11:41:35Z
- 37. [76d..081] [TEMP] bridge: update workaround for royaltyhack | By - rupansh | On - 2022-05-08T15:41:54Z
- 38. [a63..302] [TEMP] bridge: add hacks for royalties derp | By - rupansh | On - 2022-05-08T15:31:31Z
- 39. [2fc..f04] elrond: try decoding attributes for transfer | By - rupansh | On - 2022-05-08T14:29:10Z
- 40. [d7b..a66] handlers: evm: add debug logs | By - rupansh | On - 2022-05-08T12:50:07Z
- 41. [7eb..6ae] iotex: reduce gas limit | By - rupansh | On - 2022-05-06T12:03:37Z
- 42. [b8d..161] config: remove duplicate gatechain entry | By - imsk17 | On - 2022-05-04T11:41:34Z
- 43. [ff5..dce] Merge branch 'vech' into erc1155 | By - imsk17 | On - 2022-05-04T11:35:38Z
- 44. [c6d..372] iotex: increase gas limit and gas price | By - imsk17 | On - 2022-05-02T19:37:39Z
- 45. [219..03f] tezos: increase gas limit | By - imsk17 | On - 2022-05-01T16:07:58Z
- 46. [ab6..481] bump web3-contracts dep | By - rupansh | On - 2022-04-26T14:20:08Z
- 47. [230..637] tron: fix chainId | By - rupansh | On - 2022-04-25T15:37:53Z
- 48. [c29..be5] tron: add chainId for mainnet | By - rupansh | On - 2022-04-25T15:24:20Z
- 49. [d32..999] bump exchange and use xdai for xdai chain instead of stake | By - AlexeyAdoniev | On - 2022-04-25T11:10:42Z
- 50. [6e8..74b] GateChain Mainnet added. Config and .evn.example | By - AlexeyAdoniev | On - 2022-04-24T08:56:04Z
-
-## features/algorand
-
-
- 1. [825..b62] bridge: ipfsMetadataFetch: add timeout | By - rupansh | On - 2022-04-19T15:27:01Z
- 2. [4bf..f4b] bridge: httpMetadataFetch: use setTimeout for timeout | By - rupansh | On - 2022-04-19T15:18:59Z
- 3. [468..a8a] bridge: httpMetadataFetch: add 20sec timeout | By - rupansh | On - 2022-04-19T15:01:19Z
- 4. [fa3..b87] pass actionId on handleUnfreezeUnique | By - rocalex | On - 2022-04-10T15:21:03Z
- 5. [c7b..537] algorand: truncate nft name to 32 bytes | By - rupansh | On - 2022-04-10T14:35:50Z
- 6. [2fa..55a] algorand: pass origin nonce to algoMetadataWrap properly | By - rupansh | On - 2022-04-10T14:12:50Z
- 7. [0b6..a44] algorand: extract txn fee properly | By - rupansh | On - 2022-04-10T09:37:42Z
- 8. [19c..b5b] algorand: update events | By - rupansh | On - 2022-04-08T15:51:04Z
- 9. [a45..cf9] algorand: listenEvents: fix typo | By - rupansh | On - 2022-04-06T17:01:42Z
- 10. [43c..ea8] algorand: listenEvents: use bigintFromBe for chain nonce | By - rupansh | On - 2022-04-06T16:57:35Z
- 11. [df2..685] handlers: algorand: listenEvents: use proper txnInfo object | By - rupansh | On - 2022-04-06T16:33:24Z
- 12. [67f..f37] bridge: chains: web3: add gatechain | By - imsk17 | On - 2022-04-06T14:34:53Z
- 13. [98b..f75] handlers: use indexer for isOptIn | By - rupansh | On - 2022-04-05T11:24:11Z
- 14. [8a1..7f0] bump packages | By - rupansh | On - 2022-04-05T11:23:57Z
- 15. [63a..11c] bump typescript | By - rupansh | On - 2022-04-04T13:34:31Z
- 16. [ba4..4da] fix teal program | By - rocalex | On - 2022-04-04T09:28:03Z
- 17. [6fa..913] check if actionValidatorsLsig opt in to the app | By - rocalex | On - 2022-04-01T14:08:05Z
- 18. [89e..91b] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-04-01T13:58:34Z
- 19. [c74..df1] check if actionValidatorsLsig opt in to the app | By - rocalex | On - 2022-04-01T13:58:23Z
- 20. [88d..8b5] getActionValidatorsProgram: prefix decodedAddr with 0x | By - rupansh | On - 2022-04-01T12:48:43Z
- 21. [3be..b1d] bridge: handlers: web3: set up godwoken | By - imsk17 | On - 2022-04-01T12:08:27Z
- 22. [e82..def] fix notifyServe to algorand | By - rocalex | On - 2022-03-31T16:24:29Z
- 23. [696..40e] add notifyService to algorand | By - rocalex | On - 2022-03-31T16:24:00Z
- 24. [3e1..36b] add notifyService to algorand handler | By - rocalex | On - 2022-03-31T15:56:21Z
- 25. [6a5..59a] fix unfreeze nft | By - rocalex | On - 2022-03-31T09:43:00Z
- 26. [a4f..91e] fix algorand for multisig | By - rocalex | On - 2022-03-28T09:18:26Z
- 27. [6c7..2be] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-03-27T12:37:09Z
- 28. [cb8..2f6] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T14:35:40Z
- 29. [617..724] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T10:53:17Z
- 30. [be9..a59] remove algorand port | By - rocalex | On - 2022-03-22T09:18:23Z
- 31. [e02..2d0] fix getting algod/indexer | By - rocalex | On - 2022-03-22T08:43:48Z
- 32. [3a2..269] fix compile program | By - rocalex | On - 2022-03-22T08:23:59Z
- 33. [dde..ae6] bridge: helpers: algorand: enable algorand | By - imsk17 | On - 2022-03-21T14:07:08Z
- 34. [188..424] config: bring back tezos | By - imsk17 | On - 2022-03-20T13:33:52Z
- 35. [68c..410] initial algorand support | By - rupansh | On - 2022-03-20T12:50:26Z
- 36. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
- 37. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
- 38. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
- 39. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
- 40. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
- 41. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
- 42. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
- 43. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
- 44. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
- 45. [0f0..634] husky: add a pre commit hook for lint | By - imsk17 | On - 2022-03-15T17:15:10Z
- 46. [d41..0cc] bridge: handlers: tron: adapt web3 serializers for tron | By - imsk17 | On - 2022-03-15T17:14:42Z
- 47. [638..5f6] Merge pull request #8 from XP-NETWORK/features/tezos | By - Sumit Kumar | On - 2022-03-15T17:08:56Z
- 48. [79f..bf8] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T16:49:59Z
- 49. [082..543] add documentation for optional fields | By - rupansh | On - 2022-03-13T19:26:44Z
- 50. [faf..68f] elrond: initial royalties support | By - rupansh | On - 2022-03-13T19:21:04Z
-
-## features/ton
-
-
- 1. [121..d63] handlers for foreign -> ton | By - rocalex | On - 2022-04-28T13:27:18Z
- 2. [82b..6f6] update ton bridge | By - rocalex | On - 2022-04-28T12:45:44Z
- 3. [aa2..040] initial | By - rocalex | On - 2022-04-26T14:53:53Z
- 4. [b42..e37] bump web3-contracts dep | By - rupansh | On - 2022-04-26T14:31:12Z
- 5. [be0..cbc] scrt: update for contract changes | By - rupansh | On - 2022-04-20T18:49:50Z
- 6. [5b8..b7d] initial ed25519 support | By - rupansh | On - 2022-04-15T17:39:02Z
- 7. [824..3f5] initial secret network support | By - rupansh | On - 2022-04-15T17:08:00Z
- 8. [5c2..e9b] Revert "bridge: redo aggregation if sending txn failed due to `failed to verify signature`" | By - rupansh | On - 2022-04-12T14:04:06Z
- 9. [50a..8e3] bridge: redo aggregation if sending txn failed due to `failed to verify signature` | By - rupansh | On - 2022-04-12T13:49:51Z
- 10. [146..9ae] tsconfig: enable skipLibCheck | By - rupansh | On - 2022-04-12T13:01:29Z
- 11. [dc0..1f9] use custom block.chainid for aurora | By - rupansh | On - 2022-04-12T13:01:14Z
- 12. [c1f..be9] package: bump elrond | By - rupansh | On - 2022-03-26T18:19:56Z
- 13. [353..581] elrond: await sync before handling again | By - rupansh | On - 2022-03-26T18:18:32Z
- 14. [d8a..def] elrond: increment nonce in advance | By - rupansh | On - 2022-03-26T17:37:00Z
- 15. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
- 16. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
- 17. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
- 18. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
- 19. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
- 20. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
- 21. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
- 22. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
- 23. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
- 24. [0f0..634] husky: add a pre commit hook for lint | By - imsk17 | On - 2022-03-15T17:15:10Z
- 25. [d41..0cc] bridge: handlers: tron: adapt web3 serializers for tron | By - imsk17 | On - 2022-03-15T17:14:42Z
- 26. [638..5f6] Merge pull request #8 from XP-NETWORK/features/tezos | By - Sumit Kumar | On - 2022-03-15T17:08:56Z
- 27. [79f..bf8] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T16:49:59Z
- 28. [082..543] add documentation for optional fields | By - rupansh | On - 2022-03-13T19:26:44Z
- 29. [faf..68f] elrond: initial royalties support | By - rupansh | On - 2022-03-13T19:21:04Z
- 30. [28b..ab2] tezos: minor fixes | By - rupansh | On - 2022-03-13T18:55:03Z
- 31. [304..8f6] tezos: update for contract changes | By - rupansh | On - 2022-03-13T14:08:40Z
- 32. [8e6..fac] evm: fix import order | By - rupansh | On - 2022-03-13T13:14:38Z
- 33. [1e7..6b9] fix compilation | By - rupansh | On - 2022-03-13T12:12:06Z
- 34. [f44..770] add event listener | By - rocalex | On - 2022-03-13T07:23:47Z
- 35. [b16..64b] transfer/unfreeze nft | By - rocalex | On - 2022-03-13T06:03:20Z
- 36. [4e4..aff] config tezos handler | By - rocalex | On - 2022-03-13T05:29:35Z
- 37. [126..5a5] initial | By - rocalex | On - 2022-03-10T15:25:22Z
- 38. [6c9..bad] gas number to string | By - Ruby Edelstein | On - 2022-03-08T14:14:22Z
- 39. [336..900] add polygon gasstation | By - Ruby Edelstein | On - 2022-03-08T14:10:31Z
- 40. [660..d65] Update web3.ts | By - VKint | On - 2022-03-08T13:04:06Z
- 41. [51d..8fa] set txfees for transfers | By - rupansh | On - 2022-03-03T18:21:34Z
- 42. [2a6..058] handlers: elrond: fix gas limit | By - rupansh | On - 2022-03-03T18:13:51Z
- 43. [69d..83f] use baseURL in erc721 metadata | By - rupansh | On - 2022-03-03T18:13:06Z
- 44. [36a..e1a] elrond: put metadata on ipfs as well | By - rupansh | On - 2022-03-03T18:10:15Z
- 45. [39e..b67] reset emitted action after adding offset | By - rupansh | On - 2022-03-03T16:46:16Z
- 46. [a46..339] Add actionId offset env | By - rupansh | On - 2022-03-03T12:03:35Z
- 47. [21d..a14] Merge pull request #6 from XP-NETWORK/aurora | By - VKint | On - 2022-03-03T10:32:42Z
- 48. [f07..5cd] packages: exchange-rate: bump to latest | By - imsk17 | On - 2022-03-03T10:31:53Z
- 49. [cd6..882] handlers: improve erc721MetadataWrap | By - rupansh | On - 2022-03-01T17:19:17Z
- 50. [1f2..b6e] web3: use 60gwei as workawround for polygon | By - rupansh | On - 2022-03-01T12:54:24Z
-
-## godwoken
-
-
- 1. [7be..8a8] bridge: handlers: web3: set up godwoken | By - imsk17 | On - 2022-03-29T12:34:16Z
- 2. [a4f..91e] fix algorand for multisig | By - rocalex | On - 2022-03-28T09:18:26Z
- 3. [6c7..2be] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-03-27T12:37:09Z
- 4. [cb8..2f6] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T14:35:40Z
- 5. [617..724] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T10:53:17Z
- 6. [be9..a59] remove algorand port | By - rocalex | On - 2022-03-22T09:18:23Z
- 7. [e02..2d0] fix getting algod/indexer | By - rocalex | On - 2022-03-22T08:43:48Z
- 8. [3a2..269] fix compile program | By - rocalex | On - 2022-03-22T08:23:59Z
- 9. [dde..ae6] bridge: helpers: algorand: enable algorand | By - imsk17 | On - 2022-03-21T14:07:08Z
- 10. [188..424] config: bring back tezos | By - imsk17 | On - 2022-03-20T13:33:52Z
- 11. [68c..410] initial algorand support | By - rupansh | On - 2022-03-20T12:50:26Z
- 12. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
- 13. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
- 14. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
- 15. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
- 16. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
- 17. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
- 18. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
- 19. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
- 20. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
- 21. [0f0..634] husky: add a pre commit hook for lint | By - imsk17 | On - 2022-03-15T17:15:10Z
- 22. [d41..0cc] bridge: handlers: tron: adapt web3 serializers for tron | By - imsk17 | On - 2022-03-15T17:14:42Z
- 23. [638..5f6] Merge pull request #8 from XP-NETWORK/features/tezos | By - Sumit Kumar | On - 2022-03-15T17:08:56Z
- 24. [79f..bf8] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T16:49:59Z
- 25. [082..543] add documentation for optional fields | By - rupansh | On - 2022-03-13T19:26:44Z
- 26. [faf..68f] elrond: initial royalties support | By - rupansh | On - 2022-03-13T19:21:04Z
- 27. [28b..ab2] tezos: minor fixes | By - rupansh | On - 2022-03-13T18:55:03Z
- 28. [304..8f6] tezos: update for contract changes | By - rupansh | On - 2022-03-13T14:08:40Z
- 29. [8e6..fac] evm: fix import order | By - rupansh | On - 2022-03-13T13:14:38Z
- 30. [1e7..6b9] fix compilation | By - rupansh | On - 2022-03-13T12:12:06Z
- 31. [f44..770] add event listener | By - rocalex | On - 2022-03-13T07:23:47Z
- 32. [b16..64b] transfer/unfreeze nft | By - rocalex | On - 2022-03-13T06:03:20Z
- 33. [4e4..aff] config tezos handler | By - rocalex | On - 2022-03-13T05:29:35Z
- 34. [126..5a5] initial | By - rocalex | On - 2022-03-10T15:25:22Z
- 35. [6c9..bad] gas number to string | By - Ruby Edelstein | On - 2022-03-08T14:14:22Z
- 36. [336..900] add polygon gasstation | By - Ruby Edelstein | On - 2022-03-08T14:10:31Z
- 37. [660..d65] Update web3.ts | By - VKint | On - 2022-03-08T13:04:06Z
- 38. [51d..8fa] set txfees for transfers | By - rupansh | On - 2022-03-03T18:21:34Z
- 39. [2a6..058] handlers: elrond: fix gas limit | By - rupansh | On - 2022-03-03T18:13:51Z
- 40. [69d..83f] use baseURL in erc721 metadata | By - rupansh | On - 2022-03-03T18:13:06Z
- 41. [36a..e1a] elrond: put metadata on ipfs as well | By - rupansh | On - 2022-03-03T18:10:15Z
- 42. [39e..b67] reset emitted action after adding offset | By - rupansh | On - 2022-03-03T16:46:16Z
- 43. [a46..339] Add actionId offset env | By - rupansh | On - 2022-03-03T12:03:35Z
- 44. [21d..a14] Merge pull request #6 from XP-NETWORK/aurora | By - VKint | On - 2022-03-03T10:32:42Z
- 45. [f07..5cd] packages: exchange-rate: bump to latest | By - imsk17 | On - 2022-03-03T10:31:53Z
- 46. [cd6..882] handlers: improve erc721MetadataWrap | By - rupansh | On - 2022-03-01T17:19:17Z
- 47. [1f2..b6e] web3: use 60gwei as workawround for polygon | By - rupansh | On - 2022-03-01T12:54:24Z
- 48. [c71..73a] fantom: disable block.chainid workaround | By - rupansh | On - 2022-03-01T10:43:07Z
- 49. [43c..319] bridge: handlers: improve ipfs url detection | By - rupansh | On - 2022-02-27T10:35:13Z
- 50. [af2..eff] added aurora | By - VKint | On - 2022-02-27T08:44:27Z
-
-## testing-erc1155
-
-
- 1. [873..764] Update README.md | By - Dima Brook | On - 2022-02-15T19:34:03Z
- 2. [157..165] prepare for deployment | By - Dima Brook | On - 2022-02-15T16:57:29Z
- 3. [a45..312] add Procfile | By - Dima Brook | On - 2022-02-14T19:12:04Z
- 4. [96f..b82] change script test -> start | By - Dima Brook | On - 2022-02-14T15:11:24Z
- 5. [35c..802] fix testnet-validator | By - Dima Brook | On - 2022-02-14T15:09:47Z
- 6. [a09..ebe] events: unfreeze: fallback to xpnft if defaultMintFor fails | By - rupansh | On - 2022-02-07T12:27:56Z
- 7. [fbf..acc] config: remove unnecessary params | By - rupansh | On - 2022-02-05T13:52:49Z
- 8. [aad..a8c] .env.example: update for off-chain multisig | By - rupansh | On - 2022-02-04T13:00:16Z
- 9. [8a6..d32] refactor for off-chain multisig | By - rupansh | On - 2022-02-04T12:59:08Z
- 10. [659..603] batch transfer & erc1155 fixes | By - rupansh | On - 2022-01-08T15:43:21Z
- 11. [6a9..d45] elrond: improve gas fees estimation for elrond | By - rupansh | On - 2022-01-08T10:29:27Z
- 12. [18d..dce] helpers: algorand: minor cleanup | By - rupansh | On - 2022-01-07T09:31:49Z
- 13. [147..796] algorand: minor fixes for owner | By - rupansh | On - 2022-01-07T09:24:35Z
- 14. [fc7..5d5] feat(algorand): prepare for txn persistence | By - imsk17 | On - 2022-01-07T09:23:44Z
- 15. [729..7b7] handlers: algorand: pass token name for minting as well | By - rupansh | On - 2022-01-07T09:19:55Z
- 16. [fa5..91a] make sending events to algorand backend optional | By - rupansh | On - 2022-01-07T09:18:55Z
- 17. [753..08a] transferbatch fixes | By - rupansh | On - 2021-12-27T14:41:35Z
- 18. [3f6..759] bug fixes | By - rupansh | On - 2021-12-27T13:49:49Z
- 19. [027..018] initial integration with sc-verify | By - rupansh | On - 2021-12-26T12:37:18Z
- 20. [837..45d] chain_handler: minor refactor | By - rupansh | On - 2021-12-26T10:45:18Z
- 21. [c64..a32] elrond: initial batch txns impl | By - rupansh | On - 2021-12-23T15:27:47Z
- 22. [761..7a3] tron: initial batch txns impl | By - rupansh | On - 2021-12-23T13:47:34Z
- 23. [a07..7b5] web3: simplify batch unfreeze | By - rupansh | On - 2021-12-23T13:24:45Z
- 24. [0a4..bea] web3: initial batch txns implementation | By - rupansh | On - 2021-12-23T11:49:14Z
- 25. [c72..374] algorand: allow arbitrary unfreeze | By - rupansh | On - 2021-12-22T15:05:45Z
- 26. [b9b..240] refactor unfreeze event | By - rupansh | On - 2021-12-22T15:03:45Z
- 27. [ae2..a61] initial changes based on contract updates | By - rupansh | On - 2021-12-22T15:03:19Z
- 28. [a8c..fdb] sanitize erc1155 uris | By - rupansh | On - 2021-12-03T12:19:25Z
- 29. [306..e23] initial erc1155 support for evm chains | By - rupansh | On - 2021-12-03T10:23:53Z
- 30. [84d..3fd] wrapped nft: add animation url support | By - rupansh | On - 2021-12-02T08:39:30Z
- 31. [d67..b5c] add support for workaround sockets | By - rupansh | On - 2021-11-29T13:22:37Z
- 32. [c92..eb0] fixes for algorand | By - rupansh | On - 2021-11-22T15:16:43Z
- 33. [95e..eac] initial algorand support | By - rupansh | On - 2021-11-21T13:46:10Z
- 34. [ee2..a79] add back heartbeat socket | By - rupansh | On - 2021-11-20T14:27:21Z
- 35. [b8e..3d8] chain_handler: make notify infalliable | By - rupansh | On - 2021-11-20T14:17:07Z
- 36. [76a..fb5] use external service for notifying about transactions | By - rupansh | On - 2021-11-20T14:16:21Z
- 37. [23b..e1b] tron: fix api key | By - rupansh | On - 2021-11-11T12:12:56Z
- 38. [ba0..650] chain_handler: retry on tx fees estimation failure | By - rupansh | On - 2021-11-11T11:09:37Z
- 39. [8cb..87d] tron: skip event on err | By - rupansh | On - 2021-11-11T09:54:45Z
- 40. [4ba..ae9] elrond: stringify attributes before sending | By - rupansh | On - 2021-11-10T15:12:37Z
- 41. [20c..44c] web3: fix ipfs url | By - rupansh | On - 2021-11-10T13:50:15Z
- 42. [849..cd8] web3: use ipfs for fetching metadata when required | By - rupansh | On - 2021-11-10T12:10:59Z
- 43. [735..756] initial changes for elrond wrapped nft update | By - rupansh | On - 2021-11-10T09:28:18Z
- 44. [95d..b34] erc721_metadata: minor fix | By - rupansh | On - 2021-11-09T12:17:30Z
- 45. [33b..5aa] gitignore: remove dist | By - rupansh | On - 2021-11-09T12:17:16Z
- 46. [320..554] test: update for web3 metadata changes | By - rupansh | On - 2021-11-09T11:36:47Z
- 47. [35a..241] initial changes for web3 metadata | By - rupansh | On - 2021-11-09T11:00:04Z
- 48. [6c1..f04] temp: disable elrond | By - rupansh | On - 2021-11-09T10:55:02Z
- 49. [815..dfe] yarn: bump exchange-rate dep | By - rupansh | On - 2021-11-09T09:56:05Z
- 50. [1ff..b00] add xDAI support | By - rupansh | On - 2021-11-08T09:32:34Z
-
-## vech
-
-
- 1. [9f2..536] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:15:19Z
- 2. [15d..a1c] iotex: hardcode gas limit | By - imsk17 | On - 2022-04-20T11:05:07Z
- 3. [1de..de1] iotex: use prevblock to get gas limit | By - imsk17 | On - 2022-04-20T09:22:15Z
- 4. [9a4..25c] bridge: ipfsMetadataFetch: add timeout | By - rupansh | On - 2022-04-20T07:06:31Z
- 5. [2fd..c15] bridge: httpMetadataFetch: use setTimeout for timeout | By - rupansh | On - 2022-04-20T07:06:31Z
- 6. [115..d3a] bridge: httpMetadataFetch: add 20sec timeout | By - rupansh | On - 2022-04-20T07:06:31Z
- 7. [11a..a9e] log when using block.chainid workaround | By - imsk17 | On - 2022-04-20T07:00:18Z
- 8. [621..fd2] handlers: web3: disable fixed decimals for web3 | By - imsk17 | On - 2022-04-20T06:53:38Z
- 9. [326..490] vechain: use dynamic node for vechain | By - imsk17 | On - 2022-04-13T14:01:49Z
- 10. [0e7..15b] vechain: use custom logic for signer and remove noncemanager | By - imsk17 | On - 2022-04-13T11:57:03Z
- 11. [743..721] vechain: move vech provider construction up | By - imsk17 | On - 2022-04-13T11:50:33Z
- 12. [9d0..297] web3: chains: add support for vechain | By - imsk17 | On - 2022-04-12T11:08:59Z
- 13. [fa3..b87] pass actionId on handleUnfreezeUnique | By - rocalex | On - 2022-04-10T15:21:03Z
- 14. [c7b..537] algorand: truncate nft name to 32 bytes | By - rupansh | On - 2022-04-10T14:35:50Z
- 15. [2fa..55a] algorand: pass origin nonce to algoMetadataWrap properly | By - rupansh | On - 2022-04-10T14:12:50Z
- 16. [0b6..a44] algorand: extract txn fee properly | By - rupansh | On - 2022-04-10T09:37:42Z
- 17. [19c..b5b] algorand: update events | By - rupansh | On - 2022-04-08T15:51:04Z
- 18. [a45..cf9] algorand: listenEvents: fix typo | By - rupansh | On - 2022-04-06T17:01:42Z
- 19. [43c..ea8] algorand: listenEvents: use bigintFromBe for chain nonce | By - rupansh | On - 2022-04-06T16:57:35Z
- 20. [df2..685] handlers: algorand: listenEvents: use proper txnInfo object | By - rupansh | On - 2022-04-06T16:33:24Z
- 21. [67f..f37] bridge: chains: web3: add gatechain | By - imsk17 | On - 2022-04-06T14:34:53Z
- 22. [98b..f75] handlers: use indexer for isOptIn | By - rupansh | On - 2022-04-05T11:24:11Z
- 23. [8a1..7f0] bump packages | By - rupansh | On - 2022-04-05T11:23:57Z
- 24. [63a..11c] bump typescript | By - rupansh | On - 2022-04-04T13:34:31Z
- 25. [ba4..4da] fix teal program | By - rocalex | On - 2022-04-04T09:28:03Z
- 26. [6fa..913] check if actionValidatorsLsig opt in to the app | By - rocalex | On - 2022-04-01T14:08:05Z
- 27. [89e..91b] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-04-01T13:58:34Z
- 28. [c74..df1] check if actionValidatorsLsig opt in to the app | By - rocalex | On - 2022-04-01T13:58:23Z
- 29. [88d..8b5] getActionValidatorsProgram: prefix decodedAddr with 0x | By - rupansh | On - 2022-04-01T12:48:43Z
- 30. [3be..b1d] bridge: handlers: web3: set up godwoken | By - imsk17 | On - 2022-04-01T12:08:27Z
- 31. [e82..def] fix notifyServe to algorand | By - rocalex | On - 2022-03-31T16:24:29Z
- 32. [696..40e] add notifyService to algorand | By - rocalex | On - 2022-03-31T16:24:00Z
- 33. [3e1..36b] add notifyService to algorand handler | By - rocalex | On - 2022-03-31T15:56:21Z
- 34. [6a5..59a] fix unfreeze nft | By - rocalex | On - 2022-03-31T09:43:00Z
- 35. [a4f..91e] fix algorand for multisig | By - rocalex | On - 2022-03-28T09:18:26Z
- 36. [6c7..2be] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-03-27T12:37:09Z
- 37. [cb8..2f6] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T14:35:40Z
- 38. [617..724] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T10:53:17Z
- 39. [be9..a59] remove algorand port | By - rocalex | On - 2022-03-22T09:18:23Z
- 40. [e02..2d0] fix getting algod/indexer | By - rocalex | On - 2022-03-22T08:43:48Z
- 41. [3a2..269] fix compile program | By - rocalex | On - 2022-03-22T08:23:59Z
- 42. [dde..ae6] bridge: helpers: algorand: enable algorand | By - imsk17 | On - 2022-03-21T14:07:08Z
- 43. [188..424] config: bring back tezos | By - imsk17 | On - 2022-03-20T13:33:52Z
- 44. [68c..410] initial algorand support | By - rupansh | On - 2022-03-20T12:50:26Z
- 45. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
- 46. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
- 47. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
- 48. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
- 49. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
- 50. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
-
-## vechain
-
-
- 1. [958..8cf] packages: exchange-rate: bump to latest | By - imsk17 | On - 2022-03-03T10:26:53Z
- 2. [39a..181] Setup pre commit hook for prettier | By - imsk17 | On - 2022-03-02T15:24:45Z
- 3. [1eb..4d1] Prettify and Setup a Script for Prettier | By - imsk17 | On - 2022-03-02T11:28:16Z
- 4. [6b2..010] VEthers support | By - imsk17 | On - 2022-03-02T11:25:43Z
- 5. [cd6..882] handlers: improve erc721MetadataWrap | By - rupansh | On - 2022-03-01T17:19:17Z
- 6. [1f2..b6e] web3: use 60gwei as workawround for polygon | By - rupansh | On - 2022-03-01T12:54:24Z
- 7. [c71..73a] fantom: disable block.chainid workaround | By - rupansh | On - 2022-03-01T10:43:07Z
- 8. [43c..319] bridge: handlers: improve ipfs url detection | By - rupansh | On - 2022-02-27T10:35:13Z
- 9. [af2..eff] added aurora | By - VKint | On - 2022-02-27T08:44:27Z
- 10. [856..535] signal: switch to socket.io | By - rupansh | On - 2022-02-24T18:35:00Z
- 11. [550..e91] elrond: use either notifier or native events | By - rupansh | On - 2022-02-24T18:27:20Z
- 12. [180..8ac] Update config.ts | By - VKint | On - 2022-02-23T12:00:03Z
- 13. [be9..320] Update config.ts | By - VKint | On - 2022-02-23T08:13:50Z
- 14. [bb1..f29] elrond: re-enable native events | By - rupansh | On - 2022-02-22T15:40:04Z
- 15. [005..7d0] elrond: add option to add events from notifier | By - rupansh | On - 2022-02-22T14:50:14Z
- 16. [684..c0c] Revert "double extraGwei for polygon priority workaround" | By - rupansh | On - 2022-02-21T14:03:41Z
- 17. [2dd..0ff] Revert "[TEMP][DNM] disable null address workaround" | By - rupansh | On - 2022-02-21T14:03:33Z
- 18. [eea..eb3] [TEMP][DNM] disable null address workaround | By - rupansh | On - 2022-02-21T13:58:49Z
- 19. [9ba..0f6] double extraGwei for polygon priority workaround | By - rupansh | On - 2022-02-21T13:49:39Z
- 20. [d9e..96d] sanitize identifier before sending to sc-verify | By - rupansh | On - 2022-02-20T09:58:57Z
- 21. [bbe..da5] update tx_notify.notify | By - rupansh | On - 2022-02-20T08:57:58Z
- 22. [6da..5eb] tree-wide: reduce probability of nonce collisions | By - rupansh | On - 2022-02-18T16:54:40Z
- 23. [318..6c0] signal: fix data races | By - rupansh | On - 2022-02-18T14:45:37Z
- 24. [0b3..9a5] Merge pull request #4 from bigBangingCode/patch-3 | By - VKint | On - 2022-02-17T15:20:01Z
- 25. [c51..b36] Update index.ts | By - bigBangingCode | On - 2022-02-17T15:19:35Z
- 26. [671..615] deps: fix derp | By - rupansh | On - 2022-02-17T10:36:36Z
- 27. [596..582] update fee calculation logic | By - rupansh | On - 2022-02-16T14:20:04Z
- 28. [6e8..4f9] handlers: evm: increase gas fees for polygon | By - rupansh | On - 2022-02-16T13:34:41Z
- 29. [93f..22d] remove block.chainid workaround for velas | By - rupansh | On - 2022-02-15T16:38:42Z
- 30. [12f..045] update for sc-verify changes | By - rupansh | On - 2022-02-15T14:22:27Z
- 31. [72b..421] deps: add log for block.chainid workaround | By - rupansh | On - 2022-02-14T22:09:36Z
- 32. [ca7..3fc] update .env.example | By - rupansh | On - 2022-02-14T17:45:00Z
- 33. [d80..b52] config: workarounds for improper block.chainid | By - rupansh | On - 2022-02-14T17:43:24Z
- 34. [5b7..628] bump web3-contracts | By - rupansh | On - 2022-02-14T17:38:01Z
- 35. [7d9..5b3] bridge: bugfixes | By - rupansh | On - 2022-02-14T17:38:01Z
- 36. [525..669] signal: memstore: be lenient with store cleanup | By - rupansh | On - 2022-02-14T17:38:00Z
- 37. [727..f8e] elrond: support mintWith | By - rupansh | On - 2022-02-14T17:38:00Z
- 38. [6ee..85d] Merge pull request #3 from bigBangingCode/patch-1 | By - VKint | On - 2022-02-14T06:13:59Z
- 39. [da8..f35] Update config.ts | By - bigBangingCode | On - 2022-02-14T06:13:27Z
- 40. [8dd..0b1] Update yarn.lock | By - VKint | On - 2022-02-13T20:11:33Z
- 41. [ef1..e82] Merge pull request #2 from bigBangingCode/erc1155 | By - VKint | On - 2022-02-13T20:04:02Z
- 42. [a45..d04] Update config.ts | By - bigBangingCode | On - 2022-02-13T19:59:26Z
- 43. [50f..dde] Revert "helpers: add null address workaround for polygon" | By - rupansh | On - 2022-02-13T19:55:10Z
- 44. [fe5..f63] Revert "evm: force legacy transaction for polygon" | By - rupansh | On - 2022-02-13T19:54:49Z
- 45. [c59..159] evm: force legacy transaction for polygon | By - rupansh | On - 2022-02-13T19:50:32Z
- 46. [f24..fbd] helpers: add null address workaround for polygon | By - rupansh | On - 2022-02-13T18:50:16Z
- 47. [1e0..d9f] signal: switch aggregator after more than 30 seconds | By - rupansh | On - 2022-02-13T17:20:02Z
- 48. [1ef..a2a] web3: workarounds for harmony | By - rupansh | On - 2022-02-11T11:47:33Z
- 49. [901..a53] elrond fixes | By - rupansh | On - 2022-02-11T11:47:25Z
- 50. [76a..3fa] tree-wide: minor fixes | By - rupansh | On - 2022-02-10T13:12:05Z
-
-## web3-new
-
-
- 1. [e53..9c5] feat: chains: web3: add aurora chain | By - imsk17 | On - 2022-02-06T13:33:03Z
- 2. [d5c..133] feat: web3: add conditional gasLimitPriority for polygon | By - imsk17 | On - 2022-01-27T13:15:34Z
- 3. [fd2..d81] handlers: tezos: increase gasLimit | By - rupansh | On - 2022-01-25T09:02:51Z
- 4. [9f9..88d] tezosMetadataWrap: update fields | By - rupansh | On - 2022-01-24T10:17:32Z
- 5. [b39..fdc] tezos: add seperate method for wrapping metadata | By - rupansh | On - 2022-01-24T10:13:22Z
- 6. [be5..70f] feat(chains): add support for iotex | By - imsk17 | On - 2022-01-23T14:30:16Z
- 7. [fb7..652] handlers: tezos: increase action_id offset | By - rupansh | On - 2022-01-22T23:20:48Z
- 8. [889..85e] handlers: tezos: add action workaround for fetch txns as well | By - rupansh | On - 2022-01-22T22:30:59Z
- 9. [9e8..e39] handlers: tezos: add workaround for duplicate actions | By - rupansh | On - 2022-01-22T22:20:18Z
- 10. [886..de6] helpers: web3: change action offset | By - rupansh | On - 2022-01-22T22:08:08Z
- 11. [887..d87] tezos: hacks for gas fees | By - rupansh | On - 2022-01-21T15:18:35Z
- 12. [297..7f4] .env.example: update for tezos | By - rupansh | On - 2022-01-21T14:02:45Z
- 13. [bd2..60c] handlers: tezos: fix amount for manual event decoding | By - rupansh | On - 2022-01-21T11:41:54Z
- 14. [2bd..740] config: rename heartbeat port variable | By - rupansh | On - 2022-01-19T10:13:04Z
- 15. [30b..2f5] tezos: use notifier-rest for events | By - rupansh | On - 2022-01-19T10:11:39Z
- 16. [041..798] algorand: handle ipfs | By - rupansh | On - 2022-01-18T15:35:53Z
- 17. [02a..9a9] Merge branch 'tezos' into web3-new | By - rupansh | On - 2022-01-18T15:18:57Z
- 18. [263..a7e] tezos fixes and improvements | By - rupansh | On - 2022-01-18T14:02:51Z
- 19. [65a..40a] initial tezos changes | By - rupansh | On - 2022-01-14T14:23:00Z
- 20. [d4f..964] Merge pull request #1 from QuigonCOM/pass-event-name-to-algorand | By - Rupansh | On - 2022-01-07T07:31:30Z
- 21. [4d2..01d] pass event name | By - rocalex | On - 2022-01-06T12:27:02Z
- 22. [8e4..c43] fix(nonce): heco's nonce is 0x3 | By - imsk17 | On - 2021-12-30T09:56:52Z
- 23. [d2b..e6c] heroku: add procfile for deployment | By - imsk17 | On - 2021-12-30T09:40:11Z
- 24. [1a6..0e8] feat(chains): add velas to validator | By - imsk17 | On - 2021-12-24T11:57:43Z
- 25. [883..326] feat(chains): add unique | By - imsk17 | On - 2021-12-21T14:48:35Z
- 26. [3d4..264] chore(packages): bump exchange-rate | By - imsk17 | On - 2021-12-21T14:35:28Z
- 27. [891..76a] initial fuse support | By - rupansh | On - 2021-12-20T13:02:43Z
- 28. [56c..535] algorand: minor fixes for owner | By - rupansh | On - 2021-12-09T09:54:24Z
- 29. [829..2a8] feat(algorand): prepare for txn persistence | By - imsk17 | On - 2021-12-08T11:53:40Z
- 30. [279..599] handlers: algorand: pass token name for minting as well | By - rupansh | On - 2021-12-07T15:19:14Z
- 31. [d49..e8f] make sending events to algorand backend optional | By - rupansh | On - 2021-12-07T09:07:07Z
- 32. [eb5..efb] chore(startup): skip chain if no reply in 5s | By - imsk17 | On - 2021-12-05T12:05:25Z
- 33. [484..370] chore(startup): do no instantiate Web3Helper if node is down | By - imsk17 | On - 2021-12-05T10:37:56Z
- 34. [ff8..b70] feat(startup): dont crash if a node is down | By - imsk17 | On - 2021-12-05T09:30:36Z
- 35. [84d..3fd] wrapped nft: add animation url support | By - rupansh | On - 2021-12-02T08:39:30Z
- 36. [d67..b5c] add support for workaround sockets | By - rupansh | On - 2021-11-29T13:22:37Z
- 37. [c92..eb0] fixes for algorand | By - rupansh | On - 2021-11-22T15:16:43Z
- 38. [95e..eac] initial algorand support | By - rupansh | On - 2021-11-21T13:46:10Z
- 39. [ee2..a79] add back heartbeat socket | By - rupansh | On - 2021-11-20T14:27:21Z
- 40. [b8e..3d8] chain_handler: make notify infalliable | By - rupansh | On - 2021-11-20T14:17:07Z
- 41. [76a..fb5] use external service for notifying about transactions | By - rupansh | On - 2021-11-20T14:16:21Z
- 42. [23b..e1b] tron: fix api key | By - rupansh | On - 2021-11-11T12:12:56Z
- 43. [ba0..650] chain_handler: retry on tx fees estimation failure | By - rupansh | On - 2021-11-11T11:09:37Z
- 44. [8cb..87d] tron: skip event on err | By - rupansh | On - 2021-11-11T09:54:45Z
- 45. [4ba..ae9] elrond: stringify attributes before sending | By - rupansh | On - 2021-11-10T15:12:37Z
- 46. [20c..44c] web3: fix ipfs url | By - rupansh | On - 2021-11-10T13:50:15Z
- 47. [849..cd8] web3: use ipfs for fetching metadata when required | By - rupansh | On - 2021-11-10T12:10:59Z
- 48. [735..756] initial changes for elrond wrapped nft update | By - rupansh | On - 2021-11-10T09:28:18Z
- 49. [95d..b34] erc721_metadata: minor fix | By - rupansh | On - 2021-11-09T12:17:30Z
- 50. [33b..5aa] gitignore: remove dist | By - rupansh | On - 2021-11-09T12:17:16Z
-
-# xp-cardano-integration
-
-# bridge-explorer-ui
-
-## dev
-
-
- 1. [5df..4cb] added contract to IEVENT | By - ronyXnes | On - 2022-06-26T11:07:03Z
- 2. [af0..9d0] axios | By - ronyXnes | On - 2022-06-26T11:06:41Z
- 3. [097..329] get metadata from chache | By - ronyXnes | On - 2022-06-26T11:06:22Z
- 4. [4be..905] formating | By - ronyXnes | On - 2022-06-18T13:07:04Z
- 5. [8c5..ee8] Collection Name has wrong data - need to delete it and update from the new database | By - ronyXnes | On - 2022-06-16T11:46:00Z
- 6. [f6d..3e4] update event | By - ronyXnes | On - 2022-06-16T09:03:28Z
- 7. [fb0..e04] event | By - ronyXnes | On - 2022-06-16T09:02:37Z
- 8. [748..dce] When there is no transactions it should display 1 of 1 pages | By - ronyXnes | On - 2022-06-14T12:19:11Z
- 9. [53e..9d1] When there is no transactions it should display 1 of 1 pages | By - ronyXnes | On - 2022-06-14T12:17:30Z
- 10. [64d..f6b] padding | By - ronyXnes | On - 2022-06-12T22:45:36Z
- 11. [e1d..c28] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - ronyXnes | On - 2022-06-12T16:13:22Z
- 12. [4ca..4be] padding | By - ronyXnes | On - 2022-06-12T16:13:18Z
- 13. [474..e7b] merge | By - AlexeyAdoniev | On - 2022-06-12T15:18:46Z
- 14. [c7f..b61] test | By - AlexeyAdoniev | On - 2022-06-12T15:18:04Z
- 15. [171..758] padding | By - ronyXnes | On - 2022-06-12T13:19:28Z
- 16. [bdf..647] padding change | By - ronyXnes | On - 2022-06-12T13:13:08Z
- 17. [b4b..f31] show the right sum of transactions | By - ronyXnes | On - 2022-06-07T06:54:04Z
- 18. [f09..e29] comment console logs | By - ronyXnes | On - 2022-06-07T06:46:57Z
- 19. [1cf..ee3] change loader of graph | By - ronyXnes | On - 2022-06-06T15:10:12Z
- 20. [598..aa4] System shows empty "last" page | By - ronyXnes | On - 2022-06-06T13:16:16Z
- 21. [b71..acf] System shows empty "last" page | By - ronyXnes | On - 2022-06-06T12:35:49Z
- 22. [731..149] change XP.NETWORK to capital letters (meta text) | By - ronyXnes | On - 2022-06-06T11:13:25Z
- 23. [eba..8c2] css SPECIFIC BLUR | By - ronyXnes | On - 2022-06-06T08:26:31Z
- 24. [7cc..5cf] css SPECIFIC BLUR | By - ronyXnes | On - 2022-06-06T08:26:00Z
- 25. [0c9..a09] css | By - ronyXnes | On - 2022-06-06T08:10:27Z
- 26. [a0b..82d] blur specific token id | By - ronyXnes | On - 2022-06-06T08:03:16Z
- 27. [1ae..815] image blur bug fix | By - ronyXnes | On - 2022-06-06T07:52:18Z
- 28. [f9f..178] bug fix | By - ronyXnes | On - 2022-06-06T07:38:38Z
- 29. [0ed..eec] bug fix | By - ronyXnes | On - 2022-06-02T13:50:51Z
- 30. [d0d..894] fix | By - ronyXnes | On - 2022-06-02T13:50:11Z
- 31. [358..09a] blur | By - ronyXnes | On - 2022-06-02T12:53:47Z
- 32. [f8c..502] explorer main page blur | By - ronyXnes | On - 2022-06-02T11:52:56Z
- 33. [295..2c1] blur css | By - ronyXnes | On - 2022-06-02T11:51:33Z
- 34. [1eb..69f] about us link footer | By - AlexeyAdoniev | On - 2022-06-01T15:29:47Z
- 35. [b10..711] page, queryString, statusFilter now are global Redux | By - AlexeyAdoniev | On - 2022-06-01T14:27:33Z
- 36. [916..30d] meta image, newsletterUi | By - AlexeyAdoniev | On - 2022-06-01T09:26:42Z
- 37. [9f1..70a] gatechain coingeko id change | By - AlexeyAdoniev | On - 2022-05-30T07:59:42Z
- 38. [663..698] navbar menu toggle | By - AlexeyAdoniev | On - 2022-05-29T16:05:28Z
- 39. [285..b9c] 16 chains | By - AlexeyAdoniev | On - 2022-05-29T12:52:24Z
- 40. [5a0..c4a] network gone, footer update | By - AlexeyAdoniev | On - 2022-05-29T11:25:13Z
- 41. [c55..27a] pending chaned to processed | By - AlexeyAdoniev | On - 2022-05-29T07:49:11Z
- 42. [3b7..ef0] fix bugs with nftFetch | By - AlexeyAdoniev | On - 2022-05-28T22:14:23Z
- 43. [a1b..845] collection Name, some fetchNft rules, trx Proccessing | By - AlexeyAdoniev | On - 2022-05-26T14:56:05Z
- 44. [ba1..66f] tron convert fees, link open in tabs | By - AlexeyAdoniev | On - 2022-05-24T16:33:00Z
- 45. [977..0a4] Merge branch 'uiUpdates' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-05-24T12:31:19Z
- 46. [f85..c03] updates of small changes | By - Lihi Sherm | On - 2022-05-24T12:30:14Z
- 47. [1f1..d43] extract hash function, fetchNFT | By - AlexeyAdoniev | On - 2022-05-24T10:16:06Z
- 48. [52e..24b] chains number to 14 | By - AlexeyAdoniev | On - 2022-05-23T14:01:48Z
- 49. [9e8..5d8] nft lazy loading + nakedIpfs case | By - AlexeyAdoniev | On - 2022-05-22T15:54:46Z
- 50. [d3e..0af] Explorer Link comp | By - AlexeyAdoniev | On - 2022-05-18T13:42:46Z
-
-## main
-
-
- 1. [3c2..105] w | By - ronyXnes | On - 2022-06-02T11:01:29Z
- 2. [daf..ee6] s | By - ronyXnes | On - 2022-06-02T11:01:24Z
- 3. [4a2..5de] deploy: update build scripts | By - Rishabh Kumar | On - 2022-02-08T07:34:14Z
- 4. [cd5..c84] Merge pull request #1 from XP-NETWORK/dev | By - Rishabh Kumar | On - 2022-02-08T07:23:10Z
- 5. [ede..0a5] actions: seprate out actions for diff env | By - Rishabh Kumar | On - 2022-02-08T07:20:49Z
- 6. [aac..5fc] remove name | By - Rishabh Kumar | On - 2022-02-08T07:18:23Z
- 7. [932..cdd] add deploy to s3 action | By - Rishabh Kumar | On - 2022-02-08T07:14:56Z
- 8. [5e9..fa8] fix: typo Bridige to Bridge | By - Rishabh Kumar | On - 2022-02-07T13:22:33Z
- 9. [f66..7e9] fix: validate dom error | By - Rishabh Kumar | On - 2022-02-07T13:19:07Z
- 10. [0d4..db8] add nft img uri to event | By - Rishabh Kumar | On - 2022-02-07T13:17:24Z
- 11. [d3e..55f] fix: createdAt.toUTCString() | By - Rishabh Kumar | On - 2022-02-07T12:50:14Z
- 12. [ae7..c91] add createdAt to event | By - Rishabh Kumar | On - 2022-02-07T12:38:54Z
- 13. [830..58e] make navbar responsive | By - Rishabh Kumar | On - 2022-02-07T12:05:09Z
- 14. [217..aa9] fetch events from api | By - Rishabh Kumar | On - 2022-02-07T11:13:29Z
- 15. [233..212] add footer | By - Rishabh Kumar | On - 2022-02-07T10:26:08Z
- 16. [10e..39e] add explorer events | By - Rishabh Kumar | On - 2022-02-07T09:41:30Z
- 17. [7dc..ae1] add search bar | By - Rishabh Kumar | On - 2022-02-07T09:09:55Z
- 18. [d13..71c] add bg color and shadow to navbar | By - Rishabh Kumar | On - 2022-02-06T15:42:10Z
- 19. [42d..b24] add explorer cards | By - Rishabh Kumar | On - 2022-02-06T15:39:56Z
- 20. [78d..3a6] add bg color to body | By - Rishabh Kumar | On - 2022-02-06T15:24:16Z
- 21. [286..b68] make classname optional in container | By - Rishabh Kumar | On - 2022-02-06T14:29:50Z
- 22. [9ff..897] add padding to container | By - Rishabh Kumar | On - 2022-02-06T14:22:01Z
- 23. [abc..441] refactor navbar with container | By - Rishabh Kumar | On - 2022-02-06T14:20:21Z
- 24. [263..cd0] add container | By - Rishabh Kumar | On - 2022-02-06T14:20:02Z
- 25. [0bb..bf8] add navbar | By - Rishabh Kumar | On - 2022-02-06T14:11:42Z
- 26. [b38..1d3] refactor | By - Rishabh Kumar | On - 2022-02-06T10:30:35Z
- 27. [8d5..02e] Add explorer page | By - Rishabh Kumar | On - 2022-02-06T10:21:48Z
- 28. [ddb..483] add react-router | By - Rishabh Kumar | On - 2022-02-06T10:11:41Z
- 29. [efc..397] add tailwind | By - Rishabh Kumar | On - 2022-02-06T09:56:18Z
- 30. [6d6..425] init | By - Rishabh Kumar | On - 2022-02-06T09:50:43Z
-
-## metrica
-
-
- 1. [0d7..9a6] add rounded corner to nft video | By - Rishabh Kumar | On - 2022-03-06T12:04:34Z
- 2. [374..5e3] add animation to nft in details page | By - Rishabh Kumar | On - 2022-03-06T12:01:04Z
- 3. [a73..65c] add tx value column | By - AlexeyAdoniev | On - 2022-03-02T09:56:37Z
- 4. [89e..9f8] index | By - AlexeyAdoniev | On - 2022-03-01T18:06:15Z
- 5. [884..c7a] ethers lib ultils | By - AlexeyAdoniev | On - 2022-03-01T16:43:44Z
- 6. [dff..929] network | By - AlexeyAdoniev | On - 2022-03-01T13:12:38Z
- 7. [440..059] details Comp | By - AlexeyAdoniev | On - 2022-03-01T10:37:26Z
- 8. [f8d..504] loading span | By - AlexeyAdoniev | On - 2022-02-28T18:26:27Z
- 9. [ca7..a19] new Details component | By - AlexeyAdoniev | On - 2022-02-28T18:16:53Z
- 10. [20d..fb3] change urls | By - AlexeyAdoniev | On - 2022-02-27T08:09:56Z
- 11. [4d1..d90] nft loader | By - AlexeyAdoniev | On - 2022-02-24T18:10:12Z
- 12. [dd8..ffc] socket event update | By - AlexeyAdoniev | On - 2022-02-24T11:56:00Z
- 13. [711..8c8] update state on socket | By - AlexeyAdoniev | On - 2022-02-23T18:38:40Z
- 14. [1b8..33d] urls | By - AlexeyAdoniev | On - 2022-02-23T09:37:36Z
- 15. [2f3..ae0] sockets sett | By - AlexeyAdoniev | On - 2022-02-22T23:07:01Z
- 16. [397..a32] dashboard page template | By - AlexeyAdoniev | On - 2022-02-22T14:32:38Z
- 17. [7a4..686] added BreadCrumbs component in Explorer | By - AlexeyAdoniev | On - 2022-02-22T13:27:44Z
- 18. [3ef..3f8] copy button tooltip on tx page | By - AlexeyAdoniev | On - 2022-02-22T12:10:07Z
- 19. [cac..6fe] fix | By - Rishabh Kumar | On - 2022-02-21T18:18:49Z
- 20. [a2b..bb1] open bridge link in new tab in navbar | By - Rishabh Kumar | On - 2022-02-21T12:41:20Z
- 21. [e37..9d7] refactor event details | By - Rishabh Kumar | On - 2022-02-21T12:10:56Z
- 22. [922..a97] fix: search | By - Rishabh Kumar | On - 2022-02-21T09:10:29Z
- 23. [34c..665] add loading insted of no events found | By - Rishabh Kumar | On - 2022-02-21T08:18:00Z
- 24. [583..a6f] fix: date format in event details | By - Rishabh Kumar | On - 2022-02-20T15:35:34Z
- 25. [480..ead] add copy btn | By - Rishabh Kumar | On - 2022-02-20T14:50:56Z
- 26. [561..413] fix: event details text color | By - Rishabh Kumar | On - 2022-02-20T14:06:44Z
- 27. [01b..a96] add bridge link in navbar | By - Rishabh Kumar | On - 2022-02-20T14:05:08Z
- 28. [875..4d9] add https://xp.network link to footer | By - Rishabh Kumar | On - 2022-02-20T13:57:26Z
- 29. [3ab..a74] add fromChainName and toChainName | By - Rishabh Kumar | On - 2022-02-20T13:55:19Z
- 30. [0b9..a69] open navbar logo in new tab | By - Rishabh Kumar | On - 2022-02-19T14:20:09Z
- 31. [837..da5] fix: text size | By - Rishabh Kumar | On - 2022-02-19T14:19:11Z
- 32. [622..4da] fix: status style | By - Rishabh Kumar | On - 2022-02-19T14:16:20Z
- 33. [fb7..048] add latest commit | By - Rishabh Kumar | On - 2022-02-19T13:36:02Z
- 34. [a7a..626] add title and hr | By - Rishabh Kumar | On - 2022-02-17T13:22:28Z
- 35. [add..eec] XPNET-JS to XPJS in footer | By - Rishabh Kumar | On - 2022-02-17T12:10:38Z
- 36. [f8e..456] dont open email and phone in new tab | By - Rishabh Kumar | On - 2022-02-17T12:09:11Z
- 37. [242..837] shift transction details column for right | By - Rishabh Kumar | On - 2022-02-17T11:52:58Z
- 38. [ff8..509] change icon and title | By - Rishabh Kumar | On - 2022-02-17T11:46:54Z
- 39. [811..662] fix: event details style | By - Rishabh Kumar | On - 2022-02-17T11:39:00Z
- 40. [2df..e50] font to poppins in footer | By - Rishabh Kumar | On - 2022-02-17T11:12:27Z
- 41. [9bf..b47] change shadow style | By - Rishabh Kumar | On - 2022-02-17T11:06:15Z
- 42. [f20..08a] change text color on event details | By - Rishabh Kumar | On - 2022-02-17T10:50:57Z
- 43. [1e0..399] fix: text color in event details | By - Rishabh Kumar | On - 2022-02-16T15:05:30Z
- 44. [c71..40d] change footer style | By - Rishabh Kumar | On - 2022-02-16T14:51:44Z
- 45. [4d3..71d] change links color | By - Rishabh Kumar | On - 2022-02-16T14:11:50Z
- 46. [df8..22b] change text-size to sm | By - Rishabh Kumar | On - 2022-02-16T13:49:36Z
- 47. [0f7..2fe] remove number column from explorer events | By - Rishabh Kumar | On - 2022-02-16T13:42:15Z
- 48. [41e..a86] remove duplicate nft description | By - Rishabh Kumar | On - 2022-02-16T13:40:48Z
- 49. [bc6..7ff] increase margin top of footer | By - Rishabh Kumar | On - 2022-02-16T13:33:52Z
- 50. [018..064] remove unnecessary imports | By - Rishabh Kumar | On - 2022-02-16T13:30:58Z
-
-## testnet
-
-
- 1. [24c..db6] change constns2 | By - AlexeyAdoniev | On - 2022-04-28T12:06:52Z
- 2. [6bc..eff] change const | By - AlexeyAdoniev | On - 2022-04-28T11:46:23Z
- 3. [9d2..85b] testnet add algorand, bsc, polygon. nftParse for wrapped nft, helpers for formatEthers | By - AlexeyAdoniev | On - 2022-04-28T08:40:30Z
- 4. [8a3..d86] added tron and gateChain icons | By - AlexeyAdoniev | On - 2022-04-26T08:01:07Z
- 5. [973..ff4] added gatechain | By - AlexeyAdoniev | On - 2022-04-25T10:22:45Z
- 6. [b6f..a9b] fix bug with .createdAt | By - AlexeyAdoniev | On - 2022-04-04T10:44:03Z
- 7. [88d..119] merge | By - AlexeyAdoniev | On - 2022-04-04T10:37:17Z
- 8. [572..1be] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-04-04T10:24:47Z
- 9. [dca..c35] fix: date again | By - Rishabh Kumar | On - 2022-04-03T13:51:17Z
- 10. [257..3cf] fix: date | By - Rishabh Kumar | On - 2022-04-03T12:46:30Z
- 11. [2a3..b85] fix date | By - Rishabh Kumar | On - 2022-04-03T10:29:59Z
- 12. [a20..c96] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-31T16:04:47Z
- 13. [ce6..f0a] bug fix | By - AlexeyAdoniev | On - 2022-03-31T16:04:39Z
- 14. [cdb..e34] fix paginator label width | By - Rishabh Kumar | On - 2022-03-27T12:08:39Z
- 15. [407..428] fix cards | By - Rishabh Kumar | On - 2022-03-22T10:44:32Z
- 16. [5f1..d8a] add overlay bg | By - Rishabh Kumar | On - 2022-03-22T10:11:46Z
- 17. [252..562] fix csv modal mobile | By - Rishabh Kumar | On - 2022-03-22T10:09:23Z
- 18. [051..4e0] merge | By - AlexeyAdoniev | On - 2022-03-21T14:06:56Z
- 19. [563..6fa] bugs fix in paginator and CSV download | By - AlexeyAdoniev | On - 2022-03-21T13:41:48Z
- 20. [a9d..32a] remove error | By - Rishabh Kumar | On - 2022-03-21T12:06:16Z
- 21. [040..5aa] remove error | By - Rishabh Kumar | On - 2022-03-21T12:03:17Z
- 22. [e8a..eda] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-21T11:05:22Z
- 23. [bc1..003] date foramt change | By - AlexeyAdoniev | On - 2022-03-21T11:05:19Z
- 24. [1d5..7a7] add overlay bg | By - Rishabh Kumar | On - 2022-03-21T11:00:24Z
- 25. [16b..ea8] fix search bar width | By - Rishabh Kumar | On - 2022-03-21T10:46:45Z
- 26. [cd5..dea] fix spacing | By - Rishabh Kumar | On - 2022-03-21T10:31:58Z
- 27. [41c..363] IoTeX to Iotex | By - Rishabh Kumar | On - 2022-03-21T08:48:44Z
- 28. [b49..765] fix spacing | By - Rishabh Kumar | On - 2022-03-21T08:45:53Z
- 29. [10e..f44] put search bar under cards | By - Rishabh Kumar | On - 2022-03-21T08:30:06Z
- 30. [68f..bae] pagginator btn fix | By - AlexeyAdoniev | On - 2022-03-21T07:53:30Z
- 31. [27d..589] bugs | By - AlexeyAdoniev | On - 2022-03-20T18:53:36Z
- 32. [ee7..df8] comment out safarihack | By - Rishabh Kumar | On - 2022-03-20T15:07:16Z
- 33. [fd1..d1f] fix | By - Rishabh Kumar | On - 2022-03-20T15:00:33Z
- 34. [e69..9ae] fix divide-y | By - Rishabh Kumar | On - 2022-03-20T14:40:00Z
- 35. [2bb..ec1] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:21:50Z
- 36. [032..c45] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:06:23Z
- 37. [0e3..573] clear dropdown after submit | By - Rishabh Kumar | On - 2022-03-20T13:50:22Z
- 38. [85a..939] add whitespace nowrap to explorer events heading | By - Rishabh Kumar | On - 2022-03-20T13:27:02Z
- 39. [d89..762] fix cvs modal input width | By - Rishabh Kumar | On - 2022-03-20T13:23:52Z
- 40. [ae4..40b] fix padding | By - Rishabh Kumar | On - 2022-03-20T13:18:57Z
- 41. [497..10b] add rounded corner to card  in mobile | By - Rishabh Kumar | On - 2022-03-20T12:46:20Z
- 42. [1e5..21f] change search bar location | By - Rishabh Kumar | On - 2022-03-20T12:43:04Z
- 43. [111..cc5] remove selected chain from dropdown in tools | By - Rishabh Kumar | On - 2022-03-20T12:41:03Z
- 44. [995..537] fix explorer events  style | By - Rishabh Kumar | On - 2022-03-20T12:24:56Z
- 45. [129..d3c] change status color | By - Rishabh Kumar | On - 2022-03-20T12:10:38Z
- 46. [0e0..809] tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:50:47Z
- 47. [681..a7d] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:46:19Z
- 48. [375..0eb] fix card text color | By - Rishabh Kumar | On - 2022-03-20T11:37:52Z
- 49. [fef..1f9] Merge branch 'dev' of github.com:XP-NETWORK/bridge-explorer-ui into dev | By - Rishabh Kumar | On - 2022-03-20T11:32:44Z
- 50. [859..f81] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:32:33Z
-
-## uiUpdates
-
-
- 1. [f85..c03] updates of small changes | By - Lihi Sherm | On - 2022-05-24T12:30:14Z
- 2. [a20..24d] explorer links bug, refactor fetch nft | By - AlexeyAdoniev | On - 2022-05-18T12:54:31Z
- 3. [e2c..079] try fetch nft throw proxy if cors | By - AlexeyAdoniev | On - 2022-05-15T07:21:04Z
- 4. [429..cf2] exchange rate | By - AlexeyAdoniev | On - 2022-05-12T16:59:30Z
- 5. [bac..e2b] add algo | By - AlexeyAdoniev | On - 2022-05-10T13:33:57Z
- 6. [0ba..c20] add vech | By - AlexeyAdoniev | On - 2022-05-10T11:14:19Z
- 7. [8a3..d86] added tron and gateChain icons | By - AlexeyAdoniev | On - 2022-04-26T08:01:07Z
- 8. [973..ff4] added gatechain | By - AlexeyAdoniev | On - 2022-04-25T10:22:45Z
- 9. [b6f..a9b] fix bug with .createdAt | By - AlexeyAdoniev | On - 2022-04-04T10:44:03Z
- 10. [88d..119] merge | By - AlexeyAdoniev | On - 2022-04-04T10:37:17Z
- 11. [572..1be] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-04-04T10:24:47Z
- 12. [dca..c35] fix: date again | By - Rishabh Kumar | On - 2022-04-03T13:51:17Z
- 13. [257..3cf] fix: date | By - Rishabh Kumar | On - 2022-04-03T12:46:30Z
- 14. [2a3..b85] fix date | By - Rishabh Kumar | On - 2022-04-03T10:29:59Z
- 15. [a20..c96] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-31T16:04:47Z
- 16. [ce6..f0a] bug fix | By - AlexeyAdoniev | On - 2022-03-31T16:04:39Z
- 17. [cdb..e34] fix paginator label width | By - Rishabh Kumar | On - 2022-03-27T12:08:39Z
- 18. [407..428] fix cards | By - Rishabh Kumar | On - 2022-03-22T10:44:32Z
- 19. [5f1..d8a] add overlay bg | By - Rishabh Kumar | On - 2022-03-22T10:11:46Z
- 20. [252..562] fix csv modal mobile | By - Rishabh Kumar | On - 2022-03-22T10:09:23Z
- 21. [051..4e0] merge | By - AlexeyAdoniev | On - 2022-03-21T14:06:56Z
- 22. [563..6fa] bugs fix in paginator and CSV download | By - AlexeyAdoniev | On - 2022-03-21T13:41:48Z
- 23. [a9d..32a] remove error | By - Rishabh Kumar | On - 2022-03-21T12:06:16Z
- 24. [040..5aa] remove error | By - Rishabh Kumar | On - 2022-03-21T12:03:17Z
- 25. [e8a..eda] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-21T11:05:22Z
- 26. [bc1..003] date foramt change | By - AlexeyAdoniev | On - 2022-03-21T11:05:19Z
- 27. [1d5..7a7] add overlay bg | By - Rishabh Kumar | On - 2022-03-21T11:00:24Z
- 28. [16b..ea8] fix search bar width | By - Rishabh Kumar | On - 2022-03-21T10:46:45Z
- 29. [cd5..dea] fix spacing | By - Rishabh Kumar | On - 2022-03-21T10:31:58Z
- 30. [41c..363] IoTeX to Iotex | By - Rishabh Kumar | On - 2022-03-21T08:48:44Z
- 31. [b49..765] fix spacing | By - Rishabh Kumar | On - 2022-03-21T08:45:53Z
- 32. [10e..f44] put search bar under cards | By - Rishabh Kumar | On - 2022-03-21T08:30:06Z
- 33. [68f..bae] pagginator btn fix | By - AlexeyAdoniev | On - 2022-03-21T07:53:30Z
- 34. [27d..589] bugs | By - AlexeyAdoniev | On - 2022-03-20T18:53:36Z
- 35. [ee7..df8] comment out safarihack | By - Rishabh Kumar | On - 2022-03-20T15:07:16Z
- 36. [fd1..d1f] fix | By - Rishabh Kumar | On - 2022-03-20T15:00:33Z
- 37. [e69..9ae] fix divide-y | By - Rishabh Kumar | On - 2022-03-20T14:40:00Z
- 38. [2bb..ec1] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:21:50Z
- 39. [032..c45] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:06:23Z
- 40. [0e3..573] clear dropdown after submit | By - Rishabh Kumar | On - 2022-03-20T13:50:22Z
- 41. [85a..939] add whitespace nowrap to explorer events heading | By - Rishabh Kumar | On - 2022-03-20T13:27:02Z
- 42. [d89..762] fix cvs modal input width | By - Rishabh Kumar | On - 2022-03-20T13:23:52Z
- 43. [ae4..40b] fix padding | By - Rishabh Kumar | On - 2022-03-20T13:18:57Z
- 44. [497..10b] add rounded corner to card  in mobile | By - Rishabh Kumar | On - 2022-03-20T12:46:20Z
- 45. [1e5..21f] change search bar location | By - Rishabh Kumar | On - 2022-03-20T12:43:04Z
- 46. [111..cc5] remove selected chain from dropdown in tools | By - Rishabh Kumar | On - 2022-03-20T12:41:03Z
- 47. [995..537] fix explorer events  style | By - Rishabh Kumar | On - 2022-03-20T12:24:56Z
- 48. [129..d3c] change status color | By - Rishabh Kumar | On - 2022-03-20T12:10:38Z
- 49. [0e0..809] tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:50:47Z
- 50. [681..a7d] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:46:19Z
-
-# internal-docs
-
-## main
-
-
- 1. [41f..73a] Update tezos-backer-restart.md | By - Dima Brook | On - 2022-06-23T08:35:11Z
- 2. [485..1a1] Create Hetzner_raid1_to_raid0.md | By - Dima Brook | On - 2022-06-23T08:34:16Z
- 3. [5ac..981] Create Hedera.md | By - Dima Brook | On - 2022-04-03T13:14:08Z
- 4. [907..81a] Create D_CENT.md | By - Dima Brook | On - 2022-04-03T13:13:18Z
- 5. [29d..dd5] Create Clover.md | By - Dima Brook | On - 2022-04-03T13:12:41Z
- 6. [f62..a24] Create tezos-backer-restart.md | By - Dima Brook | On - 2022-04-03T13:12:04Z
- 7. [ad5..98e] Create bridge_architecture.md | By - Dima Brook | On - 2022-02-28T19:24:43Z
- 8. [b12..32d] Create docker.md | By - Dima Brook | On - 2022-02-22T10:31:25Z
- 9. [3d4..2a2] Create heco.md | By - Dima Brook | On - 2022-02-16T09:50:37Z
- 10. [145..6b8] Create moonbeam.md | By - Dima Brook | On - 2022-02-14T14:07:32Z
- 11. [2c1..ccd] Create ve-chain.md | By - Dima Brook | On - 2022-02-14T10:15:57Z
- 12. [92d..b42] Create secret-network.md | By - Dima Brook | On - 2022-02-14T10:15:22Z
- 13. [ad4..5e6] Create nervos.md | By - Dima Brook | On - 2022-02-14T10:14:48Z
- 14. [223..376] Create .gitkeep | By - Dima Brook | On - 2022-02-14T10:14:20Z
- 15. [5a4..f07] Create nervos.md | By - Dima Brook | On - 2022-02-14T10:13:26Z
- 16. [6dd..72f] Create thinkium.md | By - Dima Brook | On - 2022-02-14T10:12:24Z
- 17. [ce6..6fd] Create .gitkeep | By - Dima Brook | On - 2022-02-14T10:11:46Z
- 18. [86d..f5c] Create tezos_backer.md | By - Dima Brook | On - 2022-02-14T09:53:36Z
- 19. [711..208] Create bridge_deployment.md | By - Dima Brook | On - 2022-02-13T11:34:22Z
- 20. [823..62f] Create algorand-deployment.md | By - Dima Brook | On - 2021-12-06T18:11:40Z
- 21. [633..645] Create heroku-nft-index.md | By - Dima Brook | On - 2021-12-01T19:06:03Z
-
-# algorand-asa-bridge
-
-## main
-
-
- 1. [246..ecf] remove xpnet key | By - rocalex | On - 2022-06-22T09:04:41Z
- 2. [5f9..712] remove send_native & receive_native | By - rocalex | On - 2022-06-21T12:57:39Z
- 3. [488..e8f] fix update_gk | By - rocalex | On - 2022-06-21T04:15:56Z
- 4. [8da..db2] add consuming actions | By - rocalex | On - 2022-06-21T04:15:09Z
- 5. [31d..eea] pause/unpause, withdraw fees | By - rocalex | On - 2022-06-20T16:00:51Z
- 6. [065..9fa] change wrapped token name as XPNET | By - rocalex | On - 2022-06-16T08:53:22Z
- 7. [8c6..5fb] add readme | By - rocalex | On - 2022-06-15T20:25:25Z
- 8. [d6f..bea] add paused | By - rocalex | On - 2022-06-15T20:17:41Z
- 9. [0fc..012] lint fix | By - rocalex | On - 2022-06-15T20:08:29Z
- 10. [f6a..df4] receive native | By - rocalex | On - 2022-06-15T20:06:46Z
- 11. [aa1..769] send native | By - rocalex | On - 2022-06-15T19:54:47Z
- 12. [29e..39b] send wrapped | By - rocalex | On - 2022-06-15T19:37:19Z
- 13. [dd0..bf1] receive foreign | By - rocalex | On - 2022-06-15T18:35:22Z
- 14. [ee6..373] create wVPAD when bootstrap | By - rocalex | On - 2022-06-15T17:57:39Z
- 15. [b08..5d2] update group key | By - rocalex | On - 2022-06-15T17:20:59Z
- 16. [3cc..fc9] update group key | By - rocalex | On - 2022-06-15T17:08:37Z
- 17. [d42..410] add deploy script | By - rocalex | On - 2022-06-15T15:48:53Z
- 18. [eff..25d] initial unit tests | By - rocalex | On - 2022-06-15T14:49:50Z
- 19. [b69..51f] initial | By - rocalex | On - 2022-06-14T11:25:53Z
-
-# solana-bridge
-
-## main
-
-
- 1. [3ab..976] emit lamports | By - rocalex | On - 2022-06-20T18:55:50Z
- 2. [a92..545] emit mintWith | By - rocalex | On - 2022-06-19T19:00:19Z
- 3. [587..354] emit action id | By - rocalex | On - 2022-06-19T18:52:00Z
- 4. [e18..8ac] add mint to unfreeze data | By - rocalex | On - 2022-06-17T17:04:36Z
- 5. [43d..adb] add transfer_service_fee_lamports function | By - rocalex | On - 2022-06-14T04:08:17Z
- 6. [f30..846] add withdraw fees | By - rocalex | On - 2022-06-14T03:57:55Z
- 7. [188..c0d] transfer service fee to bridge PDA when freeze/withdraw | By - rocalex | On - 2022-06-14T03:37:56Z
- 8. [a39..e19] remove treasury | By - rocalex | On - 2022-06-14T03:10:57Z
- 9. [270..782] update mpl-token-metadata version | By - rocalex | On - 2022-06-14T03:05:13Z
- 10. [91c..617] use PDA as bridge account | By - rocalex | On - 2022-06-13T20:56:10Z
- 11. [f2f..e83] remove unused imports | By - rocalex | On - 2022-06-13T19:32:44Z
- 12. [4d5..9bd] emit mint when freeze | By - rocalex | On - 2022-06-13T19:30:50Z
- 13. [e19..43d] check if receiver is correct | By - rocalex | On - 2022-06-13T19:24:49Z
- 14. [f35..5f4] change bridge PDA to normal account | By - rocalex | On - 2022-06-13T03:39:07Z
- 15. [b8b..edd] fix burn | By - rocalex | On - 2022-06-12T19:47:19Z
- 16. [388..2ec] fix withdraw | By - rocalex | On - 2022-06-12T19:15:10Z
- 17. [2d4..ab6] change authority | By - rocalex | On - 2022-06-12T15:12:18Z
- 18. [ce1..75c] remove anchor.web. | By - rocalex | On - 2022-06-12T14:47:17Z
- 19. [610..592] bridge account as PDA | By - rocalex | On - 2022-06-12T10:12:35Z
- 20. [848..16e] config the client | By - rocalex | On - 2022-06-12T09:05:54Z
- 21. [a16..c5f] refactor duplicated methods | By - rocalex | On - 2022-06-10T12:13:01Z
- 22. [f00..649] Update README.md | By - Dima Brook | On - 2022-06-09T13:37:11Z
- 23. [116..906] Update README.md | By - Dima Brook | On - 2022-06-09T13:30:41Z
- 24. [c02..7ff] Update README.md | By - Dima Brook | On - 2022-06-09T13:17:05Z
- 25. [f9c..49c] Update README.md | By - Dima Brook | On - 2022-06-09T13:05:32Z
- 26. [823..6f4] Update README.md | By - Dima Brook | On - 2022-06-09T09:17:48Z
- 27. [cee..78e] Update README.md | By - Dima Brook | On - 2022-06-09T09:05:26Z
- 28. [7f6..717] Update README.md | By - Dima Brook | On - 2022-06-09T08:58:22Z
- 29. [cd8..726] Update README.md | By - Dima Brook | On - 2022-06-09T08:57:50Z
- 30. [c76..b83] Update README.md | By - Dima Brook | On - 2022-06-09T08:41:57Z
- 31. [aef..9d0] Update README.md | By - Dima Brook | On - 2022-06-09T08:34:58Z
- 32. [125..5c8] consume actions | By - rocalex | On - 2022-05-31T17:33:40Z
- 33. [cfc..edd] refactor code | By - rocalex | On - 2022-05-30T07:15:12Z
- 34. [ee4..559] fix unfreeze nft | By - rocalex | On - 2022-05-18T15:31:17Z
- 35. [c0f..5ff] fix withdraw nft | By - rocalex | On - 2022-05-18T13:21:22Z
- 36. [294..a73] add prettier | By - rocalex | On - 2022-05-18T13:03:28Z
- 37. [f64..9da] remove auth seeds | By - rocalex | On - 2022-05-18T11:57:58Z
- 38. [252..36e] fix validate_transfer_nft | By - rocalex | On - 2022-05-17T16:22:14Z
- 39. [96d..fc2] update group key | By - rocalex | On - 2022-05-17T14:58:22Z
- 40. [992..76b] fix offsig | By - rocalex | On - 2022-05-17T14:32:47Z
- 41. [471..21f] fix validate_transfer_nft | By - rocalex | On - 2022-05-17T02:39:52Z
- 42. [8d3..6a4] add treasury account | By - rocalex | On - 2022-03-06T17:59:06Z
- 43. [ac1..b13] add withdraw fees | By - rocalex | On - 2022-03-03T06:47:48Z
- 44. [4f2..f03] check if toTokenAccount is bridge when freeze nft | By - rocalex | On - 2022-03-03T06:20:12Z
- 45. [d7b..d6b] check if pub key is valid | By - rocalex | On - 2022-03-03T06:09:51Z
- 46. [f3b..3fb] change secp256k1 to ed25519 | By - rocalex | On - 2022-03-02T15:04:53Z
- 47. [99e..9b3] add test for ed25519 | By - rocalex | On - 2022-03-02T11:31:42Z
- 48. [cc6..5e8] add checking | By - rocalex | On - 2022-03-02T10:14:52Z
- 49. [daf..972] unfreeze nft | By - rocalex | On - 2022-02-21T11:15:54Z
- 50. [33b..971] check amounts | By - rocalex | On - 2022-02-21T10:57:15Z
-
-# web3-erc20-contracts
-
-## master
-
-
- 1. [88f..f35] workflows: gen-typechain: fix repo url | By - rupansh | On - 2022-06-20T17:02:58Z
- 2. [bca..f08] initial import | By - rupansh | On - 2022-06-20T16:42:34Z
-
-# xp-solana-integration
-
-## dependabot/npm_and_yarn/prettier-2.6.2
-
-
- 1. [28d..47c] Bump prettier from 2.3.2 to 2.6.2 | By - dependabot[bot] | On - 2022-04-04T08:29:41Z
- 2. [bb3..bd2] Initial Commit | By - imsk17 | On - 2021-09-14T16:08:47Z
- 3. [035..137] Bump @solana/web3.js from 1.24.2 to 1.25.0 | By - dependabot[bot] | On - 2021-09-08T08:19:20Z
- 4. [439..bb3] Bump @typescript-eslint/eslint-plugin from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:32:24Z
- 5. [9c8..f9c] Bump @typescript-eslint/parser from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:19:39Z
- 6. [cf6..044] Bump @solana/web3.js from 1.24.1 to 1.24.2 | By - dependabot[bot] | On - 2021-09-06T08:21:18Z
- 7. [a43..304] Bump start-server-and-test from 1.13.1 to 1.14.0 | By - dependabot[bot] | On - 2021-09-03T08:21:45Z
- 8. [247..13a] Bump @typescript-eslint/parser from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:41:07Z
- 9. [e70..d86] Bump eslint-plugin-prettier from 3.4.1 to 4.0.0 | By - dependabot[bot] | On - 2021-08-31T08:30:34Z
- 10. [fca..ba2] Bump @typescript-eslint/eslint-plugin from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:19:55Z
- 11. [e5f..2d5] Bump typescript from 4.3.5 to 4.4.2 | By - dependabot[bot] | On - 2021-08-27T08:20:14Z
- 12. [a94..9de] Bump @typescript-eslint/parser from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:28:36Z
- 13. [1c5..dde] Bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:19:08Z
- 14. [443..31c] Bump eslint-plugin-prettier from 3.4.0 to 3.4.1 | By - dependabot[bot] | On - 2021-08-23T08:21:47Z
- 15. [b6c..c97] Bump @solana/web3.js from 1.24.0 to 1.24.1 | By - dependabot[bot] | On - 2021-08-20T08:19:18Z
- 16. [75a..ee8] Bump ts-node from 10.2.0 to 10.2.1 | By - dependabot[bot] | On - 2021-08-19T08:30:55Z
- 17. [66e..9d3] Bump borsh from 0.5.0 to 0.6.0 | By - dependabot[bot] | On - 2021-08-19T08:19:26Z
- 18. [4e3..302] Bump @typescript-eslint/parser from 4.29.1 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:34:25Z
- 19. [f7f..e6d] Bump @typescript-eslint/eslint-plugin from 4.29.0 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:20:04Z
- 20. [dd5..489] Bump @solana/web3.js from 1.23.0 to 1.24.0 | By - dependabot[bot] | On - 2021-08-13T08:20:54Z
- 21. [df9..b63] Bump @solana/web3.js from 1.22.0 to 1.23.0 | By - dependabot[bot] | On - 2021-08-11T08:19:47Z
- 22. [52b..834] Bump @typescript-eslint/parser from 4.29.0 to 4.29.1 | By - dependabot[bot] | On - 2021-08-10T08:22:49Z
- 23. [6d5..8ea] Bump ts-node from 10.1.0 to 10.2.0 | By - dependabot[bot] | On - 2021-08-09T08:25:56Z
- 24. [807..245] Bump eslint from 7.27.0 to 7.32.0 | By - dependabot[bot] | On - 2021-08-07T23:53:45Z
- 25. [8b8..644] Bump @types/eslint from 7.2.14 to 7.28.0 | By - dependabot[bot] | On - 2021-08-07T23:43:50Z
- 26. [b4d..efb] Bump start-server-and-test from 1.12.6 to 1.13.1 (#271) | By - dependabot[bot] | On - 2021-08-07T23:35:08Z
- 27. [b29..de5] Bump @solana/web3.js from 1.20.2 to 1.22.0 (#273) | By - dependabot[bot] | On - 2021-08-07T23:17:48Z
- 28. [119..0a8] Bump borsh from 0.4.0 to 0.5.0 (#274) | By - dependabot[bot] | On - 2021-08-07T23:17:43Z
- 29. [a94..925] npm audit fix | By - Justin Starry | On - 2021-08-07T23:17:11Z
- 30. [afa..bb8] Remove os name from action name | By - Justin Starry | On - 2021-08-07T23:16:39Z
- 31. [1d0..8db] Bump @typescript-eslint/eslint-plugin from 4.28.2 to 4.29.0 (#270) | By - dependabot[bot] | On - 2021-08-07T23:07:58Z
- 32. [fc2..2fc] Bump @types/mz from 2.7.3 to 2.7.4 (#249) | By - dependabot[bot] | On - 2021-08-07T23:07:48Z
- 33. [376..9fd] add/clean up notes for Windows (#256) | By - Mark Jackson | On - 2021-08-07T23:07:34Z
- 34. [8c1..88d] Add automerge rule and cargo dependabot rule (#272) | By - Justin Starry | On - 2021-08-07T23:02:12Z
- 35. [725..0f6] Bump solana-program to 1.7.9 (#269) | By - Justin Starry | On - 2021-08-07T22:57:39Z
- 36. [3d1..862] Bump @types/prettier from 2.2.3 to 2.3.2 (#252) | By - dependabot[bot] | On - 2021-08-07T22:23:52Z
- 37. [0ef..472] Bump prettier from 2.3.0 to 2.3.2 (#267) | By - dependabot[bot] | On - 2021-08-07T22:23:46Z
- 38. [0f4..0ac] Bump @typescript-eslint/parser from 4.28.2 to 4.29.0 (#263) | By - dependabot[bot] | On - 2021-08-06T20:42:18Z
- 39. [0d6..850] Don't overwrite Cargo.lock when installing (#260) | By - Tyera Eulberg | On - 2021-07-27T01:50:10Z
- 40. [414..436] Bump @typescript-eslint/eslint-plugin from 4.26.0 to 4.28.2 (#251) | By - dependabot[bot] | On - 2021-07-12T23:14:21Z
- 41. [234..48f] Bump ts-node from 10.0.0 to 10.1.0 (#250) | By - dependabot[bot] | On - 2021-07-12T23:14:08Z
- 42. [97d..6fd] Bump typescript from 4.2.4 to 4.3.5 (#248) | By - dependabot[bot] | On - 2021-07-09T15:56:00Z
- 43. [ac7..907] Bump start-server-and-test from 1.12.2 to 1.12.6 (#247) | By - dependabot[bot] | On - 2021-07-09T15:55:55Z
- 44. [cff..aa1] Update solana deps to 1.7.1 (for tests on M1) (#238) | By - Kirill Fomichev | On - 2021-07-09T15:55:31Z
- 45. [784..4fa] Bump @typescript-eslint/parser from 4.24.0 to 4.28.2 (#244) | By - dependabot[bot] | On - 2021-07-09T15:29:45Z
- 46. [1da..b12] Bump @types/eslint from 7.2.11 to 7.2.14 (#245) | By - dependabot[bot] | On - 2021-07-09T15:29:36Z
- 47. [f17..ddf] Bump @solana/web3.js from 1.12.0 to 1.20.2 (#246) | By - dependabot[bot] | On - 2021-07-09T15:29:11Z
- 48. [2e5..2bc] Update to keypair (#243) | By - zurgl | On - 2021-07-06T03:07:26Z
- 49. [a41..4e8] hello worlds mistype fix for Account (#235) | By - olexandr13 | On - 2021-06-11T22:03:29Z
- 50. [cc5..a42] Update main.yml | By - joeaba | On - 2021-06-04T04:30:43Z
-
-## dependabot/npm_and_yarn/typescript-4.7.4
-
-
- 1. [484..feb] Bump typescript from 4.4.2 to 4.7.4 | By - dependabot[bot] | On - 2022-06-20T08:28:10Z
- 2. [bb3..bd2] Initial Commit | By - imsk17 | On - 2021-09-14T16:08:47Z
- 3. [035..137] Bump @solana/web3.js from 1.24.2 to 1.25.0 | By - dependabot[bot] | On - 2021-09-08T08:19:20Z
- 4. [439..bb3] Bump @typescript-eslint/eslint-plugin from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:32:24Z
- 5. [9c8..f9c] Bump @typescript-eslint/parser from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:19:39Z
- 6. [cf6..044] Bump @solana/web3.js from 1.24.1 to 1.24.2 | By - dependabot[bot] | On - 2021-09-06T08:21:18Z
- 7. [a43..304] Bump start-server-and-test from 1.13.1 to 1.14.0 | By - dependabot[bot] | On - 2021-09-03T08:21:45Z
- 8. [247..13a] Bump @typescript-eslint/parser from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:41:07Z
- 9. [e70..d86] Bump eslint-plugin-prettier from 3.4.1 to 4.0.0 | By - dependabot[bot] | On - 2021-08-31T08:30:34Z
- 10. [fca..ba2] Bump @typescript-eslint/eslint-plugin from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:19:55Z
- 11. [e5f..2d5] Bump typescript from 4.3.5 to 4.4.2 | By - dependabot[bot] | On - 2021-08-27T08:20:14Z
- 12. [a94..9de] Bump @typescript-eslint/parser from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:28:36Z
- 13. [1c5..dde] Bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:19:08Z
- 14. [443..31c] Bump eslint-plugin-prettier from 3.4.0 to 3.4.1 | By - dependabot[bot] | On - 2021-08-23T08:21:47Z
- 15. [b6c..c97] Bump @solana/web3.js from 1.24.0 to 1.24.1 | By - dependabot[bot] | On - 2021-08-20T08:19:18Z
- 16. [75a..ee8] Bump ts-node from 10.2.0 to 10.2.1 | By - dependabot[bot] | On - 2021-08-19T08:30:55Z
- 17. [66e..9d3] Bump borsh from 0.5.0 to 0.6.0 | By - dependabot[bot] | On - 2021-08-19T08:19:26Z
- 18. [4e3..302] Bump @typescript-eslint/parser from 4.29.1 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:34:25Z
- 19. [f7f..e6d] Bump @typescript-eslint/eslint-plugin from 4.29.0 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:20:04Z
- 20. [dd5..489] Bump @solana/web3.js from 1.23.0 to 1.24.0 | By - dependabot[bot] | On - 2021-08-13T08:20:54Z
- 21. [df9..b63] Bump @solana/web3.js from 1.22.0 to 1.23.0 | By - dependabot[bot] | On - 2021-08-11T08:19:47Z
- 22. [52b..834] Bump @typescript-eslint/parser from 4.29.0 to 4.29.1 | By - dependabot[bot] | On - 2021-08-10T08:22:49Z
- 23. [6d5..8ea] Bump ts-node from 10.1.0 to 10.2.0 | By - dependabot[bot] | On - 2021-08-09T08:25:56Z
- 24. [807..245] Bump eslint from 7.27.0 to 7.32.0 | By - dependabot[bot] | On - 2021-08-07T23:53:45Z
- 25. [8b8..644] Bump @types/eslint from 7.2.14 to 7.28.0 | By - dependabot[bot] | On - 2021-08-07T23:43:50Z
- 26. [b4d..efb] Bump start-server-and-test from 1.12.6 to 1.13.1 (#271) | By - dependabot[bot] | On - 2021-08-07T23:35:08Z
- 27. [b29..de5] Bump @solana/web3.js from 1.20.2 to 1.22.0 (#273) | By - dependabot[bot] | On - 2021-08-07T23:17:48Z
- 28. [119..0a8] Bump borsh from 0.4.0 to 0.5.0 (#274) | By - dependabot[bot] | On - 2021-08-07T23:17:43Z
- 29. [a94..925] npm audit fix | By - Justin Starry | On - 2021-08-07T23:17:11Z
- 30. [afa..bb8] Remove os name from action name | By - Justin Starry | On - 2021-08-07T23:16:39Z
- 31. [1d0..8db] Bump @typescript-eslint/eslint-plugin from 4.28.2 to 4.29.0 (#270) | By - dependabot[bot] | On - 2021-08-07T23:07:58Z
- 32. [fc2..2fc] Bump @types/mz from 2.7.3 to 2.7.4 (#249) | By - dependabot[bot] | On - 2021-08-07T23:07:48Z
- 33. [376..9fd] add/clean up notes for Windows (#256) | By - Mark Jackson | On - 2021-08-07T23:07:34Z
- 34. [8c1..88d] Add automerge rule and cargo dependabot rule (#272) | By - Justin Starry | On - 2021-08-07T23:02:12Z
- 35. [725..0f6] Bump solana-program to 1.7.9 (#269) | By - Justin Starry | On - 2021-08-07T22:57:39Z
- 36. [3d1..862] Bump @types/prettier from 2.2.3 to 2.3.2 (#252) | By - dependabot[bot] | On - 2021-08-07T22:23:52Z
- 37. [0ef..472] Bump prettier from 2.3.0 to 2.3.2 (#267) | By - dependabot[bot] | On - 2021-08-07T22:23:46Z
- 38. [0f4..0ac] Bump @typescript-eslint/parser from 4.28.2 to 4.29.0 (#263) | By - dependabot[bot] | On - 2021-08-06T20:42:18Z
- 39. [0d6..850] Don't overwrite Cargo.lock when installing (#260) | By - Tyera Eulberg | On - 2021-07-27T01:50:10Z
- 40. [414..436] Bump @typescript-eslint/eslint-plugin from 4.26.0 to 4.28.2 (#251) | By - dependabot[bot] | On - 2021-07-12T23:14:21Z
- 41. [234..48f] Bump ts-node from 10.0.0 to 10.1.0 (#250) | By - dependabot[bot] | On - 2021-07-12T23:14:08Z
- 42. [97d..6fd] Bump typescript from 4.2.4 to 4.3.5 (#248) | By - dependabot[bot] | On - 2021-07-09T15:56:00Z
- 43. [ac7..907] Bump start-server-and-test from 1.12.2 to 1.12.6 (#247) | By - dependabot[bot] | On - 2021-07-09T15:55:55Z
- 44. [cff..aa1] Update solana deps to 1.7.1 (for tests on M1) (#238) | By - Kirill Fomichev | On - 2021-07-09T15:55:31Z
- 45. [784..4fa] Bump @typescript-eslint/parser from 4.24.0 to 4.28.2 (#244) | By - dependabot[bot] | On - 2021-07-09T15:29:45Z
- 46. [1da..b12] Bump @types/eslint from 7.2.11 to 7.2.14 (#245) | By - dependabot[bot] | On - 2021-07-09T15:29:36Z
- 47. [f17..ddf] Bump @solana/web3.js from 1.12.0 to 1.20.2 (#246) | By - dependabot[bot] | On - 2021-07-09T15:29:11Z
- 48. [2e5..2bc] Update to keypair (#243) | By - zurgl | On - 2021-07-06T03:07:26Z
- 49. [a41..4e8] hello worlds mistype fix for Account (#235) | By - olexandr13 | On - 2021-06-11T22:03:29Z
- 50. [cc5..a42] Update main.yml | By - joeaba | On - 2021-06-04T04:30:43Z
-
-## dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-4.33.0
-
-
- 1. [713..cb7] Bump @typescript-eslint/eslint-plugin from 4.31.0 to 4.33.0 | By - dependabot[bot] | On - 2021-10-05T08:22:55Z
- 2. [bb3..bd2] Initial Commit | By - imsk17 | On - 2021-09-14T16:08:47Z
- 3. [035..137] Bump @solana/web3.js from 1.24.2 to 1.25.0 | By - dependabot[bot] | On - 2021-09-08T08:19:20Z
- 4. [439..bb3] Bump @typescript-eslint/eslint-plugin from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:32:24Z
- 5. [9c8..f9c] Bump @typescript-eslint/parser from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:19:39Z
- 6. [cf6..044] Bump @solana/web3.js from 1.24.1 to 1.24.2 | By - dependabot[bot] | On - 2021-09-06T08:21:18Z
- 7. [a43..304] Bump start-server-and-test from 1.13.1 to 1.14.0 | By - dependabot[bot] | On - 2021-09-03T08:21:45Z
- 8. [247..13a] Bump @typescript-eslint/parser from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:41:07Z
- 9. [e70..d86] Bump eslint-plugin-prettier from 3.4.1 to 4.0.0 | By - dependabot[bot] | On - 2021-08-31T08:30:34Z
- 10. [fca..ba2] Bump @typescript-eslint/eslint-plugin from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:19:55Z
- 11. [e5f..2d5] Bump typescript from 4.3.5 to 4.4.2 | By - dependabot[bot] | On - 2021-08-27T08:20:14Z
- 12. [a94..9de] Bump @typescript-eslint/parser from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:28:36Z
- 13. [1c5..dde] Bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:19:08Z
- 14. [443..31c] Bump eslint-plugin-prettier from 3.4.0 to 3.4.1 | By - dependabot[bot] | On - 2021-08-23T08:21:47Z
- 15. [b6c..c97] Bump @solana/web3.js from 1.24.0 to 1.24.1 | By - dependabot[bot] | On - 2021-08-20T08:19:18Z
- 16. [75a..ee8] Bump ts-node from 10.2.0 to 10.2.1 | By - dependabot[bot] | On - 2021-08-19T08:30:55Z
- 17. [66e..9d3] Bump borsh from 0.5.0 to 0.6.0 | By - dependabot[bot] | On - 2021-08-19T08:19:26Z
- 18. [4e3..302] Bump @typescript-eslint/parser from 4.29.1 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:34:25Z
- 19. [f7f..e6d] Bump @typescript-eslint/eslint-plugin from 4.29.0 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:20:04Z
- 20. [dd5..489] Bump @solana/web3.js from 1.23.0 to 1.24.0 | By - dependabot[bot] | On - 2021-08-13T08:20:54Z
- 21. [df9..b63] Bump @solana/web3.js from 1.22.0 to 1.23.0 | By - dependabot[bot] | On - 2021-08-11T08:19:47Z
- 22. [52b..834] Bump @typescript-eslint/parser from 4.29.0 to 4.29.1 | By - dependabot[bot] | On - 2021-08-10T08:22:49Z
- 23. [6d5..8ea] Bump ts-node from 10.1.0 to 10.2.0 | By - dependabot[bot] | On - 2021-08-09T08:25:56Z
- 24. [807..245] Bump eslint from 7.27.0 to 7.32.0 | By - dependabot[bot] | On - 2021-08-07T23:53:45Z
- 25. [8b8..644] Bump @types/eslint from 7.2.14 to 7.28.0 | By - dependabot[bot] | On - 2021-08-07T23:43:50Z
- 26. [b4d..efb] Bump start-server-and-test from 1.12.6 to 1.13.1 (#271) | By - dependabot[bot] | On - 2021-08-07T23:35:08Z
- 27. [b29..de5] Bump @solana/web3.js from 1.20.2 to 1.22.0 (#273) | By - dependabot[bot] | On - 2021-08-07T23:17:48Z
- 28. [119..0a8] Bump borsh from 0.4.0 to 0.5.0 (#274) | By - dependabot[bot] | On - 2021-08-07T23:17:43Z
- 29. [a94..925] npm audit fix | By - Justin Starry | On - 2021-08-07T23:17:11Z
- 30. [afa..bb8] Remove os name from action name | By - Justin Starry | On - 2021-08-07T23:16:39Z
- 31. [1d0..8db] Bump @typescript-eslint/eslint-plugin from 4.28.2 to 4.29.0 (#270) | By - dependabot[bot] | On - 2021-08-07T23:07:58Z
- 32. [fc2..2fc] Bump @types/mz from 2.7.3 to 2.7.4 (#249) | By - dependabot[bot] | On - 2021-08-07T23:07:48Z
- 33. [376..9fd] add/clean up notes for Windows (#256) | By - Mark Jackson | On - 2021-08-07T23:07:34Z
- 34. [8c1..88d] Add automerge rule and cargo dependabot rule (#272) | By - Justin Starry | On - 2021-08-07T23:02:12Z
- 35. [725..0f6] Bump solana-program to 1.7.9 (#269) | By - Justin Starry | On - 2021-08-07T22:57:39Z
- 36. [3d1..862] Bump @types/prettier from 2.2.3 to 2.3.2 (#252) | By - dependabot[bot] | On - 2021-08-07T22:23:52Z
- 37. [0ef..472] Bump prettier from 2.3.0 to 2.3.2 (#267) | By - dependabot[bot] | On - 2021-08-07T22:23:46Z
- 38. [0f4..0ac] Bump @typescript-eslint/parser from 4.28.2 to 4.29.0 (#263) | By - dependabot[bot] | On - 2021-08-06T20:42:18Z
- 39. [0d6..850] Don't overwrite Cargo.lock when installing (#260) | By - Tyera Eulberg | On - 2021-07-27T01:50:10Z
- 40. [414..436] Bump @typescript-eslint/eslint-plugin from 4.26.0 to 4.28.2 (#251) | By - dependabot[bot] | On - 2021-07-12T23:14:21Z
- 41. [234..48f] Bump ts-node from 10.0.0 to 10.1.0 (#250) | By - dependabot[bot] | On - 2021-07-12T23:14:08Z
- 42. [97d..6fd] Bump typescript from 4.2.4 to 4.3.5 (#248) | By - dependabot[bot] | On - 2021-07-09T15:56:00Z
- 43. [ac7..907] Bump start-server-and-test from 1.12.2 to 1.12.6 (#247) | By - dependabot[bot] | On - 2021-07-09T15:55:55Z
- 44. [cff..aa1] Update solana deps to 1.7.1 (for tests on M1) (#238) | By - Kirill Fomichev | On - 2021-07-09T15:55:31Z
- 45. [784..4fa] Bump @typescript-eslint/parser from 4.24.0 to 4.28.2 (#244) | By - dependabot[bot] | On - 2021-07-09T15:29:45Z
- 46. [1da..b12] Bump @types/eslint from 7.2.11 to 7.2.14 (#245) | By - dependabot[bot] | On - 2021-07-09T15:29:36Z
- 47. [f17..ddf] Bump @solana/web3.js from 1.12.0 to 1.20.2 (#246) | By - dependabot[bot] | On - 2021-07-09T15:29:11Z
- 48. [2e5..2bc] Update to keypair (#243) | By - zurgl | On - 2021-07-06T03:07:26Z
- 49. [a41..4e8] hello worlds mistype fix for Account (#235) | By - olexandr13 | On - 2021-06-11T22:03:29Z
- 50. [cc5..a42] Update main.yml | By - joeaba | On - 2021-06-04T04:30:43Z
-
-## master
-
-
- 1. [bb3..bd2] Initial Commit | By - imsk17 | On - 2021-09-14T16:08:47Z
- 2. [035..137] Bump @solana/web3.js from 1.24.2 to 1.25.0 | By - dependabot[bot] | On - 2021-09-08T08:19:20Z
- 3. [439..bb3] Bump @typescript-eslint/eslint-plugin from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:32:24Z
- 4. [9c8..f9c] Bump @typescript-eslint/parser from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:19:39Z
- 5. [cf6..044] Bump @solana/web3.js from 1.24.1 to 1.24.2 | By - dependabot[bot] | On - 2021-09-06T08:21:18Z
- 6. [a43..304] Bump start-server-and-test from 1.13.1 to 1.14.0 | By - dependabot[bot] | On - 2021-09-03T08:21:45Z
- 7. [247..13a] Bump @typescript-eslint/parser from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:41:07Z
- 8. [e70..d86] Bump eslint-plugin-prettier from 3.4.1 to 4.0.0 | By - dependabot[bot] | On - 2021-08-31T08:30:34Z
- 9. [fca..ba2] Bump @typescript-eslint/eslint-plugin from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:19:55Z
- 10. [e5f..2d5] Bump typescript from 4.3.5 to 4.4.2 | By - dependabot[bot] | On - 2021-08-27T08:20:14Z
- 11. [a94..9de] Bump @typescript-eslint/parser from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:28:36Z
- 12. [1c5..dde] Bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:19:08Z
- 13. [443..31c] Bump eslint-plugin-prettier from 3.4.0 to 3.4.1 | By - dependabot[bot] | On - 2021-08-23T08:21:47Z
- 14. [b6c..c97] Bump @solana/web3.js from 1.24.0 to 1.24.1 | By - dependabot[bot] | On - 2021-08-20T08:19:18Z
- 15. [75a..ee8] Bump ts-node from 10.2.0 to 10.2.1 | By - dependabot[bot] | On - 2021-08-19T08:30:55Z
- 16. [66e..9d3] Bump borsh from 0.5.0 to 0.6.0 | By - dependabot[bot] | On - 2021-08-19T08:19:26Z
- 17. [4e3..302] Bump @typescript-eslint/parser from 4.29.1 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:34:25Z
- 18. [f7f..e6d] Bump @typescript-eslint/eslint-plugin from 4.29.0 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:20:04Z
- 19. [dd5..489] Bump @solana/web3.js from 1.23.0 to 1.24.0 | By - dependabot[bot] | On - 2021-08-13T08:20:54Z
- 20. [df9..b63] Bump @solana/web3.js from 1.22.0 to 1.23.0 | By - dependabot[bot] | On - 2021-08-11T08:19:47Z
- 21. [52b..834] Bump @typescript-eslint/parser from 4.29.0 to 4.29.1 | By - dependabot[bot] | On - 2021-08-10T08:22:49Z
- 22. [6d5..8ea] Bump ts-node from 10.1.0 to 10.2.0 | By - dependabot[bot] | On - 2021-08-09T08:25:56Z
- 23. [807..245] Bump eslint from 7.27.0 to 7.32.0 | By - dependabot[bot] | On - 2021-08-07T23:53:45Z
- 24. [8b8..644] Bump @types/eslint from 7.2.14 to 7.28.0 | By - dependabot[bot] | On - 2021-08-07T23:43:50Z
- 25. [b4d..efb] Bump start-server-and-test from 1.12.6 to 1.13.1 (#271) | By - dependabot[bot] | On - 2021-08-07T23:35:08Z
- 26. [b29..de5] Bump @solana/web3.js from 1.20.2 to 1.22.0 (#273) | By - dependabot[bot] | On - 2021-08-07T23:17:48Z
- 27. [119..0a8] Bump borsh from 0.4.0 to 0.5.0 (#274) | By - dependabot[bot] | On - 2021-08-07T23:17:43Z
- 28. [a94..925] npm audit fix | By - Justin Starry | On - 2021-08-07T23:17:11Z
- 29. [afa..bb8] Remove os name from action name | By - Justin Starry | On - 2021-08-07T23:16:39Z
- 30. [1d0..8db] Bump @typescript-eslint/eslint-plugin from 4.28.2 to 4.29.0 (#270) | By - dependabot[bot] | On - 2021-08-07T23:07:58Z
- 31. [fc2..2fc] Bump @types/mz from 2.7.3 to 2.7.4 (#249) | By - dependabot[bot] | On - 2021-08-07T23:07:48Z
- 32. [376..9fd] add/clean up notes for Windows (#256) | By - Mark Jackson | On - 2021-08-07T23:07:34Z
- 33. [8c1..88d] Add automerge rule and cargo dependabot rule (#272) | By - Justin Starry | On - 2021-08-07T23:02:12Z
- 34. [725..0f6] Bump solana-program to 1.7.9 (#269) | By - Justin Starry | On - 2021-08-07T22:57:39Z
- 35. [3d1..862] Bump @types/prettier from 2.2.3 to 2.3.2 (#252) | By - dependabot[bot] | On - 2021-08-07T22:23:52Z
- 36. [0ef..472] Bump prettier from 2.3.0 to 2.3.2 (#267) | By - dependabot[bot] | On - 2021-08-07T22:23:46Z
- 37. [0f4..0ac] Bump @typescript-eslint/parser from 4.28.2 to 4.29.0 (#263) | By - dependabot[bot] | On - 2021-08-06T20:42:18Z
- 38. [0d6..850] Don't overwrite Cargo.lock when installing (#260) | By - Tyera Eulberg | On - 2021-07-27T01:50:10Z
- 39. [414..436] Bump @typescript-eslint/eslint-plugin from 4.26.0 to 4.28.2 (#251) | By - dependabot[bot] | On - 2021-07-12T23:14:21Z
- 40. [234..48f] Bump ts-node from 10.0.0 to 10.1.0 (#250) | By - dependabot[bot] | On - 2021-07-12T23:14:08Z
- 41. [97d..6fd] Bump typescript from 4.2.4 to 4.3.5 (#248) | By - dependabot[bot] | On - 2021-07-09T15:56:00Z
- 42. [ac7..907] Bump start-server-and-test from 1.12.2 to 1.12.6 (#247) | By - dependabot[bot] | On - 2021-07-09T15:55:55Z
- 43. [cff..aa1] Update solana deps to 1.7.1 (for tests on M1) (#238) | By - Kirill Fomichev | On - 2021-07-09T15:55:31Z
- 44. [784..4fa] Bump @typescript-eslint/parser from 4.24.0 to 4.28.2 (#244) | By - dependabot[bot] | On - 2021-07-09T15:29:45Z
- 45. [1da..b12] Bump @types/eslint from 7.2.11 to 7.2.14 (#245) | By - dependabot[bot] | On - 2021-07-09T15:29:36Z
- 46. [f17..ddf] Bump @solana/web3.js from 1.12.0 to 1.20.2 (#246) | By - dependabot[bot] | On - 2021-07-09T15:29:11Z
- 47. [2e5..2bc] Update to keypair (#243) | By - zurgl | On - 2021-07-06T03:07:26Z
- 48. [a41..4e8] hello worlds mistype fix for Account (#235) | By - olexandr13 | On - 2021-06-11T22:03:29Z
- 49. [cc5..a42] Update main.yml | By - joeaba | On - 2021-06-04T04:30:43Z
- 50. [498..e29] Update main.yml | By - joeaba | On - 2021-06-04T04:19:31Z
+# xp-nft-deployer
 
 # nft-index
 
@@ -1542,59 +414,113 @@
  49. [19c..01c] Merge vech to master | By - Sumit Kumar | On - 2022-04-18T11:59:48Z
  50. [a97..139] Use Moralis for Some EVM Chains | By - imsk17 | On - 2022-04-18T11:58:56Z
 
+## nft-index-mainnet
+
+
+ 1. [156..196] moralis limit to 600 | By - Alex Moshinsky | On - 2022-07-03T12:53:01Z
+ 2. [beb..a61] fix | By - Alex Moshinsky | On - 2022-06-29T11:29:36Z
+ 3. [f5e..81f] fix | By - Alex Moshinsky | On - 2022-06-29T11:00:32Z
+ 4. [371..c71] fix moralis | By - Alex Moshinsky | On - 2022-06-29T09:30:54Z
+ 5. [efc..f18] Merge pull request #5 from XP-NETWORK/fix-iotex | By - Dima Brook | On - 2022-06-19T15:57:59Z
+ 6. [6f3..2a0] add error to trx | By - Alex Moshinsky | On - 2022-06-19T15:55:11Z
+ 7. [45e..d3e] add error to trx | By - Alex Moshinsky | On - 2022-06-19T15:54:28Z
+ 8. [639..aa2] add moralis testnets | By - Alex Moshinsky | On - 2022-06-15T09:33:46Z
+ 9. [566..a40] add check balance algo | By - Alex Moshinsky | On - 2022-06-12T16:01:01Z
+ 10. [951..8bc] a | By - Alex Moshinsky | On - 2022-06-12T15:19:02Z
+ 11. [557..259] chage promise all to for await | By - Alex Moshinsky | On - 2022-06-12T15:18:16Z
+ 12. [961..a1a] algo upcase address | By - Alex Moshinsky | On - 2022-06-12T14:14:40Z
+ 13. [826..f08] show algo errors | By - Alex Moshinsky | On - 2022-06-12T14:00:11Z
+ 14. [10e..6a6] chane timeout to 3 sec algo | By - Alex Moshinsky | On - 2022-06-12T13:28:26Z
+ 15. [909..f33] add rate limit to algo | By - Alex Moshinsky | On - 2022-06-12T13:10:53Z
+ 16. [00f..fb0] fix algoNftList | By - Alex Moshinsky | On - 2022-06-12T10:12:03Z
+ 17. [439..816] fixes testnet | By - Alex Moshinsky | On - 2022-06-12T09:58:41Z
+ 18. [ec3..bb0] fix tazoz | By - Alex Moshinsky | On - 2022-06-08T15:01:53Z
+ 19. [2c1..79e] tezos: increase nft limit to maximum | By - rupansh | On - 2022-06-07T13:27:54Z
+ 20. [7ed..33f] add yarn.lock to .gitignore | By - Dima Brook | On - 2022-06-07T08:46:06Z
+ 21. [557..0e9] check if displayUrl is broken and replace with artifactUri | By - rocalex | On - 2022-06-06T09:03:57Z
+ 22. [802..30f] disable sft | By - Alex Moshinsky | On - 2022-06-01T17:09:01Z
+ 23. [0f7..bb0] a | By - Alex Moshinsky | On - 2022-06-01T17:07:23Z
+ 24. [cba..a1b] a | By - Alex Moshinsky | On - 2022-06-01T17:00:58Z
+ 25. [51e..b24] remove console log and add check number | By - Alex Moshinsky | On - 2022-06-01T16:54:12Z
+ 26. [08b..eb9] balance big them 0 | By - Alex Moshinsky | On - 2022-06-01T16:48:10Z
+ 27. [21b..3b7] diable filter sft | By - Alex Moshinsky | On - 2022-06-01T16:46:48Z
+ 28. [341..d1f] update moralis to to version 1.8 | By - Alex Moshinsky | On - 2022-06-01T15:15:51Z
+ 29. [246..6d2] fix vales fetch lowercase address | By - Alex Moshinsky | On - 2022-06-01T09:41:18Z
+ 30. [75e..86d] chnage from web to ethers and combine vales + iotex with DB and blockChain | By - Alex Moshinsky | On - 2022-05-31T18:18:54Z
+ 31. [b5c..3b2] fix velas | By - Alex Moshinsky | On - 2022-05-31T10:43:38Z
+ 32. [e9f..7cd] lowercase | By - Alex Moshinsky | On - 2022-05-30T16:25:56Z
+ 33. [790..f0d] get nfts from db | By - Alex Moshinsky | On - 2022-05-30T16:09:48Z
+ 34. [155..982] disable TokenAuthority | By - Alex Moshinsky | On - 2022-05-30T10:11:06Z
+ 35. [81b..01b] check if nft emepty | By - Alex Moshinsky | On - 2022-05-30T09:40:28Z
+ 36. [a77..326] console.log | By - Alex Moshinsky | On - 2022-05-30T09:09:49Z
+ 37. [ed8..667] change to persist and flush | By - Alex Moshinsky | On - 2022-05-30T08:57:08Z
+ 38. [912..a44] check nft | By - Alex Moshinsky | On - 2022-05-30T08:52:33Z
+ 39. [3d5..112] fix create to db | By - Alex Moshinsky | On - 2022-05-30T08:50:11Z
+ 40. [185..ea0] check error | By - Alex Moshinsky | On - 2022-05-30T08:37:12Z
+ 41. [60d..42c] if nft no exsit it will add | By - Alex Moshinsky | On - 2022-05-30T08:26:51Z
+ 42. [feb..41b] ready for testing | By - Alex Moshinsky | On - 2022-05-29T21:49:11Z
+ 43. [3b5..aac] check nft work | By - Alex Moshinsky | On - 2022-05-29T21:14:56Z
+ 44. [62b..327] add post request route | By - Alex Moshinsky | On - 2022-05-29T09:30:13Z
+ 45. [af0..c9e] nft-check wip | By - Alex Moshinsky | On - 2022-05-29T08:26:12Z
+ 46. [feb..db4] tron: enable worker for listener | By - imsk17 | On - 2022-05-17T12:23:56Z
+ 47. [f5c..518] nft-list: evm: properly commit changes to db for vechain | By - rupansh | On - 2022-05-12T09:23:45Z
+ 48. [cbc..3a1] listener: adapt for vechain | By - imsk17 | On - 2022-05-11T12:36:10Z
+ 49. [ebc..564] tron: add a check to live listener to avoid unfinalized blocks | By - imsk17 | On - 2022-05-08T10:32:52Z
+ 50. [a9b..6e5] iotex: add a contract to the list | By - imsk17 | On - 2022-05-08T10:32:51Z
+
 ## nft-index-testnet
 
 
- 1. [efc..f18] Merge pull request #5 from XP-NETWORK/fix-iotex | By - Dima Brook | On - 2022-06-19T15:57:59Z
- 2. [6f3..2a0] add error to trx | By - Alex Moshinsky | On - 2022-06-19T15:55:11Z
- 3. [45e..d3e] add error to trx | By - Alex Moshinsky | On - 2022-06-19T15:54:28Z
- 4. [639..aa2] add moralis testnets | By - Alex Moshinsky | On - 2022-06-15T09:33:46Z
- 5. [566..a40] add check balance algo | By - Alex Moshinsky | On - 2022-06-12T16:01:01Z
- 6. [951..8bc] a | By - Alex Moshinsky | On - 2022-06-12T15:19:02Z
- 7. [557..259] chage promise all to for await | By - Alex Moshinsky | On - 2022-06-12T15:18:16Z
- 8. [961..a1a] algo upcase address | By - Alex Moshinsky | On - 2022-06-12T14:14:40Z
- 9. [826..f08] show algo errors | By - Alex Moshinsky | On - 2022-06-12T14:00:11Z
- 10. [10e..6a6] chane timeout to 3 sec algo | By - Alex Moshinsky | On - 2022-06-12T13:28:26Z
- 11. [909..f33] add rate limit to algo | By - Alex Moshinsky | On - 2022-06-12T13:10:53Z
- 12. [00f..fb0] fix algoNftList | By - Alex Moshinsky | On - 2022-06-12T10:12:03Z
- 13. [439..816] fixes testnet | By - Alex Moshinsky | On - 2022-06-12T09:58:41Z
- 14. [ec3..bb0] fix tazoz | By - Alex Moshinsky | On - 2022-06-08T15:01:53Z
- 15. [2c1..79e] tezos: increase nft limit to maximum | By - rupansh | On - 2022-06-07T13:27:54Z
- 16. [7ed..33f] add yarn.lock to .gitignore | By - Dima Brook | On - 2022-06-07T08:46:06Z
- 17. [557..0e9] check if displayUrl is broken and replace with artifactUri | By - rocalex | On - 2022-06-06T09:03:57Z
- 18. [802..30f] disable sft | By - Alex Moshinsky | On - 2022-06-01T17:09:01Z
- 19. [0f7..bb0] a | By - Alex Moshinsky | On - 2022-06-01T17:07:23Z
- 20. [cba..a1b] a | By - Alex Moshinsky | On - 2022-06-01T17:00:58Z
- 21. [51e..b24] remove console log and add check number | By - Alex Moshinsky | On - 2022-06-01T16:54:12Z
- 22. [08b..eb9] balance big them 0 | By - Alex Moshinsky | On - 2022-06-01T16:48:10Z
- 23. [21b..3b7] diable filter sft | By - Alex Moshinsky | On - 2022-06-01T16:46:48Z
- 24. [341..d1f] update moralis to to version 1.8 | By - Alex Moshinsky | On - 2022-06-01T15:15:51Z
- 25. [246..6d2] fix vales fetch lowercase address | By - Alex Moshinsky | On - 2022-06-01T09:41:18Z
- 26. [75e..86d] chnage from web to ethers and combine vales + iotex with DB and blockChain | By - Alex Moshinsky | On - 2022-05-31T18:18:54Z
- 27. [b5c..3b2] fix velas | By - Alex Moshinsky | On - 2022-05-31T10:43:38Z
- 28. [e9f..7cd] lowercase | By - Alex Moshinsky | On - 2022-05-30T16:25:56Z
- 29. [790..f0d] get nfts from db | By - Alex Moshinsky | On - 2022-05-30T16:09:48Z
- 30. [155..982] disable TokenAuthority | By - Alex Moshinsky | On - 2022-05-30T10:11:06Z
- 31. [81b..01b] check if nft emepty | By - Alex Moshinsky | On - 2022-05-30T09:40:28Z
- 32. [a77..326] console.log | By - Alex Moshinsky | On - 2022-05-30T09:09:49Z
- 33. [ed8..667] change to persist and flush | By - Alex Moshinsky | On - 2022-05-30T08:57:08Z
- 34. [912..a44] check nft | By - Alex Moshinsky | On - 2022-05-30T08:52:33Z
- 35. [3d5..112] fix create to db | By - Alex Moshinsky | On - 2022-05-30T08:50:11Z
- 36. [185..ea0] check error | By - Alex Moshinsky | On - 2022-05-30T08:37:12Z
- 37. [60d..42c] if nft no exsit it will add | By - Alex Moshinsky | On - 2022-05-30T08:26:51Z
- 38. [feb..41b] ready for testing | By - Alex Moshinsky | On - 2022-05-29T21:49:11Z
- 39. [3b5..aac] check nft work | By - Alex Moshinsky | On - 2022-05-29T21:14:56Z
- 40. [62b..327] add post request route | By - Alex Moshinsky | On - 2022-05-29T09:30:13Z
- 41. [af0..c9e] nft-check wip | By - Alex Moshinsky | On - 2022-05-29T08:26:12Z
- 42. [feb..db4] tron: enable worker for listener | By - imsk17 | On - 2022-05-17T12:23:56Z
- 43. [f5c..518] nft-list: evm: properly commit changes to db for vechain | By - rupansh | On - 2022-05-12T09:23:45Z
- 44. [cbc..3a1] listener: adapt for vechain | By - imsk17 | On - 2022-05-11T12:36:10Z
- 45. [ebc..564] tron: add a check to live listener to avoid unfinalized blocks | By - imsk17 | On - 2022-05-08T10:32:52Z
- 46. [a9b..6e5] iotex: add a contract to the list | By - imsk17 | On - 2022-05-08T10:32:51Z
- 47. [30b..986] fix hardcoded testnet VeChain | By - Dima Brook | On - 2022-05-03T18:06:13Z
- 48. [270..ace] fix type error | By - Dima Brook | On - 2022-05-03T16:14:58Z
- 49. [f96..2f5] Merge pull request #3 from XP-NETWORK/vechain | By - Dima Brook | On - 2022-05-03T10:20:30Z
- 50. [c16..1bb] Merge branch 'master' into vechain | By - Dima Brook | On - 2022-05-03T10:19:31Z
+ 1. [156..196] moralis limit to 600 | By - Alex Moshinsky | On - 2022-07-03T12:53:01Z
+ 2. [beb..a61] fix | By - Alex Moshinsky | On - 2022-06-29T11:29:36Z
+ 3. [f5e..81f] fix | By - Alex Moshinsky | On - 2022-06-29T11:00:32Z
+ 4. [371..c71] fix moralis | By - Alex Moshinsky | On - 2022-06-29T09:30:54Z
+ 5. [efc..f18] Merge pull request #5 from XP-NETWORK/fix-iotex | By - Dima Brook | On - 2022-06-19T15:57:59Z
+ 6. [6f3..2a0] add error to trx | By - Alex Moshinsky | On - 2022-06-19T15:55:11Z
+ 7. [45e..d3e] add error to trx | By - Alex Moshinsky | On - 2022-06-19T15:54:28Z
+ 8. [639..aa2] add moralis testnets | By - Alex Moshinsky | On - 2022-06-15T09:33:46Z
+ 9. [566..a40] add check balance algo | By - Alex Moshinsky | On - 2022-06-12T16:01:01Z
+ 10. [951..8bc] a | By - Alex Moshinsky | On - 2022-06-12T15:19:02Z
+ 11. [557..259] chage promise all to for await | By - Alex Moshinsky | On - 2022-06-12T15:18:16Z
+ 12. [961..a1a] algo upcase address | By - Alex Moshinsky | On - 2022-06-12T14:14:40Z
+ 13. [826..f08] show algo errors | By - Alex Moshinsky | On - 2022-06-12T14:00:11Z
+ 14. [10e..6a6] chane timeout to 3 sec algo | By - Alex Moshinsky | On - 2022-06-12T13:28:26Z
+ 15. [909..f33] add rate limit to algo | By - Alex Moshinsky | On - 2022-06-12T13:10:53Z
+ 16. [00f..fb0] fix algoNftList | By - Alex Moshinsky | On - 2022-06-12T10:12:03Z
+ 17. [439..816] fixes testnet | By - Alex Moshinsky | On - 2022-06-12T09:58:41Z
+ 18. [ec3..bb0] fix tazoz | By - Alex Moshinsky | On - 2022-06-08T15:01:53Z
+ 19. [2c1..79e] tezos: increase nft limit to maximum | By - rupansh | On - 2022-06-07T13:27:54Z
+ 20. [7ed..33f] add yarn.lock to .gitignore | By - Dima Brook | On - 2022-06-07T08:46:06Z
+ 21. [557..0e9] check if displayUrl is broken and replace with artifactUri | By - rocalex | On - 2022-06-06T09:03:57Z
+ 22. [802..30f] disable sft | By - Alex Moshinsky | On - 2022-06-01T17:09:01Z
+ 23. [0f7..bb0] a | By - Alex Moshinsky | On - 2022-06-01T17:07:23Z
+ 24. [cba..a1b] a | By - Alex Moshinsky | On - 2022-06-01T17:00:58Z
+ 25. [51e..b24] remove console log and add check number | By - Alex Moshinsky | On - 2022-06-01T16:54:12Z
+ 26. [08b..eb9] balance big them 0 | By - Alex Moshinsky | On - 2022-06-01T16:48:10Z
+ 27. [21b..3b7] diable filter sft | By - Alex Moshinsky | On - 2022-06-01T16:46:48Z
+ 28. [341..d1f] update moralis to to version 1.8 | By - Alex Moshinsky | On - 2022-06-01T15:15:51Z
+ 29. [246..6d2] fix vales fetch lowercase address | By - Alex Moshinsky | On - 2022-06-01T09:41:18Z
+ 30. [75e..86d] chnage from web to ethers and combine vales + iotex with DB and blockChain | By - Alex Moshinsky | On - 2022-05-31T18:18:54Z
+ 31. [b5c..3b2] fix velas | By - Alex Moshinsky | On - 2022-05-31T10:43:38Z
+ 32. [e9f..7cd] lowercase | By - Alex Moshinsky | On - 2022-05-30T16:25:56Z
+ 33. [790..f0d] get nfts from db | By - Alex Moshinsky | On - 2022-05-30T16:09:48Z
+ 34. [155..982] disable TokenAuthority | By - Alex Moshinsky | On - 2022-05-30T10:11:06Z
+ 35. [81b..01b] check if nft emepty | By - Alex Moshinsky | On - 2022-05-30T09:40:28Z
+ 36. [a77..326] console.log | By - Alex Moshinsky | On - 2022-05-30T09:09:49Z
+ 37. [ed8..667] change to persist and flush | By - Alex Moshinsky | On - 2022-05-30T08:57:08Z
+ 38. [912..a44] check nft | By - Alex Moshinsky | On - 2022-05-30T08:52:33Z
+ 39. [3d5..112] fix create to db | By - Alex Moshinsky | On - 2022-05-30T08:50:11Z
+ 40. [185..ea0] check error | By - Alex Moshinsky | On - 2022-05-30T08:37:12Z
+ 41. [60d..42c] if nft no exsit it will add | By - Alex Moshinsky | On - 2022-05-30T08:26:51Z
+ 42. [feb..41b] ready for testing | By - Alex Moshinsky | On - 2022-05-29T21:49:11Z
+ 43. [3b5..aac] check nft work | By - Alex Moshinsky | On - 2022-05-29T21:14:56Z
+ 44. [62b..327] add post request route | By - Alex Moshinsky | On - 2022-05-29T09:30:13Z
+ 45. [af0..c9e] nft-check wip | By - Alex Moshinsky | On - 2022-05-29T08:26:12Z
+ 46. [feb..db4] tron: enable worker for listener | By - imsk17 | On - 2022-05-17T12:23:56Z
+ 47. [f5c..518] nft-list: evm: properly commit changes to db for vechain | By - rupansh | On - 2022-05-12T09:23:45Z
+ 48. [cbc..3a1] listener: adapt for vechain | By - imsk17 | On - 2022-05-11T12:36:10Z
+ 49. [ebc..564] tron: add a check to live listener to avoid unfinalized blocks | By - imsk17 | On - 2022-05-08T10:32:52Z
+ 50. [a9b..6e5] iotex: add a contract to the list | By - imsk17 | On - 2022-05-08T10:32:51Z
 
 ## rem/erc1155
 
@@ -1811,6 +737,1230 @@
  48. [ebc..abb] helpers: addressValidator: fix for tezos | By - rupansh | On - 2022-01-18T16:10:58Z
  49. [9cf..2dc] helpers: apiResp: remove header from response body | By - rupansh | On - 2022-01-18T08:31:27Z
  50. [7bd..f4d] helpers: nftList: fix setting of Retry-After header | By - rupansh | On - 2022-01-18T08:31:11Z
+
+# xpnft-deployer
+
+## master
+
+
+ 1. [418..087] initial commit to xpnetwork github repo | By - Or Kilim | On - 2022-06-30T19:37:40Z
+ 2. [92d..9ae] added 3 more contract types and their needed fields | By - Or Kilim | On - 2022-06-30T13:31:34Z
+ 3. [060..724] solved jazzicon-keeps-changing problem | By - Or Kilim | On - 2022-06-30T07:37:30Z
+ 4. [4eb..7b5] changed the interface to show deployer only when connected, show currently connected chain in selector and modal closes on chain selection | By - Or Kilim | On - 2022-06-29T14:48:33Z
+ 5. [cd6..f8b] changed the code to create popup and now it closes with button press | By - Or Kilim | On - 2022-06-29T13:43:27Z
+ 6. [b97..dcf] added jazzicon to connect button (when connected) and fixed connection issue with button | By - Or Kilim | On - 2022-06-29T10:41:07Z
+ 7. [00a..65e] working on wallet connection | By - Or Kilim | On - 2022-06-28T11:24:27Z
+ 8. [62b..7eb] worked on 'select chain' popup | By - Or Kilim | On - 2022-06-28T10:24:19Z
+ 9. [6dc..88c] deleted some imports from index.tsx | By - Or Kilim | On - 2022-06-27T14:45:54Z
+ 10. [41a..57f] changed visual of 'add network' message and changed some functionalities | By - Or Kilim | On - 2022-06-27T14:44:13Z
+ 11. [433..fc7] finished autocomplete | By - Or Kilim | On - 2022-06-26T17:35:04Z
+ 12. [8f5..eba] developing the select chain window | By - Or Kilim | On - 2022-06-26T07:47:40Z
+ 13. [f81..8ec] added a font | By - Or Kilim | On - 2022-06-23T14:12:30Z
+ 14. [b71..5dd] changes some functionality and added visuals | By - Or Kilim | On - 2022-06-22T15:04:53Z
+ 15. [fa0..6d5] some more visuals added | By - Or Kilim | On - 2022-06-22T13:34:32Z
+ 16. [a2c..4af] visual changes and about to change functionality | By - Or Kilim | On - 2022-06-22T12:57:22Z
+ 17. [c2b..fbc] Initialize project using Create React App | By - Or Kilim | On - 2022-06-21T14:44:25Z
+
+# xp-near-integration
+
+## main
+
+
+ 1. [401..64b] add unit tests | By - rocalex | On - 2022-06-30T17:39:01Z
+ 2. [335..022] add workspaces | By - rocalex | On - 2022-06-30T13:11:33Z
+ 3. [079..baf] add xpnft contract | By - rocalex | On - 2022-06-29T02:25:15Z
+ 4. [815..7ca] update near | By - rocalex | On - 2022-06-27T15:36:47Z
+ 5. [19b..2a4] Create README.md | By - Xueming Zheng | On - 2022-06-27T15:27:05Z
+ 6. [6b3..8d7] initial | By - rocalex | On - 2022-06-27T15:25:03Z
+
+# migration-validator
+
+## add-global-timeout
+
+
+ 1. [2f3..952] a | By - Alex Moshinsky | On - 2022-06-29T06:04:31Z
+ 2. [9ac..83d] fix | By - Alex Moshinsky | On - 2022-06-28T18:06:43Z
+ 3. [4d5..886] add global timeout for metadata and Consensus | By - Alex Moshinsky | On - 2022-06-28T15:54:32Z
+ 4. [ba5..242] events: transferUnique: withMetadataInfo: store to ipfs if required | By - rupansh | On - 2022-06-15T17:29:06Z
+ 5. [672..461] add gas workaround for fantom | By - rupansh | On - 2022-06-14T16:32:11Z
+ 6. [6e1..8f4] bridge: use nft origin to check mintWith | By - rupansh | On - 2022-06-13T16:43:30Z
+ 7. [d1c..95b] add more debug logs and minor fixes | By - rupansh | On - 2022-06-13T16:37:21Z
+ 8. [2c0..d44] update getting of defaultMintWith | By - rupansh | On - 2022-06-10T14:14:17Z
+ 9. [873..691] Revert "[TEMP] bridge: tron: add debug log for defaultMintWith" | By - rupansh | On - 2022-06-10T14:14:17Z
+ 10. [d30..d2d] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:17:53Z
+ 11. [c31..d7c] fixed issue tezos metadata | By - Ruby Edelstein | On - 2022-06-02T14:06:01Z
+ 12. [057..41c] a | By - Ruby Edelstein | On - 2022-06-02T14:05:16Z
+ 13. [e50..4cc] a | By - Ruby Edelstein | On - 2022-06-02T14:03:38Z
+ 14. [e6a..284] a | By - Ruby Edelstein | On - 2022-06-02T14:03:00Z
+ 15. [ad5..121] a | By - Ruby Edelstein | On - 2022-06-02T14:02:17Z
+ 16. [a95..c2b] a | By - Ruby Edelstein | On - 2022-06-02T13:59:26Z
+ 17. [a1a..13f] a | By - Ruby Edelstein | On - 2022-06-02T13:57:47Z
+ 18. [6b9..377] fixed ipfs | By - Ruby Edelstein | On - 2022-06-02T13:52:33Z
+ 19. [ee3..e05] added xp network ipfs gateway | By - Ruby Edelstein | On - 2022-06-02T13:03:04Z
+ 20. [037..2fb] remove xp.network wrapped nft from description | By - Ruby Edelstein | On - 2022-05-26T15:25:32Z
+ 21. [63b..145] bridge: use defaultMintWith instead of xpnft for checking unfreeze | By - rupansh | On - 2022-05-24T12:10:43Z
+ 22. [841..6f4] [TEMP] bridge: tron: add debug log for defaultMintWith | By - rupansh | On - 2022-05-24T11:58:02Z
+ 23. [b0c..c62] erc721_metadata: extractTokenId: allow any subdomains from xp.network | By - rupansh | On - 2022-05-23T15:19:35Z
+ 24. [7aa..72a] tron: defaultMintWith: fix derp | By - rupansh | On - 2022-05-23T14:56:06Z
+ 25. [0b0..0e2] .env.example: add whitelist event config | By - rupansh | On - 2022-05-19T15:22:30Z
+ 26. [fdf..a7a] initial whitelist impl | By - rupansh | On - 2022-05-19T15:16:42Z
+ 27. [dff..399] [TEMP] bridge: add mintWith workaround for harmony | By - rupansh | On - 2022-05-18T14:05:10Z
+ 28. [00d..983] signal: waitCommitment: increase timeout to 400 seconds | By - rupansh | On - 2022-05-17T15:45:02Z
+ 29. [40d..541] [TEMP] elrond: elrdMetadataWrap: add debugging logs | By - rupansh | On - 2022-05-17T14:37:14Z
+ 30. [32f..e30] bridge: ipfsMetadataFetch: use ipfs.io as fallback gateway | By - rupansh | On - 2022-05-16T14:54:22Z
+ 31. [c00..974] algorand: add listenOnly flag for validators not participating in sending transaction | By - rupansh | On - 2022-05-16T14:22:10Z
+ 32. [750..945] elrond: improve metadata wrapping | By - rupansh | On - 2022-05-11T10:24:48Z
+ 33. [d2b..2a8] handlers: ipfsMetadataFetch: increase timeout to 30s | By - rupansh | On - 2022-05-11T09:54:20Z
+ 34. [280..0aa] elrond: extractFrozenAttr: sanitize metadata url | By - rupansh | On - 2022-05-10T15:30:59Z
+ 35. [d57..4ad] deps: elrond: fix derp | By - rupansh | On - 2022-05-10T13:30:10Z
+ 36. [e3c..cb4] elrond: improve metadata detection | By - rupansh | On - 2022-05-10T13:22:50Z
+ 37. [457..8de] algorand: factories: use 443 for port | By - rupansh | On - 2022-05-09T12:42:33Z
+ 38. [230..82d] algorand: utils: fix constructors | By - rupansh | On - 2022-05-09T12:25:17Z
+ 39. [c6f..d3a] signAndSendWrap: only stringify if algorand | By - imsk17 | On - 2022-05-09T11:41:35Z
+ 40. [76d..081] [TEMP] bridge: update workaround for royaltyhack | By - rupansh | On - 2022-05-08T15:41:54Z
+ 41. [a63..302] [TEMP] bridge: add hacks for royalties derp | By - rupansh | On - 2022-05-08T15:31:31Z
+ 42. [2fc..f04] elrond: try decoding attributes for transfer | By - rupansh | On - 2022-05-08T14:29:10Z
+ 43. [d7b..a66] handlers: evm: add debug logs | By - rupansh | On - 2022-05-08T12:50:07Z
+ 44. [7eb..6ae] iotex: reduce gas limit | By - rupansh | On - 2022-05-06T12:03:37Z
+ 45. [b8d..161] config: remove duplicate gatechain entry | By - imsk17 | On - 2022-05-04T11:41:34Z
+ 46. [ff5..dce] Merge branch 'vech' into erc1155 | By - imsk17 | On - 2022-05-04T11:35:38Z
+ 47. [c6d..372] iotex: increase gas limit and gas price | By - imsk17 | On - 2022-05-02T19:37:39Z
+ 48. [219..03f] tezos: increase gas limit | By - imsk17 | On - 2022-05-01T16:07:58Z
+ 49. [ab6..481] bump web3-contracts dep | By - rupansh | On - 2022-04-26T14:20:08Z
+ 50. [230..637] tron: fix chainId | By - rupansh | On - 2022-04-25T15:37:53Z
+
+## aurora
+
+
+ 1. [a8b..11f] signal: redosig: fix minor derp | By - rupansh | On - 2022-04-18T18:57:35Z
+ 2. [d45..ff6] signal: redosig: race condition workarounds | By - rupansh | On - 2022-04-18T18:52:34Z
+ 3. [693..b05] signal: redoAggregateSig: prefix redoid with 0x | By - rupansh | On - 2022-04-18T17:56:19Z
+ 4. [c48..5d9] signal: redosig: verify old signature before regenerating | By - rupansh | On - 2022-04-17T19:59:24Z
+ 5. [7fa..511] redo sig on verification failure | By - rupansh | On - 2022-04-17T19:53:33Z
+ 6. [5c2..e9b] Revert "bridge: redo aggregation if sending txn failed due to `failed to verify signature`" | By - rupansh | On - 2022-04-12T14:04:06Z
+ 7. [50a..8e3] bridge: redo aggregation if sending txn failed due to `failed to verify signature` | By - rupansh | On - 2022-04-12T13:49:51Z
+ 8. [146..9ae] tsconfig: enable skipLibCheck | By - rupansh | On - 2022-04-12T13:01:29Z
+ 9. [dc0..1f9] use custom block.chainid for aurora | By - rupansh | On - 2022-04-12T13:01:14Z
+ 10. [c1f..be9] package: bump elrond | By - rupansh | On - 2022-03-26T18:19:56Z
+ 11. [353..581] elrond: await sync before handling again | By - rupansh | On - 2022-03-26T18:18:32Z
+ 12. [d8a..def] elrond: increment nonce in advance | By - rupansh | On - 2022-03-26T17:37:00Z
+ 13. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
+ 14. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
+ 15. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
+ 16. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
+ 17. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
+ 18. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
+ 19. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
+ 20. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
+ 21. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
+ 22. [0f0..634] husky: add a pre commit hook for lint | By - imsk17 | On - 2022-03-15T17:15:10Z
+ 23. [d41..0cc] bridge: handlers: tron: adapt web3 serializers for tron | By - imsk17 | On - 2022-03-15T17:14:42Z
+ 24. [638..5f6] Merge pull request #8 from XP-NETWORK/features/tezos | By - Sumit Kumar | On - 2022-03-15T17:08:56Z
+ 25. [79f..bf8] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T16:49:59Z
+ 26. [082..543] add documentation for optional fields | By - rupansh | On - 2022-03-13T19:26:44Z
+ 27. [faf..68f] elrond: initial royalties support | By - rupansh | On - 2022-03-13T19:21:04Z
+ 28. [28b..ab2] tezos: minor fixes | By - rupansh | On - 2022-03-13T18:55:03Z
+ 29. [304..8f6] tezos: update for contract changes | By - rupansh | On - 2022-03-13T14:08:40Z
+ 30. [8e6..fac] evm: fix import order | By - rupansh | On - 2022-03-13T13:14:38Z
+ 31. [1e7..6b9] fix compilation | By - rupansh | On - 2022-03-13T12:12:06Z
+ 32. [f44..770] add event listener | By - rocalex | On - 2022-03-13T07:23:47Z
+ 33. [b16..64b] transfer/unfreeze nft | By - rocalex | On - 2022-03-13T06:03:20Z
+ 34. [4e4..aff] config tezos handler | By - rocalex | On - 2022-03-13T05:29:35Z
+ 35. [126..5a5] initial | By - rocalex | On - 2022-03-10T15:25:22Z
+ 36. [6c9..bad] gas number to string | By - Ruby Edelstein | On - 2022-03-08T14:14:22Z
+ 37. [336..900] add polygon gasstation | By - Ruby Edelstein | On - 2022-03-08T14:10:31Z
+ 38. [660..d65] Update web3.ts | By - VKint | On - 2022-03-08T13:04:06Z
+ 39. [51d..8fa] set txfees for transfers | By - rupansh | On - 2022-03-03T18:21:34Z
+ 40. [2a6..058] handlers: elrond: fix gas limit | By - rupansh | On - 2022-03-03T18:13:51Z
+ 41. [69d..83f] use baseURL in erc721 metadata | By - rupansh | On - 2022-03-03T18:13:06Z
+ 42. [36a..e1a] elrond: put metadata on ipfs as well | By - rupansh | On - 2022-03-03T18:10:15Z
+ 43. [39e..b67] reset emitted action after adding offset | By - rupansh | On - 2022-03-03T16:46:16Z
+ 44. [a46..339] Add actionId offset env | By - rupansh | On - 2022-03-03T12:03:35Z
+ 45. [21d..a14] Merge pull request #6 from XP-NETWORK/aurora | By - VKint | On - 2022-03-03T10:32:42Z
+ 46. [f07..5cd] packages: exchange-rate: bump to latest | By - imsk17 | On - 2022-03-03T10:31:53Z
+ 47. [cd6..882] handlers: improve erc721MetadataWrap | By - rupansh | On - 2022-03-01T17:19:17Z
+ 48. [1f2..b6e] web3: use 60gwei as workawround for polygon | By - rupansh | On - 2022-03-01T12:54:24Z
+ 49. [c71..73a] fantom: disable block.chainid workaround | By - rupansh | On - 2022-03-01T10:43:07Z
+ 50. [43c..319] bridge: handlers: improve ipfs url detection | By - rupansh | On - 2022-02-27T10:35:13Z
+
+## ed25519
+
+
+ 1. [fce..1fa] web3: add hedera | By - imsk17 | On - 2022-06-30T13:00:10Z
+ 2. [75b..f25] initial dfinity bringup | By - rupansh | On - 2022-06-27T12:28:17Z
+ 3. [b7a..af6] TON: use proper currency | By - rupansh | On - 2022-06-25T11:39:16Z
+ 4. [427..605] update chain nonces for solana,ton | By - rupansh | On - 2022-06-25T09:54:33Z
+ 5. [22d..614] fix compilation | By - rupansh | On - 2022-06-25T09:32:34Z
+ 6. [2f6..9e0] ton: initial event deserialization | By - rupansh | On - 2022-06-23T17:21:13Z
+ 7. [454..fcf] ton: initial event handlers and minor fixes | By - rupansh | On - 2022-06-21T15:34:15Z
+ 8. [4b8..437] solana: fix decimals | By - rupansh | On - 2022-06-21T13:05:10Z
+ 9. [c8e..7ae] TON: fix event serialization | By - rupansh | On - 2022-06-21T13:03:02Z
+ 10. [315..30d] solana: event fixes | By - rupansh | On - 2022-06-20T19:01:00Z
+ 11. [080..ac0] solana: get action id from event | By - rupansh | On - 2022-06-20T18:42:00Z
+ 12. [319..0c2] TON: partially move serialization to the contract | By - rupansh | On - 2022-06-19T17:50:36Z
+ 13. [286..02c] initial TON boilerplate | By - rupansh | On - 2022-06-19T17:42:19Z
+ 14. [28a..25e] solana: initial event decoding | By - rupansh | On - 2022-06-19T16:39:08Z
+ 15. [8f8..48d] add support for SHA256 based FROST ED25519 signatures | By - rupansh | On - 2022-06-17T18:25:24Z
+ 16. [dc9..b25] solana: unfreeze updates | By - rupansh | On - 2022-06-17T17:52:33Z
+ 17. [116..99c] solana: initial unfreeze | By - rupansh | On - 2022-06-13T19:36:30Z
+ 18. [1ff..28a] initial partial solana implementation | By - rupansh | On - 2022-06-12T14:08:57Z
+ 19. [308..2d7] handlers: secret: fixes | By - imsk17 | On - 2022-06-09T11:51:40Z
+ 20. [fa1..857] secret: wrapping: use correct field for metadata | By - imsk17 | On - 2022-06-07T15:33:03Z
+ 21. [b22..7db] lint: fix eslint issues | By - imsk17 | On - 2022-06-03T11:00:06Z
+ 22. [c69..df0] LINT | By - imsk17 | On - 2022-05-31T13:16:12Z
+ 23. [990..414] [TEMP]: signal: remove sig verification | By - rupansh | On - 2022-05-25T14:44:09Z
+ 24. [9fa..747] frost: sr25519: use sr25519KeypairFromSeed for converting priv key | By - rupansh | On - 2022-05-24T19:54:30Z
+ 25. [8bd..6d6] polkadot-wasm: add peer dep | By - rupansh | On - 2022-05-24T15:58:27Z
+ 26. [432..9ea] frost: sr25519: convert private key to proper format for signing | By - rupansh | On - 2022-05-24T15:58:17Z
+ 27. [b33..2e1] scrt: add xpnft,xpnftContractHash to mintWith | By - rupansh | On - 2022-05-24T15:17:38Z
+ 28. [a75..27f] scrt: fix identToVerifiable | By - rupansh | On - 2022-05-24T15:06:50Z
+ 29. [aac..942] bridge: scrt: use correct currency | By - rupansh | On - 2022-05-24T12:25:13Z
+ 30. [379..538] deps: configSecretHelper: attach wallet to client | By - rupansh | On - 2022-05-24T12:24:32Z
+ 31. [7ab..d18] enable secret | By - rupansh | On - 2022-05-20T09:29:30Z
+ 32. [b42..e37] bump web3-contracts dep | By - rupansh | On - 2022-04-26T14:31:12Z
+ 33. [be0..cbc] scrt: update for contract changes | By - rupansh | On - 2022-04-20T18:49:50Z
+ 34. [5b8..b7d] initial ed25519 support | By - rupansh | On - 2022-04-15T17:39:02Z
+ 35. [824..3f5] initial secret network support | By - rupansh | On - 2022-04-15T17:08:00Z
+ 36. [5c2..e9b] Revert "bridge: redo aggregation if sending txn failed due to `failed to verify signature`" | By - rupansh | On - 2022-04-12T14:04:06Z
+ 37. [50a..8e3] bridge: redo aggregation if sending txn failed due to `failed to verify signature` | By - rupansh | On - 2022-04-12T13:49:51Z
+ 38. [146..9ae] tsconfig: enable skipLibCheck | By - rupansh | On - 2022-04-12T13:01:29Z
+ 39. [dc0..1f9] use custom block.chainid for aurora | By - rupansh | On - 2022-04-12T13:01:14Z
+ 40. [c1f..be9] package: bump elrond | By - rupansh | On - 2022-03-26T18:19:56Z
+ 41. [353..581] elrond: await sync before handling again | By - rupansh | On - 2022-03-26T18:18:32Z
+ 42. [d8a..def] elrond: increment nonce in advance | By - rupansh | On - 2022-03-26T17:37:00Z
+ 43. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
+ 44. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
+ 45. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
+ 46. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
+ 47. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
+ 48. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
+ 49. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
+ 50. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
+
+## erc1155
+
+
+ 1. [071..330] bump algosdk | By - rupansh | On - 2022-06-30T15:38:33Z
+ 2. [a79..11d] gitignore: add .env.bak | By - rupansh | On - 2022-06-30T15:37:29Z
+ 3. [ba5..242] events: transferUnique: withMetadataInfo: store to ipfs if required | By - rupansh | On - 2022-06-15T17:29:06Z
+ 4. [672..461] add gas workaround for fantom | By - rupansh | On - 2022-06-14T16:32:11Z
+ 5. [6e1..8f4] bridge: use nft origin to check mintWith | By - rupansh | On - 2022-06-13T16:43:30Z
+ 6. [d1c..95b] add more debug logs and minor fixes | By - rupansh | On - 2022-06-13T16:37:21Z
+ 7. [2c0..d44] update getting of defaultMintWith | By - rupansh | On - 2022-06-10T14:14:17Z
+ 8. [873..691] Revert "[TEMP] bridge: tron: add debug log for defaultMintWith" | By - rupansh | On - 2022-06-10T14:14:17Z
+ 9. [d30..d2d] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:17:53Z
+ 10. [c31..d7c] fixed issue tezos metadata | By - Ruby Edelstein | On - 2022-06-02T14:06:01Z
+ 11. [057..41c] a | By - Ruby Edelstein | On - 2022-06-02T14:05:16Z
+ 12. [e50..4cc] a | By - Ruby Edelstein | On - 2022-06-02T14:03:38Z
+ 13. [e6a..284] a | By - Ruby Edelstein | On - 2022-06-02T14:03:00Z
+ 14. [ad5..121] a | By - Ruby Edelstein | On - 2022-06-02T14:02:17Z
+ 15. [a95..c2b] a | By - Ruby Edelstein | On - 2022-06-02T13:59:26Z
+ 16. [a1a..13f] a | By - Ruby Edelstein | On - 2022-06-02T13:57:47Z
+ 17. [6b9..377] fixed ipfs | By - Ruby Edelstein | On - 2022-06-02T13:52:33Z
+ 18. [ee3..e05] added xp network ipfs gateway | By - Ruby Edelstein | On - 2022-06-02T13:03:04Z
+ 19. [037..2fb] remove xp.network wrapped nft from description | By - Ruby Edelstein | On - 2022-05-26T15:25:32Z
+ 20. [63b..145] bridge: use defaultMintWith instead of xpnft for checking unfreeze | By - rupansh | On - 2022-05-24T12:10:43Z
+ 21. [841..6f4] [TEMP] bridge: tron: add debug log for defaultMintWith | By - rupansh | On - 2022-05-24T11:58:02Z
+ 22. [b0c..c62] erc721_metadata: extractTokenId: allow any subdomains from xp.network | By - rupansh | On - 2022-05-23T15:19:35Z
+ 23. [7aa..72a] tron: defaultMintWith: fix derp | By - rupansh | On - 2022-05-23T14:56:06Z
+ 24. [0b0..0e2] .env.example: add whitelist event config | By - rupansh | On - 2022-05-19T15:22:30Z
+ 25. [fdf..a7a] initial whitelist impl | By - rupansh | On - 2022-05-19T15:16:42Z
+ 26. [dff..399] [TEMP] bridge: add mintWith workaround for harmony | By - rupansh | On - 2022-05-18T14:05:10Z
+ 27. [00d..983] signal: waitCommitment: increase timeout to 400 seconds | By - rupansh | On - 2022-05-17T15:45:02Z
+ 28. [40d..541] [TEMP] elrond: elrdMetadataWrap: add debugging logs | By - rupansh | On - 2022-05-17T14:37:14Z
+ 29. [32f..e30] bridge: ipfsMetadataFetch: use ipfs.io as fallback gateway | By - rupansh | On - 2022-05-16T14:54:22Z
+ 30. [c00..974] algorand: add listenOnly flag for validators not participating in sending transaction | By - rupansh | On - 2022-05-16T14:22:10Z
+ 31. [750..945] elrond: improve metadata wrapping | By - rupansh | On - 2022-05-11T10:24:48Z
+ 32. [d2b..2a8] handlers: ipfsMetadataFetch: increase timeout to 30s | By - rupansh | On - 2022-05-11T09:54:20Z
+ 33. [280..0aa] elrond: extractFrozenAttr: sanitize metadata url | By - rupansh | On - 2022-05-10T15:30:59Z
+ 34. [d57..4ad] deps: elrond: fix derp | By - rupansh | On - 2022-05-10T13:30:10Z
+ 35. [e3c..cb4] elrond: improve metadata detection | By - rupansh | On - 2022-05-10T13:22:50Z
+ 36. [457..8de] algorand: factories: use 443 for port | By - rupansh | On - 2022-05-09T12:42:33Z
+ 37. [230..82d] algorand: utils: fix constructors | By - rupansh | On - 2022-05-09T12:25:17Z
+ 38. [c6f..d3a] signAndSendWrap: only stringify if algorand | By - imsk17 | On - 2022-05-09T11:41:35Z
+ 39. [76d..081] [TEMP] bridge: update workaround for royaltyhack | By - rupansh | On - 2022-05-08T15:41:54Z
+ 40. [a63..302] [TEMP] bridge: add hacks for royalties derp | By - rupansh | On - 2022-05-08T15:31:31Z
+ 41. [2fc..f04] elrond: try decoding attributes for transfer | By - rupansh | On - 2022-05-08T14:29:10Z
+ 42. [d7b..a66] handlers: evm: add debug logs | By - rupansh | On - 2022-05-08T12:50:07Z
+ 43. [7eb..6ae] iotex: reduce gas limit | By - rupansh | On - 2022-05-06T12:03:37Z
+ 44. [b8d..161] config: remove duplicate gatechain entry | By - imsk17 | On - 2022-05-04T11:41:34Z
+ 45. [ff5..dce] Merge branch 'vech' into erc1155 | By - imsk17 | On - 2022-05-04T11:35:38Z
+ 46. [c6d..372] iotex: increase gas limit and gas price | By - imsk17 | On - 2022-05-02T19:37:39Z
+ 47. [219..03f] tezos: increase gas limit | By - imsk17 | On - 2022-05-01T16:07:58Z
+ 48. [ab6..481] bump web3-contracts dep | By - rupansh | On - 2022-04-26T14:20:08Z
+ 49. [230..637] tron: fix chainId | By - rupansh | On - 2022-04-25T15:37:53Z
+ 50. [c29..be5] tron: add chainId for mainnet | By - rupansh | On - 2022-04-25T15:24:20Z
+
+## features/algorand
+
+
+ 1. [825..b62] bridge: ipfsMetadataFetch: add timeout | By - rupansh | On - 2022-04-19T15:27:01Z
+ 2. [4bf..f4b] bridge: httpMetadataFetch: use setTimeout for timeout | By - rupansh | On - 2022-04-19T15:18:59Z
+ 3. [468..a8a] bridge: httpMetadataFetch: add 20sec timeout | By - rupansh | On - 2022-04-19T15:01:19Z
+ 4. [fa3..b87] pass actionId on handleUnfreezeUnique | By - rocalex | On - 2022-04-10T15:21:03Z
+ 5. [c7b..537] algorand: truncate nft name to 32 bytes | By - rupansh | On - 2022-04-10T14:35:50Z
+ 6. [2fa..55a] algorand: pass origin nonce to algoMetadataWrap properly | By - rupansh | On - 2022-04-10T14:12:50Z
+ 7. [0b6..a44] algorand: extract txn fee properly | By - rupansh | On - 2022-04-10T09:37:42Z
+ 8. [19c..b5b] algorand: update events | By - rupansh | On - 2022-04-08T15:51:04Z
+ 9. [a45..cf9] algorand: listenEvents: fix typo | By - rupansh | On - 2022-04-06T17:01:42Z
+ 10. [43c..ea8] algorand: listenEvents: use bigintFromBe for chain nonce | By - rupansh | On - 2022-04-06T16:57:35Z
+ 11. [df2..685] handlers: algorand: listenEvents: use proper txnInfo object | By - rupansh | On - 2022-04-06T16:33:24Z
+ 12. [67f..f37] bridge: chains: web3: add gatechain | By - imsk17 | On - 2022-04-06T14:34:53Z
+ 13. [98b..f75] handlers: use indexer for isOptIn | By - rupansh | On - 2022-04-05T11:24:11Z
+ 14. [8a1..7f0] bump packages | By - rupansh | On - 2022-04-05T11:23:57Z
+ 15. [63a..11c] bump typescript | By - rupansh | On - 2022-04-04T13:34:31Z
+ 16. [ba4..4da] fix teal program | By - rocalex | On - 2022-04-04T09:28:03Z
+ 17. [6fa..913] check if actionValidatorsLsig opt in to the app | By - rocalex | On - 2022-04-01T14:08:05Z
+ 18. [89e..91b] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-04-01T13:58:34Z
+ 19. [c74..df1] check if actionValidatorsLsig opt in to the app | By - rocalex | On - 2022-04-01T13:58:23Z
+ 20. [88d..8b5] getActionValidatorsProgram: prefix decodedAddr with 0x | By - rupansh | On - 2022-04-01T12:48:43Z
+ 21. [3be..b1d] bridge: handlers: web3: set up godwoken | By - imsk17 | On - 2022-04-01T12:08:27Z
+ 22. [e82..def] fix notifyServe to algorand | By - rocalex | On - 2022-03-31T16:24:29Z
+ 23. [696..40e] add notifyService to algorand | By - rocalex | On - 2022-03-31T16:24:00Z
+ 24. [3e1..36b] add notifyService to algorand handler | By - rocalex | On - 2022-03-31T15:56:21Z
+ 25. [6a5..59a] fix unfreeze nft | By - rocalex | On - 2022-03-31T09:43:00Z
+ 26. [a4f..91e] fix algorand for multisig | By - rocalex | On - 2022-03-28T09:18:26Z
+ 27. [6c7..2be] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-03-27T12:37:09Z
+ 28. [cb8..2f6] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T14:35:40Z
+ 29. [617..724] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T10:53:17Z
+ 30. [be9..a59] remove algorand port | By - rocalex | On - 2022-03-22T09:18:23Z
+ 31. [e02..2d0] fix getting algod/indexer | By - rocalex | On - 2022-03-22T08:43:48Z
+ 32. [3a2..269] fix compile program | By - rocalex | On - 2022-03-22T08:23:59Z
+ 33. [dde..ae6] bridge: helpers: algorand: enable algorand | By - imsk17 | On - 2022-03-21T14:07:08Z
+ 34. [188..424] config: bring back tezos | By - imsk17 | On - 2022-03-20T13:33:52Z
+ 35. [68c..410] initial algorand support | By - rupansh | On - 2022-03-20T12:50:26Z
+ 36. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
+ 37. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
+ 38. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
+ 39. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
+ 40. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
+ 41. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
+ 42. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
+ 43. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
+ 44. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
+ 45. [0f0..634] husky: add a pre commit hook for lint | By - imsk17 | On - 2022-03-15T17:15:10Z
+ 46. [d41..0cc] bridge: handlers: tron: adapt web3 serializers for tron | By - imsk17 | On - 2022-03-15T17:14:42Z
+ 47. [638..5f6] Merge pull request #8 from XP-NETWORK/features/tezos | By - Sumit Kumar | On - 2022-03-15T17:08:56Z
+ 48. [79f..bf8] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T16:49:59Z
+ 49. [082..543] add documentation for optional fields | By - rupansh | On - 2022-03-13T19:26:44Z
+ 50. [faf..68f] elrond: initial royalties support | By - rupansh | On - 2022-03-13T19:21:04Z
+
+## features/ton
+
+
+ 1. [121..d63] handlers for foreign -> ton | By - rocalex | On - 2022-04-28T13:27:18Z
+ 2. [82b..6f6] update ton bridge | By - rocalex | On - 2022-04-28T12:45:44Z
+ 3. [aa2..040] initial | By - rocalex | On - 2022-04-26T14:53:53Z
+ 4. [b42..e37] bump web3-contracts dep | By - rupansh | On - 2022-04-26T14:31:12Z
+ 5. [be0..cbc] scrt: update for contract changes | By - rupansh | On - 2022-04-20T18:49:50Z
+ 6. [5b8..b7d] initial ed25519 support | By - rupansh | On - 2022-04-15T17:39:02Z
+ 7. [824..3f5] initial secret network support | By - rupansh | On - 2022-04-15T17:08:00Z
+ 8. [5c2..e9b] Revert "bridge: redo aggregation if sending txn failed due to `failed to verify signature`" | By - rupansh | On - 2022-04-12T14:04:06Z
+ 9. [50a..8e3] bridge: redo aggregation if sending txn failed due to `failed to verify signature` | By - rupansh | On - 2022-04-12T13:49:51Z
+ 10. [146..9ae] tsconfig: enable skipLibCheck | By - rupansh | On - 2022-04-12T13:01:29Z
+ 11. [dc0..1f9] use custom block.chainid for aurora | By - rupansh | On - 2022-04-12T13:01:14Z
+ 12. [c1f..be9] package: bump elrond | By - rupansh | On - 2022-03-26T18:19:56Z
+ 13. [353..581] elrond: await sync before handling again | By - rupansh | On - 2022-03-26T18:18:32Z
+ 14. [d8a..def] elrond: increment nonce in advance | By - rupansh | On - 2022-03-26T17:37:00Z
+ 15. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
+ 16. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
+ 17. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
+ 18. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
+ 19. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
+ 20. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
+ 21. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
+ 22. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
+ 23. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
+ 24. [0f0..634] husky: add a pre commit hook for lint | By - imsk17 | On - 2022-03-15T17:15:10Z
+ 25. [d41..0cc] bridge: handlers: tron: adapt web3 serializers for tron | By - imsk17 | On - 2022-03-15T17:14:42Z
+ 26. [638..5f6] Merge pull request #8 from XP-NETWORK/features/tezos | By - Sumit Kumar | On - 2022-03-15T17:08:56Z
+ 27. [79f..bf8] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T16:49:59Z
+ 28. [082..543] add documentation for optional fields | By - rupansh | On - 2022-03-13T19:26:44Z
+ 29. [faf..68f] elrond: initial royalties support | By - rupansh | On - 2022-03-13T19:21:04Z
+ 30. [28b..ab2] tezos: minor fixes | By - rupansh | On - 2022-03-13T18:55:03Z
+ 31. [304..8f6] tezos: update for contract changes | By - rupansh | On - 2022-03-13T14:08:40Z
+ 32. [8e6..fac] evm: fix import order | By - rupansh | On - 2022-03-13T13:14:38Z
+ 33. [1e7..6b9] fix compilation | By - rupansh | On - 2022-03-13T12:12:06Z
+ 34. [f44..770] add event listener | By - rocalex | On - 2022-03-13T07:23:47Z
+ 35. [b16..64b] transfer/unfreeze nft | By - rocalex | On - 2022-03-13T06:03:20Z
+ 36. [4e4..aff] config tezos handler | By - rocalex | On - 2022-03-13T05:29:35Z
+ 37. [126..5a5] initial | By - rocalex | On - 2022-03-10T15:25:22Z
+ 38. [6c9..bad] gas number to string | By - Ruby Edelstein | On - 2022-03-08T14:14:22Z
+ 39. [336..900] add polygon gasstation | By - Ruby Edelstein | On - 2022-03-08T14:10:31Z
+ 40. [660..d65] Update web3.ts | By - VKint | On - 2022-03-08T13:04:06Z
+ 41. [51d..8fa] set txfees for transfers | By - rupansh | On - 2022-03-03T18:21:34Z
+ 42. [2a6..058] handlers: elrond: fix gas limit | By - rupansh | On - 2022-03-03T18:13:51Z
+ 43. [69d..83f] use baseURL in erc721 metadata | By - rupansh | On - 2022-03-03T18:13:06Z
+ 44. [36a..e1a] elrond: put metadata on ipfs as well | By - rupansh | On - 2022-03-03T18:10:15Z
+ 45. [39e..b67] reset emitted action after adding offset | By - rupansh | On - 2022-03-03T16:46:16Z
+ 46. [a46..339] Add actionId offset env | By - rupansh | On - 2022-03-03T12:03:35Z
+ 47. [21d..a14] Merge pull request #6 from XP-NETWORK/aurora | By - VKint | On - 2022-03-03T10:32:42Z
+ 48. [f07..5cd] packages: exchange-rate: bump to latest | By - imsk17 | On - 2022-03-03T10:31:53Z
+ 49. [cd6..882] handlers: improve erc721MetadataWrap | By - rupansh | On - 2022-03-01T17:19:17Z
+ 50. [1f2..b6e] web3: use 60gwei as workawround for polygon | By - rupansh | On - 2022-03-01T12:54:24Z
+
+## godwoken
+
+
+ 1. [7be..8a8] bridge: handlers: web3: set up godwoken | By - imsk17 | On - 2022-03-29T12:34:16Z
+ 2. [a4f..91e] fix algorand for multisig | By - rocalex | On - 2022-03-28T09:18:26Z
+ 3. [6c7..2be] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-03-27T12:37:09Z
+ 4. [cb8..2f6] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T14:35:40Z
+ 5. [617..724] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T10:53:17Z
+ 6. [be9..a59] remove algorand port | By - rocalex | On - 2022-03-22T09:18:23Z
+ 7. [e02..2d0] fix getting algod/indexer | By - rocalex | On - 2022-03-22T08:43:48Z
+ 8. [3a2..269] fix compile program | By - rocalex | On - 2022-03-22T08:23:59Z
+ 9. [dde..ae6] bridge: helpers: algorand: enable algorand | By - imsk17 | On - 2022-03-21T14:07:08Z
+ 10. [188..424] config: bring back tezos | By - imsk17 | On - 2022-03-20T13:33:52Z
+ 11. [68c..410] initial algorand support | By - rupansh | On - 2022-03-20T12:50:26Z
+ 12. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
+ 13. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
+ 14. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
+ 15. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
+ 16. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
+ 17. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
+ 18. [492..cda] tezos: getUriFA2: add a fallback for NFTs with no URI | By - imsk17 | On - 2022-03-16T13:10:59Z
+ 19. [2f8..eea] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T17:21:59Z
+ 20. [96f..27e] Merge pull request #9 from XP-NETWORK/temp | By - Sumit Kumar | On - 2022-03-15T17:16:32Z
+ 21. [0f0..634] husky: add a pre commit hook for lint | By - imsk17 | On - 2022-03-15T17:15:10Z
+ 22. [d41..0cc] bridge: handlers: tron: adapt web3 serializers for tron | By - imsk17 | On - 2022-03-15T17:14:42Z
+ 23. [638..5f6] Merge pull request #8 from XP-NETWORK/features/tezos | By - Sumit Kumar | On - 2022-03-15T17:08:56Z
+ 24. [79f..bf8] bridge: factory: tron: fix hexC production | By - imsk17 | On - 2022-03-15T16:49:59Z
+ 25. [082..543] add documentation for optional fields | By - rupansh | On - 2022-03-13T19:26:44Z
+ 26. [faf..68f] elrond: initial royalties support | By - rupansh | On - 2022-03-13T19:21:04Z
+ 27. [28b..ab2] tezos: minor fixes | By - rupansh | On - 2022-03-13T18:55:03Z
+ 28. [304..8f6] tezos: update for contract changes | By - rupansh | On - 2022-03-13T14:08:40Z
+ 29. [8e6..fac] evm: fix import order | By - rupansh | On - 2022-03-13T13:14:38Z
+ 30. [1e7..6b9] fix compilation | By - rupansh | On - 2022-03-13T12:12:06Z
+ 31. [f44..770] add event listener | By - rocalex | On - 2022-03-13T07:23:47Z
+ 32. [b16..64b] transfer/unfreeze nft | By - rocalex | On - 2022-03-13T06:03:20Z
+ 33. [4e4..aff] config tezos handler | By - rocalex | On - 2022-03-13T05:29:35Z
+ 34. [126..5a5] initial | By - rocalex | On - 2022-03-10T15:25:22Z
+ 35. [6c9..bad] gas number to string | By - Ruby Edelstein | On - 2022-03-08T14:14:22Z
+ 36. [336..900] add polygon gasstation | By - Ruby Edelstein | On - 2022-03-08T14:10:31Z
+ 37. [660..d65] Update web3.ts | By - VKint | On - 2022-03-08T13:04:06Z
+ 38. [51d..8fa] set txfees for transfers | By - rupansh | On - 2022-03-03T18:21:34Z
+ 39. [2a6..058] handlers: elrond: fix gas limit | By - rupansh | On - 2022-03-03T18:13:51Z
+ 40. [69d..83f] use baseURL in erc721 metadata | By - rupansh | On - 2022-03-03T18:13:06Z
+ 41. [36a..e1a] elrond: put metadata on ipfs as well | By - rupansh | On - 2022-03-03T18:10:15Z
+ 42. [39e..b67] reset emitted action after adding offset | By - rupansh | On - 2022-03-03T16:46:16Z
+ 43. [a46..339] Add actionId offset env | By - rupansh | On - 2022-03-03T12:03:35Z
+ 44. [21d..a14] Merge pull request #6 from XP-NETWORK/aurora | By - VKint | On - 2022-03-03T10:32:42Z
+ 45. [f07..5cd] packages: exchange-rate: bump to latest | By - imsk17 | On - 2022-03-03T10:31:53Z
+ 46. [cd6..882] handlers: improve erc721MetadataWrap | By - rupansh | On - 2022-03-01T17:19:17Z
+ 47. [1f2..b6e] web3: use 60gwei as workawround for polygon | By - rupansh | On - 2022-03-01T12:54:24Z
+ 48. [c71..73a] fantom: disable block.chainid workaround | By - rupansh | On - 2022-03-01T10:43:07Z
+ 49. [43c..319] bridge: handlers: improve ipfs url detection | By - rupansh | On - 2022-02-27T10:35:13Z
+ 50. [af2..eff] added aurora | By - VKint | On - 2022-02-27T08:44:27Z
+
+## testing-erc1155
+
+
+ 1. [873..764] Update README.md | By - Dima Brook | On - 2022-02-15T19:34:03Z
+ 2. [157..165] prepare for deployment | By - Dima Brook | On - 2022-02-15T16:57:29Z
+ 3. [a45..312] add Procfile | By - Dima Brook | On - 2022-02-14T19:12:04Z
+ 4. [96f..b82] change script test -> start | By - Dima Brook | On - 2022-02-14T15:11:24Z
+ 5. [35c..802] fix testnet-validator | By - Dima Brook | On - 2022-02-14T15:09:47Z
+ 6. [a09..ebe] events: unfreeze: fallback to xpnft if defaultMintFor fails | By - rupansh | On - 2022-02-07T12:27:56Z
+ 7. [fbf..acc] config: remove unnecessary params | By - rupansh | On - 2022-02-05T13:52:49Z
+ 8. [aad..a8c] .env.example: update for off-chain multisig | By - rupansh | On - 2022-02-04T13:00:16Z
+ 9. [8a6..d32] refactor for off-chain multisig | By - rupansh | On - 2022-02-04T12:59:08Z
+ 10. [659..603] batch transfer & erc1155 fixes | By - rupansh | On - 2022-01-08T15:43:21Z
+ 11. [6a9..d45] elrond: improve gas fees estimation for elrond | By - rupansh | On - 2022-01-08T10:29:27Z
+ 12. [18d..dce] helpers: algorand: minor cleanup | By - rupansh | On - 2022-01-07T09:31:49Z
+ 13. [147..796] algorand: minor fixes for owner | By - rupansh | On - 2022-01-07T09:24:35Z
+ 14. [fc7..5d5] feat(algorand): prepare for txn persistence | By - imsk17 | On - 2022-01-07T09:23:44Z
+ 15. [729..7b7] handlers: algorand: pass token name for minting as well | By - rupansh | On - 2022-01-07T09:19:55Z
+ 16. [fa5..91a] make sending events to algorand backend optional | By - rupansh | On - 2022-01-07T09:18:55Z
+ 17. [753..08a] transferbatch fixes | By - rupansh | On - 2021-12-27T14:41:35Z
+ 18. [3f6..759] bug fixes | By - rupansh | On - 2021-12-27T13:49:49Z
+ 19. [027..018] initial integration with sc-verify | By - rupansh | On - 2021-12-26T12:37:18Z
+ 20. [837..45d] chain_handler: minor refactor | By - rupansh | On - 2021-12-26T10:45:18Z
+ 21. [c64..a32] elrond: initial batch txns impl | By - rupansh | On - 2021-12-23T15:27:47Z
+ 22. [761..7a3] tron: initial batch txns impl | By - rupansh | On - 2021-12-23T13:47:34Z
+ 23. [a07..7b5] web3: simplify batch unfreeze | By - rupansh | On - 2021-12-23T13:24:45Z
+ 24. [0a4..bea] web3: initial batch txns implementation | By - rupansh | On - 2021-12-23T11:49:14Z
+ 25. [c72..374] algorand: allow arbitrary unfreeze | By - rupansh | On - 2021-12-22T15:05:45Z
+ 26. [b9b..240] refactor unfreeze event | By - rupansh | On - 2021-12-22T15:03:45Z
+ 27. [ae2..a61] initial changes based on contract updates | By - rupansh | On - 2021-12-22T15:03:19Z
+ 28. [a8c..fdb] sanitize erc1155 uris | By - rupansh | On - 2021-12-03T12:19:25Z
+ 29. [306..e23] initial erc1155 support for evm chains | By - rupansh | On - 2021-12-03T10:23:53Z
+ 30. [84d..3fd] wrapped nft: add animation url support | By - rupansh | On - 2021-12-02T08:39:30Z
+ 31. [d67..b5c] add support for workaround sockets | By - rupansh | On - 2021-11-29T13:22:37Z
+ 32. [c92..eb0] fixes for algorand | By - rupansh | On - 2021-11-22T15:16:43Z
+ 33. [95e..eac] initial algorand support | By - rupansh | On - 2021-11-21T13:46:10Z
+ 34. [ee2..a79] add back heartbeat socket | By - rupansh | On - 2021-11-20T14:27:21Z
+ 35. [b8e..3d8] chain_handler: make notify infalliable | By - rupansh | On - 2021-11-20T14:17:07Z
+ 36. [76a..fb5] use external service for notifying about transactions | By - rupansh | On - 2021-11-20T14:16:21Z
+ 37. [23b..e1b] tron: fix api key | By - rupansh | On - 2021-11-11T12:12:56Z
+ 38. [ba0..650] chain_handler: retry on tx fees estimation failure | By - rupansh | On - 2021-11-11T11:09:37Z
+ 39. [8cb..87d] tron: skip event on err | By - rupansh | On - 2021-11-11T09:54:45Z
+ 40. [4ba..ae9] elrond: stringify attributes before sending | By - rupansh | On - 2021-11-10T15:12:37Z
+ 41. [20c..44c] web3: fix ipfs url | By - rupansh | On - 2021-11-10T13:50:15Z
+ 42. [849..cd8] web3: use ipfs for fetching metadata when required | By - rupansh | On - 2021-11-10T12:10:59Z
+ 43. [735..756] initial changes for elrond wrapped nft update | By - rupansh | On - 2021-11-10T09:28:18Z
+ 44. [95d..b34] erc721_metadata: minor fix | By - rupansh | On - 2021-11-09T12:17:30Z
+ 45. [33b..5aa] gitignore: remove dist | By - rupansh | On - 2021-11-09T12:17:16Z
+ 46. [320..554] test: update for web3 metadata changes | By - rupansh | On - 2021-11-09T11:36:47Z
+ 47. [35a..241] initial changes for web3 metadata | By - rupansh | On - 2021-11-09T11:00:04Z
+ 48. [6c1..f04] temp: disable elrond | By - rupansh | On - 2021-11-09T10:55:02Z
+ 49. [815..dfe] yarn: bump exchange-rate dep | By - rupansh | On - 2021-11-09T09:56:05Z
+ 50. [1ff..b00] add xDAI support | By - rupansh | On - 2021-11-08T09:32:34Z
+
+## vech
+
+
+ 1. [9f2..536] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:15:19Z
+ 2. [15d..a1c] iotex: hardcode gas limit | By - imsk17 | On - 2022-04-20T11:05:07Z
+ 3. [1de..de1] iotex: use prevblock to get gas limit | By - imsk17 | On - 2022-04-20T09:22:15Z
+ 4. [9a4..25c] bridge: ipfsMetadataFetch: add timeout | By - rupansh | On - 2022-04-20T07:06:31Z
+ 5. [2fd..c15] bridge: httpMetadataFetch: use setTimeout for timeout | By - rupansh | On - 2022-04-20T07:06:31Z
+ 6. [115..d3a] bridge: httpMetadataFetch: add 20sec timeout | By - rupansh | On - 2022-04-20T07:06:31Z
+ 7. [11a..a9e] log when using block.chainid workaround | By - imsk17 | On - 2022-04-20T07:00:18Z
+ 8. [621..fd2] handlers: web3: disable fixed decimals for web3 | By - imsk17 | On - 2022-04-20T06:53:38Z
+ 9. [326..490] vechain: use dynamic node for vechain | By - imsk17 | On - 2022-04-13T14:01:49Z
+ 10. [0e7..15b] vechain: use custom logic for signer and remove noncemanager | By - imsk17 | On - 2022-04-13T11:57:03Z
+ 11. [743..721] vechain: move vech provider construction up | By - imsk17 | On - 2022-04-13T11:50:33Z
+ 12. [9d0..297] web3: chains: add support for vechain | By - imsk17 | On - 2022-04-12T11:08:59Z
+ 13. [fa3..b87] pass actionId on handleUnfreezeUnique | By - rocalex | On - 2022-04-10T15:21:03Z
+ 14. [c7b..537] algorand: truncate nft name to 32 bytes | By - rupansh | On - 2022-04-10T14:35:50Z
+ 15. [2fa..55a] algorand: pass origin nonce to algoMetadataWrap properly | By - rupansh | On - 2022-04-10T14:12:50Z
+ 16. [0b6..a44] algorand: extract txn fee properly | By - rupansh | On - 2022-04-10T09:37:42Z
+ 17. [19c..b5b] algorand: update events | By - rupansh | On - 2022-04-08T15:51:04Z
+ 18. [a45..cf9] algorand: listenEvents: fix typo | By - rupansh | On - 2022-04-06T17:01:42Z
+ 19. [43c..ea8] algorand: listenEvents: use bigintFromBe for chain nonce | By - rupansh | On - 2022-04-06T16:57:35Z
+ 20. [df2..685] handlers: algorand: listenEvents: use proper txnInfo object | By - rupansh | On - 2022-04-06T16:33:24Z
+ 21. [67f..f37] bridge: chains: web3: add gatechain | By - imsk17 | On - 2022-04-06T14:34:53Z
+ 22. [98b..f75] handlers: use indexer for isOptIn | By - rupansh | On - 2022-04-05T11:24:11Z
+ 23. [8a1..7f0] bump packages | By - rupansh | On - 2022-04-05T11:23:57Z
+ 24. [63a..11c] bump typescript | By - rupansh | On - 2022-04-04T13:34:31Z
+ 25. [ba4..4da] fix teal program | By - rocalex | On - 2022-04-04T09:28:03Z
+ 26. [6fa..913] check if actionValidatorsLsig opt in to the app | By - rocalex | On - 2022-04-01T14:08:05Z
+ 27. [89e..91b] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-04-01T13:58:34Z
+ 28. [c74..df1] check if actionValidatorsLsig opt in to the app | By - rocalex | On - 2022-04-01T13:58:23Z
+ 29. [88d..8b5] getActionValidatorsProgram: prefix decodedAddr with 0x | By - rupansh | On - 2022-04-01T12:48:43Z
+ 30. [3be..b1d] bridge: handlers: web3: set up godwoken | By - imsk17 | On - 2022-04-01T12:08:27Z
+ 31. [e82..def] fix notifyServe to algorand | By - rocalex | On - 2022-03-31T16:24:29Z
+ 32. [696..40e] add notifyService to algorand | By - rocalex | On - 2022-03-31T16:24:00Z
+ 33. [3e1..36b] add notifyService to algorand handler | By - rocalex | On - 2022-03-31T15:56:21Z
+ 34. [6a5..59a] fix unfreeze nft | By - rocalex | On - 2022-03-31T09:43:00Z
+ 35. [a4f..91e] fix algorand for multisig | By - rocalex | On - 2022-03-28T09:18:26Z
+ 36. [6c7..2be] Merge branch 'features/algorand' of https://github.com/XP-NETWORK/migration-validator into features/algorand | By - rocalex | On - 2022-03-27T12:37:09Z
+ 37. [cb8..2f6] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T14:35:40Z
+ 38. [617..724] bridge: sign-and-send: not all errors are stringifyable | By - imsk17 | On - 2022-03-23T10:53:17Z
+ 39. [be9..a59] remove algorand port | By - rocalex | On - 2022-03-22T09:18:23Z
+ 40. [e02..2d0] fix getting algod/indexer | By - rocalex | On - 2022-03-22T08:43:48Z
+ 41. [3a2..269] fix compile program | By - rocalex | On - 2022-03-22T08:23:59Z
+ 42. [dde..ae6] bridge: helpers: algorand: enable algorand | By - imsk17 | On - 2022-03-21T14:07:08Z
+ 43. [188..424] config: bring back tezos | By - imsk17 | On - 2022-03-20T13:33:52Z
+ 44. [68c..410] initial algorand support | By - rupansh | On - 2022-03-20T12:50:26Z
+ 45. [d3e..a04] tezos: log on listenEvents call | By - rupansh | On - 2022-03-17T11:45:06Z
+ 46. [01c..23a] Revert "tezos: tweak fees for transfer instead" | By - rupansh | On - 2022-03-16T17:02:45Z
+ 47. [a15..01b] tezos: tweak fees for transfer instead | By - rupansh | On - 2022-03-16T16:49:07Z
+ 48. [f3e..2fb] tezos: tweak tx fee | By - rupansh | On - 2022-03-16T16:35:23Z
+ 49. [284..1ab] Merge remote-tracking branch 'origin/elrond-royalties' into erc1155 | By - imsk17 | On - 2022-03-16T13:21:47Z
+ 50. [f66..3b4] tron: helpers: fix the serialize event function for unfreeze txns | By - imsk17 | On - 2022-03-16T13:11:35Z
+
+## vechain
+
+
+ 1. [958..8cf] packages: exchange-rate: bump to latest | By - imsk17 | On - 2022-03-03T10:26:53Z
+ 2. [39a..181] Setup pre commit hook for prettier | By - imsk17 | On - 2022-03-02T15:24:45Z
+ 3. [1eb..4d1] Prettify and Setup a Script for Prettier | By - imsk17 | On - 2022-03-02T11:28:16Z
+ 4. [6b2..010] VEthers support | By - imsk17 | On - 2022-03-02T11:25:43Z
+ 5. [cd6..882] handlers: improve erc721MetadataWrap | By - rupansh | On - 2022-03-01T17:19:17Z
+ 6. [1f2..b6e] web3: use 60gwei as workawround for polygon | By - rupansh | On - 2022-03-01T12:54:24Z
+ 7. [c71..73a] fantom: disable block.chainid workaround | By - rupansh | On - 2022-03-01T10:43:07Z
+ 8. [43c..319] bridge: handlers: improve ipfs url detection | By - rupansh | On - 2022-02-27T10:35:13Z
+ 9. [af2..eff] added aurora | By - VKint | On - 2022-02-27T08:44:27Z
+ 10. [856..535] signal: switch to socket.io | By - rupansh | On - 2022-02-24T18:35:00Z
+ 11. [550..e91] elrond: use either notifier or native events | By - rupansh | On - 2022-02-24T18:27:20Z
+ 12. [180..8ac] Update config.ts | By - VKint | On - 2022-02-23T12:00:03Z
+ 13. [be9..320] Update config.ts | By - VKint | On - 2022-02-23T08:13:50Z
+ 14. [bb1..f29] elrond: re-enable native events | By - rupansh | On - 2022-02-22T15:40:04Z
+ 15. [005..7d0] elrond: add option to add events from notifier | By - rupansh | On - 2022-02-22T14:50:14Z
+ 16. [684..c0c] Revert "double extraGwei for polygon priority workaround" | By - rupansh | On - 2022-02-21T14:03:41Z
+ 17. [2dd..0ff] Revert "[TEMP][DNM] disable null address workaround" | By - rupansh | On - 2022-02-21T14:03:33Z
+ 18. [eea..eb3] [TEMP][DNM] disable null address workaround | By - rupansh | On - 2022-02-21T13:58:49Z
+ 19. [9ba..0f6] double extraGwei for polygon priority workaround | By - rupansh | On - 2022-02-21T13:49:39Z
+ 20. [d9e..96d] sanitize identifier before sending to sc-verify | By - rupansh | On - 2022-02-20T09:58:57Z
+ 21. [bbe..da5] update tx_notify.notify | By - rupansh | On - 2022-02-20T08:57:58Z
+ 22. [6da..5eb] tree-wide: reduce probability of nonce collisions | By - rupansh | On - 2022-02-18T16:54:40Z
+ 23. [318..6c0] signal: fix data races | By - rupansh | On - 2022-02-18T14:45:37Z
+ 24. [0b3..9a5] Merge pull request #4 from bigBangingCode/patch-3 | By - VKint | On - 2022-02-17T15:20:01Z
+ 25. [c51..b36] Update index.ts | By - bigBangingCode | On - 2022-02-17T15:19:35Z
+ 26. [671..615] deps: fix derp | By - rupansh | On - 2022-02-17T10:36:36Z
+ 27. [596..582] update fee calculation logic | By - rupansh | On - 2022-02-16T14:20:04Z
+ 28. [6e8..4f9] handlers: evm: increase gas fees for polygon | By - rupansh | On - 2022-02-16T13:34:41Z
+ 29. [93f..22d] remove block.chainid workaround for velas | By - rupansh | On - 2022-02-15T16:38:42Z
+ 30. [12f..045] update for sc-verify changes | By - rupansh | On - 2022-02-15T14:22:27Z
+ 31. [72b..421] deps: add log for block.chainid workaround | By - rupansh | On - 2022-02-14T22:09:36Z
+ 32. [ca7..3fc] update .env.example | By - rupansh | On - 2022-02-14T17:45:00Z
+ 33. [d80..b52] config: workarounds for improper block.chainid | By - rupansh | On - 2022-02-14T17:43:24Z
+ 34. [5b7..628] bump web3-contracts | By - rupansh | On - 2022-02-14T17:38:01Z
+ 35. [7d9..5b3] bridge: bugfixes | By - rupansh | On - 2022-02-14T17:38:01Z
+ 36. [525..669] signal: memstore: be lenient with store cleanup | By - rupansh | On - 2022-02-14T17:38:00Z
+ 37. [727..f8e] elrond: support mintWith | By - rupansh | On - 2022-02-14T17:38:00Z
+ 38. [6ee..85d] Merge pull request #3 from bigBangingCode/patch-1 | By - VKint | On - 2022-02-14T06:13:59Z
+ 39. [da8..f35] Update config.ts | By - bigBangingCode | On - 2022-02-14T06:13:27Z
+ 40. [8dd..0b1] Update yarn.lock | By - VKint | On - 2022-02-13T20:11:33Z
+ 41. [ef1..e82] Merge pull request #2 from bigBangingCode/erc1155 | By - VKint | On - 2022-02-13T20:04:02Z
+ 42. [a45..d04] Update config.ts | By - bigBangingCode | On - 2022-02-13T19:59:26Z
+ 43. [50f..dde] Revert "helpers: add null address workaround for polygon" | By - rupansh | On - 2022-02-13T19:55:10Z
+ 44. [fe5..f63] Revert "evm: force legacy transaction for polygon" | By - rupansh | On - 2022-02-13T19:54:49Z
+ 45. [c59..159] evm: force legacy transaction for polygon | By - rupansh | On - 2022-02-13T19:50:32Z
+ 46. [f24..fbd] helpers: add null address workaround for polygon | By - rupansh | On - 2022-02-13T18:50:16Z
+ 47. [1e0..d9f] signal: switch aggregator after more than 30 seconds | By - rupansh | On - 2022-02-13T17:20:02Z
+ 48. [1ef..a2a] web3: workarounds for harmony | By - rupansh | On - 2022-02-11T11:47:33Z
+ 49. [901..a53] elrond fixes | By - rupansh | On - 2022-02-11T11:47:25Z
+ 50. [76a..3fa] tree-wide: minor fixes | By - rupansh | On - 2022-02-10T13:12:05Z
+
+## web3-new
+
+
+ 1. [e53..9c5] feat: chains: web3: add aurora chain | By - imsk17 | On - 2022-02-06T13:33:03Z
+ 2. [d5c..133] feat: web3: add conditional gasLimitPriority for polygon | By - imsk17 | On - 2022-01-27T13:15:34Z
+ 3. [fd2..d81] handlers: tezos: increase gasLimit | By - rupansh | On - 2022-01-25T09:02:51Z
+ 4. [9f9..88d] tezosMetadataWrap: update fields | By - rupansh | On - 2022-01-24T10:17:32Z
+ 5. [b39..fdc] tezos: add seperate method for wrapping metadata | By - rupansh | On - 2022-01-24T10:13:22Z
+ 6. [be5..70f] feat(chains): add support for iotex | By - imsk17 | On - 2022-01-23T14:30:16Z
+ 7. [fb7..652] handlers: tezos: increase action_id offset | By - rupansh | On - 2022-01-22T23:20:48Z
+ 8. [889..85e] handlers: tezos: add action workaround for fetch txns as well | By - rupansh | On - 2022-01-22T22:30:59Z
+ 9. [9e8..e39] handlers: tezos: add workaround for duplicate actions | By - rupansh | On - 2022-01-22T22:20:18Z
+ 10. [886..de6] helpers: web3: change action offset | By - rupansh | On - 2022-01-22T22:08:08Z
+ 11. [887..d87] tezos: hacks for gas fees | By - rupansh | On - 2022-01-21T15:18:35Z
+ 12. [297..7f4] .env.example: update for tezos | By - rupansh | On - 2022-01-21T14:02:45Z
+ 13. [bd2..60c] handlers: tezos: fix amount for manual event decoding | By - rupansh | On - 2022-01-21T11:41:54Z
+ 14. [2bd..740] config: rename heartbeat port variable | By - rupansh | On - 2022-01-19T10:13:04Z
+ 15. [30b..2f5] tezos: use notifier-rest for events | By - rupansh | On - 2022-01-19T10:11:39Z
+ 16. [041..798] algorand: handle ipfs | By - rupansh | On - 2022-01-18T15:35:53Z
+ 17. [02a..9a9] Merge branch 'tezos' into web3-new | By - rupansh | On - 2022-01-18T15:18:57Z
+ 18. [263..a7e] tezos fixes and improvements | By - rupansh | On - 2022-01-18T14:02:51Z
+ 19. [65a..40a] initial tezos changes | By - rupansh | On - 2022-01-14T14:23:00Z
+ 20. [d4f..964] Merge pull request #1 from QuigonCOM/pass-event-name-to-algorand | By - Rupansh | On - 2022-01-07T07:31:30Z
+ 21. [4d2..01d] pass event name | By - rocalex | On - 2022-01-06T12:27:02Z
+ 22. [8e4..c43] fix(nonce): heco's nonce is 0x3 | By - imsk17 | On - 2021-12-30T09:56:52Z
+ 23. [d2b..e6c] heroku: add procfile for deployment | By - imsk17 | On - 2021-12-30T09:40:11Z
+ 24. [1a6..0e8] feat(chains): add velas to validator | By - imsk17 | On - 2021-12-24T11:57:43Z
+ 25. [883..326] feat(chains): add unique | By - imsk17 | On - 2021-12-21T14:48:35Z
+ 26. [3d4..264] chore(packages): bump exchange-rate | By - imsk17 | On - 2021-12-21T14:35:28Z
+ 27. [891..76a] initial fuse support | By - rupansh | On - 2021-12-20T13:02:43Z
+ 28. [56c..535] algorand: minor fixes for owner | By - rupansh | On - 2021-12-09T09:54:24Z
+ 29. [829..2a8] feat(algorand): prepare for txn persistence | By - imsk17 | On - 2021-12-08T11:53:40Z
+ 30. [279..599] handlers: algorand: pass token name for minting as well | By - rupansh | On - 2021-12-07T15:19:14Z
+ 31. [d49..e8f] make sending events to algorand backend optional | By - rupansh | On - 2021-12-07T09:07:07Z
+ 32. [eb5..efb] chore(startup): skip chain if no reply in 5s | By - imsk17 | On - 2021-12-05T12:05:25Z
+ 33. [484..370] chore(startup): do no instantiate Web3Helper if node is down | By - imsk17 | On - 2021-12-05T10:37:56Z
+ 34. [ff8..b70] feat(startup): dont crash if a node is down | By - imsk17 | On - 2021-12-05T09:30:36Z
+ 35. [84d..3fd] wrapped nft: add animation url support | By - rupansh | On - 2021-12-02T08:39:30Z
+ 36. [d67..b5c] add support for workaround sockets | By - rupansh | On - 2021-11-29T13:22:37Z
+ 37. [c92..eb0] fixes for algorand | By - rupansh | On - 2021-11-22T15:16:43Z
+ 38. [95e..eac] initial algorand support | By - rupansh | On - 2021-11-21T13:46:10Z
+ 39. [ee2..a79] add back heartbeat socket | By - rupansh | On - 2021-11-20T14:27:21Z
+ 40. [b8e..3d8] chain_handler: make notify infalliable | By - rupansh | On - 2021-11-20T14:17:07Z
+ 41. [76a..fb5] use external service for notifying about transactions | By - rupansh | On - 2021-11-20T14:16:21Z
+ 42. [23b..e1b] tron: fix api key | By - rupansh | On - 2021-11-11T12:12:56Z
+ 43. [ba0..650] chain_handler: retry on tx fees estimation failure | By - rupansh | On - 2021-11-11T11:09:37Z
+ 44. [8cb..87d] tron: skip event on err | By - rupansh | On - 2021-11-11T09:54:45Z
+ 45. [4ba..ae9] elrond: stringify attributes before sending | By - rupansh | On - 2021-11-10T15:12:37Z
+ 46. [20c..44c] web3: fix ipfs url | By - rupansh | On - 2021-11-10T13:50:15Z
+ 47. [849..cd8] web3: use ipfs for fetching metadata when required | By - rupansh | On - 2021-11-10T12:10:59Z
+ 48. [735..756] initial changes for elrond wrapped nft update | By - rupansh | On - 2021-11-10T09:28:18Z
+ 49. [95d..b34] erc721_metadata: minor fix | By - rupansh | On - 2021-11-09T12:17:30Z
+ 50. [33b..5aa] gitignore: remove dist | By - rupansh | On - 2021-11-09T12:17:16Z
+
+# nft-fetch
+
+# algorand-asa-bridge
+
+## main
+
+
+ 1. [c08..7b3] update README.md after testing | By - Dima Brook | On - 2022-06-29T13:15:53Z
+ 2. [697..6de] update unit tests | By - rocalex | On - 2022-06-29T12:11:21Z
+ 3. [9bd..92c] Update index.spec.ts | By - Xueming Zheng | On - 2022-06-28T10:47:04Z
+ 4. [246..ecf] remove xpnet key | By - rocalex | On - 2022-06-22T09:04:41Z
+ 5. [5f9..712] remove send_native & receive_native | By - rocalex | On - 2022-06-21T12:57:39Z
+ 6. [488..e8f] fix update_gk | By - rocalex | On - 2022-06-21T04:15:56Z
+ 7. [8da..db2] add consuming actions | By - rocalex | On - 2022-06-21T04:15:09Z
+ 8. [31d..eea] pause/unpause, withdraw fees | By - rocalex | On - 2022-06-20T16:00:51Z
+ 9. [065..9fa] change wrapped token name as XPNET | By - rocalex | On - 2022-06-16T08:53:22Z
+ 10. [8c6..5fb] add readme | By - rocalex | On - 2022-06-15T20:25:25Z
+ 11. [d6f..bea] add paused | By - rocalex | On - 2022-06-15T20:17:41Z
+ 12. [0fc..012] lint fix | By - rocalex | On - 2022-06-15T20:08:29Z
+ 13. [f6a..df4] receive native | By - rocalex | On - 2022-06-15T20:06:46Z
+ 14. [aa1..769] send native | By - rocalex | On - 2022-06-15T19:54:47Z
+ 15. [29e..39b] send wrapped | By - rocalex | On - 2022-06-15T19:37:19Z
+ 16. [dd0..bf1] receive foreign | By - rocalex | On - 2022-06-15T18:35:22Z
+ 17. [ee6..373] create wVPAD when bootstrap | By - rocalex | On - 2022-06-15T17:57:39Z
+ 18. [b08..5d2] update group key | By - rocalex | On - 2022-06-15T17:20:59Z
+ 19. [3cc..fc9] update group key | By - rocalex | On - 2022-06-15T17:08:37Z
+ 20. [d42..410] add deploy script | By - rocalex | On - 2022-06-15T15:48:53Z
+ 21. [eff..25d] initial unit tests | By - rocalex | On - 2022-06-15T14:49:50Z
+ 22. [b69..51f] initial | By - rocalex | On - 2022-06-14T11:25:53Z
+
+# bridge-explorer-ui
+
+## dev
+
+
+ 1. [ac9..500] broken nfts | By - ronyXnes | On - 2022-06-27T16:23:33Z
+ 2. [5df..4cb] added contract to IEVENT | By - ronyXnes | On - 2022-06-26T11:07:03Z
+ 3. [af0..9d0] axios | By - ronyXnes | On - 2022-06-26T11:06:41Z
+ 4. [097..329] get metadata from chache | By - ronyXnes | On - 2022-06-26T11:06:22Z
+ 5. [4be..905] formating | By - ronyXnes | On - 2022-06-18T13:07:04Z
+ 6. [8c5..ee8] Collection Name has wrong data - need to delete it and update from the new database | By - ronyXnes | On - 2022-06-16T11:46:00Z
+ 7. [f6d..3e4] update event | By - ronyXnes | On - 2022-06-16T09:03:28Z
+ 8. [fb0..e04] event | By - ronyXnes | On - 2022-06-16T09:02:37Z
+ 9. [748..dce] When there is no transactions it should display 1 of 1 pages | By - ronyXnes | On - 2022-06-14T12:19:11Z
+ 10. [53e..9d1] When there is no transactions it should display 1 of 1 pages | By - ronyXnes | On - 2022-06-14T12:17:30Z
+ 11. [64d..f6b] padding | By - ronyXnes | On - 2022-06-12T22:45:36Z
+ 12. [e1d..c28] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - ronyXnes | On - 2022-06-12T16:13:22Z
+ 13. [4ca..4be] padding | By - ronyXnes | On - 2022-06-12T16:13:18Z
+ 14. [474..e7b] merge | By - AlexeyAdoniev | On - 2022-06-12T15:18:46Z
+ 15. [c7f..b61] test | By - AlexeyAdoniev | On - 2022-06-12T15:18:04Z
+ 16. [171..758] padding | By - ronyXnes | On - 2022-06-12T13:19:28Z
+ 17. [bdf..647] padding change | By - ronyXnes | On - 2022-06-12T13:13:08Z
+ 18. [b4b..f31] show the right sum of transactions | By - ronyXnes | On - 2022-06-07T06:54:04Z
+ 19. [f09..e29] comment console logs | By - ronyXnes | On - 2022-06-07T06:46:57Z
+ 20. [1cf..ee3] change loader of graph | By - ronyXnes | On - 2022-06-06T15:10:12Z
+ 21. [598..aa4] System shows empty "last" page | By - ronyXnes | On - 2022-06-06T13:16:16Z
+ 22. [b71..acf] System shows empty "last" page | By - ronyXnes | On - 2022-06-06T12:35:49Z
+ 23. [731..149] change XP.NETWORK to capital letters (meta text) | By - ronyXnes | On - 2022-06-06T11:13:25Z
+ 24. [eba..8c2] css SPECIFIC BLUR | By - ronyXnes | On - 2022-06-06T08:26:31Z
+ 25. [7cc..5cf] css SPECIFIC BLUR | By - ronyXnes | On - 2022-06-06T08:26:00Z
+ 26. [0c9..a09] css | By - ronyXnes | On - 2022-06-06T08:10:27Z
+ 27. [a0b..82d] blur specific token id | By - ronyXnes | On - 2022-06-06T08:03:16Z
+ 28. [1ae..815] image blur bug fix | By - ronyXnes | On - 2022-06-06T07:52:18Z
+ 29. [f9f..178] bug fix | By - ronyXnes | On - 2022-06-06T07:38:38Z
+ 30. [0ed..eec] bug fix | By - ronyXnes | On - 2022-06-02T13:50:51Z
+ 31. [d0d..894] fix | By - ronyXnes | On - 2022-06-02T13:50:11Z
+ 32. [358..09a] blur | By - ronyXnes | On - 2022-06-02T12:53:47Z
+ 33. [f8c..502] explorer main page blur | By - ronyXnes | On - 2022-06-02T11:52:56Z
+ 34. [295..2c1] blur css | By - ronyXnes | On - 2022-06-02T11:51:33Z
+ 35. [1eb..69f] about us link footer | By - AlexeyAdoniev | On - 2022-06-01T15:29:47Z
+ 36. [b10..711] page, queryString, statusFilter now are global Redux | By - AlexeyAdoniev | On - 2022-06-01T14:27:33Z
+ 37. [916..30d] meta image, newsletterUi | By - AlexeyAdoniev | On - 2022-06-01T09:26:42Z
+ 38. [9f1..70a] gatechain coingeko id change | By - AlexeyAdoniev | On - 2022-05-30T07:59:42Z
+ 39. [663..698] navbar menu toggle | By - AlexeyAdoniev | On - 2022-05-29T16:05:28Z
+ 40. [285..b9c] 16 chains | By - AlexeyAdoniev | On - 2022-05-29T12:52:24Z
+ 41. [5a0..c4a] network gone, footer update | By - AlexeyAdoniev | On - 2022-05-29T11:25:13Z
+ 42. [c55..27a] pending chaned to processed | By - AlexeyAdoniev | On - 2022-05-29T07:49:11Z
+ 43. [3b7..ef0] fix bugs with nftFetch | By - AlexeyAdoniev | On - 2022-05-28T22:14:23Z
+ 44. [a1b..845] collection Name, some fetchNft rules, trx Proccessing | By - AlexeyAdoniev | On - 2022-05-26T14:56:05Z
+ 45. [ba1..66f] tron convert fees, link open in tabs | By - AlexeyAdoniev | On - 2022-05-24T16:33:00Z
+ 46. [977..0a4] Merge branch 'uiUpdates' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-05-24T12:31:19Z
+ 47. [f85..c03] updates of small changes | By - Lihi Sherm | On - 2022-05-24T12:30:14Z
+ 48. [1f1..d43] extract hash function, fetchNFT | By - AlexeyAdoniev | On - 2022-05-24T10:16:06Z
+ 49. [52e..24b] chains number to 14 | By - AlexeyAdoniev | On - 2022-05-23T14:01:48Z
+ 50. [9e8..5d8] nft lazy loading + nakedIpfs case | By - AlexeyAdoniev | On - 2022-05-22T15:54:46Z
+
+## main
+
+
+ 1. [3c2..105] w | By - ronyXnes | On - 2022-06-02T11:01:29Z
+ 2. [daf..ee6] s | By - ronyXnes | On - 2022-06-02T11:01:24Z
+ 3. [4a2..5de] deploy: update build scripts | By - Rishabh Kumar | On - 2022-02-08T07:34:14Z
+ 4. [cd5..c84] Merge pull request #1 from XP-NETWORK/dev | By - Rishabh Kumar | On - 2022-02-08T07:23:10Z
+ 5. [ede..0a5] actions: seprate out actions for diff env | By - Rishabh Kumar | On - 2022-02-08T07:20:49Z
+ 6. [aac..5fc] remove name | By - Rishabh Kumar | On - 2022-02-08T07:18:23Z
+ 7. [932..cdd] add deploy to s3 action | By - Rishabh Kumar | On - 2022-02-08T07:14:56Z
+ 8. [5e9..fa8] fix: typo Bridige to Bridge | By - Rishabh Kumar | On - 2022-02-07T13:22:33Z
+ 9. [f66..7e9] fix: validate dom error | By - Rishabh Kumar | On - 2022-02-07T13:19:07Z
+ 10. [0d4..db8] add nft img uri to event | By - Rishabh Kumar | On - 2022-02-07T13:17:24Z
+ 11. [d3e..55f] fix: createdAt.toUTCString() | By - Rishabh Kumar | On - 2022-02-07T12:50:14Z
+ 12. [ae7..c91] add createdAt to event | By - Rishabh Kumar | On - 2022-02-07T12:38:54Z
+ 13. [830..58e] make navbar responsive | By - Rishabh Kumar | On - 2022-02-07T12:05:09Z
+ 14. [217..aa9] fetch events from api | By - Rishabh Kumar | On - 2022-02-07T11:13:29Z
+ 15. [233..212] add footer | By - Rishabh Kumar | On - 2022-02-07T10:26:08Z
+ 16. [10e..39e] add explorer events | By - Rishabh Kumar | On - 2022-02-07T09:41:30Z
+ 17. [7dc..ae1] add search bar | By - Rishabh Kumar | On - 2022-02-07T09:09:55Z
+ 18. [d13..71c] add bg color and shadow to navbar | By - Rishabh Kumar | On - 2022-02-06T15:42:10Z
+ 19. [42d..b24] add explorer cards | By - Rishabh Kumar | On - 2022-02-06T15:39:56Z
+ 20. [78d..3a6] add bg color to body | By - Rishabh Kumar | On - 2022-02-06T15:24:16Z
+ 21. [286..b68] make classname optional in container | By - Rishabh Kumar | On - 2022-02-06T14:29:50Z
+ 22. [9ff..897] add padding to container | By - Rishabh Kumar | On - 2022-02-06T14:22:01Z
+ 23. [abc..441] refactor navbar with container | By - Rishabh Kumar | On - 2022-02-06T14:20:21Z
+ 24. [263..cd0] add container | By - Rishabh Kumar | On - 2022-02-06T14:20:02Z
+ 25. [0bb..bf8] add navbar | By - Rishabh Kumar | On - 2022-02-06T14:11:42Z
+ 26. [b38..1d3] refactor | By - Rishabh Kumar | On - 2022-02-06T10:30:35Z
+ 27. [8d5..02e] Add explorer page | By - Rishabh Kumar | On - 2022-02-06T10:21:48Z
+ 28. [ddb..483] add react-router | By - Rishabh Kumar | On - 2022-02-06T10:11:41Z
+ 29. [efc..397] add tailwind | By - Rishabh Kumar | On - 2022-02-06T09:56:18Z
+ 30. [6d6..425] init | By - Rishabh Kumar | On - 2022-02-06T09:50:43Z
+
+## metrica
+
+
+ 1. [0d7..9a6] add rounded corner to nft video | By - Rishabh Kumar | On - 2022-03-06T12:04:34Z
+ 2. [374..5e3] add animation to nft in details page | By - Rishabh Kumar | On - 2022-03-06T12:01:04Z
+ 3. [a73..65c] add tx value column | By - AlexeyAdoniev | On - 2022-03-02T09:56:37Z
+ 4. [89e..9f8] index | By - AlexeyAdoniev | On - 2022-03-01T18:06:15Z
+ 5. [884..c7a] ethers lib ultils | By - AlexeyAdoniev | On - 2022-03-01T16:43:44Z
+ 6. [dff..929] network | By - AlexeyAdoniev | On - 2022-03-01T13:12:38Z
+ 7. [440..059] details Comp | By - AlexeyAdoniev | On - 2022-03-01T10:37:26Z
+ 8. [f8d..504] loading span | By - AlexeyAdoniev | On - 2022-02-28T18:26:27Z
+ 9. [ca7..a19] new Details component | By - AlexeyAdoniev | On - 2022-02-28T18:16:53Z
+ 10. [20d..fb3] change urls | By - AlexeyAdoniev | On - 2022-02-27T08:09:56Z
+ 11. [4d1..d90] nft loader | By - AlexeyAdoniev | On - 2022-02-24T18:10:12Z
+ 12. [dd8..ffc] socket event update | By - AlexeyAdoniev | On - 2022-02-24T11:56:00Z
+ 13. [711..8c8] update state on socket | By - AlexeyAdoniev | On - 2022-02-23T18:38:40Z
+ 14. [1b8..33d] urls | By - AlexeyAdoniev | On - 2022-02-23T09:37:36Z
+ 15. [2f3..ae0] sockets sett | By - AlexeyAdoniev | On - 2022-02-22T23:07:01Z
+ 16. [397..a32] dashboard page template | By - AlexeyAdoniev | On - 2022-02-22T14:32:38Z
+ 17. [7a4..686] added BreadCrumbs component in Explorer | By - AlexeyAdoniev | On - 2022-02-22T13:27:44Z
+ 18. [3ef..3f8] copy button tooltip on tx page | By - AlexeyAdoniev | On - 2022-02-22T12:10:07Z
+ 19. [cac..6fe] fix | By - Rishabh Kumar | On - 2022-02-21T18:18:49Z
+ 20. [a2b..bb1] open bridge link in new tab in navbar | By - Rishabh Kumar | On - 2022-02-21T12:41:20Z
+ 21. [e37..9d7] refactor event details | By - Rishabh Kumar | On - 2022-02-21T12:10:56Z
+ 22. [922..a97] fix: search | By - Rishabh Kumar | On - 2022-02-21T09:10:29Z
+ 23. [34c..665] add loading insted of no events found | By - Rishabh Kumar | On - 2022-02-21T08:18:00Z
+ 24. [583..a6f] fix: date format in event details | By - Rishabh Kumar | On - 2022-02-20T15:35:34Z
+ 25. [480..ead] add copy btn | By - Rishabh Kumar | On - 2022-02-20T14:50:56Z
+ 26. [561..413] fix: event details text color | By - Rishabh Kumar | On - 2022-02-20T14:06:44Z
+ 27. [01b..a96] add bridge link in navbar | By - Rishabh Kumar | On - 2022-02-20T14:05:08Z
+ 28. [875..4d9] add https://xp.network link to footer | By - Rishabh Kumar | On - 2022-02-20T13:57:26Z
+ 29. [3ab..a74] add fromChainName and toChainName | By - Rishabh Kumar | On - 2022-02-20T13:55:19Z
+ 30. [0b9..a69] open navbar logo in new tab | By - Rishabh Kumar | On - 2022-02-19T14:20:09Z
+ 31. [837..da5] fix: text size | By - Rishabh Kumar | On - 2022-02-19T14:19:11Z
+ 32. [622..4da] fix: status style | By - Rishabh Kumar | On - 2022-02-19T14:16:20Z
+ 33. [fb7..048] add latest commit | By - Rishabh Kumar | On - 2022-02-19T13:36:02Z
+ 34. [a7a..626] add title and hr | By - Rishabh Kumar | On - 2022-02-17T13:22:28Z
+ 35. [add..eec] XPNET-JS to XPJS in footer | By - Rishabh Kumar | On - 2022-02-17T12:10:38Z
+ 36. [f8e..456] dont open email and phone in new tab | By - Rishabh Kumar | On - 2022-02-17T12:09:11Z
+ 37. [242..837] shift transction details column for right | By - Rishabh Kumar | On - 2022-02-17T11:52:58Z
+ 38. [ff8..509] change icon and title | By - Rishabh Kumar | On - 2022-02-17T11:46:54Z
+ 39. [811..662] fix: event details style | By - Rishabh Kumar | On - 2022-02-17T11:39:00Z
+ 40. [2df..e50] font to poppins in footer | By - Rishabh Kumar | On - 2022-02-17T11:12:27Z
+ 41. [9bf..b47] change shadow style | By - Rishabh Kumar | On - 2022-02-17T11:06:15Z
+ 42. [f20..08a] change text color on event details | By - Rishabh Kumar | On - 2022-02-17T10:50:57Z
+ 43. [1e0..399] fix: text color in event details | By - Rishabh Kumar | On - 2022-02-16T15:05:30Z
+ 44. [c71..40d] change footer style | By - Rishabh Kumar | On - 2022-02-16T14:51:44Z
+ 45. [4d3..71d] change links color | By - Rishabh Kumar | On - 2022-02-16T14:11:50Z
+ 46. [df8..22b] change text-size to sm | By - Rishabh Kumar | On - 2022-02-16T13:49:36Z
+ 47. [0f7..2fe] remove number column from explorer events | By - Rishabh Kumar | On - 2022-02-16T13:42:15Z
+ 48. [41e..a86] remove duplicate nft description | By - Rishabh Kumar | On - 2022-02-16T13:40:48Z
+ 49. [bc6..7ff] increase margin top of footer | By - Rishabh Kumar | On - 2022-02-16T13:33:52Z
+ 50. [018..064] remove unnecessary imports | By - Rishabh Kumar | On - 2022-02-16T13:30:58Z
+
+## testnet
+
+
+ 1. [24c..db6] change constns2 | By - AlexeyAdoniev | On - 2022-04-28T12:06:52Z
+ 2. [6bc..eff] change const | By - AlexeyAdoniev | On - 2022-04-28T11:46:23Z
+ 3. [9d2..85b] testnet add algorand, bsc, polygon. nftParse for wrapped nft, helpers for formatEthers | By - AlexeyAdoniev | On - 2022-04-28T08:40:30Z
+ 4. [8a3..d86] added tron and gateChain icons | By - AlexeyAdoniev | On - 2022-04-26T08:01:07Z
+ 5. [973..ff4] added gatechain | By - AlexeyAdoniev | On - 2022-04-25T10:22:45Z
+ 6. [b6f..a9b] fix bug with .createdAt | By - AlexeyAdoniev | On - 2022-04-04T10:44:03Z
+ 7. [88d..119] merge | By - AlexeyAdoniev | On - 2022-04-04T10:37:17Z
+ 8. [572..1be] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-04-04T10:24:47Z
+ 9. [dca..c35] fix: date again | By - Rishabh Kumar | On - 2022-04-03T13:51:17Z
+ 10. [257..3cf] fix: date | By - Rishabh Kumar | On - 2022-04-03T12:46:30Z
+ 11. [2a3..b85] fix date | By - Rishabh Kumar | On - 2022-04-03T10:29:59Z
+ 12. [a20..c96] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-31T16:04:47Z
+ 13. [ce6..f0a] bug fix | By - AlexeyAdoniev | On - 2022-03-31T16:04:39Z
+ 14. [cdb..e34] fix paginator label width | By - Rishabh Kumar | On - 2022-03-27T12:08:39Z
+ 15. [407..428] fix cards | By - Rishabh Kumar | On - 2022-03-22T10:44:32Z
+ 16. [5f1..d8a] add overlay bg | By - Rishabh Kumar | On - 2022-03-22T10:11:46Z
+ 17. [252..562] fix csv modal mobile | By - Rishabh Kumar | On - 2022-03-22T10:09:23Z
+ 18. [051..4e0] merge | By - AlexeyAdoniev | On - 2022-03-21T14:06:56Z
+ 19. [563..6fa] bugs fix in paginator and CSV download | By - AlexeyAdoniev | On - 2022-03-21T13:41:48Z
+ 20. [a9d..32a] remove error | By - Rishabh Kumar | On - 2022-03-21T12:06:16Z
+ 21. [040..5aa] remove error | By - Rishabh Kumar | On - 2022-03-21T12:03:17Z
+ 22. [e8a..eda] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-21T11:05:22Z
+ 23. [bc1..003] date foramt change | By - AlexeyAdoniev | On - 2022-03-21T11:05:19Z
+ 24. [1d5..7a7] add overlay bg | By - Rishabh Kumar | On - 2022-03-21T11:00:24Z
+ 25. [16b..ea8] fix search bar width | By - Rishabh Kumar | On - 2022-03-21T10:46:45Z
+ 26. [cd5..dea] fix spacing | By - Rishabh Kumar | On - 2022-03-21T10:31:58Z
+ 27. [41c..363] IoTeX to Iotex | By - Rishabh Kumar | On - 2022-03-21T08:48:44Z
+ 28. [b49..765] fix spacing | By - Rishabh Kumar | On - 2022-03-21T08:45:53Z
+ 29. [10e..f44] put search bar under cards | By - Rishabh Kumar | On - 2022-03-21T08:30:06Z
+ 30. [68f..bae] pagginator btn fix | By - AlexeyAdoniev | On - 2022-03-21T07:53:30Z
+ 31. [27d..589] bugs | By - AlexeyAdoniev | On - 2022-03-20T18:53:36Z
+ 32. [ee7..df8] comment out safarihack | By - Rishabh Kumar | On - 2022-03-20T15:07:16Z
+ 33. [fd1..d1f] fix | By - Rishabh Kumar | On - 2022-03-20T15:00:33Z
+ 34. [e69..9ae] fix divide-y | By - Rishabh Kumar | On - 2022-03-20T14:40:00Z
+ 35. [2bb..ec1] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:21:50Z
+ 36. [032..c45] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:06:23Z
+ 37. [0e3..573] clear dropdown after submit | By - Rishabh Kumar | On - 2022-03-20T13:50:22Z
+ 38. [85a..939] add whitespace nowrap to explorer events heading | By - Rishabh Kumar | On - 2022-03-20T13:27:02Z
+ 39. [d89..762] fix cvs modal input width | By - Rishabh Kumar | On - 2022-03-20T13:23:52Z
+ 40. [ae4..40b] fix padding | By - Rishabh Kumar | On - 2022-03-20T13:18:57Z
+ 41. [497..10b] add rounded corner to card  in mobile | By - Rishabh Kumar | On - 2022-03-20T12:46:20Z
+ 42. [1e5..21f] change search bar location | By - Rishabh Kumar | On - 2022-03-20T12:43:04Z
+ 43. [111..cc5] remove selected chain from dropdown in tools | By - Rishabh Kumar | On - 2022-03-20T12:41:03Z
+ 44. [995..537] fix explorer events  style | By - Rishabh Kumar | On - 2022-03-20T12:24:56Z
+ 45. [129..d3c] change status color | By - Rishabh Kumar | On - 2022-03-20T12:10:38Z
+ 46. [0e0..809] tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:50:47Z
+ 47. [681..a7d] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:46:19Z
+ 48. [375..0eb] fix card text color | By - Rishabh Kumar | On - 2022-03-20T11:37:52Z
+ 49. [fef..1f9] Merge branch 'dev' of github.com:XP-NETWORK/bridge-explorer-ui into dev | By - Rishabh Kumar | On - 2022-03-20T11:32:44Z
+ 50. [859..f81] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:32:33Z
+
+## uiUpdates
+
+
+ 1. [f85..c03] updates of small changes | By - Lihi Sherm | On - 2022-05-24T12:30:14Z
+ 2. [a20..24d] explorer links bug, refactor fetch nft | By - AlexeyAdoniev | On - 2022-05-18T12:54:31Z
+ 3. [e2c..079] try fetch nft throw proxy if cors | By - AlexeyAdoniev | On - 2022-05-15T07:21:04Z
+ 4. [429..cf2] exchange rate | By - AlexeyAdoniev | On - 2022-05-12T16:59:30Z
+ 5. [bac..e2b] add algo | By - AlexeyAdoniev | On - 2022-05-10T13:33:57Z
+ 6. [0ba..c20] add vech | By - AlexeyAdoniev | On - 2022-05-10T11:14:19Z
+ 7. [8a3..d86] added tron and gateChain icons | By - AlexeyAdoniev | On - 2022-04-26T08:01:07Z
+ 8. [973..ff4] added gatechain | By - AlexeyAdoniev | On - 2022-04-25T10:22:45Z
+ 9. [b6f..a9b] fix bug with .createdAt | By - AlexeyAdoniev | On - 2022-04-04T10:44:03Z
+ 10. [88d..119] merge | By - AlexeyAdoniev | On - 2022-04-04T10:37:17Z
+ 11. [572..1be] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-04-04T10:24:47Z
+ 12. [dca..c35] fix: date again | By - Rishabh Kumar | On - 2022-04-03T13:51:17Z
+ 13. [257..3cf] fix: date | By - Rishabh Kumar | On - 2022-04-03T12:46:30Z
+ 14. [2a3..b85] fix date | By - Rishabh Kumar | On - 2022-04-03T10:29:59Z
+ 15. [a20..c96] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-31T16:04:47Z
+ 16. [ce6..f0a] bug fix | By - AlexeyAdoniev | On - 2022-03-31T16:04:39Z
+ 17. [cdb..e34] fix paginator label width | By - Rishabh Kumar | On - 2022-03-27T12:08:39Z
+ 18. [407..428] fix cards | By - Rishabh Kumar | On - 2022-03-22T10:44:32Z
+ 19. [5f1..d8a] add overlay bg | By - Rishabh Kumar | On - 2022-03-22T10:11:46Z
+ 20. [252..562] fix csv modal mobile | By - Rishabh Kumar | On - 2022-03-22T10:09:23Z
+ 21. [051..4e0] merge | By - AlexeyAdoniev | On - 2022-03-21T14:06:56Z
+ 22. [563..6fa] bugs fix in paginator and CSV download | By - AlexeyAdoniev | On - 2022-03-21T13:41:48Z
+ 23. [a9d..32a] remove error | By - Rishabh Kumar | On - 2022-03-21T12:06:16Z
+ 24. [040..5aa] remove error | By - Rishabh Kumar | On - 2022-03-21T12:03:17Z
+ 25. [e8a..eda] Merge branch 'dev' of https://github.com/XP-NETWORK/bridge-explorer-ui into dev | By - AlexeyAdoniev | On - 2022-03-21T11:05:22Z
+ 26. [bc1..003] date foramt change | By - AlexeyAdoniev | On - 2022-03-21T11:05:19Z
+ 27. [1d5..7a7] add overlay bg | By - Rishabh Kumar | On - 2022-03-21T11:00:24Z
+ 28. [16b..ea8] fix search bar width | By - Rishabh Kumar | On - 2022-03-21T10:46:45Z
+ 29. [cd5..dea] fix spacing | By - Rishabh Kumar | On - 2022-03-21T10:31:58Z
+ 30. [41c..363] IoTeX to Iotex | By - Rishabh Kumar | On - 2022-03-21T08:48:44Z
+ 31. [b49..765] fix spacing | By - Rishabh Kumar | On - 2022-03-21T08:45:53Z
+ 32. [10e..f44] put search bar under cards | By - Rishabh Kumar | On - 2022-03-21T08:30:06Z
+ 33. [68f..bae] pagginator btn fix | By - AlexeyAdoniev | On - 2022-03-21T07:53:30Z
+ 34. [27d..589] bugs | By - AlexeyAdoniev | On - 2022-03-20T18:53:36Z
+ 35. [ee7..df8] comment out safarihack | By - Rishabh Kumar | On - 2022-03-20T15:07:16Z
+ 36. [fd1..d1f] fix | By - Rishabh Kumar | On - 2022-03-20T15:00:33Z
+ 37. [e69..9ae] fix divide-y | By - Rishabh Kumar | On - 2022-03-20T14:40:00Z
+ 38. [2bb..ec1] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:21:50Z
+ 39. [032..c45] fix spacing | By - Rishabh Kumar | On - 2022-03-20T14:06:23Z
+ 40. [0e3..573] clear dropdown after submit | By - Rishabh Kumar | On - 2022-03-20T13:50:22Z
+ 41. [85a..939] add whitespace nowrap to explorer events heading | By - Rishabh Kumar | On - 2022-03-20T13:27:02Z
+ 42. [d89..762] fix cvs modal input width | By - Rishabh Kumar | On - 2022-03-20T13:23:52Z
+ 43. [ae4..40b] fix padding | By - Rishabh Kumar | On - 2022-03-20T13:18:57Z
+ 44. [497..10b] add rounded corner to card  in mobile | By - Rishabh Kumar | On - 2022-03-20T12:46:20Z
+ 45. [1e5..21f] change search bar location | By - Rishabh Kumar | On - 2022-03-20T12:43:04Z
+ 46. [111..cc5] remove selected chain from dropdown in tools | By - Rishabh Kumar | On - 2022-03-20T12:41:03Z
+ 47. [995..537] fix explorer events  style | By - Rishabh Kumar | On - 2022-03-20T12:24:56Z
+ 48. [129..d3c] change status color | By - Rishabh Kumar | On - 2022-03-20T12:10:38Z
+ 49. [0e0..809] tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:50:47Z
+ 50. [681..a7d] fix tools spacing | By - Rishabh Kumar | On - 2022-03-20T11:46:19Z
+
+# xp-cardano-integration
+
+# internal-docs
+
+## main
+
+
+ 1. [41f..73a] Update tezos-backer-restart.md | By - Dima Brook | On - 2022-06-23T08:35:11Z
+ 2. [485..1a1] Create Hetzner_raid1_to_raid0.md | By - Dima Brook | On - 2022-06-23T08:34:16Z
+ 3. [5ac..981] Create Hedera.md | By - Dima Brook | On - 2022-04-03T13:14:08Z
+ 4. [907..81a] Create D_CENT.md | By - Dima Brook | On - 2022-04-03T13:13:18Z
+ 5. [29d..dd5] Create Clover.md | By - Dima Brook | On - 2022-04-03T13:12:41Z
+ 6. [f62..a24] Create tezos-backer-restart.md | By - Dima Brook | On - 2022-04-03T13:12:04Z
+ 7. [ad5..98e] Create bridge_architecture.md | By - Dima Brook | On - 2022-02-28T19:24:43Z
+ 8. [b12..32d] Create docker.md | By - Dima Brook | On - 2022-02-22T10:31:25Z
+ 9. [3d4..2a2] Create heco.md | By - Dima Brook | On - 2022-02-16T09:50:37Z
+ 10. [145..6b8] Create moonbeam.md | By - Dima Brook | On - 2022-02-14T14:07:32Z
+ 11. [2c1..ccd] Create ve-chain.md | By - Dima Brook | On - 2022-02-14T10:15:57Z
+ 12. [92d..b42] Create secret-network.md | By - Dima Brook | On - 2022-02-14T10:15:22Z
+ 13. [ad4..5e6] Create nervos.md | By - Dima Brook | On - 2022-02-14T10:14:48Z
+ 14. [223..376] Create .gitkeep | By - Dima Brook | On - 2022-02-14T10:14:20Z
+ 15. [5a4..f07] Create nervos.md | By - Dima Brook | On - 2022-02-14T10:13:26Z
+ 16. [6dd..72f] Create thinkium.md | By - Dima Brook | On - 2022-02-14T10:12:24Z
+ 17. [ce6..6fd] Create .gitkeep | By - Dima Brook | On - 2022-02-14T10:11:46Z
+ 18. [86d..f5c] Create tezos_backer.md | By - Dima Brook | On - 2022-02-14T09:53:36Z
+ 19. [711..208] Create bridge_deployment.md | By - Dima Brook | On - 2022-02-13T11:34:22Z
+ 20. [823..62f] Create algorand-deployment.md | By - Dima Brook | On - 2021-12-06T18:11:40Z
+ 21. [633..645] Create heroku-nft-index.md | By - Dima Brook | On - 2021-12-01T19:06:03Z
+
+# solana-bridge
+
+## main
+
+
+ 1. [3ab..976] emit lamports | By - rocalex | On - 2022-06-20T18:55:50Z
+ 2. [a92..545] emit mintWith | By - rocalex | On - 2022-06-19T19:00:19Z
+ 3. [587..354] emit action id | By - rocalex | On - 2022-06-19T18:52:00Z
+ 4. [e18..8ac] add mint to unfreeze data | By - rocalex | On - 2022-06-17T17:04:36Z
+ 5. [43d..adb] add transfer_service_fee_lamports function | By - rocalex | On - 2022-06-14T04:08:17Z
+ 6. [f30..846] add withdraw fees | By - rocalex | On - 2022-06-14T03:57:55Z
+ 7. [188..c0d] transfer service fee to bridge PDA when freeze/withdraw | By - rocalex | On - 2022-06-14T03:37:56Z
+ 8. [a39..e19] remove treasury | By - rocalex | On - 2022-06-14T03:10:57Z
+ 9. [270..782] update mpl-token-metadata version | By - rocalex | On - 2022-06-14T03:05:13Z
+ 10. [91c..617] use PDA as bridge account | By - rocalex | On - 2022-06-13T20:56:10Z
+ 11. [f2f..e83] remove unused imports | By - rocalex | On - 2022-06-13T19:32:44Z
+ 12. [4d5..9bd] emit mint when freeze | By - rocalex | On - 2022-06-13T19:30:50Z
+ 13. [e19..43d] check if receiver is correct | By - rocalex | On - 2022-06-13T19:24:49Z
+ 14. [f35..5f4] change bridge PDA to normal account | By - rocalex | On - 2022-06-13T03:39:07Z
+ 15. [b8b..edd] fix burn | By - rocalex | On - 2022-06-12T19:47:19Z
+ 16. [388..2ec] fix withdraw | By - rocalex | On - 2022-06-12T19:15:10Z
+ 17. [2d4..ab6] change authority | By - rocalex | On - 2022-06-12T15:12:18Z
+ 18. [ce1..75c] remove anchor.web. | By - rocalex | On - 2022-06-12T14:47:17Z
+ 19. [610..592] bridge account as PDA | By - rocalex | On - 2022-06-12T10:12:35Z
+ 20. [848..16e] config the client | By - rocalex | On - 2022-06-12T09:05:54Z
+ 21. [a16..c5f] refactor duplicated methods | By - rocalex | On - 2022-06-10T12:13:01Z
+ 22. [f00..649] Update README.md | By - Dima Brook | On - 2022-06-09T13:37:11Z
+ 23. [116..906] Update README.md | By - Dima Brook | On - 2022-06-09T13:30:41Z
+ 24. [c02..7ff] Update README.md | By - Dima Brook | On - 2022-06-09T13:17:05Z
+ 25. [f9c..49c] Update README.md | By - Dima Brook | On - 2022-06-09T13:05:32Z
+ 26. [823..6f4] Update README.md | By - Dima Brook | On - 2022-06-09T09:17:48Z
+ 27. [cee..78e] Update README.md | By - Dima Brook | On - 2022-06-09T09:05:26Z
+ 28. [7f6..717] Update README.md | By - Dima Brook | On - 2022-06-09T08:58:22Z
+ 29. [cd8..726] Update README.md | By - Dima Brook | On - 2022-06-09T08:57:50Z
+ 30. [c76..b83] Update README.md | By - Dima Brook | On - 2022-06-09T08:41:57Z
+ 31. [aef..9d0] Update README.md | By - Dima Brook | On - 2022-06-09T08:34:58Z
+ 32. [125..5c8] consume actions | By - rocalex | On - 2022-05-31T17:33:40Z
+ 33. [cfc..edd] refactor code | By - rocalex | On - 2022-05-30T07:15:12Z
+ 34. [ee4..559] fix unfreeze nft | By - rocalex | On - 2022-05-18T15:31:17Z
+ 35. [c0f..5ff] fix withdraw nft | By - rocalex | On - 2022-05-18T13:21:22Z
+ 36. [294..a73] add prettier | By - rocalex | On - 2022-05-18T13:03:28Z
+ 37. [f64..9da] remove auth seeds | By - rocalex | On - 2022-05-18T11:57:58Z
+ 38. [252..36e] fix validate_transfer_nft | By - rocalex | On - 2022-05-17T16:22:14Z
+ 39. [96d..fc2] update group key | By - rocalex | On - 2022-05-17T14:58:22Z
+ 40. [992..76b] fix offsig | By - rocalex | On - 2022-05-17T14:32:47Z
+ 41. [471..21f] fix validate_transfer_nft | By - rocalex | On - 2022-05-17T02:39:52Z
+ 42. [8d3..6a4] add treasury account | By - rocalex | On - 2022-03-06T17:59:06Z
+ 43. [ac1..b13] add withdraw fees | By - rocalex | On - 2022-03-03T06:47:48Z
+ 44. [4f2..f03] check if toTokenAccount is bridge when freeze nft | By - rocalex | On - 2022-03-03T06:20:12Z
+ 45. [d7b..d6b] check if pub key is valid | By - rocalex | On - 2022-03-03T06:09:51Z
+ 46. [f3b..3fb] change secp256k1 to ed25519 | By - rocalex | On - 2022-03-02T15:04:53Z
+ 47. [99e..9b3] add test for ed25519 | By - rocalex | On - 2022-03-02T11:31:42Z
+ 48. [cc6..5e8] add checking | By - rocalex | On - 2022-03-02T10:14:52Z
+ 49. [daf..972] unfreeze nft | By - rocalex | On - 2022-02-21T11:15:54Z
+ 50. [33b..971] check amounts | By - rocalex | On - 2022-02-21T10:57:15Z
+
+# web3-erc20-contracts
+
+## master
+
+
+ 1. [88f..f35] workflows: gen-typechain: fix repo url | By - rupansh | On - 2022-06-20T17:02:58Z
+ 2. [bca..f08] initial import | By - rupansh | On - 2022-06-20T16:42:34Z
+
+# xp-solana-integration
+
+## dependabot/npm_and_yarn/prettier-2.6.2
+
+
+ 1. [28d..47c] Bump prettier from 2.3.2 to 2.6.2 | By - dependabot[bot] | On - 2022-04-04T08:29:41Z
+ 2. [bb3..bd2] Initial Commit | By - imsk17 | On - 2021-09-14T16:08:47Z
+ 3. [035..137] Bump @solana/web3.js from 1.24.2 to 1.25.0 | By - dependabot[bot] | On - 2021-09-08T08:19:20Z
+ 4. [439..bb3] Bump @typescript-eslint/eslint-plugin from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:32:24Z
+ 5. [9c8..f9c] Bump @typescript-eslint/parser from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:19:39Z
+ 6. [cf6..044] Bump @solana/web3.js from 1.24.1 to 1.24.2 | By - dependabot[bot] | On - 2021-09-06T08:21:18Z
+ 7. [a43..304] Bump start-server-and-test from 1.13.1 to 1.14.0 | By - dependabot[bot] | On - 2021-09-03T08:21:45Z
+ 8. [247..13a] Bump @typescript-eslint/parser from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:41:07Z
+ 9. [e70..d86] Bump eslint-plugin-prettier from 3.4.1 to 4.0.0 | By - dependabot[bot] | On - 2021-08-31T08:30:34Z
+ 10. [fca..ba2] Bump @typescript-eslint/eslint-plugin from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:19:55Z
+ 11. [e5f..2d5] Bump typescript from 4.3.5 to 4.4.2 | By - dependabot[bot] | On - 2021-08-27T08:20:14Z
+ 12. [a94..9de] Bump @typescript-eslint/parser from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:28:36Z
+ 13. [1c5..dde] Bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:19:08Z
+ 14. [443..31c] Bump eslint-plugin-prettier from 3.4.0 to 3.4.1 | By - dependabot[bot] | On - 2021-08-23T08:21:47Z
+ 15. [b6c..c97] Bump @solana/web3.js from 1.24.0 to 1.24.1 | By - dependabot[bot] | On - 2021-08-20T08:19:18Z
+ 16. [75a..ee8] Bump ts-node from 10.2.0 to 10.2.1 | By - dependabot[bot] | On - 2021-08-19T08:30:55Z
+ 17. [66e..9d3] Bump borsh from 0.5.0 to 0.6.0 | By - dependabot[bot] | On - 2021-08-19T08:19:26Z
+ 18. [4e3..302] Bump @typescript-eslint/parser from 4.29.1 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:34:25Z
+ 19. [f7f..e6d] Bump @typescript-eslint/eslint-plugin from 4.29.0 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:20:04Z
+ 20. [dd5..489] Bump @solana/web3.js from 1.23.0 to 1.24.0 | By - dependabot[bot] | On - 2021-08-13T08:20:54Z
+ 21. [df9..b63] Bump @solana/web3.js from 1.22.0 to 1.23.0 | By - dependabot[bot] | On - 2021-08-11T08:19:47Z
+ 22. [52b..834] Bump @typescript-eslint/parser from 4.29.0 to 4.29.1 | By - dependabot[bot] | On - 2021-08-10T08:22:49Z
+ 23. [6d5..8ea] Bump ts-node from 10.1.0 to 10.2.0 | By - dependabot[bot] | On - 2021-08-09T08:25:56Z
+ 24. [807..245] Bump eslint from 7.27.0 to 7.32.0 | By - dependabot[bot] | On - 2021-08-07T23:53:45Z
+ 25. [8b8..644] Bump @types/eslint from 7.2.14 to 7.28.0 | By - dependabot[bot] | On - 2021-08-07T23:43:50Z
+ 26. [b4d..efb] Bump start-server-and-test from 1.12.6 to 1.13.1 (#271) | By - dependabot[bot] | On - 2021-08-07T23:35:08Z
+ 27. [b29..de5] Bump @solana/web3.js from 1.20.2 to 1.22.0 (#273) | By - dependabot[bot] | On - 2021-08-07T23:17:48Z
+ 28. [119..0a8] Bump borsh from 0.4.0 to 0.5.0 (#274) | By - dependabot[bot] | On - 2021-08-07T23:17:43Z
+ 29. [a94..925] npm audit fix | By - Justin Starry | On - 2021-08-07T23:17:11Z
+ 30. [afa..bb8] Remove os name from action name | By - Justin Starry | On - 2021-08-07T23:16:39Z
+ 31. [1d0..8db] Bump @typescript-eslint/eslint-plugin from 4.28.2 to 4.29.0 (#270) | By - dependabot[bot] | On - 2021-08-07T23:07:58Z
+ 32. [fc2..2fc] Bump @types/mz from 2.7.3 to 2.7.4 (#249) | By - dependabot[bot] | On - 2021-08-07T23:07:48Z
+ 33. [376..9fd] add/clean up notes for Windows (#256) | By - Mark Jackson | On - 2021-08-07T23:07:34Z
+ 34. [8c1..88d] Add automerge rule and cargo dependabot rule (#272) | By - Justin Starry | On - 2021-08-07T23:02:12Z
+ 35. [725..0f6] Bump solana-program to 1.7.9 (#269) | By - Justin Starry | On - 2021-08-07T22:57:39Z
+ 36. [3d1..862] Bump @types/prettier from 2.2.3 to 2.3.2 (#252) | By - dependabot[bot] | On - 2021-08-07T22:23:52Z
+ 37. [0ef..472] Bump prettier from 2.3.0 to 2.3.2 (#267) | By - dependabot[bot] | On - 2021-08-07T22:23:46Z
+ 38. [0f4..0ac] Bump @typescript-eslint/parser from 4.28.2 to 4.29.0 (#263) | By - dependabot[bot] | On - 2021-08-06T20:42:18Z
+ 39. [0d6..850] Don't overwrite Cargo.lock when installing (#260) | By - Tyera Eulberg | On - 2021-07-27T01:50:10Z
+ 40. [414..436] Bump @typescript-eslint/eslint-plugin from 4.26.0 to 4.28.2 (#251) | By - dependabot[bot] | On - 2021-07-12T23:14:21Z
+ 41. [234..48f] Bump ts-node from 10.0.0 to 10.1.0 (#250) | By - dependabot[bot] | On - 2021-07-12T23:14:08Z
+ 42. [97d..6fd] Bump typescript from 4.2.4 to 4.3.5 (#248) | By - dependabot[bot] | On - 2021-07-09T15:56:00Z
+ 43. [ac7..907] Bump start-server-and-test from 1.12.2 to 1.12.6 (#247) | By - dependabot[bot] | On - 2021-07-09T15:55:55Z
+ 44. [cff..aa1] Update solana deps to 1.7.1 (for tests on M1) (#238) | By - Kirill Fomichev | On - 2021-07-09T15:55:31Z
+ 45. [784..4fa] Bump @typescript-eslint/parser from 4.24.0 to 4.28.2 (#244) | By - dependabot[bot] | On - 2021-07-09T15:29:45Z
+ 46. [1da..b12] Bump @types/eslint from 7.2.11 to 7.2.14 (#245) | By - dependabot[bot] | On - 2021-07-09T15:29:36Z
+ 47. [f17..ddf] Bump @solana/web3.js from 1.12.0 to 1.20.2 (#246) | By - dependabot[bot] | On - 2021-07-09T15:29:11Z
+ 48. [2e5..2bc] Update to keypair (#243) | By - zurgl | On - 2021-07-06T03:07:26Z
+ 49. [a41..4e8] hello worlds mistype fix for Account (#235) | By - olexandr13 | On - 2021-06-11T22:03:29Z
+ 50. [cc5..a42] Update main.yml | By - joeaba | On - 2021-06-04T04:30:43Z
+
+## dependabot/npm_and_yarn/typescript-4.7.4
+
+
+ 1. [484..feb] Bump typescript from 4.4.2 to 4.7.4 | By - dependabot[bot] | On - 2022-06-20T08:28:10Z
+ 2. [bb3..bd2] Initial Commit | By - imsk17 | On - 2021-09-14T16:08:47Z
+ 3. [035..137] Bump @solana/web3.js from 1.24.2 to 1.25.0 | By - dependabot[bot] | On - 2021-09-08T08:19:20Z
+ 4. [439..bb3] Bump @typescript-eslint/eslint-plugin from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:32:24Z
+ 5. [9c8..f9c] Bump @typescript-eslint/parser from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:19:39Z
+ 6. [cf6..044] Bump @solana/web3.js from 1.24.1 to 1.24.2 | By - dependabot[bot] | On - 2021-09-06T08:21:18Z
+ 7. [a43..304] Bump start-server-and-test from 1.13.1 to 1.14.0 | By - dependabot[bot] | On - 2021-09-03T08:21:45Z
+ 8. [247..13a] Bump @typescript-eslint/parser from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:41:07Z
+ 9. [e70..d86] Bump eslint-plugin-prettier from 3.4.1 to 4.0.0 | By - dependabot[bot] | On - 2021-08-31T08:30:34Z
+ 10. [fca..ba2] Bump @typescript-eslint/eslint-plugin from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:19:55Z
+ 11. [e5f..2d5] Bump typescript from 4.3.5 to 4.4.2 | By - dependabot[bot] | On - 2021-08-27T08:20:14Z
+ 12. [a94..9de] Bump @typescript-eslint/parser from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:28:36Z
+ 13. [1c5..dde] Bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:19:08Z
+ 14. [443..31c] Bump eslint-plugin-prettier from 3.4.0 to 3.4.1 | By - dependabot[bot] | On - 2021-08-23T08:21:47Z
+ 15. [b6c..c97] Bump @solana/web3.js from 1.24.0 to 1.24.1 | By - dependabot[bot] | On - 2021-08-20T08:19:18Z
+ 16. [75a..ee8] Bump ts-node from 10.2.0 to 10.2.1 | By - dependabot[bot] | On - 2021-08-19T08:30:55Z
+ 17. [66e..9d3] Bump borsh from 0.5.0 to 0.6.0 | By - dependabot[bot] | On - 2021-08-19T08:19:26Z
+ 18. [4e3..302] Bump @typescript-eslint/parser from 4.29.1 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:34:25Z
+ 19. [f7f..e6d] Bump @typescript-eslint/eslint-plugin from 4.29.0 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:20:04Z
+ 20. [dd5..489] Bump @solana/web3.js from 1.23.0 to 1.24.0 | By - dependabot[bot] | On - 2021-08-13T08:20:54Z
+ 21. [df9..b63] Bump @solana/web3.js from 1.22.0 to 1.23.0 | By - dependabot[bot] | On - 2021-08-11T08:19:47Z
+ 22. [52b..834] Bump @typescript-eslint/parser from 4.29.0 to 4.29.1 | By - dependabot[bot] | On - 2021-08-10T08:22:49Z
+ 23. [6d5..8ea] Bump ts-node from 10.1.0 to 10.2.0 | By - dependabot[bot] | On - 2021-08-09T08:25:56Z
+ 24. [807..245] Bump eslint from 7.27.0 to 7.32.0 | By - dependabot[bot] | On - 2021-08-07T23:53:45Z
+ 25. [8b8..644] Bump @types/eslint from 7.2.14 to 7.28.0 | By - dependabot[bot] | On - 2021-08-07T23:43:50Z
+ 26. [b4d..efb] Bump start-server-and-test from 1.12.6 to 1.13.1 (#271) | By - dependabot[bot] | On - 2021-08-07T23:35:08Z
+ 27. [b29..de5] Bump @solana/web3.js from 1.20.2 to 1.22.0 (#273) | By - dependabot[bot] | On - 2021-08-07T23:17:48Z
+ 28. [119..0a8] Bump borsh from 0.4.0 to 0.5.0 (#274) | By - dependabot[bot] | On - 2021-08-07T23:17:43Z
+ 29. [a94..925] npm audit fix | By - Justin Starry | On - 2021-08-07T23:17:11Z
+ 30. [afa..bb8] Remove os name from action name | By - Justin Starry | On - 2021-08-07T23:16:39Z
+ 31. [1d0..8db] Bump @typescript-eslint/eslint-plugin from 4.28.2 to 4.29.0 (#270) | By - dependabot[bot] | On - 2021-08-07T23:07:58Z
+ 32. [fc2..2fc] Bump @types/mz from 2.7.3 to 2.7.4 (#249) | By - dependabot[bot] | On - 2021-08-07T23:07:48Z
+ 33. [376..9fd] add/clean up notes for Windows (#256) | By - Mark Jackson | On - 2021-08-07T23:07:34Z
+ 34. [8c1..88d] Add automerge rule and cargo dependabot rule (#272) | By - Justin Starry | On - 2021-08-07T23:02:12Z
+ 35. [725..0f6] Bump solana-program to 1.7.9 (#269) | By - Justin Starry | On - 2021-08-07T22:57:39Z
+ 36. [3d1..862] Bump @types/prettier from 2.2.3 to 2.3.2 (#252) | By - dependabot[bot] | On - 2021-08-07T22:23:52Z
+ 37. [0ef..472] Bump prettier from 2.3.0 to 2.3.2 (#267) | By - dependabot[bot] | On - 2021-08-07T22:23:46Z
+ 38. [0f4..0ac] Bump @typescript-eslint/parser from 4.28.2 to 4.29.0 (#263) | By - dependabot[bot] | On - 2021-08-06T20:42:18Z
+ 39. [0d6..850] Don't overwrite Cargo.lock when installing (#260) | By - Tyera Eulberg | On - 2021-07-27T01:50:10Z
+ 40. [414..436] Bump @typescript-eslint/eslint-plugin from 4.26.0 to 4.28.2 (#251) | By - dependabot[bot] | On - 2021-07-12T23:14:21Z
+ 41. [234..48f] Bump ts-node from 10.0.0 to 10.1.0 (#250) | By - dependabot[bot] | On - 2021-07-12T23:14:08Z
+ 42. [97d..6fd] Bump typescript from 4.2.4 to 4.3.5 (#248) | By - dependabot[bot] | On - 2021-07-09T15:56:00Z
+ 43. [ac7..907] Bump start-server-and-test from 1.12.2 to 1.12.6 (#247) | By - dependabot[bot] | On - 2021-07-09T15:55:55Z
+ 44. [cff..aa1] Update solana deps to 1.7.1 (for tests on M1) (#238) | By - Kirill Fomichev | On - 2021-07-09T15:55:31Z
+ 45. [784..4fa] Bump @typescript-eslint/parser from 4.24.0 to 4.28.2 (#244) | By - dependabot[bot] | On - 2021-07-09T15:29:45Z
+ 46. [1da..b12] Bump @types/eslint from 7.2.11 to 7.2.14 (#245) | By - dependabot[bot] | On - 2021-07-09T15:29:36Z
+ 47. [f17..ddf] Bump @solana/web3.js from 1.12.0 to 1.20.2 (#246) | By - dependabot[bot] | On - 2021-07-09T15:29:11Z
+ 48. [2e5..2bc] Update to keypair (#243) | By - zurgl | On - 2021-07-06T03:07:26Z
+ 49. [a41..4e8] hello worlds mistype fix for Account (#235) | By - olexandr13 | On - 2021-06-11T22:03:29Z
+ 50. [cc5..a42] Update main.yml | By - joeaba | On - 2021-06-04T04:30:43Z
+
+## dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-4.33.0
+
+
+ 1. [713..cb7] Bump @typescript-eslint/eslint-plugin from 4.31.0 to 4.33.0 | By - dependabot[bot] | On - 2021-10-05T08:22:55Z
+ 2. [bb3..bd2] Initial Commit | By - imsk17 | On - 2021-09-14T16:08:47Z
+ 3. [035..137] Bump @solana/web3.js from 1.24.2 to 1.25.0 | By - dependabot[bot] | On - 2021-09-08T08:19:20Z
+ 4. [439..bb3] Bump @typescript-eslint/eslint-plugin from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:32:24Z
+ 5. [9c8..f9c] Bump @typescript-eslint/parser from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:19:39Z
+ 6. [cf6..044] Bump @solana/web3.js from 1.24.1 to 1.24.2 | By - dependabot[bot] | On - 2021-09-06T08:21:18Z
+ 7. [a43..304] Bump start-server-and-test from 1.13.1 to 1.14.0 | By - dependabot[bot] | On - 2021-09-03T08:21:45Z
+ 8. [247..13a] Bump @typescript-eslint/parser from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:41:07Z
+ 9. [e70..d86] Bump eslint-plugin-prettier from 3.4.1 to 4.0.0 | By - dependabot[bot] | On - 2021-08-31T08:30:34Z
+ 10. [fca..ba2] Bump @typescript-eslint/eslint-plugin from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:19:55Z
+ 11. [e5f..2d5] Bump typescript from 4.3.5 to 4.4.2 | By - dependabot[bot] | On - 2021-08-27T08:20:14Z
+ 12. [a94..9de] Bump @typescript-eslint/parser from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:28:36Z
+ 13. [1c5..dde] Bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:19:08Z
+ 14. [443..31c] Bump eslint-plugin-prettier from 3.4.0 to 3.4.1 | By - dependabot[bot] | On - 2021-08-23T08:21:47Z
+ 15. [b6c..c97] Bump @solana/web3.js from 1.24.0 to 1.24.1 | By - dependabot[bot] | On - 2021-08-20T08:19:18Z
+ 16. [75a..ee8] Bump ts-node from 10.2.0 to 10.2.1 | By - dependabot[bot] | On - 2021-08-19T08:30:55Z
+ 17. [66e..9d3] Bump borsh from 0.5.0 to 0.6.0 | By - dependabot[bot] | On - 2021-08-19T08:19:26Z
+ 18. [4e3..302] Bump @typescript-eslint/parser from 4.29.1 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:34:25Z
+ 19. [f7f..e6d] Bump @typescript-eslint/eslint-plugin from 4.29.0 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:20:04Z
+ 20. [dd5..489] Bump @solana/web3.js from 1.23.0 to 1.24.0 | By - dependabot[bot] | On - 2021-08-13T08:20:54Z
+ 21. [df9..b63] Bump @solana/web3.js from 1.22.0 to 1.23.0 | By - dependabot[bot] | On - 2021-08-11T08:19:47Z
+ 22. [52b..834] Bump @typescript-eslint/parser from 4.29.0 to 4.29.1 | By - dependabot[bot] | On - 2021-08-10T08:22:49Z
+ 23. [6d5..8ea] Bump ts-node from 10.1.0 to 10.2.0 | By - dependabot[bot] | On - 2021-08-09T08:25:56Z
+ 24. [807..245] Bump eslint from 7.27.0 to 7.32.0 | By - dependabot[bot] | On - 2021-08-07T23:53:45Z
+ 25. [8b8..644] Bump @types/eslint from 7.2.14 to 7.28.0 | By - dependabot[bot] | On - 2021-08-07T23:43:50Z
+ 26. [b4d..efb] Bump start-server-and-test from 1.12.6 to 1.13.1 (#271) | By - dependabot[bot] | On - 2021-08-07T23:35:08Z
+ 27. [b29..de5] Bump @solana/web3.js from 1.20.2 to 1.22.0 (#273) | By - dependabot[bot] | On - 2021-08-07T23:17:48Z
+ 28. [119..0a8] Bump borsh from 0.4.0 to 0.5.0 (#274) | By - dependabot[bot] | On - 2021-08-07T23:17:43Z
+ 29. [a94..925] npm audit fix | By - Justin Starry | On - 2021-08-07T23:17:11Z
+ 30. [afa..bb8] Remove os name from action name | By - Justin Starry | On - 2021-08-07T23:16:39Z
+ 31. [1d0..8db] Bump @typescript-eslint/eslint-plugin from 4.28.2 to 4.29.0 (#270) | By - dependabot[bot] | On - 2021-08-07T23:07:58Z
+ 32. [fc2..2fc] Bump @types/mz from 2.7.3 to 2.7.4 (#249) | By - dependabot[bot] | On - 2021-08-07T23:07:48Z
+ 33. [376..9fd] add/clean up notes for Windows (#256) | By - Mark Jackson | On - 2021-08-07T23:07:34Z
+ 34. [8c1..88d] Add automerge rule and cargo dependabot rule (#272) | By - Justin Starry | On - 2021-08-07T23:02:12Z
+ 35. [725..0f6] Bump solana-program to 1.7.9 (#269) | By - Justin Starry | On - 2021-08-07T22:57:39Z
+ 36. [3d1..862] Bump @types/prettier from 2.2.3 to 2.3.2 (#252) | By - dependabot[bot] | On - 2021-08-07T22:23:52Z
+ 37. [0ef..472] Bump prettier from 2.3.0 to 2.3.2 (#267) | By - dependabot[bot] | On - 2021-08-07T22:23:46Z
+ 38. [0f4..0ac] Bump @typescript-eslint/parser from 4.28.2 to 4.29.0 (#263) | By - dependabot[bot] | On - 2021-08-06T20:42:18Z
+ 39. [0d6..850] Don't overwrite Cargo.lock when installing (#260) | By - Tyera Eulberg | On - 2021-07-27T01:50:10Z
+ 40. [414..436] Bump @typescript-eslint/eslint-plugin from 4.26.0 to 4.28.2 (#251) | By - dependabot[bot] | On - 2021-07-12T23:14:21Z
+ 41. [234..48f] Bump ts-node from 10.0.0 to 10.1.0 (#250) | By - dependabot[bot] | On - 2021-07-12T23:14:08Z
+ 42. [97d..6fd] Bump typescript from 4.2.4 to 4.3.5 (#248) | By - dependabot[bot] | On - 2021-07-09T15:56:00Z
+ 43. [ac7..907] Bump start-server-and-test from 1.12.2 to 1.12.6 (#247) | By - dependabot[bot] | On - 2021-07-09T15:55:55Z
+ 44. [cff..aa1] Update solana deps to 1.7.1 (for tests on M1) (#238) | By - Kirill Fomichev | On - 2021-07-09T15:55:31Z
+ 45. [784..4fa] Bump @typescript-eslint/parser from 4.24.0 to 4.28.2 (#244) | By - dependabot[bot] | On - 2021-07-09T15:29:45Z
+ 46. [1da..b12] Bump @types/eslint from 7.2.11 to 7.2.14 (#245) | By - dependabot[bot] | On - 2021-07-09T15:29:36Z
+ 47. [f17..ddf] Bump @solana/web3.js from 1.12.0 to 1.20.2 (#246) | By - dependabot[bot] | On - 2021-07-09T15:29:11Z
+ 48. [2e5..2bc] Update to keypair (#243) | By - zurgl | On - 2021-07-06T03:07:26Z
+ 49. [a41..4e8] hello worlds mistype fix for Account (#235) | By - olexandr13 | On - 2021-06-11T22:03:29Z
+ 50. [cc5..a42] Update main.yml | By - joeaba | On - 2021-06-04T04:30:43Z
+
+## master
+
+
+ 1. [bb3..bd2] Initial Commit | By - imsk17 | On - 2021-09-14T16:08:47Z
+ 2. [035..137] Bump @solana/web3.js from 1.24.2 to 1.25.0 | By - dependabot[bot] | On - 2021-09-08T08:19:20Z
+ 3. [439..bb3] Bump @typescript-eslint/eslint-plugin from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:32:24Z
+ 4. [9c8..f9c] Bump @typescript-eslint/parser from 4.30.0 to 4.31.0 | By - dependabot[bot] | On - 2021-09-07T08:19:39Z
+ 5. [cf6..044] Bump @solana/web3.js from 1.24.1 to 1.24.2 | By - dependabot[bot] | On - 2021-09-06T08:21:18Z
+ 6. [a43..304] Bump start-server-and-test from 1.13.1 to 1.14.0 | By - dependabot[bot] | On - 2021-09-03T08:21:45Z
+ 7. [247..13a] Bump @typescript-eslint/parser from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:41:07Z
+ 8. [e70..d86] Bump eslint-plugin-prettier from 3.4.1 to 4.0.0 | By - dependabot[bot] | On - 2021-08-31T08:30:34Z
+ 9. [fca..ba2] Bump @typescript-eslint/eslint-plugin from 4.29.3 to 4.30.0 | By - dependabot[bot] | On - 2021-08-31T08:19:55Z
+ 10. [e5f..2d5] Bump typescript from 4.3.5 to 4.4.2 | By - dependabot[bot] | On - 2021-08-27T08:20:14Z
+ 11. [a94..9de] Bump @typescript-eslint/parser from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:28:36Z
+ 12. [1c5..dde] Bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3 | By - dependabot[bot] | On - 2021-08-24T08:19:08Z
+ 13. [443..31c] Bump eslint-plugin-prettier from 3.4.0 to 3.4.1 | By - dependabot[bot] | On - 2021-08-23T08:21:47Z
+ 14. [b6c..c97] Bump @solana/web3.js from 1.24.0 to 1.24.1 | By - dependabot[bot] | On - 2021-08-20T08:19:18Z
+ 15. [75a..ee8] Bump ts-node from 10.2.0 to 10.2.1 | By - dependabot[bot] | On - 2021-08-19T08:30:55Z
+ 16. [66e..9d3] Bump borsh from 0.5.0 to 0.6.0 | By - dependabot[bot] | On - 2021-08-19T08:19:26Z
+ 17. [4e3..302] Bump @typescript-eslint/parser from 4.29.1 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:34:25Z
+ 18. [f7f..e6d] Bump @typescript-eslint/eslint-plugin from 4.29.0 to 4.29.2 | By - dependabot[bot] | On - 2021-08-17T08:20:04Z
+ 19. [dd5..489] Bump @solana/web3.js from 1.23.0 to 1.24.0 | By - dependabot[bot] | On - 2021-08-13T08:20:54Z
+ 20. [df9..b63] Bump @solana/web3.js from 1.22.0 to 1.23.0 | By - dependabot[bot] | On - 2021-08-11T08:19:47Z
+ 21. [52b..834] Bump @typescript-eslint/parser from 4.29.0 to 4.29.1 | By - dependabot[bot] | On - 2021-08-10T08:22:49Z
+ 22. [6d5..8ea] Bump ts-node from 10.1.0 to 10.2.0 | By - dependabot[bot] | On - 2021-08-09T08:25:56Z
+ 23. [807..245] Bump eslint from 7.27.0 to 7.32.0 | By - dependabot[bot] | On - 2021-08-07T23:53:45Z
+ 24. [8b8..644] Bump @types/eslint from 7.2.14 to 7.28.0 | By - dependabot[bot] | On - 2021-08-07T23:43:50Z
+ 25. [b4d..efb] Bump start-server-and-test from 1.12.6 to 1.13.1 (#271) | By - dependabot[bot] | On - 2021-08-07T23:35:08Z
+ 26. [b29..de5] Bump @solana/web3.js from 1.20.2 to 1.22.0 (#273) | By - dependabot[bot] | On - 2021-08-07T23:17:48Z
+ 27. [119..0a8] Bump borsh from 0.4.0 to 0.5.0 (#274) | By - dependabot[bot] | On - 2021-08-07T23:17:43Z
+ 28. [a94..925] npm audit fix | By - Justin Starry | On - 2021-08-07T23:17:11Z
+ 29. [afa..bb8] Remove os name from action name | By - Justin Starry | On - 2021-08-07T23:16:39Z
+ 30. [1d0..8db] Bump @typescript-eslint/eslint-plugin from 4.28.2 to 4.29.0 (#270) | By - dependabot[bot] | On - 2021-08-07T23:07:58Z
+ 31. [fc2..2fc] Bump @types/mz from 2.7.3 to 2.7.4 (#249) | By - dependabot[bot] | On - 2021-08-07T23:07:48Z
+ 32. [376..9fd] add/clean up notes for Windows (#256) | By - Mark Jackson | On - 2021-08-07T23:07:34Z
+ 33. [8c1..88d] Add automerge rule and cargo dependabot rule (#272) | By - Justin Starry | On - 2021-08-07T23:02:12Z
+ 34. [725..0f6] Bump solana-program to 1.7.9 (#269) | By - Justin Starry | On - 2021-08-07T22:57:39Z
+ 35. [3d1..862] Bump @types/prettier from 2.2.3 to 2.3.2 (#252) | By - dependabot[bot] | On - 2021-08-07T22:23:52Z
+ 36. [0ef..472] Bump prettier from 2.3.0 to 2.3.2 (#267) | By - dependabot[bot] | On - 2021-08-07T22:23:46Z
+ 37. [0f4..0ac] Bump @typescript-eslint/parser from 4.28.2 to 4.29.0 (#263) | By - dependabot[bot] | On - 2021-08-06T20:42:18Z
+ 38. [0d6..850] Don't overwrite Cargo.lock when installing (#260) | By - Tyera Eulberg | On - 2021-07-27T01:50:10Z
+ 39. [414..436] Bump @typescript-eslint/eslint-plugin from 4.26.0 to 4.28.2 (#251) | By - dependabot[bot] | On - 2021-07-12T23:14:21Z
+ 40. [234..48f] Bump ts-node from 10.0.0 to 10.1.0 (#250) | By - dependabot[bot] | On - 2021-07-12T23:14:08Z
+ 41. [97d..6fd] Bump typescript from 4.2.4 to 4.3.5 (#248) | By - dependabot[bot] | On - 2021-07-09T15:56:00Z
+ 42. [ac7..907] Bump start-server-and-test from 1.12.2 to 1.12.6 (#247) | By - dependabot[bot] | On - 2021-07-09T15:55:55Z
+ 43. [cff..aa1] Update solana deps to 1.7.1 (for tests on M1) (#238) | By - Kirill Fomichev | On - 2021-07-09T15:55:31Z
+ 44. [784..4fa] Bump @typescript-eslint/parser from 4.24.0 to 4.28.2 (#244) | By - dependabot[bot] | On - 2021-07-09T15:29:45Z
+ 45. [1da..b12] Bump @types/eslint from 7.2.11 to 7.2.14 (#245) | By - dependabot[bot] | On - 2021-07-09T15:29:36Z
+ 46. [f17..ddf] Bump @solana/web3.js from 1.12.0 to 1.20.2 (#246) | By - dependabot[bot] | On - 2021-07-09T15:29:11Z
+ 47. [2e5..2bc] Update to keypair (#243) | By - zurgl | On - 2021-07-06T03:07:26Z
+ 48. [a41..4e8] hello worlds mistype fix for Account (#235) | By - olexandr13 | On - 2021-06-11T22:03:29Z
+ 49. [cc5..a42] Update main.yml | By - joeaba | On - 2021-06-04T04:30:43Z
+ 50. [498..e29] Update main.yml | By - joeaba | On - 2021-06-04T04:19:31Z
 
 # sc-verify
 

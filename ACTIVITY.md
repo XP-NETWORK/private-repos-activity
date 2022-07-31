@@ -3,27 +3,120 @@
 ## master
 
 
- 1. [84e..5d8] EndersPack | By - Dima Brook | On - 2022-07-27T13:32:25Z
- 2. [55d..cde] EndersPack | By - Dima Brook | On - 2022-07-27T13:27:01Z
+ 1. [5dd..c9f] add FILMCrew Collection (ETH) | By - Dima Brook | On - 2022-07-31T14:14:37Z
+ 2. [a85..19b] add Treat NFT (Ethereum) | By - Dima Brook | On - 2022-07-31T12:29:14Z
+ 3. [5b6..195] add Rocket Monsters Zeren Bear and Hoverbike on Ethereum | By - Dima Brook | On - 2022-07-31T08:36:24Z
+ 4. [0d5..28c] add RM-Star Fighter on Ethereum | By - Dima Brook | On - 2022-07-31T08:12:48Z
+ 5. [470..8fb] add NFT-Keys from Bithoven's Team | By - Dima Brook | On - 2022-07-28T15:33:19Z
+ 6. [701..3b5] add RM-Zeren Bear | By - Dima Brook | On - 2022-07-28T12:36:29Z
+ 7. [cbb..a57] add Rocket Monsters - Star Fighter | By - Dima Brook | On - 2022-07-28T12:14:00Z
+ 8. [0bd..5ca] add: DegDango | By - Dima Brook | On - 2022-07-28T08:53:20Z
+ 9. [84e..5d8] EndersPack | By - Dima Brook | On - 2022-07-27T13:32:25Z
+ 10. [55d..cde] EndersPack | By - Dima Brook | On - 2022-07-27T13:27:01Z
+
+# algorand-asa-bridge
+
+## main
+
+
+ 1. [e9a..cc0] update on_receive_native | By - rocalex | On - 2022-07-31T10:11:10Z
+ 2. [475..640] add target address | By - rocalex | On - 2022-07-29T02:41:53Z
+ 3. [7bb..5c5] add target address | By - rocalex | On - 2022-07-29T02:13:36Z
+ 4. [987..bd9] support multiple tokens | By - rocalex | On - 2022-07-27T14:09:06Z
+ 5. [c88..7bf] check group transactions | By - rocalex | On - 2022-07-10T10:24:38Z
+ 6. [c08..7b3] update README.md after testing | By - Dima Brook | On - 2022-06-29T13:15:53Z
+ 7. [697..6de] update unit tests | By - rocalex | On - 2022-06-29T12:11:21Z
+ 8. [9bd..92c] Update index.spec.ts | By - Xueming Zheng | On - 2022-06-28T10:47:04Z
+ 9. [246..ecf] remove xpnet key | By - rocalex | On - 2022-06-22T09:04:41Z
+ 10. [5f9..712] remove send_native & receive_native | By - rocalex | On - 2022-06-21T12:57:39Z
+ 11. [488..e8f] fix update_gk | By - rocalex | On - 2022-06-21T04:15:56Z
+ 12. [8da..db2] add consuming actions | By - rocalex | On - 2022-06-21T04:15:09Z
+ 13. [31d..eea] pause/unpause, withdraw fees | By - rocalex | On - 2022-06-20T16:00:51Z
+ 14. [065..9fa] change wrapped token name as XPNET | By - rocalex | On - 2022-06-16T08:53:22Z
+ 15. [8c6..5fb] add readme | By - rocalex | On - 2022-06-15T20:25:25Z
+ 16. [d6f..bea] add paused | By - rocalex | On - 2022-06-15T20:17:41Z
+ 17. [0fc..012] lint fix | By - rocalex | On - 2022-06-15T20:08:29Z
+ 18. [f6a..df4] receive native | By - rocalex | On - 2022-06-15T20:06:46Z
+ 19. [aa1..769] send native | By - rocalex | On - 2022-06-15T19:54:47Z
+ 20. [29e..39b] send wrapped | By - rocalex | On - 2022-06-15T19:37:19Z
+ 21. [dd0..bf1] receive foreign | By - rocalex | On - 2022-06-15T18:35:22Z
+ 22. [ee6..373] create wVPAD when bootstrap | By - rocalex | On - 2022-06-15T17:57:39Z
+ 23. [b08..5d2] update group key | By - rocalex | On - 2022-06-15T17:20:59Z
+ 24. [3cc..fc9] update group key | By - rocalex | On - 2022-06-15T17:08:37Z
+ 25. [d42..410] add deploy script | By - rocalex | On - 2022-06-15T15:48:53Z
+ 26. [eff..25d] initial unit tests | By - rocalex | On - 2022-06-15T14:49:50Z
+ 27. [b69..51f] initial | By - rocalex | On - 2022-06-14T11:25:53Z
 
 # new-xp-website
 
 ## main
 
 
- 1. [ac8..5eb] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T13:04:01Z
- 2. [23b..8ef] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T08:47:14Z
- 3. [128..6a6] updates | By - Lihi Sherm | On - 2022-07-26T12:54:53Z
- 4. [9af..369] updates | By - Lihi Sherm | On - 2022-07-25T14:44:41Z
- 5. [34d..478] updates | By - Lihi Sherm | On - 2022-07-25T13:50:35Z
- 6. [a9f..0c7] updates | By - Lihi Sherm | On - 2022-07-25T09:55:46Z
- 7. [c0f..e20] updates in updates home section | By - Lihi Sherm | On - 2022-07-13T13:14:43Z
- 8. [ed9..885] rm links | By - Lihi Sherm | On - 2022-07-13T13:04:51Z
- 9. [f2a..ca6] rm links | By - Lihi Sherm | On - 2022-07-13T11:25:28Z
- 10. [4d2..d5e] ui updates | By - Lihi Sherm | On - 2022-07-13T11:00:45Z
- 11. [916..9ad] ui updates | By - Lihi Sherm | On - 2022-07-13T08:41:10Z
- 12. [801..eb9] updates | By - Lihi Sherm | On - 2022-07-12T14:50:25Z
- 13. [527..56c] events page, header change | By - Lihi Sherm | On - 2022-06-13T10:21:45Z
+ 1. [e8d..09d] videos keep playing whwn pressing go back browser update | By - Lihi Sherm | On - 2022-07-31T09:50:04Z
+ 2. [a46..620] videos keep playing whwn pressing go back browser update | By - Lihi Sherm | On - 2022-07-31T07:59:16Z
+ 3. [2a4..047] main page update | By - Lihi Sherm | On - 2022-07-28T13:27:46Z
+ 4. [f62..f98] new case study-hog homies | By - Lihi Sherm | On - 2022-07-28T12:46:30Z
+ 5. [f01..6ff] new case study-hog homies | By - Lihi Sherm | On - 2022-07-28T11:06:08Z
+ 6. [963..6cf] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T14:12:42Z
+ 7. [ac8..5eb] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T13:04:01Z
+ 8. [23b..8ef] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T08:47:14Z
+ 9. [128..6a6] updates | By - Lihi Sherm | On - 2022-07-26T12:54:53Z
+ 10. [9af..369] updates | By - Lihi Sherm | On - 2022-07-25T14:44:41Z
+ 11. [34d..478] updates | By - Lihi Sherm | On - 2022-07-25T13:50:35Z
+ 12. [a9f..0c7] updates | By - Lihi Sherm | On - 2022-07-25T09:55:46Z
+ 13. [c0f..e20] updates in updates home section | By - Lihi Sherm | On - 2022-07-13T13:14:43Z
+ 14. [ed9..885] rm links | By - Lihi Sherm | On - 2022-07-13T13:04:51Z
+ 15. [f2a..ca6] rm links | By - Lihi Sherm | On - 2022-07-13T11:25:28Z
+ 16. [4d2..d5e] ui updates | By - Lihi Sherm | On - 2022-07-13T11:00:45Z
+ 17. [916..9ad] ui updates | By - Lihi Sherm | On - 2022-07-13T08:41:10Z
+ 18. [801..eb9] updates | By - Lihi Sherm | On - 2022-07-12T14:50:25Z
+ 19. [527..56c] events page, header change | By - Lihi Sherm | On - 2022-06-13T10:21:45Z
+
+# erc20-validator
+
+## master
+
+
+ 1. [85e..ea3] algo: minor fixes | By - rupansh | On - 2022-07-30T16:49:02Z
+ 2. [335..37d] bridge: handle decimals | By - rupansh | On - 2022-07-30T16:06:24Z
+ 3. [5af..d0d] enable algorand | By - rupansh | On - 2022-07-30T15:52:42Z
+ 4. [039..bd1] handlers: use locks for sending txn | By - rupansh | On - 2022-07-28T14:30:55Z
+ 5. [957..418] web3: use NonceManager signer | By - rupansh | On - 2022-07-28T14:19:19Z
+ 6. [b6e..8eb] algo: implement unfreeze event handling | By - rupansh | On - 2022-07-28T14:01:47Z
+ 7. [f3a..6b5] algo: add decoder for transfer event | By - rupansh | On - 2022-07-28T13:05:40Z
+ 8. [12f..228] partial algorand bringup | By - rupansh | On - 2022-07-26T15:38:29Z
+ 9. [7ee..56f] re-organize handlers | By - rupansh | On - 2022-07-26T13:48:10Z
+ 10. [7da..ff5] add separate chains for testnet | By - rupansh | On - 2022-07-20T14:46:06Z
+ 11. [012..be2] deps: fix minor derp | By - rupansh | On - 2022-07-20T14:23:55Z
+ 12. [ae9..ea9] update .env.example | By - rupansh | On - 2022-07-18T18:40:19Z
+ 13. [5ec..19f] events: switch to builder pattern and handle edge case | By - rupansh | On - 2022-07-18T18:35:36Z
+ 14. [e4b..843] improve frost handling | By - rupansh | On - 2022-07-18T17:52:47Z
+ 15. [6f0..c3c] use frost lib from git | By - rupansh | On - 2022-07-18T17:23:07Z
+ 16. [96d..7af] initial import | By - rupansh | On - 2022-07-18T17:18:58Z
+
+# xpjs-erc20
+
+## master
+
+
+ 1. [236..866] minor fixes | By - rupansh | On - 2022-07-30T16:48:38Z
+ 2. [eaf..e4f] initial algorand support | By - rupansh | On - 2022-07-30T13:36:01Z
+ 3. [a50..d49] update for bridge contract | By - rupansh | On - 2022-07-26T15:41:03Z
+ 4. [4ad..118] add index | By - rupansh | On - 2022-07-20T17:13:34Z
+ 5. [924..132] initial import | By - rupansh | On - 2022-07-20T17:06:46Z
+
+# web3-erc20-contracts
+
+## master
+
+
+ 1. [6ad..02e] package.contract: bump ethers | By - rupansh | On - 2022-07-28T14:13:35Z
+ 2. [b07..ece] Bridge: take target address from user | By - rupansh | On - 2022-07-26T15:33:15Z
+ 3. [365..665] gitignore: add .deps | By - rupansh | On - 2022-07-26T15:33:02Z
+ 4. [8b0..983] update deploy script | By - rupansh | On - 2022-07-20T13:56:28Z
+ 5. [6c4..81b] initial changes for multi-token | By - rupansh | On - 2022-07-18T16:12:03Z
+ 6. [88f..f35] workflows: gen-typechain: fix repo url | By - rupansh | On - 2022-06-20T17:02:58Z
+ 7. [bca..f08] initial import | By - rupansh | On - 2022-06-20T16:42:34Z
 
 # sc-verify
 
@@ -134,42 +227,6 @@
  48. [136..7a5] routes: list: look for params in req.params | By - imsk17 | On - 2022-02-14T14:58:35Z
  49. [b11..d85] routes: sc-allowed: add route to list allowed SCs | By - imsk17 | On - 2022-02-14T14:56:22Z
  50. [1e4..7d5] entity: ScAllowedDto: add targetChain field | By - imsk17 | On - 2022-02-14T14:35:50Z
-
-# xpjs-erc20
-
-## master
-
-
- 1. [a50..d49] update for bridge contract | By - rupansh | On - 2022-07-26T15:41:03Z
- 2. [4ad..118] add index | By - rupansh | On - 2022-07-20T17:13:34Z
- 3. [924..132] initial import | By - rupansh | On - 2022-07-20T17:06:46Z
-
-# erc20-validator
-
-## master
-
-
- 1. [12f..228] partial algorand bringup | By - rupansh | On - 2022-07-26T15:38:29Z
- 2. [7ee..56f] re-organize handlers | By - rupansh | On - 2022-07-26T13:48:10Z
- 3. [7da..ff5] add separate chains for testnet | By - rupansh | On - 2022-07-20T14:46:06Z
- 4. [012..be2] deps: fix minor derp | By - rupansh | On - 2022-07-20T14:23:55Z
- 5. [ae9..ea9] update .env.example | By - rupansh | On - 2022-07-18T18:40:19Z
- 6. [5ec..19f] events: switch to builder pattern and handle edge case | By - rupansh | On - 2022-07-18T18:35:36Z
- 7. [e4b..843] improve frost handling | By - rupansh | On - 2022-07-18T17:52:47Z
- 8. [6f0..c3c] use frost lib from git | By - rupansh | On - 2022-07-18T17:23:07Z
- 9. [96d..7af] initial import | By - rupansh | On - 2022-07-18T17:18:58Z
-
-# web3-erc20-contracts
-
-## master
-
-
- 1. [b07..ece] Bridge: take target address from user | By - rupansh | On - 2022-07-26T15:33:15Z
- 2. [365..665] gitignore: add .deps | By - rupansh | On - 2022-07-26T15:33:02Z
- 3. [8b0..983] update deploy script | By - rupansh | On - 2022-07-20T13:56:28Z
- 4. [6c4..81b] initial changes for multi-token | By - rupansh | On - 2022-07-18T16:12:03Z
- 5. [88f..f35] workflows: gen-typechain: fix repo url | By - rupansh | On - 2022-06-20T17:02:58Z
- 6. [bca..f08] initial import | By - rupansh | On - 2022-06-20T16:42:34Z
 
 # sc-deployer-ui
 
@@ -1987,35 +2044,6 @@
  48. [ebc..abb] helpers: addressValidator: fix for tezos | By - rupansh | On - 2022-01-18T16:10:58Z
  49. [9cf..2dc] helpers: apiResp: remove header from response body | By - rupansh | On - 2022-01-18T08:31:27Z
  50. [7bd..f4d] helpers: nftList: fix setting of Retry-After header | By - rupansh | On - 2022-01-18T08:31:11Z
-
-# algorand-asa-bridge
-
-## main
-
-
- 1. [c88..7bf] check group transactions | By - rocalex | On - 2022-07-10T10:24:38Z
- 2. [c08..7b3] update README.md after testing | By - Dima Brook | On - 2022-06-29T13:15:53Z
- 3. [697..6de] update unit tests | By - rocalex | On - 2022-06-29T12:11:21Z
- 4. [9bd..92c] Update index.spec.ts | By - Xueming Zheng | On - 2022-06-28T10:47:04Z
- 5. [246..ecf] remove xpnet key | By - rocalex | On - 2022-06-22T09:04:41Z
- 6. [5f9..712] remove send_native & receive_native | By - rocalex | On - 2022-06-21T12:57:39Z
- 7. [488..e8f] fix update_gk | By - rocalex | On - 2022-06-21T04:15:56Z
- 8. [8da..db2] add consuming actions | By - rocalex | On - 2022-06-21T04:15:09Z
- 9. [31d..eea] pause/unpause, withdraw fees | By - rocalex | On - 2022-06-20T16:00:51Z
- 10. [065..9fa] change wrapped token name as XPNET | By - rocalex | On - 2022-06-16T08:53:22Z
- 11. [8c6..5fb] add readme | By - rocalex | On - 2022-06-15T20:25:25Z
- 12. [d6f..bea] add paused | By - rocalex | On - 2022-06-15T20:17:41Z
- 13. [0fc..012] lint fix | By - rocalex | On - 2022-06-15T20:08:29Z
- 14. [f6a..df4] receive native | By - rocalex | On - 2022-06-15T20:06:46Z
- 15. [aa1..769] send native | By - rocalex | On - 2022-06-15T19:54:47Z
- 16. [29e..39b] send wrapped | By - rocalex | On - 2022-06-15T19:37:19Z
- 17. [dd0..bf1] receive foreign | By - rocalex | On - 2022-06-15T18:35:22Z
- 18. [ee6..373] create wVPAD when bootstrap | By - rocalex | On - 2022-06-15T17:57:39Z
- 19. [b08..5d2] update group key | By - rocalex | On - 2022-06-15T17:20:59Z
- 20. [3cc..fc9] update group key | By - rocalex | On - 2022-06-15T17:08:37Z
- 21. [d42..410] add deploy script | By - rocalex | On - 2022-06-15T15:48:53Z
- 22. [eff..25d] initial unit tests | By - rocalex | On - 2022-06-15T14:49:50Z
- 23. [b69..51f] initial | By - rocalex | On - 2022-06-14T11:25:53Z
 
 # solana-bridge
 

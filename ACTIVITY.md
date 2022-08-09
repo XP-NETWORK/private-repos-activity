@@ -1,213 +1,10 @@
-# widget-dashboard
-
-## master
-
-
- 1. [934..701] before doing graph | By - Lihi Sherm | On - 2022-08-04T10:36:34Z
- 2. [e1f..05d] before doing graph | By - Lihi Sherm | On - 2022-08-04T09:10:11Z
- 3. [f57..209] updates | By - Lihi Sherm | On - 2022-08-03T14:36:14Z
- 4. [1c0..472] updates | By - Lihi Sherm | On - 2022-08-02T15:05:01Z
- 5. [d32..4c8] widget dashboard | By - Lihi Sherm | On - 2022-08-02T12:41:52Z
- 6. [3ea..199] widget dashboard | By - Lihi Sherm | On - 2022-08-02T09:57:38Z
- 7. [8c9..120] widget dashboard | By - Lihi Sherm | On - 2022-08-02T09:56:44Z
- 8. [69a..046] qa | By - Lihi Sherm | On - 2022-08-02T09:21:36Z
- 9. [0c9..e39] WIDGET pages are ready | By - Lihi Sherm | On - 2022-08-01T12:08:24Z
- 10. [0c6..3b7] WIDGET pages are ready | By - Lihi Sherm | On - 2022-08-01T10:44:14Z
- 11. [de0..39a] updates ui and api requests | By - Lihi Sherm | On - 2022-07-31T15:58:37Z
- 12. [b31..d63] updates ui and api requests | By - Lihi Sherm | On - 2022-07-31T15:52:56Z
- 13. [a04..440] updates ui and api requests | By - Lihi Sherm | On - 2022-07-31T13:52:07Z
- 14. [d59..e4a] remove cookies | By - Lihi Sherm | On - 2022-07-24T07:58:32Z
- 15. [8f9..ba1] updates api calls | By - Lihi Sherm | On - 2022-07-24T07:06:51Z
- 16. [b67..917] first commit | By - Lihi Sherm | On - 2022-07-12T12:01:53Z
-
-# tezos-integration-smartpy
-
-## feature/validators
-
-
- 1. [721..a38] change validators list to set | By - rocalex | On - 2022-01-20T14:48:11Z
- 2. [8ba..4fa] fix action_validators | By - rocalex | On - 2022-01-20T10:33:17Z
- 3. [ede..c38] fix validate_unfreeze_nft | By - rocalex | On - 2022-01-18T13:26:34Z
- 4. [a1c..0b6] add layout to freeze_fa2 | By - rocalex | On - 2022-01-18T11:16:34Z
- 5. [be1..bef] remove deposit fee | By - rocalex | On - 2022-01-17T16:02:39Z
- 6. [e33..1f9] add deposit fee | By - rocalex | On - 2022-01-17T14:16:46Z
- 7. [e41..f81] add some test script | By - rocalex | On - 2022-01-16T18:02:54Z
- 8. [0ff..9be] Merge branch 'main' of https://github.com/xp-network/tezos-integration-smartpy into main | By - rocalex | On - 2022-01-16T10:06:57Z
- 9. [1a6..fd9] fix withdraw_nft | By - rocalex | On - 2022-01-16T10:06:52Z
- 10. [35c..732] Update bridge.py | By - Dima Brook | On - 2022-01-07T14:21:15Z
- 11. [c8d..543] setup only once | By - rocalex | On - 2022-01-06T13:03:10Z
- 12. [92b..ad4] check if paid > 0 | By - rocalex | On - 2022-01-04T14:42:35Z
- 13. [0bf..7c0] check new threshold | By - rocalex | On - 2022-01-03T18:41:53Z
- 14. [c59..e3f] prevent deleting actions | By - rocalex | On - 2022-01-03T11:48:12Z
- 15. [ed2..3e5] Update tezos-contract.md | By - Dima Brook | On - 2021-12-14T18:00:59Z
- 16. [bae..40c] change env.example | By - Xueming Zheng | On - 2021-12-14T06:53:51Z
- 17. [ca1..144] fix type of metadata | By - Xueming Zheng | On - 2021-12-14T06:38:02Z
- 18. [4d5..140] add burn to xpnet | By - Xueming Zheng | On - 2021-12-13T13:19:11Z
- 19. [81d..97a] add withdraw nft | By - Xueming Zheng | On - 2021-12-13T06:06:35Z
- 20. [a92..288] Merge branch 'main' of https://github.com/xp-network/tezos-integration-smartpy | By - Xueming Zheng | On - 2021-12-13T05:31:30Z
- 21. [b62..e0e] withdraw fees | By - Xueming Zheng | On - 2021-12-13T05:31:26Z
- 22. [684..329] Update tezos-contract.md | By - Dima Brook | On - 2021-12-12T19:41:06Z
- 23. [6ff..125] Update tezos-contract.md | By - Dima Brook | On - 2021-12-12T19:35:29Z
- 24. [182..332] xpnft for only NFT | By - Xueming Zheng | On - 2021-12-12T18:05:14Z
- 25. [5f1..70d] change key of frozen_nfts | By - Xueming Zheng | On - 2021-12-12T14:33:28Z
- 26. [ee4..e02] add setup script | By - Xueming Zheng | On - 2021-12-12T09:26:37Z
- 27. [42e..624] add unfreeze nft | By - Xueming Zheng | On - 2021-12-12T07:36:49Z
- 28. [2ec..d04] map (TAddress => map(nft_id => TRecord)) | By - Xueming Zheng | On - 2021-12-07T18:45:13Z
- 29. [35f..6dd] add docs to off-chain views | By - rocalex | On - 2021-12-06T08:04:42Z
- 30. [4e9..3ae] add initial backend and whitelist | By - rocalex | On - 2021-12-06T08:01:41Z
- 31. [507..01e] Create tezos-contract.md | By - Dima Brook | On - 2021-12-05T20:19:39Z
- 32. [c4e..33a] erase validators when setup | By - rocalex | On - 2021-12-05T15:52:50Z
- 33. [634..44b] add set threshold | By - rocalex | On - 2021-12-02T10:19:41Z
- 34. [4c5..52d] add/remove validator | By - rocalex | On - 2021-12-02T09:56:10Z
- 35. [8fb..d98] add enums | By - rocalex | On - 2021-12-01T12:35:25Z
- 36. [780..ab3] Pause/Unpause bridge | By - rocalex | On - 2021-12-01T08:44:48Z
- 37. [8e1..18a] add inline docs | By - rocalex | On - 2021-11-30T12:24:04Z
- 38. [939..7c3] add admin | By - rocalex | On - 2021-11-29T10:04:35Z
- 39. [427..347] add validate_action | By - rocalex | On - 2021-11-29T08:26:41Z
- 40. [ab0..76a] add bridge | By - rocalex | On - 2021-11-29T07:47:09Z
- 41. [b12..f86] add simple typescript client | By - rocalex | On - 2021-11-28T10:30:29Z
- 42. [878..a1c] add simple typescript client | By - rocalex | On - 2021-11-28T06:22:01Z
- 43. [dc3..21d] add user_nft_minter.py | By - rocalex | On - 2021-11-22T14:31:07Z
- 44. [32d..098] add user_nft_minter.py | By - rocalex | On - 2021-11-22T13:42:15Z
- 45. [067..da9] update readme | By - rocalex | On - 2021-11-22T12:04:07Z
- 46. [844..dd6] remove unnecessary files | By - rocalex | On - 2021-11-22T12:00:37Z
- 47. [cb3..c88] initial entry points | By - rocalex | On - 2021-11-08T05:49:00Z
- 48. [227..70f] initial entry points | By - rocalex | On - 2021-11-08T04:19:37Z
- 49. [8e3..572] add validate_action | By - rocalex | On - 2021-11-08T03:09:34Z
- 50. [c5f..da9] add FA2 example | By - rocalex | On - 2021-11-03T12:32:16Z
+# aptos-integration-move
 
 ## main
 
 
- 1. [362..501] add test case for setting contract metadata | By - rocalex | On - 2022-08-03T15:45:33Z
- 2. [9a1..942] fix nft_cnt to bigmap | By - rocalex | On - 2022-03-16T13:26:22Z
- 3. [fbd..731] fix freeze_fa2 and withdraw_nft | By - rocalex | On - 2022-03-13T13:38:52Z
- 4. [19c..cef] fix freeze_fa2 for rarible | By - rocalex | On - 2022-01-26T17:20:58Z
- 5. [d41..fba] change map to big map | By - rocalex | On - 2022-01-25T22:51:33Z
- 6. [5c9..831] change map to big map | By - rocalex | On - 2022-01-25T12:39:30Z
- 7. [8f4..468] fix validate_whitelist_nft | By - rocalex | On - 2022-01-23T00:43:22Z
- 8. [0ad..ed8] fix return value of validate_action | By - rocalex | On - 2022-01-21T14:18:44Z
- 9. [bc6..5e4] change map to big map for actions and nft_whitelist | By - rocalex | On - 2022-01-21T10:47:43Z
- 10. [d5c..7bb] Merge pull request #1 from XP-NETWORK/feature/validators | By - Xueming Zheng | On - 2022-01-20T14:49:59Z
- 11. [721..a38] change validators list to set | By - rocalex | On - 2022-01-20T14:48:11Z
- 12. [8ba..4fa] fix action_validators | By - rocalex | On - 2022-01-20T10:33:17Z
- 13. [ede..c38] fix validate_unfreeze_nft | By - rocalex | On - 2022-01-18T13:26:34Z
- 14. [a1c..0b6] add layout to freeze_fa2 | By - rocalex | On - 2022-01-18T11:16:34Z
- 15. [be1..bef] remove deposit fee | By - rocalex | On - 2022-01-17T16:02:39Z
- 16. [e33..1f9] add deposit fee | By - rocalex | On - 2022-01-17T14:16:46Z
- 17. [e41..f81] add some test script | By - rocalex | On - 2022-01-16T18:02:54Z
- 18. [0ff..9be] Merge branch 'main' of https://github.com/xp-network/tezos-integration-smartpy into main | By - rocalex | On - 2022-01-16T10:06:57Z
- 19. [1a6..fd9] fix withdraw_nft | By - rocalex | On - 2022-01-16T10:06:52Z
- 20. [35c..732] Update bridge.py | By - Dima Brook | On - 2022-01-07T14:21:15Z
- 21. [c8d..543] setup only once | By - rocalex | On - 2022-01-06T13:03:10Z
- 22. [92b..ad4] check if paid > 0 | By - rocalex | On - 2022-01-04T14:42:35Z
- 23. [0bf..7c0] check new threshold | By - rocalex | On - 2022-01-03T18:41:53Z
- 24. [c59..e3f] prevent deleting actions | By - rocalex | On - 2022-01-03T11:48:12Z
- 25. [ed2..3e5] Update tezos-contract.md | By - Dima Brook | On - 2021-12-14T18:00:59Z
- 26. [bae..40c] change env.example | By - Xueming Zheng | On - 2021-12-14T06:53:51Z
- 27. [ca1..144] fix type of metadata | By - Xueming Zheng | On - 2021-12-14T06:38:02Z
- 28. [4d5..140] add burn to xpnet | By - Xueming Zheng | On - 2021-12-13T13:19:11Z
- 29. [81d..97a] add withdraw nft | By - Xueming Zheng | On - 2021-12-13T06:06:35Z
- 30. [a92..288] Merge branch 'main' of https://github.com/xp-network/tezos-integration-smartpy | By - Xueming Zheng | On - 2021-12-13T05:31:30Z
- 31. [b62..e0e] withdraw fees | By - Xueming Zheng | On - 2021-12-13T05:31:26Z
- 32. [684..329] Update tezos-contract.md | By - Dima Brook | On - 2021-12-12T19:41:06Z
- 33. [6ff..125] Update tezos-contract.md | By - Dima Brook | On - 2021-12-12T19:35:29Z
- 34. [182..332] xpnft for only NFT | By - Xueming Zheng | On - 2021-12-12T18:05:14Z
- 35. [5f1..70d] change key of frozen_nfts | By - Xueming Zheng | On - 2021-12-12T14:33:28Z
- 36. [ee4..e02] add setup script | By - Xueming Zheng | On - 2021-12-12T09:26:37Z
- 37. [42e..624] add unfreeze nft | By - Xueming Zheng | On - 2021-12-12T07:36:49Z
- 38. [2ec..d04] map (TAddress => map(nft_id => TRecord)) | By - Xueming Zheng | On - 2021-12-07T18:45:13Z
- 39. [35f..6dd] add docs to off-chain views | By - rocalex | On - 2021-12-06T08:04:42Z
- 40. [4e9..3ae] add initial backend and whitelist | By - rocalex | On - 2021-12-06T08:01:41Z
- 41. [507..01e] Create tezos-contract.md | By - Dima Brook | On - 2021-12-05T20:19:39Z
- 42. [c4e..33a] erase validators when setup | By - rocalex | On - 2021-12-05T15:52:50Z
- 43. [634..44b] add set threshold | By - rocalex | On - 2021-12-02T10:19:41Z
- 44. [4c5..52d] add/remove validator | By - rocalex | On - 2021-12-02T09:56:10Z
- 45. [8fb..d98] add enums | By - rocalex | On - 2021-12-01T12:35:25Z
- 46. [780..ab3] Pause/Unpause bridge | By - rocalex | On - 2021-12-01T08:44:48Z
- 47. [8e1..18a] add inline docs | By - rocalex | On - 2021-11-30T12:24:04Z
- 48. [939..7c3] add admin | By - rocalex | On - 2021-11-29T10:04:35Z
- 49. [427..347] add validate_action | By - rocalex | On - 2021-11-29T08:26:41Z
- 50. [ab0..76a] add bridge | By - rocalex | On - 2021-11-29T07:47:09Z
-
-# deployed-mapped-contracts
-
-## master
-
-
- 1. [e21..b50] update Venonymous | By - Dima Brook | On - 2022-08-03T10:39:09Z
- 2. [c55..0c6] add Venonymous | By - Dima Brook | On - 2022-08-02T14:56:08Z
- 3. [301..1d3] add Employees of the Metaverse | By - Dima Brook | On - 2022-08-02T09:15:23Z
- 4. [0a8..f52] add 001K NFT | By - Dima Brook | On - 2022-08-02T09:07:05Z
- 5. [36d..ebf] redeploy - Treat NFT | By - Dima Brook | On - 2022-08-01T18:14:53Z
- 6. [c12..02f] redeploy - Treat NFT | By - Dima Brook | On - 2022-08-01T11:11:45Z
- 7. [fd6..371] add Female Ra8Bit Series | By - Dima Brook | On - 2022-08-01T08:54:59Z
- 8. [5dd..c9f] add FILMCrew Collection (ETH) | By - Dima Brook | On - 2022-07-31T14:14:37Z
- 9. [a85..19b] add Treat NFT (Ethereum) | By - Dima Brook | On - 2022-07-31T12:29:14Z
- 10. [5b6..195] add Rocket Monsters Zeren Bear and Hoverbike on Ethereum | By - Dima Brook | On - 2022-07-31T08:36:24Z
- 11. [0d5..28c] add RM-Star Fighter on Ethereum | By - Dima Brook | On - 2022-07-31T08:12:48Z
- 12. [470..8fb] add NFT-Keys from Bithoven's Team | By - Dima Brook | On - 2022-07-28T15:33:19Z
- 13. [701..3b5] add RM-Zeren Bear | By - Dima Brook | On - 2022-07-28T12:36:29Z
- 14. [cbb..a57] add Rocket Monsters - Star Fighter | By - Dima Brook | On - 2022-07-28T12:14:00Z
- 15. [0bd..5ca] add: DegDango | By - Dima Brook | On - 2022-07-28T08:53:20Z
- 16. [84e..5d8] EndersPack | By - Dima Brook | On - 2022-07-27T13:32:25Z
- 17. [55d..cde] EndersPack | By - Dima Brook | On - 2022-07-27T13:27:01Z
-
-# widget
-
-## master
-
-
- 1. [407..fe9] add trx - date as type date and fees as type string | By - ronyXnes | On - 2022-08-02T16:31:16Z
- 2. [bc2..523] add trx - more info | By - ronyXnes | On - 2022-08-02T16:11:00Z
- 3. [d2c..b97] delete widget - response widget that remain with client | By - ronyXnes | On - 2022-08-02T15:42:07Z
- 4. [a04..ed4] formatting | By - ronyXnes | On - 2022-08-02T15:18:24Z
- 5. [ceb..206] validate widget is not deleted | By - ronyXnes | On - 2022-08-02T15:18:14Z
- 6. [ab8..dcc] validate if widget is deleted | By - ronyXnes | On - 2022-08-02T15:07:58Z
- 7. [27b..aaa] widgetname fix | By - ronyXnes | On - 2022-08-02T14:08:51Z
- 8. [acb..dec] dsad | By - AlexeyAdoniev | On - 2022-08-02T13:43:46Z
- 9. [222..91c] megre, add cors | By - AlexeyAdoniev | On - 2022-08-02T12:37:27Z
- 10. [bb8..fe3] index cors comment | By - ronyXnes | On - 2022-08-02T12:10:59Z
- 11. [70a..e1d] a | By - Alex Moshinsky | On - 2022-08-02T10:47:04Z
- 12. [23a..d1b] add to widget is active field | By - Alex Moshinsky | On - 2022-08-02T10:16:37Z
- 13. [6f2..feb] add txs details | By - Alex Moshinsky | On - 2022-08-01T10:16:24Z
- 14. [a13..589] fix | By - Alex Moshinsky | On - 2022-08-01T07:34:13Z
- 15. [783..02f] add widgetName to request | By - Alex Moshinsky | On - 2022-08-01T07:25:18Z
- 16. [761..3b5] add core check | By - Alex Moshinsky | On - 2022-07-31T16:18:04Z
- 17. [504..fd7] fix | By - Alex Moshinsky | On - 2022-07-31T16:17:40Z
- 18. [86e..863] disable cors | By - Alex Moshinsky | On - 2022-07-31T12:57:37Z
- 19. [1e2..54d] return credentials | By - Alex Moshinsky | On - 2022-07-31T12:46:36Z
- 20. [bfc..09d] add all user widget data route and widget name | By - Alex Moshinsky | On - 2022-07-31T12:34:01Z
- 21. [a5c..fe5] cors port wildcard | By - AlexeyAdoniev | On - 2022-07-31T09:49:22Z
- 22. [d99..1e0] dsdsa | By - AlexeyAdoniev | On - 2022-07-31T09:18:22Z
- 23. [eed..67e] cors | By - AlexeyAdoniev | On - 2022-07-31T09:11:59Z
- 24. [859..c26] dsad | By - AlexeyAdoniev | On - 2022-07-31T08:58:41Z
- 25. [832..2ec] remove cookie | By - AlexeyAdoniev | On - 2022-07-19T09:34:50Z
- 26. [2ba..b25] add cookie | By - AlexeyAdoniev | On - 2022-07-18T11:23:40Z
- 27. [9a4..4a8] import settings from code for wid, wservice refactor | By - AlexeyAdoniev | On - 2022-07-17T17:39:39Z
- 28. [088..685] extra fees to add transactions | By - ronyXnes | On - 2022-07-17T09:17:54Z
- 29. [4c1..601] add transaction rout | By - ronyXnes | On - 2022-07-13T09:30:34Z
- 30. [9d7..bb4] camel case | By - ronyXnes | On - 2022-07-12T14:23:35Z
- 31. [f8e..65d] formatting | By - ronyXnes | On - 2022-07-06T10:33:04Z
- 32. [218..921] add user response statuses | By - ronyXnes | On - 2022-07-06T10:31:37Z
- 33. [f03..9d2] update widget confi | By - ronyXnes | On - 2022-07-04T07:15:44Z
- 34. [de2..b36] yarn build | By - ronyXnes | On - 2022-07-03T11:49:10Z
- 35. [ec6..83d] delete post rout | By - ronyXnes | On - 2022-07-03T10:53:42Z
- 36. [cad..3c8] yarn lock | By - ronyXnes | On - 2022-07-03T10:52:15Z
- 37. [eb7..15d] Merge branch 'master' of https://github.com/ronyderra/widget | By - ronyXnes | On - 2022-07-03T10:49:05Z
- 38. [dec..93e] yarn lock | By - ronyXnes | On - 2022-07-03T10:48:26Z
- 39. [8f7..9f4] Delete yarn-error.log | By - rony derra | On - 2022-07-03T10:47:38Z
- 40. [64b..fe1] Delete yarn.lock | By - rony derra | On - 2022-07-03T10:47:14Z
- 41. [f67..581] update user and widget settings | By - ronyXnes | On - 2022-07-03T10:41:09Z
- 42. [048..d3f] formatting | By - ronyXnes | On - 2022-06-28T14:33:10Z
- 43. [970..624] formatting | By - ronyXnes | On - 2022-06-28T14:32:06Z
- 44. [6de..d48] postTestnetTrx rout | By - ronyXnes | On - 2022-06-28T14:31:45Z
- 45. [74c..9d5] post test net transaction | By - ronyXnes | On - 2022-06-28T14:22:45Z
- 46. [3ad..1e2] deleted comments | By - ronyXnes | On - 2022-06-28T14:22:17Z
- 47. [268..fe4] deleted comments | By - ronyXnes | On - 2022-06-28T14:20:04Z
- 48. [c1e..635] xpjs.ts dependencies file | By - ronyXnes | On - 2022-06-28T13:27:23Z
- 49. [9b9..7f8] xpjs init | By - ronyXnes | On - 2022-06-28T13:26:51Z
- 50. [30b..26f] git ignore | By - ronyXnes | On - 2022-06-28T13:09:16Z
+ 1. [415..4e5] test local node | By - rocalex | On - 2022-08-08T20:38:26Z
+ 2. [dbc..8c7] add readme | By - rocalex | On - 2022-08-08T18:36:31Z
 
 # nft-index
 
@@ -680,56 +477,56 @@
 ## nft-index-stf
 
 
- 1. [322..30a] start work on sft | By - Alex Moshinsky | On - 2022-08-02T09:24:03Z
- 2. [fc8..103] fix | By - Alex Moshinsky | On - 2022-07-05T11:04:17Z
- 3. [a96..a8b] fix | By - Alex Moshinsky | On - 2022-07-05T11:00:31Z
- 4. [fd3..257] fix checksam adress | By - Alex Moshinsky | On - 2022-06-19T16:42:16Z
- 5. [566..a40] add check balance algo | By - Alex Moshinsky | On - 2022-06-12T16:01:01Z
- 6. [951..8bc] a | By - Alex Moshinsky | On - 2022-06-12T15:19:02Z
- 7. [557..259] chage promise all to for await | By - Alex Moshinsky | On - 2022-06-12T15:18:16Z
- 8. [961..a1a] algo upcase address | By - Alex Moshinsky | On - 2022-06-12T14:14:40Z
- 9. [826..f08] show algo errors | By - Alex Moshinsky | On - 2022-06-12T14:00:11Z
- 10. [10e..6a6] chane timeout to 3 sec algo | By - Alex Moshinsky | On - 2022-06-12T13:28:26Z
- 11. [909..f33] add rate limit to algo | By - Alex Moshinsky | On - 2022-06-12T13:10:53Z
- 12. [00f..fb0] fix algoNftList | By - Alex Moshinsky | On - 2022-06-12T10:12:03Z
- 13. [ec3..bb0] fix tazoz | By - Alex Moshinsky | On - 2022-06-08T15:01:53Z
- 14. [2c1..79e] tezos: increase nft limit to maximum | By - rupansh | On - 2022-06-07T13:27:54Z
- 15. [7ed..33f] add yarn.lock to .gitignore | By - Dima Brook | On - 2022-06-07T08:46:06Z
- 16. [557..0e9] check if displayUrl is broken and replace with artifactUri | By - rocalex | On - 2022-06-06T09:03:57Z
- 17. [802..30f] disable sft | By - Alex Moshinsky | On - 2022-06-01T17:09:01Z
- 18. [0f7..bb0] a | By - Alex Moshinsky | On - 2022-06-01T17:07:23Z
- 19. [cba..a1b] a | By - Alex Moshinsky | On - 2022-06-01T17:00:58Z
- 20. [51e..b24] remove console log and add check number | By - Alex Moshinsky | On - 2022-06-01T16:54:12Z
- 21. [08b..eb9] balance big them 0 | By - Alex Moshinsky | On - 2022-06-01T16:48:10Z
- 22. [21b..3b7] diable filter sft | By - Alex Moshinsky | On - 2022-06-01T16:46:48Z
- 23. [341..d1f] update moralis to to version 1.8 | By - Alex Moshinsky | On - 2022-06-01T15:15:51Z
- 24. [246..6d2] fix vales fetch lowercase address | By - Alex Moshinsky | On - 2022-06-01T09:41:18Z
- 25. [75e..86d] chnage from web to ethers and combine vales + iotex with DB and blockChain | By - Alex Moshinsky | On - 2022-05-31T18:18:54Z
- 26. [b5c..3b2] fix velas | By - Alex Moshinsky | On - 2022-05-31T10:43:38Z
- 27. [e9f..7cd] lowercase | By - Alex Moshinsky | On - 2022-05-30T16:25:56Z
- 28. [790..f0d] get nfts from db | By - Alex Moshinsky | On - 2022-05-30T16:09:48Z
- 29. [155..982] disable TokenAuthority | By - Alex Moshinsky | On - 2022-05-30T10:11:06Z
- 30. [81b..01b] check if nft emepty | By - Alex Moshinsky | On - 2022-05-30T09:40:28Z
- 31. [a77..326] console.log | By - Alex Moshinsky | On - 2022-05-30T09:09:49Z
- 32. [ed8..667] change to persist and flush | By - Alex Moshinsky | On - 2022-05-30T08:57:08Z
- 33. [912..a44] check nft | By - Alex Moshinsky | On - 2022-05-30T08:52:33Z
- 34. [3d5..112] fix create to db | By - Alex Moshinsky | On - 2022-05-30T08:50:11Z
- 35. [185..ea0] check error | By - Alex Moshinsky | On - 2022-05-30T08:37:12Z
- 36. [60d..42c] if nft no exsit it will add | By - Alex Moshinsky | On - 2022-05-30T08:26:51Z
- 37. [feb..41b] ready for testing | By - Alex Moshinsky | On - 2022-05-29T21:49:11Z
- 38. [3b5..aac] check nft work | By - Alex Moshinsky | On - 2022-05-29T21:14:56Z
- 39. [62b..327] add post request route | By - Alex Moshinsky | On - 2022-05-29T09:30:13Z
- 40. [af0..c9e] nft-check wip | By - Alex Moshinsky | On - 2022-05-29T08:26:12Z
- 41. [feb..db4] tron: enable worker for listener | By - imsk17 | On - 2022-05-17T12:23:56Z
- 42. [f5c..518] nft-list: evm: properly commit changes to db for vechain | By - rupansh | On - 2022-05-12T09:23:45Z
- 43. [cbc..3a1] listener: adapt for vechain | By - imsk17 | On - 2022-05-11T12:36:10Z
- 44. [ebc..564] tron: add a check to live listener to avoid unfinalized blocks | By - imsk17 | On - 2022-05-08T10:32:52Z
- 45. [a9b..6e5] iotex: add a contract to the list | By - imsk17 | On - 2022-05-08T10:32:51Z
- 46. [30b..986] fix hardcoded testnet VeChain | By - Dima Brook | On - 2022-05-03T18:06:13Z
- 47. [270..ace] fix type error | By - Dima Brook | On - 2022-05-03T16:14:58Z
- 48. [f96..2f5] Merge pull request #3 from XP-NETWORK/vechain | By - Dima Brook | On - 2022-05-03T10:20:30Z
- 49. [c16..1bb] Merge branch 'master' into vechain | By - Dima Brook | On - 2022-05-03T10:19:31Z
- 50. [4ec..1d2] algorand: nft-list-service: gracefully handle 404 error | By - rupansh | On - 2022-05-03T09:49:09Z
+ 1. [146..55e] sft transfer between accounts works | By - Alex Moshinsky | On - 2022-08-08T14:49:21Z
+ 2. [f82..75b] from side work sft | By - Alex Moshinsky | On - 2022-08-07T13:05:00Z
+ 3. [322..30a] start work on sft | By - Alex Moshinsky | On - 2022-08-02T09:24:03Z
+ 4. [fc8..103] fix | By - Alex Moshinsky | On - 2022-07-05T11:04:17Z
+ 5. [a96..a8b] fix | By - Alex Moshinsky | On - 2022-07-05T11:00:31Z
+ 6. [fd3..257] fix checksam adress | By - Alex Moshinsky | On - 2022-06-19T16:42:16Z
+ 7. [566..a40] add check balance algo | By - Alex Moshinsky | On - 2022-06-12T16:01:01Z
+ 8. [951..8bc] a | By - Alex Moshinsky | On - 2022-06-12T15:19:02Z
+ 9. [557..259] chage promise all to for await | By - Alex Moshinsky | On - 2022-06-12T15:18:16Z
+ 10. [961..a1a] algo upcase address | By - Alex Moshinsky | On - 2022-06-12T14:14:40Z
+ 11. [826..f08] show algo errors | By - Alex Moshinsky | On - 2022-06-12T14:00:11Z
+ 12. [10e..6a6] chane timeout to 3 sec algo | By - Alex Moshinsky | On - 2022-06-12T13:28:26Z
+ 13. [909..f33] add rate limit to algo | By - Alex Moshinsky | On - 2022-06-12T13:10:53Z
+ 14. [00f..fb0] fix algoNftList | By - Alex Moshinsky | On - 2022-06-12T10:12:03Z
+ 15. [ec3..bb0] fix tazoz | By - Alex Moshinsky | On - 2022-06-08T15:01:53Z
+ 16. [2c1..79e] tezos: increase nft limit to maximum | By - rupansh | On - 2022-06-07T13:27:54Z
+ 17. [7ed..33f] add yarn.lock to .gitignore | By - Dima Brook | On - 2022-06-07T08:46:06Z
+ 18. [557..0e9] check if displayUrl is broken and replace with artifactUri | By - rocalex | On - 2022-06-06T09:03:57Z
+ 19. [802..30f] disable sft | By - Alex Moshinsky | On - 2022-06-01T17:09:01Z
+ 20. [0f7..bb0] a | By - Alex Moshinsky | On - 2022-06-01T17:07:23Z
+ 21. [cba..a1b] a | By - Alex Moshinsky | On - 2022-06-01T17:00:58Z
+ 22. [51e..b24] remove console log and add check number | By - Alex Moshinsky | On - 2022-06-01T16:54:12Z
+ 23. [08b..eb9] balance big them 0 | By - Alex Moshinsky | On - 2022-06-01T16:48:10Z
+ 24. [21b..3b7] diable filter sft | By - Alex Moshinsky | On - 2022-06-01T16:46:48Z
+ 25. [341..d1f] update moralis to to version 1.8 | By - Alex Moshinsky | On - 2022-06-01T15:15:51Z
+ 26. [246..6d2] fix vales fetch lowercase address | By - Alex Moshinsky | On - 2022-06-01T09:41:18Z
+ 27. [75e..86d] chnage from web to ethers and combine vales + iotex with DB and blockChain | By - Alex Moshinsky | On - 2022-05-31T18:18:54Z
+ 28. [b5c..3b2] fix velas | By - Alex Moshinsky | On - 2022-05-31T10:43:38Z
+ 29. [e9f..7cd] lowercase | By - Alex Moshinsky | On - 2022-05-30T16:25:56Z
+ 30. [790..f0d] get nfts from db | By - Alex Moshinsky | On - 2022-05-30T16:09:48Z
+ 31. [155..982] disable TokenAuthority | By - Alex Moshinsky | On - 2022-05-30T10:11:06Z
+ 32. [81b..01b] check if nft emepty | By - Alex Moshinsky | On - 2022-05-30T09:40:28Z
+ 33. [a77..326] console.log | By - Alex Moshinsky | On - 2022-05-30T09:09:49Z
+ 34. [ed8..667] change to persist and flush | By - Alex Moshinsky | On - 2022-05-30T08:57:08Z
+ 35. [912..a44] check nft | By - Alex Moshinsky | On - 2022-05-30T08:52:33Z
+ 36. [3d5..112] fix create to db | By - Alex Moshinsky | On - 2022-05-30T08:50:11Z
+ 37. [185..ea0] check error | By - Alex Moshinsky | On - 2022-05-30T08:37:12Z
+ 38. [60d..42c] if nft no exsit it will add | By - Alex Moshinsky | On - 2022-05-30T08:26:51Z
+ 39. [feb..41b] ready for testing | By - Alex Moshinsky | On - 2022-05-29T21:49:11Z
+ 40. [3b5..aac] check nft work | By - Alex Moshinsky | On - 2022-05-29T21:14:56Z
+ 41. [62b..327] add post request route | By - Alex Moshinsky | On - 2022-05-29T09:30:13Z
+ 42. [af0..c9e] nft-check wip | By - Alex Moshinsky | On - 2022-05-29T08:26:12Z
+ 43. [feb..db4] tron: enable worker for listener | By - imsk17 | On - 2022-05-17T12:23:56Z
+ 44. [f5c..518] nft-list: evm: properly commit changes to db for vechain | By - rupansh | On - 2022-05-12T09:23:45Z
+ 45. [cbc..3a1] listener: adapt for vechain | By - imsk17 | On - 2022-05-11T12:36:10Z
+ 46. [ebc..564] tron: add a check to live listener to avoid unfinalized blocks | By - imsk17 | On - 2022-05-08T10:32:52Z
+ 47. [a9b..6e5] iotex: add a contract to the list | By - imsk17 | On - 2022-05-08T10:32:51Z
+ 48. [30b..986] fix hardcoded testnet VeChain | By - Dima Brook | On - 2022-05-03T18:06:13Z
+ 49. [270..ace] fix type error | By - Dima Brook | On - 2022-05-03T16:14:58Z
+ 50. [f96..2f5] Merge pull request #3 from XP-NETWORK/vechain | By - Dima Brook | On - 2022-05-03T10:20:30Z
 
 ## nft-index-testnet
 
@@ -1001,85 +798,61 @@
  49. [9cf..2dc] helpers: apiResp: remove header from response body | By - rupansh | On - 2022-01-18T08:31:27Z
  50. [7bd..f4d] helpers: nftList: fix setting of Retry-After header | By - rupansh | On - 2022-01-18T08:31:11Z
 
-# erc20-validator
+# widget
 
 ## master
 
 
- 1. [c48..88e] .env.example: add FROST_ED25519_UUID | By - rupansh | On - 2022-08-01T17:50:28Z
- 2. [c18..89c] tree-wide: fixes for algorand transfers | By - rupansh | On - 2022-08-01T17:47:50Z
- 3. [675..f39] .env.example: minor typo fixes | By - rupansh | On - 2022-08-01T17:47:40Z
- 4. [85e..ea3] algo: minor fixes | By - rupansh | On - 2022-07-30T16:49:02Z
- 5. [335..37d] bridge: handle decimals | By - rupansh | On - 2022-07-30T16:06:24Z
- 6. [5af..d0d] enable algorand | By - rupansh | On - 2022-07-30T15:52:42Z
- 7. [039..bd1] handlers: use locks for sending txn | By - rupansh | On - 2022-07-28T14:30:55Z
- 8. [957..418] web3: use NonceManager signer | By - rupansh | On - 2022-07-28T14:19:19Z
- 9. [b6e..8eb] algo: implement unfreeze event handling | By - rupansh | On - 2022-07-28T14:01:47Z
- 10. [f3a..6b5] algo: add decoder for transfer event | By - rupansh | On - 2022-07-28T13:05:40Z
- 11. [12f..228] partial algorand bringup | By - rupansh | On - 2022-07-26T15:38:29Z
- 12. [7ee..56f] re-organize handlers | By - rupansh | On - 2022-07-26T13:48:10Z
- 13. [7da..ff5] add separate chains for testnet | By - rupansh | On - 2022-07-20T14:46:06Z
- 14. [012..be2] deps: fix minor derp | By - rupansh | On - 2022-07-20T14:23:55Z
- 15. [ae9..ea9] update .env.example | By - rupansh | On - 2022-07-18T18:40:19Z
- 16. [5ec..19f] events: switch to builder pattern and handle edge case | By - rupansh | On - 2022-07-18T18:35:36Z
- 17. [e4b..843] improve frost handling | By - rupansh | On - 2022-07-18T17:52:47Z
- 18. [6f0..c3c] use frost lib from git | By - rupansh | On - 2022-07-18T17:23:07Z
- 19. [96d..7af] initial import | By - rupansh | On - 2022-07-18T17:18:58Z
-
-# xpjs-erc20
-
-## master
-
-
- 1. [12f..021] fixes for algorand transfers | By - rupansh | On - 2022-08-01T17:48:10Z
- 2. [236..866] minor fixes | By - rupansh | On - 2022-07-30T16:48:38Z
- 3. [eaf..e4f] initial algorand support | By - rupansh | On - 2022-07-30T13:36:01Z
- 4. [a50..d49] update for bridge contract | By - rupansh | On - 2022-07-26T15:41:03Z
- 5. [4ad..118] add index | By - rupansh | On - 2022-07-20T17:13:34Z
- 6. [924..132] initial import | By - rupansh | On - 2022-07-20T17:06:46Z
-
-# algorand-asa-bridge
-
-## main
-
-
- 1. [254..79f] add setup script | By - rupansh | On - 2022-08-01T17:21:18Z
- 2. [6e1..27c] log token id | By - rocalex | On - 2022-08-01T16:03:19Z
- 3. [a88..b6a] fix receive_foreign | By - rocalex | On - 2022-08-01T13:44:26Z
- 4. [e9a..cc0] update on_receive_native | By - rocalex | On - 2022-07-31T10:11:10Z
- 5. [475..640] add target address | By - rocalex | On - 2022-07-29T02:41:53Z
- 6. [7bb..5c5] add target address | By - rocalex | On - 2022-07-29T02:13:36Z
- 7. [987..bd9] support multiple tokens | By - rocalex | On - 2022-07-27T14:09:06Z
- 8. [c88..7bf] check group transactions | By - rocalex | On - 2022-07-10T10:24:38Z
- 9. [c08..7b3] update README.md after testing | By - Dima Brook | On - 2022-06-29T13:15:53Z
- 10. [697..6de] update unit tests | By - rocalex | On - 2022-06-29T12:11:21Z
- 11. [9bd..92c] Update index.spec.ts | By - Xueming Zheng | On - 2022-06-28T10:47:04Z
- 12. [246..ecf] remove xpnet key | By - rocalex | On - 2022-06-22T09:04:41Z
- 13. [5f9..712] remove send_native & receive_native | By - rocalex | On - 2022-06-21T12:57:39Z
- 14. [488..e8f] fix update_gk | By - rocalex | On - 2022-06-21T04:15:56Z
- 15. [8da..db2] add consuming actions | By - rocalex | On - 2022-06-21T04:15:09Z
- 16. [31d..eea] pause/unpause, withdraw fees | By - rocalex | On - 2022-06-20T16:00:51Z
- 17. [065..9fa] change wrapped token name as XPNET | By - rocalex | On - 2022-06-16T08:53:22Z
- 18. [8c6..5fb] add readme | By - rocalex | On - 2022-06-15T20:25:25Z
- 19. [d6f..bea] add paused | By - rocalex | On - 2022-06-15T20:17:41Z
- 20. [0fc..012] lint fix | By - rocalex | On - 2022-06-15T20:08:29Z
- 21. [f6a..df4] receive native | By - rocalex | On - 2022-06-15T20:06:46Z
- 22. [aa1..769] send native | By - rocalex | On - 2022-06-15T19:54:47Z
- 23. [29e..39b] send wrapped | By - rocalex | On - 2022-06-15T19:37:19Z
- 24. [dd0..bf1] receive foreign | By - rocalex | On - 2022-06-15T18:35:22Z
- 25. [ee6..373] create wVPAD when bootstrap | By - rocalex | On - 2022-06-15T17:57:39Z
- 26. [b08..5d2] update group key | By - rocalex | On - 2022-06-15T17:20:59Z
- 27. [3cc..fc9] update group key | By - rocalex | On - 2022-06-15T17:08:37Z
- 28. [d42..410] add deploy script | By - rocalex | On - 2022-06-15T15:48:53Z
- 29. [eff..25d] initial unit tests | By - rocalex | On - 2022-06-15T14:49:50Z
- 30. [b69..51f] initial | By - rocalex | On - 2022-06-14T11:25:53Z
-
-# white_list_nft
-
-## main
-
-
- 1. [666..265] Added server and front end for white listing nft | By - awkwardman.dev | On - 2022-08-01T14:42:29Z
+ 1. [1c9..552] fixing bug | By - ronyXnes | On - 2022-08-08T14:47:33Z
+ 2. [845..5a8] affiliation wallet | By - ronyXnes | On - 2022-08-08T11:25:16Z
+ 3. [2f0..372] to cahin var fix | By - ronyXnes | On - 2022-08-08T11:05:41Z
+ 4. [7b9..2e3] to chain var fix | By - ronyXnes | On - 2022-08-08T08:22:45Z
+ 5. [1de..fc8]   isActive: { type: String } | By - ronyXnes | On - 2022-08-08T07:11:44Z
+ 6. [793..3f9] update widget | By - ronyXnes | On - 2022-08-07T15:58:44Z
+ 7. [7cc..676] update widget | By - ronyXnes | On - 2022-08-07T15:34:04Z
+ 8. [134..2a7] widget name | By - ronyXnes | On - 2022-08-07T15:07:20Z
+ 9. [df2..ec8] update widget - name | By - ronyXnes | On - 2022-08-07T15:04:52Z
+ 10. [07f..978] formatting | By - ronyXnes | On - 2022-08-07T14:38:10Z
+ 11. [27a..5d7] get card data | By - ronyXnes | On - 2022-08-07T14:37:21Z
+ 12. [fcd..39c] update without cookies | By - ronyXnes | On - 2022-08-07T12:32:30Z
+ 13. [9b5..9ea] isActive to getUserWidgetData | By - ronyXnes | On - 2022-08-07T11:47:51Z
+ 14. [79b..f4b] widget id list insted of only first in dashbord data | By - ronyXnes | On - 2022-08-07T11:19:16Z
+ 15. [fed..0db] suspend rout | By - ronyXnes | On - 2022-08-07T10:45:11Z
+ 16. [084..fdc] isActive: {type: Boolean , default: true} | By - ronyXnes | On - 2022-08-07T10:02:53Z
+ 17. [c39..888] transaction structure | By - ronyXnes | On - 2022-08-07T09:55:12Z
+ 18. [86b..0ec] route dashbord | By - ronyXnes | On - 2022-08-07T08:44:57Z
+ 19. [72d..ecb] route dashboard | By - ronyXnes | On - 2022-08-07T08:41:37Z
+ 20. [a57..4f5] dashboard rout | By - ronyXnes | On - 2022-08-07T08:40:01Z
+ 21. [c65..671] formating | By - ronyXnes | On - 2022-08-04T19:27:51Z
+ 22. [407..fe9] add trx - date as type date and fees as type string | By - ronyXnes | On - 2022-08-02T16:31:16Z
+ 23. [bc2..523] add trx - more info | By - ronyXnes | On - 2022-08-02T16:11:00Z
+ 24. [d2c..b97] delete widget - response widget that remain with client | By - ronyXnes | On - 2022-08-02T15:42:07Z
+ 25. [a04..ed4] formatting | By - ronyXnes | On - 2022-08-02T15:18:24Z
+ 26. [ceb..206] validate widget is not deleted | By - ronyXnes | On - 2022-08-02T15:18:14Z
+ 27. [ab8..dcc] validate if widget is deleted | By - ronyXnes | On - 2022-08-02T15:07:58Z
+ 28. [27b..aaa] widgetname fix | By - ronyXnes | On - 2022-08-02T14:08:51Z
+ 29. [acb..dec] dsad | By - AlexeyAdoniev | On - 2022-08-02T13:43:46Z
+ 30. [222..91c] megre, add cors | By - AlexeyAdoniev | On - 2022-08-02T12:37:27Z
+ 31. [bb8..fe3] index cors comment | By - ronyXnes | On - 2022-08-02T12:10:59Z
+ 32. [70a..e1d] a | By - Alex Moshinsky | On - 2022-08-02T10:47:04Z
+ 33. [23a..d1b] add to widget is active field | By - Alex Moshinsky | On - 2022-08-02T10:16:37Z
+ 34. [6f2..feb] add txs details | By - Alex Moshinsky | On - 2022-08-01T10:16:24Z
+ 35. [a13..589] fix | By - Alex Moshinsky | On - 2022-08-01T07:34:13Z
+ 36. [783..02f] add widgetName to request | By - Alex Moshinsky | On - 2022-08-01T07:25:18Z
+ 37. [761..3b5] add core check | By - Alex Moshinsky | On - 2022-07-31T16:18:04Z
+ 38. [504..fd7] fix | By - Alex Moshinsky | On - 2022-07-31T16:17:40Z
+ 39. [86e..863] disable cors | By - Alex Moshinsky | On - 2022-07-31T12:57:37Z
+ 40. [1e2..54d] return credentials | By - Alex Moshinsky | On - 2022-07-31T12:46:36Z
+ 41. [bfc..09d] add all user widget data route and widget name | By - Alex Moshinsky | On - 2022-07-31T12:34:01Z
+ 42. [a5c..fe5] cors port wildcard | By - AlexeyAdoniev | On - 2022-07-31T09:49:22Z
+ 43. [d99..1e0] dsdsa | By - AlexeyAdoniev | On - 2022-07-31T09:18:22Z
+ 44. [eed..67e] cors | By - AlexeyAdoniev | On - 2022-07-31T09:11:59Z
+ 45. [859..c26] dsad | By - AlexeyAdoniev | On - 2022-07-31T08:58:41Z
+ 46. [832..2ec] remove cookie | By - AlexeyAdoniev | On - 2022-07-19T09:34:50Z
+ 47. [2ba..b25] add cookie | By - AlexeyAdoniev | On - 2022-07-18T11:23:40Z
+ 48. [9a4..4a8] import settings from code for wid, wservice refactor | By - AlexeyAdoniev | On - 2022-07-17T17:39:39Z
+ 49. [088..685] extra fees to add transactions | By - ronyXnes | On - 2022-07-17T09:17:54Z
+ 50. [4c1..601] add transaction rout | By - ronyXnes | On - 2022-07-13T09:30:34Z
 
 # migration-validator
 
@@ -1248,56 +1021,56 @@
 ## erc1155
 
 
- 1. [2a5..ac7] godwoken: update decimals | By - rupansh | On - 2022-07-17T13:19:43Z
- 2. [372..894] Revert "metadata-store: fix extractTokenId fn" | By - rupansh | On - 2022-07-17T13:16:53Z
- 3. [91a..e75] metadata-store: fix extractTokenId fn | By - imsk17 | On - 2022-07-04T08:31:16Z
- 4. [071..330] bump algosdk | By - rupansh | On - 2022-06-30T15:38:33Z
- 5. [a79..11d] gitignore: add .env.bak | By - rupansh | On - 2022-06-30T15:37:29Z
- 6. [ba5..242] events: transferUnique: withMetadataInfo: store to ipfs if required | By - rupansh | On - 2022-06-15T17:29:06Z
- 7. [672..461] add gas workaround for fantom | By - rupansh | On - 2022-06-14T16:32:11Z
- 8. [6e1..8f4] bridge: use nft origin to check mintWith | By - rupansh | On - 2022-06-13T16:43:30Z
- 9. [d1c..95b] add more debug logs and minor fixes | By - rupansh | On - 2022-06-13T16:37:21Z
- 10. [2c0..d44] update getting of defaultMintWith | By - rupansh | On - 2022-06-10T14:14:17Z
- 11. [873..691] Revert "[TEMP] bridge: tron: add debug log for defaultMintWith" | By - rupansh | On - 2022-06-10T14:14:17Z
- 12. [d30..d2d] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:17:53Z
- 13. [c31..d7c] fixed issue tezos metadata | By - Ruby Edelstein | On - 2022-06-02T14:06:01Z
- 14. [057..41c] a | By - Ruby Edelstein | On - 2022-06-02T14:05:16Z
- 15. [e50..4cc] a | By - Ruby Edelstein | On - 2022-06-02T14:03:38Z
- 16. [e6a..284] a | By - Ruby Edelstein | On - 2022-06-02T14:03:00Z
- 17. [ad5..121] a | By - Ruby Edelstein | On - 2022-06-02T14:02:17Z
- 18. [a95..c2b] a | By - Ruby Edelstein | On - 2022-06-02T13:59:26Z
- 19. [a1a..13f] a | By - Ruby Edelstein | On - 2022-06-02T13:57:47Z
- 20. [6b9..377] fixed ipfs | By - Ruby Edelstein | On - 2022-06-02T13:52:33Z
- 21. [ee3..e05] added xp network ipfs gateway | By - Ruby Edelstein | On - 2022-06-02T13:03:04Z
- 22. [037..2fb] remove xp.network wrapped nft from description | By - Ruby Edelstein | On - 2022-05-26T15:25:32Z
- 23. [63b..145] bridge: use defaultMintWith instead of xpnft for checking unfreeze | By - rupansh | On - 2022-05-24T12:10:43Z
- 24. [841..6f4] [TEMP] bridge: tron: add debug log for defaultMintWith | By - rupansh | On - 2022-05-24T11:58:02Z
- 25. [b0c..c62] erc721_metadata: extractTokenId: allow any subdomains from xp.network | By - rupansh | On - 2022-05-23T15:19:35Z
- 26. [7aa..72a] tron: defaultMintWith: fix derp | By - rupansh | On - 2022-05-23T14:56:06Z
- 27. [0b0..0e2] .env.example: add whitelist event config | By - rupansh | On - 2022-05-19T15:22:30Z
- 28. [fdf..a7a] initial whitelist impl | By - rupansh | On - 2022-05-19T15:16:42Z
- 29. [dff..399] [TEMP] bridge: add mintWith workaround for harmony | By - rupansh | On - 2022-05-18T14:05:10Z
- 30. [00d..983] signal: waitCommitment: increase timeout to 400 seconds | By - rupansh | On - 2022-05-17T15:45:02Z
- 31. [40d..541] [TEMP] elrond: elrdMetadataWrap: add debugging logs | By - rupansh | On - 2022-05-17T14:37:14Z
- 32. [32f..e30] bridge: ipfsMetadataFetch: use ipfs.io as fallback gateway | By - rupansh | On - 2022-05-16T14:54:22Z
- 33. [c00..974] algorand: add listenOnly flag for validators not participating in sending transaction | By - rupansh | On - 2022-05-16T14:22:10Z
- 34. [750..945] elrond: improve metadata wrapping | By - rupansh | On - 2022-05-11T10:24:48Z
- 35. [d2b..2a8] handlers: ipfsMetadataFetch: increase timeout to 30s | By - rupansh | On - 2022-05-11T09:54:20Z
- 36. [280..0aa] elrond: extractFrozenAttr: sanitize metadata url | By - rupansh | On - 2022-05-10T15:30:59Z
- 37. [d57..4ad] deps: elrond: fix derp | By - rupansh | On - 2022-05-10T13:30:10Z
- 38. [e3c..cb4] elrond: improve metadata detection | By - rupansh | On - 2022-05-10T13:22:50Z
- 39. [457..8de] algorand: factories: use 443 for port | By - rupansh | On - 2022-05-09T12:42:33Z
- 40. [230..82d] algorand: utils: fix constructors | By - rupansh | On - 2022-05-09T12:25:17Z
- 41. [c6f..d3a] signAndSendWrap: only stringify if algorand | By - imsk17 | On - 2022-05-09T11:41:35Z
- 42. [76d..081] [TEMP] bridge: update workaround for royaltyhack | By - rupansh | On - 2022-05-08T15:41:54Z
- 43. [a63..302] [TEMP] bridge: add hacks for royalties derp | By - rupansh | On - 2022-05-08T15:31:31Z
- 44. [2fc..f04] elrond: try decoding attributes for transfer | By - rupansh | On - 2022-05-08T14:29:10Z
- 45. [d7b..a66] handlers: evm: add debug logs | By - rupansh | On - 2022-05-08T12:50:07Z
- 46. [7eb..6ae] iotex: reduce gas limit | By - rupansh | On - 2022-05-06T12:03:37Z
- 47. [b8d..161] config: remove duplicate gatechain entry | By - imsk17 | On - 2022-05-04T11:41:34Z
- 48. [ff5..dce] Merge branch 'vech' into erc1155 | By - imsk17 | On - 2022-05-04T11:35:38Z
- 49. [c6d..372] iotex: increase gas limit and gas price | By - imsk17 | On - 2022-05-02T19:37:39Z
- 50. [219..03f] tezos: increase gas limit | By - imsk17 | On - 2022-05-01T16:07:58Z
+ 1. [25a..6b1] bridge: add support for token id mapping | By - rupansh | On - 2022-08-05T18:01:36Z
+ 2. [2a5..ac7] godwoken: update decimals | By - rupansh | On - 2022-07-17T13:19:43Z
+ 3. [372..894] Revert "metadata-store: fix extractTokenId fn" | By - rupansh | On - 2022-07-17T13:16:53Z
+ 4. [91a..e75] metadata-store: fix extractTokenId fn | By - imsk17 | On - 2022-07-04T08:31:16Z
+ 5. [071..330] bump algosdk | By - rupansh | On - 2022-06-30T15:38:33Z
+ 6. [a79..11d] gitignore: add .env.bak | By - rupansh | On - 2022-06-30T15:37:29Z
+ 7. [ba5..242] events: transferUnique: withMetadataInfo: store to ipfs if required | By - rupansh | On - 2022-06-15T17:29:06Z
+ 8. [672..461] add gas workaround for fantom | By - rupansh | On - 2022-06-14T16:32:11Z
+ 9. [6e1..8f4] bridge: use nft origin to check mintWith | By - rupansh | On - 2022-06-13T16:43:30Z
+ 10. [d1c..95b] add more debug logs and minor fixes | By - rupansh | On - 2022-06-13T16:37:21Z
+ 11. [2c0..d44] update getting of defaultMintWith | By - rupansh | On - 2022-06-10T14:14:17Z
+ 12. [873..691] Revert "[TEMP] bridge: tron: add debug log for defaultMintWith" | By - rupansh | On - 2022-06-10T14:14:17Z
+ 13. [d30..d2d] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:17:53Z
+ 14. [c31..d7c] fixed issue tezos metadata | By - Ruby Edelstein | On - 2022-06-02T14:06:01Z
+ 15. [057..41c] a | By - Ruby Edelstein | On - 2022-06-02T14:05:16Z
+ 16. [e50..4cc] a | By - Ruby Edelstein | On - 2022-06-02T14:03:38Z
+ 17. [e6a..284] a | By - Ruby Edelstein | On - 2022-06-02T14:03:00Z
+ 18. [ad5..121] a | By - Ruby Edelstein | On - 2022-06-02T14:02:17Z
+ 19. [a95..c2b] a | By - Ruby Edelstein | On - 2022-06-02T13:59:26Z
+ 20. [a1a..13f] a | By - Ruby Edelstein | On - 2022-06-02T13:57:47Z
+ 21. [6b9..377] fixed ipfs | By - Ruby Edelstein | On - 2022-06-02T13:52:33Z
+ 22. [ee3..e05] added xp network ipfs gateway | By - Ruby Edelstein | On - 2022-06-02T13:03:04Z
+ 23. [037..2fb] remove xp.network wrapped nft from description | By - Ruby Edelstein | On - 2022-05-26T15:25:32Z
+ 24. [63b..145] bridge: use defaultMintWith instead of xpnft for checking unfreeze | By - rupansh | On - 2022-05-24T12:10:43Z
+ 25. [841..6f4] [TEMP] bridge: tron: add debug log for defaultMintWith | By - rupansh | On - 2022-05-24T11:58:02Z
+ 26. [b0c..c62] erc721_metadata: extractTokenId: allow any subdomains from xp.network | By - rupansh | On - 2022-05-23T15:19:35Z
+ 27. [7aa..72a] tron: defaultMintWith: fix derp | By - rupansh | On - 2022-05-23T14:56:06Z
+ 28. [0b0..0e2] .env.example: add whitelist event config | By - rupansh | On - 2022-05-19T15:22:30Z
+ 29. [fdf..a7a] initial whitelist impl | By - rupansh | On - 2022-05-19T15:16:42Z
+ 30. [dff..399] [TEMP] bridge: add mintWith workaround for harmony | By - rupansh | On - 2022-05-18T14:05:10Z
+ 31. [00d..983] signal: waitCommitment: increase timeout to 400 seconds | By - rupansh | On - 2022-05-17T15:45:02Z
+ 32. [40d..541] [TEMP] elrond: elrdMetadataWrap: add debugging logs | By - rupansh | On - 2022-05-17T14:37:14Z
+ 33. [32f..e30] bridge: ipfsMetadataFetch: use ipfs.io as fallback gateway | By - rupansh | On - 2022-05-16T14:54:22Z
+ 34. [c00..974] algorand: add listenOnly flag for validators not participating in sending transaction | By - rupansh | On - 2022-05-16T14:22:10Z
+ 35. [750..945] elrond: improve metadata wrapping | By - rupansh | On - 2022-05-11T10:24:48Z
+ 36. [d2b..2a8] handlers: ipfsMetadataFetch: increase timeout to 30s | By - rupansh | On - 2022-05-11T09:54:20Z
+ 37. [280..0aa] elrond: extractFrozenAttr: sanitize metadata url | By - rupansh | On - 2022-05-10T15:30:59Z
+ 38. [d57..4ad] deps: elrond: fix derp | By - rupansh | On - 2022-05-10T13:30:10Z
+ 39. [e3c..cb4] elrond: improve metadata detection | By - rupansh | On - 2022-05-10T13:22:50Z
+ 40. [457..8de] algorand: factories: use 443 for port | By - rupansh | On - 2022-05-09T12:42:33Z
+ 41. [230..82d] algorand: utils: fix constructors | By - rupansh | On - 2022-05-09T12:25:17Z
+ 42. [c6f..d3a] signAndSendWrap: only stringify if algorand | By - imsk17 | On - 2022-05-09T11:41:35Z
+ 43. [76d..081] [TEMP] bridge: update workaround for royaltyhack | By - rupansh | On - 2022-05-08T15:41:54Z
+ 44. [a63..302] [TEMP] bridge: add hacks for royalties derp | By - rupansh | On - 2022-05-08T15:31:31Z
+ 45. [2fc..f04] elrond: try decoding attributes for transfer | By - rupansh | On - 2022-05-08T14:29:10Z
+ 46. [d7b..a66] handlers: evm: add debug logs | By - rupansh | On - 2022-05-08T12:50:07Z
+ 47. [7eb..6ae] iotex: reduce gas limit | By - rupansh | On - 2022-05-06T12:03:37Z
+ 48. [b8d..161] config: remove duplicate gatechain entry | By - imsk17 | On - 2022-05-04T11:41:34Z
+ 49. [ff5..dce] Merge branch 'vech' into erc1155 | By - imsk17 | On - 2022-05-04T11:35:38Z
+ 50. [c6d..372] iotex: increase gas limit and gas price | By - imsk17 | On - 2022-05-02T19:37:39Z
 
 ## features/algorand
 
@@ -1461,59 +1234,113 @@
  49. [43c..319] bridge: handlers: improve ipfs url detection | By - rupansh | On - 2022-02-27T10:35:13Z
  50. [af2..eff] added aurora | By - VKint | On - 2022-02-27T08:44:27Z
 
+## idl
+
+
+ 1. [b18..005] Handlers: Dfinity: Migrate Unfreeze to Use IDL | By - imsk17 | On - 2022-08-08T14:09:12Z
+ 2. [c45..801] Fix Hedera | By - imsk17 | On - 2022-08-08T12:36:17Z
+ 3. [724..05d] Dfinity Fixes | By - rupansh | On - 2022-08-08T08:56:10Z
+ 4. [ffe..75b] SignAndSend: Add Gas Limit For Hedera | By - imsk17 | On - 2022-08-08T08:47:41Z
+ 5. [9f0..3c9] handlers: dfinity: use idl | By - imsk17 | On - 2022-08-05T09:12:31Z
+ 6. [906..e4c] Fixes For Hedera | By - imsk17 | On - 2022-08-01T10:31:28Z
+ 7. [725..88c] Dfinity: Use Node-Fetch for HttpAgent | By - imsk17 | On - 2022-07-24T11:54:23Z
+ 8. [d5f..213] Dfinity: Use Secret Key To Derive Wallet | By - imsk17 | On - 2022-07-24T09:33:25Z
+ 9. [fff..bc9] Config: Hedera: Fix Import | By - imsk17 | On - 2022-07-21T13:14:11Z
+ 10. [951..bc0] Config: Hedera: Use Seprate PK For Hedera | By - imsk17 | On - 2022-07-21T13:06:17Z
+ 11. [6e0..48a] config: simplify logging | By - imsk17 | On - 2022-07-21T12:59:38Z
+ 12. [cc0..958] config: simplify the web3 handler logic | By - imsk17 | On - 2022-07-21T12:27:22Z
+ 13. [6aa..c53] config: add dfinity to handler | By - imsk17 | On - 2022-07-21T11:53:16Z
+ 14. [4ad..a98] Gas Price: Workaround for Hedera's Missing Gas Price Method | By - imsk17 | On - 2022-07-20T12:00:13Z
+ 15. [ff7..7ae] configs: chains: nonce collision fix for skale | By - imsk17 | On - 2022-07-08T12:32:30Z
+ 16. [ee4..db7] chains: add support for skale | By - imsk17 | On - 2022-07-08T11:34:41Z
+ 17. [2d3..e2d] initial whitelist impl | By - rupansh | On - 2022-07-04T13:52:59Z
+ 18. [001..85c] Merge branch 'ed25519' into merged | By - imsk17 | On - 2022-07-04T13:37:29Z
+ 19. [91a..e75] metadata-store: fix extractTokenId fn | By - imsk17 | On - 2022-07-04T08:31:16Z
+ 20. [071..330] bump algosdk | By - rupansh | On - 2022-06-30T15:38:33Z
+ 21. [a79..11d] gitignore: add .env.bak | By - rupansh | On - 2022-06-30T15:37:29Z
+ 22. [fce..1fa] web3: add hedera | By - imsk17 | On - 2022-06-30T13:00:10Z
+ 23. [75b..f25] initial dfinity bringup | By - rupansh | On - 2022-06-27T12:28:17Z
+ 24. [b7a..af6] TON: use proper currency | By - rupansh | On - 2022-06-25T11:39:16Z
+ 25. [427..605] update chain nonces for solana,ton | By - rupansh | On - 2022-06-25T09:54:33Z
+ 26. [22d..614] fix compilation | By - rupansh | On - 2022-06-25T09:32:34Z
+ 27. [2f6..9e0] ton: initial event deserialization | By - rupansh | On - 2022-06-23T17:21:13Z
+ 28. [454..fcf] ton: initial event handlers and minor fixes | By - rupansh | On - 2022-06-21T15:34:15Z
+ 29. [4b8..437] solana: fix decimals | By - rupansh | On - 2022-06-21T13:05:10Z
+ 30. [c8e..7ae] TON: fix event serialization | By - rupansh | On - 2022-06-21T13:03:02Z
+ 31. [315..30d] solana: event fixes | By - rupansh | On - 2022-06-20T19:01:00Z
+ 32. [080..ac0] solana: get action id from event | By - rupansh | On - 2022-06-20T18:42:00Z
+ 33. [319..0c2] TON: partially move serialization to the contract | By - rupansh | On - 2022-06-19T17:50:36Z
+ 34. [286..02c] initial TON boilerplate | By - rupansh | On - 2022-06-19T17:42:19Z
+ 35. [28a..25e] solana: initial event decoding | By - rupansh | On - 2022-06-19T16:39:08Z
+ 36. [8f8..48d] add support for SHA256 based FROST ED25519 signatures | By - rupansh | On - 2022-06-17T18:25:24Z
+ 37. [dc9..b25] solana: unfreeze updates | By - rupansh | On - 2022-06-17T17:52:33Z
+ 38. [ba5..242] events: transferUnique: withMetadataInfo: store to ipfs if required | By - rupansh | On - 2022-06-15T17:29:06Z
+ 39. [672..461] add gas workaround for fantom | By - rupansh | On - 2022-06-14T16:32:11Z
+ 40. [116..99c] solana: initial unfreeze | By - rupansh | On - 2022-06-13T19:36:30Z
+ 41. [6e1..8f4] bridge: use nft origin to check mintWith | By - rupansh | On - 2022-06-13T16:43:30Z
+ 42. [d1c..95b] add more debug logs and minor fixes | By - rupansh | On - 2022-06-13T16:37:21Z
+ 43. [1ff..28a] initial partial solana implementation | By - rupansh | On - 2022-06-12T14:08:57Z
+ 44. [2c0..d44] update getting of defaultMintWith | By - rupansh | On - 2022-06-10T14:14:17Z
+ 45. [873..691] Revert "[TEMP] bridge: tron: add debug log for defaultMintWith" | By - rupansh | On - 2022-06-10T14:14:17Z
+ 46. [308..2d7] handlers: secret: fixes | By - imsk17 | On - 2022-06-09T11:51:40Z
+ 47. [fa1..857] secret: wrapping: use correct field for metadata | By - imsk17 | On - 2022-06-07T15:33:03Z
+ 48. [d30..d2d] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:17:53Z
+ 49. [b22..7db] lint: fix eslint issues | By - imsk17 | On - 2022-06-03T11:00:06Z
+ 50. [c31..d7c] fixed issue tezos metadata | By - Ruby Edelstein | On - 2022-06-02T14:06:01Z
+
 ## merged
 
 
- 1. [906..e4c] Fixes For Hedera | By - imsk17 | On - 2022-08-01T10:31:28Z
- 2. [725..88c] Dfinity: Use Node-Fetch for HttpAgent | By - imsk17 | On - 2022-07-24T11:54:23Z
- 3. [d5f..213] Dfinity: Use Secret Key To Derive Wallet | By - imsk17 | On - 2022-07-24T09:33:25Z
- 4. [fff..bc9] Config: Hedera: Fix Import | By - imsk17 | On - 2022-07-21T13:14:11Z
- 5. [951..bc0] Config: Hedera: Use Seprate PK For Hedera | By - imsk17 | On - 2022-07-21T13:06:17Z
- 6. [6e0..48a] config: simplify logging | By - imsk17 | On - 2022-07-21T12:59:38Z
- 7. [cc0..958] config: simplify the web3 handler logic | By - imsk17 | On - 2022-07-21T12:27:22Z
- 8. [6aa..c53] config: add dfinity to handler | By - imsk17 | On - 2022-07-21T11:53:16Z
- 9. [4ad..a98] Gas Price: Workaround for Hedera's Missing Gas Price Method | By - imsk17 | On - 2022-07-20T12:00:13Z
- 10. [ff7..7ae] configs: chains: nonce collision fix for skale | By - imsk17 | On - 2022-07-08T12:32:30Z
- 11. [ee4..db7] chains: add support for skale | By - imsk17 | On - 2022-07-08T11:34:41Z
- 12. [2d3..e2d] initial whitelist impl | By - rupansh | On - 2022-07-04T13:52:59Z
- 13. [001..85c] Merge branch 'ed25519' into merged | By - imsk17 | On - 2022-07-04T13:37:29Z
- 14. [91a..e75] metadata-store: fix extractTokenId fn | By - imsk17 | On - 2022-07-04T08:31:16Z
- 15. [071..330] bump algosdk | By - rupansh | On - 2022-06-30T15:38:33Z
- 16. [a79..11d] gitignore: add .env.bak | By - rupansh | On - 2022-06-30T15:37:29Z
- 17. [fce..1fa] web3: add hedera | By - imsk17 | On - 2022-06-30T13:00:10Z
- 18. [75b..f25] initial dfinity bringup | By - rupansh | On - 2022-06-27T12:28:17Z
- 19. [b7a..af6] TON: use proper currency | By - rupansh | On - 2022-06-25T11:39:16Z
- 20. [427..605] update chain nonces for solana,ton | By - rupansh | On - 2022-06-25T09:54:33Z
- 21. [22d..614] fix compilation | By - rupansh | On - 2022-06-25T09:32:34Z
- 22. [2f6..9e0] ton: initial event deserialization | By - rupansh | On - 2022-06-23T17:21:13Z
- 23. [454..fcf] ton: initial event handlers and minor fixes | By - rupansh | On - 2022-06-21T15:34:15Z
- 24. [4b8..437] solana: fix decimals | By - rupansh | On - 2022-06-21T13:05:10Z
- 25. [c8e..7ae] TON: fix event serialization | By - rupansh | On - 2022-06-21T13:03:02Z
- 26. [315..30d] solana: event fixes | By - rupansh | On - 2022-06-20T19:01:00Z
- 27. [080..ac0] solana: get action id from event | By - rupansh | On - 2022-06-20T18:42:00Z
- 28. [319..0c2] TON: partially move serialization to the contract | By - rupansh | On - 2022-06-19T17:50:36Z
- 29. [286..02c] initial TON boilerplate | By - rupansh | On - 2022-06-19T17:42:19Z
- 30. [28a..25e] solana: initial event decoding | By - rupansh | On - 2022-06-19T16:39:08Z
- 31. [8f8..48d] add support for SHA256 based FROST ED25519 signatures | By - rupansh | On - 2022-06-17T18:25:24Z
- 32. [dc9..b25] solana: unfreeze updates | By - rupansh | On - 2022-06-17T17:52:33Z
- 33. [ba5..242] events: transferUnique: withMetadataInfo: store to ipfs if required | By - rupansh | On - 2022-06-15T17:29:06Z
- 34. [672..461] add gas workaround for fantom | By - rupansh | On - 2022-06-14T16:32:11Z
- 35. [116..99c] solana: initial unfreeze | By - rupansh | On - 2022-06-13T19:36:30Z
- 36. [6e1..8f4] bridge: use nft origin to check mintWith | By - rupansh | On - 2022-06-13T16:43:30Z
- 37. [d1c..95b] add more debug logs and minor fixes | By - rupansh | On - 2022-06-13T16:37:21Z
- 38. [1ff..28a] initial partial solana implementation | By - rupansh | On - 2022-06-12T14:08:57Z
- 39. [2c0..d44] update getting of defaultMintWith | By - rupansh | On - 2022-06-10T14:14:17Z
- 40. [873..691] Revert "[TEMP] bridge: tron: add debug log for defaultMintWith" | By - rupansh | On - 2022-06-10T14:14:17Z
- 41. [308..2d7] handlers: secret: fixes | By - imsk17 | On - 2022-06-09T11:51:40Z
- 42. [fa1..857] secret: wrapping: use correct field for metadata | By - imsk17 | On - 2022-06-07T15:33:03Z
- 43. [d30..d2d] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:17:53Z
- 44. [b22..7db] lint: fix eslint issues | By - imsk17 | On - 2022-06-03T11:00:06Z
- 45. [c31..d7c] fixed issue tezos metadata | By - Ruby Edelstein | On - 2022-06-02T14:06:01Z
- 46. [057..41c] a | By - Ruby Edelstein | On - 2022-06-02T14:05:16Z
- 47. [e50..4cc] a | By - Ruby Edelstein | On - 2022-06-02T14:03:38Z
- 48. [e6a..284] a | By - Ruby Edelstein | On - 2022-06-02T14:03:00Z
- 49. [ad5..121] a | By - Ruby Edelstein | On - 2022-06-02T14:02:17Z
- 50. [a95..c2b] a | By - Ruby Edelstein | On - 2022-06-02T13:59:26Z
+ 1. [772..888] Merge pull request #12 from XP-NETWORK/erc1155 | By - Dima Brook | On - 2022-08-08T08:40:14Z
+ 2. [409..bb8] Merge branch 'merged' into erc1155 | By - Dima Brook | On - 2022-08-08T08:38:34Z
+ 3. [25a..6b1] bridge: add support for token id mapping | By - rupansh | On - 2022-08-05T18:01:36Z
+ 4. [906..e4c] Fixes For Hedera | By - imsk17 | On - 2022-08-01T10:31:28Z
+ 5. [725..88c] Dfinity: Use Node-Fetch for HttpAgent | By - imsk17 | On - 2022-07-24T11:54:23Z
+ 6. [d5f..213] Dfinity: Use Secret Key To Derive Wallet | By - imsk17 | On - 2022-07-24T09:33:25Z
+ 7. [fff..bc9] Config: Hedera: Fix Import | By - imsk17 | On - 2022-07-21T13:14:11Z
+ 8. [951..bc0] Config: Hedera: Use Seprate PK For Hedera | By - imsk17 | On - 2022-07-21T13:06:17Z
+ 9. [6e0..48a] config: simplify logging | By - imsk17 | On - 2022-07-21T12:59:38Z
+ 10. [cc0..958] config: simplify the web3 handler logic | By - imsk17 | On - 2022-07-21T12:27:22Z
+ 11. [6aa..c53] config: add dfinity to handler | By - imsk17 | On - 2022-07-21T11:53:16Z
+ 12. [4ad..a98] Gas Price: Workaround for Hedera's Missing Gas Price Method | By - imsk17 | On - 2022-07-20T12:00:13Z
+ 13. [2a5..ac7] godwoken: update decimals | By - rupansh | On - 2022-07-17T13:19:43Z
+ 14. [372..894] Revert "metadata-store: fix extractTokenId fn" | By - rupansh | On - 2022-07-17T13:16:53Z
+ 15. [ff7..7ae] configs: chains: nonce collision fix for skale | By - imsk17 | On - 2022-07-08T12:32:30Z
+ 16. [ee4..db7] chains: add support for skale | By - imsk17 | On - 2022-07-08T11:34:41Z
+ 17. [2d3..e2d] initial whitelist impl | By - rupansh | On - 2022-07-04T13:52:59Z
+ 18. [001..85c] Merge branch 'ed25519' into merged | By - imsk17 | On - 2022-07-04T13:37:29Z
+ 19. [91a..e75] metadata-store: fix extractTokenId fn | By - imsk17 | On - 2022-07-04T08:31:16Z
+ 20. [071..330] bump algosdk | By - rupansh | On - 2022-06-30T15:38:33Z
+ 21. [a79..11d] gitignore: add .env.bak | By - rupansh | On - 2022-06-30T15:37:29Z
+ 22. [fce..1fa] web3: add hedera | By - imsk17 | On - 2022-06-30T13:00:10Z
+ 23. [75b..f25] initial dfinity bringup | By - rupansh | On - 2022-06-27T12:28:17Z
+ 24. [b7a..af6] TON: use proper currency | By - rupansh | On - 2022-06-25T11:39:16Z
+ 25. [427..605] update chain nonces for solana,ton | By - rupansh | On - 2022-06-25T09:54:33Z
+ 26. [22d..614] fix compilation | By - rupansh | On - 2022-06-25T09:32:34Z
+ 27. [2f6..9e0] ton: initial event deserialization | By - rupansh | On - 2022-06-23T17:21:13Z
+ 28. [454..fcf] ton: initial event handlers and minor fixes | By - rupansh | On - 2022-06-21T15:34:15Z
+ 29. [4b8..437] solana: fix decimals | By - rupansh | On - 2022-06-21T13:05:10Z
+ 30. [c8e..7ae] TON: fix event serialization | By - rupansh | On - 2022-06-21T13:03:02Z
+ 31. [315..30d] solana: event fixes | By - rupansh | On - 2022-06-20T19:01:00Z
+ 32. [080..ac0] solana: get action id from event | By - rupansh | On - 2022-06-20T18:42:00Z
+ 33. [319..0c2] TON: partially move serialization to the contract | By - rupansh | On - 2022-06-19T17:50:36Z
+ 34. [286..02c] initial TON boilerplate | By - rupansh | On - 2022-06-19T17:42:19Z
+ 35. [28a..25e] solana: initial event decoding | By - rupansh | On - 2022-06-19T16:39:08Z
+ 36. [8f8..48d] add support for SHA256 based FROST ED25519 signatures | By - rupansh | On - 2022-06-17T18:25:24Z
+ 37. [dc9..b25] solana: unfreeze updates | By - rupansh | On - 2022-06-17T17:52:33Z
+ 38. [ba5..242] events: transferUnique: withMetadataInfo: store to ipfs if required | By - rupansh | On - 2022-06-15T17:29:06Z
+ 39. [672..461] add gas workaround for fantom | By - rupansh | On - 2022-06-14T16:32:11Z
+ 40. [116..99c] solana: initial unfreeze | By - rupansh | On - 2022-06-13T19:36:30Z
+ 41. [6e1..8f4] bridge: use nft origin to check mintWith | By - rupansh | On - 2022-06-13T16:43:30Z
+ 42. [d1c..95b] add more debug logs and minor fixes | By - rupansh | On - 2022-06-13T16:37:21Z
+ 43. [1ff..28a] initial partial solana implementation | By - rupansh | On - 2022-06-12T14:08:57Z
+ 44. [2c0..d44] update getting of defaultMintWith | By - rupansh | On - 2022-06-10T14:14:17Z
+ 45. [873..691] Revert "[TEMP] bridge: tron: add debug log for defaultMintWith" | By - rupansh | On - 2022-06-10T14:14:17Z
+ 46. [308..2d7] handlers: secret: fixes | By - imsk17 | On - 2022-06-09T11:51:40Z
+ 47. [fa1..857] secret: wrapping: use correct field for metadata | By - imsk17 | On - 2022-06-07T15:33:03Z
+ 48. [d30..d2d] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T14:17:53Z
+ 49. [b22..7db] lint: fix eslint issues | By - imsk17 | On - 2022-06-03T11:00:06Z
+ 50. [c31..d7c] fixed issue tezos metadata | By - Ruby Edelstein | On - 2022-06-02T14:06:01Z
 
 ## testing-erc1155
 
@@ -1731,43 +1558,273 @@
  49. [95d..b34] erc721_metadata: minor fix | By - rupansh | On - 2021-11-09T12:17:30Z
  50. [33b..5aa] gitignore: remove dist | By - rupansh | On - 2021-11-09T12:17:16Z
 
-# new-xp-website
+# deploying_tezos
 
 ## main
 
 
- 1. [e8d..09d] videos keep playing whwn pressing go back browser update | By - Lihi Sherm | On - 2022-07-31T09:50:04Z
- 2. [a46..620] videos keep playing whwn pressing go back browser update | By - Lihi Sherm | On - 2022-07-31T07:59:16Z
- 3. [2a4..047] main page update | By - Lihi Sherm | On - 2022-07-28T13:27:46Z
- 4. [f62..f98] new case study-hog homies | By - Lihi Sherm | On - 2022-07-28T12:46:30Z
- 5. [f01..6ff] new case study-hog homies | By - Lihi Sherm | On - 2022-07-28T11:06:08Z
- 6. [963..6cf] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T14:12:42Z
- 7. [ac8..5eb] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T13:04:01Z
- 8. [23b..8ef] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T08:47:14Z
- 9. [128..6a6] updates | By - Lihi Sherm | On - 2022-07-26T12:54:53Z
- 10. [9af..369] updates | By - Lihi Sherm | On - 2022-07-25T14:44:41Z
- 11. [34d..478] updates | By - Lihi Sherm | On - 2022-07-25T13:50:35Z
- 12. [a9f..0c7] updates | By - Lihi Sherm | On - 2022-07-25T09:55:46Z
- 13. [c0f..e20] updates in updates home section | By - Lihi Sherm | On - 2022-07-13T13:14:43Z
- 14. [ed9..885] rm links | By - Lihi Sherm | On - 2022-07-13T13:04:51Z
- 15. [f2a..ca6] rm links | By - Lihi Sherm | On - 2022-07-13T11:25:28Z
- 16. [4d2..d5e] ui updates | By - Lihi Sherm | On - 2022-07-13T11:00:45Z
- 17. [916..9ad] ui updates | By - Lihi Sherm | On - 2022-07-13T08:41:10Z
- 18. [801..eb9] updates | By - Lihi Sherm | On - 2022-07-12T14:50:25Z
- 19. [527..56c] events page, header change | By - Lihi Sherm | On - 2022-06-13T10:21:45Z
+ 1. [463..c01] Update xpbridge.py | By - Dima Brook | On - 2022-08-08T12:19:02Z
+ 2. [6ab..d25] Update xpnft.py | By - Dima Brook | On - 2022-08-08T12:17:58Z
+ 3. [159..da3] Update README.md | By - Dima Brook | On - 2022-03-17T12:37:31Z
+ 4. [db8..3a1] fix | By - Dima Brook | On - 2022-03-16T18:07:11Z
+ 5. [186..8d1] add setup | By - Dima Brook | On - 2022-03-14T19:53:56Z
+ 6. [aef..100] add setup | By - Dima Brook | On - 2022-03-14T19:53:06Z
+ 7. [85e..4af] second commit | By - Dima Brook | On - 2022-03-14T19:48:13Z
+ 8. [316..b46] first commit | By - Dima Brook | On - 2022-03-14T12:51:44Z
 
-# web3-erc20-contracts
+# algorand-asa-bridge
+
+## main
+
+
+ 1. [402..b0d] add script for issuing wrapper tokens | By - rupansh | On - 2022-08-08T12:07:10Z
+ 2. [254..79f] add setup script | By - rupansh | On - 2022-08-01T17:21:18Z
+ 3. [6e1..27c] log token id | By - rocalex | On - 2022-08-01T16:03:19Z
+ 4. [a88..b6a] fix receive_foreign | By - rocalex | On - 2022-08-01T13:44:26Z
+ 5. [e9a..cc0] update on_receive_native | By - rocalex | On - 2022-07-31T10:11:10Z
+ 6. [475..640] add target address | By - rocalex | On - 2022-07-29T02:41:53Z
+ 7. [7bb..5c5] add target address | By - rocalex | On - 2022-07-29T02:13:36Z
+ 8. [987..bd9] support multiple tokens | By - rocalex | On - 2022-07-27T14:09:06Z
+ 9. [c88..7bf] check group transactions | By - rocalex | On - 2022-07-10T10:24:38Z
+ 10. [c08..7b3] update README.md after testing | By - Dima Brook | On - 2022-06-29T13:15:53Z
+ 11. [697..6de] update unit tests | By - rocalex | On - 2022-06-29T12:11:21Z
+ 12. [9bd..92c] Update index.spec.ts | By - Xueming Zheng | On - 2022-06-28T10:47:04Z
+ 13. [246..ecf] remove xpnet key | By - rocalex | On - 2022-06-22T09:04:41Z
+ 14. [5f9..712] remove send_native & receive_native | By - rocalex | On - 2022-06-21T12:57:39Z
+ 15. [488..e8f] fix update_gk | By - rocalex | On - 2022-06-21T04:15:56Z
+ 16. [8da..db2] add consuming actions | By - rocalex | On - 2022-06-21T04:15:09Z
+ 17. [31d..eea] pause/unpause, withdraw fees | By - rocalex | On - 2022-06-20T16:00:51Z
+ 18. [065..9fa] change wrapped token name as XPNET | By - rocalex | On - 2022-06-16T08:53:22Z
+ 19. [8c6..5fb] add readme | By - rocalex | On - 2022-06-15T20:25:25Z
+ 20. [d6f..bea] add paused | By - rocalex | On - 2022-06-15T20:17:41Z
+ 21. [0fc..012] lint fix | By - rocalex | On - 2022-06-15T20:08:29Z
+ 22. [f6a..df4] receive native | By - rocalex | On - 2022-06-15T20:06:46Z
+ 23. [aa1..769] send native | By - rocalex | On - 2022-06-15T19:54:47Z
+ 24. [29e..39b] send wrapped | By - rocalex | On - 2022-06-15T19:37:19Z
+ 25. [dd0..bf1] receive foreign | By - rocalex | On - 2022-06-15T18:35:22Z
+ 26. [ee6..373] create wVPAD when bootstrap | By - rocalex | On - 2022-06-15T17:57:39Z
+ 27. [b08..5d2] update group key | By - rocalex | On - 2022-06-15T17:20:59Z
+ 28. [3cc..fc9] update group key | By - rocalex | On - 2022-06-15T17:08:37Z
+ 29. [d42..410] add deploy script | By - rocalex | On - 2022-06-15T15:48:53Z
+ 30. [eff..25d] initial unit tests | By - rocalex | On - 2022-06-15T14:49:50Z
+ 31. [b69..51f] initial | By - rocalex | On - 2022-06-14T11:25:53Z
+
+# erc20-validator
 
 ## master
 
 
- 1. [6ad..02e] package.contract: bump ethers | By - rupansh | On - 2022-07-28T14:13:35Z
- 2. [b07..ece] Bridge: take target address from user | By - rupansh | On - 2022-07-26T15:33:15Z
- 3. [365..665] gitignore: add .deps | By - rupansh | On - 2022-07-26T15:33:02Z
- 4. [8b0..983] update deploy script | By - rupansh | On - 2022-07-20T13:56:28Z
- 5. [6c4..81b] initial changes for multi-token | By - rupansh | On - 2022-07-18T16:12:03Z
- 6. [88f..f35] workflows: gen-typechain: fix repo url | By - rupansh | On - 2022-06-20T17:02:58Z
- 7. [bca..f08] initial import | By - rupansh | On - 2022-06-20T16:42:34Z
+ 1. [549..aa8] update FROST | By - rupansh | On - 2022-08-08T11:56:46Z
+ 2. [c48..88e] .env.example: add FROST_ED25519_UUID | By - rupansh | On - 2022-08-01T17:50:28Z
+ 3. [c18..89c] tree-wide: fixes for algorand transfers | By - rupansh | On - 2022-08-01T17:47:50Z
+ 4. [675..f39] .env.example: minor typo fixes | By - rupansh | On - 2022-08-01T17:47:40Z
+ 5. [85e..ea3] algo: minor fixes | By - rupansh | On - 2022-07-30T16:49:02Z
+ 6. [335..37d] bridge: handle decimals | By - rupansh | On - 2022-07-30T16:06:24Z
+ 7. [5af..d0d] enable algorand | By - rupansh | On - 2022-07-30T15:52:42Z
+ 8. [039..bd1] handlers: use locks for sending txn | By - rupansh | On - 2022-07-28T14:30:55Z
+ 9. [957..418] web3: use NonceManager signer | By - rupansh | On - 2022-07-28T14:19:19Z
+ 10. [b6e..8eb] algo: implement unfreeze event handling | By - rupansh | On - 2022-07-28T14:01:47Z
+ 11. [f3a..6b5] algo: add decoder for transfer event | By - rupansh | On - 2022-07-28T13:05:40Z
+ 12. [12f..228] partial algorand bringup | By - rupansh | On - 2022-07-26T15:38:29Z
+ 13. [7ee..56f] re-organize handlers | By - rupansh | On - 2022-07-26T13:48:10Z
+ 14. [7da..ff5] add separate chains for testnet | By - rupansh | On - 2022-07-20T14:46:06Z
+ 15. [012..be2] deps: fix minor derp | By - rupansh | On - 2022-07-20T14:23:55Z
+ 16. [ae9..ea9] update .env.example | By - rupansh | On - 2022-07-18T18:40:19Z
+ 17. [5ec..19f] events: switch to builder pattern and handle edge case | By - rupansh | On - 2022-07-18T18:35:36Z
+ 18. [e4b..843] improve frost handling | By - rupansh | On - 2022-07-18T17:52:47Z
+ 19. [6f0..c3c] use frost lib from git | By - rupansh | On - 2022-07-18T17:23:07Z
+ 20. [96d..7af] initial import | By - rupansh | On - 2022-07-18T17:18:58Z
+
+# w-nft-api
+
+## master
+
+
+ 1. [d1b..fd4] Update .env.example | By - Dima Brook | On - 2022-08-08T09:35:56Z
+ 2. [02b..b74] add route for getting nft by origin details | By - rupansh | On - 2022-08-05T17:29:51Z
+ 3. [13b..d48] wrapper: handle ratelimit for web3.storage | By - rupansh | On - 2022-07-19T12:32:29Z
+ 4. [96d..535] Merge pull request #5 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T14:54:22Z
+ 5. [af0..5f9] added logs with id to every error in cron class | By - Or Kilim | On - 2022-05-26T14:22:10Z
+ 6. [ec5..758] reverted from localhost config | By - Or Kilim | On - 2022-05-26T14:04:21Z
+ 7. [e84..7c6] removed console.logs | By - Or Kilim | On - 2022-05-26T14:00:46Z
+ 8. [107..09c] tried locally with local connection string | By - Or Kilim | On - 2022-05-26T13:59:17Z
+ 9. [098..b78] changed path in package.json in start script | By - Or Kilim | On - 2022-05-26T13:40:16Z
+ 10. [b55..c07] changed importing of cron, now imported everything | By - Or Kilim | On - 2022-05-26T13:35:14Z
+ 11. [658..ec7] Merge pull request #4 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T13:13:51Z
+ 12. [8bc..d20] updated package.json | By - Or Kilim | On - 2022-05-26T13:00:24Z
+ 13. [c41..70e] added the cron to src/index.ts at callback when we connect to mongo | By - Or Kilim | On - 2022-05-26T12:59:14Z
+ 14. [09b..4e5] Merge pull request #3 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T12:52:08Z
+ 15. [964..1b6] put correct connection string | By - Or Kilim | On - 2022-05-26T12:49:04Z
+ 16. [2c7..fbf] deleted localhost connection string | By - Or Kilim | On - 2022-05-26T12:48:28Z
+ 17. [a29..9d8] refactored code, added two statics function to wnfts model and interface | By - Or Kilim | On - 2022-05-26T12:43:11Z
+ 18. [0a5..a5a] Merge pull request #2 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T08:07:27Z
+ 19. [518..f29] delete package-lock.json and changed 'start' script to js instead of ts | By - Or Kilim | On - 2022-05-23T14:06:23Z
+ 20. [ef7..472] function for cron now more stable | By - Or Kilim | On - 2022-05-23T13:55:00Z
+ 21. [adc..cab] added a log message if name retrieved from axios call is undefined and changed error logs if there is a problem with axios call | By - Or Kilim | On - 2022-05-19T08:47:46Z
+ 22. [7da..153] added cron to 'services' folder inside 'cron' folder inside index.ts | By - Or Kilim | On - 2022-05-19T08:40:51Z
+ 23. [711..bb7] no lock | By - Or Kilim | On - 2022-05-19T08:22:12Z
+ 24. [234..79e] added cron for handling NFTs with generic 'XP.Network Wrapped NFT' name | By - Or Kilim | On - 2022-05-18T16:04:15Z
+ 25. [d2b..8b4] updated uri | By - Ruby Edelstein | On - 2022-03-04T15:31:19Z
+ 26. [51e..bff] wrapper: use findOneAndUpdate | By - rupansh | On - 2022-03-04T15:27:08Z
+ 27. [4ac..821] wrapper: change exists usage | By - rupansh | On - 2022-03-04T15:12:08Z
+ 28. [cb8..e42] wrapper: fix compilation | By - rupansh | On - 2022-03-04T14:59:14Z
+ 29. [06d..e9b] wrapper: fix derp | By - rupansh | On - 2022-03-04T14:54:54Z
+ 30. [39d..023] wrapper: use exists to find existence | By - rupansh | On - 2022-03-04T14:52:45Z
+ 31. [149..34b] wrapper: add metaHash to search | By - rupansh | On - 2022-03-04T14:47:10Z
+ 32. [3c3..0ed] fix ipfs wrapping | By - rupansh | On - 2022-03-03T18:09:57Z
+ 33. [857..ac8] routes: wrapperRoutes: use sane header for ipfs | By - rupansh | On - 2022-03-03T17:25:14Z
+ 34. [629..5ac] add ipfs wrapping | By - rupansh | On - 2022-03-03T15:19:09Z
+ 35. [f54..eeb] routes: wrapper: remove unecssary log | By - rupansh | On - 2022-02-10T10:32:37Z
+ 36. [471..1e3] update wrapper to support multiple types of ids | By - rupansh | On - 2022-02-10T10:12:01Z
+ 37. [c94..12d] ignore lib | By - Dima Brook | On - 2022-02-08T12:59:39Z
+ 38. [b19..36d] make NFT collection variable | By - Dima Brook | On - 2022-02-08T12:57:35Z
+ 39. [1f1..aca] fix env vars with dotenv | By - Dima Brook | On - 2022-02-08T12:50:21Z
+ 40. [b33..e4e] initial commit | By - Dima Brook | On - 2022-02-08T11:24:25Z
+
+## ors_task-query_cron
+
+
+ 1. [af0..5f9] added logs with id to every error in cron class | By - Or Kilim | On - 2022-05-26T14:22:10Z
+ 2. [ec5..758] reverted from localhost config | By - Or Kilim | On - 2022-05-26T14:04:21Z
+ 3. [e84..7c6] removed console.logs | By - Or Kilim | On - 2022-05-26T14:00:46Z
+ 4. [107..09c] tried locally with local connection string | By - Or Kilim | On - 2022-05-26T13:59:17Z
+ 5. [098..b78] changed path in package.json in start script | By - Or Kilim | On - 2022-05-26T13:40:16Z
+ 6. [b55..c07] changed importing of cron, now imported everything | By - Or Kilim | On - 2022-05-26T13:35:14Z
+ 7. [8bc..d20] updated package.json | By - Or Kilim | On - 2022-05-26T13:00:24Z
+ 8. [c41..70e] added the cron to src/index.ts at callback when we connect to mongo | By - Or Kilim | On - 2022-05-26T12:59:14Z
+ 9. [964..1b6] put correct connection string | By - Or Kilim | On - 2022-05-26T12:49:04Z
+ 10. [2c7..fbf] deleted localhost connection string | By - Or Kilim | On - 2022-05-26T12:48:28Z
+ 11. [a29..9d8] refactored code, added two statics function to wnfts model and interface | By - Or Kilim | On - 2022-05-26T12:43:11Z
+ 12. [518..f29] delete package-lock.json and changed 'start' script to js instead of ts | By - Or Kilim | On - 2022-05-23T14:06:23Z
+ 13. [ef7..472] function for cron now more stable | By - Or Kilim | On - 2022-05-23T13:55:00Z
+ 14. [adc..cab] added a log message if name retrieved from axios call is undefined and changed error logs if there is a problem with axios call | By - Or Kilim | On - 2022-05-19T08:47:46Z
+ 15. [7da..153] added cron to 'services' folder inside 'cron' folder inside index.ts | By - Or Kilim | On - 2022-05-19T08:40:51Z
+ 16. [711..bb7] no lock | By - Or Kilim | On - 2022-05-19T08:22:12Z
+ 17. [234..79e] added cron for handling NFTs with generic 'XP.Network Wrapped NFT' name | By - Or Kilim | On - 2022-05-18T16:04:15Z
+ 18. [d2b..8b4] updated uri | By - Ruby Edelstein | On - 2022-03-04T15:31:19Z
+ 19. [51e..bff] wrapper: use findOneAndUpdate | By - rupansh | On - 2022-03-04T15:27:08Z
+ 20. [4ac..821] wrapper: change exists usage | By - rupansh | On - 2022-03-04T15:12:08Z
+ 21. [cb8..e42] wrapper: fix compilation | By - rupansh | On - 2022-03-04T14:59:14Z
+ 22. [06d..e9b] wrapper: fix derp | By - rupansh | On - 2022-03-04T14:54:54Z
+ 23. [39d..023] wrapper: use exists to find existence | By - rupansh | On - 2022-03-04T14:52:45Z
+ 24. [149..34b] wrapper: add metaHash to search | By - rupansh | On - 2022-03-04T14:47:10Z
+ 25. [3c3..0ed] fix ipfs wrapping | By - rupansh | On - 2022-03-03T18:09:57Z
+ 26. [857..ac8] routes: wrapperRoutes: use sane header for ipfs | By - rupansh | On - 2022-03-03T17:25:14Z
+ 27. [629..5ac] add ipfs wrapping | By - rupansh | On - 2022-03-03T15:19:09Z
+ 28. [f54..eeb] routes: wrapper: remove unecssary log | By - rupansh | On - 2022-02-10T10:32:37Z
+ 29. [471..1e3] update wrapper to support multiple types of ids | By - rupansh | On - 2022-02-10T10:12:01Z
+ 30. [c94..12d] ignore lib | By - Dima Brook | On - 2022-02-08T12:59:39Z
+ 31. [b19..36d] make NFT collection variable | By - Dima Brook | On - 2022-02-08T12:57:35Z
+ 32. [1f1..aca] fix env vars with dotenv | By - Dima Brook | On - 2022-02-08T12:50:21Z
+ 33. [b33..e4e] initial commit | By - Dima Brook | On - 2022-02-08T11:24:25Z
+
+# widget-dashboard
+
+## master
+
+
+ 1. [f22..079] my widgets is ready | By - Lihi Sherm | On - 2022-08-08T08:11:00Z
+ 2. [4a3..7b2] update | By - Lihi Sherm | On - 2022-08-07T14:01:51Z
+ 3. [110..1a1] before loader | By - Lihi Sherm | On - 2022-08-07T09:06:32Z
+ 4. [ea8..b4d]  graph | By - Lihi Sherm | On - 2022-08-04T14:53:28Z
+ 5. [934..701] before doing graph | By - Lihi Sherm | On - 2022-08-04T10:36:34Z
+ 6. [e1f..05d] before doing graph | By - Lihi Sherm | On - 2022-08-04T09:10:11Z
+ 7. [f57..209] updates | By - Lihi Sherm | On - 2022-08-03T14:36:14Z
+ 8. [1c0..472] updates | By - Lihi Sherm | On - 2022-08-02T15:05:01Z
+ 9. [d32..4c8] widget dashboard | By - Lihi Sherm | On - 2022-08-02T12:41:52Z
+ 10. [3ea..199] widget dashboard | By - Lihi Sherm | On - 2022-08-02T09:57:38Z
+ 11. [8c9..120] widget dashboard | By - Lihi Sherm | On - 2022-08-02T09:56:44Z
+ 12. [69a..046] qa | By - Lihi Sherm | On - 2022-08-02T09:21:36Z
+ 13. [0c9..e39] WIDGET pages are ready | By - Lihi Sherm | On - 2022-08-01T12:08:24Z
+ 14. [0c6..3b7] WIDGET pages are ready | By - Lihi Sherm | On - 2022-08-01T10:44:14Z
+ 15. [de0..39a] updates ui and api requests | By - Lihi Sherm | On - 2022-07-31T15:58:37Z
+ 16. [b31..d63] updates ui and api requests | By - Lihi Sherm | On - 2022-07-31T15:52:56Z
+ 17. [a04..440] updates ui and api requests | By - Lihi Sherm | On - 2022-07-31T13:52:07Z
+ 18. [d59..e4a] remove cookies | By - Lihi Sherm | On - 2022-07-24T07:58:32Z
+ 19. [8f9..ba1] updates api calls | By - Lihi Sherm | On - 2022-07-24T07:06:51Z
+ 20. [b67..917] first commit | By - Lihi Sherm | On - 2022-07-12T12:01:53Z
+
+# solana-bridge
+
+## main
+
+
+ 1. [d4d..af6] rename royalties | By - rocalex | On - 2022-08-08T02:41:48Z
+ 2. [2cc..59a] add royalties | By - rocalex | On - 2022-08-07T21:29:14Z
+ 3. [aee..92f] fix inline doc | By - rocalex | On - 2022-07-04T13:47:20Z
+ 4. [3ab..976] emit lamports | By - rocalex | On - 2022-06-20T18:55:50Z
+ 5. [a92..545] emit mintWith | By - rocalex | On - 2022-06-19T19:00:19Z
+ 6. [587..354] emit action id | By - rocalex | On - 2022-06-19T18:52:00Z
+ 7. [e18..8ac] add mint to unfreeze data | By - rocalex | On - 2022-06-17T17:04:36Z
+ 8. [43d..adb] add transfer_service_fee_lamports function | By - rocalex | On - 2022-06-14T04:08:17Z
+ 9. [f30..846] add withdraw fees | By - rocalex | On - 2022-06-14T03:57:55Z
+ 10. [188..c0d] transfer service fee to bridge PDA when freeze/withdraw | By - rocalex | On - 2022-06-14T03:37:56Z
+ 11. [a39..e19] remove treasury | By - rocalex | On - 2022-06-14T03:10:57Z
+ 12. [270..782] update mpl-token-metadata version | By - rocalex | On - 2022-06-14T03:05:13Z
+ 13. [91c..617] use PDA as bridge account | By - rocalex | On - 2022-06-13T20:56:10Z
+ 14. [f2f..e83] remove unused imports | By - rocalex | On - 2022-06-13T19:32:44Z
+ 15. [4d5..9bd] emit mint when freeze | By - rocalex | On - 2022-06-13T19:30:50Z
+ 16. [e19..43d] check if receiver is correct | By - rocalex | On - 2022-06-13T19:24:49Z
+ 17. [f35..5f4] change bridge PDA to normal account | By - rocalex | On - 2022-06-13T03:39:07Z
+ 18. [b8b..edd] fix burn | By - rocalex | On - 2022-06-12T19:47:19Z
+ 19. [388..2ec] fix withdraw | By - rocalex | On - 2022-06-12T19:15:10Z
+ 20. [2d4..ab6] change authority | By - rocalex | On - 2022-06-12T15:12:18Z
+ 21. [ce1..75c] remove anchor.web. | By - rocalex | On - 2022-06-12T14:47:17Z
+ 22. [610..592] bridge account as PDA | By - rocalex | On - 2022-06-12T10:12:35Z
+ 23. [848..16e] config the client | By - rocalex | On - 2022-06-12T09:05:54Z
+ 24. [a16..c5f] refactor duplicated methods | By - rocalex | On - 2022-06-10T12:13:01Z
+ 25. [f00..649] Update README.md | By - Dima Brook | On - 2022-06-09T13:37:11Z
+ 26. [116..906] Update README.md | By - Dima Brook | On - 2022-06-09T13:30:41Z
+ 27. [c02..7ff] Update README.md | By - Dima Brook | On - 2022-06-09T13:17:05Z
+ 28. [f9c..49c] Update README.md | By - Dima Brook | On - 2022-06-09T13:05:32Z
+ 29. [823..6f4] Update README.md | By - Dima Brook | On - 2022-06-09T09:17:48Z
+ 30. [cee..78e] Update README.md | By - Dima Brook | On - 2022-06-09T09:05:26Z
+ 31. [7f6..717] Update README.md | By - Dima Brook | On - 2022-06-09T08:58:22Z
+ 32. [cd8..726] Update README.md | By - Dima Brook | On - 2022-06-09T08:57:50Z
+ 33. [c76..b83] Update README.md | By - Dima Brook | On - 2022-06-09T08:41:57Z
+ 34. [aef..9d0] Update README.md | By - Dima Brook | On - 2022-06-09T08:34:58Z
+ 35. [125..5c8] consume actions | By - rocalex | On - 2022-05-31T17:33:40Z
+ 36. [cfc..edd] refactor code | By - rocalex | On - 2022-05-30T07:15:12Z
+ 37. [ee4..559] fix unfreeze nft | By - rocalex | On - 2022-05-18T15:31:17Z
+ 38. [c0f..5ff] fix withdraw nft | By - rocalex | On - 2022-05-18T13:21:22Z
+ 39. [294..a73] add prettier | By - rocalex | On - 2022-05-18T13:03:28Z
+ 40. [f64..9da] remove auth seeds | By - rocalex | On - 2022-05-18T11:57:58Z
+ 41. [252..36e] fix validate_transfer_nft | By - rocalex | On - 2022-05-17T16:22:14Z
+ 42. [96d..fc2] update group key | By - rocalex | On - 2022-05-17T14:58:22Z
+ 43. [992..76b] fix offsig | By - rocalex | On - 2022-05-17T14:32:47Z
+ 44. [471..21f] fix validate_transfer_nft | By - rocalex | On - 2022-05-17T02:39:52Z
+ 45. [8d3..6a4] add treasury account | By - rocalex | On - 2022-03-06T17:59:06Z
+ 46. [ac1..b13] add withdraw fees | By - rocalex | On - 2022-03-03T06:47:48Z
+ 47. [4f2..f03] check if toTokenAccount is bridge when freeze nft | By - rocalex | On - 2022-03-03T06:20:12Z
+ 48. [d7b..d6b] check if pub key is valid | By - rocalex | On - 2022-03-03T06:09:51Z
+ 49. [f3b..3fb] change secp256k1 to ed25519 | By - rocalex | On - 2022-03-02T15:04:53Z
+ 50. [99e..9b3] add test for ed25519 | By - rocalex | On - 2022-03-02T11:31:42Z
+
+# deployed-mapped-contracts
+
+## master
+
+
+ 1. [6d9..16e] add: Big Foot Mafia Club - pass ownership | By - Dima Brook | On - 2022-08-07T17:02:51Z
+ 2. [852..f5a] add: Big Foot Mafia Club | By - Dima Brook | On - 2022-08-07T13:45:09Z
+ 3. [316..2dd] add Rocket Monsters Universe (harmony) | By - Dima Brook | On - 2022-08-04T15:29:01Z
+ 4. [e21..b50] update Venonymous | By - Dima Brook | On - 2022-08-03T10:39:09Z
+ 5. [c55..0c6] add Venonymous | By - Dima Brook | On - 2022-08-02T14:56:08Z
+ 6. [301..1d3] add Employees of the Metaverse | By - Dima Brook | On - 2022-08-02T09:15:23Z
+ 7. [0a8..f52] add 001K NFT | By - Dima Brook | On - 2022-08-02T09:07:05Z
+ 8. [36d..ebf] redeploy - Treat NFT | By - Dima Brook | On - 2022-08-01T18:14:53Z
+ 9. [c12..02f] redeploy - Treat NFT | By - Dima Brook | On - 2022-08-01T11:11:45Z
+ 10. [fd6..371] add Female Ra8Bit Series | By - Dima Brook | On - 2022-08-01T08:54:59Z
+ 11. [5dd..c9f] add FILMCrew Collection (ETH) | By - Dima Brook | On - 2022-07-31T14:14:37Z
+ 12. [a85..19b] add Treat NFT (Ethereum) | By - Dima Brook | On - 2022-07-31T12:29:14Z
+ 13. [5b6..195] add Rocket Monsters Zeren Bear and Hoverbike on Ethereum | By - Dima Brook | On - 2022-07-31T08:36:24Z
+ 14. [0d5..28c] add RM-Star Fighter on Ethereum | By - Dima Brook | On - 2022-07-31T08:12:48Z
+ 15. [470..8fb] add NFT-Keys from Bithoven's Team | By - Dima Brook | On - 2022-07-28T15:33:19Z
+ 16. [701..3b5] add RM-Zeren Bear | By - Dima Brook | On - 2022-07-28T12:36:29Z
+ 17. [cbb..a57] add Rocket Monsters - Star Fighter | By - Dima Brook | On - 2022-07-28T12:14:00Z
+ 18. [0bd..5ca] add: DegDango | By - Dima Brook | On - 2022-07-28T08:53:20Z
+ 19. [84e..5d8] EndersPack | By - Dima Brook | On - 2022-07-27T13:32:25Z
+ 20. [55d..cde] EndersPack | By - Dima Brook | On - 2022-07-27T13:27:01Z
 
 # sc-verify
 
@@ -1828,56 +1885,211 @@
 ## master
 
 
- 1. [6d1..27a] ScAllowedDto: Handle Undefined TokenIDs | By - imsk17 | On - 2022-07-26T17:52:20Z
- 2. [326..8ba] removed auth | By - Ruby Edelstein | On - 2022-07-19T12:14:34Z
- 3. [132..cf8] default-sc: fix minor derp | By - rupansh | On - 2022-07-18T15:06:22Z
- 4. [873..a07] routes: default: remove read requirement | By - rupansh | On - 2022-07-18T12:46:20Z
- 5. [65e..c9e] routes: verify: remove auth requirement for checking mintWith | By - rupansh | On - 2022-07-18T12:28:47Z
- 6. [8ff..769] Revert "fix .toLowerCase() issue" | By - rupansh | On - 2022-07-17T14:22:33Z
- 7. [969..5df] Merge pull request #1 from XP-NETWORK/lowercase-list | By - VKint | On - 2022-07-04T14:15:58Z
- 8. [ee7..8cc] list remove duplicated | By - Alex Moshinsky | On - 2022-07-04T13:21:10Z
- 9. [c6d..32a] add regex to list request | By - Alex Moshinsky | On - 2022-07-04T12:25:16Z
- 10. [610..7c5] to lower case list request from | By - Alex Moshinsky | On - 2022-07-04T12:05:16Z
- 11. [914..256] fix .toLowerCase() issue | By - Dima Brook | On - 2022-07-04T09:24:47Z
- 12. [218..1a1] sc-allowed: db: fix minor derps | By - rupansh | On - 2022-06-17T18:26:21Z
- 13. [1c0..b47] repos: sc-allowed: minor fixes | By - rupansh | On - 2022-06-13T16:07:58Z
- 14. [920..623] Revert "remove .toLowerCase()" | By - rupansh | On - 2022-06-13T15:55:54Z
- 15. [88c..99a] remove .toLowerCase() | By - Dima Brook | On - 2022-06-12T15:00:08Z
- 16. [588..c73] req: DefaultReq: mark tokenId as optional | By - rupansh | On - 2022-06-10T14:11:54Z
- 17. [a24..bbb] repos: default-sc: use ScAllowedDto to get defaultMintWith | By - rupansh | On - 2022-06-10T14:09:48Z
- 18. [3c7..f2a] routes: default: add debug log for default sc | By - rupansh | On - 2022-06-10T13:24:06Z
- 19. [b18..140] add dirty hacks to ignore case | By - rupansh | On - 2022-06-10T12:53:38Z
- 20. [5c9..efe] sc-allowed: store token id list instead of range | By - rupansh | On - 2022-06-09T16:00:37Z
- 21. [879..254] fix - misplaced .toLowerCase() | By - Dima Brook | On - 2022-06-08T14:14:57Z
- 22. [c53..212] transform all the contracts to lower case | By - Dima Brook | On - 2022-06-08T14:12:05Z
- 23. [9d9..753] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T12:22:15Z
- 24. [fdb..1e1] sc-allowed: overwrite if exists | By - imsk17 | On - 2022-05-26T12:10:54Z
- 25. [570..34f] helpers: scReq: fix validator | By - rupansh | On - 2022-03-16T16:20:05Z
- 26. [e28..000] reqValidator: re-assign prop after decoding | By - rupansh | On - 2022-03-16T16:03:01Z
- 27. [7f4..ac5] helpers: royalties: use IntFromString validator for chain | By - rupansh | On - 2022-03-16T15:26:06Z
- 28. [207..133] enable royalties route | By - rupansh | On - 2022-03-16T13:13:17Z
- 29. [120..e4e] switch to io-ts & fp-ts | By - rupansh | On - 2022-03-13T18:54:18Z
- 30. [692..ac0] add royalties endpoint | By - rupansh | On - 2022-03-13T18:54:18Z
- 31. [6d1..721] a | By - Ruby Edelstein | On - 2022-02-17T16:25:04Z
- 32. [94f..080] added lower case to scs | By - Ruby Edelstein | On - 2022-02-17T15:34:43Z
- 33. [e7c..4c2] a | By - Ruby Edelstein | On - 2022-02-17T15:33:03Z
- 34. [6b0..47f] a | By - Ruby Edelstein | On - 2022-02-17T15:30:50Z
- 35. [681..801] a | By - Ruby Edelstein | On - 2022-02-17T15:29:16Z
- 36. [db0..7ed] add regex operator | By - Ruby Edelstein | On - 2022-02-17T15:27:24Z
- 37. [262..43b] a | By - Ruby Edelstein | On - 2022-02-17T15:25:55Z
- 38. [44b..05c] verify: isWrapped: add :to to request params | By - rupansh | On - 2022-02-15T13:04:12Z
- 39. [71d..c1c] isWrapped requires targetChain | By - imsk17 | On - 2022-02-15T12:56:56Z
- 40. [47c..c40] isWrapped: add fromchain param to it | By - imsk17 | On - 2022-02-15T12:52:00Z
- 41. [563..0ee] body-parser: fix field names | By - imsk17 | On - 2022-02-14T21:16:12Z
- 42. [833..699] entity: DefaultScDto: add fromChain field | By - imsk17 | On - 2022-02-14T21:00:05Z
- 43. [ce7..16e] entity: ScAllowedDto: add fromChain field | By - imsk17 | On - 2022-02-14T20:54:54Z
- 44. [429..c39] routes: verify: add targetChain to verify | By - imsk17 | On - 2022-02-14T20:39:07Z
- 45. [ba2..9ad] app: enable cors | By - imsk17 | On - 2022-02-14T18:03:17Z
- 46. [dfd..525] routes: fix listing | By - imsk17 | On - 2022-02-14T15:19:05Z
- 47. [21d..546] routes: move /list above /:anything | By - imsk17 | On - 2022-02-14T15:13:32Z
- 48. [136..7a5] routes: list: look for params in req.params | By - imsk17 | On - 2022-02-14T14:58:35Z
- 49. [b11..d85] routes: sc-allowed: add route to list allowed SCs | By - imsk17 | On - 2022-02-14T14:56:22Z
- 50. [1e4..7d5] entity: ScAllowedDto: add targetChain field | By - imsk17 | On - 2022-02-14T14:35:50Z
+ 1. [5a5..e31] repos: sc-allowed: use case insensitive search for `useOriginToken` | By - rupansh | On - 2022-08-05T18:08:04Z
+ 2. [7a9..4ba] sc-allowed: add param to check usage of origin | By - rupansh | On - 2022-08-05T18:08:04Z
+ 3. [6d1..27a] ScAllowedDto: Handle Undefined TokenIDs | By - imsk17 | On - 2022-07-26T17:52:20Z
+ 4. [326..8ba] removed auth | By - Ruby Edelstein | On - 2022-07-19T12:14:34Z
+ 5. [132..cf8] default-sc: fix minor derp | By - rupansh | On - 2022-07-18T15:06:22Z
+ 6. [873..a07] routes: default: remove read requirement | By - rupansh | On - 2022-07-18T12:46:20Z
+ 7. [65e..c9e] routes: verify: remove auth requirement for checking mintWith | By - rupansh | On - 2022-07-18T12:28:47Z
+ 8. [8ff..769] Revert "fix .toLowerCase() issue" | By - rupansh | On - 2022-07-17T14:22:33Z
+ 9. [969..5df] Merge pull request #1 from XP-NETWORK/lowercase-list | By - VKint | On - 2022-07-04T14:15:58Z
+ 10. [ee7..8cc] list remove duplicated | By - Alex Moshinsky | On - 2022-07-04T13:21:10Z
+ 11. [c6d..32a] add regex to list request | By - Alex Moshinsky | On - 2022-07-04T12:25:16Z
+ 12. [610..7c5] to lower case list request from | By - Alex Moshinsky | On - 2022-07-04T12:05:16Z
+ 13. [914..256] fix .toLowerCase() issue | By - Dima Brook | On - 2022-07-04T09:24:47Z
+ 14. [218..1a1] sc-allowed: db: fix minor derps | By - rupansh | On - 2022-06-17T18:26:21Z
+ 15. [1c0..b47] repos: sc-allowed: minor fixes | By - rupansh | On - 2022-06-13T16:07:58Z
+ 16. [920..623] Revert "remove .toLowerCase()" | By - rupansh | On - 2022-06-13T15:55:54Z
+ 17. [88c..99a] remove .toLowerCase() | By - Dima Brook | On - 2022-06-12T15:00:08Z
+ 18. [588..c73] req: DefaultReq: mark tokenId as optional | By - rupansh | On - 2022-06-10T14:11:54Z
+ 19. [a24..bbb] repos: default-sc: use ScAllowedDto to get defaultMintWith | By - rupansh | On - 2022-06-10T14:09:48Z
+ 20. [3c7..f2a] routes: default: add debug log for default sc | By - rupansh | On - 2022-06-10T13:24:06Z
+ 21. [b18..140] add dirty hacks to ignore case | By - rupansh | On - 2022-06-10T12:53:38Z
+ 22. [5c9..efe] sc-allowed: store token id list instead of range | By - rupansh | On - 2022-06-09T16:00:37Z
+ 23. [879..254] fix - misplaced .toLowerCase() | By - Dima Brook | On - 2022-06-08T14:14:57Z
+ 24. [c53..212] transform all the contracts to lower case | By - Dima Brook | On - 2022-06-08T14:12:05Z
+ 25. [9d9..753] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T12:22:15Z
+ 26. [fdb..1e1] sc-allowed: overwrite if exists | By - imsk17 | On - 2022-05-26T12:10:54Z
+ 27. [570..34f] helpers: scReq: fix validator | By - rupansh | On - 2022-03-16T16:20:05Z
+ 28. [e28..000] reqValidator: re-assign prop after decoding | By - rupansh | On - 2022-03-16T16:03:01Z
+ 29. [7f4..ac5] helpers: royalties: use IntFromString validator for chain | By - rupansh | On - 2022-03-16T15:26:06Z
+ 30. [207..133] enable royalties route | By - rupansh | On - 2022-03-16T13:13:17Z
+ 31. [120..e4e] switch to io-ts & fp-ts | By - rupansh | On - 2022-03-13T18:54:18Z
+ 32. [692..ac0] add royalties endpoint | By - rupansh | On - 2022-03-13T18:54:18Z
+ 33. [6d1..721] a | By - Ruby Edelstein | On - 2022-02-17T16:25:04Z
+ 34. [94f..080] added lower case to scs | By - Ruby Edelstein | On - 2022-02-17T15:34:43Z
+ 35. [e7c..4c2] a | By - Ruby Edelstein | On - 2022-02-17T15:33:03Z
+ 36. [6b0..47f] a | By - Ruby Edelstein | On - 2022-02-17T15:30:50Z
+ 37. [681..801] a | By - Ruby Edelstein | On - 2022-02-17T15:29:16Z
+ 38. [db0..7ed] add regex operator | By - Ruby Edelstein | On - 2022-02-17T15:27:24Z
+ 39. [262..43b] a | By - Ruby Edelstein | On - 2022-02-17T15:25:55Z
+ 40. [44b..05c] verify: isWrapped: add :to to request params | By - rupansh | On - 2022-02-15T13:04:12Z
+ 41. [71d..c1c] isWrapped requires targetChain | By - imsk17 | On - 2022-02-15T12:56:56Z
+ 42. [47c..c40] isWrapped: add fromchain param to it | By - imsk17 | On - 2022-02-15T12:52:00Z
+ 43. [563..0ee] body-parser: fix field names | By - imsk17 | On - 2022-02-14T21:16:12Z
+ 44. [833..699] entity: DefaultScDto: add fromChain field | By - imsk17 | On - 2022-02-14T21:00:05Z
+ 45. [ce7..16e] entity: ScAllowedDto: add fromChain field | By - imsk17 | On - 2022-02-14T20:54:54Z
+ 46. [429..c39] routes: verify: add targetChain to verify | By - imsk17 | On - 2022-02-14T20:39:07Z
+ 47. [ba2..9ad] app: enable cors | By - imsk17 | On - 2022-02-14T18:03:17Z
+ 48. [dfd..525] routes: fix listing | By - imsk17 | On - 2022-02-14T15:19:05Z
+ 49. [21d..546] routes: move /list above /:anything | By - imsk17 | On - 2022-02-14T15:13:32Z
+ 50. [136..7a5] routes: list: look for params in req.params | By - imsk17 | On - 2022-02-14T14:58:35Z
+
+# tezos-integration-smartpy
+
+## feature/validators
+
+
+ 1. [721..a38] change validators list to set | By - rocalex | On - 2022-01-20T14:48:11Z
+ 2. [8ba..4fa] fix action_validators | By - rocalex | On - 2022-01-20T10:33:17Z
+ 3. [ede..c38] fix validate_unfreeze_nft | By - rocalex | On - 2022-01-18T13:26:34Z
+ 4. [a1c..0b6] add layout to freeze_fa2 | By - rocalex | On - 2022-01-18T11:16:34Z
+ 5. [be1..bef] remove deposit fee | By - rocalex | On - 2022-01-17T16:02:39Z
+ 6. [e33..1f9] add deposit fee | By - rocalex | On - 2022-01-17T14:16:46Z
+ 7. [e41..f81] add some test script | By - rocalex | On - 2022-01-16T18:02:54Z
+ 8. [0ff..9be] Merge branch 'main' of https://github.com/xp-network/tezos-integration-smartpy into main | By - rocalex | On - 2022-01-16T10:06:57Z
+ 9. [1a6..fd9] fix withdraw_nft | By - rocalex | On - 2022-01-16T10:06:52Z
+ 10. [35c..732] Update bridge.py | By - Dima Brook | On - 2022-01-07T14:21:15Z
+ 11. [c8d..543] setup only once | By - rocalex | On - 2022-01-06T13:03:10Z
+ 12. [92b..ad4] check if paid > 0 | By - rocalex | On - 2022-01-04T14:42:35Z
+ 13. [0bf..7c0] check new threshold | By - rocalex | On - 2022-01-03T18:41:53Z
+ 14. [c59..e3f] prevent deleting actions | By - rocalex | On - 2022-01-03T11:48:12Z
+ 15. [ed2..3e5] Update tezos-contract.md | By - Dima Brook | On - 2021-12-14T18:00:59Z
+ 16. [bae..40c] change env.example | By - Xueming Zheng | On - 2021-12-14T06:53:51Z
+ 17. [ca1..144] fix type of metadata | By - Xueming Zheng | On - 2021-12-14T06:38:02Z
+ 18. [4d5..140] add burn to xpnet | By - Xueming Zheng | On - 2021-12-13T13:19:11Z
+ 19. [81d..97a] add withdraw nft | By - Xueming Zheng | On - 2021-12-13T06:06:35Z
+ 20. [a92..288] Merge branch 'main' of https://github.com/xp-network/tezos-integration-smartpy | By - Xueming Zheng | On - 2021-12-13T05:31:30Z
+ 21. [b62..e0e] withdraw fees | By - Xueming Zheng | On - 2021-12-13T05:31:26Z
+ 22. [684..329] Update tezos-contract.md | By - Dima Brook | On - 2021-12-12T19:41:06Z
+ 23. [6ff..125] Update tezos-contract.md | By - Dima Brook | On - 2021-12-12T19:35:29Z
+ 24. [182..332] xpnft for only NFT | By - Xueming Zheng | On - 2021-12-12T18:05:14Z
+ 25. [5f1..70d] change key of frozen_nfts | By - Xueming Zheng | On - 2021-12-12T14:33:28Z
+ 26. [ee4..e02] add setup script | By - Xueming Zheng | On - 2021-12-12T09:26:37Z
+ 27. [42e..624] add unfreeze nft | By - Xueming Zheng | On - 2021-12-12T07:36:49Z
+ 28. [2ec..d04] map (TAddress => map(nft_id => TRecord)) | By - Xueming Zheng | On - 2021-12-07T18:45:13Z
+ 29. [35f..6dd] add docs to off-chain views | By - rocalex | On - 2021-12-06T08:04:42Z
+ 30. [4e9..3ae] add initial backend and whitelist | By - rocalex | On - 2021-12-06T08:01:41Z
+ 31. [507..01e] Create tezos-contract.md | By - Dima Brook | On - 2021-12-05T20:19:39Z
+ 32. [c4e..33a] erase validators when setup | By - rocalex | On - 2021-12-05T15:52:50Z
+ 33. [634..44b] add set threshold | By - rocalex | On - 2021-12-02T10:19:41Z
+ 34. [4c5..52d] add/remove validator | By - rocalex | On - 2021-12-02T09:56:10Z
+ 35. [8fb..d98] add enums | By - rocalex | On - 2021-12-01T12:35:25Z
+ 36. [780..ab3] Pause/Unpause bridge | By - rocalex | On - 2021-12-01T08:44:48Z
+ 37. [8e1..18a] add inline docs | By - rocalex | On - 2021-11-30T12:24:04Z
+ 38. [939..7c3] add admin | By - rocalex | On - 2021-11-29T10:04:35Z
+ 39. [427..347] add validate_action | By - rocalex | On - 2021-11-29T08:26:41Z
+ 40. [ab0..76a] add bridge | By - rocalex | On - 2021-11-29T07:47:09Z
+ 41. [b12..f86] add simple typescript client | By - rocalex | On - 2021-11-28T10:30:29Z
+ 42. [878..a1c] add simple typescript client | By - rocalex | On - 2021-11-28T06:22:01Z
+ 43. [dc3..21d] add user_nft_minter.py | By - rocalex | On - 2021-11-22T14:31:07Z
+ 44. [32d..098] add user_nft_minter.py | By - rocalex | On - 2021-11-22T13:42:15Z
+ 45. [067..da9] update readme | By - rocalex | On - 2021-11-22T12:04:07Z
+ 46. [844..dd6] remove unnecessary files | By - rocalex | On - 2021-11-22T12:00:37Z
+ 47. [cb3..c88] initial entry points | By - rocalex | On - 2021-11-08T05:49:00Z
+ 48. [227..70f] initial entry points | By - rocalex | On - 2021-11-08T04:19:37Z
+ 49. [8e3..572] add validate_action | By - rocalex | On - 2021-11-08T03:09:34Z
+ 50. [c5f..da9] add FA2 example | By - rocalex | On - 2021-11-03T12:32:16Z
+
+## main
+
+
+ 1. [362..501] add test case for setting contract metadata | By - rocalex | On - 2022-08-03T15:45:33Z
+ 2. [9a1..942] fix nft_cnt to bigmap | By - rocalex | On - 2022-03-16T13:26:22Z
+ 3. [fbd..731] fix freeze_fa2 and withdraw_nft | By - rocalex | On - 2022-03-13T13:38:52Z
+ 4. [19c..cef] fix freeze_fa2 for rarible | By - rocalex | On - 2022-01-26T17:20:58Z
+ 5. [d41..fba] change map to big map | By - rocalex | On - 2022-01-25T22:51:33Z
+ 6. [5c9..831] change map to big map | By - rocalex | On - 2022-01-25T12:39:30Z
+ 7. [8f4..468] fix validate_whitelist_nft | By - rocalex | On - 2022-01-23T00:43:22Z
+ 8. [0ad..ed8] fix return value of validate_action | By - rocalex | On - 2022-01-21T14:18:44Z
+ 9. [bc6..5e4] change map to big map for actions and nft_whitelist | By - rocalex | On - 2022-01-21T10:47:43Z
+ 10. [d5c..7bb] Merge pull request #1 from XP-NETWORK/feature/validators | By - Xueming Zheng | On - 2022-01-20T14:49:59Z
+ 11. [721..a38] change validators list to set | By - rocalex | On - 2022-01-20T14:48:11Z
+ 12. [8ba..4fa] fix action_validators | By - rocalex | On - 2022-01-20T10:33:17Z
+ 13. [ede..c38] fix validate_unfreeze_nft | By - rocalex | On - 2022-01-18T13:26:34Z
+ 14. [a1c..0b6] add layout to freeze_fa2 | By - rocalex | On - 2022-01-18T11:16:34Z
+ 15. [be1..bef] remove deposit fee | By - rocalex | On - 2022-01-17T16:02:39Z
+ 16. [e33..1f9] add deposit fee | By - rocalex | On - 2022-01-17T14:16:46Z
+ 17. [e41..f81] add some test script | By - rocalex | On - 2022-01-16T18:02:54Z
+ 18. [0ff..9be] Merge branch 'main' of https://github.com/xp-network/tezos-integration-smartpy into main | By - rocalex | On - 2022-01-16T10:06:57Z
+ 19. [1a6..fd9] fix withdraw_nft | By - rocalex | On - 2022-01-16T10:06:52Z
+ 20. [35c..732] Update bridge.py | By - Dima Brook | On - 2022-01-07T14:21:15Z
+ 21. [c8d..543] setup only once | By - rocalex | On - 2022-01-06T13:03:10Z
+ 22. [92b..ad4] check if paid > 0 | By - rocalex | On - 2022-01-04T14:42:35Z
+ 23. [0bf..7c0] check new threshold | By - rocalex | On - 2022-01-03T18:41:53Z
+ 24. [c59..e3f] prevent deleting actions | By - rocalex | On - 2022-01-03T11:48:12Z
+ 25. [ed2..3e5] Update tezos-contract.md | By - Dima Brook | On - 2021-12-14T18:00:59Z
+ 26. [bae..40c] change env.example | By - Xueming Zheng | On - 2021-12-14T06:53:51Z
+ 27. [ca1..144] fix type of metadata | By - Xueming Zheng | On - 2021-12-14T06:38:02Z
+ 28. [4d5..140] add burn to xpnet | By - Xueming Zheng | On - 2021-12-13T13:19:11Z
+ 29. [81d..97a] add withdraw nft | By - Xueming Zheng | On - 2021-12-13T06:06:35Z
+ 30. [a92..288] Merge branch 'main' of https://github.com/xp-network/tezos-integration-smartpy | By - Xueming Zheng | On - 2021-12-13T05:31:30Z
+ 31. [b62..e0e] withdraw fees | By - Xueming Zheng | On - 2021-12-13T05:31:26Z
+ 32. [684..329] Update tezos-contract.md | By - Dima Brook | On - 2021-12-12T19:41:06Z
+ 33. [6ff..125] Update tezos-contract.md | By - Dima Brook | On - 2021-12-12T19:35:29Z
+ 34. [182..332] xpnft for only NFT | By - Xueming Zheng | On - 2021-12-12T18:05:14Z
+ 35. [5f1..70d] change key of frozen_nfts | By - Xueming Zheng | On - 2021-12-12T14:33:28Z
+ 36. [ee4..e02] add setup script | By - Xueming Zheng | On - 2021-12-12T09:26:37Z
+ 37. [42e..624] add unfreeze nft | By - Xueming Zheng | On - 2021-12-12T07:36:49Z
+ 38. [2ec..d04] map (TAddress => map(nft_id => TRecord)) | By - Xueming Zheng | On - 2021-12-07T18:45:13Z
+ 39. [35f..6dd] add docs to off-chain views | By - rocalex | On - 2021-12-06T08:04:42Z
+ 40. [4e9..3ae] add initial backend and whitelist | By - rocalex | On - 2021-12-06T08:01:41Z
+ 41. [507..01e] Create tezos-contract.md | By - Dima Brook | On - 2021-12-05T20:19:39Z
+ 42. [c4e..33a] erase validators when setup | By - rocalex | On - 2021-12-05T15:52:50Z
+ 43. [634..44b] add set threshold | By - rocalex | On - 2021-12-02T10:19:41Z
+ 44. [4c5..52d] add/remove validator | By - rocalex | On - 2021-12-02T09:56:10Z
+ 45. [8fb..d98] add enums | By - rocalex | On - 2021-12-01T12:35:25Z
+ 46. [780..ab3] Pause/Unpause bridge | By - rocalex | On - 2021-12-01T08:44:48Z
+ 47. [8e1..18a] add inline docs | By - rocalex | On - 2021-11-30T12:24:04Z
+ 48. [939..7c3] add admin | By - rocalex | On - 2021-11-29T10:04:35Z
+ 49. [427..347] add validate_action | By - rocalex | On - 2021-11-29T08:26:41Z
+ 50. [ab0..76a] add bridge | By - rocalex | On - 2021-11-29T07:47:09Z
+
+# white_list_nft
+
+## main
+
+
+ 1. [666..265] Added server and front end for white listing nft | By - awkwardman.dev | On - 2022-08-01T14:42:29Z
+
+# new-xp-website
+
+## main
+
+
+ 1. [e8d..09d] videos keep playing whwn pressing go back browser update | By - Lihi Sherm | On - 2022-07-31T09:50:04Z
+ 2. [a46..620] videos keep playing whwn pressing go back browser update | By - Lihi Sherm | On - 2022-07-31T07:59:16Z
+ 3. [2a4..047] main page update | By - Lihi Sherm | On - 2022-07-28T13:27:46Z
+ 4. [f62..f98] new case study-hog homies | By - Lihi Sherm | On - 2022-07-28T12:46:30Z
+ 5. [f01..6ff] new case study-hog homies | By - Lihi Sherm | On - 2022-07-28T11:06:08Z
+ 6. [963..6cf] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T14:12:42Z
+ 7. [ac8..5eb] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T13:04:01Z
+ 8. [23b..8ef] updates-popup-videos | By - Lihi Sherm | On - 2022-07-27T08:47:14Z
+ 9. [128..6a6] updates | By - Lihi Sherm | On - 2022-07-26T12:54:53Z
+ 10. [9af..369] updates | By - Lihi Sherm | On - 2022-07-25T14:44:41Z
+ 11. [34d..478] updates | By - Lihi Sherm | On - 2022-07-25T13:50:35Z
+ 12. [a9f..0c7] updates | By - Lihi Sherm | On - 2022-07-25T09:55:46Z
+ 13. [c0f..e20] updates in updates home section | By - Lihi Sherm | On - 2022-07-13T13:14:43Z
+ 14. [ed9..885] rm links | By - Lihi Sherm | On - 2022-07-13T13:04:51Z
+ 15. [f2a..ca6] rm links | By - Lihi Sherm | On - 2022-07-13T11:25:28Z
+ 16. [4d2..d5e] ui updates | By - Lihi Sherm | On - 2022-07-13T11:00:45Z
+ 17. [916..9ad] ui updates | By - Lihi Sherm | On - 2022-07-13T08:41:10Z
+ 18. [801..eb9] updates | By - Lihi Sherm | On - 2022-07-12T14:50:25Z
+ 19. [527..56c] events page, header change | By - Lihi Sherm | On - 2022-06-13T10:21:45Z
+
+# web3-erc20-contracts
+
+## master
+
+
+ 1. [6ad..02e] package.contract: bump ethers | By - rupansh | On - 2022-07-28T14:13:35Z
+ 2. [b07..ece] Bridge: take target address from user | By - rupansh | On - 2022-07-26T15:33:15Z
+ 3. [365..665] gitignore: add .deps | By - rupansh | On - 2022-07-26T15:33:02Z
+ 4. [8b0..983] update deploy script | By - rupansh | On - 2022-07-20T13:56:28Z
+ 5. [6c4..81b] initial changes for multi-token | By - rupansh | On - 2022-07-18T16:12:03Z
+ 6. [88f..f35] workflows: gen-typechain: fix repo url | By - rupansh | On - 2022-06-20T17:02:58Z
+ 7. [bca..f08] initial import | By - rupansh | On - 2022-06-20T16:42:34Z
 
 # sc-deployer-ui
 
@@ -1971,87 +2183,6 @@
 
 
  1. [1e1..b22] initial import | By - rupansh | On - 2022-07-20T14:25:44Z
-
-# w-nft-api
-
-## master
-
-
- 1. [13b..d48] wrapper: handle ratelimit for web3.storage | By - rupansh | On - 2022-07-19T12:32:29Z
- 2. [96d..535] Merge pull request #5 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T14:54:22Z
- 3. [af0..5f9] added logs with id to every error in cron class | By - Or Kilim | On - 2022-05-26T14:22:10Z
- 4. [ec5..758] reverted from localhost config | By - Or Kilim | On - 2022-05-26T14:04:21Z
- 5. [e84..7c6] removed console.logs | By - Or Kilim | On - 2022-05-26T14:00:46Z
- 6. [107..09c] tried locally with local connection string | By - Or Kilim | On - 2022-05-26T13:59:17Z
- 7. [098..b78] changed path in package.json in start script | By - Or Kilim | On - 2022-05-26T13:40:16Z
- 8. [b55..c07] changed importing of cron, now imported everything | By - Or Kilim | On - 2022-05-26T13:35:14Z
- 9. [658..ec7] Merge pull request #4 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T13:13:51Z
- 10. [8bc..d20] updated package.json | By - Or Kilim | On - 2022-05-26T13:00:24Z
- 11. [c41..70e] added the cron to src/index.ts at callback when we connect to mongo | By - Or Kilim | On - 2022-05-26T12:59:14Z
- 12. [09b..4e5] Merge pull request #3 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T12:52:08Z
- 13. [964..1b6] put correct connection string | By - Or Kilim | On - 2022-05-26T12:49:04Z
- 14. [2c7..fbf] deleted localhost connection string | By - Or Kilim | On - 2022-05-26T12:48:28Z
- 15. [a29..9d8] refactored code, added two statics function to wnfts model and interface | By - Or Kilim | On - 2022-05-26T12:43:11Z
- 16. [0a5..a5a] Merge pull request #2 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T08:07:27Z
- 17. [518..f29] delete package-lock.json and changed 'start' script to js instead of ts | By - Or Kilim | On - 2022-05-23T14:06:23Z
- 18. [ef7..472] function for cron now more stable | By - Or Kilim | On - 2022-05-23T13:55:00Z
- 19. [adc..cab] added a log message if name retrieved from axios call is undefined and changed error logs if there is a problem with axios call | By - Or Kilim | On - 2022-05-19T08:47:46Z
- 20. [7da..153] added cron to 'services' folder inside 'cron' folder inside index.ts | By - Or Kilim | On - 2022-05-19T08:40:51Z
- 21. [711..bb7] no lock | By - Or Kilim | On - 2022-05-19T08:22:12Z
- 22. [234..79e] added cron for handling NFTs with generic 'XP.Network Wrapped NFT' name | By - Or Kilim | On - 2022-05-18T16:04:15Z
- 23. [d2b..8b4] updated uri | By - Ruby Edelstein | On - 2022-03-04T15:31:19Z
- 24. [51e..bff] wrapper: use findOneAndUpdate | By - rupansh | On - 2022-03-04T15:27:08Z
- 25. [4ac..821] wrapper: change exists usage | By - rupansh | On - 2022-03-04T15:12:08Z
- 26. [cb8..e42] wrapper: fix compilation | By - rupansh | On - 2022-03-04T14:59:14Z
- 27. [06d..e9b] wrapper: fix derp | By - rupansh | On - 2022-03-04T14:54:54Z
- 28. [39d..023] wrapper: use exists to find existence | By - rupansh | On - 2022-03-04T14:52:45Z
- 29. [149..34b] wrapper: add metaHash to search | By - rupansh | On - 2022-03-04T14:47:10Z
- 30. [3c3..0ed] fix ipfs wrapping | By - rupansh | On - 2022-03-03T18:09:57Z
- 31. [857..ac8] routes: wrapperRoutes: use sane header for ipfs | By - rupansh | On - 2022-03-03T17:25:14Z
- 32. [629..5ac] add ipfs wrapping | By - rupansh | On - 2022-03-03T15:19:09Z
- 33. [f54..eeb] routes: wrapper: remove unecssary log | By - rupansh | On - 2022-02-10T10:32:37Z
- 34. [471..1e3] update wrapper to support multiple types of ids | By - rupansh | On - 2022-02-10T10:12:01Z
- 35. [c94..12d] ignore lib | By - Dima Brook | On - 2022-02-08T12:59:39Z
- 36. [b19..36d] make NFT collection variable | By - Dima Brook | On - 2022-02-08T12:57:35Z
- 37. [1f1..aca] fix env vars with dotenv | By - Dima Brook | On - 2022-02-08T12:50:21Z
- 38. [b33..e4e] initial commit | By - Dima Brook | On - 2022-02-08T11:24:25Z
-
-## ors_task-query_cron
-
-
- 1. [af0..5f9] added logs with id to every error in cron class | By - Or Kilim | On - 2022-05-26T14:22:10Z
- 2. [ec5..758] reverted from localhost config | By - Or Kilim | On - 2022-05-26T14:04:21Z
- 3. [e84..7c6] removed console.logs | By - Or Kilim | On - 2022-05-26T14:00:46Z
- 4. [107..09c] tried locally with local connection string | By - Or Kilim | On - 2022-05-26T13:59:17Z
- 5. [098..b78] changed path in package.json in start script | By - Or Kilim | On - 2022-05-26T13:40:16Z
- 6. [b55..c07] changed importing of cron, now imported everything | By - Or Kilim | On - 2022-05-26T13:35:14Z
- 7. [8bc..d20] updated package.json | By - Or Kilim | On - 2022-05-26T13:00:24Z
- 8. [c41..70e] added the cron to src/index.ts at callback when we connect to mongo | By - Or Kilim | On - 2022-05-26T12:59:14Z
- 9. [964..1b6] put correct connection string | By - Or Kilim | On - 2022-05-26T12:49:04Z
- 10. [2c7..fbf] deleted localhost connection string | By - Or Kilim | On - 2022-05-26T12:48:28Z
- 11. [a29..9d8] refactored code, added two statics function to wnfts model and interface | By - Or Kilim | On - 2022-05-26T12:43:11Z
- 12. [518..f29] delete package-lock.json and changed 'start' script to js instead of ts | By - Or Kilim | On - 2022-05-23T14:06:23Z
- 13. [ef7..472] function for cron now more stable | By - Or Kilim | On - 2022-05-23T13:55:00Z
- 14. [adc..cab] added a log message if name retrieved from axios call is undefined and changed error logs if there is a problem with axios call | By - Or Kilim | On - 2022-05-19T08:47:46Z
- 15. [7da..153] added cron to 'services' folder inside 'cron' folder inside index.ts | By - Or Kilim | On - 2022-05-19T08:40:51Z
- 16. [711..bb7] no lock | By - Or Kilim | On - 2022-05-19T08:22:12Z
- 17. [234..79e] added cron for handling NFTs with generic 'XP.Network Wrapped NFT' name | By - Or Kilim | On - 2022-05-18T16:04:15Z
- 18. [d2b..8b4] updated uri | By - Ruby Edelstein | On - 2022-03-04T15:31:19Z
- 19. [51e..bff] wrapper: use findOneAndUpdate | By - rupansh | On - 2022-03-04T15:27:08Z
- 20. [4ac..821] wrapper: change exists usage | By - rupansh | On - 2022-03-04T15:12:08Z
- 21. [cb8..e42] wrapper: fix compilation | By - rupansh | On - 2022-03-04T14:59:14Z
- 22. [06d..e9b] wrapper: fix derp | By - rupansh | On - 2022-03-04T14:54:54Z
- 23. [39d..023] wrapper: use exists to find existence | By - rupansh | On - 2022-03-04T14:52:45Z
- 24. [149..34b] wrapper: add metaHash to search | By - rupansh | On - 2022-03-04T14:47:10Z
- 25. [3c3..0ed] fix ipfs wrapping | By - rupansh | On - 2022-03-03T18:09:57Z
- 26. [857..ac8] routes: wrapperRoutes: use sane header for ipfs | By - rupansh | On - 2022-03-03T17:25:14Z
- 27. [629..5ac] add ipfs wrapping | By - rupansh | On - 2022-03-03T15:19:09Z
- 28. [f54..eeb] routes: wrapper: remove unecssary log | By - rupansh | On - 2022-02-10T10:32:37Z
- 29. [471..1e3] update wrapper to support multiple types of ids | By - rupansh | On - 2022-02-10T10:12:01Z
- 30. [c94..12d] ignore lib | By - Dima Brook | On - 2022-02-08T12:59:39Z
- 31. [b19..36d] make NFT collection variable | By - Dima Brook | On - 2022-02-08T12:57:35Z
- 32. [1f1..aca] fix env vars with dotenv | By - Dima Brook | On - 2022-02-08T12:50:21Z
- 33. [b33..e4e] initial commit | By - Dima Brook | On - 2022-02-08T11:24:25Z
 
 # XP.network-Elrond-Migration
 
@@ -2307,62 +2438,6 @@
  29. [fa0..6d5] some more visuals added | By - Or Kilim | On - 2022-06-22T13:34:32Z
  30. [a2c..4af] visual changes and about to change functionality | By - Or Kilim | On - 2022-06-22T12:57:22Z
  31. [c2b..fbc] Initialize project using Create React App | By - Or Kilim | On - 2022-06-21T14:44:25Z
-
-# solana-bridge
-
-## main
-
-
- 1. [aee..92f] fix inline doc | By - rocalex | On - 2022-07-04T13:47:20Z
- 2. [3ab..976] emit lamports | By - rocalex | On - 2022-06-20T18:55:50Z
- 3. [a92..545] emit mintWith | By - rocalex | On - 2022-06-19T19:00:19Z
- 4. [587..354] emit action id | By - rocalex | On - 2022-06-19T18:52:00Z
- 5. [e18..8ac] add mint to unfreeze data | By - rocalex | On - 2022-06-17T17:04:36Z
- 6. [43d..adb] add transfer_service_fee_lamports function | By - rocalex | On - 2022-06-14T04:08:17Z
- 7. [f30..846] add withdraw fees | By - rocalex | On - 2022-06-14T03:57:55Z
- 8. [188..c0d] transfer service fee to bridge PDA when freeze/withdraw | By - rocalex | On - 2022-06-14T03:37:56Z
- 9. [a39..e19] remove treasury | By - rocalex | On - 2022-06-14T03:10:57Z
- 10. [270..782] update mpl-token-metadata version | By - rocalex | On - 2022-06-14T03:05:13Z
- 11. [91c..617] use PDA as bridge account | By - rocalex | On - 2022-06-13T20:56:10Z
- 12. [f2f..e83] remove unused imports | By - rocalex | On - 2022-06-13T19:32:44Z
- 13. [4d5..9bd] emit mint when freeze | By - rocalex | On - 2022-06-13T19:30:50Z
- 14. [e19..43d] check if receiver is correct | By - rocalex | On - 2022-06-13T19:24:49Z
- 15. [f35..5f4] change bridge PDA to normal account | By - rocalex | On - 2022-06-13T03:39:07Z
- 16. [b8b..edd] fix burn | By - rocalex | On - 2022-06-12T19:47:19Z
- 17. [388..2ec] fix withdraw | By - rocalex | On - 2022-06-12T19:15:10Z
- 18. [2d4..ab6] change authority | By - rocalex | On - 2022-06-12T15:12:18Z
- 19. [ce1..75c] remove anchor.web. | By - rocalex | On - 2022-06-12T14:47:17Z
- 20. [610..592] bridge account as PDA | By - rocalex | On - 2022-06-12T10:12:35Z
- 21. [848..16e] config the client | By - rocalex | On - 2022-06-12T09:05:54Z
- 22. [a16..c5f] refactor duplicated methods | By - rocalex | On - 2022-06-10T12:13:01Z
- 23. [f00..649] Update README.md | By - Dima Brook | On - 2022-06-09T13:37:11Z
- 24. [116..906] Update README.md | By - Dima Brook | On - 2022-06-09T13:30:41Z
- 25. [c02..7ff] Update README.md | By - Dima Brook | On - 2022-06-09T13:17:05Z
- 26. [f9c..49c] Update README.md | By - Dima Brook | On - 2022-06-09T13:05:32Z
- 27. [823..6f4] Update README.md | By - Dima Brook | On - 2022-06-09T09:17:48Z
- 28. [cee..78e] Update README.md | By - Dima Brook | On - 2022-06-09T09:05:26Z
- 29. [7f6..717] Update README.md | By - Dima Brook | On - 2022-06-09T08:58:22Z
- 30. [cd8..726] Update README.md | By - Dima Brook | On - 2022-06-09T08:57:50Z
- 31. [c76..b83] Update README.md | By - Dima Brook | On - 2022-06-09T08:41:57Z
- 32. [aef..9d0] Update README.md | By - Dima Brook | On - 2022-06-09T08:34:58Z
- 33. [125..5c8] consume actions | By - rocalex | On - 2022-05-31T17:33:40Z
- 34. [cfc..edd] refactor code | By - rocalex | On - 2022-05-30T07:15:12Z
- 35. [ee4..559] fix unfreeze nft | By - rocalex | On - 2022-05-18T15:31:17Z
- 36. [c0f..5ff] fix withdraw nft | By - rocalex | On - 2022-05-18T13:21:22Z
- 37. [294..a73] add prettier | By - rocalex | On - 2022-05-18T13:03:28Z
- 38. [f64..9da] remove auth seeds | By - rocalex | On - 2022-05-18T11:57:58Z
- 39. [252..36e] fix validate_transfer_nft | By - rocalex | On - 2022-05-17T16:22:14Z
- 40. [96d..fc2] update group key | By - rocalex | On - 2022-05-17T14:58:22Z
- 41. [992..76b] fix offsig | By - rocalex | On - 2022-05-17T14:32:47Z
- 42. [471..21f] fix validate_transfer_nft | By - rocalex | On - 2022-05-17T02:39:52Z
- 43. [8d3..6a4] add treasury account | By - rocalex | On - 2022-03-06T17:59:06Z
- 44. [ac1..b13] add withdraw fees | By - rocalex | On - 2022-03-03T06:47:48Z
- 45. [4f2..f03] check if toTokenAccount is bridge when freeze nft | By - rocalex | On - 2022-03-03T06:20:12Z
- 46. [d7b..d6b] check if pub key is valid | By - rocalex | On - 2022-03-03T06:09:51Z
- 47. [f3b..3fb] change secp256k1 to ed25519 | By - rocalex | On - 2022-03-02T15:04:53Z
- 48. [99e..9b3] add test for ed25519 | By - rocalex | On - 2022-03-02T11:31:42Z
- 49. [cc6..5e8] add checking | By - rocalex | On - 2022-03-02T10:14:52Z
- 50. [daf..972] unfreeze nft | By - rocalex | On - 2022-02-21T11:15:54Z
 
 # xp-nft-deployer
 
@@ -3500,18 +3575,6 @@
  22. [2e3..e9f] 🚀 Fixed | By - Rishabh Kumar | On - 2022-01-18T11:34:41Z
  23. [10f..881] 🐛 Fix | By - Rishabh Kumar | On - 2022-01-18T08:12:28Z
  24. [55b..e74] 🎉 init | By - Rishabh Kumar | On - 2022-01-17T11:21:17Z
-
-# deploying_tezos
-
-## main
-
-
- 1. [159..da3] Update README.md | By - Dima Brook | On - 2022-03-17T12:37:31Z
- 2. [db8..3a1] fix | By - Dima Brook | On - 2022-03-16T18:07:11Z
- 3. [186..8d1] add setup | By - Dima Brook | On - 2022-03-14T19:53:56Z
- 4. [aef..100] add setup | By - Dima Brook | On - 2022-03-14T19:53:06Z
- 5. [85e..4af] second commit | By - Dima Brook | On - 2022-03-14T19:48:13Z
- 6. [316..b46] first commit | By - Dima Brook | On - 2022-03-14T12:51:44Z
 
 # signal-server
 

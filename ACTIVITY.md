@@ -1,44 +1,58 @@
-# Xp-Coin-Cap-Market-Backend
-
-## master
-
-
- 1. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
- 2. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
- 3. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
-
-## to-be-verified
-
-
- 1. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
- 2. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
- 3. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
- 4. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
- 5. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
- 6. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
- 7. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
- 8. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
- 9. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
- 10. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
- 11. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
- 12. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
-
-## under-progress
-
-
- 1. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
- 2. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
- 3. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
- 4. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
- 5. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
- 6. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
- 7. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
- 8. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
- 9. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
- 10. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
- 11. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
-
 # migration-validator
+
+## AptosAutoDeployRef
+
+
+ 1. [694..d7a] APTOS: finish deploy on catch | By - AlexeyAdoniev | On - 2023-04-25T08:12:31Z
+ 2. [7bb..fb3] APTOS: change autodeploy timeout, add more complex context, padLeft more 0 | By - AlexeyAdoniev | On - 2023-04-20T12:28:36Z
+ 3. [1b6..642] APTOS: edit royalies function | By - AlexeyAdoniev | On - 2023-04-20T08:18:13Z
+ 4. [06b..607] APTOS: autodeploy refact | By - AlexeyAdoniev | On - 2023-04-19T12:24:21Z
+ 5. [e82..bdf] helpers: dfinity: allow source token id from dfinity | By - imsk17 | On - 2023-04-18T09:22:15Z
+ 6. [371..b7b] Merge pull request #37 from XP-NETWORK/fixMetadataStringBug | By - awkwardman.dev | On - 2023-04-17T14:47:27Z
+ 7. [4fa..a9e] cleanUp | By - AlexeyAdoniev | On - 2023-04-17T10:26:30Z
+ 8. [b1f..fc4] catch case  where  metadata being json string instead of json object | By - AlexeyAdoniev | On - 2023-04-17T10:24:45Z
+ 9. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+ 10. [65f..56b] Merge pull request #36 from XP-NETWORK/feat/AptosAndSolanaRoyalties | By - MuhammadFassihHaider | On - 2023-04-14T10:45:18Z
+ 11. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+ 12. [cbb..02d] prettier: run | By - imsk17 | On - 2023-04-13T18:41:20Z
+ 13. [152..487] cleanup: remove ..env.swp | By - imsk17 | On - 2023-04-13T18:40:01Z
+ 14. [b4e..10d] handlers: tezos: use token id from validator | By - imsk17 | On - 2023-04-13T18:39:04Z
+ 15. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 16. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 17. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 18. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 19. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 20. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 21. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 22. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 23. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 24. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 25. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 26. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 27. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 28. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 29. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 30. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 31. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 32. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 33. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 34. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 35. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 36. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 37. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 38. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 39. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 40. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 41. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 42. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 43. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 44. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 45. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 46. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 47. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 48. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 49. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 50. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
 
 ## add-global-timeout
 
@@ -796,6 +810,438 @@
  49. [309..fc8] ton: increase txLock timeout | By - rupansh | On - 2022-11-07T15:29:33Z
  50. [b14..70b] aptos: fix minor derp | By - rupansh | On - 2022-11-07T15:09:25Z
 
+## evmSymbolToName
+
+
+ 1. [fa4..da4] quick fix in symbol[] | By - AlexeyAdoniev | On - 2023-03-09T11:46:17Z
+ 2. [c93..57f] EVM: use contract symbol as name if name is undefined | By - AlexeyAdoniev | On - 2023-03-09T11:28:29Z
+ 3. [622..e73] Update index.ts | By - Muhammad Shoaib | On - 2023-03-08T17:05:22Z
+ 4. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 5. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 6. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 7. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 8. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+ 9. [2ae..d15] Merge pull request #25 from XP-NETWORK/fix/secret | By - MuhammadFassihHaider | On - 2023-03-06T08:56:19Z
+ 10. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 11. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 12. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 13. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 14. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 15. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+ 16. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
+ 17. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
+ 18. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
+ 19. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
+ 20. [ef4..a10] build(dep): bump secretjs | By - MuhammadFassihHaider | On - 2023-03-03T11:50:16Z
+ 21. [2aa..8c4] debug(secret): add logs, disable whitelist check | By - Fassih Haider | On - 2023-03-01T13:39:13Z
+ 22. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
+ 23. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
+ 24. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
+ 25. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
+ 26. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
+ 27. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
+ 28. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
+ 29. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
+ 30. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
+ 31. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
+ 32. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
+ 33. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
+ 34. [65e..acc] fix merge build error | By - AlexSafepress | On - 2023-02-27T11:37:49Z
+ 35. [916..237] fix merge conflict with production | By - AlexSafepress | On - 2023-02-27T11:30:26Z
+ 36. [f1c..15d] Merge branch 'production' into feat/solana-auto-deployment | By - AlexSafepress | On - 2023-02-27T11:19:11Z
+ 37. [4d7..fef] Update is_whitelistable.ts | By - awkwardman.dev | On - 2023-02-27T08:08:00Z
+ 38. [700..7af] refactor(solana): format code | By - Fassih Haider | On - 2023-02-27T07:38:10Z
+ 39. [e83..213] build: makeuseTabs: false because of many white place changes | By - Fassih Haider | On - 2023-02-27T07:37:33Z
+ 40. [2c5..727] fix(solana): add hardcoded royalty in config | By - Fassih Haider | On - 2023-02-27T07:34:53Z
+ 41. [7e6..378] fix(solana): disable 1155 for solana | By - Fassih Haider | On - 2023-02-27T07:32:18Z
+ 42. [322..aa6] Merge pull request #24 from XP-NETWORK/feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T07:24:32Z
+ 43. [206..ca4] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:23:00Z
+ 44. [0ad..fc5] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:20:29Z
+ 45. [08c..597] Update events.ts | By - awkwardman.dev | On - 2023-02-27T07:16:15Z
+ 46. [6b4..550] Delete .env.original | By - awkwardman.dev | On - 2023-02-27T06:59:17Z
+ 47. [6b9..d54] Merge branch 'production' into feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T06:58:43Z
+ 48. [264..50e] Merge pull request #23 from XP-NETWORK/feat/isWhitelistable | By - awkwardman.dev | On - 2023-02-27T06:00:24Z
+ 49. [764..410] temp change wallet to v4 | By - zothix | On - 2023-02-26T09:27:03Z
+ 50. [85b..701] fix ton identifier :( | By - zothix | On - 2023-02-26T06:50:37Z
+
+## fear/Whitelist
+
+
+ 1. [793..bec] update whitelist script | By - zothix | On - 2023-03-16T13:53:23Z
+ 2. [1fe..8da] Sercet: add  field to metadata | By - AlexeyAdoniev | On - 2023-03-16T09:28:21Z
+ 3. [cd8..36f] Merge pull request #30 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T13:37:31Z
+ 4. [5f5..e1c] feat(secret): add attributes in metadata | By - Fassih Haider | On - 2023-03-14T13:26:52Z
+ 5. [60d..d55] Merge pull request #29 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T11:53:46Z
+ 6. [38d..3d9] refactor(secret): remove private url | By - Fassih Haider | On - 2023-03-14T11:38:57Z
+ 7. [e0f..99f] Merge pull request #28 from XP-NETWORK/feat/near | By - awkwardman.dev | On - 2023-03-14T10:41:52Z
+ 8. [343..949] refactor(hedera): remove clg stmt | By - Fassih Haider | On - 2023-03-14T10:41:11Z
+ 9. [3c7..0b7] utils: opensea: collection name: return zero values on failure | By - imsk17 | On - 2023-03-13T13:17:05Z
+ 10. [fc4..1d8] add log for hedera wallet | By - zothix | On - 2023-03-13T12:07:05Z
+ 11. [8f0..f87] Merge branch 'feat/whiteListUpdate' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T11:46:04Z
+ 12. [580..5e2] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:41Z
+ 13. [d15..4d6] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:04Z
+ 14. [c5f..10f] fix(secret): handle undefined error | By - Fassih Haider | On - 2023-03-13T11:32:34Z
+ 15. [a3f..108] fix(secret): improve getter fns for name, desc and imgURL | By - Fassih Haider | On - 2023-03-13T11:18:39Z
+ 16. [f01..a0d] fix(secret): add backup if token_uri is null in metadata | By - Fassih Haider | On - 2023-03-13T10:59:16Z
+ 17. [e51..1aa] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-13T07:03:10Z
+ 18. [ad3..d9d] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T05:50:15Z
+ 19. [a14..3ae] change to 1 yocto Near | By - zothix | On - 2023-03-11T15:01:33Z
+ 20. [cd7..952] attached deposit | By - zothix | On - 2023-03-11T14:34:10Z
+ 21. [e68..201] add deposit back :( | By - zothix | On - 2023-03-11T13:10:19Z
+ 22. [4df..866] remove deposit amount | By - zothix | On - 2023-03-11T12:59:36Z
+ 23. [3da..631] add one yokta | By - zothix | On - 2023-03-11T12:51:15Z
+ 24. [c0d..da5] non sense :( | By - zothix | On - 2023-03-11T09:08:41Z
+ 25. [506..daa]  handle transfer unique data mismatch wtf :( | By - zothix | On - 2023-03-11T09:02:57Z
+ 26. [595..861] token contract :( | By - zothix | On - 2023-03-11T08:51:45Z
+ 27. [795..5ee] fix near origin noonce issue | By - zothix | On - 2023-03-11T08:32:18Z
+ 28. [7e4..2d5] Merge pull request #26 from XP-NETWORK/testing/secret2 | By - awkwardman.dev | On - 2023-03-09T11:53:04Z
+ 29. [171..c4d] fix: add missing condition | By - Fassih Haider | On - 2023-03-09T11:49:33Z
+ 30. [680..fbb] fix: correct condition for token id to make it work with solana | By - Fassih Haider | On - 2023-03-09T11:40:59Z
+ 31. [8c6..475] debug(whitelist): add whitelist check back | By - Fassih Haider | On - 2023-03-09T11:30:21Z
+ 32. [752..2c4] fix: assign new mintwith | By - Fassih Haider | On - 2023-03-09T11:30:02Z
+ 33. [e47..459] debug(whitelist): rm whitelist check | By - Fassih Haider | On - 2023-03-09T08:50:33Z
+ 34. [c4e..d76] token id fix  in all places | By - zothix | On - 2023-03-09T07:44:56Z
+ 35. [331..b68] token id fix test | By - zothix | On - 2023-03-09T07:41:53Z
+ 36. [f83..428] fix tokenid issue | By - zothix | On - 2023-03-09T07:27:56Z
+ 37. [ee5..0b5] feat: add getMintWith on scrt side | By - Fassih Haider | On - 2023-03-08T19:57:13Z
+ 38. [622..e73] Update index.ts | By - Muhammad Shoaib | On - 2023-03-08T17:05:22Z
+ 39. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 40. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 41. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 42. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 43. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+ 44. [2ae..d15] Merge pull request #25 from XP-NETWORK/fix/secret | By - MuhammadFassihHaider | On - 2023-03-06T08:56:19Z
+ 45. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 46. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 47. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 48. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 49. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 50. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+
+## feat/AptosAndSolanaRoyalties
+
+
+ 1. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+ 2. [cbb..02d] prettier: run | By - imsk17 | On - 2023-04-13T18:41:20Z
+ 3. [152..487] cleanup: remove ..env.swp | By - imsk17 | On - 2023-04-13T18:40:01Z
+ 4. [b4e..10d] handlers: tezos: use token id from validator | By - imsk17 | On - 2023-04-13T18:39:04Z
+ 5. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 6. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 7. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 8. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 9. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 10. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 11. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 12. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 13. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 14. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 15. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 16. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 17. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 18. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 19. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 20. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 21. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 22. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 23. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 24. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 25. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 26. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 27. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 28. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 29. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 30. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 31. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 32. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 33. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 34. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 35. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 36. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 37. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 38. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 39. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 40. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 41. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 42. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 43. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 44. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 45. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+ 46. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
+ 47. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
+ 48. [b20..fcc] hardcoded the value for the near royality | By - D | On - 2023-03-21T20:38:14Z
+ 49. [875..299] isED255119KEY faalse in hedera | By - zothix | On - 2023-03-21T16:33:08Z
+ 50. [d71..b3d] remove temp return from whitelist | By - zothix | On - 2023-03-21T15:43:52Z
+
+## feat/NearCollectionCreator
+
+
+ 1. [cf2..613] original tokenId from near to evm (in progress) | By - D | On - 2023-05-02T13:22:51Z
+ 2. [ec0..59a] Merge branch 'fix/mapping' into feat/NearCollectionCreator | By - Alex Moshinsky | On - 2023-05-01T08:28:31Z
+ 3. [44e..fa8] fix dot between collectionName and symbol and deployer | By - Alex Moshinsky | On - 2023-04-30T12:08:20Z
+ 4. [0ac..2ac] fixes | By - Alex Moshinsky | On - 2023-04-30T11:53:45Z
+ 5. [d8a..ad1] trim on collectionName and symbol | By - Alex Moshinsky | On - 2023-04-30T11:44:58Z
+ 6. [6a9..21d] fixes | By - Alex Moshinsky | On - 2023-04-30T11:42:45Z
+ 7. [181..e7a] fixes | By - Alex Moshinsky | On - 2023-04-30T10:12:30Z
+ 8. [aac..8ec] fix collectionName near | By - Alex Moshinsky | On - 2023-04-30T09:28:47Z
+ 9. [9e0..cd7] increase near gas | By - Alex Moshinsky | On - 2023-04-30T07:50:31Z
+ 10. [a3f..f4c] Merge branch 'feat/NearCollectionCreator' of https://github.com/XP-NETWORK/migration-validator into feat/NearCollectionCreator | By - D | On - 2023-04-27T09:46:52Z
+ 11. [3e3..c21] gas testing for moonbeam | By - D | On - 2023-04-27T09:46:41Z
+ 12. [69f..1e7] APTOS:update abis | By - zothix | On - 2023-04-27T08:41:29Z
+ 13. [d63..28f] fix(wrapping): use correct url according to contract mapping type | By - imsk17 | On - 2023-04-25T13:59:01Z
+ 14. [fe7..767] key must not contain '.' (so replaced the dots with underscore while adding to the db and on getting replace back to dots) | By - D | On - 2023-04-20T20:02:42Z
+ 15. [0bf..866] near royalty for new collection | By - D | On - 2023-04-20T18:58:37Z
+ 16. [ab9..f67] comment the near put route for testing | By - D | On - 2023-04-20T14:57:24Z
+ 17. [523..5a5] fixed the near put royalty url | By - D | On - 2023-04-20T13:08:08Z
+ 18. [558..978] map royalty for near new collection creation | By - D | On - 2023-04-20T12:21:52Z
+ 19. [d85..702] isOpenSeaCollection correction | By - D | On - 2023-04-19T19:11:54Z
+ 20. [f95..89a] wrapped url for near | By - D | On - 2023-04-19T17:53:55Z
+ 21. [4bc..3b1] source_mint_ident = contract | By - D | On - 2023-04-19T16:58:16Z
+ 22. [430..6c8] use new collection | By - D | On - 2023-04-19T16:43:17Z
+ 23. [5d3..66c] fix | By - D | On - 2023-04-19T13:36:43Z
+ 24. [089..547] revert the tokenid | By - D | On - 2023-04-19T13:25:55Z
+ 25. [f70..bae] checkcollection fix | By - D | On - 2023-04-19T12:39:16Z
+ 26. [c2f..286] changes undefined tokenids to zero in case of undefined | By - D | On - 2023-04-19T12:11:31Z
+ 27. [864..11f] log the returned address | By - D | On - 2023-04-19T11:56:53Z
+ 28. [0c5..8e0] fix the source mint ident in near case | By - D | On - 2023-04-19T10:27:19Z
+ 29. [0ff..6bd] evm create collection log | By - D | On - 2023-04-19T09:35:28Z
+ 30. [42f..fd3] from near to evm implementation | By - D | On - 2023-04-19T08:14:42Z
+ 31. [e96..0d0] check collection if exists | By - D | On - 2023-04-19T04:23:30Z
+ 32. [bd6..4be] fix account id | By - D | On - 2023-04-19T04:11:58Z
+ 33. [b10..a15] collection name plus collection symbol to manke new account for near new collection | By - D | On - 2023-04-19T04:02:44Z
+ 34. [9d8..f26] near collection creation fixes in getmintwith | By - D | On - 2023-04-19T03:45:25Z
+ 35. [a91..c55] near config changes | By - D | On - 2023-04-18T11:46:12Z
+ 36. [66f..c8f] target chain 31 then pick that node | By - D | On - 2023-04-18T11:39:41Z
+ 37. [304..3b0] fix | By - D | On - 2023-04-18T11:31:38Z
+ 38. [e31..088] add collection creators of near in handler | By - D | On - 2023-04-18T11:25:18Z
+ 39. [97e..759] undo fix | By - D | On - 2023-04-18T11:07:07Z
+ 40. [169..927] fix | By - D | On - 2023-04-18T11:05:03Z
+ 41. [959..2aa] Merge branch 'feat/NearCollectionCreator' of https://github.com/XP-NETWORK/migration-validator into feat/NearCollectionCreator | By - D | On - 2023-04-18T10:49:56Z
+ 42. [8ac..1ad] checking env collection creator for near | By - D | On - 2023-04-18T10:49:13Z
+ 43. [765..d8c] remove whitelist check | By - zothix | On - 2023-04-18T10:16:55Z
+ 44. [2a3..55f] near collection creator changes | By - D | On - 2023-04-18T09:54:53Z
+ 45. [371..b7b] Merge pull request #37 from XP-NETWORK/fixMetadataStringBug | By - awkwardman.dev | On - 2023-04-17T14:47:27Z
+ 46. [4fa..a9e] cleanUp | By - AlexeyAdoniev | On - 2023-04-17T10:26:30Z
+ 47. [b1f..fc4] catch case  where  metadata being json string instead of json object | By - AlexeyAdoniev | On - 2023-04-17T10:24:45Z
+ 48. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+ 49. [65f..56b] Merge pull request #36 from XP-NETWORK/feat/AptosAndSolanaRoyalties | By - MuhammadFassihHaider | On - 2023-04-14T10:45:18Z
+ 50. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+
+## feat/NearMetaData
+
+
+ 1. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 2. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 3. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 4. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 5. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 6. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 7. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 8. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 9. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 10. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 11. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 12. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 13. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 14. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 15. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
+ 16. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
+ 17. [b20..fcc] hardcoded the value for the near royality | By - D | On - 2023-03-21T20:38:14Z
+ 18. [d71..b3d] remove temp return from whitelist | By - zothix | On - 2023-03-21T15:43:52Z
+ 19. [e27..44a] fix copying of object. | By - zothix | On - 2023-03-20T16:05:18Z
+ 20. [4a9..c85] update signing on validateTransferNft near | By - zothix | On - 2023-03-20T15:23:33Z
+ 21. [ed8..71c] add reference to the nft token in near. | By - D | On - 2023-03-20T14:22:08Z
+ 22. [3cb..914] add full metadata in wrapped. | By - D | On - 2023-03-20T13:49:57Z
+ 23. [0d8..522] getArtvatarByTokenId | By - rony derra | On - 2023-03-20T08:39:09Z
+ 24. [fd2..bf1] Merge pull request #31 from XP-NETWORK/fear/Whitelist | By - Muhammad Shoaib | On - 2023-03-16T14:53:18Z
+ 25. [990..7e1] Secret:clenUp and typo fix | By - AlexeyAdoniev | On - 2023-03-16T14:23:43Z
+ 26. [9b7..4e0] Sercet: fix  field to attributes | By - AlexeyAdoniev | On - 2023-03-16T14:19:07Z
+ 27. [793..bec] update whitelist script | By - zothix | On - 2023-03-16T13:53:23Z
+ 28. [1fe..8da] Sercet: add  field to metadata | By - AlexeyAdoniev | On - 2023-03-16T09:28:21Z
+ 29. [cd8..36f] Merge pull request #30 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T13:37:31Z
+ 30. [5f5..e1c] feat(secret): add attributes in metadata | By - Fassih Haider | On - 2023-03-14T13:26:52Z
+ 31. [60d..d55] Merge pull request #29 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T11:53:46Z
+ 32. [38d..3d9] refactor(secret): remove private url | By - Fassih Haider | On - 2023-03-14T11:38:57Z
+ 33. [e0f..99f] Merge pull request #28 from XP-NETWORK/feat/near | By - awkwardman.dev | On - 2023-03-14T10:41:52Z
+ 34. [343..949] refactor(hedera): remove clg stmt | By - Fassih Haider | On - 2023-03-14T10:41:11Z
+ 35. [3c7..0b7] utils: opensea: collection name: return zero values on failure | By - imsk17 | On - 2023-03-13T13:17:05Z
+ 36. [fc4..1d8] add log for hedera wallet | By - zothix | On - 2023-03-13T12:07:05Z
+ 37. [8f0..f87] Merge branch 'feat/whiteListUpdate' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T11:46:04Z
+ 38. [580..5e2] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:41Z
+ 39. [d15..4d6] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:04Z
+ 40. [c5f..10f] fix(secret): handle undefined error | By - Fassih Haider | On - 2023-03-13T11:32:34Z
+ 41. [a3f..108] fix(secret): improve getter fns for name, desc and imgURL | By - Fassih Haider | On - 2023-03-13T11:18:39Z
+ 42. [f01..a0d] fix(secret): add backup if token_uri is null in metadata | By - Fassih Haider | On - 2023-03-13T10:59:16Z
+ 43. [e51..1aa] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-13T07:03:10Z
+ 44. [ad3..d9d] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T05:50:15Z
+ 45. [a14..3ae] change to 1 yocto Near | By - zothix | On - 2023-03-11T15:01:33Z
+ 46. [cd7..952] attached deposit | By - zothix | On - 2023-03-11T14:34:10Z
+ 47. [e68..201] add deposit back :( | By - zothix | On - 2023-03-11T13:10:19Z
+ 48. [4df..866] remove deposit amount | By - zothix | On - 2023-03-11T12:59:36Z
+ 49. [3da..631] add one yokta | By - zothix | On - 2023-03-11T12:51:15Z
+ 50. [c0d..da5] non sense :( | By - zothix | On - 2023-03-11T09:08:41Z
+
+## feat/NearMetaData2
+
+
+ 1. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 2. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 3. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 4. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 5. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 6. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 7. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 8. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 9. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 10. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 11. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 12. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 13. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 14. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 15. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
+ 16. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
+ 17. [b20..fcc] hardcoded the value for the near royality | By - D | On - 2023-03-21T20:38:14Z
+ 18. [d71..b3d] remove temp return from whitelist | By - zothix | On - 2023-03-21T15:43:52Z
+ 19. [e27..44a] fix copying of object. | By - zothix | On - 2023-03-20T16:05:18Z
+ 20. [4a9..c85] update signing on validateTransferNft near | By - zothix | On - 2023-03-20T15:23:33Z
+ 21. [ed8..71c] add reference to the nft token in near. | By - D | On - 2023-03-20T14:22:08Z
+ 22. [3cb..914] add full metadata in wrapped. | By - D | On - 2023-03-20T13:49:57Z
+ 23. [0d8..522] getArtvatarByTokenId | By - rony derra | On - 2023-03-20T08:39:09Z
+ 24. [fd2..bf1] Merge pull request #31 from XP-NETWORK/fear/Whitelist | By - Muhammad Shoaib | On - 2023-03-16T14:53:18Z
+ 25. [990..7e1] Secret:clenUp and typo fix | By - AlexeyAdoniev | On - 2023-03-16T14:23:43Z
+ 26. [9b7..4e0] Sercet: fix  field to attributes | By - AlexeyAdoniev | On - 2023-03-16T14:19:07Z
+ 27. [793..bec] update whitelist script | By - zothix | On - 2023-03-16T13:53:23Z
+ 28. [1fe..8da] Sercet: add  field to metadata | By - AlexeyAdoniev | On - 2023-03-16T09:28:21Z
+ 29. [cd8..36f] Merge pull request #30 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T13:37:31Z
+ 30. [5f5..e1c] feat(secret): add attributes in metadata | By - Fassih Haider | On - 2023-03-14T13:26:52Z
+ 31. [60d..d55] Merge pull request #29 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T11:53:46Z
+ 32. [38d..3d9] refactor(secret): remove private url | By - Fassih Haider | On - 2023-03-14T11:38:57Z
+ 33. [e0f..99f] Merge pull request #28 from XP-NETWORK/feat/near | By - awkwardman.dev | On - 2023-03-14T10:41:52Z
+ 34. [343..949] refactor(hedera): remove clg stmt | By - Fassih Haider | On - 2023-03-14T10:41:11Z
+ 35. [3c7..0b7] utils: opensea: collection name: return zero values on failure | By - imsk17 | On - 2023-03-13T13:17:05Z
+ 36. [fc4..1d8] add log for hedera wallet | By - zothix | On - 2023-03-13T12:07:05Z
+ 37. [8f0..f87] Merge branch 'feat/whiteListUpdate' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T11:46:04Z
+ 38. [580..5e2] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:41Z
+ 39. [d15..4d6] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:04Z
+ 40. [c5f..10f] fix(secret): handle undefined error | By - Fassih Haider | On - 2023-03-13T11:32:34Z
+ 41. [a3f..108] fix(secret): improve getter fns for name, desc and imgURL | By - Fassih Haider | On - 2023-03-13T11:18:39Z
+ 42. [f01..a0d] fix(secret): add backup if token_uri is null in metadata | By - Fassih Haider | On - 2023-03-13T10:59:16Z
+ 43. [e51..1aa] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-13T07:03:10Z
+ 44. [ad3..d9d] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T05:50:15Z
+ 45. [a14..3ae] change to 1 yocto Near | By - zothix | On - 2023-03-11T15:01:33Z
+ 46. [cd7..952] attached deposit | By - zothix | On - 2023-03-11T14:34:10Z
+ 47. [e68..201] add deposit back :( | By - zothix | On - 2023-03-11T13:10:19Z
+ 48. [4df..866] remove deposit amount | By - zothix | On - 2023-03-11T12:59:36Z
+ 49. [3da..631] add one yokta | By - zothix | On - 2023-03-11T12:51:15Z
+ 50. [c0d..da5] non sense :( | By - zothix | On - 2023-03-11T09:08:41Z
+
+## feat/NearNotWhitelisted
+
+
+ 1. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 2. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 3. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 4. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 5. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 6. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 7. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 8. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 9. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 10. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 11. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 12. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 13. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 14. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 15. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 16. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 17. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 18. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 19. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 20. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 21. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 22. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 23. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 24. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 25. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 26. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 27. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 28. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 29. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+ 30. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
+ 31. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
+ 32. [b20..fcc] hardcoded the value for the near royality | By - D | On - 2023-03-21T20:38:14Z
+ 33. [875..299] isED255119KEY faalse in hedera | By - zothix | On - 2023-03-21T16:33:08Z
+ 34. [d71..b3d] remove temp return from whitelist | By - zothix | On - 2023-03-21T15:43:52Z
+ 35. [e27..44a] fix copying of object. | By - zothix | On - 2023-03-20T16:05:18Z
+ 36. [4a9..c85] update signing on validateTransferNft near | By - zothix | On - 2023-03-20T15:23:33Z
+ 37. [ed8..71c] add reference to the nft token in near. | By - D | On - 2023-03-20T14:22:08Z
+ 38. [e55..6b6] SECRET: change Private Data value | By - AlexeyAdoniev | On - 2023-03-20T13:54:37Z
+ 39. [3cb..914] add full metadata in wrapped. | By - D | On - 2023-03-20T13:49:57Z
+ 40. [0d8..522] getArtvatarByTokenId | By - rony derra | On - 2023-03-20T08:39:09Z
+ 41. [fd2..bf1] Merge pull request #31 from XP-NETWORK/fear/Whitelist | By - Muhammad Shoaib | On - 2023-03-16T14:53:18Z
+ 42. [990..7e1] Secret:clenUp and typo fix | By - AlexeyAdoniev | On - 2023-03-16T14:23:43Z
+ 43. [9b7..4e0] Sercet: fix  field to attributes | By - AlexeyAdoniev | On - 2023-03-16T14:19:07Z
+ 44. [793..bec] update whitelist script | By - zothix | On - 2023-03-16T13:53:23Z
+ 45. [1fe..8da] Sercet: add  field to metadata | By - AlexeyAdoniev | On - 2023-03-16T09:28:21Z
+ 46. [cd8..36f] Merge pull request #30 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T13:37:31Z
+ 47. [5f5..e1c] feat(secret): add attributes in metadata | By - Fassih Haider | On - 2023-03-14T13:26:52Z
+ 48. [60d..d55] Merge pull request #29 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T11:53:46Z
+ 49. [38d..3d9] refactor(secret): remove private url | By - Fassih Haider | On - 2023-03-14T11:38:57Z
+ 50. [e0f..99f] Merge pull request #28 from XP-NETWORK/feat/near | By - awkwardman.dev | On - 2023-03-14T10:41:52Z
+
+## feat/evm-no-whitelist
+
+
+ 1. [eca..d94] refactor: remove whitelist check | By - Fassih Haider | On - 2023-04-14T05:06:08Z
+ 2. [2fd..08e] refactor: fix build err | By - Fassih Haider | On - 2023-04-13T06:48:40Z
+ 3. [905..514] refactor: make changes to test event | By - Fassih Haider | On - 2023-04-13T06:47:20Z
+ 4. [af7..622] fix: separate contract calling from Minter__Factory | By - Fassih Haider | On - 2023-04-13T06:18:18Z
+ 5. [f60..964] refactor: remove return for further testing | By - Fassih Haider | On - 2023-04-13T06:04:14Z
+ 6. [088..d6a] refactor: add clg stmt | By - Fassih Haider | On - 2023-04-13T05:39:50Z
+ 7. [62c..903] fix: handle underpriced tx for polygon | By - Fassih Haider | On - 2023-04-13T05:29:28Z
+ 8. [b9f..c08] refactor: add initial frost gkey | By - Fassih Haider | On - 2023-04-13T05:26:02Z
+ 9. [505..658] refactor: add clg stmts | By - Fassih Haider | On - 2023-04-13T04:28:05Z
+ 10. [7da..c82] refactor: make minor fixes | By - Fassih Haider | On - 2023-04-13T04:19:51Z
+ 11. [0cf..3bb] feat: add impl for unfreeze, fix race condition | By - Fassih Haider | On - 2023-04-12T08:55:54Z
+ 12. [386..6d5] feat: impl adding contract addr to bridge using sig | By - Fassih Haider | On - 2023-04-12T04:49:23Z
+ 13. [55f..e8c] feat: :construction: add impl for checking mapping, deploying contract, adding contract to bridge | By - Fassih Haider | On - 2023-04-11T08:46:29Z
+ 14. [d7d..0d1] refactor: camelize bridge util file names | By - Fassih Haider | On - 2023-04-11T04:10:47Z
+ 15. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 16. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 17. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 18. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 19. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 20. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 21. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 22. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 23. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 24. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 25. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 26. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 27. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 28. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 29. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 30. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 31. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 32. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 33. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 34. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 35. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 36. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 37. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 38. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 39. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 40. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 41. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 42. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 43. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 44. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 45. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 46. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+ 47. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
+ 48. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
+ 49. [b20..fcc] hardcoded the value for the near royality | By - D | On - 2023-03-21T20:38:14Z
+ 50. [875..299] isED255119KEY faalse in hedera | By - zothix | On - 2023-03-21T16:33:08Z
+
 ## feat/evm-unique-collection
 
 
@@ -850,6 +1296,168 @@
  49. [0e5..d44] refactor burner unlock | By - Irtisam | On - 2023-02-11T14:35:05Z
  50. [182..67a] modify sleep in burnerUnlock | By - zothix | On - 2023-02-11T14:21:20Z
 
+## feat/handle-no-symbol
+
+
+ 1. [710..a2b] fix(solana): add default symbol | By - Fassih Haider | On - 2023-04-20T05:38:25Z
+ 2. [2ef..f83] feat: add impl. for handling if there is no symbol | By - Fassih Haider | On - 2023-04-20T05:21:47Z
+ 3. [523..cfa] feat(mapping): use tokenId instead of source_token_id for mappings check | By - imsk17 | On - 2023-04-19T15:37:25Z
+ 4. [0b4..898] Merge pull request #39 from XP-NETWORK/fix/solana-prod | By - MuhammadFassihHaider | On - 2023-04-19T13:31:31Z
+ 5. [931..c5c] refactor: add whitelist check back | By - Fassih Haider | On - 2023-04-19T13:30:53Z
+ 6. [4e4..a09] fix(solana): add fix for opensea by default | By - Fassih Haider | On - 2023-04-19T03:35:18Z
+ 7. [e82..bdf] helpers: dfinity: allow source token id from dfinity | By - imsk17 | On - 2023-04-18T09:22:15Z
+ 8. [371..b7b] Merge pull request #37 from XP-NETWORK/fixMetadataStringBug | By - awkwardman.dev | On - 2023-04-17T14:47:27Z
+ 9. [4fa..a9e] cleanUp | By - AlexeyAdoniev | On - 2023-04-17T10:26:30Z
+ 10. [b1f..fc4] catch case  where  metadata being json string instead of json object | By - AlexeyAdoniev | On - 2023-04-17T10:24:45Z
+ 11. [c27..6c6] fix(solana): fix symbol too long issue | By - Fassih Haider | On - 2023-04-17T09:52:12Z
+ 12. [f60..04b] refactor: remove whitelist check | By - Fassih Haider | On - 2023-04-17T08:52:23Z
+ 13. [a35..d2f] fix(solana: handle opensea collection name & royalty | By - Fassih Haider | On - 2023-04-17T05:06:49Z
+ 14. [66f..a46] refactor: remove comments, improve return type | By - Fassih Haider | On - 2023-04-17T04:47:10Z
+ 15. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+ 16. [65f..56b] Merge pull request #36 from XP-NETWORK/feat/AptosAndSolanaRoyalties | By - MuhammadFassihHaider | On - 2023-04-14T10:45:18Z
+ 17. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+ 18. [cbb..02d] prettier: run | By - imsk17 | On - 2023-04-13T18:41:20Z
+ 19. [152..487] cleanup: remove ..env.swp | By - imsk17 | On - 2023-04-13T18:40:01Z
+ 20. [b4e..10d] handlers: tezos: use token id from validator | By - imsk17 | On - 2023-04-13T18:39:04Z
+ 21. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 22. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 23. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 24. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 25. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 26. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 27. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 28. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 29. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 30. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 31. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 32. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 33. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 34. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 35. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 36. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 37. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 38. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 39. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 40. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 41. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 42. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 43. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 44. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 45. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 46. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 47. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 48. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 49. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 50. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+
+## feat/hedera
+
+
+ 1. [6c8..a6f] ed25519 false | By - Irtisam | On - 2023-03-08T11:11:11Z
+ 2. [672..00b] restore provider | By - Irtisam | On - 2023-03-08T11:05:08Z
+ 3. [07c..917] put ed25519 to false | By - zothix | On - 2023-03-08T10:55:34Z
+ 4. [c18..e6b] change hedera provider | By - zothix | On - 2023-03-08T10:48:12Z
+ 5. [0fe..9cb] revert isEd25519Type | By - zothix | On - 2023-03-08T08:10:16Z
+ 6. [9e7..796] initial commit | By - Irtisam | On - 2023-03-08T06:30:27Z
+ 7. [c11..730] debug(whitelist): disable whitelist check | By - Fassih Haider | On - 2023-03-07T13:43:37Z
+ 8. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 9. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 10. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 11. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 12. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+ 13. [2ae..d15] Merge pull request #25 from XP-NETWORK/fix/secret | By - MuhammadFassihHaider | On - 2023-03-06T08:56:19Z
+ 14. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 15. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 16. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 17. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 18. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 19. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+ 20. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
+ 21. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
+ 22. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
+ 23. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
+ 24. [ef4..a10] build(dep): bump secretjs | By - MuhammadFassihHaider | On - 2023-03-03T11:50:16Z
+ 25. [2aa..8c4] debug(secret): add logs, disable whitelist check | By - Fassih Haider | On - 2023-03-01T13:39:13Z
+ 26. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
+ 27. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
+ 28. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
+ 29. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
+ 30. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
+ 31. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
+ 32. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
+ 33. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
+ 34. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
+ 35. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
+ 36. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
+ 37. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
+ 38. [65e..acc] fix merge build error | By - AlexSafepress | On - 2023-02-27T11:37:49Z
+ 39. [916..237] fix merge conflict with production | By - AlexSafepress | On - 2023-02-27T11:30:26Z
+ 40. [f1c..15d] Merge branch 'production' into feat/solana-auto-deployment | By - AlexSafepress | On - 2023-02-27T11:19:11Z
+ 41. [4d7..fef] Update is_whitelistable.ts | By - awkwardman.dev | On - 2023-02-27T08:08:00Z
+ 42. [700..7af] refactor(solana): format code | By - Fassih Haider | On - 2023-02-27T07:38:10Z
+ 43. [e83..213] build: makeuseTabs: false because of many white place changes | By - Fassih Haider | On - 2023-02-27T07:37:33Z
+ 44. [2c5..727] fix(solana): add hardcoded royalty in config | By - Fassih Haider | On - 2023-02-27T07:34:53Z
+ 45. [7e6..378] fix(solana): disable 1155 for solana | By - Fassih Haider | On - 2023-02-27T07:32:18Z
+ 46. [322..aa6] Merge pull request #24 from XP-NETWORK/feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T07:24:32Z
+ 47. [206..ca4] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:23:00Z
+ 48. [0ad..fc5] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:20:29Z
+ 49. [08c..597] Update events.ts | By - awkwardman.dev | On - 2023-02-27T07:16:15Z
+ 50. [6b4..550] Delete .env.original | By - awkwardman.dev | On - 2023-02-27T06:59:17Z
+
+## feat/ipfs-fixing
+
+
+ 1. [2ca..904] if ipfs cid then update the image url | By - zothix | On - 2023-04-05T12:31:55Z
+ 2. [64f..fe9] logs | By - D | On - 2023-04-05T11:57:58Z
+ 3. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 4. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 5. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 6. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 7. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 8. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 9. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 10. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 11. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 12. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 13. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 14. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 15. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 16. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 17. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 18. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 19. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 20. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 21. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 22. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 23. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 24. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 25. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 26. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 27. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 28. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 29. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 30. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 31. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 32. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 33. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 34. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+ 35. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
+ 36. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
+ 37. [b20..fcc] hardcoded the value for the near royality | By - D | On - 2023-03-21T20:38:14Z
+ 38. [875..299] isED255119KEY faalse in hedera | By - zothix | On - 2023-03-21T16:33:08Z
+ 39. [d71..b3d] remove temp return from whitelist | By - zothix | On - 2023-03-21T15:43:52Z
+ 40. [e27..44a] fix copying of object. | By - zothix | On - 2023-03-20T16:05:18Z
+ 41. [4a9..c85] update signing on validateTransferNft near | By - zothix | On - 2023-03-20T15:23:33Z
+ 42. [ed8..71c] add reference to the nft token in near. | By - D | On - 2023-03-20T14:22:08Z
+ 43. [e55..6b6] SECRET: change Private Data value | By - AlexeyAdoniev | On - 2023-03-20T13:54:37Z
+ 44. [3cb..914] add full metadata in wrapped. | By - D | On - 2023-03-20T13:49:57Z
+ 45. [0d8..522] getArtvatarByTokenId | By - rony derra | On - 2023-03-20T08:39:09Z
+ 46. [fd2..bf1] Merge pull request #31 from XP-NETWORK/fear/Whitelist | By - Muhammad Shoaib | On - 2023-03-16T14:53:18Z
+ 47. [990..7e1] Secret:clenUp and typo fix | By - AlexeyAdoniev | On - 2023-03-16T14:23:43Z
+ 48. [9b7..4e0] Sercet: fix  field to attributes | By - AlexeyAdoniev | On - 2023-03-16T14:19:07Z
+ 49. [793..bec] update whitelist script | By - zothix | On - 2023-03-16T13:53:23Z
+ 50. [1fe..8da] Sercet: add  field to metadata | By - AlexeyAdoniev | On - 2023-03-16T09:28:21Z
+
 ## feat/isWhitelistable
 
 
@@ -903,6 +1511,168 @@
  48. [b6f..c21] fixed arbitrum config object | By - Irtisam | On - 2023-02-12T13:33:49Z
  49. [2b7..2bf] fixed arbitrum config object | By - Irtisam | On - 2023-02-12T13:31:25Z
  50. [5e9..986] remove length check from heexString when we are extracting tokenid | By - zothix | On - 2023-02-12T13:28:23Z
+
+## feat/near
+
+
+ 1. [e78..c8a] revert: "fix(secret) add public as well private attrs" | By - Fassih Haider | On - 2023-03-14T15:43:36Z
+ 2. [09d..0cf] fix(secret): add public as well private attrs | By - Fassih Haider | On - 2023-03-14T15:22:02Z
+ 3. [5f5..e1c] feat(secret): add attributes in metadata | By - Fassih Haider | On - 2023-03-14T13:26:52Z
+ 4. [38d..3d9] refactor(secret): remove private url | By - Fassih Haider | On - 2023-03-14T11:38:57Z
+ 5. [343..949] refactor(hedera): remove clg stmt | By - Fassih Haider | On - 2023-03-14T10:41:11Z
+ 6. [fc4..1d8] add log for hedera wallet | By - zothix | On - 2023-03-13T12:07:05Z
+ 7. [8f0..f87] Merge branch 'feat/whiteListUpdate' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T11:46:04Z
+ 8. [580..5e2] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:41Z
+ 9. [d15..4d6] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:04Z
+ 10. [c5f..10f] fix(secret): handle undefined error | By - Fassih Haider | On - 2023-03-13T11:32:34Z
+ 11. [a3f..108] fix(secret): improve getter fns for name, desc and imgURL | By - Fassih Haider | On - 2023-03-13T11:18:39Z
+ 12. [f01..a0d] fix(secret): add backup if token_uri is null in metadata | By - Fassih Haider | On - 2023-03-13T10:59:16Z
+ 13. [e51..1aa] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-13T07:03:10Z
+ 14. [ad3..d9d] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T05:50:15Z
+ 15. [a14..3ae] change to 1 yocto Near | By - zothix | On - 2023-03-11T15:01:33Z
+ 16. [cd7..952] attached deposit | By - zothix | On - 2023-03-11T14:34:10Z
+ 17. [e68..201] add deposit back :( | By - zothix | On - 2023-03-11T13:10:19Z
+ 18. [4df..866] remove deposit amount | By - zothix | On - 2023-03-11T12:59:36Z
+ 19. [3da..631] add one yokta | By - zothix | On - 2023-03-11T12:51:15Z
+ 20. [c0d..da5] non sense :( | By - zothix | On - 2023-03-11T09:08:41Z
+ 21. [506..daa]  handle transfer unique data mismatch wtf :( | By - zothix | On - 2023-03-11T09:02:57Z
+ 22. [595..861] token contract :( | By - zothix | On - 2023-03-11T08:51:45Z
+ 23. [795..5ee] fix near origin noonce issue | By - zothix | On - 2023-03-11T08:32:18Z
+ 24. [7e4..2d5] Merge pull request #26 from XP-NETWORK/testing/secret2 | By - awkwardman.dev | On - 2023-03-09T11:53:04Z
+ 25. [171..c4d] fix: add missing condition | By - Fassih Haider | On - 2023-03-09T11:49:33Z
+ 26. [680..fbb] fix: correct condition for token id to make it work with solana | By - Fassih Haider | On - 2023-03-09T11:40:59Z
+ 27. [8c6..475] debug(whitelist): add whitelist check back | By - Fassih Haider | On - 2023-03-09T11:30:21Z
+ 28. [752..2c4] fix: assign new mintwith | By - Fassih Haider | On - 2023-03-09T11:30:02Z
+ 29. [e47..459] debug(whitelist): rm whitelist check | By - Fassih Haider | On - 2023-03-09T08:50:33Z
+ 30. [c4e..d76] token id fix  in all places | By - zothix | On - 2023-03-09T07:44:56Z
+ 31. [331..b68] token id fix test | By - zothix | On - 2023-03-09T07:41:53Z
+ 32. [f83..428] fix tokenid issue | By - zothix | On - 2023-03-09T07:27:56Z
+ 33. [ee5..0b5] feat: add getMintWith on scrt side | By - Fassih Haider | On - 2023-03-08T19:57:13Z
+ 34. [622..e73] Update index.ts | By - Muhammad Shoaib | On - 2023-03-08T17:05:22Z
+ 35. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 36. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 37. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 38. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 39. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+ 40. [2ae..d15] Merge pull request #25 from XP-NETWORK/fix/secret | By - MuhammadFassihHaider | On - 2023-03-06T08:56:19Z
+ 41. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 42. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 43. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 44. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 45. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 46. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+ 47. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
+ 48. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
+ 49. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
+ 50. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
+
+## feat/near-fixes
+
+
+ 1. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 2. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 3. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 4. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 5. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 6. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 7. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 8. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 9. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 10. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 11. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 12. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 13. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 14. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 15. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 16. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 17. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 18. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 19. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 20. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 21. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 22. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 23. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 24. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 25. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 26. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 27. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 28. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 29. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 30. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 31. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+ 32. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
+ 33. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
+ 34. [b20..fcc] hardcoded the value for the near royality | By - D | On - 2023-03-21T20:38:14Z
+ 35. [875..299] isED255119KEY faalse in hedera | By - zothix | On - 2023-03-21T16:33:08Z
+ 36. [d71..b3d] remove temp return from whitelist | By - zothix | On - 2023-03-21T15:43:52Z
+ 37. [e27..44a] fix copying of object. | By - zothix | On - 2023-03-20T16:05:18Z
+ 38. [4a9..c85] update signing on validateTransferNft near | By - zothix | On - 2023-03-20T15:23:33Z
+ 39. [ed8..71c] add reference to the nft token in near. | By - D | On - 2023-03-20T14:22:08Z
+ 40. [e55..6b6] SECRET: change Private Data value | By - AlexeyAdoniev | On - 2023-03-20T13:54:37Z
+ 41. [3cb..914] add full metadata in wrapped. | By - D | On - 2023-03-20T13:49:57Z
+ 42. [0d8..522] getArtvatarByTokenId | By - rony derra | On - 2023-03-20T08:39:09Z
+ 43. [fd2..bf1] Merge pull request #31 from XP-NETWORK/fear/Whitelist | By - Muhammad Shoaib | On - 2023-03-16T14:53:18Z
+ 44. [990..7e1] Secret:clenUp and typo fix | By - AlexeyAdoniev | On - 2023-03-16T14:23:43Z
+ 45. [9b7..4e0] Sercet: fix  field to attributes | By - AlexeyAdoniev | On - 2023-03-16T14:19:07Z
+ 46. [793..bec] update whitelist script | By - zothix | On - 2023-03-16T13:53:23Z
+ 47. [1fe..8da] Sercet: add  field to metadata | By - AlexeyAdoniev | On - 2023-03-16T09:28:21Z
+ 48. [cd8..36f] Merge pull request #30 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T13:37:31Z
+ 49. [5f5..e1c] feat(secret): add attributes in metadata | By - Fassih Haider | On - 2023-03-14T13:26:52Z
+ 50. [60d..d55] Merge pull request #29 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T11:53:46Z
+
+## feat/newHedera
+
+
+ 1. [65c..23f] restore isEd25519Type | By - zothix | On - 2023-03-22T05:14:32Z
+ 2. [cc7..e29] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/newHedera | By - zothix | On - 2023-03-22T05:13:42Z
+ 3. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
+ 4. [b20..fcc] hardcoded the value for the near royality | By - D | On - 2023-03-21T20:38:14Z
+ 5. [875..299] isED255119KEY faalse in hedera | By - zothix | On - 2023-03-21T16:33:08Z
+ 6. [d71..b3d] remove temp return from whitelist | By - zothix | On - 2023-03-21T15:43:52Z
+ 7. [e27..44a] fix copying of object. | By - zothix | On - 2023-03-20T16:05:18Z
+ 8. [4a9..c85] update signing on validateTransferNft near | By - zothix | On - 2023-03-20T15:23:33Z
+ 9. [ed8..71c] add reference to the nft token in near. | By - D | On - 2023-03-20T14:22:08Z
+ 10. [e55..6b6] SECRET: change Private Data value | By - AlexeyAdoniev | On - 2023-03-20T13:54:37Z
+ 11. [3cb..914] add full metadata in wrapped. | By - D | On - 2023-03-20T13:49:57Z
+ 12. [0d8..522] getArtvatarByTokenId | By - rony derra | On - 2023-03-20T08:39:09Z
+ 13. [fd2..bf1] Merge pull request #31 from XP-NETWORK/fear/Whitelist | By - Muhammad Shoaib | On - 2023-03-16T14:53:18Z
+ 14. [990..7e1] Secret:clenUp and typo fix | By - AlexeyAdoniev | On - 2023-03-16T14:23:43Z
+ 15. [9b7..4e0] Sercet: fix  field to attributes | By - AlexeyAdoniev | On - 2023-03-16T14:19:07Z
+ 16. [793..bec] update whitelist script | By - zothix | On - 2023-03-16T13:53:23Z
+ 17. [1fe..8da] Sercet: add  field to metadata | By - AlexeyAdoniev | On - 2023-03-16T09:28:21Z
+ 18. [cd8..36f] Merge pull request #30 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T13:37:31Z
+ 19. [5f5..e1c] feat(secret): add attributes in metadata | By - Fassih Haider | On - 2023-03-14T13:26:52Z
+ 20. [60d..d55] Merge pull request #29 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T11:53:46Z
+ 21. [38d..3d9] refactor(secret): remove private url | By - Fassih Haider | On - 2023-03-14T11:38:57Z
+ 22. [e0f..99f] Merge pull request #28 from XP-NETWORK/feat/near | By - awkwardman.dev | On - 2023-03-14T10:41:52Z
+ 23. [343..949] refactor(hedera): remove clg stmt | By - Fassih Haider | On - 2023-03-14T10:41:11Z
+ 24. [3c7..0b7] utils: opensea: collection name: return zero values on failure | By - imsk17 | On - 2023-03-13T13:17:05Z
+ 25. [fc4..1d8] add log for hedera wallet | By - zothix | On - 2023-03-13T12:07:05Z
+ 26. [8f0..f87] Merge branch 'feat/whiteListUpdate' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T11:46:04Z
+ 27. [580..5e2] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:41Z
+ 28. [d15..4d6] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:04Z
+ 29. [c5f..10f] fix(secret): handle undefined error | By - Fassih Haider | On - 2023-03-13T11:32:34Z
+ 30. [a3f..108] fix(secret): improve getter fns for name, desc and imgURL | By - Fassih Haider | On - 2023-03-13T11:18:39Z
+ 31. [f01..a0d] fix(secret): add backup if token_uri is null in metadata | By - Fassih Haider | On - 2023-03-13T10:59:16Z
+ 32. [e51..1aa] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-13T07:03:10Z
+ 33. [ad3..d9d] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T05:50:15Z
+ 34. [a14..3ae] change to 1 yocto Near | By - zothix | On - 2023-03-11T15:01:33Z
+ 35. [cd7..952] attached deposit | By - zothix | On - 2023-03-11T14:34:10Z
+ 36. [e68..201] add deposit back :( | By - zothix | On - 2023-03-11T13:10:19Z
+ 37. [4df..866] remove deposit amount | By - zothix | On - 2023-03-11T12:59:36Z
+ 38. [3da..631] add one yokta | By - zothix | On - 2023-03-11T12:51:15Z
+ 39. [c0d..da5] non sense :( | By - zothix | On - 2023-03-11T09:08:41Z
+ 40. [506..daa]  handle transfer unique data mismatch wtf :( | By - zothix | On - 2023-03-11T09:02:57Z
+ 41. [595..861] token contract :( | By - zothix | On - 2023-03-11T08:51:45Z
+ 42. [795..5ee] fix near origin noonce issue | By - zothix | On - 2023-03-11T08:32:18Z
+ 43. [7e4..2d5] Merge pull request #26 from XP-NETWORK/testing/secret2 | By - awkwardman.dev | On - 2023-03-09T11:53:04Z
+ 44. [171..c4d] fix: add missing condition | By - Fassih Haider | On - 2023-03-09T11:49:33Z
+ 45. [680..fbb] fix: correct condition for token id to make it work with solana | By - Fassih Haider | On - 2023-03-09T11:40:59Z
+ 46. [8c6..475] debug(whitelist): add whitelist check back | By - Fassih Haider | On - 2023-03-09T11:30:21Z
+ 47. [752..2c4] fix: assign new mintwith | By - Fassih Haider | On - 2023-03-09T11:30:02Z
+ 48. [e47..459] debug(whitelist): rm whitelist check | By - Fassih Haider | On - 2023-03-09T08:50:33Z
+ 49. [c4e..d76] token id fix  in all places | By - zothix | On - 2023-03-09T07:44:56Z
+ 50. [331..b68] token id fix test | By - zothix | On - 2023-03-09T07:41:53Z
 
 ## feat/openSeaCollectionCreation
 
@@ -1012,6 +1782,60 @@
  49. [182..67a] modify sleep in burnerUnlock | By - zothix | On - 2023-02-11T14:21:20Z
  50. [1a1..094] refactor burner unlock | By - Irtisam | On - 2023-02-11T14:10:03Z
 
+## feat/solana-1155
+
+
+ 1. [506..9b7] feat(solana): :construction: add impl. for solana 1155 | By - Fassih Haider | On - 2023-04-20T08:43:22Z
+ 2. [4e4..a09] fix(solana): add fix for opensea by default | By - Fassih Haider | On - 2023-04-19T03:35:18Z
+ 3. [c27..6c6] fix(solana): fix symbol too long issue | By - Fassih Haider | On - 2023-04-17T09:52:12Z
+ 4. [f60..04b] refactor: remove whitelist check | By - Fassih Haider | On - 2023-04-17T08:52:23Z
+ 5. [a35..d2f] fix(solana: handle opensea collection name & royalty | By - Fassih Haider | On - 2023-04-17T05:06:49Z
+ 6. [66f..a46] refactor: remove comments, improve return type | By - Fassih Haider | On - 2023-04-17T04:47:10Z
+ 7. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+ 8. [65f..56b] Merge pull request #36 from XP-NETWORK/feat/AptosAndSolanaRoyalties | By - MuhammadFassihHaider | On - 2023-04-14T10:45:18Z
+ 9. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+ 10. [cbb..02d] prettier: run | By - imsk17 | On - 2023-04-13T18:41:20Z
+ 11. [152..487] cleanup: remove ..env.swp | By - imsk17 | On - 2023-04-13T18:40:01Z
+ 12. [b4e..10d] handlers: tezos: use token id from validator | By - imsk17 | On - 2023-04-13T18:39:04Z
+ 13. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 14. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 15. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 16. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 17. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 18. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 19. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 20. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 21. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 22. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 23. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 24. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 25. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 26. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 27. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 28. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 29. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 30. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 31. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 32. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 33. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 34. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 35. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 36. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 37. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 38. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 39. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 40. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 41. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 42. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 43. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 44. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 45. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 46. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 47. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 48. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 49. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 50. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+
 ## feat/solana-auto-deployment
 
 
@@ -1065,6 +1889,114 @@
  48. [6ea..94e] added logs | By - zothix | On - 2023-02-22T15:01:36Z
  49. [98d..93f] add logs | By - zothix | On - 2023-02-22T14:19:37Z
  50. [a5c..cb5] hard coded royalty values for aptos royalty testing | By - zothix | On - 2023-02-22T12:57:30Z
+
+## feat/useOriginTokenFix
+
+
+ 1. [d6c..ff1] initial commit | By - zothix | On - 2023-04-11T07:27:10Z
+ 2. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 3. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 4. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 5. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 6. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 7. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 8. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 9. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 10. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 11. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 12. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 13. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 14. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 15. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 16. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 17. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 18. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 19. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 20. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 21. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 22. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 23. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 24. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 25. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 26. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 27. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 28. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 29. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 30. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 31. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 32. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 33. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 34. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 35. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 36. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 37. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 38. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 39. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 40. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 41. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 42. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+ 43. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
+ 44. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
+ 45. [b20..fcc] hardcoded the value for the near royality | By - D | On - 2023-03-21T20:38:14Z
+ 46. [875..299] isED255119KEY faalse in hedera | By - zothix | On - 2023-03-21T16:33:08Z
+ 47. [d71..b3d] remove temp return from whitelist | By - zothix | On - 2023-03-21T15:43:52Z
+ 48. [e27..44a] fix copying of object. | By - zothix | On - 2023-03-20T16:05:18Z
+ 49. [4a9..c85] update signing on validateTransferNft near | By - zothix | On - 2023-03-20T15:23:33Z
+ 50. [ed8..71c] add reference to the nft token in near. | By - D | On - 2023-03-20T14:22:08Z
+
+## feat/whiteListUpdate
+
+
+ 1. [580..5e2] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:41Z
+ 2. [d15..4d6] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:04Z
+ 3. [7e4..2d5] Merge pull request #26 from XP-NETWORK/testing/secret2 | By - awkwardman.dev | On - 2023-03-09T11:53:04Z
+ 4. [171..c4d] fix: add missing condition | By - Fassih Haider | On - 2023-03-09T11:49:33Z
+ 5. [680..fbb] fix: correct condition for token id to make it work with solana | By - Fassih Haider | On - 2023-03-09T11:40:59Z
+ 6. [8c6..475] debug(whitelist): add whitelist check back | By - Fassih Haider | On - 2023-03-09T11:30:21Z
+ 7. [752..2c4] fix: assign new mintwith | By - Fassih Haider | On - 2023-03-09T11:30:02Z
+ 8. [e47..459] debug(whitelist): rm whitelist check | By - Fassih Haider | On - 2023-03-09T08:50:33Z
+ 9. [c4e..d76] token id fix  in all places | By - zothix | On - 2023-03-09T07:44:56Z
+ 10. [331..b68] token id fix test | By - zothix | On - 2023-03-09T07:41:53Z
+ 11. [f83..428] fix tokenid issue | By - zothix | On - 2023-03-09T07:27:56Z
+ 12. [ee5..0b5] feat: add getMintWith on scrt side | By - Fassih Haider | On - 2023-03-08T19:57:13Z
+ 13. [622..e73] Update index.ts | By - Muhammad Shoaib | On - 2023-03-08T17:05:22Z
+ 14. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 15. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 16. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 17. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 18. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+ 19. [2ae..d15] Merge pull request #25 from XP-NETWORK/fix/secret | By - MuhammadFassihHaider | On - 2023-03-06T08:56:19Z
+ 20. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 21. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 22. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 23. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 24. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 25. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+ 26. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
+ 27. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
+ 28. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
+ 29. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
+ 30. [ef4..a10] build(dep): bump secretjs | By - MuhammadFassihHaider | On - 2023-03-03T11:50:16Z
+ 31. [2aa..8c4] debug(secret): add logs, disable whitelist check | By - Fassih Haider | On - 2023-03-01T13:39:13Z
+ 32. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
+ 33. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
+ 34. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
+ 35. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
+ 36. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
+ 37. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
+ 38. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
+ 39. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
+ 40. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
+ 41. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
+ 42. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
+ 43. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
+ 44. [65e..acc] fix merge build error | By - AlexSafepress | On - 2023-02-27T11:37:49Z
+ 45. [916..237] fix merge conflict with production | By - AlexSafepress | On - 2023-02-27T11:30:26Z
+ 46. [f1c..15d] Merge branch 'production' into feat/solana-auto-deployment | By - AlexSafepress | On - 2023-02-27T11:19:11Z
+ 47. [4d7..fef] Update is_whitelistable.ts | By - awkwardman.dev | On - 2023-02-27T08:08:00Z
+ 48. [700..7af] refactor(solana): format code | By - Fassih Haider | On - 2023-02-27T07:38:10Z
+ 49. [e83..213] build: makeuseTabs: false because of many white place changes | By - Fassih Haider | On - 2023-02-27T07:37:33Z
+ 50. [2c5..727] fix(solana): add hardcoded royalty in config | By - Fassih Haider | On - 2023-02-27T07:34:53Z
 
 ## feat/whitelist
 
@@ -1228,59 +2160,275 @@
  49. [cd6..882] handlers: improve erc721MetadataWrap | By - rupansh | On - 2022-03-01T17:19:17Z
  50. [1f2..b6e] web3: use 60gwei as workawround for polygon | By - rupansh | On - 2022-03-01T12:54:24Z
 
+## fix/hedera
+
+
+ 1. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+ 2. [875..299] isED255119KEY faalse in hedera | By - zothix | On - 2023-03-21T16:33:08Z
+ 3. [e55..6b6] SECRET: change Private Data value | By - AlexeyAdoniev | On - 2023-03-20T13:54:37Z
+ 4. [0d8..522] getArtvatarByTokenId | By - rony derra | On - 2023-03-20T08:39:09Z
+ 5. [fd2..bf1] Merge pull request #31 from XP-NETWORK/fear/Whitelist | By - Muhammad Shoaib | On - 2023-03-16T14:53:18Z
+ 6. [990..7e1] Secret:clenUp and typo fix | By - AlexeyAdoniev | On - 2023-03-16T14:23:43Z
+ 7. [9b7..4e0] Sercet: fix  field to attributes | By - AlexeyAdoniev | On - 2023-03-16T14:19:07Z
+ 8. [793..bec] update whitelist script | By - zothix | On - 2023-03-16T13:53:23Z
+ 9. [1fe..8da] Sercet: add  field to metadata | By - AlexeyAdoniev | On - 2023-03-16T09:28:21Z
+ 10. [cd8..36f] Merge pull request #30 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T13:37:31Z
+ 11. [5f5..e1c] feat(secret): add attributes in metadata | By - Fassih Haider | On - 2023-03-14T13:26:52Z
+ 12. [60d..d55] Merge pull request #29 from XP-NETWORK/feat/near | By - MuhammadFassihHaider | On - 2023-03-14T11:53:46Z
+ 13. [38d..3d9] refactor(secret): remove private url | By - Fassih Haider | On - 2023-03-14T11:38:57Z
+ 14. [e0f..99f] Merge pull request #28 from XP-NETWORK/feat/near | By - awkwardman.dev | On - 2023-03-14T10:41:52Z
+ 15. [343..949] refactor(hedera): remove clg stmt | By - Fassih Haider | On - 2023-03-14T10:41:11Z
+ 16. [3c7..0b7] utils: opensea: collection name: return zero values on failure | By - imsk17 | On - 2023-03-13T13:17:05Z
+ 17. [fc4..1d8] add log for hedera wallet | By - zothix | On - 2023-03-13T12:07:05Z
+ 18. [8f0..f87] Merge branch 'feat/whiteListUpdate' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T11:46:04Z
+ 19. [580..5e2] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:41Z
+ 20. [d15..4d6] initial commit | By - AlexSafepress | On - 2023-03-13T11:41:04Z
+ 21. [c5f..10f] fix(secret): handle undefined error | By - Fassih Haider | On - 2023-03-13T11:32:34Z
+ 22. [a3f..108] fix(secret): improve getter fns for name, desc and imgURL | By - Fassih Haider | On - 2023-03-13T11:18:39Z
+ 23. [f01..a0d] fix(secret): add backup if token_uri is null in metadata | By - Fassih Haider | On - 2023-03-13T10:59:16Z
+ 24. [e51..1aa] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-13T07:03:10Z
+ 25. [ad3..d9d] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/near | By - Fassih Haider | On - 2023-03-13T05:50:15Z
+ 26. [a14..3ae] change to 1 yocto Near | By - zothix | On - 2023-03-11T15:01:33Z
+ 27. [cd7..952] attached deposit | By - zothix | On - 2023-03-11T14:34:10Z
+ 28. [e68..201] add deposit back :( | By - zothix | On - 2023-03-11T13:10:19Z
+ 29. [4df..866] remove deposit amount | By - zothix | On - 2023-03-11T12:59:36Z
+ 30. [3da..631] add one yokta | By - zothix | On - 2023-03-11T12:51:15Z
+ 31. [c0d..da5] non sense :( | By - zothix | On - 2023-03-11T09:08:41Z
+ 32. [506..daa]  handle transfer unique data mismatch wtf :( | By - zothix | On - 2023-03-11T09:02:57Z
+ 33. [595..861] token contract :( | By - zothix | On - 2023-03-11T08:51:45Z
+ 34. [795..5ee] fix near origin noonce issue | By - zothix | On - 2023-03-11T08:32:18Z
+ 35. [7e4..2d5] Merge pull request #26 from XP-NETWORK/testing/secret2 | By - awkwardman.dev | On - 2023-03-09T11:53:04Z
+ 36. [171..c4d] fix: add missing condition | By - Fassih Haider | On - 2023-03-09T11:49:33Z
+ 37. [680..fbb] fix: correct condition for token id to make it work with solana | By - Fassih Haider | On - 2023-03-09T11:40:59Z
+ 38. [8c6..475] debug(whitelist): add whitelist check back | By - Fassih Haider | On - 2023-03-09T11:30:21Z
+ 39. [752..2c4] fix: assign new mintwith | By - Fassih Haider | On - 2023-03-09T11:30:02Z
+ 40. [e47..459] debug(whitelist): rm whitelist check | By - Fassih Haider | On - 2023-03-09T08:50:33Z
+ 41. [c4e..d76] token id fix  in all places | By - zothix | On - 2023-03-09T07:44:56Z
+ 42. [331..b68] token id fix test | By - zothix | On - 2023-03-09T07:41:53Z
+ 43. [f83..428] fix tokenid issue | By - zothix | On - 2023-03-09T07:27:56Z
+ 44. [ee5..0b5] feat: add getMintWith on scrt side | By - Fassih Haider | On - 2023-03-08T19:57:13Z
+ 45. [622..e73] Update index.ts | By - Muhammad Shoaib | On - 2023-03-08T17:05:22Z
+ 46. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 47. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 48. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 49. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 50. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+
+## fix/hedera-overflow
+
+
+ 1. [c63..967] refactor(hedera): add more clg stmts | By - Fassih Haider | On - 2023-03-10T12:39:48Z
+ 2. [faf..4ee] fix(typescript): remove type errors with tsignore | By - Fassih Haider | On - 2023-03-10T12:35:07Z
+ 3. [6a8..1a5] build: fix build errors | By - Fassih Haider | On - 2023-03-10T12:32:28Z
+ 4. [018..2ab] fix(hedera): chg way of creating minter instance | By - Fassih Haider | On - 2023-03-10T12:31:23Z
+ 5. [a72..fda] refactor(hedera): change order of console, add clg | By - Fassih Haider | On - 2023-03-10T12:19:39Z
+ 6. [d6d..d3b] fix(hedera): add isED25519Type field to wallet | By - Fassih Haider | On - 2023-03-10T12:02:34Z
+ 7. [3ad..0e6] refactor(hedera): add trycatch and clg stmts | By - Fassih Haider | On - 2023-03-10T11:56:48Z
+ 8. [2bc..452] fix: add address field in wallet | By - Fassih Haider | On - 2023-03-10T11:52:17Z
+ 9. [6e7..cc0] fix: pass object instead of string in account | By - Fassih Haider | On - 2023-03-10T11:46:14Z
+ 10. [7e4..2d5] Merge pull request #26 from XP-NETWORK/testing/secret2 | By - awkwardman.dev | On - 2023-03-09T11:53:04Z
+ 11. [171..c4d] fix: add missing condition | By - Fassih Haider | On - 2023-03-09T11:49:33Z
+ 12. [680..fbb] fix: correct condition for token id to make it work with solana | By - Fassih Haider | On - 2023-03-09T11:40:59Z
+ 13. [8c6..475] debug(whitelist): add whitelist check back | By - Fassih Haider | On - 2023-03-09T11:30:21Z
+ 14. [752..2c4] fix: assign new mintwith | By - Fassih Haider | On - 2023-03-09T11:30:02Z
+ 15. [e47..459] debug(whitelist): rm whitelist check | By - Fassih Haider | On - 2023-03-09T08:50:33Z
+ 16. [c4e..d76] token id fix  in all places | By - zothix | On - 2023-03-09T07:44:56Z
+ 17. [331..b68] token id fix test | By - zothix | On - 2023-03-09T07:41:53Z
+ 18. [f83..428] fix tokenid issue | By - zothix | On - 2023-03-09T07:27:56Z
+ 19. [ee5..0b5] feat: add getMintWith on scrt side | By - Fassih Haider | On - 2023-03-08T19:57:13Z
+ 20. [622..e73] Update index.ts | By - Muhammad Shoaib | On - 2023-03-08T17:05:22Z
+ 21. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 22. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 23. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 24. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 25. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+ 26. [2ae..d15] Merge pull request #25 from XP-NETWORK/fix/secret | By - MuhammadFassihHaider | On - 2023-03-06T08:56:19Z
+ 27. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 28. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 29. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 30. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 31. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 32. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+ 33. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
+ 34. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
+ 35. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
+ 36. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
+ 37. [ef4..a10] build(dep): bump secretjs | By - MuhammadFassihHaider | On - 2023-03-03T11:50:16Z
+ 38. [2aa..8c4] debug(secret): add logs, disable whitelist check | By - Fassih Haider | On - 2023-03-01T13:39:13Z
+ 39. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
+ 40. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
+ 41. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
+ 42. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
+ 43. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
+ 44. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
+ 45. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
+ 46. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
+ 47. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
+ 48. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
+ 49. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
+ 50. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
+
+## fix/mapping
+
+
+ 1. [dc6..82e] feat: add impl. for handling if there is no symbol | By - Fassih Haider | On - 2023-05-02T11:08:38Z
+ 2. [a30..e8e] fix whitelist | By - Alex Moshinsky | On - 2023-05-01T13:45:39Z
+ 3. [4f8..3e6] Merge pull request #43 from XP-NETWORK/feat/NearCollectionCreator | By - Alex Moshinsky | On - 2023-05-01T08:35:51Z
+ 4. [ec0..59a] Merge branch 'fix/mapping' into feat/NearCollectionCreator | By - Alex Moshinsky | On - 2023-05-01T08:28:31Z
+ 5. [44e..fa8] fix dot between collectionName and symbol and deployer | By - Alex Moshinsky | On - 2023-04-30T12:08:20Z
+ 6. [0ac..2ac] fixes | By - Alex Moshinsky | On - 2023-04-30T11:53:45Z
+ 7. [d8a..ad1] trim on collectionName and symbol | By - Alex Moshinsky | On - 2023-04-30T11:44:58Z
+ 8. [6a9..21d] fixes | By - Alex Moshinsky | On - 2023-04-30T11:42:45Z
+ 9. [181..e7a] fixes | By - Alex Moshinsky | On - 2023-04-30T10:12:30Z
+ 10. [aac..8ec] fix collectionName near | By - Alex Moshinsky | On - 2023-04-30T09:28:47Z
+ 11. [9e0..cd7] increase near gas | By - Alex Moshinsky | On - 2023-04-30T07:50:31Z
+ 12. [a3f..f4c] Merge branch 'feat/NearCollectionCreator' of https://github.com/XP-NETWORK/migration-validator into feat/NearCollectionCreator | By - D | On - 2023-04-27T09:46:52Z
+ 13. [3e3..c21] gas testing for moonbeam | By - D | On - 2023-04-27T09:46:41Z
+ 14. [69f..1e7] APTOS:update abis | By - zothix | On - 2023-04-27T08:41:29Z
+ 15. [d63..28f] fix(wrapping): use correct url according to contract mapping type | By - imsk17 | On - 2023-04-25T13:59:01Z
+ 16. [fe7..767] key must not contain '.' (so replaced the dots with underscore while adding to the db and on getting replace back to dots) | By - D | On - 2023-04-20T20:02:42Z
+ 17. [0bf..866] near royalty for new collection | By - D | On - 2023-04-20T18:58:37Z
+ 18. [ab9..f67] comment the near put route for testing | By - D | On - 2023-04-20T14:57:24Z
+ 19. [523..5a5] fixed the near put royalty url | By - D | On - 2023-04-20T13:08:08Z
+ 20. [558..978] map royalty for near new collection creation | By - D | On - 2023-04-20T12:21:52Z
+ 21. [d85..702] isOpenSeaCollection correction | By - D | On - 2023-04-19T19:11:54Z
+ 22. [f95..89a] wrapped url for near | By - D | On - 2023-04-19T17:53:55Z
+ 23. [4bc..3b1] source_mint_ident = contract | By - D | On - 2023-04-19T16:58:16Z
+ 24. [430..6c8] use new collection | By - D | On - 2023-04-19T16:43:17Z
+ 25. [5d3..66c] fix | By - D | On - 2023-04-19T13:36:43Z
+ 26. [089..547] revert the tokenid | By - D | On - 2023-04-19T13:25:55Z
+ 27. [f70..bae] checkcollection fix | By - D | On - 2023-04-19T12:39:16Z
+ 28. [c2f..286] changes undefined tokenids to zero in case of undefined | By - D | On - 2023-04-19T12:11:31Z
+ 29. [864..11f] log the returned address | By - D | On - 2023-04-19T11:56:53Z
+ 30. [0c5..8e0] fix the source mint ident in near case | By - D | On - 2023-04-19T10:27:19Z
+ 31. [0ff..6bd] evm create collection log | By - D | On - 2023-04-19T09:35:28Z
+ 32. [42f..fd3] from near to evm implementation | By - D | On - 2023-04-19T08:14:42Z
+ 33. [e96..0d0] check collection if exists | By - D | On - 2023-04-19T04:23:30Z
+ 34. [bd6..4be] fix account id | By - D | On - 2023-04-19T04:11:58Z
+ 35. [b10..a15] collection name plus collection symbol to manke new account for near new collection | By - D | On - 2023-04-19T04:02:44Z
+ 36. [9d8..f26] near collection creation fixes in getmintwith | By - D | On - 2023-04-19T03:45:25Z
+ 37. [a91..c55] near config changes | By - D | On - 2023-04-18T11:46:12Z
+ 38. [66f..c8f] target chain 31 then pick that node | By - D | On - 2023-04-18T11:39:41Z
+ 39. [304..3b0] fix | By - D | On - 2023-04-18T11:31:38Z
+ 40. [e31..088] add collection creators of near in handler | By - D | On - 2023-04-18T11:25:18Z
+ 41. [97e..759] undo fix | By - D | On - 2023-04-18T11:07:07Z
+ 42. [169..927] fix | By - D | On - 2023-04-18T11:05:03Z
+ 43. [959..2aa] Merge branch 'feat/NearCollectionCreator' of https://github.com/XP-NETWORK/migration-validator into feat/NearCollectionCreator | By - D | On - 2023-04-18T10:49:56Z
+ 44. [8ac..1ad] checking env collection creator for near | By - D | On - 2023-04-18T10:49:13Z
+ 45. [765..d8c] remove whitelist check | By - zothix | On - 2023-04-18T10:16:55Z
+ 46. [2a3..55f] near collection creator changes | By - D | On - 2023-04-18T09:54:53Z
+ 47. [371..b7b] Merge pull request #37 from XP-NETWORK/fixMetadataStringBug | By - awkwardman.dev | On - 2023-04-17T14:47:27Z
+ 48. [4fa..a9e] cleanUp | By - AlexeyAdoniev | On - 2023-04-17T10:26:30Z
+ 49. [b1f..fc4] catch case  where  metadata being json string instead of json object | By - AlexeyAdoniev | On - 2023-04-17T10:24:45Z
+ 50. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+
 ## fix/secret
 
 
- 1. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
- 2. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
- 3. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
- 4. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
- 5. [ef4..a10] build(dep): bump secretjs | By - MuhammadFassihHaider | On - 2023-03-03T11:50:16Z
- 6. [2aa..8c4] debug(secret): add logs, disable whitelist check | By - Fassih Haider | On - 2023-03-01T13:39:13Z
- 7. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
- 8. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
- 9. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
- 10. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
- 11. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
- 12. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
- 13. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
- 14. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
- 15. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
- 16. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
- 17. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
- 18. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
- 19. [65e..acc] fix merge build error | By - AlexSafepress | On - 2023-02-27T11:37:49Z
- 20. [916..237] fix merge conflict with production | By - AlexSafepress | On - 2023-02-27T11:30:26Z
- 21. [f1c..15d] Merge branch 'production' into feat/solana-auto-deployment | By - AlexSafepress | On - 2023-02-27T11:19:11Z
- 22. [4d7..fef] Update is_whitelistable.ts | By - awkwardman.dev | On - 2023-02-27T08:08:00Z
- 23. [700..7af] refactor(solana): format code | By - Fassih Haider | On - 2023-02-27T07:38:10Z
- 24. [e83..213] build: makeuseTabs: false because of many white place changes | By - Fassih Haider | On - 2023-02-27T07:37:33Z
- 25. [2c5..727] fix(solana): add hardcoded royalty in config | By - Fassih Haider | On - 2023-02-27T07:34:53Z
- 26. [7e6..378] fix(solana): disable 1155 for solana | By - Fassih Haider | On - 2023-02-27T07:32:18Z
- 27. [322..aa6] Merge pull request #24 from XP-NETWORK/feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T07:24:32Z
- 28. [206..ca4] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:23:00Z
- 29. [0ad..fc5] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:20:29Z
- 30. [08c..597] Update events.ts | By - awkwardman.dev | On - 2023-02-27T07:16:15Z
- 31. [6b4..550] Delete .env.original | By - awkwardman.dev | On - 2023-02-27T06:59:17Z
- 32. [6b9..d54] Merge branch 'production' into feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T06:58:43Z
- 33. [264..50e] Merge pull request #23 from XP-NETWORK/feat/isWhitelistable | By - awkwardman.dev | On - 2023-02-27T06:00:24Z
- 34. [764..410] temp change wallet to v4 | By - zothix | On - 2023-02-26T09:27:03Z
- 35. [85b..701] fix ton identifier :( | By - zothix | On - 2023-02-26T06:50:37Z
- 36. [a23..48e] fix ton identifier | By - zothix | On - 2023-02-26T06:48:19Z
- 37. [9a9..e6e] opensea collection evm whitelist fix | By - zothix | On - 2023-02-24T13:57:18Z
- 38. [b32..c81] ton royalty check | By - zothix | On - 2023-02-24T08:41:55Z
- 39. [570..c38] add ton identifier :( | By - zothix | On - 2023-02-23T20:59:38Z
- 40. [114..34f] remove child process script :( | By - zothix | On - 2023-02-23T19:14:42Z
- 41. [fa7..4aa] debug(ton): add clg stmt | By - zothix | On - 2023-02-23T15:40:04Z
- 42. [f3d..079] fix file path | By - zothix | On - 2023-02-23T14:54:32Z
- 43. [91d..8d2] fixed build issues :( | By - zothix | On - 2023-02-23T14:41:28Z
- 44. [f4f..d65] run collection name getter script with child process :( | By - zothix | On - 2023-02-23T14:34:46Z
- 45. [4a4..855] added more logs :( | By - zothix | On - 2023-02-23T13:49:53Z
- 46. [7f9..bc4] fix brackets in fetch | By - zothix | On - 2023-02-23T13:23:26Z
- 47. [262..a32] added logs | By - zothix | On - 2023-02-23T12:53:06Z
- 48. [522..0fa] fixed asilly mistake :( | By - zothix | On - 2023-02-23T12:28:16Z
- 49. [8bf..a65] fix build errors | By - zothix | On - 2023-02-23T11:16:38Z
- 50. [735..4ba] added royalty for opensea | By - zothix | On - 2023-02-23T11:04:24Z
+ 1. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 2. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 3. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 4. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 5. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 6. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+ 7. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
+ 8. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
+ 9. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
+ 10. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
+ 11. [ef4..a10] build(dep): bump secretjs | By - MuhammadFassihHaider | On - 2023-03-03T11:50:16Z
+ 12. [2aa..8c4] debug(secret): add logs, disable whitelist check | By - Fassih Haider | On - 2023-03-01T13:39:13Z
+ 13. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
+ 14. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
+ 15. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
+ 16. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
+ 17. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
+ 18. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
+ 19. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
+ 20. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
+ 21. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
+ 22. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
+ 23. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
+ 24. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
+ 25. [65e..acc] fix merge build error | By - AlexSafepress | On - 2023-02-27T11:37:49Z
+ 26. [916..237] fix merge conflict with production | By - AlexSafepress | On - 2023-02-27T11:30:26Z
+ 27. [f1c..15d] Merge branch 'production' into feat/solana-auto-deployment | By - AlexSafepress | On - 2023-02-27T11:19:11Z
+ 28. [4d7..fef] Update is_whitelistable.ts | By - awkwardman.dev | On - 2023-02-27T08:08:00Z
+ 29. [700..7af] refactor(solana): format code | By - Fassih Haider | On - 2023-02-27T07:38:10Z
+ 30. [e83..213] build: makeuseTabs: false because of many white place changes | By - Fassih Haider | On - 2023-02-27T07:37:33Z
+ 31. [2c5..727] fix(solana): add hardcoded royalty in config | By - Fassih Haider | On - 2023-02-27T07:34:53Z
+ 32. [7e6..378] fix(solana): disable 1155 for solana | By - Fassih Haider | On - 2023-02-27T07:32:18Z
+ 33. [322..aa6] Merge pull request #24 from XP-NETWORK/feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T07:24:32Z
+ 34. [206..ca4] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:23:00Z
+ 35. [0ad..fc5] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:20:29Z
+ 36. [08c..597] Update events.ts | By - awkwardman.dev | On - 2023-02-27T07:16:15Z
+ 37. [6b4..550] Delete .env.original | By - awkwardman.dev | On - 2023-02-27T06:59:17Z
+ 38. [6b9..d54] Merge branch 'production' into feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T06:58:43Z
+ 39. [264..50e] Merge pull request #23 from XP-NETWORK/feat/isWhitelistable | By - awkwardman.dev | On - 2023-02-27T06:00:24Z
+ 40. [764..410] temp change wallet to v4 | By - zothix | On - 2023-02-26T09:27:03Z
+ 41. [85b..701] fix ton identifier :( | By - zothix | On - 2023-02-26T06:50:37Z
+ 42. [a23..48e] fix ton identifier | By - zothix | On - 2023-02-26T06:48:19Z
+ 43. [9a9..e6e] opensea collection evm whitelist fix | By - zothix | On - 2023-02-24T13:57:18Z
+ 44. [b32..c81] ton royalty check | By - zothix | On - 2023-02-24T08:41:55Z
+ 45. [570..c38] add ton identifier :( | By - zothix | On - 2023-02-23T20:59:38Z
+ 46. [114..34f] remove child process script :( | By - zothix | On - 2023-02-23T19:14:42Z
+ 47. [fa7..4aa] debug(ton): add clg stmt | By - zothix | On - 2023-02-23T15:40:04Z
+ 48. [f3d..079] fix file path | By - zothix | On - 2023-02-23T14:54:32Z
+ 49. [91d..8d2] fixed build issues :( | By - zothix | On - 2023-02-23T14:41:28Z
+ 50. [f4f..d65] run collection name getter script with child process :( | By - zothix | On - 2023-02-23T14:34:46Z
+
+## fix/solana-prod
+
+
+ 1. [931..c5c] refactor: add whitelist check back | By - Fassih Haider | On - 2023-04-19T13:30:53Z
+ 2. [4e4..a09] fix(solana): add fix for opensea by default | By - Fassih Haider | On - 2023-04-19T03:35:18Z
+ 3. [c27..6c6] fix(solana): fix symbol too long issue | By - Fassih Haider | On - 2023-04-17T09:52:12Z
+ 4. [f60..04b] refactor: remove whitelist check | By - Fassih Haider | On - 2023-04-17T08:52:23Z
+ 5. [a35..d2f] fix(solana: handle opensea collection name & royalty | By - Fassih Haider | On - 2023-04-17T05:06:49Z
+ 6. [66f..a46] refactor: remove comments, improve return type | By - Fassih Haider | On - 2023-04-17T04:47:10Z
+ 7. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+ 8. [65f..56b] Merge pull request #36 from XP-NETWORK/feat/AptosAndSolanaRoyalties | By - MuhammadFassihHaider | On - 2023-04-14T10:45:18Z
+ 9. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+ 10. [cbb..02d] prettier: run | By - imsk17 | On - 2023-04-13T18:41:20Z
+ 11. [152..487] cleanup: remove ..env.swp | By - imsk17 | On - 2023-04-13T18:40:01Z
+ 12. [b4e..10d] handlers: tezos: use token id from validator | By - imsk17 | On - 2023-04-13T18:39:04Z
+ 13. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 14. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 15. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 16. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 17. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 18. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 19. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 20. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 21. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 22. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 23. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 24. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 25. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 26. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 27. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 28. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 29. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 30. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 31. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 32. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 33. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 34. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 35. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 36. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 37. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 38. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 39. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 40. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 41. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 42. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 43. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 44. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 45. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 46. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 47. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 48. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 49. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 50. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
 
 ## fix/whitelist-commitment
 
@@ -1335,6 +2483,114 @@
  48. [781..418] fix: pass & use sig to signAndSend func | By - Fassih Haider | On - 2023-01-09T11:32:18Z
  49. [974..9b6] temp remove return from whitelist | By - zothix | On - 2023-01-09T11:09:44Z
  50. [0f0..664] temp remove return from whitelist | By - zothix | On - 2023-01-09T11:06:30Z
+
+## fix-elrond-name
+
+
+ 1. [371..b7b] Merge pull request #37 from XP-NETWORK/fixMetadataStringBug | By - awkwardman.dev | On - 2023-04-17T14:47:27Z
+ 2. [4fa..a9e] cleanUp | By - AlexeyAdoniev | On - 2023-04-17T10:26:30Z
+ 3. [b1f..fc4] catch case  where  metadata being json string instead of json object | By - AlexeyAdoniev | On - 2023-04-17T10:24:45Z
+ 4. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+ 5. [65f..56b] Merge pull request #36 from XP-NETWORK/feat/AptosAndSolanaRoyalties | By - MuhammadFassihHaider | On - 2023-04-14T10:45:18Z
+ 6. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+ 7. [cbb..02d] prettier: run | By - imsk17 | On - 2023-04-13T18:41:20Z
+ 8. [152..487] cleanup: remove ..env.swp | By - imsk17 | On - 2023-04-13T18:40:01Z
+ 9. [b4e..10d] handlers: tezos: use token id from validator | By - imsk17 | On - 2023-04-13T18:39:04Z
+ 10. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 11. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 12. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 13. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 14. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 15. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 16. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 17. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 18. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 19. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 20. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 21. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 22. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 23. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 24. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 25. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 26. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 27. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 28. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 29. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 30. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 31. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 32. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 33. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 34. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 35. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 36. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 37. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 38. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 39. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 40. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 41. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 42. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 43. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 44. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 45. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 46. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 47. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 48. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 49. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 50. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+
+## fixMetadataStringBug
+
+
+ 1. [4fa..a9e] cleanUp | By - AlexeyAdoniev | On - 2023-04-17T10:26:30Z
+ 2. [b1f..fc4] catch case  where  metadata being json string instead of json object | By - AlexeyAdoniev | On - 2023-04-17T10:24:45Z
+ 3. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+ 4. [65f..56b] Merge pull request #36 from XP-NETWORK/feat/AptosAndSolanaRoyalties | By - MuhammadFassihHaider | On - 2023-04-14T10:45:18Z
+ 5. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+ 6. [cbb..02d] prettier: run | By - imsk17 | On - 2023-04-13T18:41:20Z
+ 7. [152..487] cleanup: remove ..env.swp | By - imsk17 | On - 2023-04-13T18:40:01Z
+ 8. [b4e..10d] handlers: tezos: use token id from validator | By - imsk17 | On - 2023-04-13T18:39:04Z
+ 9. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 10. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 11. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 12. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 13. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 14. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 15. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 16. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 17. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 18. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 19. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 20. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 21. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 22. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 23. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 24. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 25. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 26. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 27. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 28. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 29. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 30. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 31. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 32. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 33. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 34. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 35. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 36. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 37. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 38. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 39. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 40. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 41. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 42. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 43. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 44. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 45. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 46. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 47. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 48. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 49. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+ 50. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
 
 ## godwoken
 
@@ -1663,56 +2919,56 @@
 ## production
 
 
- 1. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
- 2. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
- 3. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
- 4. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
- 5. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
- 6. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
- 7. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
- 8. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
- 9. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
- 10. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
- 11. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
- 12. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
- 13. [65e..acc] fix merge build error | By - AlexSafepress | On - 2023-02-27T11:37:49Z
- 14. [916..237] fix merge conflict with production | By - AlexSafepress | On - 2023-02-27T11:30:26Z
- 15. [f1c..15d] Merge branch 'production' into feat/solana-auto-deployment | By - AlexSafepress | On - 2023-02-27T11:19:11Z
- 16. [4d7..fef] Update is_whitelistable.ts | By - awkwardman.dev | On - 2023-02-27T08:08:00Z
- 17. [700..7af] refactor(solana): format code | By - Fassih Haider | On - 2023-02-27T07:38:10Z
- 18. [e83..213] build: makeuseTabs: false because of many white place changes | By - Fassih Haider | On - 2023-02-27T07:37:33Z
- 19. [2c5..727] fix(solana): add hardcoded royalty in config | By - Fassih Haider | On - 2023-02-27T07:34:53Z
- 20. [7e6..378] fix(solana): disable 1155 for solana | By - Fassih Haider | On - 2023-02-27T07:32:18Z
- 21. [322..aa6] Merge pull request #24 from XP-NETWORK/feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T07:24:32Z
- 22. [206..ca4] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:23:00Z
- 23. [0ad..fc5] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:20:29Z
- 24. [08c..597] Update events.ts | By - awkwardman.dev | On - 2023-02-27T07:16:15Z
- 25. [6b4..550] Delete .env.original | By - awkwardman.dev | On - 2023-02-27T06:59:17Z
- 26. [6b9..d54] Merge branch 'production' into feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T06:58:43Z
- 27. [264..50e] Merge pull request #23 from XP-NETWORK/feat/isWhitelistable | By - awkwardman.dev | On - 2023-02-27T06:00:24Z
- 28. [764..410] temp change wallet to v4 | By - zothix | On - 2023-02-26T09:27:03Z
- 29. [85b..701] fix ton identifier :( | By - zothix | On - 2023-02-26T06:50:37Z
- 30. [a23..48e] fix ton identifier | By - zothix | On - 2023-02-26T06:48:19Z
- 31. [9a9..e6e] opensea collection evm whitelist fix | By - zothix | On - 2023-02-24T13:57:18Z
- 32. [b32..c81] ton royalty check | By - zothix | On - 2023-02-24T08:41:55Z
- 33. [570..c38] add ton identifier :( | By - zothix | On - 2023-02-23T20:59:38Z
- 34. [114..34f] remove child process script :( | By - zothix | On - 2023-02-23T19:14:42Z
- 35. [fa7..4aa] debug(ton): add clg stmt | By - zothix | On - 2023-02-23T15:40:04Z
- 36. [f3d..079] fix file path | By - zothix | On - 2023-02-23T14:54:32Z
- 37. [91d..8d2] fixed build issues :( | By - zothix | On - 2023-02-23T14:41:28Z
- 38. [f4f..d65] run collection name getter script with child process :( | By - zothix | On - 2023-02-23T14:34:46Z
- 39. [4a4..855] added more logs :( | By - zothix | On - 2023-02-23T13:49:53Z
- 40. [7f9..bc4] fix brackets in fetch | By - zothix | On - 2023-02-23T13:23:26Z
- 41. [262..a32] added logs | By - zothix | On - 2023-02-23T12:53:06Z
- 42. [522..0fa] fixed asilly mistake :( | By - zothix | On - 2023-02-23T12:28:16Z
- 43. [8bf..a65] fix build errors | By - zothix | On - 2023-02-23T11:16:38Z
- 44. [735..4ba] added royalty for opensea | By - zothix | On - 2023-02-23T11:04:24Z
- 45. [3e8..d25] feat(whitelist): update way of showing err msg, chg & update isWhitelistable return | By - Fassih Haider | On - 2023-02-23T10:28:40Z
- 46. [a7c..f12] debug(solana): re-enable _isWhitelistable | By - Fassih Haider | On - 2023-02-23T09:36:44Z
- 47. [fff..823] update the royality values in aptos | By - zothix | On - 2023-02-23T07:48:42Z
- 48. [b55..63a] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-23T07:01:03Z
- 49. [401..e32] fix(solana): impl. code review fixes | By - Fassih Haider | On - 2023-02-23T07:00:20Z
- 50. [50f..cce] remove temp return | By - Irtisam | On - 2023-02-22T16:37:16Z
+ 1. [453..cd0] Merge pull request #42 from XP-NETWORK/AptosAutoDeployRef | By - AlexeyAdoniev | On - 2023-04-25T08:19:32Z
+ 2. [bf0..bea] fix(wrapping): use correct url according to contract mapping type | By - imsk17 | On - 2023-04-25T08:18:45Z
+ 3. [694..d7a] APTOS: finish deploy on catch | By - AlexeyAdoniev | On - 2023-04-25T08:12:31Z
+ 4. [b35..ffb] change elrond name in attribute to MultiversX | By - Alex Moshinsky | On - 2023-04-24T08:15:03Z
+ 5. [f14..52f] Update abi.ts | By - AlexeyAdoniev | On - 2023-04-23T07:39:53Z
+ 6. [a4b..9e5] Merge pull request #41 from XP-NETWORK/AptosAutoDeployRef | By - AlexeyAdoniev | On - 2023-04-20T12:30:00Z
+ 7. [7bb..fb3] APTOS: change autodeploy timeout, add more complex context, padLeft more 0 | By - AlexeyAdoniev | On - 2023-04-20T12:28:36Z
+ 8. [dd2..9ec] fix(mapping): use tokenId if source_token_id is not available | By - imsk17 | On - 2023-04-20T11:18:14Z
+ 9. [476..081] Merge pull request #38 from XP-NETWORK/AptosAutoDeployRef | By - awkwardman.dev | On - 2023-04-20T10:14:07Z
+ 10. [1b6..642] APTOS: edit royalies function | By - AlexeyAdoniev | On - 2023-04-20T08:18:13Z
+ 11. [cfd..065] Merge pull request #40 from XP-NETWORK/feat/handle-no-symbol | By - awkwardman.dev | On - 2023-04-20T05:53:13Z
+ 12. [710..a2b] fix(solana): add default symbol | By - Fassih Haider | On - 2023-04-20T05:38:25Z
+ 13. [2ef..f83] feat: add impl. for handling if there is no symbol | By - Fassih Haider | On - 2023-04-20T05:21:47Z
+ 14. [523..cfa] feat(mapping): use tokenId instead of source_token_id for mappings check | By - imsk17 | On - 2023-04-19T15:37:25Z
+ 15. [0b4..898] Merge pull request #39 from XP-NETWORK/fix/solana-prod | By - MuhammadFassihHaider | On - 2023-04-19T13:31:31Z
+ 16. [931..c5c] refactor: add whitelist check back | By - Fassih Haider | On - 2023-04-19T13:30:53Z
+ 17. [06b..607] APTOS: autodeploy refact | By - AlexeyAdoniev | On - 2023-04-19T12:24:21Z
+ 18. [4e4..a09] fix(solana): add fix for opensea by default | By - Fassih Haider | On - 2023-04-19T03:35:18Z
+ 19. [e82..bdf] helpers: dfinity: allow source token id from dfinity | By - imsk17 | On - 2023-04-18T09:22:15Z
+ 20. [371..b7b] Merge pull request #37 from XP-NETWORK/fixMetadataStringBug | By - awkwardman.dev | On - 2023-04-17T14:47:27Z
+ 21. [4fa..a9e] cleanUp | By - AlexeyAdoniev | On - 2023-04-17T10:26:30Z
+ 22. [b1f..fc4] catch case  where  metadata being json string instead of json object | By - AlexeyAdoniev | On - 2023-04-17T10:24:45Z
+ 23. [c27..6c6] fix(solana): fix symbol too long issue | By - Fassih Haider | On - 2023-04-17T09:52:12Z
+ 24. [f60..04b] refactor: remove whitelist check | By - Fassih Haider | On - 2023-04-17T08:52:23Z
+ 25. [a35..d2f] fix(solana: handle opensea collection name & royalty | By - Fassih Haider | On - 2023-04-17T05:06:49Z
+ 26. [66f..a46] refactor: remove comments, improve return type | By - Fassih Haider | On - 2023-04-17T04:47:10Z
+ 27. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+ 28. [65f..56b] Merge pull request #36 from XP-NETWORK/feat/AptosAndSolanaRoyalties | By - MuhammadFassihHaider | On - 2023-04-14T10:45:18Z
+ 29. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+ 30. [cbb..02d] prettier: run | By - imsk17 | On - 2023-04-13T18:41:20Z
+ 31. [152..487] cleanup: remove ..env.swp | By - imsk17 | On - 2023-04-13T18:40:01Z
+ 32. [b4e..10d] handlers: tezos: use token id from validator | By - imsk17 | On - 2023-04-13T18:39:04Z
+ 33. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 34. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 35. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 36. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 37. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 38. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 39. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 40. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 41. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 42. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 43. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 44. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 45. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 46. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 47. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 48. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 49. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 50. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
 
 ## refactor/getMintWith
 
@@ -1767,6 +3023,60 @@
  48. [6ea..94e] added logs | By - zothix | On - 2023-02-22T15:01:36Z
  49. [98d..93f] add logs | By - zothix | On - 2023-02-22T14:19:37Z
  50. [a5c..cb5] hard coded royalty values for aptos royalty testing | By - zothix | On - 2023-02-22T12:57:30Z
+
+## refactor/getMintWith2
+
+
+ 1. [8a8..b9f] refactoring getMintWith (in progress) | By - D | On - 2023-04-17T09:16:14Z
+ 2. [a22..2e4] fix(buid): fix typescript error | By - Fassih Haider | On - 2023-04-14T10:54:18Z
+ 3. [65f..56b] Merge pull request #36 from XP-NETWORK/feat/AptosAndSolanaRoyalties | By - MuhammadFassihHaider | On - 2023-04-14T10:45:18Z
+ 4. [e16..787] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-14T10:44:21Z
+ 5. [cbb..02d] prettier: run | By - imsk17 | On - 2023-04-13T18:41:20Z
+ 6. [152..487] cleanup: remove ..env.swp | By - imsk17 | On - 2023-04-13T18:40:01Z
+ 7. [b4e..10d] handlers: tezos: use token id from validator | By - imsk17 | On - 2023-04-13T18:39:04Z
+ 8. [11f..127] comment return for testing | By - zothix | On - 2023-04-07T06:39:56Z
+ 9. [4c3..c7e] undo the whitelist reutn | By - zothix | On - 2023-04-06T08:14:08Z
+ 10. [3dd..ed1] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - Fassih Haider | On - 2023-04-06T07:54:18Z
+ 11. [bd1..715] refactor(solana): rm clg stmts | By - Fassih Haider | On - 2023-04-06T07:54:14Z
+ 12. [fb0..40f] Merge branch 'feat/AptosAndSolanaRoyalties' of https://github.com/XP-NETWORK/migration-validator into feat/AptosAndSolanaRoyalties | By - D | On - 2023-04-06T07:46:41Z
+ 13. [42c..2bc] Aptos getting royalties from sc verify | By - D | On - 2023-04-06T07:44:31Z
+ 14. [247..2b1] refactor(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-04-06T07:22:50Z
+ 15. [d07..5b4] refactor(solana): add clg stmts | By - Fassih Haider | On - 2023-04-06T07:10:56Z
+ 16. [268..21c] feat: impl. endpoint for mapped solana royalty | By - Fassih Haider | On - 2023-04-06T07:09:06Z
+ 17. [a9b..d1c] Merge pull request #34 from XP-NETWORK/feat/near-fixes | By - Muhammad Shoaib | On - 2023-04-04T15:30:00Z
+ 18. [1ef..fe8] meetadata edge case fix | By - zothix | On - 2023-04-04T13:21:56Z
+ 19. [a51..fda] Merge pull request #33 from XP-NETWORK/feat/NearNotWhitelisted | By - Muhammad Shoaib | On - 2023-04-04T09:29:58Z
+ 20. [748..f7c] contract name correction | By - zothix | On - 2023-04-03T12:44:32Z
+ 21. [ad5..fdf] unfreeze changes | By - Irtisam | On - 2023-04-03T12:00:47Z
+ 22. [2c3..df3] (fix): adapt changes for async builder/transferUnique | By - Irtisam | On - 2023-04-03T10:42:17Z
+ 23. [08a..eba] testing with true condition | By - zothix | On - 2023-04-03T09:03:47Z
+ 24. [fdb..b20] add corrections | By - Irtisam | On - 2023-04-03T08:42:27Z
+ 25. [63f..b61] temporary changes | By - D | On - 2023-04-03T08:00:33Z
+ 26. [3d2..f1e] checking if contract is whitelisted or not | By - D | On - 2023-04-03T06:22:13Z
+ 27. [65b..26d] add divineanarchy.mypinata.cloud to ipfs gateways | By - AlexeyAdoniev | On - 2023-04-02T11:58:04Z
+ 28. [061..c99] Update .env.example | By - Muhammad Shoaib | On - 2023-03-31T08:19:07Z
+ 29. [2bd..eed] refactor(whitelist): add back whitelist check | By - Fassih Haider | On - 2023-03-31T06:04:49Z
+ 30. [700..313] Revert "Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData"" | By - Fassih Haider | On - 2023-03-31T06:03:14Z
+ 31. [23c..a2c] Revert "Merge pull request #32 from XP-NETWORK/feat/NearMetaData" | By - Fassih Haider | On - 2023-03-29T13:08:53Z
+ 32. [821..f24] Merge pull request #32 from XP-NETWORK/feat/NearMetaData | By - MuhammadFassihHaider | On - 2023-03-29T13:04:27Z
+ 33. [017..980] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:45:39Z
+ 34. [e8d..313] feat(near): get royalty from sc-verify | By - Fassih Haider | On - 2023-03-29T11:14:34Z
+ 35. [206..5c1] this is shit :( | By - zothix | On - 2023-03-28T22:26:20Z
+ 36. [a32..f34] workaround for supply | By - zothix | On - 2023-03-28T22:16:14Z
+ 37. [8e3..575] rename token_metadatas | By - zothix | On - 2023-03-28T20:00:04Z
+ 38. [e86..126] ogs | By - zothix | On - 2023-03-28T19:55:26Z
+ 39. [28e..deb] loging of erc1155 data | By - zothix | On - 2023-03-28T19:37:10Z
+ 40. [cb4..54d] change batch functions in near bridge | By - zothix | On - 2023-03-28T19:26:07Z
+ 41. [279..21f] near add transferUniqueBatchEventCost | By - zothix | On - 2023-03-28T19:04:36Z
+ 42. [dda..1b1] tezos: add fallback for old bridge contracts | By - imsk17 | On - 2023-03-28T14:32:26Z
+ 43. [519..b50] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:05:36Z
+ 44. [d73..81d] added functions for handeling erc1155 from evm to near | By - zothix | On - 2023-03-28T09:04:47Z
+ 45. [f89..87c] increase the gas in validate transfer nft | By - zothix | On - 2023-03-28T07:12:10Z
+ 46. [4d0..006] get rooyalty from evm | By - zothix | On - 2023-03-27T09:22:40Z
+ 47. [948..a12] from evm to near royalty implementation | By - D | On - 2023-03-22T11:30:03Z
+ 48. [4cd..709] set isED25519Type to true for hedera | By - zothix | On - 2023-03-22T09:27:02Z
+ 49. [4d1..c50] increate yocto near | By - Irtisam | On - 2023-03-21T21:41:35Z
+ 50. [10d..fab] Merge branch 'feat/NearMetaData' of https://github.com/XP-NETWORK/migration-validator into feat/NearMetaData | By - D | On - 2023-03-21T20:39:53Z
 
 ## sol
 
@@ -1930,6 +3240,114 @@
  49. [dad..a79] aptos: remove ev.to override | By - rupansh | On - 2022-10-22T13:57:26Z
  50. [a8c..750] aptos: initial bringup | By - rupansh | On - 2022-10-22T13:56:24Z
 
+## testing/secret
+
+
+ 1. [c11..730] debug(whitelist): disable whitelist check | By - Fassih Haider | On - 2023-03-07T13:43:37Z
+ 2. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 3. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 4. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 5. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 6. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+ 7. [2ae..d15] Merge pull request #25 from XP-NETWORK/fix/secret | By - MuhammadFassihHaider | On - 2023-03-06T08:56:19Z
+ 8. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 9. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 10. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 11. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 12. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 13. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+ 14. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
+ 15. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
+ 16. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
+ 17. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
+ 18. [ef4..a10] build(dep): bump secretjs | By - MuhammadFassihHaider | On - 2023-03-03T11:50:16Z
+ 19. [2aa..8c4] debug(secret): add logs, disable whitelist check | By - Fassih Haider | On - 2023-03-01T13:39:13Z
+ 20. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
+ 21. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
+ 22. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
+ 23. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
+ 24. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
+ 25. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
+ 26. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
+ 27. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
+ 28. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
+ 29. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
+ 30. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
+ 31. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
+ 32. [65e..acc] fix merge build error | By - AlexSafepress | On - 2023-02-27T11:37:49Z
+ 33. [916..237] fix merge conflict with production | By - AlexSafepress | On - 2023-02-27T11:30:26Z
+ 34. [f1c..15d] Merge branch 'production' into feat/solana-auto-deployment | By - AlexSafepress | On - 2023-02-27T11:19:11Z
+ 35. [4d7..fef] Update is_whitelistable.ts | By - awkwardman.dev | On - 2023-02-27T08:08:00Z
+ 36. [700..7af] refactor(solana): format code | By - Fassih Haider | On - 2023-02-27T07:38:10Z
+ 37. [e83..213] build: makeuseTabs: false because of many white place changes | By - Fassih Haider | On - 2023-02-27T07:37:33Z
+ 38. [2c5..727] fix(solana): add hardcoded royalty in config | By - Fassih Haider | On - 2023-02-27T07:34:53Z
+ 39. [7e6..378] fix(solana): disable 1155 for solana | By - Fassih Haider | On - 2023-02-27T07:32:18Z
+ 40. [322..aa6] Merge pull request #24 from XP-NETWORK/feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T07:24:32Z
+ 41. [206..ca4] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:23:00Z
+ 42. [0ad..fc5] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:20:29Z
+ 43. [08c..597] Update events.ts | By - awkwardman.dev | On - 2023-02-27T07:16:15Z
+ 44. [6b4..550] Delete .env.original | By - awkwardman.dev | On - 2023-02-27T06:59:17Z
+ 45. [6b9..d54] Merge branch 'production' into feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T06:58:43Z
+ 46. [264..50e] Merge pull request #23 from XP-NETWORK/feat/isWhitelistable | By - awkwardman.dev | On - 2023-02-27T06:00:24Z
+ 47. [764..410] temp change wallet to v4 | By - zothix | On - 2023-02-26T09:27:03Z
+ 48. [85b..701] fix ton identifier :( | By - zothix | On - 2023-02-26T06:50:37Z
+ 49. [a23..48e] fix ton identifier | By - zothix | On - 2023-02-26T06:48:19Z
+ 50. [9a9..e6e] opensea collection evm whitelist fix | By - zothix | On - 2023-02-24T13:57:18Z
+
+## testing/secret2
+
+
+ 1. [171..c4d] fix: add missing condition | By - Fassih Haider | On - 2023-03-09T11:49:33Z
+ 2. [680..fbb] fix: correct condition for token id to make it work with solana | By - Fassih Haider | On - 2023-03-09T11:40:59Z
+ 3. [8c6..475] debug(whitelist): add whitelist check back | By - Fassih Haider | On - 2023-03-09T11:30:21Z
+ 4. [752..2c4] fix: assign new mintwith | By - Fassih Haider | On - 2023-03-09T11:30:02Z
+ 5. [e47..459] debug(whitelist): rm whitelist check | By - Fassih Haider | On - 2023-03-09T08:50:33Z
+ 6. [c4e..d76] token id fix  in all places | By - zothix | On - 2023-03-09T07:44:56Z
+ 7. [331..b68] token id fix test | By - zothix | On - 2023-03-09T07:41:53Z
+ 8. [f83..428] fix tokenid issue | By - zothix | On - 2023-03-09T07:27:56Z
+ 9. [ee5..0b5] feat: add getMintWith on scrt side | By - Fassih Haider | On - 2023-03-08T19:57:13Z
+ 10. [622..e73] Update index.ts | By - Muhammad Shoaib | On - 2023-03-08T17:05:22Z
+ 11. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 12. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 13. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 14. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 15. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+ 16. [2ae..d15] Merge pull request #25 from XP-NETWORK/fix/secret | By - MuhammadFassihHaider | On - 2023-03-06T08:56:19Z
+ 17. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 18. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 19. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 20. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 21. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 22. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+ 23. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
+ 24. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
+ 25. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
+ 26. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
+ 27. [ef4..a10] build(dep): bump secretjs | By - MuhammadFassihHaider | On - 2023-03-03T11:50:16Z
+ 28. [2aa..8c4] debug(secret): add logs, disable whitelist check | By - Fassih Haider | On - 2023-03-01T13:39:13Z
+ 29. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
+ 30. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
+ 31. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
+ 32. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
+ 33. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
+ 34. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
+ 35. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
+ 36. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
+ 37. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
+ 38. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
+ 39. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
+ 40. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
+ 41. [65e..acc] fix merge build error | By - AlexSafepress | On - 2023-02-27T11:37:49Z
+ 42. [916..237] fix merge conflict with production | By - AlexSafepress | On - 2023-02-27T11:30:26Z
+ 43. [f1c..15d] Merge branch 'production' into feat/solana-auto-deployment | By - AlexSafepress | On - 2023-02-27T11:19:11Z
+ 44. [4d7..fef] Update is_whitelistable.ts | By - awkwardman.dev | On - 2023-02-27T08:08:00Z
+ 45. [700..7af] refactor(solana): format code | By - Fassih Haider | On - 2023-02-27T07:38:10Z
+ 46. [e83..213] build: makeuseTabs: false because of many white place changes | By - Fassih Haider | On - 2023-02-27T07:37:33Z
+ 47. [2c5..727] fix(solana): add hardcoded royalty in config | By - Fassih Haider | On - 2023-02-27T07:34:53Z
+ 48. [7e6..378] fix(solana): disable 1155 for solana | By - Fassih Haider | On - 2023-02-27T07:32:18Z
+ 49. [322..aa6] Merge pull request #24 from XP-NETWORK/feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T07:24:32Z
+ 50. [206..ca4] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:23:00Z
+
 ## testing-erc1155
 
 
@@ -1983,6 +3401,60 @@
  48. [6c1..f04] temp: disable elrond | By - rupansh | On - 2021-11-09T10:55:02Z
  49. [815..dfe] yarn: bump exchange-rate dep | By - rupansh | On - 2021-11-09T09:56:05Z
  50. [1ff..b00] add xDAI support | By - rupansh | On - 2021-11-08T09:32:34Z
+
+## update/whitelist
+
+
+ 1. [622..e73] Update index.ts | By - Muhammad Shoaib | On - 2023-03-08T17:05:22Z
+ 2. [eae..4af] temmp remove already whitelisted call exception break | By - zothix | On - 2023-03-07T13:04:21Z
+ 3. [4ab..170] Update index.ts | By - awkwardman.dev | On - 2023-03-07T05:50:53Z
+ 4. [654..5f3] debug(whitelist): remove whitelist check | By - Fassih Haider | On - 2023-03-06T10:07:07Z
+ 5. [467..336] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into production | By - Fassih Haider | On - 2023-03-06T10:00:58Z
+ 6. [3ac..ff6] refactor: add ts-ignore | By - Fassih Haider | On - 2023-03-06T10:00:55Z
+ 7. [2ae..d15] Merge pull request #25 from XP-NETWORK/fix/secret | By - MuhammadFassihHaider | On - 2023-03-06T08:56:19Z
+ 8. [9b7..861] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-03-06T08:55:15Z
+ 9. [16d..cc3] refactor(secret): create fn for checking if wrapped | By - Fassih Haider | On - 2023-03-05T17:22:49Z
+ 10. [7a1..251] fix(secret): unwrap mint_with from identToVerifiable | By - Fassih Haider | On - 2023-03-05T16:35:59Z
+ 11. [5fd..5f2] fix(secret): replace burner with mint_with | By - Fassih Haider | On - 2023-03-05T16:15:44Z
+ 12. [d0f..d5d] debug(secret): add more clg stmts | By - Fassih Haider | On - 2023-03-05T16:02:55Z
+ 13. [c90..9a6] debug(secret): add clg stmts | By - Fassih Haider | On - 2023-03-05T16:00:55Z
+ 14. [ba3..435] build: fix secretjs version | By - MuhammadFassihHaider | On - 2023-03-03T13:26:12Z
+ 15. [b04..401] debug(secret): add clg stmts | By - MuhammadFassihHaider | On - 2023-03-03T13:11:06Z
+ 16. [694..1ea] build(dep): yarn.lock | By - MuhammadFassihHaider | On - 2023-03-03T11:51:23Z
+ 17. [3d5..fd0] refactor(secret): add no checking for typescript error | By - MuhammadFassihHaider | On - 2023-03-03T11:50:46Z
+ 18. [ef4..a10] build(dep): bump secretjs | By - MuhammadFassihHaider | On - 2023-03-03T11:50:16Z
+ 19. [2aa..8c4] debug(secret): add logs, disable whitelist check | By - Fassih Haider | On - 2023-03-01T13:39:13Z
+ 20. [bb6..d41] Update index.ts | By - awkwardman.dev | On - 2023-02-28T13:45:38Z
+ 21. [963..951] Merge pull request #22 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-28T13:09:58Z
+ 22. [4f1..728] fix token id ero padding | By - zothix | On - 2023-02-28T09:51:50Z
+ 23. [73b..f12] wth nonsense :( | By - zothix | On - 2023-02-27T17:29:06Z
+ 24. [b0f..153] temp remove return from whitelist | By - zothix | On - 2023-02-27T17:08:24Z
+ 25. [9ec..fb4] fix harmony chain id | By - Alex Moshinsky | On - 2023-02-27T14:55:57Z
+ 26. [b0f..126] Merge branch 'production' of https://github.com/XP-NETWORK/migration-validator into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-27T14:01:16Z
+ 27. [cbf..bd3] debug(whitelist): add _isWhitelistable check back | By - Fassih Haider | On - 2023-02-27T13:49:47Z
+ 28. [8cf..679] added logs for ton | By - zothix | On - 2023-02-27T13:42:06Z
+ 29. [6a0..e26] debug(whitelist): disable  _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T13:32:07Z
+ 30. [216..8bd] build: fix build error | By - Fassih Haider | On - 2023-02-27T13:24:09Z
+ 31. [c19..817] debug(whitelist): disable _isWhitelistable check | By - Fassih Haider | On - 2023-02-27T12:33:32Z
+ 32. [65e..acc] fix merge build error | By - AlexSafepress | On - 2023-02-27T11:37:49Z
+ 33. [916..237] fix merge conflict with production | By - AlexSafepress | On - 2023-02-27T11:30:26Z
+ 34. [f1c..15d] Merge branch 'production' into feat/solana-auto-deployment | By - AlexSafepress | On - 2023-02-27T11:19:11Z
+ 35. [4d7..fef] Update is_whitelistable.ts | By - awkwardman.dev | On - 2023-02-27T08:08:00Z
+ 36. [700..7af] refactor(solana): format code | By - Fassih Haider | On - 2023-02-27T07:38:10Z
+ 37. [e83..213] build: makeuseTabs: false because of many white place changes | By - Fassih Haider | On - 2023-02-27T07:37:33Z
+ 38. [2c5..727] fix(solana): add hardcoded royalty in config | By - Fassih Haider | On - 2023-02-27T07:34:53Z
+ 39. [7e6..378] fix(solana): disable 1155 for solana | By - Fassih Haider | On - 2023-02-27T07:32:18Z
+ 40. [322..aa6] Merge pull request #24 from XP-NETWORK/feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T07:24:32Z
+ 41. [206..ca4] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:23:00Z
+ 42. [0ad..fc5] Update index.ts | By - awkwardman.dev | On - 2023-02-27T07:20:29Z
+ 43. [08c..597] Update events.ts | By - awkwardman.dev | On - 2023-02-27T07:16:15Z
+ 44. [6b4..550] Delete .env.original | By - awkwardman.dev | On - 2023-02-27T06:59:17Z
+ 45. [6b9..d54] Merge branch 'production' into feat/openSeaCollectionCreation | By - awkwardman.dev | On - 2023-02-27T06:58:43Z
+ 46. [264..50e] Merge pull request #23 from XP-NETWORK/feat/isWhitelistable | By - awkwardman.dev | On - 2023-02-27T06:00:24Z
+ 47. [764..410] temp change wallet to v4 | By - zothix | On - 2023-02-26T09:27:03Z
+ 48. [85b..701] fix ton identifier :( | By - zothix | On - 2023-02-26T06:50:37Z
+ 49. [a23..48e] fix ton identifier | By - zothix | On - 2023-02-26T06:48:19Z
+ 50. [9a9..e6e] opensea collection evm whitelist fix | By - zothix | On - 2023-02-24T13:57:18Z
 
 ## validaotr-hotfix
 
@@ -2200,169 +3672,725 @@
  49. [95d..b34] erc721_metadata: minor fix | By - rupansh | On - 2021-11-09T12:17:30Z
  50. [33b..5aa] gitignore: remove dist | By - rupansh | On - 2021-11-09T12:17:16Z
 
+# backend-game-team-updated
+
+## auto-metadata
+
+
+ 1. [68a..306] verified contract | By - MRNobody183 | On - 2023-04-20T09:00:28Z
+ 2. [a80..e9c] metadata autogenerated | By - Bilal01230 | On - 2023-04-19T06:26:52Z
+ 3. [4e3..bc4] fixes | By - MRNobody183 | On - 2023-04-13T10:35:55Z
+ 4. [378..0eb] new contract | By - MRNobody183 | On - 2023-04-13T10:04:13Z
+ 5. [89e..513] behter | By - MRNobody183 | On - 2023-04-07T19:32:38Z
+ 6. [2ec..63d] with auto restart | By - MRNobody183 | On - 2023-04-07T19:22:09Z
+ 7. [b20..663] new folders | By - MRNobody183 | On - 2023-04-06T07:57:13Z
+ 8. [0d9..921] updated | By - MRNobody183 | On - 2023-04-05T17:41:31Z
+ 9. [400..5f0] upgrade-item-done | By - tabisharaza | On - 2023-03-14T14:12:38Z
+ 10. [14f..049] user cant claim twice for xpnet tokens | By - tabisharaza | On - 2023-03-10T12:49:59Z
+ 11. [ce9..408] user can claim xpnet tokens from chest | By - tabisharaza | On - 2023-03-09T12:01:07Z
+ 12. [0d0..439] +fields for xpClaimed,XpnetClaimed and itemClaimed | By - tabisharaza | On - 2023-03-08T12:05:18Z
+ 13. [000..e0b] MAJOR REFACTORING | By - tabisharaza | On - 2023-03-06T12:06:53Z
+ 14. [99d..1bb] xptokens upgradeitem | By - tabisharaza | On - 2023-03-01T08:03:53Z
+ 15. [187..236] CALCULATE REQUIRED XPNET TOKENS FOR  ITEM UPGRADE | By - tabisharaza | On - 2023-02-27T12:50:14Z
+ 16. [e10..28a] new updates | By - tabisharaza | On - 2023-02-24T12:54:47Z
+ 17. [9bb..266] testnet added for new character mint and new quest | By - tabisharaza | On - 2023-02-22T14:36:21Z
+ 18. [92a..661] give sig and hash to frontend when opening chest | By - tabisharaza | On - 2023-02-21T10:08:25Z
+ 19. [e80..ff2] Calculate Rewards when Quest Ends | By - tabisharaza | On - 2023-02-21T09:54:36Z
+ 20. [c4e..5c4] Create ERC20.sol | By - TABISH AYUB RAZA | On - 2023-02-21T06:21:42Z
+ 21. [8c3..7ba] random item and rarity as reward to user | By - tabisharaza | On - 2023-02-17T14:01:24Z
+ 22. [a0c..d5d] no double rewards for chest | By - TABISH AYUB RAZA | On - 2023-02-14T12:39:22Z
+ 23. [0cf..a94] popup rewards | By - TABISH AYUB RAZA | On - 2023-02-14T09:21:03Z
+ 24. [e40..35a] user chests and level up | By - TABISH AYUB RAZA | On - 2023-02-10T12:10:39Z
+ 25. [20d..184] wrappedcontractscheck | By - TABISH AYUB RAZA | On - 2023-02-06T10:39:30Z
+ 26. [d4b..0d7] add quest for new minted character | By - TABISH AYUB RAZA | On - 2023-02-02T14:01:06Z
+ 27. [887..3d0] equip/unequip multiple items on any character | By - TABISH AYUB RAZA | On - 2023-02-01T13:44:50Z
+ 28. [d47..b31] changes to feat/whitelist and multiple equip | By - TABISH AYUB RAZA | On - 2023-02-01T07:54:32Z
+ 29. [e18..a25] attack and defense to quest according to level | By - TABISH AYUB RAZA | On - 2023-01-27T15:27:45Z
+ 30. [038..700] updated | By - TABISH AYUB RAZA | On - 2023-01-26T14:35:48Z
+ 31. [968..1c5] new | By - tabisharaza@gmail.com | On - 2023-01-24T12:21:39Z
+ 32. [5ec..f57] newchanges | By - tabisharaza@gmail.com | On - 2023-01-20T07:50:05Z
+ 33. [0db..da7] NEW | By - tabisharaza@gmail.com | On - 2023-01-19T12:48:11Z
+ 34. [c52..f86] Merge branch 'master' of https://github.com/Tabisharaza/https---github.com-Tabisharaza-backend-game-team | By - tabisharaza@gmail.com | On - 2023-01-19T07:25:09Z
+ 35. [39f..afd] new | By - tabisharaza@gmail.com | On - 2023-01-19T07:25:03Z
+ 36. [1ce..3a3] updatedrarities | By - Tabish | On - 2023-01-19T05:25:32Z
+ 37. [9dc..d5d] newupdates | By - tabisharaza@gmail.com | On - 2023-01-16T05:33:56Z
+ 38. [167..bd0] updated | By - Tabish | On - 2023-01-11T12:17:46Z
+ 39. [3c5..f4c] new | By - tabisharaza@gmail.com | On - 2023-01-11T06:32:30Z
+ 40. [ecc..fa9] nolocal | By - tabisharaza@gmail.com | On - 2023-01-07T20:21:17Z
+ 41. [298..4aa] no host | By - tabisharaza@gmail.com | On - 2023-01-07T20:11:12Z
+ 42. [be6..d50] any | By - tabisharaza@gmail.com | On - 2023-01-07T20:06:35Z
+ 43. [2a3..07c] final | By - tabisharaza@gmail.com | On - 2023-01-07T20:02:35Z
+ 44. [74e..07e] new | By - tabisharaza@gmail.com | On - 2023-01-07T20:01:16Z
+ 45. [c99..b8c] build | By - tabisharaza@gmail.com | On - 2023-01-07T18:49:26Z
+ 46. [61a..c0c] gh | By - tabisharaza@gmail.com | On - 2023-01-07T18:48:34Z
+ 47. [680..192] new | By - tabisharaza@gmail.com | On - 2023-01-07T18:45:54Z
+ 48. [28e..c34] new changes | By - tabisharaza@gmail.com | On - 2023-01-05T11:07:57Z
+ 49. [3e7..ba1] new | By - tabisharaza@gmail.com | On - 2023-01-02T04:56:52Z
+ 50. [2f7..41b] my first commit good luck | By - tabisharaza@gmail.com | On - 2022-12-29T10:10:25Z
+
+## master
+
+
+ 1. [3cb..a68] deleted assets and working on nft | By - MRNobody183 | On - 2023-05-02T12:45:16Z
+ 2. [b67..fc0] yarn del | By - MRNobody183 | On - 2023-05-01T14:16:10Z
+ 3. [6d3..f33] with auto generate nft and metadata and compression | By - MRNobody183 | On - 2023-05-01T12:57:39Z
+ 4. [efd..dd5] the data is now being uploaded | By - MRNobody183 | On - 2023-04-28T12:52:17Z
+ 5. [2df..5bc] gitignore | By - Bilal01230 | On - 2023-04-27T16:41:59Z
+ 6. [676..629] new upd | By - Bilal01230 | On - 2023-04-27T16:40:28Z
+ 7. [f02..e69] update | By - Bilal01230 | On - 2023-04-27T11:32:47Z
+ 8. [026..5fe] new upd | By - Bilal01230 | On - 2023-04-27T11:26:07Z
+ 9. [b25..b3a] new | By - Bilal01230 | On - 2023-04-27T11:14:05Z
+ 10. [320..048] update | By - Bilal01230 | On - 2023-04-27T11:13:12Z
+ 11. [aa7..07b] updated | By - Bilal01230 | On - 2023-04-27T11:09:55Z
+ 12. [104..22f] pulled code | By - Bilal01230 | On - 2023-04-27T11:02:18Z
+ 13. [934..5a4] Merge branch 'master' of https://github.com/XP-NETWORK/backend-game-team-updated | By - Bilal01230 | On - 2023-04-27T10:57:36Z
+ 14. [371..084] new update | By - Bilal01230 | On - 2023-04-27T10:57:03Z
+ 15. [0b6..77e] with images with solved | By - MRNobody183 | On - 2023-04-27T10:42:03Z
+ 16. [6d6..e54] with images | By - MRNobody183 | On - 2023-04-27T10:20:08Z
+ 17. [4c5..087] update | By - Bilal01230 | On - 2023-04-27T10:18:19Z
+ 18. [2a1..46b] update | By - Bilal01230 | On - 2023-04-27T08:24:38Z
+ 19. [008..8ef] update | By - Bilal01230 | On - 2023-04-27T07:49:40Z
+ 20. [d2b..aa3] metadata autogeneration | By - Bilal01230 | On - 2023-04-26T11:31:22Z
+ 21. [c90..90c] image compression | By - Bilal01230 | On - 2023-04-26T09:29:40Z
+ 22. [906..d87] quest images from backend | By - Bilal01230 | On - 2023-04-26T08:07:41Z
+ 23. [b21..0ef] port change | By - MRNobody183 | On - 2023-04-20T05:03:02Z
+ 24. [c54..547] verified contract | By - Bilal01230 | On - 2023-04-19T19:26:55Z
+ 25. [17c..21a] update | By - Bilal01230 | On - 2023-04-19T09:17:39Z
+ 26. [3ff..6ef] metadata auto-generation | By - Bilal01230 | On - 2023-04-19T06:31:16Z
+ 27. [4e3..bc4] fixes | By - MRNobody183 | On - 2023-04-13T10:35:55Z
+ 28. [378..0eb] new contract | By - MRNobody183 | On - 2023-04-13T10:04:13Z
+ 29. [89e..513] behter | By - MRNobody183 | On - 2023-04-07T19:32:38Z
+ 30. [2ec..63d] with auto restart | By - MRNobody183 | On - 2023-04-07T19:22:09Z
+ 31. [b20..663] new folders | By - MRNobody183 | On - 2023-04-06T07:57:13Z
+ 32. [0d9..921] updated | By - MRNobody183 | On - 2023-04-05T17:41:31Z
+ 33. [400..5f0] upgrade-item-done | By - tabisharaza | On - 2023-03-14T14:12:38Z
+ 34. [14f..049] user cant claim twice for xpnet tokens | By - tabisharaza | On - 2023-03-10T12:49:59Z
+ 35. [ce9..408] user can claim xpnet tokens from chest | By - tabisharaza | On - 2023-03-09T12:01:07Z
+ 36. [0d0..439] +fields for xpClaimed,XpnetClaimed and itemClaimed | By - tabisharaza | On - 2023-03-08T12:05:18Z
+ 37. [000..e0b] MAJOR REFACTORING | By - tabisharaza | On - 2023-03-06T12:06:53Z
+ 38. [99d..1bb] xptokens upgradeitem | By - tabisharaza | On - 2023-03-01T08:03:53Z
+ 39. [187..236] CALCULATE REQUIRED XPNET TOKENS FOR  ITEM UPGRADE | By - tabisharaza | On - 2023-02-27T12:50:14Z
+ 40. [e10..28a] new updates | By - tabisharaza | On - 2023-02-24T12:54:47Z
+ 41. [9bb..266] testnet added for new character mint and new quest | By - tabisharaza | On - 2023-02-22T14:36:21Z
+ 42. [92a..661] give sig and hash to frontend when opening chest | By - tabisharaza | On - 2023-02-21T10:08:25Z
+ 43. [e80..ff2] Calculate Rewards when Quest Ends | By - tabisharaza | On - 2023-02-21T09:54:36Z
+ 44. [c4e..5c4] Create ERC20.sol | By - TABISH AYUB RAZA | On - 2023-02-21T06:21:42Z
+ 45. [8c3..7ba] random item and rarity as reward to user | By - tabisharaza | On - 2023-02-17T14:01:24Z
+ 46. [a0c..d5d] no double rewards for chest | By - TABISH AYUB RAZA | On - 2023-02-14T12:39:22Z
+ 47. [0cf..a94] popup rewards | By - TABISH AYUB RAZA | On - 2023-02-14T09:21:03Z
+ 48. [e40..35a] user chests and level up | By - TABISH AYUB RAZA | On - 2023-02-10T12:10:39Z
+ 49. [20d..184] wrappedcontractscheck | By - TABISH AYUB RAZA | On - 2023-02-06T10:39:30Z
+ 50. [d4b..0d7] add quest for new minted character | By - TABISH AYUB RAZA | On - 2023-02-02T14:01:06Z
+
+# deployed-mapped-contracts
+
+## master
+
+
+ 1. [dab..917] add: TON Frogs - Polygon | By - Dima Brook | On - 2023-05-02T09:37:59Z
+ 2. [ae5..521] deploy: Hashmasks - Moonbeam | By - Dima Brook | On - 2023-04-16T12:17:22Z
+ 3. [e83..63d] deploy: Nunu Spirits Genesis Collection - Polygon | By - Dima Brook | On - 2023-04-16T07:59:12Z
+ 4. [41d..34b] deploy: SkylandOG Bridged - Polygon | By - Dima Brook | On - 2023-04-13T15:05:47Z
+ 5. [417..6a1] deploy: Skytopian Residents Bridged - Polygon | By - Dima Brook | On - 2023-04-13T12:38:13Z
+ 6. [db0..92b] deploy: Apes Planet - BSC | By - Dima Brook | On - 2023-04-10T14:50:12Z
+ 7. [6fe..c3d] deploy: CyberCity Lands - BSC | By - Dima Brook | On - 2023-04-10T12:37:07Z
+ 8. [c63..71f] deploy: CyberCity Characters - BSC | By - Dima Brook | On - 2023-04-10T12:26:18Z
+ 9. [bae..ffc] pass ownership SummoTeX | By - Dima Brook | On - 2023-04-09T15:09:15Z
+ 10. [e3d..950] deploy # 186 & #187 | By - Dima Brook | On - 2023-04-09T10:28:28Z
+ 11. [271..c4f] return the baseURI for ## 164. 05.03.2023 - Rocket Monsters Star Fighter - Arbitrum Nova | By - Dima Brook | On - 2023-04-05T08:01:09Z
+ 12. [1e4..055] pass ownership to SuperRareBears | By - Dima Brook | On - 2023-04-04T16:08:54Z
+ 13. [25b..87f] deploy: Rocket Monsters Zeren Bear - Arbitrum Nova | By - Dima Brook | On - 2023-04-03T15:19:27Z
+ 14. [ea4..55e] #164 temp URI: https://nft.xp.network/w/ | By - Dima Brook | On - 2023-04-03T12:05:16Z
+ 15. [0cb..6f3] deploy: SuperRareBears - Polygon | By - Dima Brook | On - 2023-03-31T19:16:51Z
+ 16. [4da..dbf] deploy SUMOTEX - Ethereum | By - Dima Brook | On - 2023-03-30T13:16:28Z
+ 17. [201..e2c] redeploy: Rocket Monsters 10k Bear Battalion - Arbitrum Nova | By - Dima Brook | On - 2023-03-30T09:09:02Z
+ 18. [b47..11c] deploy: SUMOTEX - Polygon | By - Dima Brook | On - 2023-03-28T08:12:02Z
+ 19. [eb8..3fa] deploy NFT Moon Metaverse Key - Harmony | By - Dima Brook | On - 2023-03-21T12:38:14Z
+ 20. [7fc..8fe] deploy: Divine Anarchy - Moonbeam | By - Dima Brook | On - 2023-03-21T12:22:31Z
+ 21. [1c6..57c] deploy NFT Moon Metaverse Key (Moon Key) - SKALE | By - Dima Brook | On - 2023-03-20T17:16:44Z
+ 22. [6d7..b7b] deploy: MarsWars - Velas | By - Dima Brook | On - 2023-03-20T11:36:05Z
+ 23. [75d..8d6] deploy The Wild Guardians Collection #1 - MetaversX | By - Dima Brook | On - 2023-03-19T09:51:33Z
+ 24. [c8b..498] deploy:The Collectoors Podcast - Polygon | By - Dima Brook | On - 2023-03-14T16:54:13Z
+ 25. [e73..9b8] deploy: Soul Reapers of the Mycelium - Polygon | By - Dima Brook | On - 2023-03-14T16:09:49Z
+ 26. [134..90c] deploy: FACE OF DOOM - Polygon | By - Dima Brook | On - 2023-03-14T13:20:11Z
+ 27. [51b..713] redeploy: Robo Gang - Polygon | By - Dima Brook | On - 2023-03-10T12:25:08Z
+ 28. [f7f..cc7] deploy: NFT Moon Metaverse (ID Card) - Secret | By - Dima Brook | On - 2023-03-09T17:09:59Z
+ 29. [076..534] deploy: HDMusic - Polygon | By - Dima Brook | On - 2023-03-09T14:37:08Z
+ 30. [fd9..6af] deploy: The Wild Guardians Collection #1 - Polygon | By - Dima Brook | On - 2023-03-08T14:23:07Z
+ 31. [40f..d64] deploy: Bored David - Secret | By - Dima Brook | On - 2023-03-07T10:05:20Z
+ 32. [f82..5b5] redeploy: Robo Gang - Polygon | By - Dima Brook | On - 2023-03-07T08:59:18Z
+ 33. [36b..5e5] deploy: Rocket Monsters Star Fighter - Arbitrum Nova | By - Dima Brook | On - 2023-03-05T11:20:07Z
+ 34. [c01..c2d] deploy Rocket Monsters 10k Bear Battalion - Arbitrum Nova | By - Dima Brook | On - 2023-03-05T10:53:50Z
+ 35. [3f9..ce6] redeploy: METAMORPHOSES - TON | By - Dima Brook | On - 2023-02-28T09:39:16Z
+ 36. [26e..d9a] deploy: ChainGuardians - Elrond | By - Dima Brook | On - 2023-02-14T10:53:24Z
+ 37. [b32..5db] NFT Moon Metaverse - Caduceus | By - Dima Brook | On - 2023-02-12T12:54:20Z
+ 38. [f73..1db] add CryptoSpaceClub - Caduceus | By - Dima Brook | On - 2023-02-12T12:46:25Z
+ 39. [5db..89e] deploy: W3DNA - Avalanche | By - Dima Brook | On - 2023-02-07T13:15:04Z
+ 40. [ff3..f07] Merge branch 'master' of https://github.com/XP-NETWORK/deployed-mapped-contracts | By - Dima Brook | On - 2023-02-07T12:47:05Z
+ 41. [4a4..ddb] update | By - Dima Brook | On - 2023-02-07T12:46:45Z
+ 42. [3ef..23a] CRYPTOPUNKS - Moonbeam | By - Alex Moshinsky | On - 2023-02-06T09:19:11Z
+ 43. [cd4..55d] Redeploy: 02.02.2023 - Non Fungible Apes on Polygon | By - Dima Brook | On - 2023-02-02T12:31:05Z
+ 44. [f73..834] NFT Moon Metaverse (Cards) - Skale | By - Dima Brook | On - 2023-02-01T10:46:27Z
+ 45. [578..feb] deploy NFT Moon Metaverse - Skale | By - Dima Brook | On - 2023-02-01T09:47:49Z
+ 46. [4c7..f5e] redeploy: NFT MOON METAVERSE - Secret Network | By - Dima Brook | On - 2023-01-24T12:46:54Z
+ 47. [f32..0e9] 29.09.2022 - Pontic Land Chest - Polygon pass ownership | By - Dima Brook | On - 2023-01-24T12:29:54Z
+ 48. [cff..75c] deploy NFT MOON METAVERSE - Secret Network | By - Dima Brook | On - 2023-01-23T13:23:41Z
+ 49. [4f6..9ff] redeploy: Tegro Dogs - BSC | By - Dima Brook | On - 2023-01-17T17:12:03Z
+ 50. [ea3..b8f] redeploy: Meta Panthers - BSC | By - Dima Brook | On - 2023-01-17T17:05:59Z
+
 # new-xp-website
+
+## about-us
+
+
+ 1. [ad1..0d3] about us rewriting | By - YuraDXPNetwork | On - 2023-04-20T13:46:27Z
+ 2. [c90..d67] testimonilas done | By - YuraDXPNetwork | On - 2023-04-19T14:26:15Z
+ 3. [b31..9c2] testimonials show more btn fixed | By - YuraDXPNetwork | On - 2023-04-19T11:31:07Z
+ 4. [eff..02b] testimonials for api script added | By - YuraDXPNetwork | On - 2023-04-19T09:19:49Z
+ 5. [12d..879] two ids issue | By - YuraDXPNetwork | On - 2023-04-19T08:41:55Z
+ 6. [627..0b6] testimonials upodated | By - YuraDXPNetwork | On - 2023-04-18T15:10:47Z
+ 7. [d8c..35b] testimonilas filter | By - YuraDXPNetwork | On - 2023-04-18T09:47:51Z
+ 8. [4d4..07d] new testimonials | By - YuraDXPNetwork | On - 2023-04-18T05:45:09Z
+ 9. [58e..823] news 19 apr | By - YuraDXPNetwork | On - 2023-04-17T14:53:04Z
+ 10. [9b9..f3c] header bg issue | By - YuraDXPNetwork | On - 2023-04-16T18:59:09Z
+ 11. [1ca..f8d] goldf | By - YuraDXPNetwork | On - 2023-04-16T18:34:57Z
+ 12. [9a6..165] gold fever hero | By - YuraDXPNetwork | On - 2023-04-16T09:23:51Z
+ 13. [552..842] fixes | By - YuraDXPNetwork | On - 2023-04-16T09:20:41Z
+ 14. [cf4..e12] css added | By - YuraDXPNetwork | On - 2023-04-16T08:26:21Z
+ 15. [97b..c3b] gold fiver tablet i | By - YuraDXPNetwork | On - 2023-04-13T09:46:53Z
+ 16. [8bd..a4d] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:59:14Z
+ 17. [b5b..15a] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:58:20Z
+ 18. [dba..342] show all testimonials max height fix | By - YuraDXPNetwork | On - 2023-04-11T10:11:15Z
+ 19. [4f7..5c2] goldfiver mobile header fix | By - YuraDXPNetwork | On - 2023-04-11T07:11:06Z
+ 20. [620..d74] ecosystem button and spacing fix | By - YuraDXPNetwork | On - 2023-04-10T14:25:15Z
+ 21. [dd0..b87] last new update | By - YuraDXPNetwork | On - 2023-04-10T09:50:19Z
+ 22. [d70..0c7] google analytics added to each page index | By - YuraDXPNetwork | On - 2023-04-10T08:26:07Z
+ 23. [afc..382] google nalaytics tag added | By - YuraDXPNetwork | On - 2023-04-09T13:17:52Z
+ 24. [fa9..9f3] gold-fever | By - YuraDXPNetwork | On - 2023-04-09T12:52:09Z
+ 25. [1da..2a1] site updates | By - AlexeyAdoniev | On - 2023-04-03T16:25:23Z
+ 26. [acf..d56] apeswap cs | By - AlexeyAdoniev | On - 2023-04-03T07:26:42Z
+ 27. [1c2..6ce] apeswap case studies | By - YuraDXPNetwork | On - 2023-04-02T14:59:32Z
+ 28. [640..fec] apeswap case studies added | By - YuraDXPNetwork | On - 2023-04-02T12:42:24Z
+ 29. [576..9ff] new apeswap case studie | By - YuraDXPNetwork | On - 2023-04-02T09:08:04Z
+ 30. [532..4c5] ui fixes | By - AlexeyAdoniev | On - 2023-04-02T09:06:23Z
+ 31. [403..11c] ad | By - AlexeyAdoniev | On - 2023-03-29T13:41:37Z
+ 32. [c0e..b2d] weekly-updates | By - rony derra | On - 2023-03-27T11:06:16Z
+ 33. [698..653] typo | By - rony derra | On - 2023-03-27T10:39:56Z
+ 34. [f08..a30] html | By - rony derra | On - 2023-03-26T14:17:07Z
+ 35. [026..7e5] html | By - rony derra | On - 2023-03-26T14:17:00Z
+ 36. [a71..a1c] svgs | By - rony derra | On - 2023-03-26T14:16:53Z
+ 37. [575..c7c] html | By - rony derra | On - 2023-03-26T14:16:43Z
+ 38. [239..245] css | By - rony derra | On - 2023-03-26T14:16:37Z
+ 39. [7c0..17d] near images png | By - rony derra | On - 2023-03-26T14:16:21Z
+ 40. [1bf..630] updates | By - rony derra | On - 2023-03-20T12:34:35Z
+ 41. [e95..83f] imges | By - rony derra | On - 2023-03-20T11:37:59Z
+ 42. [72d..2b7] The Commit message | By - rony derra | On - 2023-03-19T14:18:10Z
+ 43. [4f0..e70] production | By - rony derra | On - 2023-03-19T11:20:24Z
+ 44. [b22..82c] w3dna | By - rony derra | On - 2023-03-19T10:14:58Z
+ 45. [94c..99e] img | By - rony derra | On - 2023-03-16T17:18:35Z
+ 46. [51d..980]  <div class="blkTab"><span>Blockchain</span></div> | By - rony derra | On - 2023-03-16T16:52:46Z
+ 47. [414..5f1] new production | By - rony derra | On - 2023-03-16T09:04:53Z
+
+## casestudies-ui-fixes
+
+
+ 1. [fb4..6b7] fixes to ipad | By - YuraDXPNetwork | On - 2023-04-25T22:18:11Z
+ 2. [0a6..f13] case studies update and about us updates | By - YuraDXPNetwork | On - 2023-04-25T06:37:04Z
+ 3. [db1..b13] about ass updated | By - YuraDXPNetwork | On - 2023-04-24T07:22:12Z
+ 4. [4dd..11f] two quarters added to timeline in about-us page | By - YuraDXPNetwork | On - 2023-04-24T06:23:42Z
+ 5. [316..206] super rare bears case studies | By - YuraDXPNetwork | On - 2023-04-23T11:51:12Z
+ 6. [a64..268] new case studies added | By - YuraDXPNetwork | On - 2023-04-23T11:00:25Z
+ 7. [917..c58] assets for about us added | By - YuraDXPNetwork | On - 2023-04-23T07:40:51Z
+ 8. [c90..d67] testimonilas done | By - YuraDXPNetwork | On - 2023-04-19T14:26:15Z
+ 9. [b31..9c2] testimonials show more btn fixed | By - YuraDXPNetwork | On - 2023-04-19T11:31:07Z
+ 10. [eff..02b] testimonials for api script added | By - YuraDXPNetwork | On - 2023-04-19T09:19:49Z
+ 11. [12d..879] two ids issue | By - YuraDXPNetwork | On - 2023-04-19T08:41:55Z
+ 12. [627..0b6] testimonials upodated | By - YuraDXPNetwork | On - 2023-04-18T15:10:47Z
+ 13. [d8c..35b] testimonilas filter | By - YuraDXPNetwork | On - 2023-04-18T09:47:51Z
+ 14. [4d4..07d] new testimonials | By - YuraDXPNetwork | On - 2023-04-18T05:45:09Z
+ 15. [58e..823] news 19 apr | By - YuraDXPNetwork | On - 2023-04-17T14:53:04Z
+ 16. [9b9..f3c] header bg issue | By - YuraDXPNetwork | On - 2023-04-16T18:59:09Z
+ 17. [1ca..f8d] goldf | By - YuraDXPNetwork | On - 2023-04-16T18:34:57Z
+ 18. [9a6..165] gold fever hero | By - YuraDXPNetwork | On - 2023-04-16T09:23:51Z
+ 19. [552..842] fixes | By - YuraDXPNetwork | On - 2023-04-16T09:20:41Z
+ 20. [cf4..e12] css added | By - YuraDXPNetwork | On - 2023-04-16T08:26:21Z
+ 21. [97b..c3b] gold fiver tablet i | By - YuraDXPNetwork | On - 2023-04-13T09:46:53Z
+ 22. [8bd..a4d] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:59:14Z
+ 23. [b5b..15a] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:58:20Z
+ 24. [dba..342] show all testimonials max height fix | By - YuraDXPNetwork | On - 2023-04-11T10:11:15Z
+ 25. [4f7..5c2] goldfiver mobile header fix | By - YuraDXPNetwork | On - 2023-04-11T07:11:06Z
+ 26. [620..d74] ecosystem button and spacing fix | By - YuraDXPNetwork | On - 2023-04-10T14:25:15Z
+ 27. [dd0..b87] last new update | By - YuraDXPNetwork | On - 2023-04-10T09:50:19Z
+ 28. [d70..0c7] google analytics added to each page index | By - YuraDXPNetwork | On - 2023-04-10T08:26:07Z
+ 29. [afc..382] google nalaytics tag added | By - YuraDXPNetwork | On - 2023-04-09T13:17:52Z
+ 30. [fa9..9f3] gold-fever | By - YuraDXPNetwork | On - 2023-04-09T12:52:09Z
+ 31. [1da..2a1] site updates | By - AlexeyAdoniev | On - 2023-04-03T16:25:23Z
+ 32. [acf..d56] apeswap cs | By - AlexeyAdoniev | On - 2023-04-03T07:26:42Z
+ 33. [1c2..6ce] apeswap case studies | By - YuraDXPNetwork | On - 2023-04-02T14:59:32Z
+ 34. [640..fec] apeswap case studies added | By - YuraDXPNetwork | On - 2023-04-02T12:42:24Z
+ 35. [576..9ff] new apeswap case studie | By - YuraDXPNetwork | On - 2023-04-02T09:08:04Z
+ 36. [532..4c5] ui fixes | By - AlexeyAdoniev | On - 2023-04-02T09:06:23Z
+ 37. [403..11c] ad | By - AlexeyAdoniev | On - 2023-03-29T13:41:37Z
+ 38. [c0e..b2d] weekly-updates | By - rony derra | On - 2023-03-27T11:06:16Z
+ 39. [698..653] typo | By - rony derra | On - 2023-03-27T10:39:56Z
+ 40. [f08..a30] html | By - rony derra | On - 2023-03-26T14:17:07Z
+ 41. [026..7e5] html | By - rony derra | On - 2023-03-26T14:17:00Z
+ 42. [a71..a1c] svgs | By - rony derra | On - 2023-03-26T14:16:53Z
+ 43. [575..c7c] html | By - rony derra | On - 2023-03-26T14:16:43Z
+ 44. [239..245] css | By - rony derra | On - 2023-03-26T14:16:37Z
+ 45. [7c0..17d] near images png | By - rony derra | On - 2023-03-26T14:16:21Z
+ 46. [1bf..630] updates | By - rony derra | On - 2023-03-20T12:34:35Z
+ 47. [e95..83f] imges | By - rony derra | On - 2023-03-20T11:37:59Z
+ 48. [72d..2b7] The Commit message | By - rony derra | On - 2023-03-19T14:18:10Z
+ 49. [4f0..e70] production | By - rony derra | On - 2023-03-19T11:20:24Z
+ 50. [b22..82c] w3dna | By - rony derra | On - 2023-03-19T10:14:58Z
 
 ## fix-wasif-march-2
 
 
- 1. [817..a49] ecosystem remaining fixes, toggle button bug resolved. | By - wasifmuhammad | On - 2023-03-03T11:51:01Z
- 2. [35e..195] conflicts resolve | By - wasifmuhammad | On - 2023-03-02T13:05:06Z
- 3. [1e2..4ee] case studies, some of the ecosystem cards | By - wasifmuhammad | On - 2023-03-02T12:59:14Z
- 4. [10a..f1e] merged | By - AlexeyAdoniev | On - 2023-03-01T09:30:46Z
- 5. [247..f2a] Merge pull request #4 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T15:29:09Z
- 6. [b13..068] case studies order | By - wasifmuhammad | On - 2023-02-28T13:14:16Z
- 7. [25a..cf0] case studies fixes | By - wasifmuhammad | On - 2023-02-28T12:28:20Z
- 8. [0fa..022] Merge pull request #3 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T08:19:52Z
- 9. [403..67f] updates | By - AlexeyAdoniev | On - 2023-02-28T08:19:15Z
- 10. [d0c..224] case studies fixes | By - wasifmuhammad | On - 2023-02-27T12:53:42Z
- 11. [2d4..48b] cs | By - AlexeyAdoniev | On - 2023-02-26T15:25:29Z
- 12. [dba..ca6] Merge pull request #2 from XP-NETWORK/wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:19Z
- 13. [9ad..488] Merge branch 'main' into wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:12Z
- 14. [12b..18b] Merge pull request #1 from XP-NETWORK/wasif-fixes-22-feb | By - AlexeyAdoniev | On - 2023-02-23T13:55:52Z
- 15. [8f2..07f] case studies fixes, next and prev button flow, text and styles fixes | By - wasifmuhammad | On - 2023-02-23T12:55:23Z
- 16. [157..b54] community page fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-167 | By - wasifmuhammad | On - 2023-02-23T06:07:30Z
- 17. [ea8..14e] fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-2 | By - wasifmuhammad | On - 2023-02-22T12:49:24Z
- 18. [090..a09] site updates | By - AlexeyAdoniev | On - 2023-02-20T16:54:03Z
- 19. [33a..7d1] XOXNO cs | By - AlexeyAdoniev | On - 2023-02-20T16:06:00Z
- 20. [376..4e2] site updates | By - AlexeyAdoniev | On - 2023-02-13T16:44:55Z
- 21. [5d5..969] moon cs2 | By - AlexeyAdoniev | On - 2023-02-13T16:23:46Z
- 22. [d8e..41e] moon cs | By - AlexeyAdoniev | On - 2023-02-12T15:21:18Z
- 23. [8d3..69b] worldofv | By - AlexeyAdoniev | On - 2023-02-12T13:56:12Z
- 24. [762..8bf] new case study | By - AlexeyAdoniev | On - 2023-02-06T15:54:16Z
- 25. [59d..ba9] style fix | By - AlexeyAdoniev | On - 2023-02-02T09:10:01Z
- 26. [acb..81c] news update | By - AlexeyAdoniev | On - 2023-01-30T13:54:03Z
- 27. [0fb..d67] dcp page | By - AlexeyAdoniev | On - 2023-01-29T14:31:25Z
- 28. [ca1..63b] dcp cs | By - AlexeyAdoniev | On - 2023-01-29T10:58:53Z
- 29. [84d..8de] dec pictures case study | By - AlexeyAdoniev | On - 2023-01-29T09:05:45Z
- 30. [5a0..2f0] remove team page | By - AlexeyAdoniev | On - 2023-01-22T14:09:43Z
- 31. [e8c..a19] remove team | By - AlexeyAdoniev | On - 2023-01-22T13:55:27Z
- 32. [930..638] eot case study | By - AlexeyAdoniev | On - 2023-01-22T13:07:51Z
- 33. [92e..b25] site updates | By - AlexeyAdoniev | On - 2023-01-16T17:00:01Z
- 34. [d35..f15] inka empire | By - AlexeyAdoniev | On - 2023-01-15T16:32:10Z
- 35. [6a4..7b0] add header | By - Alex Moshinsky | On - 2023-01-15T15:24:20Z
- 36. [064..1ed] inka caseStudy | By - AlexeyAdoniev | On - 2023-01-15T12:36:14Z
- 37. [91b..2e3] a | By - Alex Moshinsky | On - 2023-01-15T08:30:20Z
- 38. [0d2..79a] fix top news add new tab | By - Alex Moshinsky | On - 2023-01-10T14:57:55Z
- 39. [983..359] fixes | By - Alex Moshinsky | On - 2023-01-10T14:55:50Z
- 40. [27f..77f] update website | By - Alex Moshinsky | On - 2023-01-09T19:15:27Z
- 41. [781..db8] navigation text fix | By - Rodion Green | On - 2023-01-09T12:21:32Z
- 42. [eb3..2c1] a | By - Alex Moshinsky | On - 2023-01-08T16:48:23Z
- 43. [92a..98e] fix text | By - Alex Moshinsky | On - 2023-01-08T15:32:27Z
- 44. [5c8..334] links fixed, typos fixed | By - Rodion Green | On - 2023-01-08T13:51:26Z
- 45. [be9..455] bnb cs | By - AlexeyAdoniev | On - 2023-01-08T10:37:35Z
- 46. [8a1..de8] picture margine fix on desktop, missing links added | By - Rodion Green | On - 2023-01-03T12:58:36Z
- 47. [425..5d2] update og:description | By - Alex Moshinsky | On - 2023-01-02T19:54:14Z
- 48. [310..92e] update meta image for solana and footer text | By - Alex Moshinsky | On - 2023-01-02T19:43:51Z
- 49. [3ff..76c] fix solana | By - Alex Moshinsky | On - 2023-01-02T19:12:56Z
- 50. [1db..65f] add solana case study | By - AlexeyAdoniev | On - 2023-01-01T20:41:10Z
+ 1. [6f3..a7b] conflict resolved | By - wasifmuhammad | On - 2023-03-07T12:58:55Z
+ 2. [def..923] security fixes march 7 | By - wasifmuhammad | On - 2023-03-07T12:55:05Z
+ 3. [eaf..5cc] new cs poly | By - AlexeyAdoniev | On - 2023-03-05T20:24:03Z
+ 4. [817..a49] ecosystem remaining fixes, toggle button bug resolved. | By - wasifmuhammad | On - 2023-03-03T11:51:01Z
+ 5. [35e..195] conflicts resolve | By - wasifmuhammad | On - 2023-03-02T13:05:06Z
+ 6. [1e2..4ee] case studies, some of the ecosystem cards | By - wasifmuhammad | On - 2023-03-02T12:59:14Z
+ 7. [10a..f1e] merged | By - AlexeyAdoniev | On - 2023-03-01T09:30:46Z
+ 8. [247..f2a] Merge pull request #4 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T15:29:09Z
+ 9. [b13..068] case studies order | By - wasifmuhammad | On - 2023-02-28T13:14:16Z
+ 10. [25a..cf0] case studies fixes | By - wasifmuhammad | On - 2023-02-28T12:28:20Z
+ 11. [0fa..022] Merge pull request #3 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T08:19:52Z
+ 12. [403..67f] updates | By - AlexeyAdoniev | On - 2023-02-28T08:19:15Z
+ 13. [d0c..224] case studies fixes | By - wasifmuhammad | On - 2023-02-27T12:53:42Z
+ 14. [2d4..48b] cs | By - AlexeyAdoniev | On - 2023-02-26T15:25:29Z
+ 15. [dba..ca6] Merge pull request #2 from XP-NETWORK/wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:19Z
+ 16. [9ad..488] Merge branch 'main' into wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:12Z
+ 17. [12b..18b] Merge pull request #1 from XP-NETWORK/wasif-fixes-22-feb | By - AlexeyAdoniev | On - 2023-02-23T13:55:52Z
+ 18. [8f2..07f] case studies fixes, next and prev button flow, text and styles fixes | By - wasifmuhammad | On - 2023-02-23T12:55:23Z
+ 19. [157..b54] community page fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-167 | By - wasifmuhammad | On - 2023-02-23T06:07:30Z
+ 20. [ea8..14e] fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-2 | By - wasifmuhammad | On - 2023-02-22T12:49:24Z
+ 21. [090..a09] site updates | By - AlexeyAdoniev | On - 2023-02-20T16:54:03Z
+ 22. [33a..7d1] XOXNO cs | By - AlexeyAdoniev | On - 2023-02-20T16:06:00Z
+ 23. [376..4e2] site updates | By - AlexeyAdoniev | On - 2023-02-13T16:44:55Z
+ 24. [5d5..969] moon cs2 | By - AlexeyAdoniev | On - 2023-02-13T16:23:46Z
+ 25. [d8e..41e] moon cs | By - AlexeyAdoniev | On - 2023-02-12T15:21:18Z
+ 26. [8d3..69b] worldofv | By - AlexeyAdoniev | On - 2023-02-12T13:56:12Z
+ 27. [762..8bf] new case study | By - AlexeyAdoniev | On - 2023-02-06T15:54:16Z
+ 28. [59d..ba9] style fix | By - AlexeyAdoniev | On - 2023-02-02T09:10:01Z
+ 29. [acb..81c] news update | By - AlexeyAdoniev | On - 2023-01-30T13:54:03Z
+ 30. [0fb..d67] dcp page | By - AlexeyAdoniev | On - 2023-01-29T14:31:25Z
+ 31. [ca1..63b] dcp cs | By - AlexeyAdoniev | On - 2023-01-29T10:58:53Z
+ 32. [84d..8de] dec pictures case study | By - AlexeyAdoniev | On - 2023-01-29T09:05:45Z
+ 33. [5a0..2f0] remove team page | By - AlexeyAdoniev | On - 2023-01-22T14:09:43Z
+ 34. [e8c..a19] remove team | By - AlexeyAdoniev | On - 2023-01-22T13:55:27Z
+ 35. [930..638] eot case study | By - AlexeyAdoniev | On - 2023-01-22T13:07:51Z
+ 36. [92e..b25] site updates | By - AlexeyAdoniev | On - 2023-01-16T17:00:01Z
+ 37. [d35..f15] inka empire | By - AlexeyAdoniev | On - 2023-01-15T16:32:10Z
+ 38. [6a4..7b0] add header | By - Alex Moshinsky | On - 2023-01-15T15:24:20Z
+ 39. [064..1ed] inka caseStudy | By - AlexeyAdoniev | On - 2023-01-15T12:36:14Z
+ 40. [91b..2e3] a | By - Alex Moshinsky | On - 2023-01-15T08:30:20Z
+ 41. [0d2..79a] fix top news add new tab | By - Alex Moshinsky | On - 2023-01-10T14:57:55Z
+ 42. [983..359] fixes | By - Alex Moshinsky | On - 2023-01-10T14:55:50Z
+ 43. [27f..77f] update website | By - Alex Moshinsky | On - 2023-01-09T19:15:27Z
+ 44. [781..db8] navigation text fix | By - Rodion Green | On - 2023-01-09T12:21:32Z
+ 45. [eb3..2c1] a | By - Alex Moshinsky | On - 2023-01-08T16:48:23Z
+ 46. [92a..98e] fix text | By - Alex Moshinsky | On - 2023-01-08T15:32:27Z
+ 47. [5c8..334] links fixed, typos fixed | By - Rodion Green | On - 2023-01-08T13:51:26Z
+ 48. [be9..455] bnb cs | By - AlexeyAdoniev | On - 2023-01-08T10:37:35Z
+ 49. [8a1..de8] picture margine fix on desktop, missing links added | By - Rodion Green | On - 2023-01-03T12:58:36Z
+ 50. [425..5d2] update og:description | By - Alex Moshinsky | On - 2023-01-02T19:54:14Z
+
+## fix-wasif-march-13
+
+
+ 1. [ff9..695] new casestudies fixes | By - wasifmuhammad | On - 2023-03-13T10:15:10Z
+ 2. [42f..180] Merge pull request #5 from XP-NETWORK/fix-wasif-march-2 | By - AlexeyAdoniev | On - 2023-03-09T08:17:56Z
+ 3. [6f3..a7b] conflict resolved | By - wasifmuhammad | On - 2023-03-07T12:58:55Z
+ 4. [def..923] security fixes march 7 | By - wasifmuhammad | On - 2023-03-07T12:55:05Z
+ 5. [eaf..5cc] new cs poly | By - AlexeyAdoniev | On - 2023-03-05T20:24:03Z
+ 6. [817..a49] ecosystem remaining fixes, toggle button bug resolved. | By - wasifmuhammad | On - 2023-03-03T11:51:01Z
+ 7. [35e..195] conflicts resolve | By - wasifmuhammad | On - 2023-03-02T13:05:06Z
+ 8. [1e2..4ee] case studies, some of the ecosystem cards | By - wasifmuhammad | On - 2023-03-02T12:59:14Z
+ 9. [10a..f1e] merged | By - AlexeyAdoniev | On - 2023-03-01T09:30:46Z
+ 10. [247..f2a] Merge pull request #4 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T15:29:09Z
+ 11. [b13..068] case studies order | By - wasifmuhammad | On - 2023-02-28T13:14:16Z
+ 12. [25a..cf0] case studies fixes | By - wasifmuhammad | On - 2023-02-28T12:28:20Z
+ 13. [0fa..022] Merge pull request #3 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T08:19:52Z
+ 14. [403..67f] updates | By - AlexeyAdoniev | On - 2023-02-28T08:19:15Z
+ 15. [d0c..224] case studies fixes | By - wasifmuhammad | On - 2023-02-27T12:53:42Z
+ 16. [2d4..48b] cs | By - AlexeyAdoniev | On - 2023-02-26T15:25:29Z
+ 17. [dba..ca6] Merge pull request #2 from XP-NETWORK/wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:19Z
+ 18. [9ad..488] Merge branch 'main' into wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:12Z
+ 19. [12b..18b] Merge pull request #1 from XP-NETWORK/wasif-fixes-22-feb | By - AlexeyAdoniev | On - 2023-02-23T13:55:52Z
+ 20. [8f2..07f] case studies fixes, next and prev button flow, text and styles fixes | By - wasifmuhammad | On - 2023-02-23T12:55:23Z
+ 21. [157..b54] community page fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-167 | By - wasifmuhammad | On - 2023-02-23T06:07:30Z
+ 22. [ea8..14e] fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-2 | By - wasifmuhammad | On - 2023-02-22T12:49:24Z
+ 23. [090..a09] site updates | By - AlexeyAdoniev | On - 2023-02-20T16:54:03Z
+ 24. [33a..7d1] XOXNO cs | By - AlexeyAdoniev | On - 2023-02-20T16:06:00Z
+ 25. [376..4e2] site updates | By - AlexeyAdoniev | On - 2023-02-13T16:44:55Z
+ 26. [5d5..969] moon cs2 | By - AlexeyAdoniev | On - 2023-02-13T16:23:46Z
+ 27. [d8e..41e] moon cs | By - AlexeyAdoniev | On - 2023-02-12T15:21:18Z
+ 28. [8d3..69b] worldofv | By - AlexeyAdoniev | On - 2023-02-12T13:56:12Z
+ 29. [762..8bf] new case study | By - AlexeyAdoniev | On - 2023-02-06T15:54:16Z
+ 30. [59d..ba9] style fix | By - AlexeyAdoniev | On - 2023-02-02T09:10:01Z
+ 31. [acb..81c] news update | By - AlexeyAdoniev | On - 2023-01-30T13:54:03Z
+ 32. [0fb..d67] dcp page | By - AlexeyAdoniev | On - 2023-01-29T14:31:25Z
+ 33. [ca1..63b] dcp cs | By - AlexeyAdoniev | On - 2023-01-29T10:58:53Z
+ 34. [84d..8de] dec pictures case study | By - AlexeyAdoniev | On - 2023-01-29T09:05:45Z
+ 35. [5a0..2f0] remove team page | By - AlexeyAdoniev | On - 2023-01-22T14:09:43Z
+ 36. [e8c..a19] remove team | By - AlexeyAdoniev | On - 2023-01-22T13:55:27Z
+ 37. [930..638] eot case study | By - AlexeyAdoniev | On - 2023-01-22T13:07:51Z
+ 38. [92e..b25] site updates | By - AlexeyAdoniev | On - 2023-01-16T17:00:01Z
+ 39. [d35..f15] inka empire | By - AlexeyAdoniev | On - 2023-01-15T16:32:10Z
+ 40. [6a4..7b0] add header | By - Alex Moshinsky | On - 2023-01-15T15:24:20Z
+ 41. [064..1ed] inka caseStudy | By - AlexeyAdoniev | On - 2023-01-15T12:36:14Z
+ 42. [91b..2e3] a | By - Alex Moshinsky | On - 2023-01-15T08:30:20Z
+ 43. [0d2..79a] fix top news add new tab | By - Alex Moshinsky | On - 2023-01-10T14:57:55Z
+ 44. [983..359] fixes | By - Alex Moshinsky | On - 2023-01-10T14:55:50Z
+ 45. [27f..77f] update website | By - Alex Moshinsky | On - 2023-01-09T19:15:27Z
+ 46. [781..db8] navigation text fix | By - Rodion Green | On - 2023-01-09T12:21:32Z
+ 47. [eb3..2c1] a | By - Alex Moshinsky | On - 2023-01-08T16:48:23Z
+ 48. [92a..98e] fix text | By - Alex Moshinsky | On - 2023-01-08T15:32:27Z
+ 49. [5c8..334] links fixed, typos fixed | By - Rodion Green | On - 2023-01-08T13:51:26Z
+ 50. [be9..455] bnb cs | By - AlexeyAdoniev | On - 2023-01-08T10:37:35Z
+
+## gold-fever
+
+
+ 1. [552..842] fixes | By - YuraDXPNetwork | On - 2023-04-16T09:20:41Z
+ 2. [cf4..e12] css added | By - YuraDXPNetwork | On - 2023-04-16T08:26:21Z
+ 3. [afc..382] google nalaytics tag added | By - YuraDXPNetwork | On - 2023-04-09T13:17:52Z
+ 4. [fa9..9f3] gold-fever | By - YuraDXPNetwork | On - 2023-04-09T12:52:09Z
+ 5. [1da..2a1] site updates | By - AlexeyAdoniev | On - 2023-04-03T16:25:23Z
+ 6. [acf..d56] apeswap cs | By - AlexeyAdoniev | On - 2023-04-03T07:26:42Z
+ 7. [1c2..6ce] apeswap case studies | By - YuraDXPNetwork | On - 2023-04-02T14:59:32Z
+ 8. [640..fec] apeswap case studies added | By - YuraDXPNetwork | On - 2023-04-02T12:42:24Z
+ 9. [576..9ff] new apeswap case studie | By - YuraDXPNetwork | On - 2023-04-02T09:08:04Z
+ 10. [532..4c5] ui fixes | By - AlexeyAdoniev | On - 2023-04-02T09:06:23Z
+ 11. [403..11c] ad | By - AlexeyAdoniev | On - 2023-03-29T13:41:37Z
+ 12. [c0e..b2d] weekly-updates | By - rony derra | On - 2023-03-27T11:06:16Z
+ 13. [698..653] typo | By - rony derra | On - 2023-03-27T10:39:56Z
+ 14. [f08..a30] html | By - rony derra | On - 2023-03-26T14:17:07Z
+ 15. [026..7e5] html | By - rony derra | On - 2023-03-26T14:17:00Z
+ 16. [a71..a1c] svgs | By - rony derra | On - 2023-03-26T14:16:53Z
+ 17. [575..c7c] html | By - rony derra | On - 2023-03-26T14:16:43Z
+ 18. [239..245] css | By - rony derra | On - 2023-03-26T14:16:37Z
+ 19. [7c0..17d] near images png | By - rony derra | On - 2023-03-26T14:16:21Z
+ 20. [1bf..630] updates | By - rony derra | On - 2023-03-20T12:34:35Z
+ 21. [e95..83f] imges | By - rony derra | On - 2023-03-20T11:37:59Z
+ 22. [72d..2b7] The Commit message | By - rony derra | On - 2023-03-19T14:18:10Z
+ 23. [4f0..e70] production | By - rony derra | On - 2023-03-19T11:20:24Z
+ 24. [b22..82c] w3dna | By - rony derra | On - 2023-03-19T10:14:58Z
+ 25. [94c..99e] img | By - rony derra | On - 2023-03-16T17:18:35Z
+ 26. [51d..980]  <div class="blkTab"><span>Blockchain</span></div> | By - rony derra | On - 2023-03-16T16:52:46Z
+ 27. [414..5f1] new production | By - rony derra | On - 2023-03-16T09:04:53Z
+
+## goldf
+
+
+ 1. [9b9..f3c] header bg issue | By - YuraDXPNetwork | On - 2023-04-16T18:59:09Z
+ 2. [1ca..f8d] goldf | By - YuraDXPNetwork | On - 2023-04-16T18:34:57Z
+ 3. [9a6..165] gold fever hero | By - YuraDXPNetwork | On - 2023-04-16T09:23:51Z
+ 4. [552..842] fixes | By - YuraDXPNetwork | On - 2023-04-16T09:20:41Z
+ 5. [cf4..e12] css added | By - YuraDXPNetwork | On - 2023-04-16T08:26:21Z
+ 6. [97b..c3b] gold fiver tablet i | By - YuraDXPNetwork | On - 2023-04-13T09:46:53Z
+ 7. [8bd..a4d] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:59:14Z
+ 8. [b5b..15a] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:58:20Z
+ 9. [dba..342] show all testimonials max height fix | By - YuraDXPNetwork | On - 2023-04-11T10:11:15Z
+ 10. [4f7..5c2] goldfiver mobile header fix | By - YuraDXPNetwork | On - 2023-04-11T07:11:06Z
+ 11. [620..d74] ecosystem button and spacing fix | By - YuraDXPNetwork | On - 2023-04-10T14:25:15Z
+ 12. [dd0..b87] last new update | By - YuraDXPNetwork | On - 2023-04-10T09:50:19Z
+ 13. [d70..0c7] google analytics added to each page index | By - YuraDXPNetwork | On - 2023-04-10T08:26:07Z
+ 14. [afc..382] google nalaytics tag added | By - YuraDXPNetwork | On - 2023-04-09T13:17:52Z
+ 15. [fa9..9f3] gold-fever | By - YuraDXPNetwork | On - 2023-04-09T12:52:09Z
+ 16. [1da..2a1] site updates | By - AlexeyAdoniev | On - 2023-04-03T16:25:23Z
+ 17. [acf..d56] apeswap cs | By - AlexeyAdoniev | On - 2023-04-03T07:26:42Z
+ 18. [1c2..6ce] apeswap case studies | By - YuraDXPNetwork | On - 2023-04-02T14:59:32Z
+ 19. [640..fec] apeswap case studies added | By - YuraDXPNetwork | On - 2023-04-02T12:42:24Z
+ 20. [576..9ff] new apeswap case studie | By - YuraDXPNetwork | On - 2023-04-02T09:08:04Z
+ 21. [532..4c5] ui fixes | By - AlexeyAdoniev | On - 2023-04-02T09:06:23Z
+ 22. [403..11c] ad | By - AlexeyAdoniev | On - 2023-03-29T13:41:37Z
+ 23. [c0e..b2d] weekly-updates | By - rony derra | On - 2023-03-27T11:06:16Z
+ 24. [698..653] typo | By - rony derra | On - 2023-03-27T10:39:56Z
+ 25. [f08..a30] html | By - rony derra | On - 2023-03-26T14:17:07Z
+ 26. [026..7e5] html | By - rony derra | On - 2023-03-26T14:17:00Z
+ 27. [a71..a1c] svgs | By - rony derra | On - 2023-03-26T14:16:53Z
+ 28. [575..c7c] html | By - rony derra | On - 2023-03-26T14:16:43Z
+ 29. [239..245] css | By - rony derra | On - 2023-03-26T14:16:37Z
+ 30. [7c0..17d] near images png | By - rony derra | On - 2023-03-26T14:16:21Z
+ 31. [1bf..630] updates | By - rony derra | On - 2023-03-20T12:34:35Z
+ 32. [e95..83f] imges | By - rony derra | On - 2023-03-20T11:37:59Z
+ 33. [72d..2b7] The Commit message | By - rony derra | On - 2023-03-19T14:18:10Z
+ 34. [4f0..e70] production | By - rony derra | On - 2023-03-19T11:20:24Z
+ 35. [b22..82c] w3dna | By - rony derra | On - 2023-03-19T10:14:58Z
+ 36. [94c..99e] img | By - rony derra | On - 2023-03-16T17:18:35Z
+ 37. [51d..980]  <div class="blkTab"><span>Blockchain</span></div> | By - rony derra | On - 2023-03-16T16:52:46Z
+ 38. [414..5f1] new production | By - rony derra | On - 2023-03-16T09:04:53Z
 
 ## main
 
 
- 1. [10a..f1e] merged | By - AlexeyAdoniev | On - 2023-03-01T09:30:46Z
- 2. [247..f2a] Merge pull request #4 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T15:29:09Z
- 3. [b13..068] case studies order | By - wasifmuhammad | On - 2023-02-28T13:14:16Z
- 4. [25a..cf0] case studies fixes | By - wasifmuhammad | On - 2023-02-28T12:28:20Z
- 5. [0fa..022] Merge pull request #3 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T08:19:52Z
- 6. [403..67f] updates | By - AlexeyAdoniev | On - 2023-02-28T08:19:15Z
- 7. [d0c..224] case studies fixes | By - wasifmuhammad | On - 2023-02-27T12:53:42Z
- 8. [2d4..48b] cs | By - AlexeyAdoniev | On - 2023-02-26T15:25:29Z
- 9. [dba..ca6] Merge pull request #2 from XP-NETWORK/wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:19Z
- 10. [9ad..488] Merge branch 'main' into wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:12Z
- 11. [12b..18b] Merge pull request #1 from XP-NETWORK/wasif-fixes-22-feb | By - AlexeyAdoniev | On - 2023-02-23T13:55:52Z
- 12. [8f2..07f] case studies fixes, next and prev button flow, text and styles fixes | By - wasifmuhammad | On - 2023-02-23T12:55:23Z
- 13. [157..b54] community page fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-167 | By - wasifmuhammad | On - 2023-02-23T06:07:30Z
- 14. [ea8..14e] fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-2 | By - wasifmuhammad | On - 2023-02-22T12:49:24Z
- 15. [090..a09] site updates | By - AlexeyAdoniev | On - 2023-02-20T16:54:03Z
- 16. [33a..7d1] XOXNO cs | By - AlexeyAdoniev | On - 2023-02-20T16:06:00Z
- 17. [376..4e2] site updates | By - AlexeyAdoniev | On - 2023-02-13T16:44:55Z
- 18. [5d5..969] moon cs2 | By - AlexeyAdoniev | On - 2023-02-13T16:23:46Z
- 19. [d8e..41e] moon cs | By - AlexeyAdoniev | On - 2023-02-12T15:21:18Z
- 20. [8d3..69b] worldofv | By - AlexeyAdoniev | On - 2023-02-12T13:56:12Z
- 21. [762..8bf] new case study | By - AlexeyAdoniev | On - 2023-02-06T15:54:16Z
- 22. [59d..ba9] style fix | By - AlexeyAdoniev | On - 2023-02-02T09:10:01Z
- 23. [acb..81c] news update | By - AlexeyAdoniev | On - 2023-01-30T13:54:03Z
- 24. [0fb..d67] dcp page | By - AlexeyAdoniev | On - 2023-01-29T14:31:25Z
- 25. [ca1..63b] dcp cs | By - AlexeyAdoniev | On - 2023-01-29T10:58:53Z
- 26. [84d..8de] dec pictures case study | By - AlexeyAdoniev | On - 2023-01-29T09:05:45Z
- 27. [5a0..2f0] remove team page | By - AlexeyAdoniev | On - 2023-01-22T14:09:43Z
- 28. [e8c..a19] remove team | By - AlexeyAdoniev | On - 2023-01-22T13:55:27Z
- 29. [930..638] eot case study | By - AlexeyAdoniev | On - 2023-01-22T13:07:51Z
- 30. [92e..b25] site updates | By - AlexeyAdoniev | On - 2023-01-16T17:00:01Z
- 31. [d35..f15] inka empire | By - AlexeyAdoniev | On - 2023-01-15T16:32:10Z
- 32. [6a4..7b0] add header | By - Alex Moshinsky | On - 2023-01-15T15:24:20Z
- 33. [064..1ed] inka caseStudy | By - AlexeyAdoniev | On - 2023-01-15T12:36:14Z
- 34. [91b..2e3] a | By - Alex Moshinsky | On - 2023-01-15T08:30:20Z
- 35. [0d2..79a] fix top news add new tab | By - Alex Moshinsky | On - 2023-01-10T14:57:55Z
- 36. [983..359] fixes | By - Alex Moshinsky | On - 2023-01-10T14:55:50Z
- 37. [27f..77f] update website | By - Alex Moshinsky | On - 2023-01-09T19:15:27Z
- 38. [781..db8] navigation text fix | By - Rodion Green | On - 2023-01-09T12:21:32Z
- 39. [eb3..2c1] a | By - Alex Moshinsky | On - 2023-01-08T16:48:23Z
- 40. [92a..98e] fix text | By - Alex Moshinsky | On - 2023-01-08T15:32:27Z
- 41. [5c8..334] links fixed, typos fixed | By - Rodion Green | On - 2023-01-08T13:51:26Z
- 42. [be9..455] bnb cs | By - AlexeyAdoniev | On - 2023-01-08T10:37:35Z
- 43. [8a1..de8] picture margine fix on desktop, missing links added | By - Rodion Green | On - 2023-01-03T12:58:36Z
- 44. [425..5d2] update og:description | By - Alex Moshinsky | On - 2023-01-02T19:54:14Z
- 45. [310..92e] update meta image for solana and footer text | By - Alex Moshinsky | On - 2023-01-02T19:43:51Z
- 46. [3ff..76c] fix solana | By - Alex Moshinsky | On - 2023-01-02T19:12:56Z
- 47. [1db..65f] add solana case study | By - AlexeyAdoniev | On - 2023-01-01T20:41:10Z
- 48. [052..556] XP.network typos, hyperlinks fixes, unneccesary labels | By - Rodion Green | On - 2022-12-28T12:47:38Z
- 49. [04f..530] aptos typos | By - Rodion Green | On - 2022-12-28T09:05:41Z
- 50. [54c..bd7] typos | By - Rodion Green | On - 2022-12-28T08:36:56Z
+ 1. [1b8..d84] assetes | By - rony derra | On - 2023-03-15T16:49:50Z
+ 2. [2ad..64e] api | By - rony derra | On - 2023-03-15T16:39:32Z
+ 3. [8fe..efa] blockChian | By - rony derra | On - 2023-03-15T16:36:26Z
+ 4. [893..73e] tstContainer | By - rony derra | On - 2023-03-15T16:14:53Z
+ 5. [cbc..5ea] handleBtnColor | By - rony derra | On - 2023-03-15T16:04:11Z
+ 6. [349..94d] lftRow | By - rony derra | On - 2023-03-15T16:01:22Z
+ 7. [df1..0fa] fadel2 | By - rony derra | On - 2023-03-15T15:02:48Z
+ 8. [591..720] webkit | By - rony derra | On - 2023-03-15T14:47:21Z
+ 9. [056..246] UpperCont | By - rony derra | On - 2023-03-15T14:46:18Z
+ 10. [016..b5d] Merge remote-tracking branch 'origin/sideStep' | By - rony derra | On - 2023-03-15T12:55:22Z
+ 11. [dac..57b] testimonial_area | By - rony derra | On - 2023-03-15T12:22:49Z
+ 12. [769..95f] TESTIMONIALS | By - rony derra | On - 2023-03-15T10:55:16Z
+ 13. [4d6..cfa] lftRow | By - rony derra | On - 2023-03-15T10:40:55Z
+ 14. [3d2..0a2] functionality | By - rony derra | On - 2023-03-15T10:32:10Z
+ 15. [c83..7d6] testimonial_area | By - rony derra | On - 2023-03-15T09:33:44Z
+ 16. [7db..d36] xpTalks | By - rony derra | On - 2023-03-14T17:47:07Z
+ 17. [9e6..614] xpTalks | By - rony derra | On - 2023-03-14T16:46:18Z
+ 18. [c9c..a71] testimonial_area | By - rony derra | On - 2023-03-14T15:25:20Z
+ 19. [6db..83d] latest | By - rony derra | On - 2023-03-14T08:34:28Z
+ 20. [aaf..abf] Merge pull request #6 from XP-NETWORK/fix-wasif-march-13 | By - AlexeyAdoniev | On - 2023-03-14T08:31:44Z
+ 21. [81b..807] xpTalks | By - rony derra | On - 2023-03-13T16:08:55Z
+ 22. [981..a66] barter | By - rony derra | On - 2023-03-13T16:06:04Z
+ 23. [ff9..695] new casestudies fixes | By - wasifmuhammad | On - 2023-03-13T10:15:10Z
+ 24. [99e..3ac] mailto | By - rony derra | On - 2023-03-12T14:07:12Z
+ 25. [8de..d09] Barter | By - rony derra | On - 2023-03-12T13:46:28Z
+ 26. [c06..4d9] snafuImage | By - rony derra | On - 2023-03-12T12:35:11Z
+ 27. [79f..0e8] Barter | By - rony derra | On - 2023-03-12T12:02:18Z
+ 28. [42f..180] Merge pull request #5 from XP-NETWORK/fix-wasif-march-2 | By - AlexeyAdoniev | On - 2023-03-09T08:17:56Z
+ 29. [6f3..a7b] conflict resolved | By - wasifmuhammad | On - 2023-03-07T12:58:55Z
+ 30. [def..923] security fixes march 7 | By - wasifmuhammad | On - 2023-03-07T12:55:05Z
+ 31. [f87..0a0] news 06.03 | By - AlexeyAdoniev | On - 2023-03-06T20:05:43Z
+ 32. [d98..b5b] casestydies.css | By - AlexeyAdoniev | On - 2023-03-06T19:38:03Z
+ 33. [f1d..076] new polly cs | By - AlexeyAdoniev | On - 2023-03-05T20:27:25Z
+ 34. [eaf..5cc] new cs poly | By - AlexeyAdoniev | On - 2023-03-05T20:24:03Z
+ 35. [817..a49] ecosystem remaining fixes, toggle button bug resolved. | By - wasifmuhammad | On - 2023-03-03T11:51:01Z
+ 36. [35e..195] conflicts resolve | By - wasifmuhammad | On - 2023-03-02T13:05:06Z
+ 37. [1e2..4ee] case studies, some of the ecosystem cards | By - wasifmuhammad | On - 2023-03-02T12:59:14Z
+ 38. [10a..f1e] merged | By - AlexeyAdoniev | On - 2023-03-01T09:30:46Z
+ 39. [247..f2a] Merge pull request #4 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T15:29:09Z
+ 40. [b13..068] case studies order | By - wasifmuhammad | On - 2023-02-28T13:14:16Z
+ 41. [25a..cf0] case studies fixes | By - wasifmuhammad | On - 2023-02-28T12:28:20Z
+ 42. [0fa..022] Merge pull request #3 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T08:19:52Z
+ 43. [403..67f] updates | By - AlexeyAdoniev | On - 2023-02-28T08:19:15Z
+ 44. [d0c..224] case studies fixes | By - wasifmuhammad | On - 2023-02-27T12:53:42Z
+ 45. [2d4..48b] cs | By - AlexeyAdoniev | On - 2023-02-26T15:25:29Z
+ 46. [dba..ca6] Merge pull request #2 from XP-NETWORK/wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:19Z
+ 47. [9ad..488] Merge branch 'main' into wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:12Z
+ 48. [12b..18b] Merge pull request #1 from XP-NETWORK/wasif-fixes-22-feb | By - AlexeyAdoniev | On - 2023-02-23T13:55:52Z
+ 49. [8f2..07f] case studies fixes, next and prev button flow, text and styles fixes | By - wasifmuhammad | On - 2023-02-23T12:55:23Z
+ 50. [157..b54] community page fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-167 | By - wasifmuhammad | On - 2023-02-23T06:07:30Z
+
+## newProduction
+
+
+ 1. [60b..c78] .ds-store deleted | By - YuraDXPNetwork | On - 2023-05-01T05:58:56Z
+ 2. [589..387] fix cs chess order | By - AlexeyAdoniev | On - 2023-04-30T11:21:03Z
+ 3. [3cd..81f] zoodao cs | By - AlexeyAdoniev | On - 2023-04-30T11:14:16Z
+ 4. [0a6..f13] case studies update and about us updates | By - YuraDXPNetwork | On - 2023-04-25T06:37:04Z
+ 5. [db1..b13] about ass updated | By - YuraDXPNetwork | On - 2023-04-24T07:22:12Z
+ 6. [4dd..11f] two quarters added to timeline in about-us page | By - YuraDXPNetwork | On - 2023-04-24T06:23:42Z
+ 7. [316..206] super rare bears case studies | By - YuraDXPNetwork | On - 2023-04-23T11:51:12Z
+ 8. [a64..268] new case studies added | By - YuraDXPNetwork | On - 2023-04-23T11:00:25Z
+ 9. [917..c58] assets for about us added | By - YuraDXPNetwork | On - 2023-04-23T07:40:51Z
+ 10. [c90..d67] testimonilas done | By - YuraDXPNetwork | On - 2023-04-19T14:26:15Z
+ 11. [b31..9c2] testimonials show more btn fixed | By - YuraDXPNetwork | On - 2023-04-19T11:31:07Z
+ 12. [eff..02b] testimonials for api script added | By - YuraDXPNetwork | On - 2023-04-19T09:19:49Z
+ 13. [12d..879] two ids issue | By - YuraDXPNetwork | On - 2023-04-19T08:41:55Z
+ 14. [627..0b6] testimonials upodated | By - YuraDXPNetwork | On - 2023-04-18T15:10:47Z
+ 15. [d8c..35b] testimonilas filter | By - YuraDXPNetwork | On - 2023-04-18T09:47:51Z
+ 16. [4d4..07d] new testimonials | By - YuraDXPNetwork | On - 2023-04-18T05:45:09Z
+ 17. [58e..823] news 19 apr | By - YuraDXPNetwork | On - 2023-04-17T14:53:04Z
+ 18. [9b9..f3c] header bg issue | By - YuraDXPNetwork | On - 2023-04-16T18:59:09Z
+ 19. [1ca..f8d] goldf | By - YuraDXPNetwork | On - 2023-04-16T18:34:57Z
+ 20. [9a6..165] gold fever hero | By - YuraDXPNetwork | On - 2023-04-16T09:23:51Z
+ 21. [552..842] fixes | By - YuraDXPNetwork | On - 2023-04-16T09:20:41Z
+ 22. [cf4..e12] css added | By - YuraDXPNetwork | On - 2023-04-16T08:26:21Z
+ 23. [97b..c3b] gold fiver tablet i | By - YuraDXPNetwork | On - 2023-04-13T09:46:53Z
+ 24. [8bd..a4d] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:59:14Z
+ 25. [b5b..15a] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:58:20Z
+ 26. [dba..342] show all testimonials max height fix | By - YuraDXPNetwork | On - 2023-04-11T10:11:15Z
+ 27. [4f7..5c2] goldfiver mobile header fix | By - YuraDXPNetwork | On - 2023-04-11T07:11:06Z
+ 28. [620..d74] ecosystem button and spacing fix | By - YuraDXPNetwork | On - 2023-04-10T14:25:15Z
+ 29. [dd0..b87] last new update | By - YuraDXPNetwork | On - 2023-04-10T09:50:19Z
+ 30. [d70..0c7] google analytics added to each page index | By - YuraDXPNetwork | On - 2023-04-10T08:26:07Z
+ 31. [afc..382] google nalaytics tag added | By - YuraDXPNetwork | On - 2023-04-09T13:17:52Z
+ 32. [fa9..9f3] gold-fever | By - YuraDXPNetwork | On - 2023-04-09T12:52:09Z
+ 33. [1da..2a1] site updates | By - AlexeyAdoniev | On - 2023-04-03T16:25:23Z
+ 34. [acf..d56] apeswap cs | By - AlexeyAdoniev | On - 2023-04-03T07:26:42Z
+ 35. [1c2..6ce] apeswap case studies | By - YuraDXPNetwork | On - 2023-04-02T14:59:32Z
+ 36. [640..fec] apeswap case studies added | By - YuraDXPNetwork | On - 2023-04-02T12:42:24Z
+ 37. [576..9ff] new apeswap case studie | By - YuraDXPNetwork | On - 2023-04-02T09:08:04Z
+ 38. [532..4c5] ui fixes | By - AlexeyAdoniev | On - 2023-04-02T09:06:23Z
+ 39. [403..11c] ad | By - AlexeyAdoniev | On - 2023-03-29T13:41:37Z
+ 40. [c0e..b2d] weekly-updates | By - rony derra | On - 2023-03-27T11:06:16Z
+ 41. [698..653] typo | By - rony derra | On - 2023-03-27T10:39:56Z
+ 42. [f08..a30] html | By - rony derra | On - 2023-03-26T14:17:07Z
+ 43. [026..7e5] html | By - rony derra | On - 2023-03-26T14:17:00Z
+ 44. [a71..a1c] svgs | By - rony derra | On - 2023-03-26T14:16:53Z
+ 45. [575..c7c] html | By - rony derra | On - 2023-03-26T14:16:43Z
+ 46. [239..245] css | By - rony derra | On - 2023-03-26T14:16:37Z
+ 47. [7c0..17d] near images png | By - rony derra | On - 2023-03-26T14:16:21Z
+ 48. [1bf..630] updates | By - rony derra | On - 2023-03-20T12:34:35Z
+ 49. [e95..83f] imges | By - rony derra | On - 2023-03-20T11:37:59Z
+ 50. [72d..2b7] The Commit message | By - rony derra | On - 2023-03-19T14:18:10Z
+
+## ronyTest
+
+
+ 1. [1b8..d84] assetes | By - rony derra | On - 2023-03-15T16:49:50Z
+ 2. [2ad..64e] api | By - rony derra | On - 2023-03-15T16:39:32Z
+ 3. [8fe..efa] blockChian | By - rony derra | On - 2023-03-15T16:36:26Z
+ 4. [893..73e] tstContainer | By - rony derra | On - 2023-03-15T16:14:53Z
+ 5. [cbc..5ea] handleBtnColor | By - rony derra | On - 2023-03-15T16:04:11Z
+ 6. [349..94d] lftRow | By - rony derra | On - 2023-03-15T16:01:22Z
+ 7. [df1..0fa] fadel2 | By - rony derra | On - 2023-03-15T15:02:48Z
+ 8. [591..720] webkit | By - rony derra | On - 2023-03-15T14:47:21Z
+ 9. [056..246] UpperCont | By - rony derra | On - 2023-03-15T14:46:18Z
+ 10. [016..b5d] Merge remote-tracking branch 'origin/sideStep' | By - rony derra | On - 2023-03-15T12:55:22Z
+ 11. [dac..57b] testimonial_area | By - rony derra | On - 2023-03-15T12:22:49Z
+ 12. [769..95f] TESTIMONIALS | By - rony derra | On - 2023-03-15T10:55:16Z
+ 13. [4d6..cfa] lftRow | By - rony derra | On - 2023-03-15T10:40:55Z
+ 14. [3d2..0a2] functionality | By - rony derra | On - 2023-03-15T10:32:10Z
+ 15. [c83..7d6] testimonial_area | By - rony derra | On - 2023-03-15T09:33:44Z
+ 16. [7db..d36] xpTalks | By - rony derra | On - 2023-03-14T17:47:07Z
+ 17. [9e6..614] xpTalks | By - rony derra | On - 2023-03-14T16:46:18Z
+ 18. [c9c..a71] testimonial_area | By - rony derra | On - 2023-03-14T15:25:20Z
+ 19. [6db..83d] latest | By - rony derra | On - 2023-03-14T08:34:28Z
+ 20. [aaf..abf] Merge pull request #6 from XP-NETWORK/fix-wasif-march-13 | By - AlexeyAdoniev | On - 2023-03-14T08:31:44Z
+ 21. [81b..807] xpTalks | By - rony derra | On - 2023-03-13T16:08:55Z
+ 22. [981..a66] barter | By - rony derra | On - 2023-03-13T16:06:04Z
+ 23. [ff9..695] new casestudies fixes | By - wasifmuhammad | On - 2023-03-13T10:15:10Z
+ 24. [99e..3ac] mailto | By - rony derra | On - 2023-03-12T14:07:12Z
+ 25. [8de..d09] Barter | By - rony derra | On - 2023-03-12T13:46:28Z
+ 26. [c06..4d9] snafuImage | By - rony derra | On - 2023-03-12T12:35:11Z
+ 27. [79f..0e8] Barter | By - rony derra | On - 2023-03-12T12:02:18Z
+ 28. [42f..180] Merge pull request #5 from XP-NETWORK/fix-wasif-march-2 | By - AlexeyAdoniev | On - 2023-03-09T08:17:56Z
+ 29. [6f3..a7b] conflict resolved | By - wasifmuhammad | On - 2023-03-07T12:58:55Z
+ 30. [def..923] security fixes march 7 | By - wasifmuhammad | On - 2023-03-07T12:55:05Z
+ 31. [f87..0a0] news 06.03 | By - AlexeyAdoniev | On - 2023-03-06T20:05:43Z
+ 32. [d98..b5b] casestydies.css | By - AlexeyAdoniev | On - 2023-03-06T19:38:03Z
+ 33. [f1d..076] new polly cs | By - AlexeyAdoniev | On - 2023-03-05T20:27:25Z
+ 34. [eaf..5cc] new cs poly | By - AlexeyAdoniev | On - 2023-03-05T20:24:03Z
+ 35. [817..a49] ecosystem remaining fixes, toggle button bug resolved. | By - wasifmuhammad | On - 2023-03-03T11:51:01Z
+ 36. [35e..195] conflicts resolve | By - wasifmuhammad | On - 2023-03-02T13:05:06Z
+ 37. [1e2..4ee] case studies, some of the ecosystem cards | By - wasifmuhammad | On - 2023-03-02T12:59:14Z
+ 38. [10a..f1e] merged | By - AlexeyAdoniev | On - 2023-03-01T09:30:46Z
+ 39. [247..f2a] Merge pull request #4 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T15:29:09Z
+ 40. [b13..068] case studies order | By - wasifmuhammad | On - 2023-02-28T13:14:16Z
+ 41. [25a..cf0] case studies fixes | By - wasifmuhammad | On - 2023-02-28T12:28:20Z
+ 42. [0fa..022] Merge pull request #3 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T08:19:52Z
+ 43. [403..67f] updates | By - AlexeyAdoniev | On - 2023-02-28T08:19:15Z
+ 44. [d0c..224] case studies fixes | By - wasifmuhammad | On - 2023-02-27T12:53:42Z
+ 45. [2d4..48b] cs | By - AlexeyAdoniev | On - 2023-02-26T15:25:29Z
+ 46. [dba..ca6] Merge pull request #2 from XP-NETWORK/wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:19Z
+ 47. [9ad..488] Merge branch 'main' into wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:12Z
+ 48. [12b..18b] Merge pull request #1 from XP-NETWORK/wasif-fixes-22-feb | By - AlexeyAdoniev | On - 2023-02-23T13:55:52Z
+ 49. [8f2..07f] case studies fixes, next and prev button flow, text and styles fixes | By - wasifmuhammad | On - 2023-02-23T12:55:23Z
+ 50. [157..b54] community page fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-167 | By - wasifmuhammad | On - 2023-02-23T06:07:30Z
 
 ## sideStep
 
 
- 1. [403..67f] updates | By - AlexeyAdoniev | On - 2023-02-28T08:19:15Z
- 2. [2d4..48b] cs | By - AlexeyAdoniev | On - 2023-02-26T15:25:29Z
- 3. [090..a09] site updates | By - AlexeyAdoniev | On - 2023-02-20T16:54:03Z
- 4. [33a..7d1] XOXNO cs | By - AlexeyAdoniev | On - 2023-02-20T16:06:00Z
- 5. [376..4e2] site updates | By - AlexeyAdoniev | On - 2023-02-13T16:44:55Z
- 6. [5d5..969] moon cs2 | By - AlexeyAdoniev | On - 2023-02-13T16:23:46Z
- 7. [d8e..41e] moon cs | By - AlexeyAdoniev | On - 2023-02-12T15:21:18Z
- 8. [8d3..69b] worldofv | By - AlexeyAdoniev | On - 2023-02-12T13:56:12Z
- 9. [762..8bf] new case study | By - AlexeyAdoniev | On - 2023-02-06T15:54:16Z
- 10. [59d..ba9] style fix | By - AlexeyAdoniev | On - 2023-02-02T09:10:01Z
- 11. [acb..81c] news update | By - AlexeyAdoniev | On - 2023-01-30T13:54:03Z
- 12. [0fb..d67] dcp page | By - AlexeyAdoniev | On - 2023-01-29T14:31:25Z
- 13. [ca1..63b] dcp cs | By - AlexeyAdoniev | On - 2023-01-29T10:58:53Z
- 14. [84d..8de] dec pictures case study | By - AlexeyAdoniev | On - 2023-01-29T09:05:45Z
- 15. [5a0..2f0] remove team page | By - AlexeyAdoniev | On - 2023-01-22T14:09:43Z
- 16. [e8c..a19] remove team | By - AlexeyAdoniev | On - 2023-01-22T13:55:27Z
- 17. [930..638] eot case study | By - AlexeyAdoniev | On - 2023-01-22T13:07:51Z
- 18. [92e..b25] site updates | By - AlexeyAdoniev | On - 2023-01-16T17:00:01Z
- 19. [d35..f15] inka empire | By - AlexeyAdoniev | On - 2023-01-15T16:32:10Z
- 20. [6a4..7b0] add header | By - Alex Moshinsky | On - 2023-01-15T15:24:20Z
- 21. [064..1ed] inka caseStudy | By - AlexeyAdoniev | On - 2023-01-15T12:36:14Z
- 22. [91b..2e3] a | By - Alex Moshinsky | On - 2023-01-15T08:30:20Z
- 23. [0d2..79a] fix top news add new tab | By - Alex Moshinsky | On - 2023-01-10T14:57:55Z
- 24. [983..359] fixes | By - Alex Moshinsky | On - 2023-01-10T14:55:50Z
- 25. [27f..77f] update website | By - Alex Moshinsky | On - 2023-01-09T19:15:27Z
- 26. [781..db8] navigation text fix | By - Rodion Green | On - 2023-01-09T12:21:32Z
- 27. [eb3..2c1] a | By - Alex Moshinsky | On - 2023-01-08T16:48:23Z
- 28. [92a..98e] fix text | By - Alex Moshinsky | On - 2023-01-08T15:32:27Z
- 29. [5c8..334] links fixed, typos fixed | By - Rodion Green | On - 2023-01-08T13:51:26Z
- 30. [be9..455] bnb cs | By - AlexeyAdoniev | On - 2023-01-08T10:37:35Z
- 31. [8a1..de8] picture margine fix on desktop, missing links added | By - Rodion Green | On - 2023-01-03T12:58:36Z
- 32. [425..5d2] update og:description | By - Alex Moshinsky | On - 2023-01-02T19:54:14Z
- 33. [310..92e] update meta image for solana and footer text | By - Alex Moshinsky | On - 2023-01-02T19:43:51Z
- 34. [3ff..76c] fix solana | By - Alex Moshinsky | On - 2023-01-02T19:12:56Z
- 35. [1db..65f] add solana case study | By - AlexeyAdoniev | On - 2023-01-01T20:41:10Z
- 36. [052..556] XP.network typos, hyperlinks fixes, unneccesary labels | By - Rodion Green | On - 2022-12-28T12:47:38Z
- 37. [04f..530] aptos typos | By - Rodion Green | On - 2022-12-28T09:05:41Z
- 38. [54c..bd7] typos | By - Rodion Green | On - 2022-12-28T08:36:56Z
- 39. [2c2..cc7] change hero text | By - Alex Moshinsky | On - 2022-12-27T12:55:43Z
- 40. [e96..387] fix padding | By - Alex Moshinsky | On - 2022-12-27T11:26:17Z
- 41. [76f..f40] add chains | By - Alex Moshinsky | On - 2022-12-27T11:16:22Z
- 42. [036..352] fix aptos meta | By - AlexeyAdoniev | On - 2022-12-25T15:56:28Z
- 43. [3aa..a19] aptos button text change | By - Alex Moshinsky | On - 2022-12-25T15:29:57Z
- 44. [9b1..5cf] aptos case study | By - AlexeyAdoniev | On - 2022-12-25T14:21:26Z
- 45. [7a9..064] typos fixes | By - Rodion Green | On - 2022-12-25T11:54:49Z
- 46. [ea1..3b7] meta data fix | By - Rodion Green | On - 2022-12-25T09:14:06Z
- 47. [0e0..21c] a | By - Alex Moshinsky | On - 2022-12-21T08:48:39Z
- 48. [3a8..f50] add metatag | By - AlexeyAdoniev | On - 2022-12-21T08:11:11Z
- 49. [84b..0f4] case stydies ui fix | By - YuraDXPNetwork | On - 2022-12-20T20:31:28Z
- 50. [64d..281] cadusius header fix | By - YuraDXPNetwork | On - 2022-12-20T14:17:29Z
+ 1. [ccc..329] api | By - rony derra | On - 2023-03-15T17:27:54Z
+ 2. [8fe..efa] blockChian | By - rony derra | On - 2023-03-15T16:36:26Z
+ 3. [893..73e] tstContainer | By - rony derra | On - 2023-03-15T16:14:53Z
+ 4. [cbc..5ea] handleBtnColor | By - rony derra | On - 2023-03-15T16:04:11Z
+ 5. [349..94d] lftRow | By - rony derra | On - 2023-03-15T16:01:22Z
+ 6. [df1..0fa] fadel2 | By - rony derra | On - 2023-03-15T15:02:48Z
+ 7. [591..720] webkit | By - rony derra | On - 2023-03-15T14:47:21Z
+ 8. [056..246] UpperCont | By - rony derra | On - 2023-03-15T14:46:18Z
+ 9. [016..b5d] Merge remote-tracking branch 'origin/sideStep' | By - rony derra | On - 2023-03-15T12:55:22Z
+ 10. [dac..57b] testimonial_area | By - rony derra | On - 2023-03-15T12:22:49Z
+ 11. [769..95f] TESTIMONIALS | By - rony derra | On - 2023-03-15T10:55:16Z
+ 12. [4d6..cfa] lftRow | By - rony derra | On - 2023-03-15T10:40:55Z
+ 13. [3d2..0a2] functionality | By - rony derra | On - 2023-03-15T10:32:10Z
+ 14. [c83..7d6] testimonial_area | By - rony derra | On - 2023-03-15T09:33:44Z
+ 15. [7db..d36] xpTalks | By - rony derra | On - 2023-03-14T17:47:07Z
+ 16. [9e6..614] xpTalks | By - rony derra | On - 2023-03-14T16:46:18Z
+ 17. [c9c..a71] testimonial_area | By - rony derra | On - 2023-03-14T15:25:20Z
+ 18. [6db..83d] latest | By - rony derra | On - 2023-03-14T08:34:28Z
+ 19. [aaf..abf] Merge pull request #6 from XP-NETWORK/fix-wasif-march-13 | By - AlexeyAdoniev | On - 2023-03-14T08:31:44Z
+ 20. [81b..807] xpTalks | By - rony derra | On - 2023-03-13T16:08:55Z
+ 21. [981..a66] barter | By - rony derra | On - 2023-03-13T16:06:04Z
+ 22. [ff9..695] new casestudies fixes | By - wasifmuhammad | On - 2023-03-13T10:15:10Z
+ 23. [99e..3ac] mailto | By - rony derra | On - 2023-03-12T14:07:12Z
+ 24. [8de..d09] Barter | By - rony derra | On - 2023-03-12T13:46:28Z
+ 25. [c06..4d9] snafuImage | By - rony derra | On - 2023-03-12T12:35:11Z
+ 26. [79f..0e8] Barter | By - rony derra | On - 2023-03-12T12:02:18Z
+ 27. [42f..180] Merge pull request #5 from XP-NETWORK/fix-wasif-march-2 | By - AlexeyAdoniev | On - 2023-03-09T08:17:56Z
+ 28. [6f3..a7b] conflict resolved | By - wasifmuhammad | On - 2023-03-07T12:58:55Z
+ 29. [def..923] security fixes march 7 | By - wasifmuhammad | On - 2023-03-07T12:55:05Z
+ 30. [f87..0a0] news 06.03 | By - AlexeyAdoniev | On - 2023-03-06T20:05:43Z
+ 31. [d98..b5b] casestydies.css | By - AlexeyAdoniev | On - 2023-03-06T19:38:03Z
+ 32. [f1d..076] new polly cs | By - AlexeyAdoniev | On - 2023-03-05T20:27:25Z
+ 33. [eaf..5cc] new cs poly | By - AlexeyAdoniev | On - 2023-03-05T20:24:03Z
+ 34. [817..a49] ecosystem remaining fixes, toggle button bug resolved. | By - wasifmuhammad | On - 2023-03-03T11:51:01Z
+ 35. [35e..195] conflicts resolve | By - wasifmuhammad | On - 2023-03-02T13:05:06Z
+ 36. [1e2..4ee] case studies, some of the ecosystem cards | By - wasifmuhammad | On - 2023-03-02T12:59:14Z
+ 37. [10a..f1e] merged | By - AlexeyAdoniev | On - 2023-03-01T09:30:46Z
+ 38. [247..f2a] Merge pull request #4 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T15:29:09Z
+ 39. [b13..068] case studies order | By - wasifmuhammad | On - 2023-02-28T13:14:16Z
+ 40. [25a..cf0] case studies fixes | By - wasifmuhammad | On - 2023-02-28T12:28:20Z
+ 41. [0fa..022] Merge pull request #3 from XP-NETWORK/wasif-fixes-feb-27 | By - AlexeyAdoniev | On - 2023-02-28T08:19:52Z
+ 42. [403..67f] updates | By - AlexeyAdoniev | On - 2023-02-28T08:19:15Z
+ 43. [d0c..224] case studies fixes | By - wasifmuhammad | On - 2023-02-27T12:53:42Z
+ 44. [2d4..48b] cs | By - AlexeyAdoniev | On - 2023-02-26T15:25:29Z
+ 45. [dba..ca6] Merge pull request #2 from XP-NETWORK/wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:19Z
+ 46. [9ad..488] Merge branch 'main' into wasif-fixes-feb-23 | By - AlexeyAdoniev | On - 2023-02-23T14:03:12Z
+ 47. [12b..18b] Merge pull request #1 from XP-NETWORK/wasif-fixes-22-feb | By - AlexeyAdoniev | On - 2023-02-23T13:55:52Z
+ 48. [8f2..07f] case studies fixes, next and prev button flow, text and styles fixes | By - wasifmuhammad | On - 2023-02-23T12:55:23Z
+ 49. [157..b54] community page fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-167 | By - wasifmuhammad | On - 2023-02-23T06:07:30Z
+ 50. [ea8..14e] fixes of card https://xp-network.atlassian.net/jira/core/projects/XMW/board?selectedIssue=XMW-2 | By - wasifmuhammad | On - 2023-02-22T12:49:24Z
+
+## testimonials
+
+
+ 1. [c90..d67] testimonilas done | By - YuraDXPNetwork | On - 2023-04-19T14:26:15Z
+ 2. [b31..9c2] testimonials show more btn fixed | By - YuraDXPNetwork | On - 2023-04-19T11:31:07Z
+ 3. [eff..02b] testimonials for api script added | By - YuraDXPNetwork | On - 2023-04-19T09:19:49Z
+ 4. [12d..879] two ids issue | By - YuraDXPNetwork | On - 2023-04-19T08:41:55Z
+ 5. [627..0b6] testimonials upodated | By - YuraDXPNetwork | On - 2023-04-18T15:10:47Z
+ 6. [d8c..35b] testimonilas filter | By - YuraDXPNetwork | On - 2023-04-18T09:47:51Z
+ 7. [4d4..07d] new testimonials | By - YuraDXPNetwork | On - 2023-04-18T05:45:09Z
+ 8. [58e..823] news 19 apr | By - YuraDXPNetwork | On - 2023-04-17T14:53:04Z
+ 9. [9b9..f3c] header bg issue | By - YuraDXPNetwork | On - 2023-04-16T18:59:09Z
+ 10. [1ca..f8d] goldf | By - YuraDXPNetwork | On - 2023-04-16T18:34:57Z
+ 11. [9a6..165] gold fever hero | By - YuraDXPNetwork | On - 2023-04-16T09:23:51Z
+ 12. [552..842] fixes | By - YuraDXPNetwork | On - 2023-04-16T09:20:41Z
+ 13. [cf4..e12] css added | By - YuraDXPNetwork | On - 2023-04-16T08:26:21Z
+ 14. [97b..c3b] gold fiver tablet i | By - YuraDXPNetwork | On - 2023-04-13T09:46:53Z
+ 15. [8bd..a4d] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:59:14Z
+ 16. [b5b..15a] team updated | By - YuraDXPNetwork | On - 2023-04-11T10:58:20Z
+ 17. [dba..342] show all testimonials max height fix | By - YuraDXPNetwork | On - 2023-04-11T10:11:15Z
+ 18. [4f7..5c2] goldfiver mobile header fix | By - YuraDXPNetwork | On - 2023-04-11T07:11:06Z
+ 19. [620..d74] ecosystem button and spacing fix | By - YuraDXPNetwork | On - 2023-04-10T14:25:15Z
+ 20. [dd0..b87] last new update | By - YuraDXPNetwork | On - 2023-04-10T09:50:19Z
+ 21. [d70..0c7] google analytics added to each page index | By - YuraDXPNetwork | On - 2023-04-10T08:26:07Z
+ 22. [afc..382] google nalaytics tag added | By - YuraDXPNetwork | On - 2023-04-09T13:17:52Z
+ 23. [fa9..9f3] gold-fever | By - YuraDXPNetwork | On - 2023-04-09T12:52:09Z
+ 24. [1da..2a1] site updates | By - AlexeyAdoniev | On - 2023-04-03T16:25:23Z
+ 25. [acf..d56] apeswap cs | By - AlexeyAdoniev | On - 2023-04-03T07:26:42Z
+ 26. [1c2..6ce] apeswap case studies | By - YuraDXPNetwork | On - 2023-04-02T14:59:32Z
+ 27. [640..fec] apeswap case studies added | By - YuraDXPNetwork | On - 2023-04-02T12:42:24Z
+ 28. [576..9ff] new apeswap case studie | By - YuraDXPNetwork | On - 2023-04-02T09:08:04Z
+ 29. [532..4c5] ui fixes | By - AlexeyAdoniev | On - 2023-04-02T09:06:23Z
+ 30. [403..11c] ad | By - AlexeyAdoniev | On - 2023-03-29T13:41:37Z
+ 31. [c0e..b2d] weekly-updates | By - rony derra | On - 2023-03-27T11:06:16Z
+ 32. [698..653] typo | By - rony derra | On - 2023-03-27T10:39:56Z
+ 33. [f08..a30] html | By - rony derra | On - 2023-03-26T14:17:07Z
+ 34. [026..7e5] html | By - rony derra | On - 2023-03-26T14:17:00Z
+ 35. [a71..a1c] svgs | By - rony derra | On - 2023-03-26T14:16:53Z
+ 36. [575..c7c] html | By - rony derra | On - 2023-03-26T14:16:43Z
+ 37. [239..245] css | By - rony derra | On - 2023-03-26T14:16:37Z
+ 38. [7c0..17d] near images png | By - rony derra | On - 2023-03-26T14:16:21Z
+ 39. [1bf..630] updates | By - rony derra | On - 2023-03-20T12:34:35Z
+ 40. [e95..83f] imges | By - rony derra | On - 2023-03-20T11:37:59Z
+ 41. [72d..2b7] The Commit message | By - rony derra | On - 2023-03-19T14:18:10Z
+ 42. [4f0..e70] production | By - rony derra | On - 2023-03-19T11:20:24Z
+ 43. [b22..82c] w3dna | By - rony derra | On - 2023-03-19T10:14:58Z
+ 44. [94c..99e] img | By - rony derra | On - 2023-03-16T17:18:35Z
+ 45. [51d..980]  <div class="blkTab"><span>Blockchain</span></div> | By - rony derra | On - 2023-03-16T16:52:46Z
+ 46. [414..5f1] new production | By - rony derra | On - 2023-03-16T09:04:53Z
 
 ## wasif-fixes-22-feb
 
@@ -2525,69 +4553,6 @@
  48. [76f..f40] add chains | By - Alex Moshinsky | On - 2022-12-27T11:16:22Z
  49. [036..352] fix aptos meta | By - AlexeyAdoniev | On - 2022-12-25T15:56:28Z
  50. [3aa..a19] aptos button text change | By - Alex Moshinsky | On - 2022-12-25T15:29:57Z
-
-# secret-target-nft-contract
-
-## main
-
-
- 1. [535..782] Initial commit | By - Dima Brook | On - 2022-12-15T07:08:32Z
-
-## master
-
-
- 1. [aeb..f0b] packages: bump secretjs | By - imsk17 | On - 2023-03-02T06:56:53Z
- 2. [7b8..315] refactor | By - Dima Brook | On - 2023-03-01T12:54:08Z
- 3. [e70..b07] refactor | By - Dima Brook | On - 2023-02-28T12:34:23Z
- 4. [c80..a22] refactor | By - Dima Brook | On - 2023-02-28T12:18:51Z
- 5. [ba7..cc7] add royalties | By - imsk17 | On - 2023-01-23T14:23:26Z
- 6. [78d..99e] Add a readme on how to deploy | By - imsk17 | On - 2022-12-15T12:53:21Z
- 7. [663..efd] print code hash as well | By - imsk17 | On - 2022-12-15T09:28:09Z
- 8. [9ce..ed0] initial import | By - imsk17 | On - 2022-12-15T09:00:03Z
-
-# deploying-secret-contracts
-
-## master
-
-
- 1. [8d0..669] packages: bump secretjs | By - imsk17 | On - 2023-03-02T06:26:15Z
- 2. [8ee..06e] add prompt for contract label | By - imsk17 | On - 2023-02-27T13:52:03Z
- 3. [1bd..51e] fix deployment | By - imsk17 | On - 2022-10-06T12:20:30Z
- 4. [dfa..2f1] add getting code hash | By - Dima Brook | On - 2022-08-15T07:05:16Z
- 5. [fea..c58] add Readme.md | By - Dima Brook | On - 2022-08-14T07:02:29Z
- 6. [516..108] remove .DS_Store | By - Dima Brook | On - 2022-08-14T06:44:59Z
- 7. [89c..af4] update after mainnet deployment | By - Dima Brook | On - 2022-08-14T06:40:40Z
- 8. [19d..528] Initial Import | By - imsk17 | On - 2022-08-11T11:31:30Z
-
-# xpnft
-
-## master
-
-
- 1. [b75..e5d] Update XPNftHts.sol | By - Dima Brook | On - 2023-03-01T18:10:57Z
- 2. [461..ec5] Add tokenId to the uri(uint256 _tokenID) | By - Dima Brook | On - 2022-11-30T14:54:11Z
- 3. [7dd..e34] add OpenSea contracts | By - Dima Brook | On - 2022-11-15T10:33:12Z
- 4. [cf1..85c] fix issues, set examples | By - Dima Brook | On - 2022-11-14T09:41:07Z
- 5. [742..6db] update README | By - rupansh | On - 2022-11-13T14:35:22Z
- 6. [b56..47c] opensea royalties changes | By - rupansh | On - 2022-11-13T14:32:51Z
- 7. [abe..a83] contracts: hedera: proxy: more fixes | By - imsk17 | On - 2022-11-03T09:42:06Z
- 8. [6eb..224] hedera: proxy: update safeTransferFrom to allow any token transfer | By - imsk17 | On - 2022-11-02T07:42:14Z
- 9. [826..174] hedera: proxy: implement safeTransferFrom | By - imsk17 | On - 2022-10-31T11:38:02Z
- 10. [c21..d97] hedera: switch to 0.2 release | By - rupansh | On - 2022-10-27T15:47:27Z
- 11. [995..6c0] XpNftHts: use EnumerableSet for claimables | By - rupansh | On - 2022-10-27T14:22:47Z
- 12. [fe5..436] update hedera submodule | By - rupansh | On - 2022-10-27T14:22:06Z
- 13. [acf..dd2] Update XPNFT-HTS | By - imsk17 | On - 2022-10-27T11:35:13Z
- 14. [a6c..752] XPNftHts: improve token associated check | By - rupansh | On - 2022-10-27T11:28:29Z
- 15. [1b9..550] XPNftHts: add claim nfts for unassociated accounts | By - rupansh | On - 2022-10-27T11:07:00Z
- 16. [5ab..c9d] Update XPNFT-HTS | By - imsk17 | On - 2022-10-27T09:12:39Z
- 17. [649..9f7] XPNFT: HTS: Make Initialize Payable | By - imsk17 | On - 2022-09-05T12:34:22Z
- 18. [837..e00] XPNftHts: move constructor to initializer | By - rupansh | On - 2022-08-21T11:16:27Z
- 19. [1bc..f36] add XPNft for HTS Tokens | By - rupansh | On - 2022-08-17T16:13:43Z
- 20. [d1c..458] add hedera prebuilt as submodule | By - rupansh | On - 2022-08-17T16:13:21Z
- 21. [698..0a5] royalties: ignore rawInfo if empty | By - rupansh | On - 2022-05-08T15:26:39Z
- 22. [5a3..6dc] package: update name, version | By - rupansh | On - 2022-05-07T21:50:30Z
- 23. [9ef..4e9] initial royalties impl | By - rupansh | On - 2022-05-07T21:46:03Z
- 24. [e9e..365] initial import | By - rupansh | On - 2022-05-07T21:11:21Z
 
 # bridge-explorer
 
@@ -2810,56 +4775,56 @@
 ## main
 
 
- 1. [0a3..766] res | By - rony derra | On - 2023-03-01T13:47:01Z
- 2. [a8f..4a0] handleBridgeEvent | By - rony derra | On - 2023-02-20T09:00:10Z
- 3. [9f5..34a] handleBridgeEvent | By - rony derra | On - 2023-02-20T08:46:38Z
- 4. [7a4..ba5] ARBITRUM | By - rony derra | On - 2023-02-20T08:40:26Z
- 5. [37c..726] handleEvent | By - rony derra | On - 2023-02-19T16:28:26Z
- 6. [0ec..6e6] handleEvent | By - rony derra | On - 2023-02-19T15:12:54Z
- 7. [41e..24d] log | By - rony derra | On - 2023-02-19T07:30:22Z
- 8. [fc0..88d] chainNonce | By - rony derra | On - 2023-02-14T08:30:16Z
- 9. [4db..4bb] chainNonce | By - rony derra | On - 2023-02-14T08:19:37Z
- 10. [e5c..f9e] chainNonce | By - rony derra | On - 2023-02-14T08:04:47Z
- 11. [f11..c96] tonAddress | By - rony derra | On - 2023-02-14T07:50:53Z
- 12. [304..3a9] ton logs | By - rony derra | On - 2023-02-12T10:26:55Z
- 13. [2a7..0c9] event | By - rony derra | On - 2023-02-12T09:37:20Z
- 14. [992..f0b] ton | By - rony derra | On - 2023-02-12T09:04:35Z
- 15. [9d6..50e] tonEventListener2 | By - rony derra | On - 2023-02-12T07:50:30Z
- 16. [0b0..e28] elrondValidation | By - rony derra | On - 2023-02-08T12:21:13Z
- 17. [78d..27a] hash | By - rony derra | On - 2023-02-08T09:18:53Z
- 18. [c26..fd9] saveDailyData | By - rony derra | On - 2023-02-08T08:58:17Z
- 19. [d79..823] emit | By - rony derra | On - 2023-02-07T12:33:40Z
- 20. [59f..ba0] emit | By - rony derra | On - 2023-02-07T12:32:18Z
- 21. [f46..c0f] trx | By - rony derra | On - 2023-02-07T11:45:29Z
- 22. [3a6..7b9] a | By - rony derra | On - 2023-02-07T11:40:08Z
- 23. [322..fe2] getTransaction | By - rony derra | On - 2023-02-07T11:39:50Z
- 24. [e02..236] setInterval | By - rony derra | On - 2023-02-07T11:22:18Z
- 25. [8f3..67f] EvmEventService | By - rony derra | On - 2023-02-07T11:19:48Z
- 26. [77d..045] setInterval | By - rony derra | On - 2023-02-07T11:18:58Z
- 27. [8f7..851] handleBridgeEvent | By - rony derra | On - 2023-02-07T11:10:10Z
- 28. [32a..952] incomingEvent | By - rony derra | On - 2023-02-07T11:07:53Z
- 29. [a14..71b] handleVechainEvent | By - rony derra | On - 2023-02-06T15:38:24Z
- 30. [da4..fb2] handleVechainEvent | By - rony derra | On - 2023-02-06T13:28:53Z
- 31. [1b1..8db] handleVechainEvent | By - rony derra | On - 2023-02-06T13:21:04Z
- 32. [25d..e54] a | By - rony derra | On - 2023-02-06T13:10:04Z
- 33. [e01..cbc] times | By - rony derra | On - 2023-02-06T12:51:37Z
- 34. [f89..3e1] NETWORK | By - rony derra | On - 2023-02-06T12:27:42Z
- 35. [393..218] img | By - rony derra | On - 2023-02-06T12:26:48Z
- 36. [6a3..348] moment | By - rony derra | On - 2023-02-06T12:26:15Z
- 37. [613..728] reducer2 | By - rony derra | On - 2023-02-06T10:52:41Z
- 38. [204..61e] sftArr | By - rony derra | On - 2023-02-06T10:47:59Z
- 39. [d87..38a] toString | By - rony derra | On - 2023-02-06T10:34:55Z
- 40. [aae..a55] sftNumber | By - rony derra | On - 2023-02-06T10:27:20Z
- 41. [f6f..c36] sftNumber | By - rony derra | On - 2023-02-06T09:45:12Z
- 42. [9bf..a2d] toChain | By - rony derra | On - 2023-02-04T20:30:06Z
- 43. [63b..ebd] handleBridgeEvent | By - rony derra | On - 2023-02-02T13:21:15Z
- 44. [2ea..af9] getTransaction | By - rony derra | On - 2023-02-02T13:18:31Z
- 45. [bee..7df] handleBridgeEvent | By - rony derra | On - 2023-02-01T08:47:07Z
- 46. [938..813] skale | By - rony derra | On - 2023-01-31T13:12:50Z
- 47. [c9c..408] SKALE | By - rony derra | On - 2023-01-31T13:07:19Z
- 48. [4e5..583] handleEvent | By - rony derra | On - 2023-01-18T14:48:14Z
- 49. [1ec..a40] executedSocket | By - rony derra | On - 2023-01-18T14:40:39Z
- 50. [b66..eee] executedSocket | By - rony derra | On - 2023-01-18T14:39:59Z
+ 1. [e68..09a] test | By - AlexeyAdoniev | On - 2023-04-30T08:11:27Z
+ 2. [9db..aec] ELROND, retry fetch trx if logs are empty | By - AlexeyAdoniev | On - 2023-04-24T15:44:46Z
+ 3. [458..b31] elrond tokenId fix | By - AlexeyAdoniev | On - 2023-04-23T15:21:18Z
+ 4. [910..5f3] SOLANA: executed handler | By - AlexeyAdoniev | On - 2023-04-16T16:27:56Z
+ 5. [d2d..11a] SOLANA: change tokenID | By - AlexeyAdoniev | On - 2023-04-16T14:24:30Z
+ 6. [6e0..154] Get nft origin data | By - AlexeyAdoniev | On - 2023-04-16T13:57:29Z
+ 7. [56a..8e9] yarn.lock | By - AlexeyAdoniev | On - 2023-04-16T12:50:39Z
+ 8. [31d..df3] SOLANA: add handlers, add dec logic in calcDollarFees | By - AlexeyAdoniev | On - 2023-04-16T12:47:08Z
+ 9. [6c6..540] fix collection name and contract address | By - AlexeyAdoniev | On - 2023-04-11T22:19:22Z
+ 10. [a9a..0aa] fees case | By - AlexeyAdoniev | On - 2023-04-11T15:12:12Z
+ 11. [262..8b0] df | By - AlexeyAdoniev | On - 2023-04-11T14:32:24Z
+ 12. [803..2c2] fix | By - AlexeyAdoniev | On - 2023-04-11T14:10:27Z
+ 13. [689..29f] fees | By - AlexeyAdoniev | On - 2023-04-11T14:08:30Z
+ 14. [d2b..751] EVM: fees script case, NEAR: fix fees parse | By - AlexeyAdoniev | On - 2023-04-11T12:30:48Z
+ 15. [a06..9cb] TEZOS:add actionID Offsett | By - AlexeyAdoniev | On - 2023-04-10T14:48:47Z
+ 16. [1d2..0ed] remove tg msg | By - AlexeyAdoniev | On - 2023-04-10T12:42:03Z
+ 17. [4af..4e5] TEZOS: fix handler bug | By - AlexeyAdoniev | On - 2023-04-10T09:16:00Z
+ 18. [3e6..429] TEZOS: fix executed event handler | By - AlexeyAdoniev | On - 2023-04-10T08:47:24Z
+ 19. [9e5..6da] TEZOS: add chain_nonce | By - AlexeyAdoniev | On - 2023-04-10T08:13:22Z
+ 20. [e0f..0e8] NEAR: fix txFees | By - AlexeyAdoniev | On - 2023-04-05T19:06:29Z
+ 21. [c09..fe8] NEAR: add actionIDoffset | By - AlexeyAdoniev | On - 2023-04-05T16:44:18Z
+ 22. [21e..d4b] nearEventService | By - rony derra | On - 2023-03-26T11:54:52Z
+ 23. [a04..ec9] toHash | By - rony derra | On - 2023-03-16T11:29:02Z
+ 24. [611..67c] updateUnfreezTrxs | By - rony derra | On - 2023-03-15T15:38:55Z
+ 25. [0e0..65c] hash | By - rony derra | On - 2023-03-15T15:19:42Z
+ 26. [5c0..dec] hash | By - rony derra | On - 2023-03-14T09:49:48Z
+ 27. [ed6..d74] updateHash | By - rony derra | On - 2023-03-14T09:30:01Z
+ 28. [d7e..78d] elrondnetwork | By - rony derra | On - 2023-03-14T08:32:14Z
+ 29. [2d6..e4b] elrondEventListener | By - rony derra | On - 2023-03-14T08:31:44Z
+ 30. [2a7..41b] elrondEventListener | By - rony derra | On - 2023-03-14T08:31:17Z
+ 31. [455..303] elrondEventListener | By - rony derra | On - 2023-03-14T08:31:02Z
+ 32. [72c..9be] elrondEventListener | By - rony derra | On - 2023-03-14T08:30:39Z
+ 33. [3fa..c93] secret | By - rony derra | On - 2023-03-08T09:11:11Z
+ 34. [1b8..c42] IEvent | By - rony derra | On - 2023-03-07T13:50:51Z
+ 35. [6f1..d65] mintWith | By - rony derra | On - 2023-03-07T12:44:41Z
+ 36. [08e..a8d] decode_Trx | By - rony derra | On - 2023-03-07T12:14:30Z
+ 37. [7ef..d09] handleBridgeEvent | By - rony derra | On - 2023-03-07T11:54:09Z
+ 38. [a25..c10] executedSocket | By - rony derra | On - 2023-03-07T09:11:21Z
+ 39. [464..9bd] Solana | By - rony derra | On - 2023-03-07T09:10:43Z
+ 40. [86f..0f2] tx_executed_event | By - rony derra | On - 2023-03-06T12:50:36Z
+ 41. [45e..c7d] tx_executed_event | By - rony derra | On - 2023-03-05T10:58:38Z
+ 42. [4be..08a] nearEventService parsing trxs | By - rony derra | On - 2023-03-05T10:55:48Z
+ 43. [272..c2f] Near trx types | By - rony derra | On - 2023-03-05T10:55:31Z
+ 44. [534..163] nearEventService imp in index | By - rony derra | On - 2023-03-05T10:55:17Z
+ 45. [a20..662] NEAR Config variables | By - rony derra | On - 2023-03-05T10:54:45Z
+ 46. [de6..421] near-api-js | By - rony derra | On - 2023-03-05T10:54:30Z
+ 47. [0a3..766] res | By - rony derra | On - 2023-03-01T13:47:01Z
+ 48. [a8f..4a0] handleBridgeEvent | By - rony derra | On - 2023-02-20T09:00:10Z
+ 49. [9f5..34a] handleBridgeEvent | By - rony derra | On - 2023-02-20T08:46:38Z
+ 50. [7a4..ba5] ARBITRUM | By - rony derra | On - 2023-02-20T08:40:26Z
 
 ## refactor-test
 
@@ -3185,169 +5150,205 @@
  49. [f63..354] cleanup2 | By - AlexeyAdoniev | On - 2022-04-26T13:15:48Z
  50. [fdc..84d] cleanup | By - AlexeyAdoniev | On - 2022-04-26T12:07:45Z
 
-# frontend-game-team
+# solana-contract-deployment
+
+## production
+
+
+ 1. [bd6..5b9] Create .env.example | By - Dima Brook | On - 2023-04-25T14:18:46Z
+ 2. [9dc..fb2] initial commit | By - Dima Brook | On - 2023-04-24T16:03:24Z
+
+# xp-challenge
+
+## demoProject
+
+
+ 1. [f20..9b3] updateOne | By - rony derra | On - 2023-02-16T12:05:07Z
+ 2. [625..2c7] projectNumber | By - rony derra | On - 2023-02-16T12:01:52Z
+ 3. [67b..db6] !username | By - rony derra | On - 2023-02-16T07:59:37Z
+ 4. [cdb..73a] REGESTRATION_BOT | By - rony derra | On - 2023-02-15T17:24:24Z
+ 5. [676..e53] IUSERModel | By - rony derra | On - 2023-02-14T16:54:43Z
+ 6. [5aa..3c0] scanForTransactions | By - rony derra | On - 2023-02-13T13:34:50Z
+ 7. [5ac..5a0] demoProjects | By - rony derra | On - 2023-02-13T13:01:43Z
+ 8. [a1f..669] USER | By - rony derra | On - 2023-02-13T12:45:51Z
+ 9. [4ee..bbe] demoProjects | By - rony derra | On - 2023-02-13T12:13:04Z
+ 10. [c7c..564] user_id | By - rony derra | On - 2023-02-08T10:57:09Z
+ 11. [3e7..206] retweet | By - rony derra | On - 2023-02-08T10:51:44Z
+ 12. [995..cdf] retweet | By - rony derra | On - 2023-02-08T10:12:14Z
+ 13. [0ec..0d9] RETWEET | By - rony derra | On - 2023-02-08T10:08:42Z
+ 14. [024..041] RETWEET | By - rony derra | On - 2023-02-08T10:06:47Z
+ 15. [10a..aaa] retweetService | By - rony derra | On - 2023-02-08T10:05:22Z
+ 16. [b92..4b3] getLastTweet | By - rony derra | On - 2023-02-02T17:23:32Z
+ 17. [bf3..8e6] retweet partner | By - rony derra | On - 2023-02-02T17:15:38Z
+ 18. [0af..8b3] follow partner | By - rony derra | On - 2023-02-02T17:10:57Z
+ 19. [778..5b6] numbers | By - rony derra | On - 2023-02-02T16:31:02Z
+ 20. [d7b..462] telegramMessageAchievments | By - rony derra | On - 2023-02-02T16:20:51Z
+ 21. [7bb..15d] update | By - rony derra | On - 2023-02-02T16:17:45Z
+ 22. [954..bd0] update | By - rony derra | On - 2023-02-02T16:04:54Z
+ 23. [f72..745] log | By - rony derra | On - 2023-02-02T10:30:03Z
+ 24. [753..c91] mappedRetweets | By - rony derra | On - 2023-02-02T10:29:05Z
+ 25. [cf1..0c2] as | By - rony derra | On - 2023-02-01T16:01:37Z
+ 26. [4a0..be7] getLastTweet | By - rony derra | On - 2023-02-01T15:45:35Z
+ 27. [b7c..79c] getLastTweet | By - rony derra | On - 2023-02-01T15:16:15Z
+ 28. [307..02a] lastTweet | By - rony derra | On - 2023-02-01T15:08:11Z
+ 29. [568..c4d] retweetService | By - rony derra | On - 2023-02-01T15:03:04Z
+ 30. [c97..5ce] IACHIEVMENT | By - rony derra | On - 2023-02-01T12:36:35Z
+ 31. [bfe..af2] save images | By - rony derra | On - 2023-01-31T12:58:47Z
+ 32. [c33..c00] register | By - rony derra | On - 2023-01-31T12:54:00Z
+ 33. [8e5..1bb] register | By - rony derra | On - 2023-01-31T11:51:48Z
+ 34. [a12..1e3] scanForTransactions | By - rony derra | On - 2023-01-30T14:33:43Z
+ 35. [5bc..883] getUsersByAchiv | By - rony derra | On - 2023-01-30T14:25:51Z
+ 36. [3d8..5c2] createdAt | By - rony derra | On - 2023-01-30T14:20:22Z
+ 37. [b52..229] address | By - rony derra | On - 2023-01-30T14:11:54Z
+ 38. [9ea..925] sdf | By - rony derra | On - 2023-01-30T14:09:15Z
+ 39. [e6f..7df] scanForTransactions | By - rony derra | On - 2023-01-30T14:02:04Z
+ 40. [68e..ba5] scanForTransactions | By - rony derra | On - 2023-01-30T13:55:28Z
+ 41. [80f..4f3] Dear | By - rony derra | On - 2023-01-30T09:08:37Z
+ 42. [596..f73] getBridgeServiceUsers | By - rony derra | On - 2023-01-29T10:32:09Z
+ 43. [406..643] formatting | By - rony derra | On - 2023-01-29T08:15:03Z
+ 44. [759..a39] switch | By - rony derra | On - 2023-01-26T16:02:43Z
+ 45. [76b..f20] map error | By - rony derra | On - 2023-01-26T14:50:45Z
+ 46. [1a9..7c7] PROJECT | By - rony derra | On - 2023-01-26T14:48:35Z
+ 47. [416..0a0] connectWallet | By - rony derra | On - 2023-01-26T14:25:25Z
+ 48. [a72..240] telegramUsername | By - rony derra | On - 2023-01-26T14:21:10Z
+ 49. [5bb..aba] emailAchievment | By - rony derra | On - 2023-01-26T14:05:30Z
+ 50. [f3e..a16] reply | By - rony derra | On - 2023-01-26T10:17:16Z
 
 ## main
 
 
- 1. [249..09c] xptokens upgradeitem | By - tabisharaza | On - 2023-03-01T08:08:52Z
- 2. [f42..9c9] UPDATE QUEST TIME FROM TESTNET EXPLORER API | By - tabisharaza | On - 2023-02-27T12:48:13Z
- 3. [dd9..886] new updates | By - tabisharaza | On - 2023-02-24T12:56:34Z
- 4. [e63..292] testnet added for new character mint and new quest | By - tabisharaza | On - 2023-02-22T14:20:14Z
- 5. [328..0d5] updated env | By - tabisharaza | On - 2023-02-17T14:03:04Z
- 6. [eed..36e] no twice rewards for chest | By - TABISH AYUB RAZA | On - 2023-02-14T12:37:11Z
- 7. [a1d..0ee] popup rewards | By - TABISH AYUB RAZA | On - 2023-02-14T09:19:00Z
- 8. [a85..15d] user chests and level up | By - TABISH AYUB RAZA | On - 2023-02-10T12:14:05Z
- 9. [3dc..1c5] api.ts added to store all APIs in one place | By - TABISH AYUB RAZA | On - 2023-02-07T08:20:51Z
- 10. [8e2..e27] added debounce avoid multiple click button rapidly | By - TABISH AYUB RAZA | On - 2023-02-06T15:17:10Z
- 11. [fc5..1a8] new | By - TABISH AYUB RAZA | On - 2023-02-06T13:35:56Z
- 12. [ded..900] filestructure update and redux | By - TABISH AYUB RAZA | On - 2023-02-06T10:34:59Z
- 13. [1fa..b03] add quest for new minted character | By - TABISH AYUB RAZA | On - 2023-02-02T13:59:47Z
- 14. [980..220] updated speed for fetching characters | By - TABISH AYUB RAZA | On - 2023-02-02T13:22:36Z
- 15. [f36..f9a] unequip multiple items & limit 1 equip each type | By - TABISH AYUB RAZA | On - 2023-02-01T13:49:22Z
- 16. [39e..441] updated multiple equip | By - TABISH AYUB RAZA | On - 2023-02-01T07:58:58Z
- 17. [9a7..ee4] added character attack and item check for quest | By - TABISH AYUB RAZA | On - 2023-01-27T15:26:48Z
- 18. [b4e..6f1] updated | By - TABISH AYUB RAZA | On - 2023-01-26T14:45:17Z
- 19. [8ee..0bf] new | By - tabisharaza@gmail.com | On - 2023-01-24T12:43:20Z
- 20. [365..797] new | By - tabisharaza@gmail.com | On - 2023-01-24T12:28:35Z
- 21. [cd3..4f8] walletconnect | By - tabisharaza@gmail.com | On - 2023-01-24T05:50:48Z
- 22. [2fd..b21] all good for new server https | By - tabisharaza@gmail.com | On - 2023-01-20T15:18:33Z
- 23. [7c9..93d] new | By - tabisharaza@gmail.com | On - 2023-01-20T05:31:22Z
- 24. [fe6..b9a] noComments | By - tabisharaza@gmail.com | On - 2023-01-19T14:52:24Z
- 25. [8c7..8e5] new | By - tabisharaza@gmail.com | On - 2023-01-19T12:45:39Z
- 26. [939..84a] updated | By - tabisharaza@gmail.com | On - 2023-01-19T12:44:03Z
- 27. [313..e5f] new | By - tabisharaza@gmail.com | On - 2023-01-19T12:42:42Z
- 28. [325..556] Merge pull request #4 from Tabisharaza/osamawork2023 | By - TABISH AYUB RAZA | On - 2023-01-19T12:39:52Z
- 29. [72a..121] new | By - tabisharaza@gmail.com | On - 2023-01-19T12:37:20Z
- 30. [78d..806] updated | By - Muhammad Osama | On - 2023-01-19T12:36:19Z
- 31. [1d6..bcb] axiosfix | By - Tabish | On - 2023-01-19T07:19:23Z
- 32. [2d2..f00] Merge pull request #3 from Tabisharaza/osamawork2023 | By - TABISH AYUB RAZA | On - 2023-01-19T06:02:27Z
- 33. [83d..40f] new | By - Tabish | On - 2023-01-19T05:58:23Z
- 34. [8bf..819] updated the work | By - Muhammad Osama | On - 2023-01-19T00:54:02Z
- 35. [7f9..771] Merge pull request #2 from Tabisharaza/osamawork2023 | By - TABISH AYUB RAZA | On - 2023-01-17T13:03:29Z
- 36. [630..93d] Updated the Ui according to demand | By - Muhammad Osama | On - 2023-01-17T12:43:36Z
- 37. [c25..a76] final | By - tabisharaza@gmail.com | On - 2023-01-16T18:38:17Z
- 38. [b3f..0e0] gh-pages | By - tabisharaza@gmail.com | On - 2023-01-16T18:27:10Z
- 39. [0c7..7a5] updated | By - tabisharaza@gmail.com | On - 2023-01-16T15:29:04Z
- 40. [4d5..874] newupdates | By - tabisharaza@gmail.com | On - 2023-01-16T05:33:41Z
- 41. [223..243] updated | By - Tabish | On - 2023-01-11T12:17:26Z
- 42. [ee4..0ba] RemovedStaticLocalHostfrom All Files | By - Tabish | On - 2023-01-11T08:46:59Z
- 43. [344..1ef] new | By - tabisharaza@gmail.com | On - 2023-01-11T06:32:22Z
- 44. [35b..54e] newchanges | By - tabisharaza@gmail.com | On - 2023-01-10T06:08:32Z
- 45. [679..a79] working-good | By - tabisharaza@gmail.com | On - 2023-01-09T08:26:46Z
- 46. [a7d..0af] gh-pages | By - tabisharaza@gmail.com | On - 2023-01-07T18:45:04Z
- 47. [e6c..d72] forlive | By - tabisharaza@gmail.com | On - 2023-01-07T18:15:26Z
- 48. [aa1..967] changes | By - tabisharaza@gmail.com | On - 2023-01-07T18:12:51Z
- 49. [71b..05a] somechangesfortime | By - tabisharaza@gmail.com | On - 2023-01-05T10:57:51Z
- 50. [9d0..1af] eslint done | By - tabisharaza@gmail.com | On - 2023-01-04T13:05:26Z
+ 1. [331..7a0] retweet | By - rony derra | On - 2023-02-16T08:34:38Z
+ 2. [995..cdf] retweet | By - rony derra | On - 2023-02-08T10:12:14Z
+ 3. [0ec..0d9] RETWEET | By - rony derra | On - 2023-02-08T10:08:42Z
+ 4. [024..041] RETWEET | By - rony derra | On - 2023-02-08T10:06:47Z
+ 5. [10a..aaa] retweetService | By - rony derra | On - 2023-02-08T10:05:22Z
+ 6. [b92..4b3] getLastTweet | By - rony derra | On - 2023-02-02T17:23:32Z
+ 7. [bf3..8e6] retweet partner | By - rony derra | On - 2023-02-02T17:15:38Z
+ 8. [0af..8b3] follow partner | By - rony derra | On - 2023-02-02T17:10:57Z
+ 9. [778..5b6] numbers | By - rony derra | On - 2023-02-02T16:31:02Z
+ 10. [d7b..462] telegramMessageAchievments | By - rony derra | On - 2023-02-02T16:20:51Z
+ 11. [7bb..15d] update | By - rony derra | On - 2023-02-02T16:17:45Z
+ 12. [954..bd0] update | By - rony derra | On - 2023-02-02T16:04:54Z
+ 13. [f72..745] log | By - rony derra | On - 2023-02-02T10:30:03Z
+ 14. [753..c91] mappedRetweets | By - rony derra | On - 2023-02-02T10:29:05Z
+ 15. [cf1..0c2] as | By - rony derra | On - 2023-02-01T16:01:37Z
+ 16. [4a0..be7] getLastTweet | By - rony derra | On - 2023-02-01T15:45:35Z
+ 17. [b7c..79c] getLastTweet | By - rony derra | On - 2023-02-01T15:16:15Z
+ 18. [307..02a] lastTweet | By - rony derra | On - 2023-02-01T15:08:11Z
+ 19. [568..c4d] retweetService | By - rony derra | On - 2023-02-01T15:03:04Z
+ 20. [c97..5ce] IACHIEVMENT | By - rony derra | On - 2023-02-01T12:36:35Z
+ 21. [bfe..af2] save images | By - rony derra | On - 2023-01-31T12:58:47Z
+ 22. [c33..c00] register | By - rony derra | On - 2023-01-31T12:54:00Z
+ 23. [8e5..1bb] register | By - rony derra | On - 2023-01-31T11:51:48Z
+ 24. [a12..1e3] scanForTransactions | By - rony derra | On - 2023-01-30T14:33:43Z
+ 25. [5bc..883] getUsersByAchiv | By - rony derra | On - 2023-01-30T14:25:51Z
+ 26. [3d8..5c2] createdAt | By - rony derra | On - 2023-01-30T14:20:22Z
+ 27. [b52..229] address | By - rony derra | On - 2023-01-30T14:11:54Z
+ 28. [9ea..925] sdf | By - rony derra | On - 2023-01-30T14:09:15Z
+ 29. [e6f..7df] scanForTransactions | By - rony derra | On - 2023-01-30T14:02:04Z
+ 30. [68e..ba5] scanForTransactions | By - rony derra | On - 2023-01-30T13:55:28Z
+ 31. [80f..4f3] Dear | By - rony derra | On - 2023-01-30T09:08:37Z
+ 32. [596..f73] getBridgeServiceUsers | By - rony derra | On - 2023-01-29T10:32:09Z
+ 33. [406..643] formatting | By - rony derra | On - 2023-01-29T08:15:03Z
+ 34. [759..a39] switch | By - rony derra | On - 2023-01-26T16:02:43Z
+ 35. [76b..f20] map error | By - rony derra | On - 2023-01-26T14:50:45Z
+ 36. [1a9..7c7] PROJECT | By - rony derra | On - 2023-01-26T14:48:35Z
+ 37. [416..0a0] connectWallet | By - rony derra | On - 2023-01-26T14:25:25Z
+ 38. [a72..240] telegramUsername | By - rony derra | On - 2023-01-26T14:21:10Z
+ 39. [5bb..aba] emailAchievment | By - rony derra | On - 2023-01-26T14:05:30Z
+ 40. [f3e..a16] reply | By - rony derra | On - 2023-01-26T10:17:16Z
+ 41. [d7f..679] addRegisterId | By - rony derra | On - 2023-01-26T10:15:10Z
+ 42. [ad4..a55] email | By - rony derra | On - 2023-01-26T08:29:34Z
+ 43. [345..af1] Mailer | By - rony derra | On - 2023-01-26T08:22:37Z
+ 44. [645..af3] findOneAndUpdate | By - rony derra | On - 2023-01-18T12:39:44Z
+ 45. [58a..3a2] nfts | By - rony derra | On - 2023-01-18T10:23:30Z
+ 46. [6af..eac] partnerTrxs | By - rony derra | On - 2023-01-18T09:49:34Z
+ 47. [d97..d55] log | By - rony derra | On - 2023-01-18T09:48:07Z
+ 48. [84d..76d] log | By - rony derra | On - 2023-01-18T09:46:06Z
+ 49. [5df..cef] telegramUsername | By - rony derra | On - 2023-01-18T09:44:49Z
+ 50. [71b..e7f] getBetweenDates | By - rony derra | On - 2023-01-18T09:42:30Z
 
-# backend-game-team-updated
+## newMain
+
+
+ 1. [e64..9c4] even more cathces | By - AlexeyAdoniev | On - 2023-04-20T17:52:41Z
+ 2. [73e..448] even more catches | By - AlexeyAdoniev | On - 2023-04-20T17:39:39Z
+ 3. [7c2..c05] add catch | By - AlexeyAdoniev | On - 2023-04-20T17:32:33Z
+ 4. [7b7..0e6] add partner contract | By - AlexeyAdoniev | On - 2023-04-10T15:33:09Z
+ 5. [3f7..ccc] add new partner contracts | By - AlexeyAdoniev | On - 2023-04-10T10:50:07Z
+ 6. [b1d..586] remove JSON string | By - AlexeyAdoniev | On - 2023-04-09T17:02:12Z
+ 7. [dcb..2dc] add TOKEN | By - AlexeyAdoniev | On - 2023-04-09T16:54:48Z
+ 8. [2d5..9b2] fix bugs with hardcoded achvements | By - AlexeyAdoniev | On - 2023-04-09T14:58:30Z
+ 9. [be8..a08] jogovo | By - AlexeyAdoniev | On - 2023-04-09T12:21:04Z
+ 10. [2ef..bb9] extend tg achivs | By - AlexeyAdoniev | On - 2023-04-09T12:13:47Z
+ 11. [4e8..3c9] collectionAddress filter | By - AlexeyAdoniev | On - 2023-04-09T10:58:36Z
+ 12. [376..b87] Challenge | By - rony derra | On - 2023-03-28T10:20:41Z
+ 13. [ef4..148] XP Challenge | By - rony derra | On - 2023-03-28T10:17:15Z
+ 14. [b4f..c84] newMain | By - rony derra | On - 2023-03-28T07:03:10Z
+ 15. [f20..9b3] updateOne | By - rony derra | On - 2023-02-16T12:05:07Z
+ 16. [625..2c7] projectNumber | By - rony derra | On - 2023-02-16T12:01:52Z
+ 17. [67b..db6] !username | By - rony derra | On - 2023-02-16T07:59:37Z
+ 18. [cdb..73a] REGESTRATION_BOT | By - rony derra | On - 2023-02-15T17:24:24Z
+ 19. [676..e53] IUSERModel | By - rony derra | On - 2023-02-14T16:54:43Z
+ 20. [5aa..3c0] scanForTransactions | By - rony derra | On - 2023-02-13T13:34:50Z
+ 21. [5ac..5a0] demoProjects | By - rony derra | On - 2023-02-13T13:01:43Z
+ 22. [a1f..669] USER | By - rony derra | On - 2023-02-13T12:45:51Z
+ 23. [4ee..bbe] demoProjects | By - rony derra | On - 2023-02-13T12:13:04Z
+ 24. [c7c..564] user_id | By - rony derra | On - 2023-02-08T10:57:09Z
+ 25. [3e7..206] retweet | By - rony derra | On - 2023-02-08T10:51:44Z
+ 26. [995..cdf] retweet | By - rony derra | On - 2023-02-08T10:12:14Z
+ 27. [0ec..0d9] RETWEET | By - rony derra | On - 2023-02-08T10:08:42Z
+ 28. [024..041] RETWEET | By - rony derra | On - 2023-02-08T10:06:47Z
+ 29. [10a..aaa] retweetService | By - rony derra | On - 2023-02-08T10:05:22Z
+ 30. [b92..4b3] getLastTweet | By - rony derra | On - 2023-02-02T17:23:32Z
+ 31. [bf3..8e6] retweet partner | By - rony derra | On - 2023-02-02T17:15:38Z
+ 32. [0af..8b3] follow partner | By - rony derra | On - 2023-02-02T17:10:57Z
+ 33. [778..5b6] numbers | By - rony derra | On - 2023-02-02T16:31:02Z
+ 34. [d7b..462] telegramMessageAchievments | By - rony derra | On - 2023-02-02T16:20:51Z
+ 35. [7bb..15d] update | By - rony derra | On - 2023-02-02T16:17:45Z
+ 36. [954..bd0] update | By - rony derra | On - 2023-02-02T16:04:54Z
+ 37. [f72..745] log | By - rony derra | On - 2023-02-02T10:30:03Z
+ 38. [753..c91] mappedRetweets | By - rony derra | On - 2023-02-02T10:29:05Z
+ 39. [cf1..0c2] as | By - rony derra | On - 2023-02-01T16:01:37Z
+ 40. [4a0..be7] getLastTweet | By - rony derra | On - 2023-02-01T15:45:35Z
+ 41. [b7c..79c] getLastTweet | By - rony derra | On - 2023-02-01T15:16:15Z
+ 42. [307..02a] lastTweet | By - rony derra | On - 2023-02-01T15:08:11Z
+ 43. [568..c4d] retweetService | By - rony derra | On - 2023-02-01T15:03:04Z
+ 44. [c97..5ce] IACHIEVMENT | By - rony derra | On - 2023-02-01T12:36:35Z
+ 45. [bfe..af2] save images | By - rony derra | On - 2023-01-31T12:58:47Z
+ 46. [c33..c00] register | By - rony derra | On - 2023-01-31T12:54:00Z
+ 47. [8e5..1bb] register | By - rony derra | On - 2023-01-31T11:51:48Z
+ 48. [a12..1e3] scanForTransactions | By - rony derra | On - 2023-01-30T14:33:43Z
+ 49. [5bc..883] getUsersByAchiv | By - rony derra | On - 2023-01-30T14:25:51Z
+ 50. [3d8..5c2] createdAt | By - rony derra | On - 2023-01-30T14:20:22Z
+
+# elrond-api
 
 ## master
 
 
- 1. [99d..1bb] xptokens upgradeitem | By - tabisharaza | On - 2023-03-01T08:03:53Z
- 2. [187..236] CALCULATE REQUIRED XPNET TOKENS FOR  ITEM UPGRADE | By - tabisharaza | On - 2023-02-27T12:50:14Z
- 3. [e10..28a] new updates | By - tabisharaza | On - 2023-02-24T12:54:47Z
- 4. [9bb..266] testnet added for new character mint and new quest | By - tabisharaza | On - 2023-02-22T14:36:21Z
- 5. [92a..661] give sig and hash to frontend when opening chest | By - tabisharaza | On - 2023-02-21T10:08:25Z
- 6. [e80..ff2] Calculate Rewards when Quest Ends | By - tabisharaza | On - 2023-02-21T09:54:36Z
- 7. [c4e..5c4] Create ERC20.sol | By - TABISH AYUB RAZA | On - 2023-02-21T06:21:42Z
- 8. [8c3..7ba] random item and rarity as reward to user | By - tabisharaza | On - 2023-02-17T14:01:24Z
- 9. [a0c..d5d] no double rewards for chest | By - TABISH AYUB RAZA | On - 2023-02-14T12:39:22Z
- 10. [0cf..a94] popup rewards | By - TABISH AYUB RAZA | On - 2023-02-14T09:21:03Z
- 11. [e40..35a] user chests and level up | By - TABISH AYUB RAZA | On - 2023-02-10T12:10:39Z
- 12. [20d..184] wrappedcontractscheck | By - TABISH AYUB RAZA | On - 2023-02-06T10:39:30Z
- 13. [d4b..0d7] add quest for new minted character | By - TABISH AYUB RAZA | On - 2023-02-02T14:01:06Z
- 14. [887..3d0] equip/unequip multiple items on any character | By - TABISH AYUB RAZA | On - 2023-02-01T13:44:50Z
- 15. [d47..b31] changes to feat/whitelist and multiple equip | By - TABISH AYUB RAZA | On - 2023-02-01T07:54:32Z
- 16. [e18..a25] attack and defense to quest according to level | By - TABISH AYUB RAZA | On - 2023-01-27T15:27:45Z
- 17. [038..700] updated | By - TABISH AYUB RAZA | On - 2023-01-26T14:35:48Z
- 18. [968..1c5] new | By - tabisharaza@gmail.com | On - 2023-01-24T12:21:39Z
- 19. [5ec..f57] newchanges | By - tabisharaza@gmail.com | On - 2023-01-20T07:50:05Z
- 20. [0db..da7] NEW | By - tabisharaza@gmail.com | On - 2023-01-19T12:48:11Z
- 21. [c52..f86] Merge branch 'master' of https://github.com/Tabisharaza/https---github.com-Tabisharaza-backend-game-team | By - tabisharaza@gmail.com | On - 2023-01-19T07:25:09Z
- 22. [39f..afd] new | By - tabisharaza@gmail.com | On - 2023-01-19T07:25:03Z
- 23. [1ce..3a3] updatedrarities | By - Tabish | On - 2023-01-19T05:25:32Z
- 24. [9dc..d5d] newupdates | By - tabisharaza@gmail.com | On - 2023-01-16T05:33:56Z
- 25. [167..bd0] updated | By - Tabish | On - 2023-01-11T12:17:46Z
- 26. [3c5..f4c] new | By - tabisharaza@gmail.com | On - 2023-01-11T06:32:30Z
- 27. [ecc..fa9] nolocal | By - tabisharaza@gmail.com | On - 2023-01-07T20:21:17Z
- 28. [298..4aa] no host | By - tabisharaza@gmail.com | On - 2023-01-07T20:11:12Z
- 29. [be6..d50] any | By - tabisharaza@gmail.com | On - 2023-01-07T20:06:35Z
- 30. [2a3..07c] final | By - tabisharaza@gmail.com | On - 2023-01-07T20:02:35Z
- 31. [74e..07e] new | By - tabisharaza@gmail.com | On - 2023-01-07T20:01:16Z
- 32. [c99..b8c] build | By - tabisharaza@gmail.com | On - 2023-01-07T18:49:26Z
- 33. [61a..c0c] gh | By - tabisharaza@gmail.com | On - 2023-01-07T18:48:34Z
- 34. [680..192] new | By - tabisharaza@gmail.com | On - 2023-01-07T18:45:54Z
- 35. [28e..c34] new changes | By - tabisharaza@gmail.com | On - 2023-01-05T11:07:57Z
- 36. [3e7..ba1] new | By - tabisharaza@gmail.com | On - 2023-01-02T04:56:52Z
- 37. [2f7..41b] my first commit good luck | By - tabisharaza@gmail.com | On - 2022-12-29T10:10:25Z
- 38. [a49..5d3] first commit | By - tabisharaza@gmail.com | On - 2022-12-29T06:41:15Z
-
-# balance-monitoring
-
-## main
-
-
- 1. [898..2fd] update read me | By - D | On - 2023-02-28T16:06:16Z
- 2. [838..587] first commit | By - D | On - 2023-02-28T16:00:58Z
-
-# deployed-mapped-contracts
-
-## master
-
-
- 1. [3f9..ce6] redeploy: METAMORPHOSES - TON | By - Dima Brook | On - 2023-02-28T09:39:16Z
- 2. [26e..d9a] deploy: ChainGuardians - Elrond | By - Dima Brook | On - 2023-02-14T10:53:24Z
- 3. [b32..5db] NFT Moon Metaverse - Caduceus | By - Dima Brook | On - 2023-02-12T12:54:20Z
- 4. [f73..1db] add CryptoSpaceClub - Caduceus | By - Dima Brook | On - 2023-02-12T12:46:25Z
- 5. [5db..89e] deploy: W3DNA - Avalanche | By - Dima Brook | On - 2023-02-07T13:15:04Z
- 6. [ff3..f07] Merge branch 'master' of https://github.com/XP-NETWORK/deployed-mapped-contracts | By - Dima Brook | On - 2023-02-07T12:47:05Z
- 7. [4a4..ddb] update | By - Dima Brook | On - 2023-02-07T12:46:45Z
- 8. [3ef..23a] CRYPTOPUNKS - Moonbeam | By - Alex Moshinsky | On - 2023-02-06T09:19:11Z
- 9. [cd4..55d] Redeploy: 02.02.2023 - Non Fungible Apes on Polygon | By - Dima Brook | On - 2023-02-02T12:31:05Z
- 10. [f73..834] NFT Moon Metaverse (Cards) - Skale | By - Dima Brook | On - 2023-02-01T10:46:27Z
- 11. [578..feb] deploy NFT Moon Metaverse - Skale | By - Dima Brook | On - 2023-02-01T09:47:49Z
- 12. [4c7..f5e] redeploy: NFT MOON METAVERSE - Secret Network | By - Dima Brook | On - 2023-01-24T12:46:54Z
- 13. [f32..0e9] 29.09.2022 - Pontic Land Chest - Polygon pass ownership | By - Dima Brook | On - 2023-01-24T12:29:54Z
- 14. [cff..75c] deploy NFT MOON METAVERSE - Secret Network | By - Dima Brook | On - 2023-01-23T13:23:41Z
- 15. [4f6..9ff] redeploy: Tegro Dogs - BSC | By - Dima Brook | On - 2023-01-17T17:12:03Z
- 16. [ea3..b8f] redeploy: Meta Panthers - BSC | By - Dima Brook | On - 2023-01-17T17:05:59Z
- 17. [b2b..f1e] redeploy: Tegro Cats - BSC | By - Dima Brook | On - 2023-01-17T16:48:07Z
- 18. [fe4..e62] redeploy: Volted Dragons Sailors Club - BSC | By - Dima Brook | On - 2023-01-17T14:42:54Z
- 19. [357..b01] BSC - Volted Dragons Sailors Club | By - Alex Moshinsky | On - 2023-01-16T18:36:42Z
- 20. [c84..66e] deploy Caduceus Punks - Polygon | By - Dima Brook | On - 2023-01-16T12:37:44Z
- 21. [69e..31e] Billiard Crypto NFT - polygon | By - Alex Moshinsky | On - 2023-01-15T18:10:09Z
- 22. [7c5..534] redeployed: ElrondArt - Polygon | By - Dima Brook | On - 2023-01-11T11:14:51Z
- 23. [cf4..4fc] redeploy Cosmos Apes - Polygon | By - Dima Brook | On - 2023-01-11T10:56:12Z
- 24. [840..da3] redeploy CryptoSpaceClub - VeChain | By - Dima Brook | On - 2023-01-11T08:04:16Z
- 25. [46a..980] add 721OpenSeaPlus.sol | By - Dima Brook | On - 2023-01-10T09:32:51Z
- 26. [2cb..72c] redeploy 138->139 Bithoven (BitWhiteGold) - BSC | By - Dima Brook | On - 2023-01-10T09:00:37Z
- 27. [4d2..0cf] deploy: 138 Bithoven (BitWhiteGold) - BSC | By - Dima Brook | On - 2023-01-09T10:46:18Z
- 28. [863..1d7] deploy: 137 Bithoven (Gold) - BSC | By - Dima Brook | On - 2023-01-09T10:38:26Z
- 29. [5e3..05a] deploy: 136 Bithoven - BSC | By - Dima Brook | On - 2023-01-09T09:42:57Z
- 30. [2fa..d28] deploy: NFT Moon Metaverse (ID Card) - BSC | By - Dima Brook | On - 2023-01-05T08:28:02Z
- 31. [7b9..bbc] redeploy: NFT Moon Metaverse (Land) - BSC | By - Dima Brook | On - 2023-01-05T08:04:25Z
- 32. [5d8..26f] add: BartersERC1155 - Polygon | By - Dima Brook | On - 2023-01-04T15:36:08Z
- 33. [924..1f6] redeploy 'Powerful Dragons' Fantom-Polygon | By - Dima Brook | On - 2023-01-04T15:06:01Z
- 34. [a3e..cc4] redeploy Barters Velas-Polygon | By - Dima Brook | On - 2023-01-04T14:41:33Z
- 35. [484..56a] Add: TON Frogs - BSC | By - Dima Brook | On - 2023-01-03T13:38:01Z
- 36. [dcc..5e4] add: Redeployed Awokensages | By - Dima Brook | On - 2023-01-03T13:16:46Z
- 37. [476..749] Powerful Dragons - Polygon | By - Alex Moshinsky | On - 2023-01-02T17:23:26Z
- 38. [0ee..edf] add: 02.01.2022 - Technomaniacs Polygon | By - Dima Brook | On - 2023-01-02T15:06:38Z
- 39. [05d..618] add: 02.01.2022 - Technomaniacs Polygon | By - Dima Brook | On - 2023-01-02T15:05:36Z
- 40. [d42..054] velas - BartersERC115512:2 | By - Alex Moshinsky | On - 2022-12-26T12:46:16Z
- 41. [ba2..bf1] Velas - Barters | By - Alex Moshinsky | On - 2022-12-26T12:32:36Z
- 42. [292..d33] a | By - Alex Moshinsky | On - 2022-12-24T12:02:09Z
- 43. [abc..0a5] BSC - NFT Moon Metaverse (Land) | By - Alex Moshinsky | On - 2022-12-24T12:01:44Z
- 44. [67f..a05] add: target NFT staking | By - Dima Brook | On - 2022-12-21T12:50:10Z
- 45. [d46..9c2] fix XP.NETWORK Staking NFTs | By - Dima Brook | On - 2022-12-19T15:27:05Z
- 46. [da3..7ae] add: XP.NETWORK Staking NFTs | By - Dima Brook | On - 2022-12-12T19:01:14Z
- 47. [b23..983] add: MoonbuilderNFT - Avalanche | By - Dima Brook | On - 2022-12-07T13:52:06Z
- 48. [305..8ee] Caduceus - NFT Moon Metaverse | By - Alex Moshinsky | On - 2022-12-07T09:57:19Z
- 49. [497..554] Update XPNFT1155OpenSea.sol | By - Dima Brook | On - 2022-12-07T08:06:27Z
- 50. [44c..dba] Update XPNFT1155OpenSea.sol | By - Dima Brook | On - 2022-12-06T17:24:40Z
+ 1. [80b..03e] alex fixes | By - Alex Moshinsky | On - 2023-04-20T14:47:53Z
+ 2. [3f0..fee] alex fixes | By - Alex Moshinsky | On - 2023-04-20T14:44:11Z
+ 3. [365..357] newbot | By - rony derra | On - 2022-10-23T09:04:42Z
+ 4. [6de..2b5] . | By - ronyderra | On - 2022-08-29T09:15:51Z
+ 5. [551..d58] . | By - ronyderra | On - 2022-08-29T08:50:12Z
+ 6. [3a1..925] . | By - ronyderra | On - 2022-08-29T06:21:07Z
+ 7. [ae9..b41] . | By - ronyderra | On - 2022-08-28T13:47:43Z
+ 8. [2a3..50e] s | By - ronyderra | On - 2022-08-28T12:58:45Z
+ 9. [226..8da] . | By - ronyXnes | On - 2022-07-20T12:02:49Z
+ 10. [48a..783] jul 20 | By - ronyXnes | On - 2022-07-20T12:00:29Z
+ 11. [366..799] do | By - ronyXnes | On - 2022-07-18T18:22:41Z
+ 12. [c15..291] elrond | By - ronyXnes | On - 2022-07-18T18:16:30Z
+ 13. [15a..e1a] telegram | By - ronyXnes | On - 2022-07-18T16:37:54Z
+ 14. [5ef..b32] elrond api | By - ronyXnes | On - 2022-07-18T13:35:39Z
+ 15. [237..059] elrond api | By - ronyXnes | On - 2022-07-13T15:50:40Z
+ 16. [0c1..0b6] . | By - ronyXnes | On - 2022-07-13T14:33:50Z
+ 17. [eed..8ee] elrond api | By - ronyXnes | On - 2022-07-13T07:05:00Z
+ 18. [6e9..a46] elrond good transactions | By - ronyXnes | On - 2022-07-06T06:13:17Z
+ 19. [ac6..35f] formatting | By - ronyXnes | On - 2022-07-04T08:09:17Z
+ 20. [4dd..0a5] formatting | By - ronyXnes | On - 2022-07-04T08:06:50Z
+ 21. [aeb..0f9] excel | By - ronyXnes | On - 2022-07-04T08:03:24Z
+ 22. [746..5e7] first commit | By - ronyXnes | On - 2022-07-04T07:27:28Z
 
 # nft-index
 
@@ -3928,56 +5929,56 @@
 ## nft-index-staging
 
 
- 1. [21a..ea6] fixes | By - Alex Moshinsky | On - 2023-02-28T09:16:30Z
- 2. [c91..e09] encodeURI ton address | By - Alex Moshinsky | On - 2023-02-28T06:43:02Z
- 3. [889..156] filter solana if collectionIdent dont exist | By - Alex Moshinsky | On - 2023-02-22T12:52:14Z
- 4. [a0f..cc9] prepre nft-index to solana mainnet | By - Alex Moshinsky | On - 2023-02-20T11:47:11Z
- 5. [331..dfa] fix ton | By - Alex Moshinsky | On - 2023-02-15T09:24:02Z
- 6. [e77..518] udpate solana package | By - Alex Moshinsky | On - 2023-02-14T17:24:11Z
- 7. [5bf..207] add try catch for solana | By - Alex Moshinsky | On - 2023-02-14T17:05:28Z
- 8. [4b2..b23] add uri solana inner native | By - Alex Moshinsky | On - 2023-02-14T16:52:28Z
- 9. [e17..5d5] tron blocks polling method change to chunks instead of one by one | By - AlexeyAdoniev | On - 2023-02-08T16:19:50Z
- 10. [390..197] fix bitgert hex number | By - Alex Moshinsky | On - 2023-01-31T16:25:33Z
- 11. [9d1..fe8] fix skale erc1155 | By - Alex Moshinsky | On - 2023-01-31T16:24:25Z
- 12. [9d4..b98] BITGERT and ARBITRUM: add to config | By - AlexeyAdoniev | On - 2023-01-22T12:58:47Z
- 13. [af2..56a] moralis error handler | By - Alex Moshinsky | On - 2023-01-14T11:18:20Z
- 14. [6ba..38c] fix elrond emepty uri | By - Alex Moshinsky | On - 2023-01-12T17:43:57Z
- 15. [8e2..372] fix elrond emepty uri | By - Alex Moshinsky | On - 2023-01-12T17:42:35Z
- 16. [384..348] fix torn | By - Alex Moshinsky | On - 2023-01-12T17:17:57Z
- 17. [280..651] elrond return nfts up to 10k | By - Alex Moshinsky | On - 2023-01-12T17:15:55Z
- 18. [ce2..ece] update nft-index | By - Alex Moshinsky | On - 2023-01-12T14:59:35Z
- 19. [2ac..d3f] fix elrond amount | By - Alex Moshinsky | On - 2023-01-12T14:50:18Z
- 20. [4cd..590] fix elrond new api | By - Alex Moshinsky | On - 2023-01-12T14:11:43Z
- 21. [f63..a96] fix cmp and okc and elrond | By - Alex Moshinsky | On - 2023-01-11T18:44:45Z
- 22. [4e8..db4] add error 404 | By - Alex Moshinsky | On - 2023-01-10T09:03:48Z
- 23. [a12..b07] change error 404 text | By - Alex Moshinsky | On - 2023-01-10T09:02:49Z
- 24. [182..854] change error 404 text | By - Alex Moshinsky | On - 2023-01-10T09:01:27Z
- 25. [66d..aab] change error 404 text | By - Alex Moshinsky | On - 2023-01-10T09:00:37Z
- 26. [dab..ccb] fix 2 error 404 | By - Alex Moshinsky | On - 2023-01-10T08:54:22Z
- 27. [c8e..078] fix error 404 | By - Alex Moshinsky | On - 2023-01-10T08:52:52Z
- 28. [432..761] add 404 error | By - Alex Moshinsky | On - 2023-01-10T08:44:05Z
- 29. [8dd..53d] fix okc | By - Alex Moshinsky | On - 2023-01-09T15:51:32Z
- 30. [36a..e14] add okc | By - Alex Moshinsky | On - 2023-01-09T12:50:42Z
- 31. [0d5..0e3] chains: web3: add okc | By - imsk17 | On - 2022-12-20T11:51:33Z
- 32. [f4e..4a6] fix moralis and aptos | By - Alex Moshinsky | On - 2022-12-19T14:10:17Z
- 33. [5ed..230] udpate packges | By - Alex Moshinsky | On - 2022-12-08T08:16:14Z
- 34. [edc..b87] update axios | By - Alex Moshinsky | On - 2022-12-07T16:00:11Z
- 35. [0cd..ece] fixing axios on ton | By - Alex Moshinsky | On - 2022-12-02T07:17:10Z
- 36. [529..b23] fix json elrond | By - Alex Moshinsky | On - 2022-11-30T14:22:04Z
- 37. [06a..503] update moralis to mainnet and packges | By - Alex Moshinsky | On - 2022-11-29T13:33:49Z
- 38. [b05..811] chains: web3: add caduceus | By - imsk17 | On - 2022-11-29T12:31:55Z
- 39. [1c1..c94] Solana: Implement NFT Listing | By - imsk17 | On - 2022-11-28T11:26:47Z
- 40. [113..fcc] fix near address validater | By - Alex Moshinsky | On - 2022-11-25T21:31:10Z
- 41. [02f..8af] fix new axios | By - Alex Moshinsky | On - 2022-11-25T21:00:39Z
- 42. [dfe..bbf] near address check | By - Alex Moshinsky | On - 2022-11-25T20:45:05Z
- 43. [75d..cad] fix near | By - Alex Moshinsky | On - 2022-11-25T20:24:05Z
- 44. [7cb..624] update moralis to v2 | By - Alex Moshinsky | On - 2022-11-08T21:42:28Z
- 45. [fc8..760] update packge | By - Alex Moshinsky | On - 2022-11-08T17:16:03Z
- 46. [c5b..332] update aptos assets | By - Alex Moshinsky | On - 2022-11-06T14:53:50Z
- 47. [f59..d0b] fix aptos interfaces | By - Alex Moshinsky | On - 2022-11-06T14:31:25Z
- 48. [c8c..465] remove console.logs | By - Alex Moshinsky | On - 2022-11-06T13:57:00Z
- 49. [722..b7c] add aptos | By - Alex Moshinsky | On - 2022-11-06T13:53:12Z
- 50. [abd..229] fix chane nonce from 29 to 27 | By - Alex Moshinsky | On - 2022-11-03T13:43:32Z
+ 1. [c59..ff6] APTOS:add tokenID | By - AlexeyAdoniev | On - 2023-04-20T09:33:05Z
+ 2. [c94..e49] NEAR: change api to gql | By - AlexeyAdoniev | On - 2023-03-30T15:55:41Z
+ 3. [e53..bdf] update packgae | By - Alex Moshinsky | On - 2023-03-27T10:44:00Z
+ 4. [21a..ea6] fixes | By - Alex Moshinsky | On - 2023-02-28T09:16:30Z
+ 5. [c91..e09] encodeURI ton address | By - Alex Moshinsky | On - 2023-02-28T06:43:02Z
+ 6. [889..156] filter solana if collectionIdent dont exist | By - Alex Moshinsky | On - 2023-02-22T12:52:14Z
+ 7. [a0f..cc9] prepre nft-index to solana mainnet | By - Alex Moshinsky | On - 2023-02-20T11:47:11Z
+ 8. [331..dfa] fix ton | By - Alex Moshinsky | On - 2023-02-15T09:24:02Z
+ 9. [e77..518] udpate solana package | By - Alex Moshinsky | On - 2023-02-14T17:24:11Z
+ 10. [5bf..207] add try catch for solana | By - Alex Moshinsky | On - 2023-02-14T17:05:28Z
+ 11. [4b2..b23] add uri solana inner native | By - Alex Moshinsky | On - 2023-02-14T16:52:28Z
+ 12. [e17..5d5] tron blocks polling method change to chunks instead of one by one | By - AlexeyAdoniev | On - 2023-02-08T16:19:50Z
+ 13. [390..197] fix bitgert hex number | By - Alex Moshinsky | On - 2023-01-31T16:25:33Z
+ 14. [9d1..fe8] fix skale erc1155 | By - Alex Moshinsky | On - 2023-01-31T16:24:25Z
+ 15. [9d4..b98] BITGERT and ARBITRUM: add to config | By - AlexeyAdoniev | On - 2023-01-22T12:58:47Z
+ 16. [af2..56a] moralis error handler | By - Alex Moshinsky | On - 2023-01-14T11:18:20Z
+ 17. [6ba..38c] fix elrond emepty uri | By - Alex Moshinsky | On - 2023-01-12T17:43:57Z
+ 18. [8e2..372] fix elrond emepty uri | By - Alex Moshinsky | On - 2023-01-12T17:42:35Z
+ 19. [384..348] fix torn | By - Alex Moshinsky | On - 2023-01-12T17:17:57Z
+ 20. [280..651] elrond return nfts up to 10k | By - Alex Moshinsky | On - 2023-01-12T17:15:55Z
+ 21. [ce2..ece] update nft-index | By - Alex Moshinsky | On - 2023-01-12T14:59:35Z
+ 22. [2ac..d3f] fix elrond amount | By - Alex Moshinsky | On - 2023-01-12T14:50:18Z
+ 23. [4cd..590] fix elrond new api | By - Alex Moshinsky | On - 2023-01-12T14:11:43Z
+ 24. [f63..a96] fix cmp and okc and elrond | By - Alex Moshinsky | On - 2023-01-11T18:44:45Z
+ 25. [4e8..db4] add error 404 | By - Alex Moshinsky | On - 2023-01-10T09:03:48Z
+ 26. [a12..b07] change error 404 text | By - Alex Moshinsky | On - 2023-01-10T09:02:49Z
+ 27. [182..854] change error 404 text | By - Alex Moshinsky | On - 2023-01-10T09:01:27Z
+ 28. [66d..aab] change error 404 text | By - Alex Moshinsky | On - 2023-01-10T09:00:37Z
+ 29. [dab..ccb] fix 2 error 404 | By - Alex Moshinsky | On - 2023-01-10T08:54:22Z
+ 30. [c8e..078] fix error 404 | By - Alex Moshinsky | On - 2023-01-10T08:52:52Z
+ 31. [432..761] add 404 error | By - Alex Moshinsky | On - 2023-01-10T08:44:05Z
+ 32. [8dd..53d] fix okc | By - Alex Moshinsky | On - 2023-01-09T15:51:32Z
+ 33. [36a..e14] add okc | By - Alex Moshinsky | On - 2023-01-09T12:50:42Z
+ 34. [0d5..0e3] chains: web3: add okc | By - imsk17 | On - 2022-12-20T11:51:33Z
+ 35. [f4e..4a6] fix moralis and aptos | By - Alex Moshinsky | On - 2022-12-19T14:10:17Z
+ 36. [5ed..230] udpate packges | By - Alex Moshinsky | On - 2022-12-08T08:16:14Z
+ 37. [edc..b87] update axios | By - Alex Moshinsky | On - 2022-12-07T16:00:11Z
+ 38. [0cd..ece] fixing axios on ton | By - Alex Moshinsky | On - 2022-12-02T07:17:10Z
+ 39. [529..b23] fix json elrond | By - Alex Moshinsky | On - 2022-11-30T14:22:04Z
+ 40. [06a..503] update moralis to mainnet and packges | By - Alex Moshinsky | On - 2022-11-29T13:33:49Z
+ 41. [b05..811] chains: web3: add caduceus | By - imsk17 | On - 2022-11-29T12:31:55Z
+ 42. [1c1..c94] Solana: Implement NFT Listing | By - imsk17 | On - 2022-11-28T11:26:47Z
+ 43. [113..fcc] fix near address validater | By - Alex Moshinsky | On - 2022-11-25T21:31:10Z
+ 44. [02f..8af] fix new axios | By - Alex Moshinsky | On - 2022-11-25T21:00:39Z
+ 45. [dfe..bbf] near address check | By - Alex Moshinsky | On - 2022-11-25T20:45:05Z
+ 46. [75d..cad] fix near | By - Alex Moshinsky | On - 2022-11-25T20:24:05Z
+ 47. [7cb..624] update moralis to v2 | By - Alex Moshinsky | On - 2022-11-08T21:42:28Z
+ 48. [fc8..760] update packge | By - Alex Moshinsky | On - 2022-11-08T17:16:03Z
+ 49. [c5b..332] update aptos assets | By - Alex Moshinsky | On - 2022-11-06T14:53:50Z
+ 50. [f59..d0b] fix aptos interfaces | By - Alex Moshinsky | On - 2022-11-06T14:31:25Z
 
 ## nft-index-stf
 
@@ -4357,76 +6358,366 @@
  49. [9cf..2dc] helpers: apiResp: remove header from response body | By - rupansh | On - 2022-01-18T08:31:27Z
  50. [7bd..f4d] helpers: nftList: fix setting of Retry-After header | By - rupansh | On - 2022-01-18T08:31:11Z
 
-# Xp-Mobile-App
+# solana-bridge
 
-## android
-
-
- 1. [5ca..e58] Create Research_Algorand.md | By - Affan Ali Khan | On - 2023-02-28T06:52:19Z
- 2. [ea7..09c] Rename Research.md to Research_TON.md | By - Affan Ali Khan | On - 2023-02-28T06:16:57Z
- 3. [711..1b4] Update Research.md | By - Affan Ali Khan | On - 2023-02-28T06:13:58Z
- 4. [07f..24a] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:29:12Z
- 5. [865..b38] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:18:09Z
- 6. [9bc..444] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:17:25Z
- 7. [1c2..744] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:54:59Z
- 8. [743..1b4] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:20:55Z
- 9. [ce1..701] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:15:45Z
- 10. [417..765] Merge | By - fanil30 | On - 2023-02-20T12:25:05Z
- 11. [51e..8ae] first commit | By - Affan Ali Khan | On - 2023-02-20T12:01:30Z
- 12. [33a..5ec] Update Research.md | By - Affan Ali Khan | On - 2023-02-20T11:35:16Z
- 13. [9a8..bbd] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T14:00:01Z
- 14. [15d..ea0] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:33:08Z
- 15. [81e..89d] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:22:40Z
- 16. [16d..673] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:21:52Z
- 17. [120..d15] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:15:15Z
- 18. [fac..6ea] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:14:14Z
- 19. [d70..e19] Update and rename logs.md to Research.md | By - Affan Ali Khan | On - 2023-02-17T13:13:34Z
- 20. [8a3..51f] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T13:00:21Z
- 21. [817..2aa] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:55:58Z
- 22. [2ff..cd6] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:46:58Z
- 23. [c71..4b4] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:14:12Z
- 24. [418..146] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:13:50Z
- 25. [935..5b8] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T11:37:45Z
- 26. [b29..1f2] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T06:34:51Z
- 27. [b76..ad6] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:31:14Z
- 28. [392..01c] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:29:46Z
- 29. [c04..57b] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:26:48Z
- 30. [457..0c2] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:25:42Z
- 31. [dcc..38d] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:25:01Z
- 32. [77b..899] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:24:34Z
- 33. [18d..313] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:22:43Z
- 34. [50c..d83] Create logs.md | By - Affan Ali Khan | On - 2023-02-16T09:02:36Z
- 35. [fd9..54e] first commit | By - Affan Ali Khan | On - 2023-02-15T15:11:33Z
- 36. [c6c..b4b] first commit | By - Affan Ali Khan | On - 2023-02-06T10:29:50Z
- 37. [cb4..50f] Initial commit | By - Affan Ali Khan | On - 2023-02-06T10:02:46Z
- 38. [f23..39f] first commit | By - Affan Ali Khan | On - 2023-02-06T07:46:34Z
- 39. [b7d..45e] first commit | By - Affan Ali Khan | On - 2023-02-06T07:43:35Z
- 40. [879..925] initial commit | By - Affan Ali Khan | On - 2023-01-24T09:12:13Z
-
-# Xp-Layer-2-Research
-
-## hamza
+## docs/deployment
 
 
- 1. [59a..b0a] [L2-gasless-transaction-modification] | By - Genesis671230 | On - 2023-02-15T12:16:26Z
+ 1. [fdf..5b2] docs(deployment): add documentation to deploy a program | By - Fassih Haider | On - 2023-02-23T12:21:59Z
+ 2. [b74..641] XpNft: Deployment Script | By - imsk17 | On - 2022-11-21T19:46:52Z
+ 3. [2e1..9aa] Contract: Introduce a Setup Script | By - imsk17 | On - 2022-11-21T18:40:24Z
+ 4. [a7d..b05] update metaplex deps | By - rocalex | On - 2022-11-21T13:07:20Z
+ 5. [9ec..15e] Encoding: Setup Constructors | By - imsk17 | On - 2022-11-21T12:53:45Z
+ 6. [a50..0db] pubkey instead of [u8; 32] | By - rocalex | On - 2022-09-21T12:15:49Z
+ 7. [8e8..14b] custom serialization for creators | By - rocalex | On - 2022-09-21T11:50:37Z
+ 8. [2f3..110] unit tests with borsh error | By - rocalex | On - 2022-09-21T11:27:28Z
+ 9. [efb..b35] remove looping over data.creators | By - rocalex | On - 2022-09-21T10:19:17Z
+ 10. [a59..024] calculate bump off chain | By - rocalex | On - 2022-09-21T08:50:37Z
+ 11. [583..8fc] calculate bump off chain | By - rocalex | On - 2022-09-20T08:40:45Z
+ 12. [880..d6f] check amount | By - rocalex | On - 2022-09-20T08:12:11Z
+ 13. [89f..d6b] Update lib.rs | By - Xueming Zheng | On - 2022-09-19T14:24:02Z
+ 14. [c1e..9d8] change program id | By - rocalex | On - 2022-09-16T12:57:00Z
+ 15. [058..0a3] constrains | By - rocalex | On - 2022-09-15T18:27:24Z
+ 16. [b2b..ab1] require unpause to constraint | By - rocalex | On - 2022-09-15T18:14:15Z
+ 17. [517..8dd] fix TODOs | By - rocalex | On - 2022-09-15T17:51:00Z
+ 18. [5e4..6f5] remove create action | By - rocalex | On - 2022-09-15T17:23:36Z
+ 19. [1b5..2cd] remove metaplex js | By - rocalex | On - 2022-09-14T18:12:17Z
+ 20. [69e..008] constraints for instruction_acc | By - rocalex | On - 2022-09-14T18:00:35Z
+ 21. [d4d..af6] rename royalties | By - rocalex | On - 2022-08-08T02:41:48Z
+ 22. [2cc..59a] add royalties | By - rocalex | On - 2022-08-07T21:29:14Z
+ 23. [aee..92f] fix inline doc | By - rocalex | On - 2022-07-04T13:47:20Z
+ 24. [3ab..976] emit lamports | By - rocalex | On - 2022-06-20T18:55:50Z
+ 25. [a92..545] emit mintWith | By - rocalex | On - 2022-06-19T19:00:19Z
+ 26. [587..354] emit action id | By - rocalex | On - 2022-06-19T18:52:00Z
+ 27. [e18..8ac] add mint to unfreeze data | By - rocalex | On - 2022-06-17T17:04:36Z
+ 28. [43d..adb] add transfer_service_fee_lamports function | By - rocalex | On - 2022-06-14T04:08:17Z
+ 29. [f30..846] add withdraw fees | By - rocalex | On - 2022-06-14T03:57:55Z
+ 30. [188..c0d] transfer service fee to bridge PDA when freeze/withdraw | By - rocalex | On - 2022-06-14T03:37:56Z
+ 31. [a39..e19] remove treasury | By - rocalex | On - 2022-06-14T03:10:57Z
+ 32. [270..782] update mpl-token-metadata version | By - rocalex | On - 2022-06-14T03:05:13Z
+ 33. [91c..617] use PDA as bridge account | By - rocalex | On - 2022-06-13T20:56:10Z
+ 34. [f2f..e83] remove unused imports | By - rocalex | On - 2022-06-13T19:32:44Z
+ 35. [4d5..9bd] emit mint when freeze | By - rocalex | On - 2022-06-13T19:30:50Z
+ 36. [e19..43d] check if receiver is correct | By - rocalex | On - 2022-06-13T19:24:49Z
+ 37. [f35..5f4] change bridge PDA to normal account | By - rocalex | On - 2022-06-13T03:39:07Z
+ 38. [b8b..edd] fix burn | By - rocalex | On - 2022-06-12T19:47:19Z
+ 39. [388..2ec] fix withdraw | By - rocalex | On - 2022-06-12T19:15:10Z
+ 40. [2d4..ab6] change authority | By - rocalex | On - 2022-06-12T15:12:18Z
+ 41. [ce1..75c] remove anchor.web. | By - rocalex | On - 2022-06-12T14:47:17Z
+ 42. [610..592] bridge account as PDA | By - rocalex | On - 2022-06-12T10:12:35Z
+ 43. [848..16e] config the client | By - rocalex | On - 2022-06-12T09:05:54Z
+ 44. [a16..c5f] refactor duplicated methods | By - rocalex | On - 2022-06-10T12:13:01Z
+ 45. [f00..649] Update README.md | By - Dima Brook | On - 2022-06-09T13:37:11Z
+ 46. [116..906] Update README.md | By - Dima Brook | On - 2022-06-09T13:30:41Z
+ 47. [c02..7ff] Update README.md | By - Dima Brook | On - 2022-06-09T13:17:05Z
+ 48. [f9c..49c] Update README.md | By - Dima Brook | On - 2022-06-09T13:05:32Z
+ 49. [823..6f4] Update README.md | By - Dima Brook | On - 2022-06-09T09:17:48Z
+ 50. [cee..78e] Update README.md | By - Dima Brook | On - 2022-06-09T09:05:26Z
 
-## irfanullah
+## feat/solana-1155
 
 
- 1. [cd9..79b] 22,23 feb 2023 | By - irfanullahatozi | On - 2023-02-27T12:48:04Z
- 2. [068..702] 21 feb 2023 work | By - irfanullahatozi | On - 2023-02-21T12:57:59Z
- 3. [d8c..a23] 20 feb 2023 work | By - irfanullahatozi | On - 2023-02-20T13:15:51Z
- 4. [14c..b6d] 16-feb-2023 work | By - irfanullahatozi | On - 2023-02-20T13:15:51Z
- 5. [7dd..971] work on 15 feb 2023 | By - irfanullahatozi | On - 2023-02-20T13:15:51Z
- 6. [b8a..4cd] Update README.md | By - Irfan Ullah | On - 2023-02-15T13:02:42Z
- 7. [3c6..8ef] 15 feb 2023 work | By - irfanullahatozi | On - 2023-02-15T13:02:00Z
- 8. [491..222] 15 feb 2023 work | By - irfanullahatozi | On - 2023-02-15T13:01:09Z
- 9. [b1b..bd3] first commit | By - irfanullahatozi | On - 2023-02-15T12:57:43Z
+ 1. [967..c7b] feat: add impl. for 1155 | By - Fassih Haider | On - 2023-04-20T08:44:25Z
+ 2. [b74..641] XpNft: Deployment Script | By - imsk17 | On - 2022-11-21T19:46:52Z
+ 3. [2e1..9aa] Contract: Introduce a Setup Script | By - imsk17 | On - 2022-11-21T18:40:24Z
+ 4. [a7d..b05] update metaplex deps | By - rocalex | On - 2022-11-21T13:07:20Z
+ 5. [9ec..15e] Encoding: Setup Constructors | By - imsk17 | On - 2022-11-21T12:53:45Z
+ 6. [a50..0db] pubkey instead of [u8; 32] | By - rocalex | On - 2022-09-21T12:15:49Z
+ 7. [8e8..14b] custom serialization for creators | By - rocalex | On - 2022-09-21T11:50:37Z
+ 8. [2f3..110] unit tests with borsh error | By - rocalex | On - 2022-09-21T11:27:28Z
+ 9. [efb..b35] remove looping over data.creators | By - rocalex | On - 2022-09-21T10:19:17Z
+ 10. [a59..024] calculate bump off chain | By - rocalex | On - 2022-09-21T08:50:37Z
+ 11. [583..8fc] calculate bump off chain | By - rocalex | On - 2022-09-20T08:40:45Z
+ 12. [880..d6f] check amount | By - rocalex | On - 2022-09-20T08:12:11Z
+ 13. [89f..d6b] Update lib.rs | By - Xueming Zheng | On - 2022-09-19T14:24:02Z
+ 14. [c1e..9d8] change program id | By - rocalex | On - 2022-09-16T12:57:00Z
+ 15. [058..0a3] constrains | By - rocalex | On - 2022-09-15T18:27:24Z
+ 16. [b2b..ab1] require unpause to constraint | By - rocalex | On - 2022-09-15T18:14:15Z
+ 17. [517..8dd] fix TODOs | By - rocalex | On - 2022-09-15T17:51:00Z
+ 18. [5e4..6f5] remove create action | By - rocalex | On - 2022-09-15T17:23:36Z
+ 19. [1b5..2cd] remove metaplex js | By - rocalex | On - 2022-09-14T18:12:17Z
+ 20. [69e..008] constraints for instruction_acc | By - rocalex | On - 2022-09-14T18:00:35Z
+ 21. [d4d..af6] rename royalties | By - rocalex | On - 2022-08-08T02:41:48Z
+ 22. [2cc..59a] add royalties | By - rocalex | On - 2022-08-07T21:29:14Z
+ 23. [aee..92f] fix inline doc | By - rocalex | On - 2022-07-04T13:47:20Z
+ 24. [3ab..976] emit lamports | By - rocalex | On - 2022-06-20T18:55:50Z
+ 25. [a92..545] emit mintWith | By - rocalex | On - 2022-06-19T19:00:19Z
+ 26. [587..354] emit action id | By - rocalex | On - 2022-06-19T18:52:00Z
+ 27. [e18..8ac] add mint to unfreeze data | By - rocalex | On - 2022-06-17T17:04:36Z
+ 28. [43d..adb] add transfer_service_fee_lamports function | By - rocalex | On - 2022-06-14T04:08:17Z
+ 29. [f30..846] add withdraw fees | By - rocalex | On - 2022-06-14T03:57:55Z
+ 30. [188..c0d] transfer service fee to bridge PDA when freeze/withdraw | By - rocalex | On - 2022-06-14T03:37:56Z
+ 31. [a39..e19] remove treasury | By - rocalex | On - 2022-06-14T03:10:57Z
+ 32. [270..782] update mpl-token-metadata version | By - rocalex | On - 2022-06-14T03:05:13Z
+ 33. [91c..617] use PDA as bridge account | By - rocalex | On - 2022-06-13T20:56:10Z
+ 34. [f2f..e83] remove unused imports | By - rocalex | On - 2022-06-13T19:32:44Z
+ 35. [4d5..9bd] emit mint when freeze | By - rocalex | On - 2022-06-13T19:30:50Z
+ 36. [e19..43d] check if receiver is correct | By - rocalex | On - 2022-06-13T19:24:49Z
+ 37. [f35..5f4] change bridge PDA to normal account | By - rocalex | On - 2022-06-13T03:39:07Z
+ 38. [b8b..edd] fix burn | By - rocalex | On - 2022-06-12T19:47:19Z
+ 39. [388..2ec] fix withdraw | By - rocalex | On - 2022-06-12T19:15:10Z
+ 40. [2d4..ab6] change authority | By - rocalex | On - 2022-06-12T15:12:18Z
+ 41. [ce1..75c] remove anchor.web. | By - rocalex | On - 2022-06-12T14:47:17Z
+ 42. [610..592] bridge account as PDA | By - rocalex | On - 2022-06-12T10:12:35Z
+ 43. [848..16e] config the client | By - rocalex | On - 2022-06-12T09:05:54Z
+ 44. [a16..c5f] refactor duplicated methods | By - rocalex | On - 2022-06-10T12:13:01Z
+ 45. [f00..649] Update README.md | By - Dima Brook | On - 2022-06-09T13:37:11Z
+ 46. [116..906] Update README.md | By - Dima Brook | On - 2022-06-09T13:30:41Z
+ 47. [c02..7ff] Update README.md | By - Dima Brook | On - 2022-06-09T13:17:05Z
+ 48. [f9c..49c] Update README.md | By - Dima Brook | On - 2022-06-09T13:05:32Z
+ 49. [823..6f4] Update README.md | By - Dima Brook | On - 2022-06-09T09:17:48Z
+ 50. [cee..78e] Update README.md | By - Dima Brook | On - 2022-06-09T09:05:26Z
 
 ## main
 
 
- 1. [b1b..bd3] first commit | By - irfanullahatozi | On - 2023-02-15T12:57:43Z
+ 1. [b74..641] XpNft: Deployment Script | By - imsk17 | On - 2022-11-21T19:46:52Z
+ 2. [2e1..9aa] Contract: Introduce a Setup Script | By - imsk17 | On - 2022-11-21T18:40:24Z
+ 3. [a7d..b05] update metaplex deps | By - rocalex | On - 2022-11-21T13:07:20Z
+ 4. [9ec..15e] Encoding: Setup Constructors | By - imsk17 | On - 2022-11-21T12:53:45Z
+ 5. [a50..0db] pubkey instead of [u8; 32] | By - rocalex | On - 2022-09-21T12:15:49Z
+ 6. [8e8..14b] custom serialization for creators | By - rocalex | On - 2022-09-21T11:50:37Z
+ 7. [2f3..110] unit tests with borsh error | By - rocalex | On - 2022-09-21T11:27:28Z
+ 8. [efb..b35] remove looping over data.creators | By - rocalex | On - 2022-09-21T10:19:17Z
+ 9. [a59..024] calculate bump off chain | By - rocalex | On - 2022-09-21T08:50:37Z
+ 10. [583..8fc] calculate bump off chain | By - rocalex | On - 2022-09-20T08:40:45Z
+ 11. [880..d6f] check amount | By - rocalex | On - 2022-09-20T08:12:11Z
+ 12. [89f..d6b] Update lib.rs | By - Xueming Zheng | On - 2022-09-19T14:24:02Z
+ 13. [c1e..9d8] change program id | By - rocalex | On - 2022-09-16T12:57:00Z
+ 14. [058..0a3] constrains | By - rocalex | On - 2022-09-15T18:27:24Z
+ 15. [b2b..ab1] require unpause to constraint | By - rocalex | On - 2022-09-15T18:14:15Z
+ 16. [517..8dd] fix TODOs | By - rocalex | On - 2022-09-15T17:51:00Z
+ 17. [5e4..6f5] remove create action | By - rocalex | On - 2022-09-15T17:23:36Z
+ 18. [1b5..2cd] remove metaplex js | By - rocalex | On - 2022-09-14T18:12:17Z
+ 19. [69e..008] constraints for instruction_acc | By - rocalex | On - 2022-09-14T18:00:35Z
+ 20. [d4d..af6] rename royalties | By - rocalex | On - 2022-08-08T02:41:48Z
+ 21. [2cc..59a] add royalties | By - rocalex | On - 2022-08-07T21:29:14Z
+ 22. [aee..92f] fix inline doc | By - rocalex | On - 2022-07-04T13:47:20Z
+ 23. [3ab..976] emit lamports | By - rocalex | On - 2022-06-20T18:55:50Z
+ 24. [a92..545] emit mintWith | By - rocalex | On - 2022-06-19T19:00:19Z
+ 25. [587..354] emit action id | By - rocalex | On - 2022-06-19T18:52:00Z
+ 26. [e18..8ac] add mint to unfreeze data | By - rocalex | On - 2022-06-17T17:04:36Z
+ 27. [43d..adb] add transfer_service_fee_lamports function | By - rocalex | On - 2022-06-14T04:08:17Z
+ 28. [f30..846] add withdraw fees | By - rocalex | On - 2022-06-14T03:57:55Z
+ 29. [188..c0d] transfer service fee to bridge PDA when freeze/withdraw | By - rocalex | On - 2022-06-14T03:37:56Z
+ 30. [a39..e19] remove treasury | By - rocalex | On - 2022-06-14T03:10:57Z
+ 31. [270..782] update mpl-token-metadata version | By - rocalex | On - 2022-06-14T03:05:13Z
+ 32. [91c..617] use PDA as bridge account | By - rocalex | On - 2022-06-13T20:56:10Z
+ 33. [f2f..e83] remove unused imports | By - rocalex | On - 2022-06-13T19:32:44Z
+ 34. [4d5..9bd] emit mint when freeze | By - rocalex | On - 2022-06-13T19:30:50Z
+ 35. [e19..43d] check if receiver is correct | By - rocalex | On - 2022-06-13T19:24:49Z
+ 36. [f35..5f4] change bridge PDA to normal account | By - rocalex | On - 2022-06-13T03:39:07Z
+ 37. [b8b..edd] fix burn | By - rocalex | On - 2022-06-12T19:47:19Z
+ 38. [388..2ec] fix withdraw | By - rocalex | On - 2022-06-12T19:15:10Z
+ 39. [2d4..ab6] change authority | By - rocalex | On - 2022-06-12T15:12:18Z
+ 40. [ce1..75c] remove anchor.web. | By - rocalex | On - 2022-06-12T14:47:17Z
+ 41. [610..592] bridge account as PDA | By - rocalex | On - 2022-06-12T10:12:35Z
+ 42. [848..16e] config the client | By - rocalex | On - 2022-06-12T09:05:54Z
+ 43. [a16..c5f] refactor duplicated methods | By - rocalex | On - 2022-06-10T12:13:01Z
+ 44. [f00..649] Update README.md | By - Dima Brook | On - 2022-06-09T13:37:11Z
+ 45. [116..906] Update README.md | By - Dima Brook | On - 2022-06-09T13:30:41Z
+ 46. [c02..7ff] Update README.md | By - Dima Brook | On - 2022-06-09T13:17:05Z
+ 47. [f9c..49c] Update README.md | By - Dima Brook | On - 2022-06-09T13:05:32Z
+ 48. [823..6f4] Update README.md | By - Dima Brook | On - 2022-06-09T09:17:48Z
+ 49. [cee..78e] Update README.md | By - Dima Brook | On - 2022-06-09T09:05:26Z
+ 50. [7f6..717] Update README.md | By - Dima Brook | On - 2022-06-09T08:58:22Z
+
+# frontend-game-team
+
+## feat/new-design
+
+
+ 1. [47e..e3a] with metadata calling code | By - MRNobody183 | On - 2023-04-20T07:49:56Z
+ 2. [e2b..317] design update | By - Bilal01230 | On - 2023-04-19T04:28:28Z
+ 3. [b3d..e00] search bar | By - Bilal01230 | On - 2023-04-18T09:03:35Z
+ 4. [94f..9fd] star levels added | By - Bilal01230 | On - 2023-04-18T07:20:22Z
+ 5. [6f4..263] character slider update | By - Bilal01230 | On - 2023-04-17T09:22:51Z
+ 6. [e24..eae] update | By - Bilal01230 | On - 2023-04-17T09:14:28Z
+ 7. [66f..18d] ui changes | By - Bilal01230 | On - 2023-04-17T09:14:11Z
+ 8. [a94..549] search bar component | By - Bilal01230 | On - 2023-04-17T07:38:07Z
+ 9. [60f..f47] chest modal added + figma new changes | By - Bilal01230 | On - 2023-04-14T10:12:34Z
+ 10. [a28..9d2] new figma changes implemented | By - Bilal01230 | On - 2023-04-14T07:33:37Z
+ 11. [258..681] update | By - Bilal01230 | On - 2023-04-13T13:29:38Z
+ 12. [b68..eef] new figma button added + design updated a bit | By - Bilal01230 | On - 2023-04-13T13:28:00Z
+ 13. [b7f..4e5] update | By - Bilal01230 | On - 2023-04-13T08:08:12Z
+ 14. [82f..00b] added pics in the quests | By - MRNobody183 | On - 2023-04-12T08:56:29Z
+ 15. [9d8..90c] with the quest functionality | By - MRNobody183 | On - 2023-04-12T08:15:48Z
+ 16. [098..c35] quest UI | By - Bilal01230 | On - 2023-04-12T06:11:52Z
+ 17. [f12..bd8] quests page in-progress | By - Bilal01230 | On - 2023-04-11T20:28:24Z
+ 18. [aef..7df] quest page design in-progress | By - Bilal01230 | On - 2023-04-11T17:35:35Z
+ 19. [86f..304] equip/unequip items pop-up + inventory page responsiveness | By - Bilal01230 | On - 2023-04-11T08:52:34Z
+ 20. [3fb..e19] with authentication | By - MRNobody183 | On - 2023-04-11T06:12:00Z
+ 21. [1c3..9fd] fighters page responsiveness | By - Bilal01230 | On - 2023-04-10T09:22:22Z
+ 22. [a25..ff6] fighters page responsiveness | By - Bilal01230 | On - 2023-04-10T09:21:42Z
+ 23. [5de..577] added more | By - MRNobody183 | On - 2023-04-10T08:01:24Z
+ 24. [e18..859] selected armor Show | By - MRNobody183 | On - 2023-04-10T07:24:24Z
+ 25. [f35..2ce] did push | By - mominhyatkhan | On - 2023-04-07T15:55:35Z
+ 26. [bae..745] fix did | By - mominhyatkhan | On - 2023-04-07T15:13:31Z
+ 27. [5ec..afb] with minting | By - MRNobody183 | On - 2023-04-07T14:45:19Z
+ 28. [b2f..1b9] did fix | By - mominhyatkhan | On - 2023-04-07T14:35:23Z
+ 29. [a5d..4ec] refresh page handling. | By - mominhyatkhan | On - 2023-04-07T14:22:07Z
+ 30. [bf6..467] css modal image and loading div. | By - mominhyatkhan | On - 2023-04-07T14:19:18Z
+ 31. [1e2..c99] equipt issue again | By - mominhyatkhan | On - 2023-04-07T12:19:53Z
+ 32. [c51..bba] Merge branch 'feat/new-design' of https://github.com/XP-NETWORK/frontend-game-team into feat/new-design | By - mominhyatkhan | On - 2023-04-07T12:08:14Z
+ 33. [34a..0d8] Finally! Equipt issue has been resolved | By - mominhyatkhan | On - 2023-04-07T12:07:05Z
+ 34. [b71..b97] reverted | By - MRNobody183 | On - 2023-04-07T12:03:15Z
+ 35. [18f..ee3] dropdown | By - MRNobody183 | On - 2023-04-07T11:51:42Z
+ 36. [a0f..530] added head and weapons | By - MRNobody183 | On - 2023-04-07T11:48:11Z
+ 37. [737..274] Merge branch 'feat/new-design' of https://github.com/XP-NETWORK/frontend-game-team into feat/new-design | By - mominhyatkhan | On - 2023-04-07T11:30:09Z
+ 38. [29b..5bb] equiped sword temp push | By - mominhyatkhan | On - 2023-04-07T11:28:38Z
+ 39. [a73..340] updated frontend design | By - Bilal01230 | On - 2023-04-07T09:03:55Z
+ 40. [c5c..8fc] updated inventory page | By - Bilal01230 | On - 2023-04-06T11:40:33Z
+ 41. [3ab..090] updated design for inventory page | By - Bilal01230 | On - 2023-04-06T11:37:56Z
+ 42. [735..cea] feet(): character from new assets. | By - mominhyatkhan | On - 2023-04-06T09:30:17Z
+ 43. [b99..5d3] updated | By - Bilal01230 | On - 2023-04-06T09:20:39Z
+ 44. [19e..713] design fixes | By - Bilal01230 | On - 2023-04-06T09:07:08Z
+ 45. [0d4..29c] feet(): reloading after transaction confirmed is done . | By - mominhyatkhan | On - 2023-04-06T08:59:15Z
+ 46. [8d4..722] Merge branch 'feat/new-design' of https://github.com/XP-NETWORK/frontend-game-team into feat/new-design | By - mominhyatkhan | On - 2023-04-06T07:02:31Z
+ 47. [de5..e2b] fn(): Item modal grid view | By - mominhyatkhan | On - 2023-04-06T06:58:38Z
+ 48. [c81..8d8] inventory code updated | By - Bilal01230 | On - 2023-04-06T06:55:25Z
+ 49. [c7a..4fe] inventory page updated | By - Bilal01230 | On - 2023-04-06T06:53:18Z
+ 50. [6b4..870] new | By - MRNobody183 | On - 2023-04-06T05:12:52Z
+
+## main
+
+
+ 1. [97f..5bc] update readme | By - tabisharaza | On - 2023-03-16T11:14:49Z
+ 2. [413..e29] upgrade-item-done | By - tabisharaza | On - 2023-03-14T14:10:09Z
+ 3. [874..34a] user cant claim twice for xpnet tokens | By - tabisharaza | On - 2023-03-10T12:52:15Z
+ 4. [daf..4d5] user can claim xpnet tokens from chest rewards | By - tabisharaza | On - 2023-03-09T12:04:28Z
+ 5. [46a..34f] added button for claim xpnet tokens and item | By - tabisharaza | On - 2023-03-08T12:13:34Z
+ 6. [511..af5] refactoring minor | By - tabisharaza | On - 2023-03-06T12:50:44Z
+ 7. [aa3..e8f] MAJOR REFACTORING | By - tabisharaza | On - 2023-03-06T12:29:56Z
+ 8. [b53..c32] MAJOR REFACTORING DONE | By - tabisharaza | On - 2023-03-06T12:03:10Z
+ 9. [9dd..0ca] readme update | By - tabisharaza | On - 2023-03-06T11:53:00Z
+ 10. [249..09c] xptokens upgradeitem | By - tabisharaza | On - 2023-03-01T08:08:52Z
+ 11. [f42..9c9] UPDATE QUEST TIME FROM TESTNET EXPLORER API | By - tabisharaza | On - 2023-02-27T12:48:13Z
+ 12. [dd9..886] new updates | By - tabisharaza | On - 2023-02-24T12:56:34Z
+ 13. [e63..292] testnet added for new character mint and new quest | By - tabisharaza | On - 2023-02-22T14:20:14Z
+ 14. [328..0d5] updated env | By - tabisharaza | On - 2023-02-17T14:03:04Z
+ 15. [eed..36e] no twice rewards for chest | By - TABISH AYUB RAZA | On - 2023-02-14T12:37:11Z
+ 16. [a1d..0ee] popup rewards | By - TABISH AYUB RAZA | On - 2023-02-14T09:19:00Z
+ 17. [a85..15d] user chests and level up | By - TABISH AYUB RAZA | On - 2023-02-10T12:14:05Z
+ 18. [3dc..1c5] api.ts added to store all APIs in one place | By - TABISH AYUB RAZA | On - 2023-02-07T08:20:51Z
+ 19. [8e2..e27] added debounce avoid multiple click button rapidly | By - TABISH AYUB RAZA | On - 2023-02-06T15:17:10Z
+ 20. [fc5..1a8] new | By - TABISH AYUB RAZA | On - 2023-02-06T13:35:56Z
+ 21. [ded..900] filestructure update and redux | By - TABISH AYUB RAZA | On - 2023-02-06T10:34:59Z
+ 22. [1fa..b03] add quest for new minted character | By - TABISH AYUB RAZA | On - 2023-02-02T13:59:47Z
+ 23. [980..220] updated speed for fetching characters | By - TABISH AYUB RAZA | On - 2023-02-02T13:22:36Z
+ 24. [f36..f9a] unequip multiple items & limit 1 equip each type | By - TABISH AYUB RAZA | On - 2023-02-01T13:49:22Z
+ 25. [39e..441] updated multiple equip | By - TABISH AYUB RAZA | On - 2023-02-01T07:58:58Z
+ 26. [9a7..ee4] added character attack and item check for quest | By - TABISH AYUB RAZA | On - 2023-01-27T15:26:48Z
+ 27. [b4e..6f1] updated | By - TABISH AYUB RAZA | On - 2023-01-26T14:45:17Z
+ 28. [8ee..0bf] new | By - tabisharaza@gmail.com | On - 2023-01-24T12:43:20Z
+ 29. [365..797] new | By - tabisharaza@gmail.com | On - 2023-01-24T12:28:35Z
+ 30. [cd3..4f8] walletconnect | By - tabisharaza@gmail.com | On - 2023-01-24T05:50:48Z
+ 31. [2fd..b21] all good for new server https | By - tabisharaza@gmail.com | On - 2023-01-20T15:18:33Z
+ 32. [7c9..93d] new | By - tabisharaza@gmail.com | On - 2023-01-20T05:31:22Z
+ 33. [fe6..b9a] noComments | By - tabisharaza@gmail.com | On - 2023-01-19T14:52:24Z
+ 34. [8c7..8e5] new | By - tabisharaza@gmail.com | On - 2023-01-19T12:45:39Z
+ 35. [939..84a] updated | By - tabisharaza@gmail.com | On - 2023-01-19T12:44:03Z
+ 36. [313..e5f] new | By - tabisharaza@gmail.com | On - 2023-01-19T12:42:42Z
+ 37. [325..556] Merge pull request #4 from Tabisharaza/osamawork2023 | By - TABISH AYUB RAZA | On - 2023-01-19T12:39:52Z
+ 38. [72a..121] new | By - tabisharaza@gmail.com | On - 2023-01-19T12:37:20Z
+ 39. [78d..806] updated | By - Muhammad Osama | On - 2023-01-19T12:36:19Z
+ 40. [1d6..bcb] axiosfix | By - Tabish | On - 2023-01-19T07:19:23Z
+ 41. [2d2..f00] Merge pull request #3 from Tabisharaza/osamawork2023 | By - TABISH AYUB RAZA | On - 2023-01-19T06:02:27Z
+ 42. [83d..40f] new | By - Tabish | On - 2023-01-19T05:58:23Z
+ 43. [8bf..819] updated the work | By - Muhammad Osama | On - 2023-01-19T00:54:02Z
+ 44. [7f9..771] Merge pull request #2 from Tabisharaza/osamawork2023 | By - TABISH AYUB RAZA | On - 2023-01-17T13:03:29Z
+ 45. [630..93d] Updated the Ui according to demand | By - Muhammad Osama | On - 2023-01-17T12:43:36Z
+ 46. [c25..a76] final | By - tabisharaza@gmail.com | On - 2023-01-16T18:38:17Z
+ 47. [b3f..0e0] gh-pages | By - tabisharaza@gmail.com | On - 2023-01-16T18:27:10Z
+ 48. [0c7..7a5] updated | By - tabisharaza@gmail.com | On - 2023-01-16T15:29:04Z
+ 49. [4d5..874] newupdates | By - tabisharaza@gmail.com | On - 2023-01-16T05:33:41Z
+ 50. [223..243] updated | By - Tabish | On - 2023-01-11T12:17:26Z
+
+## wasif-ui-changes
+
+
+ 1. [3f8..a0c] ui changes | By - wasifmuhammad | On - 2023-03-27T06:00:49Z
+ 2. [045..1b6] getting data on selected character screen | By - tabisharaza | On - 2023-03-23T08:41:07Z
+ 3. [301..bf5] selection and background fighters | By - tabisharaza | On - 2023-03-22T12:22:59Z
+ 4. [fec..893] new changes | By - tabisharaza | On - 2023-03-21T12:05:06Z
+ 5. [662..6e2] nometamask error handling | By - tabisharaza | On - 2023-03-21T05:59:47Z
+ 6. [851..c16] headerchanges | By - tabisharaza | On - 2023-03-17T12:50:23Z
+ 7. [dbe..a13] new changes | By - tabisharaza | On - 2023-03-17T12:23:51Z
+ 8. [652..565] new-changes | By - tabisharaza | On - 2023-03-17T11:19:58Z
+ 9. [d77..8b0] changed app name and added fav | By - tabisharaza | On - 2023-03-17T06:36:29Z
+ 10. [da5..1b9] added router and login screen background | By - tabisharaza | On - 2023-03-17T06:17:19Z
+ 11. [8ce..696] readme update feat/new-design | By - tabisharaza | On - 2023-03-16T11:17:27Z
+ 12. [697..200] changed default port to 3002 | By - tabisharaza | On - 2023-03-16T10:37:21Z
+ 13. [5ca..7b2] added utils | By - tabisharaza | On - 2023-03-16T10:28:58Z
+ 14. [b9f..07b] added new project with required dependencies | By - tabisharaza | On - 2023-03-16T10:24:54Z
+ 15. [fe2..88b] Initial | By - tabisharaza | On - 2023-03-16T09:56:09Z
+ 16. [413..e29] upgrade-item-done | By - tabisharaza | On - 2023-03-14T14:10:09Z
+ 17. [874..34a] user cant claim twice for xpnet tokens | By - tabisharaza | On - 2023-03-10T12:52:15Z
+ 18. [daf..4d5] user can claim xpnet tokens from chest rewards | By - tabisharaza | On - 2023-03-09T12:04:28Z
+ 19. [46a..34f] added button for claim xpnet tokens and item | By - tabisharaza | On - 2023-03-08T12:13:34Z
+ 20. [511..af5] refactoring minor | By - tabisharaza | On - 2023-03-06T12:50:44Z
+ 21. [aa3..e8f] MAJOR REFACTORING | By - tabisharaza | On - 2023-03-06T12:29:56Z
+ 22. [b53..c32] MAJOR REFACTORING DONE | By - tabisharaza | On - 2023-03-06T12:03:10Z
+ 23. [9dd..0ca] readme update | By - tabisharaza | On - 2023-03-06T11:53:00Z
+ 24. [249..09c] xptokens upgradeitem | By - tabisharaza | On - 2023-03-01T08:08:52Z
+ 25. [f42..9c9] UPDATE QUEST TIME FROM TESTNET EXPLORER API | By - tabisharaza | On - 2023-02-27T12:48:13Z
+ 26. [dd9..886] new updates | By - tabisharaza | On - 2023-02-24T12:56:34Z
+ 27. [e63..292] testnet added for new character mint and new quest | By - tabisharaza | On - 2023-02-22T14:20:14Z
+ 28. [328..0d5] updated env | By - tabisharaza | On - 2023-02-17T14:03:04Z
+ 29. [eed..36e] no twice rewards for chest | By - TABISH AYUB RAZA | On - 2023-02-14T12:37:11Z
+ 30. [a1d..0ee] popup rewards | By - TABISH AYUB RAZA | On - 2023-02-14T09:19:00Z
+ 31. [a85..15d] user chests and level up | By - TABISH AYUB RAZA | On - 2023-02-10T12:14:05Z
+ 32. [3dc..1c5] api.ts added to store all APIs in one place | By - TABISH AYUB RAZA | On - 2023-02-07T08:20:51Z
+ 33. [8e2..e27] added debounce avoid multiple click button rapidly | By - TABISH AYUB RAZA | On - 2023-02-06T15:17:10Z
+ 34. [fc5..1a8] new | By - TABISH AYUB RAZA | On - 2023-02-06T13:35:56Z
+ 35. [ded..900] filestructure update and redux | By - TABISH AYUB RAZA | On - 2023-02-06T10:34:59Z
+ 36. [1fa..b03] add quest for new minted character | By - TABISH AYUB RAZA | On - 2023-02-02T13:59:47Z
+ 37. [980..220] updated speed for fetching characters | By - TABISH AYUB RAZA | On - 2023-02-02T13:22:36Z
+ 38. [f36..f9a] unequip multiple items & limit 1 equip each type | By - TABISH AYUB RAZA | On - 2023-02-01T13:49:22Z
+ 39. [39e..441] updated multiple equip | By - TABISH AYUB RAZA | On - 2023-02-01T07:58:58Z
+ 40. [9a7..ee4] added character attack and item check for quest | By - TABISH AYUB RAZA | On - 2023-01-27T15:26:48Z
+ 41. [b4e..6f1] updated | By - TABISH AYUB RAZA | On - 2023-01-26T14:45:17Z
+ 42. [8ee..0bf] new | By - tabisharaza@gmail.com | On - 2023-01-24T12:43:20Z
+ 43. [365..797] new | By - tabisharaza@gmail.com | On - 2023-01-24T12:28:35Z
+ 44. [cd3..4f8] walletconnect | By - tabisharaza@gmail.com | On - 2023-01-24T05:50:48Z
+ 45. [2fd..b21] all good for new server https | By - tabisharaza@gmail.com | On - 2023-01-20T15:18:33Z
+ 46. [7c9..93d] new | By - tabisharaza@gmail.com | On - 2023-01-20T05:31:22Z
+ 47. [fe6..b9a] noComments | By - tabisharaza@gmail.com | On - 2023-01-19T14:52:24Z
+ 48. [8c7..8e5] new | By - tabisharaza@gmail.com | On - 2023-01-19T12:45:39Z
+ 49. [939..84a] updated | By - tabisharaza@gmail.com | On - 2023-01-19T12:44:03Z
+ 50. [313..e5f] new | By - tabisharaza@gmail.com | On - 2023-01-19T12:42:42Z
+
+# vechainScript
+
+## master
+
+
+ 1. [c33..690] fix houkizi ipfs | By - Alex Moshinsky | On - 2023-04-19T12:58:47Z
+ 2. [b98..e52] name | By - rony derra | On - 2023-02-07T17:25:07Z
+ 3. [c6b..da4] cryptoPunks | By - rony derra | On - 2023-02-07T10:16:02Z
+ 4. [0f7..62e] rocketMonster | By - rony derra | On - 2023-01-30T08:54:35Z
+ 5. [d07..823] concat | By - rony derra | On - 2023-01-30T08:53:17Z
+ 6. [f7c..f69] rocketMonster | By - rony derra | On - 2023-01-30T08:42:20Z
+ 7. [f49..0ed] exoworldImages | By - rony derra | On - 2022-11-30T10:52:43Z
+ 8. [9e4..149] exoworldImages | By - rony derra | On - 2022-11-30T10:36:20Z
+ 9. [cb5..daa] image format change | By - rony derra | On - 2022-11-29T16:31:01Z
+ 10. [edb..81c] fantase | By - rony derra | On - 2022-11-27T16:35:27Z
+ 11. [c19..464] fantase | By - rony derra | On - 2022-11-27T16:34:49Z
+ 12. [e66..ae0] attr | By - rony derra | On - 2022-11-16T17:19:22Z
+ 13. [74e..a58] if exist | By - rony derra | On - 2022-11-16T16:27:10Z
+ 14. [5b7..67b] formatting | By - rony derra | On - 2022-11-16T16:22:45Z
+ 15. [b5a..ad9] metadata | By - rony derra | On - 2022-11-16T16:20:46Z
+ 16. [c46..f6b] deleted | By - rony derra | On - 2022-11-16T12:59:49Z
+ 17. [a2e..97b] vechain | By - rony derra | On - 2022-11-16T12:50:51Z
+ 18. [e6b..170] abi | By - rony derra | On - 2022-11-15T13:14:19Z
+ 19. [d36..68c] uri | By - rony derra | On - 2022-11-15T12:31:27Z
+ 20. [74e..4ca] first commit | By - rony derra | On - 2022-11-14T09:41:57Z
+
+## vechainUri
+
+
+ 1. [d1d..a86] vechain | By - rony derra | On - 2022-11-15T12:54:50Z
+ 2. [d36..68c] uri | By - rony derra | On - 2022-11-15T12:31:27Z
+ 3. [74e..4ca] first commit | By - rony derra | On - 2022-11-14T09:41:57Z
 
 # sc-verify
 
@@ -4484,6 +6775,114 @@
  49. [120..e4e] switch to io-ts & fp-ts | By - rupansh | On - 2022-03-13T18:54:18Z
  50. [692..ac0] add royalties endpoint | By - rupansh | On - 2022-03-13T18:54:18Z
 
+## feat/AptosRoyalties
+
+
+ 1. [4f8..e67] aptos royalties crud | By - D | On - 2023-04-05T10:14:29Z
+ 2. [1be..bf3] fix error: can't get props of undefined | By - AlexeyAdoniev | On - 2023-04-05T07:12:51Z
+ 3. [45b..fbc] token id can be undefined | By - Alex Moshinsky | On - 2023-04-05T06:20:18Z
+ 4. [44e..1bb] range supprot for list route | By - AlexeyAdoniev | On - 2023-04-03T11:32:05Z
+ 5. [59e..22e] add support for token ranges | By - AlexeyAdoniev | On - 2023-04-03T08:00:41Z
+ 6. [376..d58] Merge pull request #4 from XP-NETWORK/feat/near-royalty-endpoint | By - MuhammadFassihHaider | On - 2023-03-29T13:04:36Z
+ 7. [bdd..663] Revert "refactor(near): add clg stmts" | By - Fassih Haider | On - 2023-03-29T11:44:30Z
+ 8. [2db..e03] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:42:53Z
+ 9. [970..d78] feat(near): add endpoints for near royalties | By - Fassih Haider | On - 2023-03-29T11:18:55Z
+ 10. [39b..243] increase body size limit | By - AlexeyAdoniev | On - 2023-03-26T07:13:06Z
+ 11. [9d4..e64] Merge pull request #3 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-27T07:57:37Z
+ 12. [e17..830] Update package.json | By - awkwardman.dev | On - 2023-02-27T07:57:02Z
+ 13. [f0c..66b] Merge https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Irtisam | On - 2023-02-27T07:54:44Z
+ 14. [1fb..0d0] added route for getting opensea data | By - Irtisam | On - 2023-02-26T08:18:55Z
+ 15. [bf3..3f1] Merge pull request #2 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-20T07:02:10Z
+ 16. [d36..ae8] remove duplicate delete in verify routes | By - Irtisam | On - 2023-02-20T06:55:35Z
+ 17. [1a3..e73] build: remove build error | By - Irtisam | On - 2023-02-16T08:01:12Z
+ 18. [ad9..339] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-16T07:59:23Z
+ 19. [18b..5e5] separate endpoint for unique collections | By - irtisam24 | On - 2023-02-14T11:00:38Z
+ 20. [6c7..035] body validator update | By - Irtisam | On - 2023-02-11T15:56:23Z
+ 21. [e7e..c38] add type for single id sc verify put | By - Irtisam | On - 2023-02-11T15:19:04Z
+ 22. [8e3..cd5] put back the validator for sc verify put | By - Irtisam | On - 2023-02-11T15:15:06Z
+ 23. [0db..944] temp remove body validator fron verify put request | By - Irtisam | On - 2023-02-11T15:07:16Z
+ 24. [a0a..2dd] added routes for ton burner | By - Irtisam | On - 2023-02-11T14:58:48Z
+ 25. [fa2..077] added ton burner recrods reepo and stuff XD | By - Irtisam | On - 2023-02-10T23:01:44Z
+ 26. [afe..f0d] added middleware | By - Irtisam | On - 2023-02-08T15:22:26Z
+ 27. [154..39f] Merge branch 'production' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:27Z
+ 28. [39c..79a] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:14Z
+ 29. [58a..6c9] fix: add actionId for uniqueness | By - Fassih Haider | On - 2023-02-03T14:05:21Z
+ 30. [338..ff8] revert: go back to old solution | By - Fassih Haider | On - 2023-02-03T13:13:17Z
+ 31. [06b..40d] refactor: add debugging code | By - Fassih Haider | On - 2023-02-03T13:09:50Z
+ 32. [818..3e9] refactor: add dummy query for debug | By - Fassih Haider | On - 2023-02-03T13:03:15Z
+ 33. [c8e..2bf] fix: make fixes to finding query in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:57:13Z
+ 34. [bdd..630] fix: make fixes in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:49:24Z
+ 35. [5f0..568] refactor: add clg stmts | By - Fassih Haider | On - 2023-02-03T12:12:36Z
+ 36. [16e..e4c] feat: update create endpoint in verify | By - Fassih Haider | On - 2023-02-03T12:09:59Z
+ 37. [837..5fa] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into deployUpdate | By - Debian | On - 2023-01-10T10:21:46Z
+ 38. [7f4..925] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:19:56Z
+ 39. [184..7f8] added new routes for checkking | By - Debian | On - 2022-12-21T17:50:31Z
+ 40. [63f..d38] mappings: verify: copy list logic | By - imsk17 | On - 2022-10-31T10:36:04Z
+ 41. [f58..ecb] mappings: list: take token ID into consideration | By - imsk17 | On - 2022-10-31T09:33:31Z
+ 42. [e6e..690] null token ids | By - AlexeyAdoniev | On - 2022-09-18T10:25:34Z
+ 43. [db4..ea6] cors allow all, fix error with undefined findOne result | By - AlexeyAdoniev | On - 2022-09-14T12:34:46Z
+ 44. [3f2..2c4] switch back to yarn | By - rupansh | On - 2022-09-06T14:28:33Z
+ 45. [a9b..72f] Allow Number or String | By - imsk17 | On - 2022-08-30T18:03:08Z
+ 46. [f4c..c55] SC Verify: Fix useOriginToken derp | By - imsk17 | On - 2022-08-28T09:13:54Z
+ 47. [e94..16b] Tezos Royalties: Lowercase the SC | By - imsk17 | On - 2022-08-28T09:09:47Z
+ 48. [499..84d] Pop sc from royalties | By - imsk17 | On - 2022-08-26T13:48:33Z
+ 49. [62b..c6c] Pop _id from royalties | By - imsk17 | On - 2022-08-26T13:28:47Z
+ 50. [bf6..2df] Add Tezos Royalties to mikro-orm conf | By - imsk17 | On - 2022-08-26T13:04:38Z
+
+## feat/near-royalty-endpoint
+
+
+ 1. [bdd..663] Revert "refactor(near): add clg stmts" | By - Fassih Haider | On - 2023-03-29T11:44:30Z
+ 2. [2db..e03] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:42:53Z
+ 3. [970..d78] feat(near): add endpoints for near royalties | By - Fassih Haider | On - 2023-03-29T11:18:55Z
+ 4. [39b..243] increase body size limit | By - AlexeyAdoniev | On - 2023-03-26T07:13:06Z
+ 5. [9d4..e64] Merge pull request #3 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-27T07:57:37Z
+ 6. [e17..830] Update package.json | By - awkwardman.dev | On - 2023-02-27T07:57:02Z
+ 7. [f0c..66b] Merge https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Irtisam | On - 2023-02-27T07:54:44Z
+ 8. [1fb..0d0] added route for getting opensea data | By - Irtisam | On - 2023-02-26T08:18:55Z
+ 9. [bf3..3f1] Merge pull request #2 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-20T07:02:10Z
+ 10. [d36..ae8] remove duplicate delete in verify routes | By - Irtisam | On - 2023-02-20T06:55:35Z
+ 11. [1a3..e73] build: remove build error | By - Irtisam | On - 2023-02-16T08:01:12Z
+ 12. [ad9..339] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-16T07:59:23Z
+ 13. [18b..5e5] separate endpoint for unique collections | By - irtisam24 | On - 2023-02-14T11:00:38Z
+ 14. [6c7..035] body validator update | By - Irtisam | On - 2023-02-11T15:56:23Z
+ 15. [e7e..c38] add type for single id sc verify put | By - Irtisam | On - 2023-02-11T15:19:04Z
+ 16. [8e3..cd5] put back the validator for sc verify put | By - Irtisam | On - 2023-02-11T15:15:06Z
+ 17. [0db..944] temp remove body validator fron verify put request | By - Irtisam | On - 2023-02-11T15:07:16Z
+ 18. [a0a..2dd] added routes for ton burner | By - Irtisam | On - 2023-02-11T14:58:48Z
+ 19. [fa2..077] added ton burner recrods reepo and stuff XD | By - Irtisam | On - 2023-02-10T23:01:44Z
+ 20. [afe..f0d] added middleware | By - Irtisam | On - 2023-02-08T15:22:26Z
+ 21. [154..39f] Merge branch 'production' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:27Z
+ 22. [39c..79a] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:14Z
+ 23. [58a..6c9] fix: add actionId for uniqueness | By - Fassih Haider | On - 2023-02-03T14:05:21Z
+ 24. [338..ff8] revert: go back to old solution | By - Fassih Haider | On - 2023-02-03T13:13:17Z
+ 25. [06b..40d] refactor: add debugging code | By - Fassih Haider | On - 2023-02-03T13:09:50Z
+ 26. [818..3e9] refactor: add dummy query for debug | By - Fassih Haider | On - 2023-02-03T13:03:15Z
+ 27. [c8e..2bf] fix: make fixes to finding query in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:57:13Z
+ 28. [bdd..630] fix: make fixes in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:49:24Z
+ 29. [5f0..568] refactor: add clg stmts | By - Fassih Haider | On - 2023-02-03T12:12:36Z
+ 30. [16e..e4c] feat: update create endpoint in verify | By - Fassih Haider | On - 2023-02-03T12:09:59Z
+ 31. [837..5fa] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into deployUpdate | By - Debian | On - 2023-01-10T10:21:46Z
+ 32. [7f4..925] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:19:56Z
+ 33. [184..7f8] added new routes for checkking | By - Debian | On - 2022-12-21T17:50:31Z
+ 34. [63f..d38] mappings: verify: copy list logic | By - imsk17 | On - 2022-10-31T10:36:04Z
+ 35. [f58..ecb] mappings: list: take token ID into consideration | By - imsk17 | On - 2022-10-31T09:33:31Z
+ 36. [e6e..690] null token ids | By - AlexeyAdoniev | On - 2022-09-18T10:25:34Z
+ 37. [db4..ea6] cors allow all, fix error with undefined findOne result | By - AlexeyAdoniev | On - 2022-09-14T12:34:46Z
+ 38. [3f2..2c4] switch back to yarn | By - rupansh | On - 2022-09-06T14:28:33Z
+ 39. [a9b..72f] Allow Number or String | By - imsk17 | On - 2022-08-30T18:03:08Z
+ 40. [f4c..c55] SC Verify: Fix useOriginToken derp | By - imsk17 | On - 2022-08-28T09:13:54Z
+ 41. [e94..16b] Tezos Royalties: Lowercase the SC | By - imsk17 | On - 2022-08-28T09:09:47Z
+ 42. [499..84d] Pop sc from royalties | By - imsk17 | On - 2022-08-26T13:48:33Z
+ 43. [62b..c6c] Pop _id from royalties | By - imsk17 | On - 2022-08-26T13:28:47Z
+ 44. [bf6..2df] Add Tezos Royalties to mikro-orm conf | By - imsk17 | On - 2022-08-26T13:04:38Z
+ 45. [975..f35] Pin TS Version | By - imsk17 | On - 2022-08-26T10:17:56Z
+ 46. [9de..972] Add Tezos Royalties Repo | By - imsk17 | On - 2022-08-26T10:17:11Z
+ 47. [db5..6b1] Migrate to pnpm | By - imsk17 | On - 2022-08-25T13:22:41Z
+ 48. [e85..efd] sc-allowed: isWrapped: fix searching | By - rupansh | On - 2022-08-18T17:25:49Z
+ 49. [d3b..6e0] fix length token | By - Alex Moshinsky | On - 2022-08-17T09:07:38Z
+ 50. [5a5..e31] repos: sc-allowed: use case insensitive search for `useOriginToken` | By - rupansh | On - 2022-08-05T18:08:04Z
+
 ## feat/solana-auto-deployment
 
 
@@ -4537,6 +6936,114 @@
  48. [326..8ba] removed auth | By - Ruby Edelstein | On - 2022-07-19T12:14:34Z
  49. [132..cf8] default-sc: fix minor derp | By - rupansh | On - 2022-07-18T15:06:22Z
  50. [873..a07] routes: default: remove read requirement | By - rupansh | On - 2022-07-18T12:46:20Z
+
+## feat/solana-royalties
+
+
+ 1. [2c2..902] Merge branch 'production' of https://github.com/XP-NETWORK/sc-verify into feat/solana-royalties | By - Fassih Haider | On - 2023-04-06T08:05:35Z
+ 2. [5a2..152] refactor(solana): add auth check back | By - Fassih Haider | On - 2023-04-06T07:57:38Z
+ 3. [145..09b] feat: add royalty endpoints for solana | By - Fassih Haider | On - 2023-04-06T06:59:17Z
+ 4. [4f8..e67] aptos royalties crud | By - D | On - 2023-04-05T10:14:29Z
+ 5. [1be..bf3] fix error: can't get props of undefined | By - AlexeyAdoniev | On - 2023-04-05T07:12:51Z
+ 6. [3ba..77c] token id can be undefined | By - Alex Moshinsky | On - 2023-04-05T06:32:49Z
+ 7. [45b..fbc] token id can be undefined | By - Alex Moshinsky | On - 2023-04-05T06:20:18Z
+ 8. [44e..1bb] range supprot for list route | By - AlexeyAdoniev | On - 2023-04-03T11:32:05Z
+ 9. [59e..22e] add support for token ranges | By - AlexeyAdoniev | On - 2023-04-03T08:00:41Z
+ 10. [376..d58] Merge pull request #4 from XP-NETWORK/feat/near-royalty-endpoint | By - MuhammadFassihHaider | On - 2023-03-29T13:04:36Z
+ 11. [bdd..663] Revert "refactor(near): add clg stmts" | By - Fassih Haider | On - 2023-03-29T11:44:30Z
+ 12. [2db..e03] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:42:53Z
+ 13. [970..d78] feat(near): add endpoints for near royalties | By - Fassih Haider | On - 2023-03-29T11:18:55Z
+ 14. [39b..243] increase body size limit | By - AlexeyAdoniev | On - 2023-03-26T07:13:06Z
+ 15. [9d4..e64] Merge pull request #3 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-27T07:57:37Z
+ 16. [e17..830] Update package.json | By - awkwardman.dev | On - 2023-02-27T07:57:02Z
+ 17. [f0c..66b] Merge https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Irtisam | On - 2023-02-27T07:54:44Z
+ 18. [1fb..0d0] added route for getting opensea data | By - Irtisam | On - 2023-02-26T08:18:55Z
+ 19. [bf3..3f1] Merge pull request #2 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-20T07:02:10Z
+ 20. [d36..ae8] remove duplicate delete in verify routes | By - Irtisam | On - 2023-02-20T06:55:35Z
+ 21. [1a3..e73] build: remove build error | By - Irtisam | On - 2023-02-16T08:01:12Z
+ 22. [ad9..339] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-16T07:59:23Z
+ 23. [18b..5e5] separate endpoint for unique collections | By - irtisam24 | On - 2023-02-14T11:00:38Z
+ 24. [6c7..035] body validator update | By - Irtisam | On - 2023-02-11T15:56:23Z
+ 25. [e7e..c38] add type for single id sc verify put | By - Irtisam | On - 2023-02-11T15:19:04Z
+ 26. [8e3..cd5] put back the validator for sc verify put | By - Irtisam | On - 2023-02-11T15:15:06Z
+ 27. [0db..944] temp remove body validator fron verify put request | By - Irtisam | On - 2023-02-11T15:07:16Z
+ 28. [a0a..2dd] added routes for ton burner | By - Irtisam | On - 2023-02-11T14:58:48Z
+ 29. [fa2..077] added ton burner recrods reepo and stuff XD | By - Irtisam | On - 2023-02-10T23:01:44Z
+ 30. [afe..f0d] added middleware | By - Irtisam | On - 2023-02-08T15:22:26Z
+ 31. [154..39f] Merge branch 'production' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:27Z
+ 32. [39c..79a] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:14Z
+ 33. [58a..6c9] fix: add actionId for uniqueness | By - Fassih Haider | On - 2023-02-03T14:05:21Z
+ 34. [338..ff8] revert: go back to old solution | By - Fassih Haider | On - 2023-02-03T13:13:17Z
+ 35. [06b..40d] refactor: add debugging code | By - Fassih Haider | On - 2023-02-03T13:09:50Z
+ 36. [818..3e9] refactor: add dummy query for debug | By - Fassih Haider | On - 2023-02-03T13:03:15Z
+ 37. [c8e..2bf] fix: make fixes to finding query in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:57:13Z
+ 38. [bdd..630] fix: make fixes in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:49:24Z
+ 39. [5f0..568] refactor: add clg stmts | By - Fassih Haider | On - 2023-02-03T12:12:36Z
+ 40. [16e..e4c] feat: update create endpoint in verify | By - Fassih Haider | On - 2023-02-03T12:09:59Z
+ 41. [837..5fa] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into deployUpdate | By - Debian | On - 2023-01-10T10:21:46Z
+ 42. [7f4..925] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:19:56Z
+ 43. [184..7f8] added new routes for checkking | By - Debian | On - 2022-12-21T17:50:31Z
+ 44. [63f..d38] mappings: verify: copy list logic | By - imsk17 | On - 2022-10-31T10:36:04Z
+ 45. [f58..ecb] mappings: list: take token ID into consideration | By - imsk17 | On - 2022-10-31T09:33:31Z
+ 46. [e6e..690] null token ids | By - AlexeyAdoniev | On - 2022-09-18T10:25:34Z
+ 47. [db4..ea6] cors allow all, fix error with undefined findOne result | By - AlexeyAdoniev | On - 2022-09-14T12:34:46Z
+ 48. [3f2..2c4] switch back to yarn | By - rupansh | On - 2022-09-06T14:28:33Z
+ 49. [a9b..72f] Allow Number or String | By - imsk17 | On - 2022-08-30T18:03:08Z
+ 50. [f4c..c55] SC Verify: Fix useOriginToken derp | By - imsk17 | On - 2022-08-28T09:13:54Z
+
+## hotfix
+
+
+ 1. [376..d58] Merge pull request #4 from XP-NETWORK/feat/near-royalty-endpoint | By - MuhammadFassihHaider | On - 2023-03-29T13:04:36Z
+ 2. [bdd..663] Revert "refactor(near): add clg stmts" | By - Fassih Haider | On - 2023-03-29T11:44:30Z
+ 3. [2db..e03] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:42:53Z
+ 4. [970..d78] feat(near): add endpoints for near royalties | By - Fassih Haider | On - 2023-03-29T11:18:55Z
+ 5. [39b..243] increase body size limit | By - AlexeyAdoniev | On - 2023-03-26T07:13:06Z
+ 6. [9d4..e64] Merge pull request #3 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-27T07:57:37Z
+ 7. [e17..830] Update package.json | By - awkwardman.dev | On - 2023-02-27T07:57:02Z
+ 8. [f0c..66b] Merge https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Irtisam | On - 2023-02-27T07:54:44Z
+ 9. [1fb..0d0] added route for getting opensea data | By - Irtisam | On - 2023-02-26T08:18:55Z
+ 10. [bf3..3f1] Merge pull request #2 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-20T07:02:10Z
+ 11. [d36..ae8] remove duplicate delete in verify routes | By - Irtisam | On - 2023-02-20T06:55:35Z
+ 12. [1a3..e73] build: remove build error | By - Irtisam | On - 2023-02-16T08:01:12Z
+ 13. [ad9..339] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-16T07:59:23Z
+ 14. [18b..5e5] separate endpoint for unique collections | By - irtisam24 | On - 2023-02-14T11:00:38Z
+ 15. [6c7..035] body validator update | By - Irtisam | On - 2023-02-11T15:56:23Z
+ 16. [e7e..c38] add type for single id sc verify put | By - Irtisam | On - 2023-02-11T15:19:04Z
+ 17. [8e3..cd5] put back the validator for sc verify put | By - Irtisam | On - 2023-02-11T15:15:06Z
+ 18. [0db..944] temp remove body validator fron verify put request | By - Irtisam | On - 2023-02-11T15:07:16Z
+ 19. [a0a..2dd] added routes for ton burner | By - Irtisam | On - 2023-02-11T14:58:48Z
+ 20. [fa2..077] added ton burner recrods reepo and stuff XD | By - Irtisam | On - 2023-02-10T23:01:44Z
+ 21. [afe..f0d] added middleware | By - Irtisam | On - 2023-02-08T15:22:26Z
+ 22. [154..39f] Merge branch 'production' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:27Z
+ 23. [39c..79a] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:14Z
+ 24. [58a..6c9] fix: add actionId for uniqueness | By - Fassih Haider | On - 2023-02-03T14:05:21Z
+ 25. [338..ff8] revert: go back to old solution | By - Fassih Haider | On - 2023-02-03T13:13:17Z
+ 26. [06b..40d] refactor: add debugging code | By - Fassih Haider | On - 2023-02-03T13:09:50Z
+ 27. [818..3e9] refactor: add dummy query for debug | By - Fassih Haider | On - 2023-02-03T13:03:15Z
+ 28. [c8e..2bf] fix: make fixes to finding query in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:57:13Z
+ 29. [bdd..630] fix: make fixes in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:49:24Z
+ 30. [5f0..568] refactor: add clg stmts | By - Fassih Haider | On - 2023-02-03T12:12:36Z
+ 31. [16e..e4c] feat: update create endpoint in verify | By - Fassih Haider | On - 2023-02-03T12:09:59Z
+ 32. [837..5fa] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into deployUpdate | By - Debian | On - 2023-01-10T10:21:46Z
+ 33. [7f4..925] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:19:56Z
+ 34. [184..7f8] added new routes for checkking | By - Debian | On - 2022-12-21T17:50:31Z
+ 35. [63f..d38] mappings: verify: copy list logic | By - imsk17 | On - 2022-10-31T10:36:04Z
+ 36. [f58..ecb] mappings: list: take token ID into consideration | By - imsk17 | On - 2022-10-31T09:33:31Z
+ 37. [e6e..690] null token ids | By - AlexeyAdoniev | On - 2022-09-18T10:25:34Z
+ 38. [db4..ea6] cors allow all, fix error with undefined findOne result | By - AlexeyAdoniev | On - 2022-09-14T12:34:46Z
+ 39. [3f2..2c4] switch back to yarn | By - rupansh | On - 2022-09-06T14:28:33Z
+ 40. [a9b..72f] Allow Number or String | By - imsk17 | On - 2022-08-30T18:03:08Z
+ 41. [f4c..c55] SC Verify: Fix useOriginToken derp | By - imsk17 | On - 2022-08-28T09:13:54Z
+ 42. [e94..16b] Tezos Royalties: Lowercase the SC | By - imsk17 | On - 2022-08-28T09:09:47Z
+ 43. [499..84d] Pop sc from royalties | By - imsk17 | On - 2022-08-26T13:48:33Z
+ 44. [62b..c6c] Pop _id from royalties | By - imsk17 | On - 2022-08-26T13:28:47Z
+ 45. [bf6..2df] Add Tezos Royalties to mikro-orm conf | By - imsk17 | On - 2022-08-26T13:04:38Z
+ 46. [975..f35] Pin TS Version | By - imsk17 | On - 2022-08-26T10:17:56Z
+ 47. [9de..972] Add Tezos Royalties Repo | By - imsk17 | On - 2022-08-26T10:17:11Z
+ 48. [db5..6b1] Migrate to pnpm | By - imsk17 | On - 2022-08-25T13:22:41Z
+ 49. [e85..efd] sc-allowed: isWrapped: fix searching | By - rupansh | On - 2022-08-18T17:25:49Z
+ 50. [d3b..6e0] fix length token | By - Alex Moshinsky | On - 2022-08-17T09:07:38Z
 
 ## lowercase-list
 
@@ -4595,56 +7102,56 @@
 ## master
 
 
- 1. [9d4..e64] Merge pull request #3 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-27T07:57:37Z
- 2. [e17..830] Update package.json | By - awkwardman.dev | On - 2023-02-27T07:57:02Z
- 3. [f0c..66b] Merge https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Irtisam | On - 2023-02-27T07:54:44Z
- 4. [1fb..0d0] added route for getting opensea data | By - Irtisam | On - 2023-02-26T08:18:55Z
- 5. [bf3..3f1] Merge pull request #2 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-20T07:02:10Z
- 6. [d36..ae8] remove duplicate delete in verify routes | By - Irtisam | On - 2023-02-20T06:55:35Z
- 7. [1a3..e73] build: remove build error | By - Irtisam | On - 2023-02-16T08:01:12Z
- 8. [ad9..339] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-16T07:59:23Z
- 9. [18b..5e5] separate endpoint for unique collections | By - irtisam24 | On - 2023-02-14T11:00:38Z
- 10. [6c7..035] body validator update | By - Irtisam | On - 2023-02-11T15:56:23Z
- 11. [e7e..c38] add type for single id sc verify put | By - Irtisam | On - 2023-02-11T15:19:04Z
- 12. [8e3..cd5] put back the validator for sc verify put | By - Irtisam | On - 2023-02-11T15:15:06Z
- 13. [0db..944] temp remove body validator fron verify put request | By - Irtisam | On - 2023-02-11T15:07:16Z
- 14. [a0a..2dd] added routes for ton burner | By - Irtisam | On - 2023-02-11T14:58:48Z
- 15. [fa2..077] added ton burner recrods reepo and stuff XD | By - Irtisam | On - 2023-02-10T23:01:44Z
- 16. [afe..f0d] added middleware | By - Irtisam | On - 2023-02-08T15:22:26Z
- 17. [154..39f] Merge branch 'production' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:27Z
- 18. [39c..79a] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:14Z
- 19. [58a..6c9] fix: add actionId for uniqueness | By - Fassih Haider | On - 2023-02-03T14:05:21Z
- 20. [338..ff8] revert: go back to old solution | By - Fassih Haider | On - 2023-02-03T13:13:17Z
- 21. [06b..40d] refactor: add debugging code | By - Fassih Haider | On - 2023-02-03T13:09:50Z
- 22. [818..3e9] refactor: add dummy query for debug | By - Fassih Haider | On - 2023-02-03T13:03:15Z
- 23. [c8e..2bf] fix: make fixes to finding query in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:57:13Z
- 24. [bdd..630] fix: make fixes in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:49:24Z
- 25. [5f0..568] refactor: add clg stmts | By - Fassih Haider | On - 2023-02-03T12:12:36Z
- 26. [16e..e4c] feat: update create endpoint in verify | By - Fassih Haider | On - 2023-02-03T12:09:59Z
- 27. [837..5fa] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into deployUpdate | By - Debian | On - 2023-01-10T10:21:46Z
- 28. [7f4..925] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:19:56Z
- 29. [184..7f8] added new routes for checkking | By - Debian | On - 2022-12-21T17:50:31Z
- 30. [63f..d38] mappings: verify: copy list logic | By - imsk17 | On - 2022-10-31T10:36:04Z
- 31. [f58..ecb] mappings: list: take token ID into consideration | By - imsk17 | On - 2022-10-31T09:33:31Z
- 32. [e6e..690] null token ids | By - AlexeyAdoniev | On - 2022-09-18T10:25:34Z
- 33. [db4..ea6] cors allow all, fix error with undefined findOne result | By - AlexeyAdoniev | On - 2022-09-14T12:34:46Z
- 34. [3f2..2c4] switch back to yarn | By - rupansh | On - 2022-09-06T14:28:33Z
- 35. [a9b..72f] Allow Number or String | By - imsk17 | On - 2022-08-30T18:03:08Z
- 36. [f4c..c55] SC Verify: Fix useOriginToken derp | By - imsk17 | On - 2022-08-28T09:13:54Z
- 37. [e94..16b] Tezos Royalties: Lowercase the SC | By - imsk17 | On - 2022-08-28T09:09:47Z
- 38. [499..84d] Pop sc from royalties | By - imsk17 | On - 2022-08-26T13:48:33Z
- 39. [62b..c6c] Pop _id from royalties | By - imsk17 | On - 2022-08-26T13:28:47Z
- 40. [bf6..2df] Add Tezos Royalties to mikro-orm conf | By - imsk17 | On - 2022-08-26T13:04:38Z
- 41. [975..f35] Pin TS Version | By - imsk17 | On - 2022-08-26T10:17:56Z
- 42. [9de..972] Add Tezos Royalties Repo | By - imsk17 | On - 2022-08-26T10:17:11Z
- 43. [db5..6b1] Migrate to pnpm | By - imsk17 | On - 2022-08-25T13:22:41Z
- 44. [e85..efd] sc-allowed: isWrapped: fix searching | By - rupansh | On - 2022-08-18T17:25:49Z
- 45. [d3b..6e0] fix length token | By - Alex Moshinsky | On - 2022-08-17T09:07:38Z
- 46. [5a5..e31] repos: sc-allowed: use case insensitive search for `useOriginToken` | By - rupansh | On - 2022-08-05T18:08:04Z
- 47. [7a9..4ba] sc-allowed: add param to check usage of origin | By - rupansh | On - 2022-08-05T18:08:04Z
- 48. [6d1..27a] ScAllowedDto: Handle Undefined TokenIDs | By - imsk17 | On - 2022-07-26T17:52:20Z
- 49. [326..8ba] removed auth | By - Ruby Edelstein | On - 2022-07-19T12:14:34Z
- 50. [132..cf8] default-sc: fix minor derp | By - rupansh | On - 2022-07-18T15:06:22Z
+ 1. [1be..bf3] fix error: can't get props of undefined | By - AlexeyAdoniev | On - 2023-04-05T07:12:51Z
+ 2. [45b..fbc] token id can be undefined | By - Alex Moshinsky | On - 2023-04-05T06:20:18Z
+ 3. [44e..1bb] range supprot for list route | By - AlexeyAdoniev | On - 2023-04-03T11:32:05Z
+ 4. [59e..22e] add support for token ranges | By - AlexeyAdoniev | On - 2023-04-03T08:00:41Z
+ 5. [376..d58] Merge pull request #4 from XP-NETWORK/feat/near-royalty-endpoint | By - MuhammadFassihHaider | On - 2023-03-29T13:04:36Z
+ 6. [bdd..663] Revert "refactor(near): add clg stmts" | By - Fassih Haider | On - 2023-03-29T11:44:30Z
+ 7. [2db..e03] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:42:53Z
+ 8. [970..d78] feat(near): add endpoints for near royalties | By - Fassih Haider | On - 2023-03-29T11:18:55Z
+ 9. [39b..243] increase body size limit | By - AlexeyAdoniev | On - 2023-03-26T07:13:06Z
+ 10. [9d4..e64] Merge pull request #3 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-27T07:57:37Z
+ 11. [e17..830] Update package.json | By - awkwardman.dev | On - 2023-02-27T07:57:02Z
+ 12. [f0c..66b] Merge https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Irtisam | On - 2023-02-27T07:54:44Z
+ 13. [1fb..0d0] added route for getting opensea data | By - Irtisam | On - 2023-02-26T08:18:55Z
+ 14. [bf3..3f1] Merge pull request #2 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-20T07:02:10Z
+ 15. [d36..ae8] remove duplicate delete in verify routes | By - Irtisam | On - 2023-02-20T06:55:35Z
+ 16. [1a3..e73] build: remove build error | By - Irtisam | On - 2023-02-16T08:01:12Z
+ 17. [ad9..339] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-16T07:59:23Z
+ 18. [18b..5e5] separate endpoint for unique collections | By - irtisam24 | On - 2023-02-14T11:00:38Z
+ 19. [6c7..035] body validator update | By - Irtisam | On - 2023-02-11T15:56:23Z
+ 20. [e7e..c38] add type for single id sc verify put | By - Irtisam | On - 2023-02-11T15:19:04Z
+ 21. [8e3..cd5] put back the validator for sc verify put | By - Irtisam | On - 2023-02-11T15:15:06Z
+ 22. [0db..944] temp remove body validator fron verify put request | By - Irtisam | On - 2023-02-11T15:07:16Z
+ 23. [a0a..2dd] added routes for ton burner | By - Irtisam | On - 2023-02-11T14:58:48Z
+ 24. [fa2..077] added ton burner recrods reepo and stuff XD | By - Irtisam | On - 2023-02-10T23:01:44Z
+ 25. [afe..f0d] added middleware | By - Irtisam | On - 2023-02-08T15:22:26Z
+ 26. [154..39f] Merge branch 'production' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:27Z
+ 27. [39c..79a] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:14Z
+ 28. [58a..6c9] fix: add actionId for uniqueness | By - Fassih Haider | On - 2023-02-03T14:05:21Z
+ 29. [338..ff8] revert: go back to old solution | By - Fassih Haider | On - 2023-02-03T13:13:17Z
+ 30. [06b..40d] refactor: add debugging code | By - Fassih Haider | On - 2023-02-03T13:09:50Z
+ 31. [818..3e9] refactor: add dummy query for debug | By - Fassih Haider | On - 2023-02-03T13:03:15Z
+ 32. [c8e..2bf] fix: make fixes to finding query in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:57:13Z
+ 33. [bdd..630] fix: make fixes in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:49:24Z
+ 34. [5f0..568] refactor: add clg stmts | By - Fassih Haider | On - 2023-02-03T12:12:36Z
+ 35. [16e..e4c] feat: update create endpoint in verify | By - Fassih Haider | On - 2023-02-03T12:09:59Z
+ 36. [837..5fa] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into deployUpdate | By - Debian | On - 2023-01-10T10:21:46Z
+ 37. [7f4..925] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:19:56Z
+ 38. [184..7f8] added new routes for checkking | By - Debian | On - 2022-12-21T17:50:31Z
+ 39. [63f..d38] mappings: verify: copy list logic | By - imsk17 | On - 2022-10-31T10:36:04Z
+ 40. [f58..ecb] mappings: list: take token ID into consideration | By - imsk17 | On - 2022-10-31T09:33:31Z
+ 41. [e6e..690] null token ids | By - AlexeyAdoniev | On - 2022-09-18T10:25:34Z
+ 42. [db4..ea6] cors allow all, fix error with undefined findOne result | By - AlexeyAdoniev | On - 2022-09-14T12:34:46Z
+ 43. [3f2..2c4] switch back to yarn | By - rupansh | On - 2022-09-06T14:28:33Z
+ 44. [a9b..72f] Allow Number or String | By - imsk17 | On - 2022-08-30T18:03:08Z
+ 45. [f4c..c55] SC Verify: Fix useOriginToken derp | By - imsk17 | On - 2022-08-28T09:13:54Z
+ 46. [e94..16b] Tezos Royalties: Lowercase the SC | By - imsk17 | On - 2022-08-28T09:09:47Z
+ 47. [499..84d] Pop sc from royalties | By - imsk17 | On - 2022-08-26T13:48:33Z
+ 48. [62b..c6c] Pop _id from royalties | By - imsk17 | On - 2022-08-26T13:28:47Z
+ 49. [bf6..2df] Add Tezos Royalties to mikro-orm conf | By - imsk17 | On - 2022-08-26T13:04:38Z
+ 50. [975..f35] Pin TS Version | By - imsk17 | On - 2022-08-26T10:17:56Z
 
 ## produ
 
@@ -4703,56 +7210,56 @@
 ## production
 
 
- 1. [837..5fa] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into deployUpdate | By - Debian | On - 2023-01-10T10:21:46Z
- 2. [7f4..925] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:19:56Z
- 3. [184..7f8] added new routes for checkking | By - Debian | On - 2022-12-21T17:50:31Z
- 4. [63f..d38] mappings: verify: copy list logic | By - imsk17 | On - 2022-10-31T10:36:04Z
- 5. [f58..ecb] mappings: list: take token ID into consideration | By - imsk17 | On - 2022-10-31T09:33:31Z
- 6. [e6e..690] null token ids | By - AlexeyAdoniev | On - 2022-09-18T10:25:34Z
- 7. [db4..ea6] cors allow all, fix error with undefined findOne result | By - AlexeyAdoniev | On - 2022-09-14T12:34:46Z
- 8. [3f2..2c4] switch back to yarn | By - rupansh | On - 2022-09-06T14:28:33Z
- 9. [a9b..72f] Allow Number or String | By - imsk17 | On - 2022-08-30T18:03:08Z
- 10. [f4c..c55] SC Verify: Fix useOriginToken derp | By - imsk17 | On - 2022-08-28T09:13:54Z
- 11. [e94..16b] Tezos Royalties: Lowercase the SC | By - imsk17 | On - 2022-08-28T09:09:47Z
- 12. [499..84d] Pop sc from royalties | By - imsk17 | On - 2022-08-26T13:48:33Z
- 13. [62b..c6c] Pop _id from royalties | By - imsk17 | On - 2022-08-26T13:28:47Z
- 14. [bf6..2df] Add Tezos Royalties to mikro-orm conf | By - imsk17 | On - 2022-08-26T13:04:38Z
- 15. [975..f35] Pin TS Version | By - imsk17 | On - 2022-08-26T10:17:56Z
- 16. [9de..972] Add Tezos Royalties Repo | By - imsk17 | On - 2022-08-26T10:17:11Z
- 17. [db5..6b1] Migrate to pnpm | By - imsk17 | On - 2022-08-25T13:22:41Z
- 18. [e85..efd] sc-allowed: isWrapped: fix searching | By - rupansh | On - 2022-08-18T17:25:49Z
- 19. [d3b..6e0] fix length token | By - Alex Moshinsky | On - 2022-08-17T09:07:38Z
- 20. [5a5..e31] repos: sc-allowed: use case insensitive search for `useOriginToken` | By - rupansh | On - 2022-08-05T18:08:04Z
- 21. [7a9..4ba] sc-allowed: add param to check usage of origin | By - rupansh | On - 2022-08-05T18:08:04Z
- 22. [6d1..27a] ScAllowedDto: Handle Undefined TokenIDs | By - imsk17 | On - 2022-07-26T17:52:20Z
- 23. [326..8ba] removed auth | By - Ruby Edelstein | On - 2022-07-19T12:14:34Z
- 24. [132..cf8] default-sc: fix minor derp | By - rupansh | On - 2022-07-18T15:06:22Z
- 25. [873..a07] routes: default: remove read requirement | By - rupansh | On - 2022-07-18T12:46:20Z
- 26. [65e..c9e] routes: verify: remove auth requirement for checking mintWith | By - rupansh | On - 2022-07-18T12:28:47Z
- 27. [8ff..769] Revert "fix .toLowerCase() issue" | By - rupansh | On - 2022-07-17T14:22:33Z
- 28. [969..5df] Merge pull request #1 from XP-NETWORK/lowercase-list | By - VKint | On - 2022-07-04T14:15:58Z
- 29. [ee7..8cc] list remove duplicated | By - Alex Moshinsky | On - 2022-07-04T13:21:10Z
- 30. [c6d..32a] add regex to list request | By - Alex Moshinsky | On - 2022-07-04T12:25:16Z
- 31. [610..7c5] to lower case list request from | By - Alex Moshinsky | On - 2022-07-04T12:05:16Z
- 32. [914..256] fix .toLowerCase() issue | By - Dima Brook | On - 2022-07-04T09:24:47Z
- 33. [218..1a1] sc-allowed: db: fix minor derps | By - rupansh | On - 2022-06-17T18:26:21Z
- 34. [1c0..b47] repos: sc-allowed: minor fixes | By - rupansh | On - 2022-06-13T16:07:58Z
- 35. [920..623] Revert "remove .toLowerCase()" | By - rupansh | On - 2022-06-13T15:55:54Z
- 36. [88c..99a] remove .toLowerCase() | By - Dima Brook | On - 2022-06-12T15:00:08Z
- 37. [588..c73] req: DefaultReq: mark tokenId as optional | By - rupansh | On - 2022-06-10T14:11:54Z
- 38. [a24..bbb] repos: default-sc: use ScAllowedDto to get defaultMintWith | By - rupansh | On - 2022-06-10T14:09:48Z
- 39. [3c7..f2a] routes: default: add debug log for default sc | By - rupansh | On - 2022-06-10T13:24:06Z
- 40. [b18..140] add dirty hacks to ignore case | By - rupansh | On - 2022-06-10T12:53:38Z
- 41. [5c9..efe] sc-allowed: store token id list instead of range | By - rupansh | On - 2022-06-09T16:00:37Z
- 42. [879..254] fix - misplaced .toLowerCase() | By - Dima Brook | On - 2022-06-08T14:14:57Z
- 43. [c53..212] transform all the contracts to lower case | By - Dima Brook | On - 2022-06-08T14:12:05Z
- 44. [9d9..753] sc-allowed: add token id ranges | By - imsk17 | On - 2022-06-07T12:22:15Z
- 45. [fdb..1e1] sc-allowed: overwrite if exists | By - imsk17 | On - 2022-05-26T12:10:54Z
- 46. [570..34f] helpers: scReq: fix validator | By - rupansh | On - 2022-03-16T16:20:05Z
- 47. [e28..000] reqValidator: re-assign prop after decoding | By - rupansh | On - 2022-03-16T16:03:01Z
- 48. [7f4..ac5] helpers: royalties: use IntFromString validator for chain | By - rupansh | On - 2022-03-16T15:26:06Z
- 49. [207..133] enable royalties route | By - rupansh | On - 2022-03-16T13:13:17Z
- 50. [120..e4e] switch to io-ts & fp-ts | By - rupansh | On - 2022-03-13T18:54:18Z
+ 1. [893..e05] Merge pull request #5 from XP-NETWORK/feat/solana-royalties | By - MuhammadFassihHaider | On - 2023-04-18T09:41:53Z
+ 2. [2c2..902] Merge branch 'production' of https://github.com/XP-NETWORK/sc-verify into feat/solana-royalties | By - Fassih Haider | On - 2023-04-06T08:05:35Z
+ 3. [5a2..152] refactor(solana): add auth check back | By - Fassih Haider | On - 2023-04-06T07:57:38Z
+ 4. [145..09b] feat: add royalty endpoints for solana | By - Fassih Haider | On - 2023-04-06T06:59:17Z
+ 5. [4f8..e67] aptos royalties crud | By - D | On - 2023-04-05T10:14:29Z
+ 6. [1be..bf3] fix error: can't get props of undefined | By - AlexeyAdoniev | On - 2023-04-05T07:12:51Z
+ 7. [3ba..77c] token id can be undefined | By - Alex Moshinsky | On - 2023-04-05T06:32:49Z
+ 8. [45b..fbc] token id can be undefined | By - Alex Moshinsky | On - 2023-04-05T06:20:18Z
+ 9. [44e..1bb] range supprot for list route | By - AlexeyAdoniev | On - 2023-04-03T11:32:05Z
+ 10. [59e..22e] add support for token ranges | By - AlexeyAdoniev | On - 2023-04-03T08:00:41Z
+ 11. [376..d58] Merge pull request #4 from XP-NETWORK/feat/near-royalty-endpoint | By - MuhammadFassihHaider | On - 2023-03-29T13:04:36Z
+ 12. [bdd..663] Revert "refactor(near): add clg stmts" | By - Fassih Haider | On - 2023-03-29T11:44:30Z
+ 13. [2db..e03] refactor(near): add clg stmts | By - Fassih Haider | On - 2023-03-29T11:42:53Z
+ 14. [970..d78] feat(near): add endpoints for near royalties | By - Fassih Haider | On - 2023-03-29T11:18:55Z
+ 15. [39b..243] increase body size limit | By - AlexeyAdoniev | On - 2023-03-26T07:13:06Z
+ 16. [9d4..e64] Merge pull request #3 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-27T07:57:37Z
+ 17. [e17..830] Update package.json | By - awkwardman.dev | On - 2023-02-27T07:57:02Z
+ 18. [f0c..66b] Merge https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Irtisam | On - 2023-02-27T07:54:44Z
+ 19. [1fb..0d0] added route for getting opensea data | By - Irtisam | On - 2023-02-26T08:18:55Z
+ 20. [bf3..3f1] Merge pull request #2 from XP-NETWORK/feat/solana-auto-deployment | By - awkwardman.dev | On - 2023-02-20T07:02:10Z
+ 21. [d36..ae8] remove duplicate delete in verify routes | By - Irtisam | On - 2023-02-20T06:55:35Z
+ 22. [1a3..e73] build: remove build error | By - Irtisam | On - 2023-02-16T08:01:12Z
+ 23. [ad9..339] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into feat/solana-auto-deployment | By - Fassih Haider | On - 2023-02-16T07:59:23Z
+ 24. [18b..5e5] separate endpoint for unique collections | By - irtisam24 | On - 2023-02-14T11:00:38Z
+ 25. [6c7..035] body validator update | By - Irtisam | On - 2023-02-11T15:56:23Z
+ 26. [e7e..c38] add type for single id sc verify put | By - Irtisam | On - 2023-02-11T15:19:04Z
+ 27. [8e3..cd5] put back the validator for sc verify put | By - Irtisam | On - 2023-02-11T15:15:06Z
+ 28. [0db..944] temp remove body validator fron verify put request | By - Irtisam | On - 2023-02-11T15:07:16Z
+ 29. [a0a..2dd] added routes for ton burner | By - Irtisam | On - 2023-02-11T14:58:48Z
+ 30. [fa2..077] added ton burner recrods reepo and stuff XD | By - Irtisam | On - 2023-02-10T23:01:44Z
+ 31. [afe..f0d] added middleware | By - Irtisam | On - 2023-02-08T15:22:26Z
+ 32. [154..39f] Merge branch 'production' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:27Z
+ 33. [39c..79a] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify | By - Irtisam | On - 2023-02-08T14:56:14Z
+ 34. [58a..6c9] fix: add actionId for uniqueness | By - Fassih Haider | On - 2023-02-03T14:05:21Z
+ 35. [338..ff8] revert: go back to old solution | By - Fassih Haider | On - 2023-02-03T13:13:17Z
+ 36. [06b..40d] refactor: add debugging code | By - Fassih Haider | On - 2023-02-03T13:09:50Z
+ 37. [818..3e9] refactor: add dummy query for debug | By - Fassih Haider | On - 2023-02-03T13:03:15Z
+ 38. [c8e..2bf] fix: make fixes to finding query in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:57:13Z
+ 39. [bdd..630] fix: make fixes in PUT /verify | By - Fassih Haider | On - 2023-02-03T12:49:24Z
+ 40. [5f0..568] refactor: add clg stmts | By - Fassih Haider | On - 2023-02-03T12:12:36Z
+ 41. [16e..e4c] feat: update create endpoint in verify | By - Fassih Haider | On - 2023-02-03T12:09:59Z
+ 42. [837..5fa] Merge branch 'master' of https://github.com/XP-NETWORK/sc-verify into deployUpdate | By - Debian | On - 2023-01-10T10:21:46Z
+ 43. [7f4..925] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:19:56Z
+ 44. [184..7f8] added new routes for checkking | By - Debian | On - 2022-12-21T17:50:31Z
+ 45. [63f..d38] mappings: verify: copy list logic | By - imsk17 | On - 2022-10-31T10:36:04Z
+ 46. [f58..ecb] mappings: list: take token ID into consideration | By - imsk17 | On - 2022-10-31T09:33:31Z
+ 47. [e6e..690] null token ids | By - AlexeyAdoniev | On - 2022-09-18T10:25:34Z
+ 48. [db4..ea6] cors allow all, fix error with undefined findOne result | By - AlexeyAdoniev | On - 2022-09-14T12:34:46Z
+ 49. [3f2..2c4] switch back to yarn | By - rupansh | On - 2022-09-06T14:28:33Z
+ 50. [a9b..72f] Allow Number or String | By - imsk17 | On - 2022-08-30T18:03:08Z
 
 ## tests-sc-verify
 
@@ -4861,6 +7368,474 @@
  48. [833..699] entity: DefaultScDto: add fromChain field | By - imsk17 | On - 2022-02-14T21:00:05Z
  49. [ce7..16e] entity: ScAllowedDto: add fromChain field | By - imsk17 | On - 2022-02-14T20:54:54Z
  50. [429..c39] routes: verify: add targetChain to verify | By - imsk17 | On - 2022-02-14T20:39:07Z
+
+# fees-oracle
+
+## main
+
+
+ 1. [3a5..38c] fix: signature: dfinity signature svc | By - imsk17 | On - 2023-04-17T19:27:43Z
+ 2. [b9f..cdc] dfinity: add support for batch transfers | By - imsk17 | On - 2023-03-23T14:54:43Z
+ 3. [c0e..bbc] helpers: dfinity: fix struct encoding | By - imsk17 | On - 2023-03-17T16:02:21Z
+ 4. [dfa..531] helpers: dfinity: add sig service | By - imsk17 | On - 2023-03-17T15:04:11Z
+ 5. [e74..ca0] initial commit | By - D | On - 2023-03-16T15:07:46Z
+
+# Xp-Coin-Cap-Market-Backend
+
+## bug-fix
+
+
+ 1. [a6b..281] Avg price was not accurate in the table. bug is fixed now. --bug-fix | By - mominhyatkhan | On - 2023-03-28T06:52:02Z
+ 2. [2ba..e60] feet(): Avg price and image for existing nfts issues are fixed | By - mominhyatkhan | On - 2023-03-22T13:02:10Z
+ 3. [5a7..f1c] feet(): Repetition bcz of image changed bug fixed. | By - mominhyatkhan | On - 2023-03-21T11:24:50Z
+ 4. [0cf..0fb] feet():  Pagination bug fixed. | By - mominhyatkhan | On - 2023-03-21T08:22:12Z
+ 5. [fab..1cf] fn(): resolved image issue and changed the RPC url to avoid the limitations. | By - mominhyatkhan | On - 2023-03-20T13:13:25Z
+ 6. [db5..bd8] feet(): Updated query to fetch results on the frontend. | By - mominhyatkhan | On - 2023-03-17T07:51:03Z
+ 7. [4b6..78a] fn(): added image of an nft collection from one of its nft via etherscan and moralis. | By - mominhyatkhan | On - 2023-03-16T10:46:17Z
+ 8. [09f..405] fn(): getting an image of the first token id of an nft via moralis. | By - mominhyatkhan | On - 2023-03-15T12:15:25Z
+ 9. [81c..9c6] fn(): data is now being retreived on the basis of timestamp. (24h, 7D, 30D, AllTime) | By - mominhyatkhan | On - 2023-03-14T11:42:21Z
+ 10. [73b..61a] fn(): to fetch historial data on the basis of timeLimit. | By - mominhyatkhan | On - 2023-03-13T13:03:55Z
+ 11. [29e..9fa] fn(): everything seems to be working fine till here. But repeated data if appears is not tested yet. | By - mominhyatkhan | On - 2023-03-10T12:17:44Z
+ 12. [401..404] fn(): adding data into the db by keeping in mind all the possible test scenarios possible to enter falsy data into the database. | By - mominhyatkhan | On - 2023-03-09T12:43:26Z
+ 13. [efb..da6] fn(): solved timestamp and hash issue and created api for historic data. | By - mominhyatkhan | On - 2023-03-08T13:14:30Z
+ 14. [306..dac] fn(): Calculated the Avg price and avoid the repitiotion inside the table if the record already exist. | By - mominhyatkhan | On - 2023-03-07T12:19:30Z
+ 15. [22c..8ba] fn(): pagination to get the limited records from the db. | By - mominhyatkhan | On - 2023-03-06T13:04:09Z
+ 16. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
+ 17. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 18. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 19. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 20. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 21. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 22. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 23. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 24. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 25. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 26. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 27. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## final-branch
+
+
+ 1. [767..3c8] fixed bugs. | By - mominhyatkhan | On - 2023-04-17T09:21:57Z
+ 2. [ca5..71e] Implement all case scenarios of Blur marketplace. | By - mominhyatkhan | On - 2023-04-14T09:56:56Z
+ 3. [814..749] Rarible zero address handled in bridge. | By - mominhyatkhan | On - 2023-04-12T08:56:52Z
+ 4. [190..395] History check for all marketplaces addresses. | By - mominhyatkhan | On - 2023-04-11T08:57:54Z
+ 5. [99b..7e9] opensea functions that needs to be monitored are added into the bridge -- inprogress-blur-io | By - mominhyatkhan | On - 2023-03-31T09:03:52Z
+ 6. [eae..ba1] created bridge for Blur.io. --inprogress-rariable | By - mominhyatkhan | On - 2023-03-30T08:53:49Z
+ 7. [045..061] rarible bridge has been added with its cron job. Logic is not correct yet to fecth data for rarible. --inprogress-rarible | By - mominhyatkhan | On - 2023-03-29T08:44:56Z
+ 8. [84f..d71] Created the bridge for  rarible --inprogress-rarible | By - mominhyatkhan | On - 2023-03-28T08:33:37Z
+ 9. [a6b..281] Avg price was not accurate in the table. bug is fixed now. --bug-fix | By - mominhyatkhan | On - 2023-03-28T06:52:02Z
+ 10. [2ba..e60] feet(): Avg price and image for existing nfts issues are fixed | By - mominhyatkhan | On - 2023-03-22T13:02:10Z
+ 11. [5a7..f1c] feet(): Repetition bcz of image changed bug fixed. | By - mominhyatkhan | On - 2023-03-21T11:24:50Z
+ 12. [0cf..0fb] feet():  Pagination bug fixed. | By - mominhyatkhan | On - 2023-03-21T08:22:12Z
+ 13. [fab..1cf] fn(): resolved image issue and changed the RPC url to avoid the limitations. | By - mominhyatkhan | On - 2023-03-20T13:13:25Z
+ 14. [db5..bd8] feet(): Updated query to fetch results on the frontend. | By - mominhyatkhan | On - 2023-03-17T07:51:03Z
+ 15. [4b6..78a] fn(): added image of an nft collection from one of its nft via etherscan and moralis. | By - mominhyatkhan | On - 2023-03-16T10:46:17Z
+ 16. [09f..405] fn(): getting an image of the first token id of an nft via moralis. | By - mominhyatkhan | On - 2023-03-15T12:15:25Z
+ 17. [81c..9c6] fn(): data is now being retreived on the basis of timestamp. (24h, 7D, 30D, AllTime) | By - mominhyatkhan | On - 2023-03-14T11:42:21Z
+ 18. [73b..61a] fn(): to fetch historial data on the basis of timeLimit. | By - mominhyatkhan | On - 2023-03-13T13:03:55Z
+ 19. [29e..9fa] fn(): everything seems to be working fine till here. But repeated data if appears is not tested yet. | By - mominhyatkhan | On - 2023-03-10T12:17:44Z
+ 20. [401..404] fn(): adding data into the db by keeping in mind all the possible test scenarios possible to enter falsy data into the database. | By - mominhyatkhan | On - 2023-03-09T12:43:26Z
+ 21. [efb..da6] fn(): solved timestamp and hash issue and created api for historic data. | By - mominhyatkhan | On - 2023-03-08T13:14:30Z
+ 22. [306..dac] fn(): Calculated the Avg price and avoid the repitiotion inside the table if the record already exist. | By - mominhyatkhan | On - 2023-03-07T12:19:30Z
+ 23. [22c..8ba] fn(): pagination to get the limited records from the db. | By - mominhyatkhan | On - 2023-03-06T13:04:09Z
+ 24. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
+ 25. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 26. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 27. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 28. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 29. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 30. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 31. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 32. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 33. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 34. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 35. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## historical-data-apis
+
+
+ 1. [81c..9c6] fn(): data is now being retreived on the basis of timestamp. (24h, 7D, 30D, AllTime) | By - mominhyatkhan | On - 2023-03-14T11:42:21Z
+ 2. [73b..61a] fn(): to fetch historial data on the basis of timeLimit. | By - mominhyatkhan | On - 2023-03-13T13:03:55Z
+ 3. [29e..9fa] fn(): everything seems to be working fine till here. But repeated data if appears is not tested yet. | By - mominhyatkhan | On - 2023-03-10T12:17:44Z
+ 4. [401..404] fn(): adding data into the db by keeping in mind all the possible test scenarios possible to enter falsy data into the database. | By - mominhyatkhan | On - 2023-03-09T12:43:26Z
+ 5. [efb..da6] fn(): solved timestamp and hash issue and created api for historic data. | By - mominhyatkhan | On - 2023-03-08T13:14:30Z
+ 6. [306..dac] fn(): Calculated the Avg price and avoid the repitiotion inside the table if the record already exist. | By - mominhyatkhan | On - 2023-03-07T12:19:30Z
+ 7. [22c..8ba] fn(): pagination to get the limited records from the db. | By - mominhyatkhan | On - 2023-03-06T13:04:09Z
+ 8. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
+ 9. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 10. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 11. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 12. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 13. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 14. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 15. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 16. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 17. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 18. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 19. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## img-tokenUri-moralis
+
+
+ 1. [db5..bd8] feet(): Updated query to fetch results on the frontend. | By - mominhyatkhan | On - 2023-03-17T07:51:03Z
+ 2. [4b6..78a] fn(): added image of an nft collection from one of its nft via etherscan and moralis. | By - mominhyatkhan | On - 2023-03-16T10:46:17Z
+ 3. [09f..405] fn(): getting an image of the first token id of an nft via moralis. | By - mominhyatkhan | On - 2023-03-15T12:15:25Z
+ 4. [81c..9c6] fn(): data is now being retreived on the basis of timestamp. (24h, 7D, 30D, AllTime) | By - mominhyatkhan | On - 2023-03-14T11:42:21Z
+ 5. [73b..61a] fn(): to fetch historial data on the basis of timeLimit. | By - mominhyatkhan | On - 2023-03-13T13:03:55Z
+ 6. [29e..9fa] fn(): everything seems to be working fine till here. But repeated data if appears is not tested yet. | By - mominhyatkhan | On - 2023-03-10T12:17:44Z
+ 7. [401..404] fn(): adding data into the db by keeping in mind all the possible test scenarios possible to enter falsy data into the database. | By - mominhyatkhan | On - 2023-03-09T12:43:26Z
+ 8. [efb..da6] fn(): solved timestamp and hash issue and created api for historic data. | By - mominhyatkhan | On - 2023-03-08T13:14:30Z
+ 9. [306..dac] fn(): Calculated the Avg price and avoid the repitiotion inside the table if the record already exist. | By - mominhyatkhan | On - 2023-03-07T12:19:30Z
+ 10. [22c..8ba] fn(): pagination to get the limited records from the db. | By - mominhyatkhan | On - 2023-03-06T13:04:09Z
+ 11. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
+ 12. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 13. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 14. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 15. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 16. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 17. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 18. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 19. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 20. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 21. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 22. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## inprogress-blur-io
+
+
+ 1. [190..395] History check for all marketplaces addresses. | By - mominhyatkhan | On - 2023-04-11T08:57:54Z
+ 2. [99b..7e9] opensea functions that needs to be monitored are added into the bridge -- inprogress-blur-io | By - mominhyatkhan | On - 2023-03-31T09:03:52Z
+ 3. [eae..ba1] created bridge for Blur.io. --inprogress-rariable | By - mominhyatkhan | On - 2023-03-30T08:53:49Z
+ 4. [045..061] rarible bridge has been added with its cron job. Logic is not correct yet to fecth data for rarible. --inprogress-rarible | By - mominhyatkhan | On - 2023-03-29T08:44:56Z
+ 5. [84f..d71] Created the bridge for  rarible --inprogress-rarible | By - mominhyatkhan | On - 2023-03-28T08:33:37Z
+ 6. [a6b..281] Avg price was not accurate in the table. bug is fixed now. --bug-fix | By - mominhyatkhan | On - 2023-03-28T06:52:02Z
+ 7. [2ba..e60] feet(): Avg price and image for existing nfts issues are fixed | By - mominhyatkhan | On - 2023-03-22T13:02:10Z
+ 8. [5a7..f1c] feet(): Repetition bcz of image changed bug fixed. | By - mominhyatkhan | On - 2023-03-21T11:24:50Z
+ 9. [0cf..0fb] feet():  Pagination bug fixed. | By - mominhyatkhan | On - 2023-03-21T08:22:12Z
+ 10. [fab..1cf] fn(): resolved image issue and changed the RPC url to avoid the limitations. | By - mominhyatkhan | On - 2023-03-20T13:13:25Z
+ 11. [db5..bd8] feet(): Updated query to fetch results on the frontend. | By - mominhyatkhan | On - 2023-03-17T07:51:03Z
+ 12. [4b6..78a] fn(): added image of an nft collection from one of its nft via etherscan and moralis. | By - mominhyatkhan | On - 2023-03-16T10:46:17Z
+ 13. [09f..405] fn(): getting an image of the first token id of an nft via moralis. | By - mominhyatkhan | On - 2023-03-15T12:15:25Z
+ 14. [81c..9c6] fn(): data is now being retreived on the basis of timestamp. (24h, 7D, 30D, AllTime) | By - mominhyatkhan | On - 2023-03-14T11:42:21Z
+ 15. [73b..61a] fn(): to fetch historial data on the basis of timeLimit. | By - mominhyatkhan | On - 2023-03-13T13:03:55Z
+ 16. [29e..9fa] fn(): everything seems to be working fine till here. But repeated data if appears is not tested yet. | By - mominhyatkhan | On - 2023-03-10T12:17:44Z
+ 17. [401..404] fn(): adding data into the db by keeping in mind all the possible test scenarios possible to enter falsy data into the database. | By - mominhyatkhan | On - 2023-03-09T12:43:26Z
+ 18. [efb..da6] fn(): solved timestamp and hash issue and created api for historic data. | By - mominhyatkhan | On - 2023-03-08T13:14:30Z
+ 19. [306..dac] fn(): Calculated the Avg price and avoid the repitiotion inside the table if the record already exist. | By - mominhyatkhan | On - 2023-03-07T12:19:30Z
+ 20. [22c..8ba] fn(): pagination to get the limited records from the db. | By - mominhyatkhan | On - 2023-03-06T13:04:09Z
+ 21. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
+ 22. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 23. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 24. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 25. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 26. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 27. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 28. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 29. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 30. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 31. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 32. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## inprogress-rarible
+
+
+ 1. [eae..ba1] created bridge for Blur.io. --inprogress-rariable | By - mominhyatkhan | On - 2023-03-30T08:53:49Z
+ 2. [045..061] rarible bridge has been added with its cron job. Logic is not correct yet to fecth data for rarible. --inprogress-rarible | By - mominhyatkhan | On - 2023-03-29T08:44:56Z
+ 3. [84f..d71] Created the bridge for  rarible --inprogress-rarible | By - mominhyatkhan | On - 2023-03-28T08:33:37Z
+ 4. [a6b..281] Avg price was not accurate in the table. bug is fixed now. --bug-fix | By - mominhyatkhan | On - 2023-03-28T06:52:02Z
+ 5. [2ba..e60] feet(): Avg price and image for existing nfts issues are fixed | By - mominhyatkhan | On - 2023-03-22T13:02:10Z
+ 6. [5a7..f1c] feet(): Repetition bcz of image changed bug fixed. | By - mominhyatkhan | On - 2023-03-21T11:24:50Z
+ 7. [0cf..0fb] feet():  Pagination bug fixed. | By - mominhyatkhan | On - 2023-03-21T08:22:12Z
+ 8. [fab..1cf] fn(): resolved image issue and changed the RPC url to avoid the limitations. | By - mominhyatkhan | On - 2023-03-20T13:13:25Z
+ 9. [db5..bd8] feet(): Updated query to fetch results on the frontend. | By - mominhyatkhan | On - 2023-03-17T07:51:03Z
+ 10. [4b6..78a] fn(): added image of an nft collection from one of its nft via etherscan and moralis. | By - mominhyatkhan | On - 2023-03-16T10:46:17Z
+ 11. [09f..405] fn(): getting an image of the first token id of an nft via moralis. | By - mominhyatkhan | On - 2023-03-15T12:15:25Z
+ 12. [81c..9c6] fn(): data is now being retreived on the basis of timestamp. (24h, 7D, 30D, AllTime) | By - mominhyatkhan | On - 2023-03-14T11:42:21Z
+ 13. [73b..61a] fn(): to fetch historial data on the basis of timeLimit. | By - mominhyatkhan | On - 2023-03-13T13:03:55Z
+ 14. [29e..9fa] fn(): everything seems to be working fine till here. But repeated data if appears is not tested yet. | By - mominhyatkhan | On - 2023-03-10T12:17:44Z
+ 15. [401..404] fn(): adding data into the db by keeping in mind all the possible test scenarios possible to enter falsy data into the database. | By - mominhyatkhan | On - 2023-03-09T12:43:26Z
+ 16. [efb..da6] fn(): solved timestamp and hash issue and created api for historic data. | By - mominhyatkhan | On - 2023-03-08T13:14:30Z
+ 17. [306..dac] fn(): Calculated the Avg price and avoid the repitiotion inside the table if the record already exist. | By - mominhyatkhan | On - 2023-03-07T12:19:30Z
+ 18. [22c..8ba] fn(): pagination to get the limited records from the db. | By - mominhyatkhan | On - 2023-03-06T13:04:09Z
+ 19. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
+ 20. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 21. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 22. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 23. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 24. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 25. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 26. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 27. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 28. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 29. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 30. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## master
+
+
+ 1. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 2. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 3. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## ready-to-test
+
+
+ 1. [29e..9fa] fn(): everything seems to be working fine till here. But repeated data if appears is not tested yet. | By - mominhyatkhan | On - 2023-03-10T12:17:44Z
+ 2. [401..404] fn(): adding data into the db by keeping in mind all the possible test scenarios possible to enter falsy data into the database. | By - mominhyatkhan | On - 2023-03-09T12:43:26Z
+ 3. [efb..da6] fn(): solved timestamp and hash issue and created api for historic data. | By - mominhyatkhan | On - 2023-03-08T13:14:30Z
+ 4. [306..dac] fn(): Calculated the Avg price and avoid the repitiotion inside the table if the record already exist. | By - mominhyatkhan | On - 2023-03-07T12:19:30Z
+ 5. [22c..8ba] fn(): pagination to get the limited records from the db. | By - mominhyatkhan | On - 2023-03-06T13:04:09Z
+ 6. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
+ 7. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 8. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 9. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 10. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 11. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 12. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 13. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 14. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 15. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 16. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 17. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## to-be-verified
+
+
+ 1. [22c..8ba] fn(): pagination to get the limited records from the db. | By - mominhyatkhan | On - 2023-03-06T13:04:09Z
+ 2. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
+ 3. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 4. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 5. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 6. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 7. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 8. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 9. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 10. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 11. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 12. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 13. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## under-progress
+
+
+ 1. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 2. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 3. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 4. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 5. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 6. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 7. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 8. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 9. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 10. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 11. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+# deploying_tezos
+
+## main
+
+
+ 1. [a69..77d] contracts: xp_bridge: fix compilation name | By - imsk17 | On - 2023-04-14T17:42:46Z
+ 2. [3a1..df4] contracts: xp_bridge: add token_id for validate transfer nft | By - imsk17 | On - 2023-04-14T13:57:23Z
+ 3. [22f..dc5] Readme: Update | By - imsk17 | On - 2023-02-13T13:52:27Z
+ 4. [099..a57] Scripts: Add XpBridge Depl script | By - imsk17 | On - 2023-02-13T13:51:57Z
+ 5. [8a8..2a9] Contracts: add amt as a parameter | By - imsk17 | On - 2023-02-13T13:51:14Z
+ 6. [bf3..bcc] Contract: Add Amt as a Parameter for SFTs | By - imsk17 | On - 2023-02-06T13:12:27Z
+ 7. [04c..587] add tzip16 metadata uri | By - imsk17 | On - 2022-12-25T11:35:39Z
+ 8. [4fa..77c] Add A Readme | By - imsk17 | On - 2022-12-15T12:40:02Z
+ 9. [2da..5fb] fixes for xpnft depl | By - imsk17 | On - 2022-12-15T12:31:09Z
+ 10. [0bf..6d8] add a deployment script for xpnft | By - imsk17 | On - 2022-12-15T09:43:57Z
+ 11. [463..c01] Update xpbridge.py | By - Dima Brook | On - 2022-08-08T12:19:02Z
+ 12. [6ab..d25] Update xpnft.py | By - Dima Brook | On - 2022-08-08T12:17:58Z
+ 13. [159..da3] Update README.md | By - Dima Brook | On - 2022-03-17T12:37:31Z
+ 14. [db8..3a1] fix | By - Dima Brook | On - 2022-03-16T18:07:11Z
+ 15. [186..8d1] add setup | By - Dima Brook | On - 2022-03-14T19:53:56Z
+ 16. [aef..100] add setup | By - Dima Brook | On - 2022-03-14T19:53:06Z
+ 17. [85e..4af] second commit | By - Dima Brook | On - 2022-03-14T19:48:13Z
+ 18. [316..b46] first commit | By - Dima Brook | On - 2022-03-14T12:51:44Z
+
+# Xp-Mobile-App
+
+## android
+
+
+ 1. [170..60b] Delete Research_TronLink | By - Affan Ali Khan | On - 2023-04-12T04:59:18Z
+ 2. [a3c..5be] Create Research_TronLink | By - Affan Ali Khan | On - 2023-04-12T04:58:14Z
+ 3. [308..238] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-15T12:19:26Z
+ 4. [889..9c7] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-15T12:19:12Z
+ 5. [f46..56c] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T09:44:41Z
+ 6. [c14..a5f] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T09:44:27Z
+ 7. [d9d..726] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T08:09:36Z
+ 8. [789..66f] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T07:58:56Z
+ 9. [365..75d] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-10T12:29:23Z
+ 10. [958..532] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-10T12:28:34Z
+ 11. [5e2..14f] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T13:02:01Z
+ 12. [5c6..6bb] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T09:50:47Z
+ 13. [675..19d] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T09:50:11Z
+ 14. [8c5..0be] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T09:46:35Z
+ 15. [aa9..b26] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T06:25:51Z
+ 16. [3a4..3b9] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T05:44:44Z
+ 17. [966..739] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T05:43:47Z
+ 18. [e86..c17] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T05:39:24Z
+ 19. [5ca..e58] Create Research_Algorand.md | By - Affan Ali Khan | On - 2023-02-28T06:52:19Z
+ 20. [ea7..09c] Rename Research.md to Research_TON.md | By - Affan Ali Khan | On - 2023-02-28T06:16:57Z
+ 21. [711..1b4] Update Research.md | By - Affan Ali Khan | On - 2023-02-28T06:13:58Z
+ 22. [07f..24a] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:29:12Z
+ 23. [865..b38] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:18:09Z
+ 24. [9bc..444] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:17:25Z
+ 25. [1c2..744] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:54:59Z
+ 26. [743..1b4] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:20:55Z
+ 27. [ce1..701] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:15:45Z
+ 28. [417..765] Merge | By - fanil30 | On - 2023-02-20T12:25:05Z
+ 29. [51e..8ae] first commit | By - Affan Ali Khan | On - 2023-02-20T12:01:30Z
+ 30. [33a..5ec] Update Research.md | By - Affan Ali Khan | On - 2023-02-20T11:35:16Z
+ 31. [9a8..bbd] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T14:00:01Z
+ 32. [15d..ea0] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:33:08Z
+ 33. [81e..89d] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:22:40Z
+ 34. [16d..673] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:21:52Z
+ 35. [120..d15] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:15:15Z
+ 36. [fac..6ea] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:14:14Z
+ 37. [d70..e19] Update and rename logs.md to Research.md | By - Affan Ali Khan | On - 2023-02-17T13:13:34Z
+ 38. [8a3..51f] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T13:00:21Z
+ 39. [817..2aa] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:55:58Z
+ 40. [2ff..cd6] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:46:58Z
+ 41. [c71..4b4] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:14:12Z
+ 42. [418..146] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:13:50Z
+ 43. [935..5b8] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T11:37:45Z
+ 44. [b29..1f2] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T06:34:51Z
+ 45. [b76..ad6] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:31:14Z
+ 46. [392..01c] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:29:46Z
+ 47. [c04..57b] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:26:48Z
+ 48. [457..0c2] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:25:42Z
+ 49. [dcc..38d] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:25:01Z
+ 50. [77b..899] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:24:34Z
+
+## testapp
+
+
+ 1. [e51..8e9] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-23T07:41:52Z
+ 2. [783..d1e] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-23T06:29:58Z
+ 3. [6f5..d5d] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-23T06:29:10Z
+ 4. [834..d04] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-23T06:14:40Z
+ 5. [b3f..4f2] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-23T06:13:13Z
+ 6. [aba..178] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-22T13:11:03Z
+ 7. [8d9..262] new repo for testing | By - fanil30 | On - 2023-03-21T10:50:31Z
+ 8. [308..238] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-15T12:19:26Z
+ 9. [889..9c7] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-15T12:19:12Z
+ 10. [f46..56c] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T09:44:41Z
+ 11. [c14..a5f] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T09:44:27Z
+ 12. [d9d..726] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T08:09:36Z
+ 13. [789..66f] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T07:58:56Z
+ 14. [365..75d] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-10T12:29:23Z
+ 15. [958..532] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-10T12:28:34Z
+ 16. [5e2..14f] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T13:02:01Z
+ 17. [5c6..6bb] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T09:50:47Z
+ 18. [675..19d] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T09:50:11Z
+ 19. [8c5..0be] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T09:46:35Z
+ 20. [aa9..b26] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T06:25:51Z
+ 21. [3a4..3b9] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T05:44:44Z
+ 22. [966..739] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T05:43:47Z
+ 23. [e86..c17] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T05:39:24Z
+ 24. [5ca..e58] Create Research_Algorand.md | By - Affan Ali Khan | On - 2023-02-28T06:52:19Z
+ 25. [ea7..09c] Rename Research.md to Research_TON.md | By - Affan Ali Khan | On - 2023-02-28T06:16:57Z
+ 26. [711..1b4] Update Research.md | By - Affan Ali Khan | On - 2023-02-28T06:13:58Z
+ 27. [07f..24a] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:29:12Z
+ 28. [865..b38] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:18:09Z
+ 29. [9bc..444] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:17:25Z
+ 30. [1c2..744] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:54:59Z
+ 31. [743..1b4] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:20:55Z
+ 32. [ce1..701] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:15:45Z
+ 33. [417..765] Merge | By - fanil30 | On - 2023-02-20T12:25:05Z
+ 34. [51e..8ae] first commit | By - Affan Ali Khan | On - 2023-02-20T12:01:30Z
+ 35. [33a..5ec] Update Research.md | By - Affan Ali Khan | On - 2023-02-20T11:35:16Z
+ 36. [9a8..bbd] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T14:00:01Z
+ 37. [15d..ea0] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:33:08Z
+ 38. [81e..89d] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:22:40Z
+ 39. [16d..673] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:21:52Z
+ 40. [120..d15] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:15:15Z
+ 41. [fac..6ea] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:14:14Z
+ 42. [d70..e19] Update and rename logs.md to Research.md | By - Affan Ali Khan | On - 2023-02-17T13:13:34Z
+ 43. [8a3..51f] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T13:00:21Z
+ 44. [817..2aa] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:55:58Z
+ 45. [2ff..cd6] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:46:58Z
+ 46. [c71..4b4] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:14:12Z
+ 47. [418..146] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T12:13:50Z
+ 48. [935..5b8] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T11:37:45Z
+ 49. [b29..1f2] Update logs.md | By - Affan Ali Khan | On - 2023-02-17T06:34:51Z
+ 50. [b76..ad6] Update logs.md | By - Affan Ali Khan | On - 2023-02-16T09:31:14Z
+
+## testapp2
+
+
+ 1. [8dd..b05] commit on 14 April 2023 | By - fanil30 | On - 2023-04-14T09:19:39Z
+ 2. [cef..74c] Merge remote-tracking branch 'origin/testapp2' into testapp2 | By - fanil30 | On - 2023-04-13T08:53:09Z
+ 3. [a6a..7bf] commit on 13 April 2023 | By - fanil30 | On - 2023-04-13T08:52:56Z
+ 4. [f91..cbd] Rename Research_TronLink to Research_TronLink.md | By - Affan Ali Khan | On - 2023-04-13T05:17:05Z
+ 5. [e33..03f] Update Research_TronLink | By - Affan Ali Khan | On - 2023-04-13T05:11:27Z
+ 6. [bf6..1f4] Create Research_TronLink | By - Affan Ali Khan | On - 2023-04-12T04:58:56Z
+ 7. [2e0..8e2] Merge remote-tracking branch 'origin/testapp2' into testapp2 | By - fanil30 | On - 2023-04-11T09:13:53Z
+ 8. [15f..555] commit on 11 April 2023 | By - fanil30 | On - 2023-04-11T09:12:10Z
+ 9. [979..788] commit on 3 April 2023 | By - fanil30 | On - 2023-04-03T08:52:39Z
+ 10. [d82..3fb] commit on 28 march 2023 | By - fanil30 | On - 2023-03-30T10:23:08Z
+ 11. [bfe..3c7] Deeplinking test was a success | By - fanil30 | On - 2023-03-30T10:18:51Z
+ 12. [361..05c] commit on 28 march 2023 | By - fanil30 | On - 2023-03-28T07:10:21Z
+ 13. [6e9..61a] commit on 23 march 2023 | By - fanil30 | On - 2023-03-23T15:05:39Z
+ 14. [e86..42b] commit on 23 march 2023 | By - fanil30 | On - 2023-03-23T15:05:18Z
+ 15. [9de..e64] commit on 22 march 2023 | By - fanil30 | On - 2023-03-22T13:12:55Z
+ 16. [67a..63b] commit on 21 march 2023 | By - fanil30 | On - 2023-03-21T12:53:54Z
+ 17. [8d9..262] new repo for testing | By - fanil30 | On - 2023-03-21T10:50:31Z
+ 18. [308..238] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-15T12:19:26Z
+ 19. [889..9c7] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-15T12:19:12Z
+ 20. [f46..56c] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T09:44:41Z
+ 21. [c14..a5f] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T09:44:27Z
+ 22. [d9d..726] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T08:09:36Z
+ 23. [789..66f] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-13T07:58:56Z
+ 24. [365..75d] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-10T12:29:23Z
+ 25. [958..532] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-10T12:28:34Z
+ 26. [5e2..14f] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T13:02:01Z
+ 27. [5c6..6bb] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T09:50:47Z
+ 28. [675..19d] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T09:50:11Z
+ 29. [8c5..0be] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T09:46:35Z
+ 30. [aa9..b26] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T06:25:51Z
+ 31. [3a4..3b9] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T05:44:44Z
+ 32. [966..739] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T05:43:47Z
+ 33. [e86..c17] Update Research_Algorand.md | By - Affan Ali Khan | On - 2023-03-09T05:39:24Z
+ 34. [5ca..e58] Create Research_Algorand.md | By - Affan Ali Khan | On - 2023-02-28T06:52:19Z
+ 35. [ea7..09c] Rename Research.md to Research_TON.md | By - Affan Ali Khan | On - 2023-02-28T06:16:57Z
+ 36. [711..1b4] Update Research.md | By - Affan Ali Khan | On - 2023-02-28T06:13:58Z
+ 37. [07f..24a] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:29:12Z
+ 38. [865..b38] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:18:09Z
+ 39. [9bc..444] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T07:17:25Z
+ 40. [1c2..744] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:54:59Z
+ 41. [743..1b4] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:20:55Z
+ 42. [ce1..701] Update Research.md | By - Affan Ali Khan | On - 2023-02-22T06:15:45Z
+ 43. [417..765] Merge | By - fanil30 | On - 2023-02-20T12:25:05Z
+ 44. [51e..8ae] first commit | By - Affan Ali Khan | On - 2023-02-20T12:01:30Z
+ 45. [33a..5ec] Update Research.md | By - Affan Ali Khan | On - 2023-02-20T11:35:16Z
+ 46. [9a8..bbd] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T14:00:01Z
+ 47. [15d..ea0] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:33:08Z
+ 48. [81e..89d] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:22:40Z
+ 49. [16d..673] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:21:52Z
+ 50. [120..d15] Update Research.md | By - Affan Ali Khan | On - 2023-02-17T13:15:15Z
+
+# near-collection-creator-client
+
+## main
+
+
+ 1. [934..c92] initial import | By - imsk17 | On - 2023-04-11T15:52:37Z
+
+# solana-scripts
+
+## main
+
+
+ 1. [991..4c3] feat: add solana scripts | By - Fassih Haider | On - 2023-04-06T08:44:38Z
+ 2. [639..eb4] build: add prettier config | By - Fassih Haider | On - 2023-03-20T12:13:26Z
+ 3. [df3..722] build: | By - Fassih Haider | On - 2023-01-24T12:58:53Z
+ 4. [d86..5c5] build: :heavy_plus_sign: add dotnev | By - Fassih Haider | On - 2023-01-24T08:26:29Z
+ 5. [2eb..8b5] build: :sparkles: initial commit | By - Fassih Haider | On - 2023-01-24T08:03:51Z
 
 # w-nft-api
 
@@ -4975,56 +7950,56 @@
 ## master
 
 
- 1. [5c0..452] added route for opensea collection on ton | By - Irtisam | On - 2023-02-26T07:32:19Z
- 2. [ff9..13d] new route for handling opensea collections | By - Irtisam | On - 2023-02-22T11:42:17Z
- 3. [233..ee1] added route for opensea | By - AlexSafepress | On - 2023-02-22T11:09:11Z
- 4. [87c..fb1] Production (#6) | By - Alex Moshinsky | On - 2023-02-08T16:44:25Z
- 5. [3c4..05d] added new route ton collection info addition and getting | By - Debian | On - 2023-01-18T15:41:01Z
- 6. [861..435] added description to metadata for ton nft collection data | By - Debian | On - 2023-01-17T15:51:47Z
- 7. [aa4..b8e] remove cron | By - AlexeyAdoniev | On - 2023-01-16T14:43:04Z
- 8. [688..d57] disable wnft cron | By - AlexeyAdoniev | On - 2023-01-16T14:41:22Z
- 9. [912..893] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:36:52Z
- 10. [d51..422] fix base16 | By - Alex Moshinsky | On - 2022-12-06T10:45:50Z
- 11. [0a8..e34] return expale | By - Alex Moshinsky | On - 2022-11-23T18:58:48Z
- 12. [d7f..8ab] erc1155 custom token id fix | By - Alex Moshinsky | On - 2022-11-23T18:57:32Z
- 13. [2a7..d81] cron job for refetching metaData of nfts with name of  XP.Network Wrapped NFT | By - AlexeyAdoniev | On - 2022-10-06T12:57:09Z
- 14. [b72..13b] wrapper: fix typo in storeIpfs | By - rupansh | On - 2022-09-25T10:31:48Z
- 15. [d02..748] removed infinite loop | By - Ruby Edelstein | On - 2022-09-25T10:18:48Z
- 16. [13c..822] added getwnft logs | By - Ruby Edelstein | On - 2022-09-25T10:15:08Z
- 17. [f38..ecf] fixed anti ddos derp | By - Ruby Edelstein | On - 2022-09-25T10:12:43Z
- 18. [bf4..786] anti ddos | By - Ruby Edelstein | On - 2022-09-25T10:12:12Z
- 19. [258..00d] routes: wrapperRoutes: add origin token id support for elrond | By - rupansh | On - 2022-09-13T18:03:49Z
- 20. [e27..f65] add dependency graph | By - Dima Brook | On - 2022-09-12T12:35:32Z
- 21. [f7c..58e] add call diagram | By - Dima Brook | On - 2022-09-12T11:33:17Z
- 22. [d52..bc0] add Readme.md & refactor string utils | By - Dima Brook | On - 2022-09-12T11:09:29Z
- 23. [cc8..a89] routes: wrapperRoutes: origin token id: add endpoint for decimal tokenId | By - rupansh | On - 2022-09-07T15:58:05Z
- 24. [06a..d63] Metadata URI: Move to Env Variable instead of Hardcode | By - imsk17 | On - 2022-08-31T10:00:20Z
- 25. [aca..727] check nft api if not in db | By - imsk17 | On - 2022-08-16T10:54:30Z
- 26. [d1b..fd4] Update .env.example | By - Dima Brook | On - 2022-08-08T09:35:56Z
- 27. [02b..b74] add route for getting nft by origin details | By - rupansh | On - 2022-08-05T17:29:51Z
- 28. [13b..d48] wrapper: handle ratelimit for web3.storage | By - rupansh | On - 2022-07-19T12:32:29Z
- 29. [96d..535] Merge pull request #5 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T14:54:22Z
- 30. [af0..5f9] added logs with id to every error in cron class | By - Or Kilim | On - 2022-05-26T14:22:10Z
- 31. [ec5..758] reverted from localhost config | By - Or Kilim | On - 2022-05-26T14:04:21Z
- 32. [e84..7c6] removed console.logs | By - Or Kilim | On - 2022-05-26T14:00:46Z
- 33. [107..09c] tried locally with local connection string | By - Or Kilim | On - 2022-05-26T13:59:17Z
- 34. [098..b78] changed path in package.json in start script | By - Or Kilim | On - 2022-05-26T13:40:16Z
- 35. [b55..c07] changed importing of cron, now imported everything | By - Or Kilim | On - 2022-05-26T13:35:14Z
- 36. [658..ec7] Merge pull request #4 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T13:13:51Z
- 37. [8bc..d20] updated package.json | By - Or Kilim | On - 2022-05-26T13:00:24Z
- 38. [c41..70e] added the cron to src/index.ts at callback when we connect to mongo | By - Or Kilim | On - 2022-05-26T12:59:14Z
- 39. [09b..4e5] Merge pull request #3 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T12:52:08Z
- 40. [964..1b6] put correct connection string | By - Or Kilim | On - 2022-05-26T12:49:04Z
- 41. [2c7..fbf] deleted localhost connection string | By - Or Kilim | On - 2022-05-26T12:48:28Z
- 42. [a29..9d8] refactored code, added two statics function to wnfts model and interface | By - Or Kilim | On - 2022-05-26T12:43:11Z
- 43. [0a5..a5a] Merge pull request #2 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T08:07:27Z
- 44. [518..f29] delete package-lock.json and changed 'start' script to js instead of ts | By - Or Kilim | On - 2022-05-23T14:06:23Z
- 45. [ef7..472] function for cron now more stable | By - Or Kilim | On - 2022-05-23T13:55:00Z
- 46. [adc..cab] added a log message if name retrieved from axios call is undefined and changed error logs if there is a problem with axios call | By - Or Kilim | On - 2022-05-19T08:47:46Z
- 47. [7da..153] added cron to 'services' folder inside 'cron' folder inside index.ts | By - Or Kilim | On - 2022-05-19T08:40:51Z
- 48. [711..bb7] no lock | By - Or Kilim | On - 2022-05-19T08:22:12Z
- 49. [234..79e] added cron for handling NFTs with generic 'XP.Network Wrapped NFT' name | By - Or Kilim | On - 2022-05-18T16:04:15Z
- 50. [d2b..8b4] updated uri | By - Ruby Edelstein | On - 2022-03-04T15:31:19Z
+ 1. [335..470] fetch near metadata | By - Alex Moshinsky | On - 2023-04-05T15:16:44Z
+ 2. [ab1..fe0] fetch near metadata | By - Alex Moshinsky | On - 2023-04-05T15:16:09Z
+ 3. [63c..352] near metadata fix | By - Alex Moshinsky | On - 2023-04-05T12:21:58Z
+ 4. [b89..9fc] fixes | By - Alex Moshinsky | On - 2023-04-05T12:00:52Z
+ 5. [96d..7af] check | By - Alex Moshinsky | On - 2023-04-05T11:40:14Z
+ 6. [095..5b1] remove more console.logs | By - Alex Moshinsky | On - 2023-04-05T11:29:33Z
+ 7. [a34..318] remove console.log | By - Alex Moshinsky | On - 2023-04-05T11:28:13Z
+ 8. [426..837] check | By - Alex Moshinsky | On - 2023-04-05T11:20:46Z
+ 9. [741..d7b] remove error | By - Alex Moshinsky | On - 2023-04-05T11:13:44Z
+ 10. [89a..1c4] metadata check only near blockchain | By - Alex Moshinsky | On - 2023-04-05T11:12:54Z
+ 11. [cc6..fe7] check cid | By - Alex Moshinsky | On - 2023-04-05T10:58:54Z
+ 12. [857..1f3] added route for getting mongodb token id | By - Irtisam | On - 2023-04-04T12:47:47Z
+ 13. [5c0..452] added route for opensea collection on ton | By - Irtisam | On - 2023-02-26T07:32:19Z
+ 14. [ff9..13d] new route for handling opensea collections | By - Irtisam | On - 2023-02-22T11:42:17Z
+ 15. [233..ee1] added route for opensea | By - AlexSafepress | On - 2023-02-22T11:09:11Z
+ 16. [87c..fb1] Production (#6) | By - Alex Moshinsky | On - 2023-02-08T16:44:25Z
+ 17. [3c4..05d] added new route ton collection info addition and getting | By - Debian | On - 2023-01-18T15:41:01Z
+ 18. [861..435] added description to metadata for ton nft collection data | By - Debian | On - 2023-01-17T15:51:47Z
+ 19. [aa4..b8e] remove cron | By - AlexeyAdoniev | On - 2023-01-16T14:43:04Z
+ 20. [688..d57] disable wnft cron | By - AlexeyAdoniev | On - 2023-01-16T14:41:22Z
+ 21. [912..893] add error 404 | By - Alex Moshinsky | On - 2023-01-10T10:36:52Z
+ 22. [d51..422] fix base16 | By - Alex Moshinsky | On - 2022-12-06T10:45:50Z
+ 23. [0a8..e34] return expale | By - Alex Moshinsky | On - 2022-11-23T18:58:48Z
+ 24. [d7f..8ab] erc1155 custom token id fix | By - Alex Moshinsky | On - 2022-11-23T18:57:32Z
+ 25. [2a7..d81] cron job for refetching metaData of nfts with name of  XP.Network Wrapped NFT | By - AlexeyAdoniev | On - 2022-10-06T12:57:09Z
+ 26. [b72..13b] wrapper: fix typo in storeIpfs | By - rupansh | On - 2022-09-25T10:31:48Z
+ 27. [d02..748] removed infinite loop | By - Ruby Edelstein | On - 2022-09-25T10:18:48Z
+ 28. [13c..822] added getwnft logs | By - Ruby Edelstein | On - 2022-09-25T10:15:08Z
+ 29. [f38..ecf] fixed anti ddos derp | By - Ruby Edelstein | On - 2022-09-25T10:12:43Z
+ 30. [bf4..786] anti ddos | By - Ruby Edelstein | On - 2022-09-25T10:12:12Z
+ 31. [258..00d] routes: wrapperRoutes: add origin token id support for elrond | By - rupansh | On - 2022-09-13T18:03:49Z
+ 32. [e27..f65] add dependency graph | By - Dima Brook | On - 2022-09-12T12:35:32Z
+ 33. [f7c..58e] add call diagram | By - Dima Brook | On - 2022-09-12T11:33:17Z
+ 34. [d52..bc0] add Readme.md & refactor string utils | By - Dima Brook | On - 2022-09-12T11:09:29Z
+ 35. [cc8..a89] routes: wrapperRoutes: origin token id: add endpoint for decimal tokenId | By - rupansh | On - 2022-09-07T15:58:05Z
+ 36. [06a..d63] Metadata URI: Move to Env Variable instead of Hardcode | By - imsk17 | On - 2022-08-31T10:00:20Z
+ 37. [aca..727] check nft api if not in db | By - imsk17 | On - 2022-08-16T10:54:30Z
+ 38. [d1b..fd4] Update .env.example | By - Dima Brook | On - 2022-08-08T09:35:56Z
+ 39. [02b..b74] add route for getting nft by origin details | By - rupansh | On - 2022-08-05T17:29:51Z
+ 40. [13b..d48] wrapper: handle ratelimit for web3.storage | By - rupansh | On - 2022-07-19T12:32:29Z
+ 41. [96d..535] Merge pull request #5 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T14:54:22Z
+ 42. [af0..5f9] added logs with id to every error in cron class | By - Or Kilim | On - 2022-05-26T14:22:10Z
+ 43. [ec5..758] reverted from localhost config | By - Or Kilim | On - 2022-05-26T14:04:21Z
+ 44. [e84..7c6] removed console.logs | By - Or Kilim | On - 2022-05-26T14:00:46Z
+ 45. [107..09c] tried locally with local connection string | By - Or Kilim | On - 2022-05-26T13:59:17Z
+ 46. [098..b78] changed path in package.json in start script | By - Or Kilim | On - 2022-05-26T13:40:16Z
+ 47. [b55..c07] changed importing of cron, now imported everything | By - Or Kilim | On - 2022-05-26T13:35:14Z
+ 48. [658..ec7] Merge pull request #4 from XP-NETWORK/ors_task-query_cron | By - VKint | On - 2022-05-26T13:13:51Z
+ 49. [8bc..d20] updated package.json | By - Or Kilim | On - 2022-05-26T13:00:24Z
+ 50. [c41..70e] added the cron to src/index.ts at callback when we connect to mongo | By - Or Kilim | On - 2022-05-26T12:59:14Z
 
 ## ors_task-query_cron
 
@@ -5165,115 +8140,280 @@
  43. [1f1..aca] fix env vars with dotenv | By - Dima Brook | On - 2022-02-08T12:50:21Z
  44. [b33..e4e] initial commit | By - Dima Brook | On - 2022-02-08T11:24:25Z
 
-# solana-bridge
+# nearWhitelistService
 
-## docs/deployment
+## master
 
 
- 1. [fdf..5b2] docs(deployment): add documentation to deploy a program | By - Fassih Haider | On - 2023-02-23T12:21:59Z
- 2. [b74..641] XpNft: Deployment Script | By - imsk17 | On - 2022-11-21T19:46:52Z
- 3. [2e1..9aa] Contract: Introduce a Setup Script | By - imsk17 | On - 2022-11-21T18:40:24Z
- 4. [a7d..b05] update metaplex deps | By - rocalex | On - 2022-11-21T13:07:20Z
- 5. [9ec..15e] Encoding: Setup Constructors | By - imsk17 | On - 2022-11-21T12:53:45Z
- 6. [a50..0db] pubkey instead of [u8; 32] | By - rocalex | On - 2022-09-21T12:15:49Z
- 7. [8e8..14b] custom serialization for creators | By - rocalex | On - 2022-09-21T11:50:37Z
- 8. [2f3..110] unit tests with borsh error | By - rocalex | On - 2022-09-21T11:27:28Z
- 9. [efb..b35] remove looping over data.creators | By - rocalex | On - 2022-09-21T10:19:17Z
- 10. [a59..024] calculate bump off chain | By - rocalex | On - 2022-09-21T08:50:37Z
- 11. [583..8fc] calculate bump off chain | By - rocalex | On - 2022-09-20T08:40:45Z
- 12. [880..d6f] check amount | By - rocalex | On - 2022-09-20T08:12:11Z
- 13. [89f..d6b] Update lib.rs | By - Xueming Zheng | On - 2022-09-19T14:24:02Z
- 14. [c1e..9d8] change program id | By - rocalex | On - 2022-09-16T12:57:00Z
- 15. [058..0a3] constrains | By - rocalex | On - 2022-09-15T18:27:24Z
- 16. [b2b..ab1] require unpause to constraint | By - rocalex | On - 2022-09-15T18:14:15Z
- 17. [517..8dd] fix TODOs | By - rocalex | On - 2022-09-15T17:51:00Z
- 18. [5e4..6f5] remove create action | By - rocalex | On - 2022-09-15T17:23:36Z
- 19. [1b5..2cd] remove metaplex js | By - rocalex | On - 2022-09-14T18:12:17Z
- 20. [69e..008] constraints for instruction_acc | By - rocalex | On - 2022-09-14T18:00:35Z
- 21. [d4d..af6] rename royalties | By - rocalex | On - 2022-08-08T02:41:48Z
- 22. [2cc..59a] add royalties | By - rocalex | On - 2022-08-07T21:29:14Z
- 23. [aee..92f] fix inline doc | By - rocalex | On - 2022-07-04T13:47:20Z
- 24. [3ab..976] emit lamports | By - rocalex | On - 2022-06-20T18:55:50Z
- 25. [a92..545] emit mintWith | By - rocalex | On - 2022-06-19T19:00:19Z
- 26. [587..354] emit action id | By - rocalex | On - 2022-06-19T18:52:00Z
- 27. [e18..8ac] add mint to unfreeze data | By - rocalex | On - 2022-06-17T17:04:36Z
- 28. [43d..adb] add transfer_service_fee_lamports function | By - rocalex | On - 2022-06-14T04:08:17Z
- 29. [f30..846] add withdraw fees | By - rocalex | On - 2022-06-14T03:57:55Z
- 30. [188..c0d] transfer service fee to bridge PDA when freeze/withdraw | By - rocalex | On - 2022-06-14T03:37:56Z
- 31. [a39..e19] remove treasury | By - rocalex | On - 2022-06-14T03:10:57Z
- 32. [270..782] update mpl-token-metadata version | By - rocalex | On - 2022-06-14T03:05:13Z
- 33. [91c..617] use PDA as bridge account | By - rocalex | On - 2022-06-13T20:56:10Z
- 34. [f2f..e83] remove unused imports | By - rocalex | On - 2022-06-13T19:32:44Z
- 35. [4d5..9bd] emit mint when freeze | By - rocalex | On - 2022-06-13T19:30:50Z
- 36. [e19..43d] check if receiver is correct | By - rocalex | On - 2022-06-13T19:24:49Z
- 37. [f35..5f4] change bridge PDA to normal account | By - rocalex | On - 2022-06-13T03:39:07Z
- 38. [b8b..edd] fix burn | By - rocalex | On - 2022-06-12T19:47:19Z
- 39. [388..2ec] fix withdraw | By - rocalex | On - 2022-06-12T19:15:10Z
- 40. [2d4..ab6] change authority | By - rocalex | On - 2022-06-12T15:12:18Z
- 41. [ce1..75c] remove anchor.web. | By - rocalex | On - 2022-06-12T14:47:17Z
- 42. [610..592] bridge account as PDA | By - rocalex | On - 2022-06-12T10:12:35Z
- 43. [848..16e] config the client | By - rocalex | On - 2022-06-12T09:05:54Z
- 44. [a16..c5f] refactor duplicated methods | By - rocalex | On - 2022-06-10T12:13:01Z
- 45. [f00..649] Update README.md | By - Dima Brook | On - 2022-06-09T13:37:11Z
- 46. [116..906] Update README.md | By - Dima Brook | On - 2022-06-09T13:30:41Z
- 47. [c02..7ff] Update README.md | By - Dima Brook | On - 2022-06-09T13:17:05Z
- 48. [f9c..49c] Update README.md | By - Dima Brook | On - 2022-06-09T13:05:32Z
- 49. [823..6f4] Update README.md | By - Dima Brook | On - 2022-06-09T09:17:48Z
- 50. [cee..78e] Update README.md | By - Dima Brook | On - 2022-06-09T09:05:26Z
+ 1. [1d4..676] changes block behind - 50 | By - Alex Moshinsky | On - 2023-04-03T07:52:14Z
+ 2. [887..a67] changes timeout | By - Alex Moshinsky | On - 2023-04-03T07:40:14Z
+ 3. [eea..a05] changes timeout | By - Alex Moshinsky | On - 2023-04-03T06:53:43Z
+ 4. [679..ae3] chnages | By - Alex Moshinsky | On - 2023-04-03T06:50:24Z
+ 5. [28c..f13] show block number in terminal | By - Alex Moshinsky | On - 2023-04-03T06:47:26Z
+ 6. [659..937] change return name | By - Alex Moshinsky | On - 2023-04-03T06:35:35Z
+ 7. [37f..807] init | By - Alex Moshinsky | On - 2023-04-03T06:14:28Z
+
+# cypress-tester
+
+## master
+
+
+ 1. [874..aa4] added the wallet connect | By - MRNobody183 | On - 2023-03-30T05:39:58Z
+ 2. [f87..792] chain switch | By - MRNobody183 | On - 2023-03-29T08:32:42Z
+ 3. [329..29b] almost complete just nft is not sent yet | By - MRNobody183 | On - 2023-03-28T05:37:04Z
+ 4. [42c..039] deletedfile | By - MRNobody183 | On - 2023-03-27T09:00:22Z
+ 5. [393..8f3] added wallet and option check | By - MRNobody183 | On - 2023-03-27T08:59:13Z
+ 6. [f3f..fef] first comit | By - MRNobody183 | On - 2023-03-27T05:39:23Z
+
+# frost-hacks
+
+## secret
+
+
+ 1. [8ef..9ed] update NEAR | By - Dima Brook | On - 2023-03-28T13:07:36Z
+ 2. [2b0..321] fix NEAR whitelisting errors) | By - Dima Brook | On - 2023-03-28T12:45:38Z
+ 3. [ce2..968] add: near whitelisting | By - Dima Brook | On - 2023-03-28T11:53:07Z
+ 4. [27b..77e] evm: add whitelist script | By - imsk17 | On - 2023-03-21T14:26:08Z
+ 5. [ce9..c41] tezos: setup unfreeze script | By - imsk17 | On - 2023-02-20T09:03:59Z
+ 6. [062..630] web3: make unfreeze work | By - imsk17 | On - 2023-02-17T11:48:51Z
+ 7. [e4e..f4e] web3: add unfreeze script | By - imsk17 | On - 2023-02-17T08:19:26Z
+ 8. [154..dc5] ton: common: fix minor derp | By - rupansh | On - 2022-11-07T14:16:47Z
+ 9. [deb..1fa] ton: add whitelist script | By - rupansh | On - 2022-11-07T14:10:05Z
+ 10. [c9f..db7] aptos: fix minor derp | By - rupansh | On - 2022-10-31T12:53:32Z
+ 11. [b94..8d9] aptos: add whitelist script | By - rupansh | On - 2022-10-30T20:20:21Z
+ 12. [2af..51d] add ton script for confirming public key | By - rupansh | On - 2022-10-25T11:30:16Z
+ 13. [70e..b21] tron: actually send the txn | By - imsk17 | On - 2022-10-25T11:30:16Z
+ 14. [1ce..362] tron: print whole txn | By - imsk17 | On - 2022-10-25T11:30:16Z
+ 15. [a90..9df] fix address conversion | By - imsk17 | On - 2022-10-25T11:30:16Z
+ 16. [daf..9c2] feat: tron: add whitelist script | By - imsk17 | On - 2022-10-25T11:30:16Z
+ 17. [de1..283] secret: use tuple for wrapper struct | By - rupansh | On - 2022-08-21T13:09:39Z
+ 18. [72b..a3f] secret: fix minor derps | By - rupansh | On - 2022-08-21T12:55:48Z
+ 19. [3c2..5f7] add evm withdraw script | By - rupansh | On - 2022-07-21T13:06:57Z
+ 20. [a14..33b] elrond: fix txgen | By - rupansh | On - 2022-07-10T19:53:51Z
+ 21. [2b9..608] secret changes | By - rupansh | On - 2022-06-07T14:40:09Z
+ 22. [ce8..473] kek | By - rupansh | On - 2022-06-07T11:34:26Z
+
+# Xp-Coin-Cap-Market
+
+## historical-bar-ui
+
+
+ 1. [d1d..a2c] fn(): historical data along with pagination is retreived handled for the user's interface. | By - mominhyatkhan | On - 2023-03-14T11:48:05Z
+ 2. [c22..24d] fn(): added historic bar for historical data. | By - mominhyatkhan | On - 2023-03-09T12:50:58Z
+ 3. [4e0..f4e] fn(): done with retrieving data along with pagination and some UI changes. | By - mominhyatkhan | On - 2023-03-07T12:21:36Z
+ 4. [162..b69] Research in progress to fetch the required details for NFT collection. | By - mominhyatkhan | On - 2023-02-15T12:54:14Z
+ 5. [d74..5dc] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:42Z
+ 6. [0dd..a67] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:31Z
+
+## improve-ui
+
+
+ 1. [c22..24d] fn(): added historic bar for historical data. | By - mominhyatkhan | On - 2023-03-09T12:50:58Z
+ 2. [4e0..f4e] fn(): done with retrieving data along with pagination and some UI changes. | By - mominhyatkhan | On - 2023-03-07T12:21:36Z
+ 3. [162..b69] Research in progress to fetch the required details for NFT collection. | By - mominhyatkhan | On - 2023-02-15T12:54:14Z
+ 4. [d74..5dc] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:42Z
+ 5. [0dd..a67] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:31Z
+
+## master
+
+
+ 1. [d74..5dc] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:42Z
+ 2. [0dd..a67] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:31Z
+
+## pagination-backend
+
+
+ 1. [ce0..f7c] feet(): Image error handling issue and UI improved. | By - mominhyatkhan | On - 2023-03-22T13:03:34Z
+ 2. [9b4..9bb] fn(): Pagination is now being handled from the backend. | By - mominhyatkhan | On - 2023-03-21T08:20:14Z
+ 3. [ad2..5fd] fn(): show image if exist in db else show eth logo with the name of an nft. | By - mominhyatkhan | On - 2023-03-16T10:53:59Z
+ 4. [c6d..e10] feet(): updated the UI and axios data handeling in useEffect. | By - mominhyatkhan | On - 2023-03-15T12:20:27Z
+ 5. [d1d..a2c] fn(): historical data along with pagination is retreived handled for the user's interface. | By - mominhyatkhan | On - 2023-03-14T11:48:05Z
+ 6. [c22..24d] fn(): added historic bar for historical data. | By - mominhyatkhan | On - 2023-03-09T12:50:58Z
+ 7. [4e0..f4e] fn(): done with retrieving data along with pagination and some UI changes. | By - mominhyatkhan | On - 2023-03-07T12:21:36Z
+ 8. [162..b69] Research in progress to fetch the required details for NFT collection. | By - mominhyatkhan | On - 2023-02-15T12:54:14Z
+ 9. [d74..5dc] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:42Z
+ 10. [0dd..a67] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:31Z
+
+## ready-to-test
+
+
+ 1. [efb..da6] fn(): solved timestamp and hash issue and created api for historic data. | By - mominhyatkhan | On - 2023-03-08T13:14:30Z
+ 2. [306..dac] fn(): Calculated the Avg price and avoid the repitiotion inside the table if the record already exist. | By - mominhyatkhan | On - 2023-03-07T12:19:30Z
+ 3. [22c..8ba] fn(): pagination to get the limited records from the db. | By - mominhyatkhan | On - 2023-03-06T13:04:09Z
+ 4. [942..709] fn(): Calculating floorprice, estimatedMarketCap, sales and storing all the data into the db to be used on frontend. All the data we are fetching needs to be verified. | By - mominhyatkhan | On - 2023-03-03T13:49:10Z
+ 5. [9e9..5f1] feet(): eslint changes. | By - mominhyatkhan | On - 2023-03-03T06:24:25Z
+ 6. [db9..f8d] fn(): cron job to fetch all the history record along with nft required details except sales and price. | By - mominhyatkhan | On - 2023-03-03T06:09:58Z
+ 7. [1b9..40e] Repitition problem solved. | By - mominhyatkhan | On - 2023-03-02T05:32:38Z
+ 8. [0b8..620] Repeating entries in the contract address table. | By - mominhyatkhan | On - 2023-02-28T14:32:59Z
+ 9. [f12..29c] Token Id's and value for each nft has been fetched and stored in db successfully. | By - mominhyatkhan | On - 2023-02-27T13:13:31Z
+ 10. [ac9..1cc] bridge token table under progress. | By - mominhyatkhan | On - 2023-02-23T14:37:04Z
+ 11. [f71..6b2] Successfully fetching all the contract addresses from opensea. | By - mominhyatkhan | On - 2023-02-22T12:56:46Z
+ 12. [3b1..872] We have decided to switch to mysql from mongodb along with getHistory records to avoid performance issues. | By - mominhyatkhan | On - 2023-02-21T13:15:05Z
+ 13. [732..a76] feet(): file name changed. | By - mominhyatkhan | On - 2023-02-17T13:55:45Z
+ 14. [3ba..b59] fn(): Calling etherscan provider to fetch info regarding nft's and storing it into a db. | By - mominhyatkhan | On - 2023-02-17T13:50:20Z
+ 15. [603..1e0] first commit | By - mominhyatkhan | On - 2023-02-16T12:38:40Z
+
+## research
+
+
+ 1. [162..b69] Research in progress to fetch the required details for NFT collection. | By - mominhyatkhan | On - 2023-02-15T12:54:14Z
+ 2. [d74..5dc] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:42Z
+ 3. [0dd..a67] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:31Z
+
+## updated-ui
+
+
+ 1. [ad2..5fd] fn(): show image if exist in db else show eth logo with the name of an nft. | By - mominhyatkhan | On - 2023-03-16T10:53:59Z
+ 2. [c6d..e10] feet(): updated the UI and axios data handeling in useEffect. | By - mominhyatkhan | On - 2023-03-15T12:20:27Z
+ 3. [d1d..a2c] fn(): historical data along with pagination is retreived handled for the user's interface. | By - mominhyatkhan | On - 2023-03-14T11:48:05Z
+ 4. [c22..24d] fn(): added historic bar for historical data. | By - mominhyatkhan | On - 2023-03-09T12:50:58Z
+ 5. [4e0..f4e] fn(): done with retrieving data along with pagination and some UI changes. | By - mominhyatkhan | On - 2023-03-07T12:21:36Z
+ 6. [162..b69] Research in progress to fetch the required details for NFT collection. | By - mominhyatkhan | On - 2023-02-15T12:54:14Z
+ 7. [d74..5dc] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:42Z
+ 8. [0dd..a67] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:31Z
+
+# xpnft
+
+## feat/hedera
+
+
+ 1. [ae6..c4b] initial commit | By - AlexSafepress | On - 2023-03-15T12:35:25Z
+ 2. [b75..e5d] Update XPNftHts.sol | By - Dima Brook | On - 2023-03-01T18:10:57Z
+ 3. [461..ec5] Add tokenId to the uri(uint256 _tokenID) | By - Dima Brook | On - 2022-11-30T14:54:11Z
+ 4. [7dd..e34] add OpenSea contracts | By - Dima Brook | On - 2022-11-15T10:33:12Z
+ 5. [cf1..85c] fix issues, set examples | By - Dima Brook | On - 2022-11-14T09:41:07Z
+ 6. [742..6db] update README | By - rupansh | On - 2022-11-13T14:35:22Z
+ 7. [b56..47c] opensea royalties changes | By - rupansh | On - 2022-11-13T14:32:51Z
+ 8. [abe..a83] contracts: hedera: proxy: more fixes | By - imsk17 | On - 2022-11-03T09:42:06Z
+ 9. [6eb..224] hedera: proxy: update safeTransferFrom to allow any token transfer | By - imsk17 | On - 2022-11-02T07:42:14Z
+ 10. [826..174] hedera: proxy: implement safeTransferFrom | By - imsk17 | On - 2022-10-31T11:38:02Z
+ 11. [c21..d97] hedera: switch to 0.2 release | By - rupansh | On - 2022-10-27T15:47:27Z
+ 12. [995..6c0] XpNftHts: use EnumerableSet for claimables | By - rupansh | On - 2022-10-27T14:22:47Z
+ 13. [fe5..436] update hedera submodule | By - rupansh | On - 2022-10-27T14:22:06Z
+ 14. [acf..dd2] Update XPNFT-HTS | By - imsk17 | On - 2022-10-27T11:35:13Z
+ 15. [a6c..752] XPNftHts: improve token associated check | By - rupansh | On - 2022-10-27T11:28:29Z
+ 16. [1b9..550] XPNftHts: add claim nfts for unassociated accounts | By - rupansh | On - 2022-10-27T11:07:00Z
+ 17. [5ab..c9d] Update XPNFT-HTS | By - imsk17 | On - 2022-10-27T09:12:39Z
+ 18. [649..9f7] XPNFT: HTS: Make Initialize Payable | By - imsk17 | On - 2022-09-05T12:34:22Z
+ 19. [837..e00] XPNftHts: move constructor to initializer | By - rupansh | On - 2022-08-21T11:16:27Z
+ 20. [1bc..f36] add XPNft for HTS Tokens | By - rupansh | On - 2022-08-17T16:13:43Z
+ 21. [d1c..458] add hedera prebuilt as submodule | By - rupansh | On - 2022-08-17T16:13:21Z
+ 22. [698..0a5] royalties: ignore rawInfo if empty | By - rupansh | On - 2022-05-08T15:26:39Z
+ 23. [5a3..6dc] package: update name, version | By - rupansh | On - 2022-05-07T21:50:30Z
+ 24. [9ef..4e9] initial royalties impl | By - rupansh | On - 2022-05-07T21:46:03Z
+ 25. [e9e..365] initial import | By - rupansh | On - 2022-05-07T21:11:21Z
+
+## master
+
+
+ 1. [b75..e5d] Update XPNftHts.sol | By - Dima Brook | On - 2023-03-01T18:10:57Z
+ 2. [461..ec5] Add tokenId to the uri(uint256 _tokenID) | By - Dima Brook | On - 2022-11-30T14:54:11Z
+ 3. [7dd..e34] add OpenSea contracts | By - Dima Brook | On - 2022-11-15T10:33:12Z
+ 4. [cf1..85c] fix issues, set examples | By - Dima Brook | On - 2022-11-14T09:41:07Z
+ 5. [742..6db] update README | By - rupansh | On - 2022-11-13T14:35:22Z
+ 6. [b56..47c] opensea royalties changes | By - rupansh | On - 2022-11-13T14:32:51Z
+ 7. [abe..a83] contracts: hedera: proxy: more fixes | By - imsk17 | On - 2022-11-03T09:42:06Z
+ 8. [6eb..224] hedera: proxy: update safeTransferFrom to allow any token transfer | By - imsk17 | On - 2022-11-02T07:42:14Z
+ 9. [826..174] hedera: proxy: implement safeTransferFrom | By - imsk17 | On - 2022-10-31T11:38:02Z
+ 10. [c21..d97] hedera: switch to 0.2 release | By - rupansh | On - 2022-10-27T15:47:27Z
+ 11. [995..6c0] XpNftHts: use EnumerableSet for claimables | By - rupansh | On - 2022-10-27T14:22:47Z
+ 12. [fe5..436] update hedera submodule | By - rupansh | On - 2022-10-27T14:22:06Z
+ 13. [acf..dd2] Update XPNFT-HTS | By - imsk17 | On - 2022-10-27T11:35:13Z
+ 14. [a6c..752] XPNftHts: improve token associated check | By - rupansh | On - 2022-10-27T11:28:29Z
+ 15. [1b9..550] XPNftHts: add claim nfts for unassociated accounts | By - rupansh | On - 2022-10-27T11:07:00Z
+ 16. [5ab..c9d] Update XPNFT-HTS | By - imsk17 | On - 2022-10-27T09:12:39Z
+ 17. [649..9f7] XPNFT: HTS: Make Initialize Payable | By - imsk17 | On - 2022-09-05T12:34:22Z
+ 18. [837..e00] XPNftHts: move constructor to initializer | By - rupansh | On - 2022-08-21T11:16:27Z
+ 19. [1bc..f36] add XPNft for HTS Tokens | By - rupansh | On - 2022-08-17T16:13:43Z
+ 20. [d1c..458] add hedera prebuilt as submodule | By - rupansh | On - 2022-08-17T16:13:21Z
+ 21. [698..0a5] royalties: ignore rawInfo if empty | By - rupansh | On - 2022-05-08T15:26:39Z
+ 22. [5a3..6dc] package: update name, version | By - rupansh | On - 2022-05-07T21:50:30Z
+ 23. [9ef..4e9] initial royalties impl | By - rupansh | On - 2022-05-07T21:46:03Z
+ 24. [e9e..365] initial import | By - rupansh | On - 2022-05-07T21:11:21Z
+
+# internal-docs
 
 ## main
 
 
- 1. [b74..641] XpNft: Deployment Script | By - imsk17 | On - 2022-11-21T19:46:52Z
- 2. [2e1..9aa] Contract: Introduce a Setup Script | By - imsk17 | On - 2022-11-21T18:40:24Z
- 3. [a7d..b05] update metaplex deps | By - rocalex | On - 2022-11-21T13:07:20Z
- 4. [9ec..15e] Encoding: Setup Constructors | By - imsk17 | On - 2022-11-21T12:53:45Z
- 5. [a50..0db] pubkey instead of [u8; 32] | By - rocalex | On - 2022-09-21T12:15:49Z
- 6. [8e8..14b] custom serialization for creators | By - rocalex | On - 2022-09-21T11:50:37Z
- 7. [2f3..110] unit tests with borsh error | By - rocalex | On - 2022-09-21T11:27:28Z
- 8. [efb..b35] remove looping over data.creators | By - rocalex | On - 2022-09-21T10:19:17Z
- 9. [a59..024] calculate bump off chain | By - rocalex | On - 2022-09-21T08:50:37Z
- 10. [583..8fc] calculate bump off chain | By - rocalex | On - 2022-09-20T08:40:45Z
- 11. [880..d6f] check amount | By - rocalex | On - 2022-09-20T08:12:11Z
- 12. [89f..d6b] Update lib.rs | By - Xueming Zheng | On - 2022-09-19T14:24:02Z
- 13. [c1e..9d8] change program id | By - rocalex | On - 2022-09-16T12:57:00Z
- 14. [058..0a3] constrains | By - rocalex | On - 2022-09-15T18:27:24Z
- 15. [b2b..ab1] require unpause to constraint | By - rocalex | On - 2022-09-15T18:14:15Z
- 16. [517..8dd] fix TODOs | By - rocalex | On - 2022-09-15T17:51:00Z
- 17. [5e4..6f5] remove create action | By - rocalex | On - 2022-09-15T17:23:36Z
- 18. [1b5..2cd] remove metaplex js | By - rocalex | On - 2022-09-14T18:12:17Z
- 19. [69e..008] constraints for instruction_acc | By - rocalex | On - 2022-09-14T18:00:35Z
- 20. [d4d..af6] rename royalties | By - rocalex | On - 2022-08-08T02:41:48Z
- 21. [2cc..59a] add royalties | By - rocalex | On - 2022-08-07T21:29:14Z
- 22. [aee..92f] fix inline doc | By - rocalex | On - 2022-07-04T13:47:20Z
- 23. [3ab..976] emit lamports | By - rocalex | On - 2022-06-20T18:55:50Z
- 24. [a92..545] emit mintWith | By - rocalex | On - 2022-06-19T19:00:19Z
- 25. [587..354] emit action id | By - rocalex | On - 2022-06-19T18:52:00Z
- 26. [e18..8ac] add mint to unfreeze data | By - rocalex | On - 2022-06-17T17:04:36Z
- 27. [43d..adb] add transfer_service_fee_lamports function | By - rocalex | On - 2022-06-14T04:08:17Z
- 28. [f30..846] add withdraw fees | By - rocalex | On - 2022-06-14T03:57:55Z
- 29. [188..c0d] transfer service fee to bridge PDA when freeze/withdraw | By - rocalex | On - 2022-06-14T03:37:56Z
- 30. [a39..e19] remove treasury | By - rocalex | On - 2022-06-14T03:10:57Z
- 31. [270..782] update mpl-token-metadata version | By - rocalex | On - 2022-06-14T03:05:13Z
- 32. [91c..617] use PDA as bridge account | By - rocalex | On - 2022-06-13T20:56:10Z
- 33. [f2f..e83] remove unused imports | By - rocalex | On - 2022-06-13T19:32:44Z
- 34. [4d5..9bd] emit mint when freeze | By - rocalex | On - 2022-06-13T19:30:50Z
- 35. [e19..43d] check if receiver is correct | By - rocalex | On - 2022-06-13T19:24:49Z
- 36. [f35..5f4] change bridge PDA to normal account | By - rocalex | On - 2022-06-13T03:39:07Z
- 37. [b8b..edd] fix burn | By - rocalex | On - 2022-06-12T19:47:19Z
- 38. [388..2ec] fix withdraw | By - rocalex | On - 2022-06-12T19:15:10Z
- 39. [2d4..ab6] change authority | By - rocalex | On - 2022-06-12T15:12:18Z
- 40. [ce1..75c] remove anchor.web. | By - rocalex | On - 2022-06-12T14:47:17Z
- 41. [610..592] bridge account as PDA | By - rocalex | On - 2022-06-12T10:12:35Z
- 42. [848..16e] config the client | By - rocalex | On - 2022-06-12T09:05:54Z
- 43. [a16..c5f] refactor duplicated methods | By - rocalex | On - 2022-06-10T12:13:01Z
- 44. [f00..649] Update README.md | By - Dima Brook | On - 2022-06-09T13:37:11Z
- 45. [116..906] Update README.md | By - Dima Brook | On - 2022-06-09T13:30:41Z
- 46. [c02..7ff] Update README.md | By - Dima Brook | On - 2022-06-09T13:17:05Z
- 47. [f9c..49c] Update README.md | By - Dima Brook | On - 2022-06-09T13:05:32Z
- 48. [823..6f4] Update README.md | By - Dima Brook | On - 2022-06-09T09:17:48Z
- 49. [cee..78e] Update README.md | By - Dima Brook | On - 2022-06-09T09:05:26Z
- 50. [7f6..717] Update README.md | By - Dima Brook | On - 2022-06-09T08:58:22Z
+ 1. [599..c1e] Create resubmit_tx_validators.md | By - Dima Brook | On - 2023-03-13T15:54:31Z
+ 2. [186..c5c] How to Generate ED25519 keys | By - Dima Brook | On - 2023-01-05T10:06:51Z
+ 3. [ea6..8ef] Update bridge_deployment.md | By - Dima Brook | On - 2022-10-09T08:22:40Z
+ 4. [5c2..f15] Update bridge_deployment.md | By - Dima Brook | On - 2022-10-09T08:18:13Z
+ 5. [41f..73a] Update tezos-backer-restart.md | By - Dima Brook | On - 2022-06-23T08:35:11Z
+ 6. [485..1a1] Create Hetzner_raid1_to_raid0.md | By - Dima Brook | On - 2022-06-23T08:34:16Z
+ 7. [5ac..981] Create Hedera.md | By - Dima Brook | On - 2022-04-03T13:14:08Z
+ 8. [907..81a] Create D_CENT.md | By - Dima Brook | On - 2022-04-03T13:13:18Z
+ 9. [29d..dd5] Create Clover.md | By - Dima Brook | On - 2022-04-03T13:12:41Z
+ 10. [f62..a24] Create tezos-backer-restart.md | By - Dima Brook | On - 2022-04-03T13:12:04Z
+ 11. [ad5..98e] Create bridge_architecture.md | By - Dima Brook | On - 2022-02-28T19:24:43Z
+ 12. [b12..32d] Create docker.md | By - Dima Brook | On - 2022-02-22T10:31:25Z
+ 13. [3d4..2a2] Create heco.md | By - Dima Brook | On - 2022-02-16T09:50:37Z
+ 14. [145..6b8] Create moonbeam.md | By - Dima Brook | On - 2022-02-14T14:07:32Z
+ 15. [2c1..ccd] Create ve-chain.md | By - Dima Brook | On - 2022-02-14T10:15:57Z
+ 16. [92d..b42] Create secret-network.md | By - Dima Brook | On - 2022-02-14T10:15:22Z
+ 17. [ad4..5e6] Create nervos.md | By - Dima Brook | On - 2022-02-14T10:14:48Z
+ 18. [223..376] Create .gitkeep | By - Dima Brook | On - 2022-02-14T10:14:20Z
+ 19. [5a4..f07] Create nervos.md | By - Dima Brook | On - 2022-02-14T10:13:26Z
+ 20. [6dd..72f] Create thinkium.md | By - Dima Brook | On - 2022-02-14T10:12:24Z
+ 21. [ce6..6fd] Create .gitkeep | By - Dima Brook | On - 2022-02-14T10:11:46Z
+ 22. [86d..f5c] Create tezos_backer.md | By - Dima Brook | On - 2022-02-14T09:53:36Z
+ 23. [711..208] Create bridge_deployment.md | By - Dima Brook | On - 2022-02-13T11:34:22Z
+ 24. [823..62f] Create algorand-deployment.md | By - Dima Brook | On - 2021-12-06T18:11:40Z
+ 25. [633..645] Create heroku-nft-index.md | By - Dima Brook | On - 2021-12-01T19:06:03Z
+
+# Xp-Layer-2-Research
+
+## hamza
+
+
+ 1. [59a..b0a] [L2-gasless-transaction-modification] | By - Genesis671230 | On - 2023-02-15T12:16:26Z
+
+## irfanullah
+
+
+ 1. [496..904] updates of R&D | By - irfanullahatozi | On - 2023-03-13T06:30:22Z
+ 2. [cd9..79b] 22,23 feb 2023 | By - irfanullahatozi | On - 2023-02-27T12:48:04Z
+ 3. [068..702] 21 feb 2023 work | By - irfanullahatozi | On - 2023-02-21T12:57:59Z
+ 4. [d8c..a23] 20 feb 2023 work | By - irfanullahatozi | On - 2023-02-20T13:15:51Z
+ 5. [14c..b6d] 16-feb-2023 work | By - irfanullahatozi | On - 2023-02-20T13:15:51Z
+ 6. [7dd..971] work on 15 feb 2023 | By - irfanullahatozi | On - 2023-02-20T13:15:51Z
+ 7. [b8a..4cd] Update README.md | By - Irfan Ullah | On - 2023-02-15T13:02:42Z
+ 8. [3c6..8ef] 15 feb 2023 work | By - irfanullahatozi | On - 2023-02-15T13:02:00Z
+ 9. [491..222] 15 feb 2023 work | By - irfanullahatozi | On - 2023-02-15T13:01:09Z
+ 10. [b1b..bd3] first commit | By - irfanullahatozi | On - 2023-02-15T12:57:43Z
+
+## main
+
+
+ 1. [b1b..bd3] first commit | By - irfanullahatozi | On - 2023-02-15T12:57:43Z
+
+# secret-target-nft-contract
+
+## main
+
+
+ 1. [535..782] Initial commit | By - Dima Brook | On - 2022-12-15T07:08:32Z
+
+## master
+
+
+ 1. [fcb..8a9] Update package.json | By - Dima Brook | On - 2023-03-12T18:04:01Z
+ 2. [75a..863] Create isWhitelisted.ts | By - Dima Brook | On - 2023-03-12T18:01:16Z
+ 3. [624..d31] update | By - Dima Brook | On - 2023-03-07T15:10:55Z
+ 4. [edf..f90] fix | By - Dima Brook | On - 2023-03-07T10:09:18Z
+ 5. [5fb..296] fix | By - Dima Brook | On - 2023-03-07T10:08:47Z
+ 6. [e65..bb7] add royalties | By - Dima Brook | On - 2023-03-07T09:43:11Z
+ 7. [43a..c8f] update to secretjs@1.4.7 | By - Dima Brook | On - 2023-03-06T17:12:30Z
+ 8. [89e..62b] Update instantiate.js | By - Dima Brook | On - 2023-03-05T18:10:35Z
+ 9. [aeb..f0b] packages: bump secretjs | By - imsk17 | On - 2023-03-02T06:56:53Z
+ 10. [7b8..315] refactor | By - Dima Brook | On - 2023-03-01T12:54:08Z
+ 11. [e70..b07] refactor | By - Dima Brook | On - 2023-02-28T12:34:23Z
+ 12. [c80..a22] refactor | By - Dima Brook | On - 2023-02-28T12:18:51Z
+ 13. [ba7..cc7] add royalties | By - imsk17 | On - 2023-01-23T14:23:26Z
+ 14. [78d..99e] Add a readme on how to deploy | By - imsk17 | On - 2022-12-15T12:53:21Z
+ 15. [663..efd] print code hash as well | By - imsk17 | On - 2022-12-15T09:28:09Z
+ 16. [9ce..ed0] initial import | By - imsk17 | On - 2022-12-15T09:00:03Z
 
 # dima-u-bot
 
@@ -5285,56 +8425,92 @@
 ## master
 
 
- 1. [ee1..6b8] telegramBot | By - rony derra | On - 2023-02-22T13:51:06Z
- 2. [b82..a16] telegramBot | By - rony derra | On - 2023-02-22T12:34:51Z
- 3. [599..85e] message | By - rony derra | On - 2023-01-24T15:14:19Z
- 4. [d27..8f0] action | By - rony derra | On - 2023-01-24T15:12:37Z
- 5. [714..8a8] messsage | By - rony derra | On - 2023-01-24T15:10:18Z
- 6. [7bb..af9] ctx.reply | By - rony derra | On - 2023-01-24T15:08:39Z
- 7. [cd9..a51] message | By - rony derra | On - 2023-01-24T15:07:18Z
- 8. [1d0..00a] message | By - rony derra | On - 2023-01-24T15:05:20Z
- 9. [97e..a0c] sendToAll | By - rony derra | On - 2023-01-23T15:17:49Z
- 10. [28c..c15] sheet | By - rony derra | On - 2023-01-23T15:07:09Z
- 11. [a8a..5ff] sendToAll | By - rony derra | On - 2023-01-23T15:00:44Z
- 12. [3a2..19f] sendMessagev | By - rony derra | On - 2023-01-23T14:55:58Z
- 13. [632..1cd] sendToAll | By - rony derra | On - 2023-01-23T14:55:25Z
- 14. [76a..47b] sendToAll | By - rony derra | On - 2023-01-23T14:54:28Z
- 15. [2a1..53c] log | By - rony derra | On - 2023-01-23T14:36:10Z
- 16. [5de..261] log | By - rony derra | On - 2023-01-23T14:32:44Z
- 17. [b9a..9bd] sendToAll | By - rony derra | On - 2023-01-23T14:32:25Z
- 18. [489..f21] telegramBot | By - rony derra | On - 2023-01-23T12:48:12Z
- 19. [2a9..36d] telegramBot | By - rony derra | On - 2023-01-23T11:14:22Z
- 20. [2bb..ec5] log | By - rony derra | On - 2023-01-23T11:12:16Z
- 21. [05b..869] sendMessage | By - rony derra | On - 2023-01-17T17:12:40Z
- 22. [876..c47] sendPhoto | By - rony derra | On - 2023-01-17T17:06:11Z
- 23. [5a7..f1c] message | By - rony derra | On - 2023-01-17T17:01:27Z
- 24. [43d..1d8] sendToAll | By - rony derra | On - 2023-01-17T16:58:24Z
- 25. [528..ea2] message | By - rony derra | On - 2023-01-17T16:30:08Z
- 26. [831..b60] DONE | By - rony derra | On - 2023-01-15T15:37:39Z
- 27. [abe..042] data2 | By - rony derra | On - 2023-01-15T14:32:45Z
- 28. [7d2..2d4] MASTER | By - rony derra | On - 2023-01-15T14:15:04Z
- 29. [153..7f9] bot | By - rony derra | On - 2023-01-15T14:12:11Z
- 30. [da6..f00] bot | By - rony derra | On - 2023-01-15T14:11:22Z
- 31. [4f5..fed] telegramBot | By - rony derra | On - 2023-01-15T14:06:42Z
- 32. [fd1..25c] rmv | By - rony derra | On - 2023-01-15T09:30:30Z
- 33. [e80..b3e] telegramBot | By - rony derra | On - 2023-01-15T09:28:41Z
- 34. [1de..340] formatting | By - rony derra | On - 2023-01-15T09:23:51Z
- 35. [b1d..144] bot | By - rony derra | On - 2023-01-15T08:15:43Z
- 36. [724..f9b] telegramBot | By - rony derra | On - 2023-01-15T08:15:13Z
- 37. [97a..ddd] a | By - rony derra | On - 2023-01-08T12:16:26Z
- 38. [cab..ff2] a | By - rony derra | On - 2023-01-08T12:11:42Z
- 39. [125..a15] a | By - rony derra | On - 2023-01-08T12:09:01Z
- 40. [f1d..a1f] a | By - rony derra | On - 2023-01-08T12:01:51Z
- 41. [f98..861] a | By - rony derra | On - 2023-01-08T11:59:50Z
- 42. [435..3e7] a | By - rony derra | On - 2023-01-08T11:59:03Z
- 43. [dab..773] A | By - rony derra | On - 2023-01-08T11:58:21Z
- 44. [d0c..1f7] a | By - rony derra | On - 2023-01-08T11:55:56Z
- 45. [6da..d5f] A | By - rony derra | On - 2023-01-08T11:52:52Z
- 46. [c89..3c1] a | By - rony derra | On - 2023-01-08T11:50:23Z
- 47. [ece..534] telegramBot | By - rony derra | On - 2023-01-08T11:32:58Z
- 48. [7e2..a0e] telegramBot | By - rony derra | On - 2023-01-08T11:28:44Z
- 49. [850..1b8] google | By - rony derra | On - 2023-01-08T11:21:09Z
- 50. [f85..07f] google | By - rony derra | On - 2023-01-08T11:20:21Z
+ 1. [ab3..063] sendToAll | By - rony derra | On - 2023-03-06T11:06:30Z
+ 2. [ee1..6b8] telegramBot | By - rony derra | On - 2023-02-22T13:51:06Z
+ 3. [b82..a16] telegramBot | By - rony derra | On - 2023-02-22T12:34:51Z
+ 4. [599..85e] message | By - rony derra | On - 2023-01-24T15:14:19Z
+ 5. [d27..8f0] action | By - rony derra | On - 2023-01-24T15:12:37Z
+ 6. [714..8a8] messsage | By - rony derra | On - 2023-01-24T15:10:18Z
+ 7. [7bb..af9] ctx.reply | By - rony derra | On - 2023-01-24T15:08:39Z
+ 8. [cd9..a51] message | By - rony derra | On - 2023-01-24T15:07:18Z
+ 9. [1d0..00a] message | By - rony derra | On - 2023-01-24T15:05:20Z
+ 10. [97e..a0c] sendToAll | By - rony derra | On - 2023-01-23T15:17:49Z
+ 11. [28c..c15] sheet | By - rony derra | On - 2023-01-23T15:07:09Z
+ 12. [a8a..5ff] sendToAll | By - rony derra | On - 2023-01-23T15:00:44Z
+ 13. [3a2..19f] sendMessagev | By - rony derra | On - 2023-01-23T14:55:58Z
+ 14. [632..1cd] sendToAll | By - rony derra | On - 2023-01-23T14:55:25Z
+ 15. [76a..47b] sendToAll | By - rony derra | On - 2023-01-23T14:54:28Z
+ 16. [2a1..53c] log | By - rony derra | On - 2023-01-23T14:36:10Z
+ 17. [5de..261] log | By - rony derra | On - 2023-01-23T14:32:44Z
+ 18. [b9a..9bd] sendToAll | By - rony derra | On - 2023-01-23T14:32:25Z
+ 19. [489..f21] telegramBot | By - rony derra | On - 2023-01-23T12:48:12Z
+ 20. [2a9..36d] telegramBot | By - rony derra | On - 2023-01-23T11:14:22Z
+ 21. [2bb..ec5] log | By - rony derra | On - 2023-01-23T11:12:16Z
+ 22. [05b..869] sendMessage | By - rony derra | On - 2023-01-17T17:12:40Z
+ 23. [876..c47] sendPhoto | By - rony derra | On - 2023-01-17T17:06:11Z
+ 24. [5a7..f1c] message | By - rony derra | On - 2023-01-17T17:01:27Z
+ 25. [43d..1d8] sendToAll | By - rony derra | On - 2023-01-17T16:58:24Z
+ 26. [528..ea2] message | By - rony derra | On - 2023-01-17T16:30:08Z
+ 27. [831..b60] DONE | By - rony derra | On - 2023-01-15T15:37:39Z
+ 28. [abe..042] data2 | By - rony derra | On - 2023-01-15T14:32:45Z
+ 29. [7d2..2d4] MASTER | By - rony derra | On - 2023-01-15T14:15:04Z
+ 30. [153..7f9] bot | By - rony derra | On - 2023-01-15T14:12:11Z
+ 31. [da6..f00] bot | By - rony derra | On - 2023-01-15T14:11:22Z
+ 32. [4f5..fed] telegramBot | By - rony derra | On - 2023-01-15T14:06:42Z
+ 33. [fd1..25c] rmv | By - rony derra | On - 2023-01-15T09:30:30Z
+ 34. [e80..b3e] telegramBot | By - rony derra | On - 2023-01-15T09:28:41Z
+ 35. [1de..340] formatting | By - rony derra | On - 2023-01-15T09:23:51Z
+ 36. [b1d..144] bot | By - rony derra | On - 2023-01-15T08:15:43Z
+ 37. [724..f9b] telegramBot | By - rony derra | On - 2023-01-15T08:15:13Z
+ 38. [97a..ddd] a | By - rony derra | On - 2023-01-08T12:16:26Z
+ 39. [cab..ff2] a | By - rony derra | On - 2023-01-08T12:11:42Z
+ 40. [125..a15] a | By - rony derra | On - 2023-01-08T12:09:01Z
+ 41. [f1d..a1f] a | By - rony derra | On - 2023-01-08T12:01:51Z
+ 42. [f98..861] a | By - rony derra | On - 2023-01-08T11:59:50Z
+ 43. [435..3e7] a | By - rony derra | On - 2023-01-08T11:59:03Z
+ 44. [dab..773] A | By - rony derra | On - 2023-01-08T11:58:21Z
+ 45. [d0c..1f7] a | By - rony derra | On - 2023-01-08T11:55:56Z
+ 46. [6da..d5f] A | By - rony derra | On - 2023-01-08T11:52:52Z
+ 47. [c89..3c1] a | By - rony derra | On - 2023-01-08T11:50:23Z
+ 48. [ece..534] telegramBot | By - rony derra | On - 2023-01-08T11:32:58Z
+ 49. [7e2..a0e] telegramBot | By - rony derra | On - 2023-01-08T11:28:44Z
+ 50. [850..1b8] google | By - rony derra | On - 2023-01-08T11:21:09Z
+
+# validators
+
+## main
+
+
+ 1. [046..0c6] Update README.md | By - Dima Brook | On - 2023-03-06T09:39:55Z
+ 2. [355..ed0] Update README.md | By - Dima Brook | On - 2023-03-06T09:35:56Z
+ 3. [cfc..82c] Update README.md | By - Dima Brook | On - 2023-03-06T09:35:17Z
+ 4. [273..a45] Create install_redis.sh | By - Dima Brook | On - 2023-03-06T09:33:25Z
+ 5. [85a..e9e] Update README.md | By - Dima Brook | On - 2023-03-06T09:24:00Z
+ 6. [fd1..103] Create README.md | By - Dima Brook | On - 2023-03-06T09:18:43Z
+ 7. [1e0..d3a] add an initialization bash script | By - imsk17 | On - 2023-03-06T07:54:01Z
+ 8. [0c0..aa4] init submodules | By - imsk17 | On - 2023-03-06T07:45:03Z
+
+# deploying-secret-contracts
+
+## master
+
+
+ 1. [8d0..669] packages: bump secretjs | By - imsk17 | On - 2023-03-02T06:26:15Z
+ 2. [8ee..06e] add prompt for contract label | By - imsk17 | On - 2023-02-27T13:52:03Z
+ 3. [1bd..51e] fix deployment | By - imsk17 | On - 2022-10-06T12:20:30Z
+ 4. [dfa..2f1] add getting code hash | By - Dima Brook | On - 2022-08-15T07:05:16Z
+ 5. [fea..c58] add Readme.md | By - Dima Brook | On - 2022-08-14T07:02:29Z
+ 6. [516..108] remove .DS_Store | By - Dima Brook | On - 2022-08-14T06:44:59Z
+ 7. [89c..af4] update after mainnet deployment | By - Dima Brook | On - 2022-08-14T06:40:40Z
+ 8. [19d..528] Initial Import | By - imsk17 | On - 2022-08-11T11:31:30Z
+
+# balance-monitoring
+
+## main
+
+
+ 1. [898..2fd] update read me | By - D | On - 2023-02-28T16:06:16Z
+ 2. [838..587] first commit | By - D | On - 2023-02-28T16:00:58Z
 
 # near-price-oracle-client
 
@@ -5392,156 +8568,7 @@
  8. [719..4cd] Build: (e644b95) Tests: Adapt to new client | By - imsk17 | On - 2023-01-27T09:47:27Z
  9. [dee..198] Build: (81481ec) Update CI to build dist | By - imsk17 | On - 2023-01-25T13:17:41Z
 
-# frost-hacks
-
-## secret
-
-
- 1. [ce9..c41] tezos: setup unfreeze script | By - imsk17 | On - 2023-02-20T09:03:59Z
- 2. [062..630] web3: make unfreeze work | By - imsk17 | On - 2023-02-17T11:48:51Z
- 3. [e4e..f4e] web3: add unfreeze script | By - imsk17 | On - 2023-02-17T08:19:26Z
- 4. [154..dc5] ton: common: fix minor derp | By - rupansh | On - 2022-11-07T14:16:47Z
- 5. [deb..1fa] ton: add whitelist script | By - rupansh | On - 2022-11-07T14:10:05Z
- 6. [c9f..db7] aptos: fix minor derp | By - rupansh | On - 2022-10-31T12:53:32Z
- 7. [b94..8d9] aptos: add whitelist script | By - rupansh | On - 2022-10-30T20:20:21Z
- 8. [2af..51d] add ton script for confirming public key | By - rupansh | On - 2022-10-25T11:30:16Z
- 9. [70e..b21] tron: actually send the txn | By - imsk17 | On - 2022-10-25T11:30:16Z
- 10. [1ce..362] tron: print whole txn | By - imsk17 | On - 2022-10-25T11:30:16Z
- 11. [a90..9df] fix address conversion | By - imsk17 | On - 2022-10-25T11:30:16Z
- 12. [daf..9c2] feat: tron: add whitelist script | By - imsk17 | On - 2022-10-25T11:30:16Z
- 13. [de1..283] secret: use tuple for wrapper struct | By - rupansh | On - 2022-08-21T13:09:39Z
- 14. [72b..a3f] secret: fix minor derps | By - rupansh | On - 2022-08-21T12:55:48Z
- 15. [3c2..5f7] add evm withdraw script | By - rupansh | On - 2022-07-21T13:06:57Z
- 16. [a14..33b] elrond: fix txgen | By - rupansh | On - 2022-07-10T19:53:51Z
- 17. [2b9..608] secret changes | By - rupansh | On - 2022-06-07T14:40:09Z
- 18. [ce8..473] kek | By - rupansh | On - 2022-06-07T11:34:26Z
-
-# xp-challenge
-
-## demoProject
-
-
- 1. [f20..9b3] updateOne | By - rony derra | On - 2023-02-16T12:05:07Z
- 2. [625..2c7] projectNumber | By - rony derra | On - 2023-02-16T12:01:52Z
- 3. [67b..db6] !username | By - rony derra | On - 2023-02-16T07:59:37Z
- 4. [cdb..73a] REGESTRATION_BOT | By - rony derra | On - 2023-02-15T17:24:24Z
- 5. [676..e53] IUSERModel | By - rony derra | On - 2023-02-14T16:54:43Z
- 6. [5aa..3c0] scanForTransactions | By - rony derra | On - 2023-02-13T13:34:50Z
- 7. [5ac..5a0] demoProjects | By - rony derra | On - 2023-02-13T13:01:43Z
- 8. [a1f..669] USER | By - rony derra | On - 2023-02-13T12:45:51Z
- 9. [4ee..bbe] demoProjects | By - rony derra | On - 2023-02-13T12:13:04Z
- 10. [c7c..564] user_id | By - rony derra | On - 2023-02-08T10:57:09Z
- 11. [3e7..206] retweet | By - rony derra | On - 2023-02-08T10:51:44Z
- 12. [995..cdf] retweet | By - rony derra | On - 2023-02-08T10:12:14Z
- 13. [0ec..0d9] RETWEET | By - rony derra | On - 2023-02-08T10:08:42Z
- 14. [024..041] RETWEET | By - rony derra | On - 2023-02-08T10:06:47Z
- 15. [10a..aaa] retweetService | By - rony derra | On - 2023-02-08T10:05:22Z
- 16. [b92..4b3] getLastTweet | By - rony derra | On - 2023-02-02T17:23:32Z
- 17. [bf3..8e6] retweet partner | By - rony derra | On - 2023-02-02T17:15:38Z
- 18. [0af..8b3] follow partner | By - rony derra | On - 2023-02-02T17:10:57Z
- 19. [778..5b6] numbers | By - rony derra | On - 2023-02-02T16:31:02Z
- 20. [d7b..462] telegramMessageAchievments | By - rony derra | On - 2023-02-02T16:20:51Z
- 21. [7bb..15d] update | By - rony derra | On - 2023-02-02T16:17:45Z
- 22. [954..bd0] update | By - rony derra | On - 2023-02-02T16:04:54Z
- 23. [f72..745] log | By - rony derra | On - 2023-02-02T10:30:03Z
- 24. [753..c91] mappedRetweets | By - rony derra | On - 2023-02-02T10:29:05Z
- 25. [cf1..0c2] as | By - rony derra | On - 2023-02-01T16:01:37Z
- 26. [4a0..be7] getLastTweet | By - rony derra | On - 2023-02-01T15:45:35Z
- 27. [b7c..79c] getLastTweet | By - rony derra | On - 2023-02-01T15:16:15Z
- 28. [307..02a] lastTweet | By - rony derra | On - 2023-02-01T15:08:11Z
- 29. [568..c4d] retweetService | By - rony derra | On - 2023-02-01T15:03:04Z
- 30. [c97..5ce] IACHIEVMENT | By - rony derra | On - 2023-02-01T12:36:35Z
- 31. [bfe..af2] save images | By - rony derra | On - 2023-01-31T12:58:47Z
- 32. [c33..c00] register | By - rony derra | On - 2023-01-31T12:54:00Z
- 33. [8e5..1bb] register | By - rony derra | On - 2023-01-31T11:51:48Z
- 34. [a12..1e3] scanForTransactions | By - rony derra | On - 2023-01-30T14:33:43Z
- 35. [5bc..883] getUsersByAchiv | By - rony derra | On - 2023-01-30T14:25:51Z
- 36. [3d8..5c2] createdAt | By - rony derra | On - 2023-01-30T14:20:22Z
- 37. [b52..229] address | By - rony derra | On - 2023-01-30T14:11:54Z
- 38. [9ea..925] sdf | By - rony derra | On - 2023-01-30T14:09:15Z
- 39. [e6f..7df] scanForTransactions | By - rony derra | On - 2023-01-30T14:02:04Z
- 40. [68e..ba5] scanForTransactions | By - rony derra | On - 2023-01-30T13:55:28Z
- 41. [80f..4f3] Dear | By - rony derra | On - 2023-01-30T09:08:37Z
- 42. [596..f73] getBridgeServiceUsers | By - rony derra | On - 2023-01-29T10:32:09Z
- 43. [406..643] formatting | By - rony derra | On - 2023-01-29T08:15:03Z
- 44. [759..a39] switch | By - rony derra | On - 2023-01-26T16:02:43Z
- 45. [76b..f20] map error | By - rony derra | On - 2023-01-26T14:50:45Z
- 46. [1a9..7c7] PROJECT | By - rony derra | On - 2023-01-26T14:48:35Z
- 47. [416..0a0] connectWallet | By - rony derra | On - 2023-01-26T14:25:25Z
- 48. [a72..240] telegramUsername | By - rony derra | On - 2023-01-26T14:21:10Z
- 49. [5bb..aba] emailAchievment | By - rony derra | On - 2023-01-26T14:05:30Z
- 50. [f3e..a16] reply | By - rony derra | On - 2023-01-26T10:17:16Z
-
-## main
-
-
- 1. [331..7a0] retweet | By - rony derra | On - 2023-02-16T08:34:38Z
- 2. [995..cdf] retweet | By - rony derra | On - 2023-02-08T10:12:14Z
- 3. [0ec..0d9] RETWEET | By - rony derra | On - 2023-02-08T10:08:42Z
- 4. [024..041] RETWEET | By - rony derra | On - 2023-02-08T10:06:47Z
- 5. [10a..aaa] retweetService | By - rony derra | On - 2023-02-08T10:05:22Z
- 6. [b92..4b3] getLastTweet | By - rony derra | On - 2023-02-02T17:23:32Z
- 7. [bf3..8e6] retweet partner | By - rony derra | On - 2023-02-02T17:15:38Z
- 8. [0af..8b3] follow partner | By - rony derra | On - 2023-02-02T17:10:57Z
- 9. [778..5b6] numbers | By - rony derra | On - 2023-02-02T16:31:02Z
- 10. [d7b..462] telegramMessageAchievments | By - rony derra | On - 2023-02-02T16:20:51Z
- 11. [7bb..15d] update | By - rony derra | On - 2023-02-02T16:17:45Z
- 12. [954..bd0] update | By - rony derra | On - 2023-02-02T16:04:54Z
- 13. [f72..745] log | By - rony derra | On - 2023-02-02T10:30:03Z
- 14. [753..c91] mappedRetweets | By - rony derra | On - 2023-02-02T10:29:05Z
- 15. [cf1..0c2] as | By - rony derra | On - 2023-02-01T16:01:37Z
- 16. [4a0..be7] getLastTweet | By - rony derra | On - 2023-02-01T15:45:35Z
- 17. [b7c..79c] getLastTweet | By - rony derra | On - 2023-02-01T15:16:15Z
- 18. [307..02a] lastTweet | By - rony derra | On - 2023-02-01T15:08:11Z
- 19. [568..c4d] retweetService | By - rony derra | On - 2023-02-01T15:03:04Z
- 20. [c97..5ce] IACHIEVMENT | By - rony derra | On - 2023-02-01T12:36:35Z
- 21. [bfe..af2] save images | By - rony derra | On - 2023-01-31T12:58:47Z
- 22. [c33..c00] register | By - rony derra | On - 2023-01-31T12:54:00Z
- 23. [8e5..1bb] register | By - rony derra | On - 2023-01-31T11:51:48Z
- 24. [a12..1e3] scanForTransactions | By - rony derra | On - 2023-01-30T14:33:43Z
- 25. [5bc..883] getUsersByAchiv | By - rony derra | On - 2023-01-30T14:25:51Z
- 26. [3d8..5c2] createdAt | By - rony derra | On - 2023-01-30T14:20:22Z
- 27. [b52..229] address | By - rony derra | On - 2023-01-30T14:11:54Z
- 28. [9ea..925] sdf | By - rony derra | On - 2023-01-30T14:09:15Z
- 29. [e6f..7df] scanForTransactions | By - rony derra | On - 2023-01-30T14:02:04Z
- 30. [68e..ba5] scanForTransactions | By - rony derra | On - 2023-01-30T13:55:28Z
- 31. [80f..4f3] Dear | By - rony derra | On - 2023-01-30T09:08:37Z
- 32. [596..f73] getBridgeServiceUsers | By - rony derra | On - 2023-01-29T10:32:09Z
- 33. [406..643] formatting | By - rony derra | On - 2023-01-29T08:15:03Z
- 34. [759..a39] switch | By - rony derra | On - 2023-01-26T16:02:43Z
- 35. [76b..f20] map error | By - rony derra | On - 2023-01-26T14:50:45Z
- 36. [1a9..7c7] PROJECT | By - rony derra | On - 2023-01-26T14:48:35Z
- 37. [416..0a0] connectWallet | By - rony derra | On - 2023-01-26T14:25:25Z
- 38. [a72..240] telegramUsername | By - rony derra | On - 2023-01-26T14:21:10Z
- 39. [5bb..aba] emailAchievment | By - rony derra | On - 2023-01-26T14:05:30Z
- 40. [f3e..a16] reply | By - rony derra | On - 2023-01-26T10:17:16Z
- 41. [d7f..679] addRegisterId | By - rony derra | On - 2023-01-26T10:15:10Z
- 42. [ad4..a55] email | By - rony derra | On - 2023-01-26T08:29:34Z
- 43. [345..af1] Mailer | By - rony derra | On - 2023-01-26T08:22:37Z
- 44. [645..af3] findOneAndUpdate | By - rony derra | On - 2023-01-18T12:39:44Z
- 45. [58a..3a2] nfts | By - rony derra | On - 2023-01-18T10:23:30Z
- 46. [6af..eac] partnerTrxs | By - rony derra | On - 2023-01-18T09:49:34Z
- 47. [d97..d55] log | By - rony derra | On - 2023-01-18T09:48:07Z
- 48. [84d..76d] log | By - rony derra | On - 2023-01-18T09:46:06Z
- 49. [5df..cef] telegramUsername | By - rony derra | On - 2023-01-18T09:44:49Z
- 50. [71b..e7f] getBetweenDates | By - rony derra | On - 2023-01-18T09:42:30Z
-
 # Xp-Nft-Marketplace
-
-# Xp-Coin-Cap-Market
-
-## master
-
-
- 1. [d74..5dc] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:42Z
- 2. [0dd..a67] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:31Z
-
-## research
-
-
- 1. [162..b69] Research in progress to fetch the required details for NFT collection. | By - mominhyatkhan | On - 2023-02-15T12:54:14Z
- 2. [d74..5dc] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:42Z
- 3. [0dd..a67] first commit | By - mominhyatkhan | On - 2023-02-14T08:54:31Z
 
 # aptos-integration-move
 
@@ -6616,28 +9643,6 @@
  49. [820..50f] scripts: delploy: auto verify contracts | By - rupansh | On - 2021-10-25T06:23:18Z
  50. [5a6..40e] add .env.example | By - rupansh | On - 2021-10-14T12:53:12Z
 
-# deploying_tezos
-
-## main
-
-
- 1. [22f..dc5] Readme: Update | By - imsk17 | On - 2023-02-13T13:52:27Z
- 2. [099..a57] Scripts: Add XpBridge Depl script | By - imsk17 | On - 2023-02-13T13:51:57Z
- 3. [8a8..2a9] Contracts: add amt as a parameter | By - imsk17 | On - 2023-02-13T13:51:14Z
- 4. [bf3..bcc] Contract: Add Amt as a Parameter for SFTs | By - imsk17 | On - 2023-02-06T13:12:27Z
- 5. [04c..587] add tzip16 metadata uri | By - imsk17 | On - 2022-12-25T11:35:39Z
- 6. [4fa..77c] Add A Readme | By - imsk17 | On - 2022-12-15T12:40:02Z
- 7. [2da..5fb] fixes for xpnft depl | By - imsk17 | On - 2022-12-15T12:31:09Z
- 8. [0bf..6d8] add a deployment script for xpnft | By - imsk17 | On - 2022-12-15T09:43:57Z
- 9. [463..c01] Update xpbridge.py | By - Dima Brook | On - 2022-08-08T12:19:02Z
- 10. [6ab..d25] Update xpnft.py | By - Dima Brook | On - 2022-08-08T12:17:58Z
- 11. [159..da3] Update README.md | By - Dima Brook | On - 2022-03-17T12:37:31Z
- 12. [db8..3a1] fix | By - Dima Brook | On - 2022-03-16T18:07:11Z
- 13. [186..8d1] add setup | By - Dima Brook | On - 2022-03-14T19:53:56Z
- 14. [aef..100] add setup | By - Dima Brook | On - 2022-03-14T19:53:06Z
- 15. [85e..4af] second commit | By - Dima Brook | On - 2022-03-14T19:48:13Z
- 16. [316..b46] first commit | By - Dima Brook | On - 2022-03-14T12:51:44Z
-
 # deploying-tron
 
 ## main
@@ -6653,38 +9658,6 @@
  8. [1d6..774] add: Contracts' Source Code | By - Dima Brook | On - 2023-02-08T08:43:56Z
  9. [8b5..259] project: fix typescript errors | By - imsk17 | On - 2023-02-08T08:38:45Z
  10. [0ff..0de] first commit | By - Dima Brook | On - 2023-02-08T07:44:19Z
-
-# vechainScript
-
-## master
-
-
- 1. [b98..e52] name | By - rony derra | On - 2023-02-07T17:25:07Z
- 2. [c6b..da4] cryptoPunks | By - rony derra | On - 2023-02-07T10:16:02Z
- 3. [0f7..62e] rocketMonster | By - rony derra | On - 2023-01-30T08:54:35Z
- 4. [d07..823] concat | By - rony derra | On - 2023-01-30T08:53:17Z
- 5. [f7c..f69] rocketMonster | By - rony derra | On - 2023-01-30T08:42:20Z
- 6. [f49..0ed] exoworldImages | By - rony derra | On - 2022-11-30T10:52:43Z
- 7. [9e4..149] exoworldImages | By - rony derra | On - 2022-11-30T10:36:20Z
- 8. [cb5..daa] image format change | By - rony derra | On - 2022-11-29T16:31:01Z
- 9. [edb..81c] fantase | By - rony derra | On - 2022-11-27T16:35:27Z
- 10. [c19..464] fantase | By - rony derra | On - 2022-11-27T16:34:49Z
- 11. [e66..ae0] attr | By - rony derra | On - 2022-11-16T17:19:22Z
- 12. [74e..a58] if exist | By - rony derra | On - 2022-11-16T16:27:10Z
- 13. [5b7..67b] formatting | By - rony derra | On - 2022-11-16T16:22:45Z
- 14. [b5a..ad9] metadata | By - rony derra | On - 2022-11-16T16:20:46Z
- 15. [c46..f6b] deleted | By - rony derra | On - 2022-11-16T12:59:49Z
- 16. [a2e..97b] vechain | By - rony derra | On - 2022-11-16T12:50:51Z
- 17. [e6b..170] abi | By - rony derra | On - 2022-11-15T13:14:19Z
- 18. [d36..68c] uri | By - rony derra | On - 2022-11-15T12:31:27Z
- 19. [74e..4ca] first commit | By - rony derra | On - 2022-11-14T09:41:57Z
-
-## vechainUri
-
-
- 1. [d1d..a86] vechain | By - rony derra | On - 2022-11-15T12:54:50Z
- 2. [d36..68c] uri | By - rony derra | On - 2022-11-15T12:31:27Z
- 3. [74e..4ca] first commit | By - rony derra | On - 2022-11-14T09:41:57Z
 
 # fee-oracle
 
@@ -7122,36 +10095,6 @@
  11. [acb..dd5] plan draft | By - Dima Brook | On - 2022-12-04T17:30:58Z
  12. [e4a..e97] initial | By - Dima Brook | On - 2022-12-04T16:43:22Z
 
-# internal-docs
-
-## main
-
-
- 1. [186..c5c] How to Generate ED25519 keys | By - Dima Brook | On - 2023-01-05T10:06:51Z
- 2. [ea6..8ef] Update bridge_deployment.md | By - Dima Brook | On - 2022-10-09T08:22:40Z
- 3. [5c2..f15] Update bridge_deployment.md | By - Dima Brook | On - 2022-10-09T08:18:13Z
- 4. [41f..73a] Update tezos-backer-restart.md | By - Dima Brook | On - 2022-06-23T08:35:11Z
- 5. [485..1a1] Create Hetzner_raid1_to_raid0.md | By - Dima Brook | On - 2022-06-23T08:34:16Z
- 6. [5ac..981] Create Hedera.md | By - Dima Brook | On - 2022-04-03T13:14:08Z
- 7. [907..81a] Create D_CENT.md | By - Dima Brook | On - 2022-04-03T13:13:18Z
- 8. [29d..dd5] Create Clover.md | By - Dima Brook | On - 2022-04-03T13:12:41Z
- 9. [f62..a24] Create tezos-backer-restart.md | By - Dima Brook | On - 2022-04-03T13:12:04Z
- 10. [ad5..98e] Create bridge_architecture.md | By - Dima Brook | On - 2022-02-28T19:24:43Z
- 11. [b12..32d] Create docker.md | By - Dima Brook | On - 2022-02-22T10:31:25Z
- 12. [3d4..2a2] Create heco.md | By - Dima Brook | On - 2022-02-16T09:50:37Z
- 13. [145..6b8] Create moonbeam.md | By - Dima Brook | On - 2022-02-14T14:07:32Z
- 14. [2c1..ccd] Create ve-chain.md | By - Dima Brook | On - 2022-02-14T10:15:57Z
- 15. [92d..b42] Create secret-network.md | By - Dima Brook | On - 2022-02-14T10:15:22Z
- 16. [ad4..5e6] Create nervos.md | By - Dima Brook | On - 2022-02-14T10:14:48Z
- 17. [223..376] Create .gitkeep | By - Dima Brook | On - 2022-02-14T10:14:20Z
- 18. [5a4..f07] Create nervos.md | By - Dima Brook | On - 2022-02-14T10:13:26Z
- 19. [6dd..72f] Create thinkium.md | By - Dima Brook | On - 2022-02-14T10:12:24Z
- 20. [ce6..6fd] Create .gitkeep | By - Dima Brook | On - 2022-02-14T10:11:46Z
- 21. [86d..f5c] Create tezos_backer.md | By - Dima Brook | On - 2022-02-14T09:53:36Z
- 22. [711..208] Create bridge_deployment.md | By - Dima Brook | On - 2022-02-13T11:34:22Z
- 23. [823..62f] Create algorand-deployment.md | By - Dima Brook | On - 2021-12-06T18:11:40Z
- 24. [633..645] Create heroku-nft-index.md | By - Dima Brook | On - 2021-12-01T19:06:03Z
-
 # sc-deployer-ui
 
 ## mainnet
@@ -7470,32 +10413,6 @@
  29. [3f0..8ee] tezos | By - ronyderra | On - 2022-09-22T10:56:14Z
  30. [6d2..cb6] start | By - ronyderra | On - 2022-09-22T10:00:39Z
  31. [920..df0] first commit | By - ronyderra | On - 2022-09-22T09:26:02Z
-
-# elrond-api
-
-## master
-
-
- 1. [365..357] newbot | By - rony derra | On - 2022-10-23T09:04:42Z
- 2. [6de..2b5] . | By - ronyderra | On - 2022-08-29T09:15:51Z
- 3. [551..d58] . | By - ronyderra | On - 2022-08-29T08:50:12Z
- 4. [3a1..925] . | By - ronyderra | On - 2022-08-29T06:21:07Z
- 5. [ae9..b41] . | By - ronyderra | On - 2022-08-28T13:47:43Z
- 6. [2a3..50e] s | By - ronyderra | On - 2022-08-28T12:58:45Z
- 7. [226..8da] . | By - ronyXnes | On - 2022-07-20T12:02:49Z
- 8. [48a..783] jul 20 | By - ronyXnes | On - 2022-07-20T12:00:29Z
- 9. [366..799] do | By - ronyXnes | On - 2022-07-18T18:22:41Z
- 10. [c15..291] elrond | By - ronyXnes | On - 2022-07-18T18:16:30Z
- 11. [15a..e1a] telegram | By - ronyXnes | On - 2022-07-18T16:37:54Z
- 12. [5ef..b32] elrond api | By - ronyXnes | On - 2022-07-18T13:35:39Z
- 13. [237..059] elrond api | By - ronyXnes | On - 2022-07-13T15:50:40Z
- 14. [0c1..0b6] . | By - ronyXnes | On - 2022-07-13T14:33:50Z
- 15. [eed..8ee] elrond api | By - ronyXnes | On - 2022-07-13T07:05:00Z
- 16. [6e9..a46] elrond good transactions | By - ronyXnes | On - 2022-07-06T06:13:17Z
- 17. [ac6..35f] formatting | By - ronyXnes | On - 2022-07-04T08:09:17Z
- 18. [4dd..0a5] formatting | By - ronyXnes | On - 2022-07-04T08:06:50Z
- 19. [aeb..0f9] excel | By - ronyXnes | On - 2022-07-04T08:03:24Z
- 20. [746..5e7] first commit | By - ronyXnes | On - 2022-07-04T07:27:28Z
 
 # algorand-nft-bridge
 
@@ -9164,194 +12081,3 @@
 
  1. [ba8..3e2] k | By - Jenkins | On - 2021-11-29T17:37:06Z
  2. [3fc..9c8] first commit | By - Jenkins | On - 2021-11-29T17:06:59Z
-
-# multisig-rs
-
-## anchor
-
-
- 1. [ff1..171] feat(minter): add minting functionality | By - imsk17 | On - 2021-11-20T11:36:57Z
- 2. [2c5..e18] chore(packages): import solana token crate | By - imsk17 | On - 2021-11-14T07:47:12Z
- 3. [b25..da2] feat(methods): add all the methods from minter sc | By - imsk17 | On - 2021-11-14T07:20:54Z
- 4. [7b2..a8f] fix(methods): seprate out contexts | By - imsk17 | On - 2021-11-14T06:19:57Z
- 5. [a44..a34] feat(actions): introduce add/remove validator methods | By - imsk17 | On - 2021-11-14T06:09:32Z
- 6. [aac..296] initial pausing support | By - rupansh-arch | On - 2021-09-28T13:42:00Z
- 7. [4b8..1e6] validate_action: fix revert condition | By - rupansh-arch | On - 2021-09-26T12:55:03Z
- 8. [1b6..5bb] initial impl | By - rupansh-arch | On - 2021-09-21T15:19:37Z
-
-## master
-
-
- 1. [2e1..14e] perf: use BtreeMaps instead of HashMaps | By - imsk17 | On - 2021-09-15T10:10:31Z
- 2. [073..b90] feat: setup validation | By - imsk17 | On - 2021-09-14T11:37:15Z
- 3. [2cc..02c] feat: setup initialization | By - imsk17 | On - 2021-09-14T10:52:23Z
- 4. [658..a2c] feat: create a state for the program | By - imsk17 | On - 2021-09-14T10:45:34Z
- 5. [19b..9ff] initial import | By - imsk17 | On - 2021-09-14T10:21:32Z
- 6. [0ab..04a] feat: setup instructions and errors | By - imsk17 | On - 2021-09-14T10:20:14Z
- 7. [afc..afc] initial import | By - imsk17 | On - 2021-09-14T09:16:03Z
-
-# xp-algorand
-
-## main
-
-
- 1. [c18..53b] bridge back-end | By - Xueming Zheng | On - 2021-11-07T10:49:02Z
- 2. [493..051] Merge pull request #1 from xp-network/three-validators | By - Xueming Zheng | On - 2021-11-07T07:11:49Z
- 3. [440..7e2] finish smart contracts | By - Xueming Zheng | On - 2021-11-03T14:32:13Z
- 4. [0db..4d1] finish smart contracts | By - Xueming Zheng | On - 2021-10-29T02:33:07Z
- 5. [a46..fd3] finish validate_action | By - Xueming Zheng | On - 2021-10-29T01:20:39Z
- 6. [fc1..411] finish validate_action | By - Xueming Zheng | On - 2021-10-29T01:12:57Z
- 7. [e52..a41] finish validate_action | By - Xueming Zheng | On - 2021-10-28T20:35:37Z
- 8. [85c..864] finish validate_action | By - Xueming Zheng | On - 2021-10-28T19:34:21Z
- 9. [8ca..a3a] check if validators includes sender | By - Xueming Zheng | On - 2021-10-28T18:15:11Z
- 10. [a48..b3b] example transfer NFT | By - Xueming Zheng | On - 2021-10-28T16:50:50Z
- 11. [abb..ec3] example transfer NFT | By - Xueming Zheng | On - 2021-10-28T14:03:34Z
- 12. [18c..205] store three validators when creating application | By - Xueming Zheng | On - 2021-10-28T12:06:25Z
- 13. [5d3..9a6] transfer NFT | By - Xueming Zheng | On - 2021-10-27T17:54:28Z
- 14. [767..1df] transfer NFT | By - Xueming Zheng | On - 2021-10-27T17:32:16Z
- 15. [d1b..af3] transfer Token | By - Xueming Zheng | On - 2021-10-27T17:27:30Z
- 16. [f8e..b7b] transfer token to Algorand | By - Xueming Zheng | On - 2021-10-27T14:09:55Z
- 17. [053..a39] transfer NFT to Algorand | By - Xueming Zheng | On - 2021-10-27T08:51:27Z
- 18. [457..c2f] transfer NFT to Algorand | By - Xueming Zheng | On - 2021-10-27T08:50:29Z
- 19. [6c0..6ff] add deploy script | By - Xueming Zheng | On - 2021-10-27T07:04:07Z
- 20. [fa5..91f] add initial back-end | By - Xueming Zheng | On - 2021-10-26T12:25:04Z
- 21. [733..7c4] add initial back-end | By - Xueming Zheng | On - 2021-10-26T12:24:59Z
- 22. [15a..963] add utils for typescript backend | By - Xueming Zheng | On - 2021-10-26T08:18:06Z
- 23. [d29..7e5] remove validators param from operations.py | By - Xueming Zheng | On - 2021-10-25T09:15:42Z
- 24. [b29..3a3] initial validateAction | By - Xueming Zheng | On - 2021-10-25T08:58:36Z
- 25. [da2..d89] store actions to local storage | By - Xueming Zheng | On - 2021-10-25T06:33:42Z
- 26. [674..682] store validators into local state | By - Xueming Zheng | On - 2021-10-24T18:56:51Z
- 27. [487..323] opt-in application | By - Xueming Zheng | On - 2021-10-24T15:56:13Z
- 28. [47b..959] add setValidators | By - Xueming Zheng | On - 2021-10-24T13:58:46Z
- 29. [729..c8b] add setValidators | By - Xueming Zheng | On - 2021-10-24T13:44:47Z
- 30. [fd9..c25] remove validators param from createXpApp | By - Xueming Zheng | On - 2021-10-24T13:09:27Z
- 31. [e38..75e] add group param in mapping | By - Xueming Zheng | On - 2021-10-24T08:55:46Z
- 32. [470..f02] load validators from json | By - Xueming Zheng | On - 2021-10-24T08:11:08Z
- 33. [600..47b] fix testing for deploying | By - Xueming Zheng | On - 2021-10-21T09:11:25Z
- 34. [c86..1ab] add dotenv | By - Xueming Zheng | On - 2021-10-21T07:39:27Z
- 35. [acd..666] fix validateTransferNFT | By - Xueming Zheng | On - 2021-10-20T16:11:18Z
- 36. [8dc..708] remove msg_sender | By - Xueming Zheng | On - 2021-10-20T15:49:17Z
- 37. [99b..2dd] fix unit64 expectation | By - Xueming Zheng | On - 2021-10-20T14:53:25Z
- 38. [37b..7ff] add subroutine to check if validators contains msg.sender | By - Xueming Zheng | On - 2021-10-19T12:49:10Z
- 39. [65a..373] add validate_withdraw_frees | By - Xueming Zheng | On - 2021-10-19T07:56:07Z
- 40. [51d..2df] add withdraw token | By - Xueming Zheng | On - 2021-10-19T06:06:00Z
- 41. [044..e88] fix withdraw_nft | By - Xueming Zheng | On - 2021-10-19T05:57:20Z
- 42. [742..5c2] add freeze and fix freeze_nft | By - Xueming Zheng | On - 2021-10-19T05:51:26Z
- 43. [8fa..745] update some of contracts | By - Xueming Zheng | On - 2021-10-19T05:23:44Z
- 44. [ec8..2c6] update on_withdraw | By - Xueming Zheng | On - 2021-10-19T03:48:08Z
- 45. [031..658] update on_freeze_nft | By - Xueming Zheng | On - 2021-10-19T03:42:57Z
- 46. [2b7..dbe] add on_freeze | By - Xueming Zheng | On - 2021-10-19T02:44:45Z
- 47. [121..e83] add whenNotPaused assert | By - Xueming Zheng | On - 2021-10-18T16:17:38Z
- 48. [174..0e1] add whenNotPaused assert | By - Xueming Zheng | On - 2021-10-18T15:39:40Z
- 49. [5f0..81b] add validate_set_threshold | By - Xueming Zheng | On - 2021-10-18T14:52:51Z
- 50. [d2e..cd3] add validate_set_threshold | By - Xueming Zheng | On - 2021-10-18T13:51:19Z
-
-# demo-algorand
-
-## main
-
-
- 1. [2f4..29b] initial | By - rocalex | On - 2021-11-04T13:13:53Z
-
-# pyteal-array
-
-## main
-
-
- 1. [77d..ffe] initial | By - webdev0101 | On - 2021-10-21T08:19:10Z
- 2. [ec5..d23] initial | By - webdev0101 | On - 2021-10-21T06:00:55Z
- 3. [2ae..7d9] initial | By - webdev0101 | On - 2021-10-21T05:09:38Z
-
-# staker-backend
-
-## master
-
-
- 1. [a72..9bf] routes: add an image route | By - imsk17 | On - 2021-10-18T09:28:56Z
- 2. [ba2..3ad] nfts: dont set image if already exists | By - imsk17 | On - 2021-10-18T08:56:50Z
- 3. [e46..34e] nfts: use random image and persist | By - imsk17 | On - 2021-10-18T08:30:44Z
- 4. [134..61e] Revert "images: use nft id as image id" | By - imsk17 | On - 2021-10-18T08:23:05Z
- 5. [f99..4e0] config: change image.max to 506 | By - imsk17 | On - 2021-10-18T07:55:31Z
- 6. [07a..b27] images: use nft id as image id | By - imsk17 | On - 2021-10-18T07:54:56Z
- 7. [b5f..3be] Merge remote-tracking branch 'origin/n' | By - Dima Brook | On - 2021-10-18T06:37:33Z
- 8. [ada..219] a | By - xp-network | On - 2021-10-18T06:20:04Z
- 9. [5e4..cfd] add: TODOs | By - Dima Brook | On - 2021-10-17T18:08:41Z
- 10. [37b..e5b] .env | By - Dima Brook | On - 2021-10-17T17:53:34Z
- 11. [9b8..4b0] slight modifications | By - Dima Brook | On - 2021-10-17T17:50:34Z
- 12. [bfc..a6c] a | By - xp-network | On - 2021-10-17T17:13:23Z
- 13. [a63..4fa] a | By - xp-network | On - 2021-10-17T17:09:44Z
- 14. [e84..6b4] a | By - xp-network | On - 2021-10-17T16:59:29Z
- 15. [5a1..0e4] a | By - xp-network | On - 2021-10-17T16:44:42Z
- 16. [535..5da] a | By - xp-network | On - 2021-10-17T16:42:09Z
- 17. [bb6..f68] a | By - xp-network | On - 2021-10-17T16:41:11Z
- 18. [2a0..9b6] a | By - xp-network | On - 2021-10-17T16:38:26Z
- 19. [ff2..355] a | By - xp-network | On - 2021-10-17T16:37:06Z
- 20. [1f2..9d4] a | By - xp-network | On - 2021-10-17T16:35:06Z
- 21. [ceb..cd8] initial changes for nft data | By - rupansh-arch | On - 2021-10-17T15:46:12Z
- 22. [2d6..827] refactor decimals | By - Dima Brook | On - 2021-10-12T11:34:43Z
- 23. [157..b3e] normalize BigNumbers | By - Dima Brook | On - 2021-10-12T11:12:22Z
- 24. [ae0..3f2] add reward | By - Dima Brook | On - 2021-10-12T10:33:48Z
- 25. [8bf..999] fix(bignumber): use strings to avoid overflows | By - imsk17 | On - 2021-10-12T10:05:10Z
- 26. [f34..51c] chore(cleanup): get rid of rest file | By - imsk17 | On - 2021-10-01T10:15:48Z
- 27. [177..883] initial commit | By - imsk17 | On - 2021-10-01T10:14:33Z
-
-## n
-
-
- 1. [ada..219] a | By - xp-network | On - 2021-10-18T06:20:04Z
- 2. [bfc..a6c] a | By - xp-network | On - 2021-10-17T17:13:23Z
- 3. [a63..4fa] a | By - xp-network | On - 2021-10-17T17:09:44Z
- 4. [e84..6b4] a | By - xp-network | On - 2021-10-17T16:59:29Z
- 5. [5a1..0e4] a | By - xp-network | On - 2021-10-17T16:44:42Z
- 6. [535..5da] a | By - xp-network | On - 2021-10-17T16:42:09Z
- 7. [bb6..f68] a | By - xp-network | On - 2021-10-17T16:41:11Z
- 8. [2a0..9b6] a | By - xp-network | On - 2021-10-17T16:38:26Z
- 9. [ff2..355] a | By - xp-network | On - 2021-10-17T16:37:06Z
- 10. [1f2..9d4] a | By - xp-network | On - 2021-10-17T16:35:06Z
- 11. [ceb..cd8] initial changes for nft data | By - rupansh-arch | On - 2021-10-17T15:46:12Z
- 12. [2d6..827] refactor decimals | By - Dima Brook | On - 2021-10-12T11:34:43Z
- 13. [157..b3e] normalize BigNumbers | By - Dima Brook | On - 2021-10-12T11:12:22Z
- 14. [ae0..3f2] add reward | By - Dima Brook | On - 2021-10-12T10:33:48Z
- 15. [8bf..999] fix(bignumber): use strings to avoid overflows | By - imsk17 | On - 2021-10-12T10:05:10Z
- 16. [f34..51c] chore(cleanup): get rid of rest file | By - imsk17 | On - 2021-10-01T10:15:48Z
- 17. [177..883] initial commit | By - imsk17 | On - 2021-10-01T10:14:33Z
-
-# cmc-bot
-
-## master
-
-
- 1. [88d..f4e] a | By - xp-network | On - 2021-10-12T08:02:35Z
- 2. [79c..eee] a | By - xp-network | On - 2021-10-12T07:57:11Z
- 3. [c24..4ff] file updated | By - Yohai Shimon | On - 2021-10-11T10:58:27Z
- 4. [157..a4c] file updated | By - Yohai Shimon | On - 2021-10-10T17:00:40Z
- 5. [f48..dbb] add: .env trend_change_checker.js | By - Yohai Shimon | On - 2021-10-10T16:52:43Z
- 6. [81e..b7a] Update index.js | By - Yohai | On - 2021-10-07T16:15:58Z
- 7. [75e..079] Update index.js | By - Yohai | On - 2021-10-07T16:12:29Z
- 8. [efa..8a3] Update index.js | By - Yohai | On - 2021-10-07T11:35:59Z
- 9. [fb1..133] Update index.js | By - Yohai | On - 2021-10-07T07:07:03Z
- 10. [60d..af4] Basic working script | By - Yohai Shimon | On - 2021-10-05T16:40:42Z
- 11. [9b7..138] initial commit | By - Yohai Shimon | On - 2021-10-05T16:28:51Z
-
-# xp-solana
-
-## master
-
-
- 1. [25c..0a9] implement serialize/deserialize | By - faizalshaik | On - 2021-10-08T14:21:14Z
- 2. [c75..cc5] structuring | By - faizalshaik | On - 2021-10-08T04:32:09Z
- 3. [a34..727] optimize validate actions | By - faizalshaik | On - 2021-10-07T20:17:51Z
- 4. [93b..95f] optimize actions | By - faizalshaik | On - 2021-10-07T19:38:48Z
- 5. [425..0eb] initialize | By - faizalshaik | On - 2021-10-07T04:37:40Z
- 6. [c45..0b2] close/freeze | By - faizalshaik | On - 2021-10-07T04:36:33Z
- 7. [4b2..c19] burn/burn_checked | By - faizalshaik | On - 2021-10-07T04:27:42Z
- 8. [b21..a24] starting to impl XPNet(SPL token wrapper) | By - faizalshaik | On - 2021-10-06T16:22:52Z
- 9. [05c..a04] impl functions | By - faizalshaik | On - 2021-10-05T08:08:46Z
- 10. [678..0b6] impl functions and add sub modules | By - faizalshaik | On - 2021-10-04T20:17:32Z
- 11. [91f..b5b] impl functions | By - faizalshaik | On - 2021-10-04T18:21:39Z
- 12. [5d0..5ef] impl functions | By - faizalshaik | On - 2021-10-04T08:18:20Z
- 13. [cbc..0e0] extend error | By - faizalshaik | On - 2021-10-04T06:34:42Z
- 14. [9a0..d30] implement functions | By - faizalshaik | On - 2021-10-04T06:34:15Z
- 15. [6b7..7d2] implement validate_transfer_nft | By - faizalshaik | On - 2021-10-01T19:41:12Z
- 16. [29c..acb] implement process_transfer function | By - faizalshaik | On - 2021-10-01T19:08:02Z
- 17. [834..815] init | By - faizalshaik | On - 2021-10-01T08:46:57Z
